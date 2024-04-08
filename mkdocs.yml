@@ -1,0 +1,103 @@
+site_name: KNULLI Wiki
+site_url: https://knulli.org
+repo_url: https://github.com/knulli-cfw/knulli.org
+repo_name: knulli.org
+copyright: Copyright Creative Commons Attribution-ShareAlike 4.0 International
+theme:
+  language: en
+  name: material
+  logo: _inc/images/logo-knulli.png
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: art-book
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: art-book-next
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Oxygen
+    code: Oxygen Mono
+  features:
+    - navigation.top
+    #- navigation.instant
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow 
+    - search.suggest
+    - content.tooltips
+    - content.code.copy
+    - content.code.annotate
+markdown_extensions:
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      toc_depth: 3
+      permalink: ¶
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+extra_css:
+  - _inc/css/custom.css
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/JustEnoughLinuxOS/distribution
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/seTxckZjJy
+plugins:
+  - search
+  - glightbox
+  - macros:
+      include_dir: includes
+nav:
+    - Home: index.md
+    - FAQs: faqs.md
+    - Devices: 
+      - devices/index.md
+      - Anbernic:
+        - RG35xx Original: devices/anbernic/rg35xx.md
+        - RG35xx Plus: devices/anbernic/rg35xx-plus.md
+        - RG35xx H: devices/anbernic/rg35xx-h.md
+        - RG35xx 2024: devices/anbernic/rg35xx-2024.md
+      - Unico:
+        - Neo Geo Mini: devices/unico/neogeomini.md
+        - MVSX: devices/unico/mvsx.md
+        - Fun R1: devices/unico/fun-r1.md
+        - Arcade Stick Pro: devices/unico/arcade-stick-pro.md
+      - Capcom:
+        - Retro Station Tron: devices/capcom/retro-station-tron.md
+      - Taito:
+        - Egret II Mini: devices/taito/egret-ii-mini.md
+      - Sega:
+        - Astro City Mini: devices/sega/astro-city-mini.md
+      - Orange Pi Zero 2w:
+        - Orange Pi Zero 2w: devices/orange-pi/orange-pi-zero-2w.md
+      - Powkiddy:
+        - Powkiddy A12: devices/powkiddy/rgb10-max-3-pro.md
+        - Powkiddy A13: devices/powkiddy/rgb10-max-3.md
+        - RGB30: devices/powkiddy/rgb30.md
+        - X51: devices/powkiddy/x51.md
+      - SGJAM:
+        - M17: devices/sgjam/m17.md
+      - Unbranded:
+        - PS5000: devices/unbranded/ps5000.md
+        - PS7000: devices/unbranded/ps7000.md
+        - PocketGo S30: devices/unbranded/pocketgo-s30.md
+
