@@ -14,5 +14,5 @@
 | ++"THUMBR"+"L2"++ | Configure buttons on virtual port 1 |
 
 #### Notes:
-* By default JELOS will expand the configuration file according to the first controller mednafen finds. This only happens when the config file doesn't exist (meaning the first time or if you manually delete it). After the initial expansion you are free to customize the controls.
+* By default KNULLI will expand the configuration file according to the first controller mednafen finds. This only happens when the config file doesn't exist (meaning the first time or if you manually delete it). After the initial expansion you are free to customize the controls.
 

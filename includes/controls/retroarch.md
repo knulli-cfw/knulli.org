@@ -11,5 +11,5 @@
 
 #### Notes:
 
-* By default JELOS will detect your controller and configure RetroArch hotkeys automatically. This is controlled by the "AUTOCONFIGURE RETROARCH HOTKEYS" option in the `Settings > Controller & Bluetooth` menu. While the option is enabled, RetroArch hotkeys will be overwritten by the above defaults each time RetroArch is launched. If this behavior is not desired that option can be disabled and your user-defined RetroArch hotkeys will be used instead.
+* By default KNULLI will detect your controller and configure RetroArch hotkeys automatically. This is controlled by the "AUTOCONFIGURE RETROARCH HOTKEYS" option in the `Settings > Controller & Bluetooth` menu. While the option is enabled, RetroArch hotkeys will be overwritten by the above defaults each time RetroArch is launched. If this behavior is not desired that option can be disabled and your user-defined RetroArch hotkeys will be used instead.
 

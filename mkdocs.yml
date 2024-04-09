@@ -58,9 +58,9 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/JustEnoughLinuxOS/distribution
+      link: https://github.com/knulli-cfw/distribution
     - icon: fontawesome/brands/discord 
-      link: https://discord.gg/seTxckZjJy
+      link: https://discord.gg/QZKr2QFA
 plugins:
   - search
   - glightbox
@@ -69,6 +69,13 @@ plugins:
 nav:
     - Home: index.md
     - FAQs: faqs.md
+    - Play:
+      - Install: play/install.md
+      - Update: play/update.md
+      - Add Games: play/add-games.md
+      - Achievements: play/retro-achievements.md
+      - Controls: play/controls.md
+      - Netplay: play/netplay.md
     - Devices: 
       - devices/index.md
       - Anbernic:
@@ -76,17 +83,8 @@ nav:
         - RG35xx Plus: devices/anbernic/rg35xx-plus.md
         - RG35xx H: devices/anbernic/rg35xx-h.md
         - RG35xx 2024: devices/anbernic/rg35xx-2024.md
-      - Unico:
-        - Neo Geo Mini: devices/unico/neogeomini.md
-        - MVSX: devices/unico/mvsx.md
-        - Fun R1: devices/unico/fun-r1.md
-        - Arcade Stick Pro: devices/unico/arcade-stick-pro.md
       - Capcom:
         - Retro Station Tron: devices/capcom/retro-station-tron.md
-      - Taito:
-        - Egret II Mini: devices/taito/egret-ii-mini.md
-      - Sega:
-        - Astro City Mini: devices/sega/astro-city-mini.md
       - Orange Pi Zero 2w:
         - Orange Pi Zero 2w: devices/orange-pi/orange-pi-zero-2w.md
       - Powkiddy:
@@ -94,10 +92,21 @@ nav:
         - Powkiddy A13: devices/powkiddy/rgb10-max-3.md
         - RGB30: devices/powkiddy/rgb30.md
         - X51: devices/powkiddy/x51.md
+      - Sega:
+        - Astro City Mini: devices/sega/astro-city-mini.md
       - SGJAM:
         - M17: devices/sgjam/m17.md
+      - Taito:
+        - Egret II Mini: devices/taito/egret-ii-mini.md
       - Unbranded:
         - PS5000: devices/unbranded/ps5000.md
         - PS7000: devices/unbranded/ps7000.md
         - PocketGo S30: devices/unbranded/pocketgo-s30.md
+      - Unico:
+        - Neo Geo Mini: devices/unico/neogeomini.md
+        - MVSX: devices/unico/mvsx.md
+        - Fun R1: devices/unico/fun-r1.md
+        - Arcade Stick Pro: devices/unico/arcade-stick-pro.md
+
+
 

@@ -17,7 +17,7 @@ There are two main categories, those that have GPU support and include Emulation
 | Powkiddy | [Powkiddy A13](powkiddy/powkiddy-a13.md) | Rockchip RK3128 / Mali 400 MP4 (ARMv7-A) | Rockchip BSP 4.4 | Mali | Weston + Emulation Station |
 | Powkiddy | [RGB30](powkiddy/rgb30.md) | Rockchip RK3566 (ARM) | Rockchip BSP 4.19 | Mali | KMS/DRM + Emulation Station |
 | Sega | [Astro City Mini](sega/astro-city-mini.md) | Allwinner R16 / Mali 400 MP4 (ARMv7-A) | Allwinner BSP 4.0 | Mali | fbdev + Emulationstation |
-| SGJAM | [M16](sgjam/m17.md) | Rockchip RK3126 / Mali 400 MP4 (ARMv7-A) | Rockchip BSP 4.4 | Mali | Weston + Emulation Station |
+| SJGAM | [M16](sjgam/m17.md) | Rockchip RK3126 / Mali 400 MP4 (ARMv7-A) | Rockchip BSP 4.4 | Mali | Weston + Emulation Station |
 | Taito | [Egret II Mini](taito/egret-ii-mini.md) | Allwinner R16 / Mali 400 MP4 (ARMv7-A) | Allwinner BSP 4.0 | Mali | fbdev + Emulationstation |
 | Unbranded | [PocketGo S30](unbranded/pocketgo-s30.md) | Allwinner A33 / Mali 400 MP4 (ARMv7-A) | Allwinner BSP 4.4 | Mali | fbdev + Emulation Station |
 

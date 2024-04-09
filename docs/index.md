@@ -4,11 +4,12 @@
 
 # Welcome to the KNULLI Wiki :material-gamepad:
 
-KNULLI is a custom firmware for retro gaming devices (handhelds, bartops, etc.). It's developed as fork of [Batocera](https://batocera.org). It tries to provide support for devices that fall under at least one of these categories:
+KNULLI is a custom firmware for retro gaming devices (handhelds, bartops, etc.). It's developed as a fork of [Batocera](https://batocera.org). It tries to provide support for devices that fall under at least one of these categories:
 
 * There are no open source kernel and/or u-boot sources available
 * There are sources, but the kernel is either not mainline, and/or too old (e.g. devices with a BSP kernel 3.4 like the Egret II Mini)
 * There is no GPU support or the gpu is not supported, so framebuffer is the only option
+* It's a device that I own and have decided to build a CFW for it
 
 ## Features
 
