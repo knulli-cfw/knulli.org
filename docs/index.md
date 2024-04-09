@@ -24,12 +24,20 @@ KNULLI supports devices with GPU (GLES support) and framebuffer only (legacy).
 * Netplay
 * Cover art/thumbnail scrapper support
 
+## Community
+
+KNULLI uses Discord and github discussion pages for discussion, it you would like to join us plesae use this link: [:simple-discord: Discord](https://discord.gg/QZKr2QFA)
+
 ## Licenses
 
 KNULLI is a Linux distribution that is made up of many open-source components.  Components are provided under their respective licenses.  This distribution includes components licensed for non-commercial use only.
 
 ### Bundled Works
 All other software is provided under each component's respective license.  These licenses can be found in the software sources or in this project's licenses folder.  Modifications to bundled software and scripts by the KNULLI team are licensed under the terms of the software being modified.
+
+### Binary kernels and bootloaders
+
+The releases for some devices include kernels and/or bootloaders that don't have source code available because the manufacturer has not published them. In those cases the device specific page includes instructions to extract those from the stock firmware.
 
 ## Credits
 
