@@ -264,6 +264,33 @@ And for boot-package:
 $ dd if=RG35XXH-EN16GB-OS240330.IMG of=boot_package.img bs=1024 skip=16400 count=20464
 ```
 
+For boot.img and env.img, those are coming directly from partitions 1 and 2 of that image. To extract those, first run fdisk -l against the image:
+
+```bash
+$ fdisk -l RG35XXH-EN16GB-OS240330.IMG
+Disk RG35XXH-EN16GB-OS240330.IMG: 14.41 GiB, 15476981760 bytes, 30228480 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: AB6F3888-569A-4926-9668-80941DCB40BC
+
+Device                          Start      End  Sectors  Size Type
+RG35XXH-EN16GB-OS240330.IMG1    73728  8880127  8806400  4.2G Microsoft basic data
+RG35XXH-EN16GB-OS240330.IMG2  8880128  8945663    65536   32M Microsoft basic data
+RG35XXH-EN16GB-OS240330.IMG3  8945664  8978431    32768   16M Microsoft basic data
+RG35XXH-EN16GB-OS240330.IMG4  8978432  9109503   131072   64M Microsoft basic data
+RG35XXH-EN16GB-OS240330.IMG5  9109504 25886719 16777216    8G Microsoft basic data
+RG35XXH-EN16GB-OS240330.IMG6 25886720 30226431  4339712  2.1G Microsoft basic data
+```
+
+Then extract partitions 1 and 2 with:
+
+```bash
+dd if=RG35XXH-EN16GB-OS240330.IMG of=boot.img bs=512 skip=73728 count=8806400
+dd if=RG35XXH-EN16GB-OS240330.IMG of=env.img bs=512 skip=8880128 count=8945663
+```
+
 If you use the SDCARD, just replace ``RG35XXH-EN16GB-OS240330.IMG`` with the device of your sdcard. In this example is /dev/sdh but you will need to identify the correct device.
 
 ```bash
@@ -276,9 +303,32 @@ And for boot-package:
 $ sudo dd if=/dev/sdh of=boot_package.img bs=1024 skip=16400 count=20464
 ```
 
+To extract the boot.img and env.img (partitions 1 and 2) we can just dump the sdcard partitions directly:
+
+```bash
+$ sudo dd if=/dev/sdh1 of=boot.img bs=1024
+$ sudo dd if=/dev/sdh2 of=env.img bs=1024
+```
 
 ## Putting everything back together
 
-Once you have the main elements (boot0.img, boot-package.img, boot.img, and env.img) you can reconstruct a working SDCARD
+Once you have the main elements (boot0.img, boot-package.img, boot.img, and env.img) you can reconstruct a working SDCARD:
+
+* Create a new gpt based SDCARD with 4 partitions and make sure the first partition starts at block 73728.
+* Flash the internal partitions boot0 and boot_package.img:
+
+```bash
+sudo dd if=boot0.img of=/dev/sdh bs=1024 seek=8
+sudo dd if=boot_package.img of=/dev/sdh bs=1024 seek=16400
+```
+
+* Flash the boot.img and env.img
+
+```bash
+sudo dd if=boot.img of=/dev/sdh1 bs=1024
+sudo dd if=env.img of=/dev/sdh2 bs=1024
+```
+
+Partition 3 of the sdcard is boot-resource, that typically contains ``bootlogo.bmp`` that is the boot splash screen logo, as well as the rootfs in squashfs format (``boot/batocera``).
 
 
