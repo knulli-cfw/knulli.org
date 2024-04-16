@@ -2,7 +2,7 @@
   <img class="off-glb" src="_inc/images/knulli-booting-up.png"/>
 </div>
 
-# Welcome to the KNULLI Wiki :material-gamepad:
+# Welcome to KNULLI Wiki :material-gamepad:
 
 KNULLI is a custom firmware for retro gaming devices (handhelds, bartops, etc.). It's developed as a fork of [Batocera](https://batocera.org). It tries to provide support for devices that fall under at least one of these categories:
 
@@ -26,7 +26,7 @@ KNULLI supports devices with GPU (GLES support) and framebuffer only (legacy).
 
 ## Community
 
-KNULLI uses Discord and github discussion pages for discussion, it you would like to join us plesae use this link: [:simple-discord: Discord](https://discord.gg/QZKr2QFA)
+KNULLI uses Discord and [:simple-github: GitHub](https://github.com/knulli-cfw/distribution/discussions) discussion pages for discussion, it you would like to join us plesae use this link: [:simple-discord: Discord](https://discord.gg/QZKr2QFA)
 
 ## Licenses
 

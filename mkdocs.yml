@@ -4,7 +4,6 @@ repo_url: https://github.com/knulli-cfw/knulli.org
 repo_name: knulli.org
 copyright: Copyright Creative Commons Attribution-ShareAlike 4.0 International
 theme:
-  language: en
   name: material
   logo: _inc/images/logo-knulli.png
   palette:
@@ -37,8 +36,8 @@ markdown_extensions:
   - tables
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -61,11 +60,47 @@ extra:
       link: https://github.com/knulli-cfw/distribution
     - icon: fontawesome/brands/discord 
       link: https://discord.gg/QZKr2QFA
+  extra:
+    alternate:
+      - name: English
+        link: /en/ 
+        lang: en
+      - name: Español
+        link: /es/
+        lang: es
 plugins:
-  - search
+  - search:
+      lang: [en, es]
   - glightbox
   - macros:
       include_dir: includes
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+          site_name: "KNULLI Wiki"
+        - locale: es
+          name: Español
+          build: true
+          site_name: "KNULLI Wiki"
+          nav_translations:
+            Home: Inicio
+            FAQs: Preguntas Frecuentes 
+            Play: Jugar
+            Devices: Dispositivos
+            Install: Instalar
+            Update: Actualizar
+            Add Games: Añadir Juegos
+            Achievements: Logros
+            Controls: Controles
+            Netplay: Juego en Red
+            Unbranded: Sin Marca
 nav:
     - Home: index.md
     - FAQs: faqs.md
@@ -98,6 +133,8 @@ nav:
         - M17: devices/sgjam/m17.md
       - Taito:
         - Egret II Mini: devices/taito/egret-ii-mini.md
+      - TrimUI:
+        - TrimUI Smart Pro: devices/trimui/smart-pro.md
       - Unbranded:
         - PS5000: devices/unbranded/ps5000.md
         - PS7000: devices/unbranded/ps7000.md
