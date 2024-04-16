@@ -26,7 +26,7 @@ KNULLI supports devices with GPU (GLES support) and framebuffer only (legacy).
 
 ## Community
 
-KNULLI uses Discord and [:simple-github: GitHub](https://github.com/knulli-cfw/distribution/discussions) discussion pages for discussion, it you would like to join us plesae use this link: [:simple-discord: Discord](https://discord.gg/QZKr2QFA)
+KNULLI uses Discord and [:simple-github: GitHub](https://github.com/knulli-cfw/distribution/discussions) discussion pages for discussion, it you would like to join us plesae use this link: [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB)
 
 ## Licenses
 
