@@ -68,9 +68,12 @@ extra:
       - name: Español
         link: /es/
         lang: es
+      - name: Deutsch
+        link: /de/
+        lang: de
 plugins:
   - search:
-      lang: [en, es]
+      lang: [en, es, de]
   - glightbox
   - macros:
       include_dir: includes
@@ -101,6 +104,21 @@ plugins:
             Controls: Controles
             Netplay: Juego en Red
             Unbranded: Sin Marca
+        - locale: de
+          name: Deutsch
+          build: true
+          site_name: "KNULLI Wiki"
+          nav_translations:
+            Home: Start
+            FAQs: Häufige Fragen
+            Play: Spielen
+            Devices: Geräte
+            Install: Installation
+            Update: Aktualisierung
+            Add Games: Spiele hinzufügen
+            Achievements: Errungenschaften
+            Controls: Steuerung
+            Unbranded: Ohne Marke
 nav:
     - Home: index.md
     - FAQs: faqs.md
@@ -144,6 +162,3 @@ nav:
         - MVSX: devices/unico/mvsx.md
         - Fun R1: devices/unico/fun-r1.md
         - Arcade Stick Pro: devices/unico/arcade-stick-pro.md
-
-
-
