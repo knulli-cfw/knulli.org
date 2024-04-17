@@ -68,9 +68,12 @@ extra:
       - name: Español
         link: /es/
         lang: es
+      - name: Türkçe
+        link: /tr/
+        lang: tr
 plugins:
   - search:
-      lang: [en, es]
+      lang: [en, es, tr]
   - glightbox
   - macros:
       include_dir: includes
@@ -101,6 +104,22 @@ plugins:
             Controls: Controles
             Netplay: Juego en Red
             Unbranded: Sin Marca
+        - locale: tr
+          name: Türkçe
+          build: true
+          site_name: "KNULLI Viki"
+          nav_translations:
+            Home: Anasayfa
+            FAQs: Sıkça Sorulan Sorular 
+            Play: Oyna
+            Devices: Cihazlar
+            Install: Kurulum
+            Update: Güncelleme
+            Add Games: Oyun Ekleme
+            Achievements: Başarımlar
+            Controls: Kontroller
+            Netplay: Ağ Oyunu Desteği
+            Unbranded: Markasız
 nav:
     - Home: index.md
     - FAQs: faqs.md
