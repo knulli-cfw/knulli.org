@@ -73,7 +73,7 @@ extra:
         lang: de
 plugins:
   - search:
-      lang: [en, de]
+      lang: [en, es, de]
   - glightbox
   - macros:
       include_dir: includes
