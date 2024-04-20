@@ -12,8 +12,8 @@ KNULLI, cihazınız için bir disk görüntüsü indirerek, bunu bir SD Kart'a (
 ## Adım 2: Yazma
 
 * İlk olarak, indirdiğiniz sıkıştırılmış dosyayı çıkarın.
-* Ardından bir görüntüleme aracı kullanarak görüntüyü bir SD Kart'a yazın.
-    * Yaygın görüntüleme araçları arasında [Rufus](https://rufus.ie/), [Balena](https://balena.io), [Raspberry Pi Imager](https://www.raspberrypi.com/software/) ve [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) bulunmaktadır. Komut satırında bilgiliyseniz, `dd` de kullanılabilir.
+* Ardından bir disk görüntüsü yazma aracı kullanarak görüntüyü bir SD Kart'a yazın.
+    * Yaygın disk görüntüsü yazma araçları arasında [Rufus](https://rufus.ie/), [Balena](https://balena.io), [Raspberry Pi Imager](https://www.raspberrypi.com/software/) ve [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) bulunmaktadır. Komut satırında bilgiliyseniz, `dd` de kullanılabilir.
 
 ## Adım 3: Cihazınızı Başlatın
 
