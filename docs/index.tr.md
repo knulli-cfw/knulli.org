@@ -32,13 +32,13 @@ KNULLI, tartışma için Discord ve [:simple-github: GitHub](https://github.com/
 
 KNULLI, birçok açık kaynak bileşeninden oluşan bir Linux dağıtımıdır. Bileşenler, ilgili lisansları altında sağlanmaktadır. Bu dağıtım, yalnızca ticari olmayan kullanım için lisanslanmış bileşenleri içerir.
 
-### Paketlenmiş Yazilimlar
+### Paketlenmiş Yazılımlar
 Diğer tüm yazılımlar, her bileşenin ilgili lisansı altında sağlanmaktadır. Bu lisanslar, yazılım kaynaklarında veya bu projenin lisanslar ("licenses") klasöründe bulunabilir. KNULLI ekibi tarafından paketlenmiş yazılım ve komut dosyalarının değiştirilmiş sürümleri, değiştirilen yazılımın koşulları altında lisanslanmıştır.
 
-### Binary Çekirdekler ve önyükleyiciler
+### Binary Çekirdekler ve Önyükleyiciler
 
 Bazı cihazlar icin hazırlanan sürümler, üretici çekirdekler ve/veya önyükleyicileri yayınlamadığı için kapalı kaynak kodlu çekirdekler ve/veya önyükleyiciler içerir. Bu durumlarda, cihaza özel sayfa bunları stok firmware'den çıkarmak için talimatları da içermektedir.
 
-## Katkıda bulunanlar
+## Katkıda Bulunanlar
 
 Bu proje bir kişinin değil, dünyanın dört bir yanından birçok kişinin geliştirdiği açık kaynak kodlu bir projedir. Bütün bu parçalar bir araya gelmeseydi bu proje var olamazdı. Batocera, muOS, JelOS, CoreELEC, LibreELEC ve açık kaynak topluluğundaki geliştiricilere ve katkıda bulunanlara özel olarak teşekkürler.
