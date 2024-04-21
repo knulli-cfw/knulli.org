@@ -71,12 +71,15 @@ extra:
       - name: Deutsch
         link: /de/
         lang: de
+      - name: Polski
+        link: /pl/
+        lang: pl
       - name: Türkçe
         link: /tr/
         lang: tr
 plugins:
   - search:
-      lang: [en, es, de, tr]
+      lang: [en, es, de, pl, tr]
   - glightbox
   - macros:
       include_dir: includes
@@ -122,6 +125,21 @@ plugins:
             Achievements: Errungenschaften
             Controls: Steuerung
             Unbranded: Ohne Marke
+        - locale: pl
+          name: Polski
+          build: true
+          site_name: "KNULLI Wiki"
+          nav_translations:
+            Home: Strona główna
+            FAQs: Często zadawane pytania
+            Play: Graj
+            Devices: Urządzenia
+            Install: Instalacja
+            Update: Aktualizacja
+            Add Games: Dodaj gry
+            Achievements: Osiągnięcia
+            Controls: Sterowanie
+            Unbranded: Bez marki
         - locale: tr
           name: Türkçe
           build: true
