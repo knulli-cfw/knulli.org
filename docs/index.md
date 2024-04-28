@@ -20,9 +20,9 @@ KNULLI supports devices with GPU (GLES support) and framebuffer only (legacy).
 * RetroArch plus multiple libretro cores
 * Wireless and Bluetooth support (including audio) when supported by the device
 * Support for external USB wireless for those without internal wireless card
-* Retroachivements
+* Retroachievments
 * Netplay
-* Cover art/thumbnail scrapper support
+* Cover art/thumbnail scraper support
 
 ## Community
 
