@@ -1,0 +1,79 @@
+# Pico-8
+
+## Overview
+
+| Game Path | Supported Extensions |
+| --- | --- |
+| `roms/pico8` | ++".png"++ ++".p8"++ |
+
+## Instructions
+
+### Option 1: Running Pico-8 through the native engine
+
+Pico-8 games are best played with the native engine as it supports all Pico-8 features without any limitations.  You need to purchase it from [Lexaloffle](https://www.lexaloffle.com/pico-8.php) and we do recommend that you buy a copy if you can. Its an awesome piece of software and it also comes with the tools to make your own games.
+
+#### Setup
+
+##### 1) Pico-8 Files
+
+- Go to [Lexaloffle's download page](https://www.lexaloffle.com/games.php?page=updates)
+- From that page download the `Raspberry Pi` zip file
+- Unzip the Raspberry Pi zip file and...
+    - Delete the `pico8` file
+    - Rename the `pico8_64` file to `pico8`
+- Create a directory in `userdata/bios/` called `pico-8`
+- Upload the `pico8`, `pico8_dyn`, `pico8_gpio` and `pico8.dat` to this directory (you do not need any of the other files)
+``` bash title="Final Folder Structure"
+/userdata/bios/pico-8/
+    ├─ pico8
+    ├─ pico8_dyn
+    ├─ pico8_gpio
+    └─ pico8.dat
+```
+
+##### 2) EmulationStation
+
+- copy the following text into a file called `es_systems_pico8.cfg`
+``` bash title="es_systems_pico8.cfg"
+<?xml version="1.0" encoding="UTF-8"?>
+<systemList>
+  <system>
+        <name>pico8</name>
+	    <emulators>
+            <emulator name="lexaloffle">
+                <cores>
+                    <core default="true">pico8_official</core>
+                </cores>
+            </emulator>
+            <emulator name="libretro">
+                <cores>
+                    <core>retro8</core>
+                </cores>
+            </emulator>
+        </emulators>
+  </system>
+</systemList>
+```
+- upload the `es_systems_pico8.cfg` you created to `/userdata/system/configs/emulationstation/`
+- restart EmulationStation
+- open the Pico-8 gamelist, press ++"SELECT"++, open `ADVANCED SYSTEM OPTIONS → EMULATOR` and then select `LEXALOFFLE: PICO8 OFFICIAL` as your Emulator
+
+#### Playing a game
+
+Once the above is set up is you have 2 options for playing games through Pico-8's native engine:
+
+1. Using Splore
+    - Splore is awesome as it allows you to browse and play the entire library of user created games with an internet connection.  
+    - To use this method simply create a file named `Splore.png` in `roms/pico8`.
+    - Note that you will need an internet connection to browse the pico-8 BBS (If you don't have an internet connection you can still use it to launch games you have downloaded previously)
+    - To exit and return to EmulationStation you can press the ++"START"++ button while highlighting a game in Splore then selecting `Options > Shutdown`
+2. Through .png or .p8 files added directly `roms/pico-8`
+    - Browse the list of games (aka. "Carts") on [Lexaloffle's website](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2)
+    - Download the .png or .p8 file for any game you are interested in playing and upload it to either `roms/pico-8`
+    - Refresh EmulationStation by pressing ++"START"++ to open the Main Menu then select `Game Settings > Update Gamelists`.
+    - You should now be able to launch the game by selecting it from the gamelist.
+    - To exit a game and return to EmulationStation you can press the ++"START"++ button then selecting `Options > Shutdown`
+
+### Option 2: Running through RetroArch Fake-08
+
+*coming soon*
