@@ -102,6 +102,7 @@ plugins:
             Home: Inicio
             FAQs: Preguntas Frecuentes 
             Play: Jugar
+            Systems: Sistemas
             Devices: Dispositivos
             Install: Instalar
             Update: Actualizar
@@ -166,6 +167,9 @@ nav:
       - Achievements: play/retro-achievements.md
       - Controls: play/controls.md
       - Netplay: play/netplay.md
+    - Systems:
+      - Engines:
+        - Pico-8: systems/pico-8.md
     - Devices: 
       - devices/index.md
       - Anbernic:
