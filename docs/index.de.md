@@ -2,7 +2,7 @@
   <img class="off-glb" src="/_inc/images/knulli-booting-up.png"/>
 </div>
 
-# Willkommen auf dem KNULLI Wiki :material-gamepad:
+# Willkommen im KNULLI-Wiki :material-gamepad:
 
 KNULLI ist eine unabhängige Custom-Firmware (CFW) für Retro-Gaming-Konsolen (Handhelds, Bartops, etc.). Knulli wird als Fork von [Batocera](https://batocera.org) entwickelt und verfolgt das Ziel, Geräte zu unterstützen, die unter mindestens eine dieser Kategorien fallen:
 
