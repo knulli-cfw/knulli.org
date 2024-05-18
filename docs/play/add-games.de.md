@@ -12,7 +12,7 @@ Innerhalb von KNULLI wird das Verzeichnis, in dem du deine Nutzerdaten ablegen k
     * `/screenshots` ist der Ordner, in dem deine gespeicherten Screenshots abgelegt werden.
     * `/system` ist der Ordner, der deine Einstellungen enthält. Du solltest hier keine Änderungen vornehmen, wenn du nicht weißt, was du tust. Es kann aber nicht schaden, von diesem Ordner regelmäßige Backups anzufertigen.
 
-!!! info "Normalerweise sollte eine frische KNULLI-Installation automatisch ein Verzeichnis für deine Spiele anlegen, das Unterverzeichnisse für alle unterstützten Systeme enthält. Falls das nicht geklappt hat, kannst du im Hauptmenü von EmulationStation unter "System Settings" die Option "CREATE GAME DIRECTORIES" auswählen, um die entsprechenden Unterverzeichnisse anzulegen."
+!!! info "Normalerweise sollte eine frische KNULLI-Installation automatisch ein Verzeichnis für deine Spiele anlegen, das Unterverzeichnisse für alle unterstützten Systeme enthält. Falls das nicht geklappt hat, kannst du mit dem  ++"Start"++-Button das Hauptmenü von EmulationStation öffnen und unter "System Settings" die Option "CREATE GAME DIRECTORIES" auswählen, um die entsprechenden Unterverzeichnisse anzulegen."
 
 !!! note "Für Details bzgl. der Dateien, die das jeweilige System benötigt, besuche bitte die entsprechenden Seiten im Abschnitt [System](/../system) in diesem Wiki."
 
@@ -51,7 +51,7 @@ Mit einem FTP-Programm deiner Wahl kannst du eine SFTP-Verbindung zu deinem KNUL
 
 ### Nach der Übertragung
 
-Wenn du deine Daten vollständig übertragen hast, solltest du auf deinem KNULLI-Gerät im Hauptmenü unter *Game settings* die Option *Update gamelists* wählen. KNULLI wird dann alle ROM-Ordner neu scannen und ggf. hinzugefügte Spiele identifizieren, damit du sie über EmulationStation starten kannst.
+Wenn du deine Daten vollständig übertragen hast, solltest du auf deinem KNULLI-Gerät mit dem  ++"Start"++-Button das Hauptmenü öffnen und unter *Game settings* die Option *Update gamelists* wählen. KNULLI wird dann alle ROM-Ordner neu scannen und ggf. hinzugefügte Spiele identifizieren, damit du sie über EmulationStation starten kannst.
 
 ## Option 2: SD-Karte
 
@@ -87,7 +87,7 @@ Nachdem Knulli auf einer SD-Karte oder einem internen Speicher installiert wurde
 
 !!! note "Die Partition für Nutzerdaten ist innerhalb von KNULLI als `/userdata` gemountet."
 
-Es ist möglich, die Partition stattdessen mit dem Dateisystem exFAT zu formatieren, um die Partition über ein Kartenlesegerät mit Windows zu lesen und zu beschreiben. exFAT hat allerdings Nachteile bei der Performance und ist limitiert in der zulässigen Dateigröße. Manche Spiele, insbesondere einige Ports, lassen sich nicht ausführen, wenn die Ppartition mit exFAT formatiert ist. Um die Partition trotzdem mit exFAT zu formatieren, währe im KNULLI-Hauptmenü unter *System settings* und *Frontent developer options* die Option *Format a disk*.
+Es ist möglich, die Partition stattdessen mit dem Dateisystem exFAT zu formatieren, um die Partition über ein Kartenlesegerät mit Windows zu lesen und zu beschreiben. exFAT hat allerdings Nachteile bei der Performance und ist limitiert in der zulässigen Dateigröße. Manche Spiele, insbesondere einige Ports, lassen sich nicht ausführen, wenn die Ppartition mit exFAT formatiert ist. Um die Partition trotzdem mit exFAT zu formatieren, öffne das KNULLI-Hauptmenü mit dem  ++"Start"++-Button und wähle unter *System settings* und *Frontent developer options* die Option *Format a disk*.
 
 ### Mehrere Speichermedien
 
@@ -97,7 +97,7 @@ Für Geräte, die mehr als einen Speicher unterstützen (z.B. Geräte mit zwei S
 
 Wenn die Option "Zusammengeführter Speicher" deaktiviert ist, oder das zweite/sekundäre Speichermedium in exFAT oder FAT32 formatiert ist, wird Knulli das erste/primäre Speichermedium für das Betriebssystem und alle weiteren Nutzerdaten nutzen und das zweite/sekundäre Speichermedium ausschließlich für Spiele. Wenn das sekundäre Speichermedium über KNULLI formatiert wird, wird automatisch das Verzeichnis `roms` angelegt, in dem die Spiele abgelegt werden können.
 
-Um ein Speichermedium via KNULLI zu formatieren, währe im KNULLI-Hauptmenü unter *System settings* und *Frontent developer options* die Option *Format a disk*.
+Um ein Speichermedium via KNULLI zu formatieren, öffne das Hauptmenü, in dem du den ++"Start"++-Button drückst, und wähle im KNULLI-Hauptmenü unter *System settings* und *Frontent developer options* die Option *Format a disk*.
 
 !!! note "Die Partition des sekundären Speichers wird als `/userdata/games-external` gemountet, der Inhalt des Ordners `roms` (in KNULLI: `/userdata/games-external/roms`) wird dann von KNULLI als `/userdata/roms` verfügbar gemacht."
 
@@ -115,4 +115,4 @@ Wenn du ein sekundäres Speichermedium benutzt, das mit dem Linux-Dateisystem ex
 ### Fehlerbehebung
 
 * Wenn Spiele nicht in der grafischen Oberfläche EmulationStation angezeigt werden, kann die Ursache möglicherweise ein Konflikt im Dateisystem sein. Fehler dieser Art können beseitigt werden, in dem die Funktion `/usr/bin/cleanup_overlay` ausgeführt wird. Um dies zu tun muss allerdings zunächst eine SSH-Verbindung zum Gerät aufgebaut werden. Achtung: Das Gerät wird im Laufe des Clean-Ups neu gestartet!
-* Wenn in `/userdata/roms` keine Unterordner für die verschiedenen Systeme angezeigt werden, kannst du im Hauptmenü von EmulationStation unter "System Settings" die Option "CREATE GAME DIRECTORIES" auswählen, um die entsprechenden Unterverzeichnisse anzulegen. Falls auch danach keine Verzeichnisse enthalten sind, solltest du prüfen, ob auf deinem sekundären Speichermedium ein Ordner `roms` vorliegt (und ihn ggf. selbst anlegen)"
+* Wenn in `/userdata/roms` keine Unterordner für die verschiedenen Systeme angezeigt werden, kannst du mit dem  ++"Start"++-Button das Hauptmenü von EmulationStation öffnen und unter "System Settings" die Option "CREATE GAME DIRECTORIES" auswählen, um die entsprechenden Unterverzeichnisse anzulegen. Falls auch danach keine Verzeichnisse enthalten sind, solltest du prüfen, ob auf deinem sekundären Speichermedium ein Ordner `roms` vorliegt (und ihn ggf. selbst anlegen)"
