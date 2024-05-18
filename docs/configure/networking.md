@@ -4,7 +4,7 @@ Many devices which are supported by KNULLI are capable of connecting to the inte
 
 ## Wi-Fi
 
-If your device has a built-in Wi-Fi adapter, you can set it up directly via KNULLI. In the main menu, go to *Network settings* where you can configure your Wi-Fi connection. In the lower *Settings* section, enable Wi-Fi, then select your Wi-Fi by its SSID and set the key to connect.
+If your device has a built-in Wi-Fi adapter, you can set it up directly via KNULLI. Press the ++"Start"++ button to open the main menu, go to *Network settings* where you can configure your Wi-Fi connection. In the lower *Settings* section, enable Wi-Fi, then select your Wi-Fi by its SSID and set the key to connect.
 
 In the section above, you can see whether you are currently connected to Wi-Fi, see your current IP address and toggle the network indicator on or off.
 
@@ -12,13 +12,15 @@ In the section above, you can see whether you are currently connected to Wi-Fi, 
 
 ### Additional security
 
-In the main menu, go to *System settings* and find *Security*. There, you can toggle *Enforce security* on or off. If turned on, you will see a *root password* below the toggle. This password and the username `root` must now be used to access the device via network.
+Press the ++"Start"++ button to open the main menu, go to *System settings* and find *Security*. There, you can toggle *Enforce security* on or off. If turned on, you will see a *root password* below the toggle. This password and the username `root` must now be used to access the device via network.
 
 !!! warning "Be aware, that KNULLI is built for retro gaming and easy network access. While this setting will make it harder to access your userdata partition, you still should not connect your KNULLI-driven device to any unknown local networks."
 
 ### Hostname
 
 The default hostname of the device will always be `KNULLI`. However, you can pick your own hostname, which might come in handy if you have more that one KNULLI-driven device in your local network. Within your local network, the hostname should be unique, if possible.
+
+If you want to change the hostname of your device, press the ++"Start"++ button to open the main menu and go to *Network settings* where you can modify the *Hostname*.
 
 Windows users may use the hostname to find the device and access the userdata partition. When the device is turned on and connected to your local network, you will find the device in Windows Explorer at the "Network" section under its hostname. Alternatively, you can access the device directly by typing the path in the address bar of Windows Explorer.
 
