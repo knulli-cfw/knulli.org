@@ -7,8 +7,8 @@ Auf Geräten, die mit dem Internet verbunden werden können, kann KNULLI direkt 
 Wenn dein Gerät eine aktive Internetverbindung hat, kannst du KNULLI direkt aus EmulationStation heraus aktualisieren:
 
 1. Öffne das Hauptmenü, in dem du den ++"Start"++-Button drückst.
-2. Wähle `Updates & Downloads`.
-3. Gehe zu `Start updates`.
+2. Wähle *Updates & downloads*.
+3. Gehe zu *Start updates*.
 
 !!! info "Du kannst mit dem Schalter *Check for updates* einstellen, ob du über neue Updates informiert werden möchtest. Unter *Update type* kannst du einstellen, ob du nur "stabile" Releases (*Stable*) oder auch prototypische Vorabversionen (*Butterfy*) installieren möchtest."
 
