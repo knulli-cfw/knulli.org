@@ -18,7 +18,7 @@ Wenn dein Gerät keinen Internetzugang hat, oder OTA-Updates aus anderen Gründe
 
 1. Lade das aktuelle Update (`boot.gz`) für dein Gerät von der [Releases-Seite](https://github.com/knulli-cfw/distribution/releases/latest) herunter.
     * Du findest Download-Links für alle Geräte und Plattformen, die von uns unterstützt werden, in der Tabelle "`Installation Package Downloads`".
-    * Stelle sicher, dass du das richtige Image für dein Gerät herunterlädst. Wenn du KNULLI z.B. auf einem [RG35XX](../../devices/anbernic/rg35xx) installieren möchtest, musst du das `rg45xx`-Image herunterladen.
+    * Stelle sicher, dass du das richtige Update für dein Gerät herunterlädst. Wenn du KNULLI z.B. auf einem [RG35XX](../../devices/anbernic/rg35xx) installieren möchtest, musst du das `rg45xx`-Update herunterladen.
     * Wenn unklar ist, welches Image für dein Gerät geeignet ist, kannst du im Abschnitt [Unterstützte Geräte](../../devices) überprüfen, welches Image du für dein Gerät herunterladen solltest.
 2. Entpacke das komprimierte Update  (z.B. mit [7-Zip](https://7-zip.org/)).
 3. Setz deine SD-Karte deiner KNULLI-Installation in deinen Kartenleser am Computer ein.
