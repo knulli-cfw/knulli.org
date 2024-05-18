@@ -30,7 +30,7 @@ Um Netzwerkübertragung zu nutzen, musst du als erstes die Netzwerkverbindungen 
 KNULLI unterstützt, wie viele andere Betriebssysteme, das Windows-Netzwerkprotokoll SMB. Um Daten via SMB an dein Gerät zu übertragen, hast du verschiedene Möglichkeiten, je nachdem, welche Art von Computer du für die Übertragung nutzt:
 
 - Windows:
-    - Öffne ein Windows-Exploter-Fenster und gib in die Adressleiste entweder `\\[HOSTNAME]` oder `\\[IP-ADRESSE]` ein (ersetze dabei `[HOSTNAME]` mit dem Hostnamen bzw. `[IP-ADRESSE]` mit der IP-Adresse deines Geräts).
+    - Öffne ein Windows-Explorer-Fenster und gib in die Adressleiste entweder `\\[HOSTNAME]` oder `\\[IP-ADRESSE]` ein (ersetze dabei `[HOSTNAME]` mit dem Hostnamen bzw. `[IP-ADRESSE]` mit der IP-Adresse deines Geräts).
     - Du wirst möglicherweise nach Benutzername und Passwort gefragt, wenn die erweiterten Sicherheitseinstellungen aktiv sind.
     - Der Benutzername ist `root`, das Passwort wird dir als *Root password* im Bereich *Security* der *System settings* angezeigt.
 - MacOS:
