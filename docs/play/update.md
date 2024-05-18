@@ -4,13 +4,13 @@ On devices, which can be connected to the internet, KNULLI can be updated "over 
 
 ## Option 1: OTA update
 
-If your device has access to the internet you can update KNULLI directly from EmulationStation.
+If your device has access to the internet, you can update KNULLI directly from EmulationStation.
 
-1. In EmulationStation open the main menu by pressing the ++"Start"++ button on your controller.
+1. In EmulationStation, open the main menu by pressing the ++"Start"++ button on your controller.
 2. Select *Updates & downloads*.
 3. Select *Start updates*.
 
-!!! info "By toggling *Check for updates*, you can decide if you want to be informed about new updates. By selecting an *Update type*, you may choose to only install *Stable* releases or to try out beta versions by selecting (*Butterfy*) installieren möchtest."
+!!! info "By toggling *Check for updates*, you can decide if you want to be informed about new updates. By selecting an *Update type*, you may choose to only install *Stable* releases or to try out beta versions by selecting (*Butterfy*)."
 
 ## Option 2: Manual update
 
