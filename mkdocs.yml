@@ -123,8 +123,10 @@ plugins:
             Install: Installation
             Update: Aktualisierung
             Add Games: Spiele hinzufügen
-            Achievements: Errungenschaften
+            Achievements: Achievements
             Controls: Steuerung
+            Configure: Konfiguration
+            Networking: Netzwerkverbindungen
             Unbranded: Ohne Marke
         - locale: pl
           name: Polski
@@ -167,6 +169,8 @@ nav:
       - Achievements: play/retro-achievements.md
       - Controls: play/controls.md
       - Netplay: play/netplay.md
+    - Configure:
+      - Networking: configure/networking.md
     - Systems:
       - Engines:
         - Pico-8: systems/pico-8.md
