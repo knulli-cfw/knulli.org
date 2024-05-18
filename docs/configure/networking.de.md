@@ -4,7 +4,7 @@ Viele Geräte, die von KNULLI unterstützt werden, sind in der Lage, sich mit de
 
 ## W-LAN
 
-Wenn dein Gerät einen eingebauten W-LAN-Adapter hat, kannst du ihn direkt via KNULLI konfigurieren. Öffne das Hauptmenü, in dem du den ++"Start"++-Button drückst, gehe zu *Network settings* und konfiguriere dort deine W-LAN-Verbindung. Im unteren Abschnitt *Settings* kannst du W-LAN aktivieren (*Enable WIFI*) und dein W-LAN ahand seiner SSID auswählen. Anschließend kannst du den W-LAN-Schlüssel eingeben, um mit dem W-LAN zu verbinden.
+Wenn dein Gerät einen eingebauten W-LAN-Adapter hat, kannst du ihn direkt via KNULLI konfigurieren. Öffne das Hauptmenü, in dem du den ++"Start"++-Button drückst, gehe zu *Network settings* und konfiguriere dort deine W-LAN-Verbindung. Im unteren Abschnitt *Settings* kannst du W-LAN aktivieren (*Enable WIFI*) und dein W-LAN ahand seiner SSID auswählen. Anschließend kannst du den W-LAN-Schlüssel eingeben und das Menü schließen, um mit dem W-LAN zu verbinden.
 
 Im Abschnitt darüber kannst du sehen, ob du gerade mit einem W-LAN verbunden bist. Außerdem siehst du deine aktuelle IP-Adresse und kannst das Netzwerksymbol ein- oder ausschalten.
 
@@ -12,8 +12,11 @@ Im Abschnitt darüber kannst du sehen, ob du gerade mit einem W-LAN verbunden bi
 
 ### Zusätzliche Sicherheit
 
-Öffne das Hauptmenü, in dem du den ++"Start"++-Button drückst. Dort kannst du *System settings* auswählen und von dort zum Bereich* Security* gelangen. Dort kannst du über den Schalter *Enforce security* erweiterte Sicherheitsmaßnahmen ein- oder ausschalten. Wenn die Sicherheitsmaßnahmen eingeschaltet sind, erscheint unter dem Schalter das *root password*. Dieses Passwort, in Kombination mit dem Benutzernamen `root`, bildet die Zugangsdaten, mit denen auf dein Gerät via Netzwerk zugegriffen werden kann.
+Öffne das Hauptmenü, in dem du den ++"Start"++-Button drückst. Dort kannst du *System settings* auswählen und von dort zum Bereich* Security* gelangen. Dort kannst du über den Schalter *Enforce security* erweiterte Sicherheitsmaßnahmen ein- oder ausschalten. Bitte beachte, dass du das Gerät neustarten musst, um die Änderungen wirksam zu machen.
 
+Wenn du die Sicherheitsmaßnahmen eingeschaltet und das Gerät neu gestartet hast, kannst du in das *Security*-Menü zurückkehren. Unter dem Schalter *Enforce security* erscheint jetzt das aktuelle *root password*. Das Passwort ist zufallsgeneriert und ändert sich manchmal automatisch, wenn Updates installiert werden oder wichtige Einstellungen geändert wurden. Das ist aber kein Grund zur Sorge: Wenn du in dieses Menü zurückkehrst, kannst du jederzeit das aktuelle Root-Passwort einsehen.
+
+Dieses Passwort, in Kombination mit dem Benutzernamen `root`, bildet die Zugangsdaten, mit denen auf dein Gerät via Netzwerk zugegriffen werden kann.
 
 !!! warning "Dir sollte bewusst sein, dass KNULLI für Retro-Gaming und niedrigschwelligen Netzwerkzugang entwickelt wurde. Die erweiterten Sicherheitsmaßnahmen stellen eine zusätzliche Hürde da, um deine Nutzerdaten vor ungewollten Zugriffen zu schützen. Du solltest das Gerät trotzdem nicht mit einem W-LAN verbinden, von dem du nicht sicher bist, dass es sicher ist!"
 
