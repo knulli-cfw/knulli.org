@@ -21,6 +21,8 @@ Im Abschnitt darüber kannst du sehen, ob du gerade mit einem W-LAN verbunden bi
 
 Der standardmäßige Hostname des Geräts lautet `KNULLI`. Du kannst diesen Namen allerdings ändern, was besonders dann hilfreich sein kann, wenn du mehr als ein KNULLI-betriebenes Gerät in deinem Netzwerk hast. Innerhalb deines Netzwerks sollte der Hostname nach Möglichkeit eindeutig sein.
 
+Um den Hostnamen zu ändern, drücke den  ++"Start"++-Button um das Hauptmenü zu öffnen, gehe dann zu *Network settings*, wo du den *Hostname* anpassen kannst.
+
 Windows-User können den Hostnamen nutzen, um das Gerät in ihrem Netzwerk zu finden und darauf zuzugreifen. Wenn das Gerät eingeschaltet und mit deinem Netzwerk verbunden ist, solltest du es im Windows Explorer im Bereich "Netzwerk" finden. Alternativ kannst du darauf zugreifen, in dem du die Adresse in die Adresszeile des Windows Explorers eingibst.
 
 Der Pfad
