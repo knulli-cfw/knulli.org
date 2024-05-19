@@ -1,109 +1,112 @@
 # :material-layers-plus: Adding Games to KNULLI
 
-KNULLI has a few options for adding games and the option you choose will depend on the device you have and its available functionality *(For example, some devices do not have networking capabilites so those devices will not be able to use the network transfer option)*.  To create the default set of game directories on your device, choose the 'CREATE GAME DIRECTORIES' option in the System Settings menu.
+KNULLI has a few options for adding games. Depending on the capabilites of your device, you will have to determine which option to choose. For example, some devices do not have networking capabilites, so with those devices you will not be able to use the network transfer options. Additionally, you might have to consider the computer you will use as a data source, since some options are restricted to specific operating systems.
 
-This page will aim to document all possible options and indicate when you might use a given one over another.
+## Data storage structure
 
-!!! note "For details on which specific files each system requires please see the corresponding pages in the systems section of this wiki."
+When you install KNULLI on a SD card, several partitions will be created, which will be shown to you as different drives on your computer. Most of these drives can only be accessed from a Linux operating system. On Windows, they are not accessible.
 
-## Storage Modes
+!!! danger "You should never format the KNULLI partitions which Windows cannot read, no matter how strongly Windows suggests that."
 
-KNULLI has support for using internal and external storage (microsd) for games.  To make games available in the OS we provide different features based on the capability of the filesystem that you are using.  To support our storage modes KNULLI nests games into a directory on your games card called "roms".  All games found in this path will be available in the OS.
+The *BATOCERA* drive will be the only drive which was formatted to FAT32, to make it accessible on Windows. However, this is just the place where the operating system itself is stored, so it is not a place to store your games. You still might need access to the *BATOCERA* partition if you want to update KNULLI manually as described in the [update](../update) section.
 
-### Merged Storage
+### The share partition
 
-When using a microsd that is formatted as Ext4 (Linux), KNULLI will present users with the ability to merge both the internal and external storage together allowing users to use both devices to store games.  This mode has two preferences, external (default), and internal.
+The biggest partition on your SD card is the *SHARE* partition. By default, KNULLI formats the *SHARE* partition to ext4. Therefore, the drive is not accessible on Windows computers. The *SHARE* partition is the drive where your user data is stored - all your games, saved states, screenshots, configurations, etc. Within KNULLI, the *SHARE* partition is mounted as `/userdata`.
 
-* Preference External
-  * This mode will save anything written to `/userdata/roms` to your external microsd (`/userdata/games-external/roms`).
-* Preference Internal
-  * This mode will save anything written to `/userdata/roms` to your internal storage (`/userdata/games-internal/roms`). 
+### The userdata folder
 
-> Note: *Merged Storage is disabled by default.*
+Inside the `/userdata` folder, you will find subfolders, where you can store your games and other files. The most important folders for you to know are the following:
 
-### Simple Storage
+* `/userdata`
+    * `/roms` is the folder, where you can store your games. Inside the folder you will find subfolders for all supported systems. Simply place your game files into the folders of the system the game was made for.
+    * `/bios` is the folder where you can store your BIOSes.
+    * `/music` is the folder where you can store MP3 and OGG files to have them play as background music on EmulationStation. (The songs should have a sample rate of 44100Hz and a bitrate of 256kb/s max.)
+    * `/saves` is the folder where your savegames will be stored.
+    * `/screenshots` is the folder where your screenshots will be stored.
+    * `/system` is the folder where your settings will be stored. You should not change anything in here, unless you are absolutely sure that you know what you are doing. However, it can't hurt to include this folder in your backups.
 
-When Merged Storage is disabled, or when you are using ExFAT or FAT32, KNULLI will mount your external card to `/userdata/games-external` and make the content of `/userdata/games-external/roms` available at /userdata/roms.
+!!! info "KNULLI only scans for games in the `roms` folder. Games which are stored outside of the folder will not be recognized as such."
 
-### Troubleshooting
+!!! info "For details about the files which are required/supported for each system, have a look into the [Systems](/../systems) section of the wiki."
 
-* It is possible to create a conflict which will prevent games from being displayed in EmulationStation.  This can usually be resolved by executing `/usr/bin/cleanup_overlay`.  Note: This will reboot your device.
-* If no game folders appear in /userdata/roms after running `CREATE GAME DIRECTORIES`, make sure you have a `roms` directory on your microsd.
+### Using a second SD card
 
-## Option 1: Network Transfer
+If you use KNULLI on a device which has a second SD card slot, you may use the second slot for a secondary SD card, which can be used instead of the *SHARE* partition:
 
-Network transfer can be used on any device that can connect to the internet (this includes devices with native networking capabilites and ones where networking can be added through an external dongle).
+* Make sure that the second SD card is formatted to ext4 or exFAT. (You don't have to reformat it if it already is formatted to ext4 or exFAT.)
+* Insert the second SD card into the second SD card slot while the device is turned off.
+* Boot KNULLI, open the main menu by pressing the ++"Start"++ button and choose *System settings*.
+* Find the *Storage* section where you can choose your *Storage device*.
+    * Switch fom *Internal* (the "internal" storage is the *SHARE* partition of your KNULLI SD card) to the name of your second SD card, e.g., *SHARE - 25.6G*.
+* Reboot KNULLI to apply the changes by pressing the ++"Start"++ button and choosing *Restart system* in the *Quit* section.
+* During reboot, KNULLI will populate the second SD card with a folder named `/batocera` and all the required subfolders you usually find on the *SHARE* partition.
+* If your second SD card is formatted to exFAT, you can now take the card out of the device when it is shut off. You can put the card in your computer to access it and populate it with your data.
 
-This option first requires you to set up networking on your device.  Please see [Networking](../../configure/networking) for details.  Once you have completed those steps make note of your IP Address in the Network Settings menu.
+## Option 1: Network transfer
 
-In addition to your IP you will also need your root password.  This can be found in the Main Menu by pressing ++"START"++ in EmulationStation and navigating to `System Settings`.  You will see your root password under the `Authentication` header.
+Network transfer can be used on any device which can be connected to the internet or a local network. (This includes devices with native networking capabilites and ones where networking can be added through an external dongle.)
 
-!!! note "By default the root password is set up to rotate to a unique string of characters after every reboot. You can leave it like this and make note of the current password, or you can turn it off and set it to something that will persist."
+This option first requires you to set up networking on your device.  Please see [Networking](../../configure/networking) for details. Once you have completed those steps, you will need
 
-### HTTP
+* the hostname and/or IP address of your device.
+* the root password, if additional security measurements are in place, as explained in the [Networking](../../configure/networking) section.
 
-Enabling Simple HTTP Server in Network settings lets you upload and download files by entering your device's IP address in any browser on the local network (or on VPN IP, see VPN section for details). The username is `root` and the password can be found in `Root Password` in the main menu.
+### Windows networks (SMB)
 
-### SMB
+Like many other operating systems, KNULLI supports SMB, the Windows network protocol. Depending on the type of computer you have, there are different options to transfer your games and other data via SMB:
 
 - Windows:
-    - open a Windows Explorer window, and type in `\\[YOUR IP ADDRESS]`; replace `[YOUR IP ADDRESS]` with the IP Address seen in the Network Settings menu.
-    - You will be prompted for a username and password. 
-    - The username is `root` and your password will be the value from `Root Password` in the System Settings menu.
-- MacOS: 
-    - open Finder and select `Go > Connect to Server` from the top menu.
-    - In the address bar that appears, type `smb://[YOUR IP ADDRESS]`; replace `[YOUR IP ADDRESS]` with the IP Address seen in the Network Settings menu.
-    - You will be prompted for a username and password.
-    - For name enter `root` and your password will be the value from `Root Password` in the System Settings menu.
+    - Open a Windows Explorer window and type either `\\[HOSTNAME]` or `\\[IP-ADDRESS]` into the address bar (replace `[HOSTNAME]` with the hostname or `[IP-ADDRESS]` with the IP address of your device).
+    - If additional security measurements are in place, you will be prompted for your credentials.
+        - The expected username is `root`, the password is the *Root password* shown in the *Security* section of the *System settings*.
+- MacOS:
+    - Open finder, select *Go* and then *Connect to Server* from the top menu.
+    - In the address bar that appears, type either `smb://[HOSTNAME]` or `smb://[IP-ADDRESS]` into the address bar (replace `[HOSTNAME]` with the hostname or `[IP-ADDRESS]` with the IP address of your device).
+    - If additional security measurements are in place, you will be prompted for your credentials.
+        - The expected username is `root`, the password is the *Root password* shown in the *Security* section of the *System settings*.
+
+After you successfully logged in, you will be able to access the `share` partition as a network drive. The network drive corresponds to your `/userdata` folder, so you can put all your data (games, etc.) in the respective folders.
 
 ### FTP
 
-Using your FTP program of choice; set up an SFTP connection to the IP Address seen in the Network Settings menu.  Make sure the Port is set to `22`.  The username is `root` and your password will be the value from `Root Password` in the System Settings menu. 
+Using your FTP program of choice; set up an SFTP connection to the IP address to your KNULLI device. You will need hte hostname or the IP address of the device. Make sure the port is set to `22`. The expected username is `root` and the expected password is the *Root password* you will find in the *Security* section of the *System settings*.
 
-### After connecting
+### HTTP
 
-- You will see a list of folders after you have connected via network.  
-- Open the `roms` folder and you will see a list of folders where games and bios files can be placed. *(Please see the systems section of the wiki for details on where each system's files should be placed)*
-- After you have added your games you can get them to display in EmulationStation by pressing ++"START"++ to open the Main Menu, then open `Game Settings` then select `Update Gamelists` under the Tools header.
+!!! warning "This section is still under construction. Sorry, we're working on it! :smile: Until it's done, you might want to join us on [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB) to get in touch - maybe we can help you there!"
 
-## Option 2: SD Card
+### After transferring your data
 
-Games can also be added via an SD card.  There are 2 primary methods for this depending on your device.
+Once your data is completely transferred, make sure to update your gamelists to make the data available. You can do so by pressing ++"Start"++ to open the main menu, then open *Game settings* and select *Update gamelists*. KNULLI will rescan all game folders and identify all the games you added to make them available in EmulationStation.
 
-### If your device has 2 SD card slots
+## Option 2: SD card
 
-- With your device turned off; insert a FAT32/ExFAT/ext4 formated SD card into slot 2 of your device.
-- Turn your device on.
-- When KNULLI completes its boot process, create your game directories by selecting the `Create Game Directories` option in `System Settings`.
-- Now you can turn off your device, remove your SD card from slot 2 and open it on your PC.
-- You PC will display a list of folders, open the `roms` directory and you will see a list of folders for each system where you can place your games and bios files.
-- Add your games and place your SD card back into slot 2 and boot up KNULLI.
+Under certain circumstances, games can be added directly to your SD card.
 
-If your device does not see your SD card (or write the needed folders to it) please open `System Settings` and make sure `Autodetect Games Card` is turned on (located under the Hardware/Storage header) then reboot your device.
+### Devices with a single SD card
 
-### If your device has 1 SD card slot
+As explained in the [Data storage structure](#data-storage-structure) section, the *SHARE* partition is formatted to ext4 by default. Therefore, it is not accessible on Windows. However, if neither network transfer nor a Linux computer is available to you, there are options to access the SD card from Windows anyway.
 
-!!! warning "This option is only for devices where you have installed KNULLI to the internal drive of the device. In this scenario an SD card can be used directly for storage"
+#### Reformat the share partition to exFAT
 
-- With KNULLI installed to your internal drive press ++"START"++ to open the Main Menu, then open `System Settings` and turn on `Autodetect Games Card` under the Hardware/Storage header.
-- Turn your device off
-- Insert a FAT32/ExFAT/ext4 formated SD card into your device.
-- Turn your device on
-- When KNULLI completes its boot process, create your game directories by selecting the `Create Game Directories` option in `System Settings`.
-- Now you can turn off your device, remove your SD card and open it on your PC.
-- You PC will display a list of folders, open the `roms` directory and you will see a list of folders for each system where you can place your games and bios files.
-- Add your games and place your SD card back into your device and boot up KNULLI.
+It is possible to reformat the *SHARE* partition to exFAT, to make the partition accessible on Windows. Be aware that exFAT has some disadvantages regarding performance and is limited in the max size of its files. Consequently, some games, especially certain ports, will not run on a *SHARE* partition which is formatted to exFAT.
 
-## Option 3: External USB Drive
+To format the partition to exFAT anyway, open the KNULLI main menu by pressing ++"Start"++ and choose *Format a disk* in the *Frontent developer options* section of the *System settings*. You will be able to choose whether you want your partition formatted to ext4 or exFAT.
 
-KNULLI has a built in File Manager and you can use it to access connected USB drives and transfer files. 
+#### Third party software
 
-1. Connect your USB Drive to your device
-2. Open the Tools system and select File Manager
-3. Navigate up to `/` and then select `media` - you should see your drive listed after opening media
-4. Open your drive and you should see its contents
-5. From here you can navigate to the file(s) you would like to copy and then navigate back to the `userdata/roms` directory and paste your copied files in the approrpiate folder.
+Some third-party developers offer software solutions to access Linux file systems from Windows/MacOS:
 
-## Option 4: Linux OS
+* Paragon EXTFS for Windows/Mac is a tool which is not free but it's highly recommended since it allows seamless access to ext2/3/4.
+* DiskGenius on Windows is an tool which we cannot recommend since it performs badly and tends to corrupt the partition and its content.
 
-KNULLI' storage drive is formated as ext4 which can be read natively by linux operating systems.  Plugging in your SD card into an linux OS will enable you to browse the directories and add files directly.
+!!! danger "We generally do **not** recommend using third party software to access Linux file systems. If you know what you are doing, you may try this approach anyway. However, you should be aware that you risk data loss."
+
+### Devices with a second SD card
+
+If you have slot for a second SD card available, you can simply format a second SD card to exFAT on your computer and set it up as explained in the section [Using a second SD card](#using-a-second-sd-card).
+
+## Option 3: Linux
+
+If you have access to a Linux computer, you will be able to access the *SHARE* partition anyway, even if it is formatted to ext4. Simply plug your card into your Linux computer and you will be able to browse the directories and add files directly.
