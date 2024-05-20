@@ -1,6 +1,6 @@
 # SSH
 
-Als fortgeschrittener Nutzer möchtest du möglicherweise auf die Kommandozeile (oder Shell) deines KNULLI-Gerät zugreifen, um Linux-Befehle direkt eingeben zu können. KNULLI stellt dafür einen SSH-Zugang bereit. Es gibt viele verschiedene SSH-Clients, die du nutzen kannst. Für Windows-Nutzer empfehlen wir [SmarTTY](https://sysprogs.com/SmarTTY) oder [PuTTY](https://www.putty.org).
+Als fortgeschrittener Nutzer möchtest du möglicherweise auf die Kommandozeile (oder Shell) deines KNULLI-Gerätes zugreifen, um Linux-Befehle direkt eingeben zu können. KNULLI stellt dafür einen SSH-Zugang bereit. Es gibt viele verschiedene SSH-Clients, die du nutzen kannst. Für Windows-Nutzer empfehlen wir [SmarTTY](https://sysprogs.com/SmarTTY) oder [PuTTY](https://www.putty.org).
 
 Um mit deinem KNULLI-Gerät eine SSH-Verbindung aufzubauen, musst du das Gerät zuerst mit deinem lokalen Netzwerk verbinden, wie im Abschnitt [Netzwerkverbindungen](../networking) beschrieben.
 
