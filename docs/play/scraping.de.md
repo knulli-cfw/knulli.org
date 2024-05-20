@@ -24,6 +24,15 @@ Das Theme zeigt
 
 !!! info "Wenn du ein anderes Theme anstelle des Standardthemes benutzt, kann es sein, dass du keine/andere Metadaten und Medien angezeigt bekommst. Falls deine gescrapeten Informationen nicht korrekt angezeigt werden und du ein Theme benutzt, das du selbst installiert hast, bitte schau in der Dokumentation des Themes nach einer Lösung."
 
+## Gescrapete Daten und Artworks von einem anderen EmulationStation-Gerät übernehmen
+
+Wenn du bereits ein anderes Gerät hast, das EmulationStation als Frontend nutzt, möchtest du möglicherweise deine gescrapeten Daten übernehmen, wenn du deine Spiele auf dein KNULLI-Gerät überträgst. Bitte stelle dabei sicher, dass du **sowohl** alle Unterordner mit gescrapeten Dateien **als auch** die `gamelist.xml`-Dateien für jedes System übernimmst. Die Gamelist-Dateien enthalten Referenzen, um die gescrapeten Bilder und Videos den jeweiligen Spielen zuzuordnen. Ohne diese Referenzen werden die gescrapeten Dateien auf dem KNULLI-Gerät nicht angezeigt.
+
+
+Wenn du beispielsweise deine SNES-ROMs mit allen gescrapeten Daten übertragen möchtest, kopiere einfach den gesamten Inhalt des `roms/snes`-Ordner deines alten Systems in den `roms/snes`-Ordner deines KNULLI-Geräts. Achte darauf, dass du die existierende `gamelist.xml` auf deinem KNULLI-Gerät mit der Datei aus deinem alten System überschreibst.
+
+Falls deine gescrapeten Daten nicht sofort sichtbar werden, drücke ++"Start"++ um das Hauptmenü zu offnen. Wähle dort *Game settings* und dann *Update gamelists*. Anschließend sollten alle Medien und Metadaten deiner Spiele korrekt angezeigt werden. Falls das nicht geklappt hat, kann es sein, dass die gescrapeten Medien (oder die Gamelist-Dateien) deines alten Systems nicht kompatibel sind mit der Version von EmulationStation oder dem Theme, das KNULLI verwendet. In diesem Fall wirst du wahrscheinlich deine Medien und Metadaten mit dem in KNULLI integrierten Scraper erneut scrapen müssen..
+
 ## Scrapen
 
 Es gibt zwei verschiedene Möglichkeiten, um Informationen aus den Quellen zu scrapen, die KNULLI unterstützt. Du kannst entweder Informationen für deine ganze Spielesammlung (oder Teile deiner Spielesammlung) scrapen, oder du kannst Informationen für ein einzelnes spezifisches Spiel scrapen. Aber bevor du mit dem Scrapen beginnst, solltest du sicherstellen, dass der Scraper so eingestellt ist, wie du es gerne möchtest.

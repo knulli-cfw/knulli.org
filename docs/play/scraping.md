@@ -24,6 +24,14 @@ The theme displays
 
 !!! info "If you switch to a different theme, you might not be able to display the same media. If your scraped media is not displayed as expected in a theme you manually installed, please refer to the theme's documentation for help."
 
+## Adopt scraped media from another EmulationStation-based device
+
+If you already have another device with EmulationStation as a frontend, you might want to transfer all your scraped media along with your games. If you do that, please make sure that you include all the subfolders for your scraped media **and** the `gamelist.xml` files of every system. The gamelist files contain references to the scraped media, without those references, the scraped media will not be displayed.
+
+For example, if you want to migrate your SNES ROMs with all the scraped media included, make sure that you transfer the entire `roms/snes` folder from your previous device to the `roms/snes` folder of your KNULLI device. Make sure to replace the existing `gamelist.xml` on the KNULLI device with the one from your previous device.
+
+If your scraped media does not show up,  press the ++"Start"++ button to open the main menu, go to *Game settings* and select *Update gamelists*. Afterwards, you should find that the media and metadata for the game are displayed as expected. If that does not work, your previously scraped media (or the respective gamelist files) might not be compatible with the EmulationStation version or the theme KNULLI is using. In this case, you might want to rescrape your media directly with the build-in scraper of KNULLI.
+
 ## Scraping media
 
 To scrape media from any of the sources KNULLI supports, there are two different options. You may either scrape media for your whole collection (or parts of your collection) or you can scrape media for a single game. But before you scrape, make sure that your scraper settings are set up the way you like them to be.
