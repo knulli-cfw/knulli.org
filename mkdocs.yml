@@ -123,6 +123,7 @@ plugins:
             Install: Installation
             Update: Aktualisieren
             Add Games: Spiele hinzufügen
+            Scraping: Scraping
             Achievements: Achievements
             Controls: Steuerung
             Configure: Konfiguration
@@ -166,6 +167,7 @@ nav:
       - Install: play/install.md
       - Update: play/update.md
       - Add Games: play/add-games.md
+      - Scraping: play/scraping.md
       - Achievements: play/retro-achievements.md
       - Controls: play/controls.md
       - Netplay: play/netplay.md
