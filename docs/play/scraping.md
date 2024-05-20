@@ -2,7 +2,7 @@
 
 Once you added all your games to your KNULLI device, you might want to add box art and other metadata for your games. Of course, you can always edit the `gamelist.xml` files manually and fill in all the metadata. However, KNULLI supports scraping media and metadata automatically from three different sources: [ScreenScraper](https://www.screenscraper.fr), [TheGamesDB](https://thegamesdb.net) and [ArcadeDB](http://adb.arcadeitalia.net).
 
-!!! info "The built-in scraper attempts to find media and metadata for your games based on the file names of the game ROMs (or launch scripts for ports). If the file names contain region information (like `(U)` or `(EU)`, the scraper will take that into account. Make sure the ROMs and scripts are named properly, otherwise the scraper will fail to identify the game. If you cannot provide a readable name for your game, as some systems require the scripts to have specific names (e.g., ScummVM), don't worry - you can scrape data for those games manually."
+!!! info "The built-in scraper attempts to find media and metadata for your games based on the file names of the game ROMs (or launch scripts for ports). If the file names contain region information (like `(U)` or `(EU)`), the scraper will take that into account. Make sure the ROMs and scripts are named properly, otherwise the scraper will fail to identify the game. If you cannot provide a readable name for your game, as some systems require the scripts to have specific names (e.g., ScummVM), don't worry - you can scrape data for those games manually."
 
 ## Displaying scraped media
 
