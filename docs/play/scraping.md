@@ -28,7 +28,7 @@ The theme displays
 
 To scrape media from any of the sources KNULLI supports, there are two different options. You may either scrape media for your whole collection (or parts of your collection) or you can scrape media for a single game. But before you scrape, make sure that your scraper settings are set up the way you like them to be.
 
-!!! info "Some scrapers have a limit for the amount of data/media you are allowed to scrape per day. Make sure to avoid unnecessary scraping by setting up your scraper properly before you begin scraping."
+!!! info "Some scraper sources have a limit for the amount of data/media you are allowed to scrape per day. Make sure to avoid unnecessary scraping by setting up your scraper properly before you begin scraping."
 
 #### Scraper settings
 
