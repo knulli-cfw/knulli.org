@@ -12,7 +12,7 @@ The theme displays
 
 * in the game list of the respective system
     * either *boxart* or *image* as the game artwork.
-        * press the ++"Start"++ button and go to the *Theme configuration* section of the *User interface settings* to toggle *Game artwork*.
+        * Press the ++"Start"++ button and go to the *Theme configuration* section of the *User interface settings* to toggle *Game artwork*.
     * a scraped video to preview some gameplay in the game list.
     * the description of the game.
     * the community rating.
