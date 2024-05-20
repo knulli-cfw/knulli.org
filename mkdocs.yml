@@ -173,6 +173,7 @@ nav:
       - Netplay: play/netplay.md
     - Configure:
       - Networking: configure/networking.md
+      - SSH: configure/ssh.md
     - Systems:
       - Engines:
         - Pico-8: systems/pico-8.md
