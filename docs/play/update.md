@@ -1,6 +1,6 @@
 #  :material-update: Updating KNULLI
 
-On devices, which can be connected to the internet, KNULLI can be updated "over the air" (OTA). Alternatively, KNULLI can also be updated by downloading the respective update file and installing it manually.
+On devices which can be connected to the internet, KNULLI can be updated "over the air" (OTA). Alternatively, KNULLI can also be updated by downloading the respective update file and installing it manually.
 
 ## Option 1: OTA update
 
