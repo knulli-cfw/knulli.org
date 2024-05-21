@@ -31,7 +31,23 @@ Pico-8 games are best played with the native engine as it supports all Pico-8 fe
     └─ pico8.dat
 ```
 
-##### 2) EmulationStation
+##### 2) Make sure that Pico8 is executable
+
+By default, the `pico8` and `pico8_64` files from the Raspberry Pi zip file are already marked as executable (`-rwxr-xr-x`). However, if you unzip the file on a Windows machine, Linux permissions are lost in the process. Therefore, the file you copied to your BIOS folder might no longer be executable.
+
+To make sure that the file is executable again, you may establish an SSH connection (see [SSH](../../configure/ssh) section for details) and enter the following command on the shell of your KNULLI device to add the executable permission (`x`) for all three user types:
+
+```
+chmod +x /userdata/bios/pico-8/pico8
+```
+
+The file should now be executable. You may verify by typing the following command and making sure, that the permission list in the result contains all three `x`es:
+
+```
+ls -l /userdata/bios/pico-8/pico8
+```
+
+##### 3) EmulationStation
 
 - copy the following text into a file called `es_systems_pico8.cfg`
 ``` bash title="es_systems_pico8.cfg"
