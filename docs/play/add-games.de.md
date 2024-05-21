@@ -19,7 +19,7 @@ Die größte Partition auf deiner SD-Karte ist die *SHARE*-Partition. *SHARE* wi
 Im Verzeichnis `/userdata` befinden sich weitere Unterordner, in denen du Spiele und weitere Dateien ablegen kannst. Die wichtigsten Ordner für dich sind folgende:
 
 * `/userdata`
-    * `/roms` ist der Ordner, in dem du deine Spiele ablegen kannst. Der Ordner enthält bereits diverse Unterordner für verschiedene Systeme. Leg deine Spiele einfach in die passenden Ordner für die Systems, für die das jeweilige Spiel entwickelt wurde.
+    * `/roms` ist der Ordner, in dem du deine Spiele ablegen kannst. Der Ordner enthält bereits diverse Unterordner für verschiedene Systeme. Leg deine Spiele einfach in die passenden Ordner der Systeme, für die das jeweilige Spiel entwickelt wurde.
     * `/bios` ist der Ordner, in dem du BIOSe ablegen kannst.
     * `/music` ist der Ordner, in dem du MP3s und OGG-Dateien ablegen kannst, die in EmulationStation als Hintergrundmusik abgespielt werden können. (Die Songs sollten eine Samplerate von 44100Hz haben und eine Bitrate von maximal 256 kb/s.)
     * `/saves` ist der Ordner, in dem deine gespeicherten Spielstände abgelegt werden.
