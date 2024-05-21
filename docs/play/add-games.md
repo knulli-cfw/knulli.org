@@ -16,10 +16,10 @@ The biggest partition on your SD card is the *SHARE* partition. By default, KNUL
 
 ### The userdata folder
 
-Inside the `/userdata` folder, you will find subfolders, where you can store your games and other files. The most important folders for you to know are the following:
+Inside the `/userdata` folder, you will find subfolders where you can store your games and other files. The most important folders for you to know are the following:
 
 * `/userdata`
-    * `/roms` is the folder, where you can store your games. Inside the folder you will find subfolders for all supported systems. Simply place your game files into the folders of the system the game was made for.
+    * `/roms` is the folder where you can store your games. Inside the folder you will find subfolders for all supported systems. Simply place your game files into the folders of the system the game was made for.
     * `/bios` is the folder where you can store your BIOSes.
     * `/music` is the folder where you can store MP3 and OGG files to have them play as background music on EmulationStation. (The songs should have a sample rate of 44100Hz and a bitrate of 256kb/s max.)
     * `/saves` is the folder where your savegames will be stored.
