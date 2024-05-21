@@ -4,7 +4,7 @@ KNULLI has a few options for adding games. Depending on the capabilites of your 
 
 ## Data storage structure
 
-When you install KNULLI on a SD card, several partitions will be created, which will be shown to you as different drives on your computer. Most of these drives can only be accessed from a Linux operating system. On Windows, they are not accessible.
+When you install KNULLI on a SD card, several partitions will be created, which will be shown to you as different drives on your computer. Most of these drives can only be accessed from a Linux operating system. They are not accessible on Windows.
 
 !!! danger "You should never format the KNULLI partitions which Windows cannot read, no matter how strongly Windows suggests that."
 
