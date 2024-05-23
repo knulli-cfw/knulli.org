@@ -8,7 +8,7 @@ The PortMaster library is huge and contains almost 500 different games already. 
 
 The library is divided in two major categories:
 
-* Ports which are *"Ready to run"* are ports of free open source games which you can install and immediately start playing.
+* Ports which are *"Ready to run"* are ports of free games which you can install and immediately start playing.
 * Ports with *"Files needed"* are ports of commercially released games where essential game files have to be provided from your own copy of the game.
 
 !!! info "Some PortMaster games only run on drives which are formatted to ext4. You will find information on how to reformat your drive in the [Add Games](../../play/add-games) section."
