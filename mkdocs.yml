@@ -185,6 +185,7 @@ nav:
         - RG35xx Plus: devices/anbernic/rg35xx-plus.md
         - RG35xx H: devices/anbernic/rg35xx-h.md
         - RG35xx 2024: devices/anbernic/rg35xx-2024.md
+        - RG35xx SP: devices/anbernic/rg35xx-sp.md
       - Capcom:
         - Retro Station Tron: devices/capcom/retro-station-tron.md
       - Orange Pi Zero 2w:
