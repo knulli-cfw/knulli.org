@@ -9,7 +9,7 @@ The PortMaster library is huge and contains almost 500 different games already. 
 The library is divided in two major categories:
 
 * Ports which are *"Ready to run"* are ports of free games which you can install and immediately start playing.
-* Ports with *"Files needed"* are ports of commercially released games where essential game files have to be provided from your own copy of the game.
+* Ports with *"Files needed"* are ports of commercially released games. To be able to run these ports, you will have to provide essential files from the games you bought.
 
 !!! info "Some PortMaster games only run on drives which are formatted to ext4. You will find information on how to reformat your drive in the [Add Games](../../play/add-games) section."
 
@@ -44,6 +44,8 @@ Now, you will have to take care of the files needed to be able to play the game.
 
 The [Games](https://portmaster.games/games.html) section of the PortMaster website will provide you with instructions which files you will need and where to put them. Additionally, you might find a `readme` file in the folder where the port is stored. Depending on the game, you might need a specific version to be compatible with the port. You will often find compatible versions of the games on [GOG](https://gog.com) or [Steam](https://store.steampowered.com), however, you should read the instructions of the respective port carefully before buying the game to be sure that you found the right version of it.
 
-After you added all the required files, the game should be run. Simply go to the *Ports* category, find the game, and launch it!
+After you added all the required files, the game should be ready to run. Simply go to the *Ports* category, find the game, and launch it!
+
+!!! info "During first launch, some ports will take some time to compress and/or compile and/or repackage files from the original game. Depending on the game, this may take several minutes, sometimes even longer. Do not panic if the first launch takes some time. Do not panic if you see a lot of command-line messages. Some games may even require several attempts to prepare all the necessary assets for playing the game on your handheld. Be patient."
 
 If the game does not show up, press ++"Start"++ and pick *Game settings* and *Update gamelists* to restart EmulationStation and detect new games. If that did not help, launch *PortMaster*, find the game in the *Manage Ports* section and reinstall it.
