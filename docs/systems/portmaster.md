@@ -34,7 +34,7 @@ There is also an *Options* section where you will find settings for PortMaster i
 
 To install a ready-to-run game, simply find it in the *Ready To Run Ports* section and install it by following the on-screen instructions. Once you are done installing your games, exit PortMaster from the PortMaster main menu. EmulationStation will restart automatically to apply the changes and detect the newly installed games. You will now find the game in the *Ports* category.
 
-If the game does not show up, press ++"Start"++ and pick *Game settings* and *Update gamelists* to restart EmulationStation and detect new games. If that did not help, launch *PortMaster*, find the game in the *Manage Ports* section and reinstall it.
+If the game does not show up, press ++"Start"++ and pick *Game settings* and *Update gamelists* to restart EmulationStation and detect new games. If that does not help, launch *PortMaster*, find the game in the *Manage Ports* section and reinstall it.
 
 ### Installing games with files needed
 
@@ -48,4 +48,4 @@ After you added all the required files, the game should be ready to run. Simply 
 
 !!! info "During first launch, some ports will take some time to compress and/or compile and/or repackage files from the original game. Depending on the game, this may take several minutes, sometimes even longer. Do not panic if the first launch takes some time. Do not panic if you see a lot of command-line messages. Some games may even require several attempts to prepare all the necessary assets for playing the game on your handheld. Be patient."
 
-If the game does not show up, press ++"Start"++ and pick *Game settings* and *Update gamelists* to restart EmulationStation and detect new games. If that did not help, launch *PortMaster*, find the game in the *Manage Ports* section and reinstall it.
+If the game does not show up, press ++"Start"++ and pick *Game settings* and *Update gamelists* to restart EmulationStation and detect new games. If that does not help, launch *PortMaster*, find the game in the *Manage Ports* section and reinstall it.
