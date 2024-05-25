@@ -21,36 +21,22 @@ A: Because batocera license does not allow for closed sourced kernels to be adde
 
 A: The goal is to maintain compatibility with batocera, but with focus on low powered devices or devices that don't necessarily benefit from some features that have an impact on device performance, etc. For instance, devices with low memory (256MB like Powkiddy A12/A13 or RG35XX Classic). Then there's also the intention to add features currently present in [JelOS](https://jelos.org)/[Rocknix](https://github.com/rocknix), [EmuELEC](https://github.com/EmuELEC), etc. 
 
-### Q: Where can I download the latest version
+### Q: Where can I download the latest version?
 
-A: Check the downloads sections (TBC)
+You will find the latest version of KNULLI on our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). Find the download for your device in the `Installation Package Downloads` section and follow the [Installation guide](../play/install) to install KNULLI on your device. If your device is not listed there, please be patient - there is no public release on KNULLI for your device available, yet.
 
 ---
 
-### Q: Which devices are supported
+### Q: Which devices are supported?
 
-A: Check the list of supported devices
+You will find a list of all currently supported devices in the `Installation Package Downloads` section of our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). If your device is not listed there, there is no public release on KNULLI for your device available, yet.
 
 ---
 
 ### Q: I want to add my own roms to the SDCARD but my Windows/Mac computer can't see the roms partition
 
 A: By default KNULLI formats the second partition with Linux EXT4 file format. That format is typically
-not readable/mountable under Windows/Mac. To solve that you need to use one of the following approaches:
-
-* Use Paragon EXTFS for Windows/Mac. This tool is not free but it's highly recommended since it allows seamless 
- access to EXT2/3/4
-* Use DiskGenius on Windows. Not recommended. DiskGenius performs badly and tends to corrupt the partition and its content
-* Format the second partition as FAT32:
-    * Insert the SDCARD on your PC/MAC
-    * On Windows, open the partition tool and erase/format the second partition (SHARE) as FAT32
-    * On Mac, unfortunately you will need use the command line to completely reformat the partition. Open Disk Utility and note the 
-   disk number and partition of your usb (e.g. disk4s2). Open a terminal and reformat the partition with the following command:
-   ```sudo diskutil eraseVolume ms-dos SHARE /dev/disk4s2```
-    * Eject the SDCARD from your computer and insert it again on the RG35XX
-    * Power the device on
-    * KNULLI will re-populate the partition with the correct contents. After the system boots you can power it off and insert the sdcard
-   on your computer to add your bios/roms or any other content.
+not readable/mountable under Windows/Mac. We propose to use network transfer instead. Alternatively, you may reformat the partition from within KNULLI. Please refer to the [Add Games](../play/add-games) section for details.
 
 ---
 
