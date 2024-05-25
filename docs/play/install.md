@@ -9,6 +9,8 @@ KNULLI is installed by downloading an image for your device, flashing it to an S
     * Make sure to download the correct image for your device.  For example; if you are installing KNULLI on a [RG35XX](../devices/anbernic/rg35xx.md) you would download the `rg35xx` image.
     * If you have any questions you can check the [Device Support](../devices/index.md) section to confirm which image you should download for your specific device.
 
+!!! warning "If your device is **not** listed among the `Installation Package Downloads`, there is no public release of Knulli for your device, yet. You should **not** attempt to use a package for a different device."
+
 ## Step 2: Flash
 
 * First decompress the image.
