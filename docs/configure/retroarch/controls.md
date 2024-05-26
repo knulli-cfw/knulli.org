@@ -12,13 +12,16 @@ Changing controls for an entire *core* might come in handy if you want to change
 
 Changing controls for a single *game* will help you to adapt controls for a single game without messing up controls for every other game of the same core.
 
-## Manage your remap files
+## Remap your controls
 
 After you made a decision on whether you want a *game* or *core* specific remapping, hold ++"F"++ (the function button) and press ++"B"++ to bring up the RetroArch menu while playing the game.
 
 - Go to the *Controls* section and select *Manage Remap Files*.
-- Check if there is already an *Active Remap File* indicated at the top of the menu.
-- If no active remap file is selected (or the active remap file is not the remap file you want to use),
+- Check if there is already an *Active Remap File* indicated at the top of the menu and if that is the remap file you would like to edit.
+    - If the file is named like the game, it is a *game* remap file.
+    - If the file is named like the system it is a *core* remap file.
+    - If the file is named `common.rmp` it is the *default* remap file. (You should not try to edit this one.)
+- If the default remap file is selected (or the active remap file is not the remap file you want to use),
     - pick *Save Game Remap File* to create a game remap file or
     - pick *Save Core Remap File* to create a core remap file.
 - If you want to permanently delete the current remap file
@@ -27,6 +30,6 @@ After you made a decision on whether you want a *game* or *core* specific remapp
 - After you made sure the *Active Remap File* indicates the file you want to use and modify,
     - return the previous section (*Controls*),
     - pick the control port you want to remap (for the controls integrated in your KNULLI device, use *Port 1 Controls*), and
-    - find the controller button you want to reassign and assign it to the desired system input.
+    - find the input of your device that you want to reassign (first/left column) and assign it to the desired input of the emulated system (second/right column).
 
 Once you are done remapping, return to your game. All changes you made will be stored in the currently active remap file and will be automatically restored when you launch the game again.
