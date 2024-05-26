@@ -8,7 +8,7 @@ When you install KNULLI on a SD card, several partitions will be created, which 
 
 !!! danger "You should never format the KNULLI partitions which Windows cannot read, no matter how strongly Windows suggests that."
 
-The *BATOCERA* drive will be the only drive which was formatted to FAT32, to make it accessible on Windows. However, this is just the place where the operating system itself is stored, so it is not a place to store your games. You still might need access to the *BATOCERA* partition if you want to update KNULLI manually as described in the [update](../update) section.
+The *BATOCERA* drive will be the only drive formatted to FAT32, to make it accessible on Windows. However, this is just the place where the operating system itself is stored, so it is not a place to store your games. You still might need access to the *BATOCERA* partition if you want to update KNULLI manually as described in the [update](../update) section.
 
 ### The share partition
 
