@@ -23,13 +23,13 @@ A: The goal is to maintain compatibility with batocera, but with focus on low po
 
 ### Q: Where can I download the latest version?
 
-You will find the latest version of KNULLI on our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). Find the download for your device in the `Installation Package Downloads` section and follow the [Installation guide](../play/install) to install KNULLI on your device. If your device is not listed there, please be patient - there is no public release on KNULLI for your device available, yet.
+You will find the latest version of KNULLI on our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). Find the download for your device in the `Installation Package Downloads` section and follow the [Installation guide](../play/install) to install KNULLI on your device. If your device is not listed there, please be patient - there is no public release of KNULLI for your device available, yet.
 
 ---
 
 ### Q: Which devices are supported?
 
-You will find a list of all currently supported devices in the `Installation Package Downloads` section of our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). If your device is not listed there, there is no public release on KNULLI for your device available, yet.
+You will find a list of all currently supported devices in the `Installation Package Downloads` section of our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). If your device is not listed there, there is no public release of KNULLI for your device available, yet.
 
 ---
 
