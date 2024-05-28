@@ -9,6 +9,8 @@ Um KNULLI installieren zu können, musst du als erstes ein passendes Image für 
     * Stelle sicher, dass du das richtige Image für dein Gerät herunterlädst. Wenn du KNULLI z.B. auf einem [RG35XX](../../devices/anbernic/rg35xx) installieren möchtest, musst du das `rg45xx`-Image herunterladen.
     * Wenn unklar ist, welches Image für dein Gerät geeignet ist, kannst du im Abschnitt [Unterstützte Geräte](../../devices) überprüfen, welches Image du für dein Gerät herunterladen solltest.
 
+!!! warning "Falls dein Gerät *nicht* ist der Liste der `Installation Package Downloads` enthalten ist, gibt es noch keine öffentlich zugängliche Releaseversion von Knulli für dein Gerät. Du solltest *nicht* versuchen, ein Installationspaket für ein anderes Gerät zu installieren."
+
 ## Schritt 2: Speicher flashen
 
 * Entpacke zunächst das komprimierte Image (z.B. mit [7-Zip](https://7-zip.org/)).

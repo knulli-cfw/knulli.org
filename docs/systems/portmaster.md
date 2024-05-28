@@ -11,7 +11,7 @@ The library is divided in two major categories:
 * Ports which are *"Ready to run"* are ports of free games which you can install and immediately start playing.
 * Ports with *"Files needed"* are ports of commercially released games. To be able to run these ports, you will have to provide essential files from the games you bought.
 
-!!! info "Some PortMaster games only run on drives which are formatted to ext4. You will find information on how to reformat your drive in the [Add Games](../../play/add-games) section."
+!!! info "Some PortMaster games only run on drives which are formatted to ext4. For this reason, KNULLI formats the *SHARE* partition to ext4 by default. However, if you re-formatted the *SHARE* partition to exFAT or if you use a second SD card which is formatted to exFAT, some PortMaster games might not work on your device. You will find information on how to reformat your drive to ext4 in the [Add Games](../../play/add-games) section."
 
 ## Installing PortMaster
 

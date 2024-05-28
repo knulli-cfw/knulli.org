@@ -1,8 +1,10 @@
 # Device Support
 
-KNULLI supports a variety of ARM based devices.
+We are working on KNULLI versions for a variety of ARM based devices.
 
 There are two main categories, those that have GPU support and include Emulation Station as their main interface, and others that are currently framebuffer based only (legacy) that typically use Simplemenu as the main interface.
+
+!!! info "Not all devices we are currently working on have received a public release of KNULLI, yet. To find out if KNULLI is already available for your device, visit the [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). You will find a list of all currently supported devices in the `Installation Package Downloads` section. If you find a package for your device there, you should follow the [Installation guide](../../play/install) to install KNULLI on your device. If your device is **not** listed there, please be patient. There is no public release available, yet. Do *not* attempt to install a package for a different device - it will not work."
 
 ## GPU supported devices
 

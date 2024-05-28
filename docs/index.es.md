@@ -26,7 +26,7 @@ KNULLI soporta dispostivos con GPU (soporte a través de GLES) y aquellas que s�
 
 ## Comunidad
 
-KNULLI utiliza las páginas de discusión de Discord y [:simple-github: GitHub](https://github.com/knulli-cfw/distribution/discussions), si te gustaría unirte a nosotros por favor usa este enlace: [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB)
+KNULLI utiliza las páginas de discusión de Discord, si te gustaría unirte a nosotros por favor usa este enlace: [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB)
 
 ## Licencias
 
