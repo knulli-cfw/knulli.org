@@ -35,6 +35,7 @@ KNULLI is installed by downloading an image for your device, flashing it to an S
 ## Next Steps
 
 * [Set up Networking](../../configure/networking)
+* [Set up Controls](../../configure/controls)
 * [Add Games](../../play/add-games)
 * [Scraping](../../play/scraping)
 * [Themes](../../configure/themes)
