@@ -125,7 +125,7 @@ plugins:
             Add Games: Spiele hinzufügen
             Scraping: Scraping
             Achievements: Achievements
-            Controls: Steuerung
+            Controls: Controller
             Configure: Konfiguration
             Networking: Netzwerkverbindungen
             Unbranded: Ohne Marke
@@ -169,10 +169,10 @@ nav:
       - Add Games: play/add-games.md
       - Scraping: play/scraping.md
       - Achievements: play/retro-achievements.md
-      - Controls: play/controls.md
       - Netplay: play/netplay.md
     - Configure:
       - Networking: configure/networking.md
+      - Controls: configure/controls.md
       - SSH: configure/ssh.md
       - Retroarch:
         - Controls: configure/retroarch/controls.md

@@ -35,6 +35,7 @@ Um KNULLI installieren zu können, musst du als erstes ein passendes Image für 
 ## Nächste Schritte
 
 * [Netzwerk konfigurieren](../../configure/networking)
+* [Controller konfigurieren](../../configure/controls)
 * [Spiele hinzufügen](../../play/add-games)
 * [Scrapen](../../play/scraping)
 * [Themes installieren und konfigurieren](../../configure/themes)
