@@ -16,7 +16,7 @@ If you press a wrong button, don't worry: You will always be able to return to t
 
 To use a Bluetooth controller with your KNULLI device, you first need to make sure that both your device and your controller support Bluetooth. If so, press ++"Start"++ to bring up the main menu and go to the *Controller & Bluetooth Settings*. Here, you will be able to *Enable Bluetooth* if it is not enabled, yet.
 
-Once Bluetooth is enabled, either try to *Pair Bluetooth Pads Automatically* or select *Pair A Bluetooth Device Manually* and find your device in a list of available Bluetooth devices in your vicinity. If your device does not show up or pairing does not work as expected, check the manual of your device for pairing instructions.
+Once Bluetooth is enabled, either try to *Pair Bluetooth Pads Automatically* or select *Pair A Bluetooth Device Manually* and find your controller in a list of available Bluetooth devices in your vicinity. If your controller does not show up or pairing does not work as expected, check the manual of your controller for pairing instructions.
 
 Once the Bluetooth controller is paired and connected, you may want to proceed with [Controller mapping](#controller-mapping).
 
