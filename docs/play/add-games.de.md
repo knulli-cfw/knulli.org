@@ -1,5 +1,8 @@
 # :material-layers-plus: Spiele zu KNULLI hinzufügen
 
+
+!!! info "Anders als viele andere CFWs formattiert KNULLI die *SHARE*-Partition standardmäßig mit ext4. Das Dateisystem ext4 ist unter Windows nicht lesbar, d.h. du wirst deine Spiele möglicherweise nicht auf die gleiche Weise hinzufügen können, wie du es von anderen CFWs gewohnt bist. Der Grund dafür ist, dass einige Spiele aus der [PortMaster](../../systems/portmaster)-Bibliothek auf das ext4-Dateisystem angewiesen sind, da sie symbolische Links und große Swap-Dateien einsetzen, die von Windows-Dateisystemen nicht unterstützt werden. Es ist möglich, die Partition nach dem ersten Bootvorgang stattdessen [mit exFAT zu formatieren](#die-share-partition-mit-exfat-formatieren). Du solltest dir allerdings darüber im Klaren sein, dass einige PortMaster-Spiele dann nicht mehr funktionieren werden."
+
 Es gibt verschiedene Möglichkeiten, um Spiele auf dein KNULLI-Gerät zu laden. Welche Möglichkeiten für dich geeignet sind, hängt davon ab, welche Funktionen auf deinem Gerät zur Verfügung stehen. Wenn dein Gerät beispielsweise keine geeignete Hardware hat, um einem Netzwerk beizutreten, kannst du natürlich keine Daten via Netzwerk übertragen. Außerdem spielt es natürlich eine Rolle, welches Gerät dir als Datenquelle zur Verfügung steht.
 
 ## Datenstruktur
@@ -40,8 +43,10 @@ Wenn du KNULLI auf einem Gerät installierst, das über zwei SD-Karten-Slots ver
 * Im Abschnitt *Storage* kannst du das *Storage device* auswählen.
     * Stelle von *Internal* (der "interne" Speicher ist die *SHARE*-Partition deiner KNULLI-SD-Karte) auf den Namen deiner zweiten SD-Karte, z.B. *SHARE - 25.6G*.
 * Reboote KNULLI, um die Änderungen wirksam zu machen, drücke dazu den ++"Start"++-Button und gehe im Hauptmenü zu *Quit* und wähle dort *Restart system*.
-* Beim Neustart wird KNULLI auf deiner zweiten SD-Karte automatisch einen Ordner `/batocera` anlegen und alle Unterordner, die du normalerweise auf der *SHARE*-Partition findest.
+* Beim Neustart wird KNULLI auf deiner zweiten SD-Karte automatisch alle Ordner und Dateien anlegen, die du normalerweise im [Nutzerdatenverzeichnis](#das-nutzerdatenverzeichnis) bzw. auf der *SHARE*-Partition findest.
 * Wenn die zweite SD-Karte mit exFAT formatiert ist, kannst du die Karte aus dem Slot nehmen, nachdem du das Gerät heruntergefahren hast, und über deinen Computer mit Daten füllen.
+
+!!! info "Ältere Alpha-Versionen von KNULLI haben auf der zweiten SD-Karte einen Ordner `batocera` angelegt, in dem die Ordner und Dateien des [Nutzerdatenverzeichnisses](#das-nutzerdatenverzeichnis) abgelegt wurden. Um Kompatiblität mit aktuellen KNULLI-Releases sicherzustellen, kannst du einfach den gesamten Inhalt des `batocera`-Ordners auf die oberste Ebene deiner zweiten SD-Karte verschieben."
 
 ## Option 1: Netzwerkübertragung
 

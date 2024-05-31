@@ -1,5 +1,7 @@
 # :material-layers-plus: Adding Games to KNULLI
 
+!!! info "Unlike many other CFWs, KNULLI formats the *SHARE* partition to ext4 by default. The ext4 filesystem is not readable by Windows, so by default, you will not be able to add games in the same way you might be used to from other CFWs. However, some games from the [PortMaster](../../systems/portmaster) library only work on ext4 filesystems because they rely on symbolic links and large swap files. It is possible to [reformat the partition to exFAT](#reformat-the-share-partition-to-exfat) after first boot, however, you should be aware that some PortMaster games might not work on your device if you choose to reformat to exFAT."
+
 KNULLI has a few options for adding games. Depending on the capabilites of your device, you will have to determine which option to choose. For example, some devices do not have networking capabilites, so with those devices you will not be able to use the network transfer options. Additionally, you might have to consider the computer you will use as a data source, since some options are restricted to specific operating systems.
 
 ## Data storage structure
@@ -40,8 +42,10 @@ If you use KNULLI on a device which has a second SD card slot, you may use the s
 * Find the *Storage* section where you can choose your *Storage device*.
     * Switch fom *Internal* (the "internal" storage is the *SHARE* partition of your KNULLI SD card) to the name of your second SD card, e.g., *SHARE - 25.6G*.
 * Reboot KNULLI to apply the changes by pressing the ++"Start"++ button and choosing *Restart system* in the *Quit* section.
-* During reboot, KNULLI will populate the second SD card with a folder named `/batocera` and all the required subfolders you usually find on the *SHARE* partition.
+* During reboot, KNULLI will automatically populate the second SD card with all the folders and files you would usually find in the [userdata folder](#the-userdata-folder)/*SHARE* partition.
 * If your second SD card is formatted to exFAT, you can now take the card out of the device when it is shut off. You can put the card in your computer to access it and populate it with your data.
+
+!!! info "Older alpha versions of KNULLI created a subfolder `batocera` on your SD card and stored the contents of the [userdata folder](#the-userdata-folder)/*SHARE* partition there. To maintain compatibility with current KNULLI releases, simply move the entire contents of the `batocera` folder to the top level of your second SD card."
 
 ## Option 1: Network transfer
 
