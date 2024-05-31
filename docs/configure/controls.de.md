@@ -4,7 +4,7 @@
 
 Obwohl KNULLI eigentlich für Handheld-Geräte entwickelt wurde, unterstützt es zusätzlich viele verschiedene Arten von USB- und Bluetooth-Controllern. Bevor du einen Controller an deinem KNULLI-Gerät verwenden kannst, kann es allerdings nötig sein, die Tasten des Controllers ihren jeweiligen Funktionen zuzuordnen.
 
-!!! danger "Verwechsel die Einrichtung des Controllers nicht mit der Anpassung der Tastenbelegung für einzelne *Spiele* oder *Emulation-Cores*! In diesem Abschnitt geht es um die *generelle* Einrichtung der *Hardware*. Wenn du die Tastenbelegung für einzelne *Spiele*, emulierte Konsolen oder die dafür eingesetzten *Emulation-Cores* anpassen möchtest, schau bitte in die Anleitung für den jeweiligen *Core* (z.B. [Retroarch](./retroarch/controls))."
+!!! danger "Verwechsel die Einrichtung des Controllers nicht mit der Anpassung der Tastenbelegung für einzelne *Spiele* oder *Emulation-Cores*! In diesem Abschnitt geht es um die *generelle* Einrichtung der *Hardware*. Wenn du die Tastenbelegung für einzelne *Spiele*, emulierte Konsolen oder die dafür eingesetzten *Emulation-Cores* anpassen möchtest, schau bitte in die Anleitung für den jeweiligen *Core* (z.B. [Retroarch](../retroarch/controls))."
 
 ## Controller einrichten
 

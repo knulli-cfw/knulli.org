@@ -4,7 +4,7 @@
 
 Even though it was designed for handheld devices, KNULLI still supports various types of USB and Bluetooth controllers. However, before a controller can be used with your KNULLI device, it might be necessary to map its buttons and directional controls to the corresponding game inputs.
 
-!!! danger "Do not confuse controller setup with* game-* or *core-specific* button remapping! This section is about the *global* controller setup to make the *hardware* work. If you want to remap the controls for a specific *game* or *emulation core*, follow the guide for the respective core (e.g. [Retroarch](./retroarch/controls))."
+!!! danger "Do not confuse controller setup with* game-* or *core-specific* button remapping! This section is about the *global* controller setup to make the *hardware* work. If you want to remap the controls for a specific *game* or *emulation core*, follow the guide for the respective core (e.g. [Retroarch](../retroarch/controls))."
 
 ## Controller mapping
 
