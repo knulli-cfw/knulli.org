@@ -118,6 +118,8 @@ plugins:
           nav_translations:
             Home: Start
             FAQs: Häufige Fragen
+            About KNULLI: Über KNULLI
+            Troubleshooting: Problemlösungen
             Play: Spielen
             Devices: Geräte
             Install: Installation
@@ -162,7 +164,10 @@ plugins:
             Unbranded: Markasız
 nav:
     - Home: index.md
-    - FAQs: faqs.md
+    - FAQs:
+      - faq/index.md
+      - About KNULLI: faq/knulli.md
+      - Troubleshooting: faq/troubleshooting.md
     - Play:
       - Install: play/install.md
       - Update: play/update.md
