@@ -126,6 +126,7 @@ plugins:
             Update: Aktualisieren
             Add Games: Spiele hinzufügen
             Scraping: Scraping
+            Hotkey shortcuts: Tastenkombinationen
             Achievements: Achievements
             Controls: Controller
             Configure: Konfiguration
@@ -173,6 +174,7 @@ nav:
       - Update: play/update.md
       - Add Games: play/add-games.md
       - Scraping: play/scraping.md
+      - Hotkey Shortcuts: play/hotkey-shortcuts.md
       - Achievements: play/retro-achievements.md
       - Netplay: play/netplay.md
     - Configure:
