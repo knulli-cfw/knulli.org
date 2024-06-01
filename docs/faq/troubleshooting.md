@@ -36,6 +36,12 @@ A: For some devices, especially those which share a common installation image (e
 
 ---
 
+### Q: I cannot connect to my Wi-Fi even though my device has a wireless network adapter - what can I do?
+
+A: Make sure that your router is set to WPA2. Some users experience connection issues with Wi-Fis which are set to WPA3.
+
+---
+
 ### Q: I've installed/updated to the latest version and I don't have audio, or my controls don't respond, or something else is not working as expected:
 
 A: If you have updated from an older version you may need to copy the ``batocera.conf`` from the releases page to your SD card:
