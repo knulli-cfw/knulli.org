@@ -18,7 +18,7 @@ A: Yes! if you have a new or empty SDCARD you can insert the SDCARD on the secon
 
 ---
 
-### Q: I have Garlic with my ROMs/BIOSes on the second SDCARD. Is it possible to reuse that card for KNULLI?
+### Q: I have Garlic with my ROMs/BIOSes on the second SD card. Is it possible to reuse that card for KNULLI?
 
 A: By default KNULLI expects a different name for the ROM folders and their location, but thanks to @XQuader there's a script that creates the compatible configuration for KNULLI based on the Garlic structure. You can read more about it on [this Reddit post](https://www.reddit.com/r/RG35XX/comments/12zxs8t/how_to_get_garlicos_roms_folders_working_in/).
 
