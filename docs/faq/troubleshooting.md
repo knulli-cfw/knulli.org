@@ -3,7 +3,7 @@
 ### Q: I want to add my own ROMs to the SD card but my Windows/Mac computer can't see the roms partition - what can I do?
 
 A: By default KNULLI formats the second partition with the ext4 filesystem for Linux. That format is typically
-not readable/mountable under Windows/Mac. We propose to use network transfer instead. Alternatively, you may reformat the partition from within KNULLI. Please refer to the [Add Games](../play/add-games) section for details.
+not readable/mountable under Windows/Mac. We propose to use network transfer instead. Alternatively, you may reformat the partition from within KNULLI. Please refer to the [Add Games](../../play/add-games) section for details.
 
 ---
 
@@ -15,6 +15,12 @@ A: Yes! if you have a new or empty SDCARD you can insert the SDCARD on the secon
 * Exit the settings menu and the system will indicate you need to reboot to get the changes applied. 
 * Go to the menu ``Settings -> Quit -> Restart System`` to reboot. The system will reboot and the second card will be now used for batocera and the folder structure (roms, bios, etc.) will be created. 
 * You can now shutdown the console, insert the card on your computer, and copy your bios & roms content.
+
+---
+
+### Q: I would like to try muOS and KNULLI - is it possible to have the same second SD card for both CFWs to share my games between them?
+
+A: KNULLI requires all the ROMs to be in the respective subfolders of the emulated system, e.g., `roms/snes` for SNES ROMs. If you populate your SD card the KNULLI way (see [Add Games](../../play/add-games) section for details), it will be possible to configure your muOS to take the ROMs from these folders, which will enable you to use the same second SD card for your ROMs in both CFWs.
 
 ---
 
