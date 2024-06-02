@@ -17,20 +17,22 @@ Um KNULLI installieren zu können, musst du als erstes ein passendes Image für 
 * Anschließend kannst du das Image mit einem entsprechenden Tool auf deine SD-Karte oder den Gerätespeicher flashen.
     * Geeignete Software zum Flashen von Images sind u.A. [Rufus](https://rufus.ie/), [Balena](https://balena.io), [Raspberry Pi Imager](https://www.raspberrypi.com/software/) und [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/). Falls du die Kommandozeile beherrschst, kannst du auch `dd` verwenden.
 
+Während des Flashens werden mehrere Partitionen angelegt, die auf deinem Computer als einzelne Laufwerke angezeigt werden. Die meisten Laufwerke können nur von Linux-Betriebssystemen gelesen werden, unter Windows erscheinen diese Laufwerke unbrauchbar.
+
+!!! danger "Du solltest auf keinen Fall die für Windows unleserlichen KNULLI-Partitionen formatieren, auch wenn Windows es dir vorschlägt."
+
+Nur das Laufwerk *BATOCERA* wird von KNULLI mit FAT32 formatiert, damit du auch von Windows aus darauf zugreifen kannst, um manuelle Updates zu installieren, wie im Abschnitt [Aktualisieren](../update) beschrieben. Auf diesem Laufwerk liegt allerdings nur das KNULLI-Betriebssystem, du solltest hier keine Spiele ablegen. Im Abschnitt [Spiele hinzufügen](../add-games) wirst du lernen, wie du deine Spiele auf das Gerät laden kannst - *nachdem du es zum ersten Mal hochgefahren hast*.
+
+!!! warning "Beim Flashen wird eine Partition namens *SHARE* angelegt, auf der später deine Spiele etc. abgelegt werden können. Die *SHARE*-Partition wird allerdings erst beim ersten Booten auf ihre volle Größe ausgedehnt. Es ist *zwingend* notwendig, KNULLI einmal hochzufahren und die Installation abzuschließen, *bevor* du auf die *SHARE*-Partition zugreifen kannst. Standardmäßig wird die *SHARE*-Partition mit dem Dateisystem ext4 formatiert. Wirf einen Blick in den Abschnitt [Spiele hinzufügen](../add-games) um zu erfahren, wie du Spiele und andere Dateien auf dein KNULLI-Gerät aufspielst."
+
 ## Schritt 3: Boote das Gerät
 
-* (Bei Geräten mit SD-Karte): Steck die SD-Karte in den dafür vorgesehen Slot während das Gerät ausgeschaltet ist und schalte das Gerät danach ein.
+* Steck die SD-Karte in den dafür vorgesehen Slot während das Gerät ausgeschaltet ist.
+    * Falls das Gerät einen zweiten SD-Karten-Slot hat, solltest du vor dem ersten Hochfahren sicherstellen, dass der zweite Slot leer ist.
+* Schalte das Gerät ein.
     * Achtung: Bei manchen Geräte muss die Bootreihenfolge so angepasst werden, dass die SD-Karte als erstes angesprochen wird. Überprüfe im Zweifelsfall die Dokumentation für dein Gerät, um zu prüfen, ob es in deinem Fall notwendig ist.
 * Beim ersten Booten läuft KNULLI selbstständig durch den Installationsvorgang und startet das Gerät automatisch neu, sobald die Installation abgeschlossen ist.
 * Am Ende des Reboots wird das Gerät automatisch EmulationStation laden, die grafische Benutzeroberfläche von KNULLI. Die Installation ist jetzt abgeschlossen und du kannst loslegen!
-
----
-
-## Zusätzliche Hinweise
-
-* Das KNULLI-Betriebssystem ist auf einer ext4-Partition abgelegt, die nur von Linux-Betriebssystemen gelesen werden kann. Windows kann das Dateisystem ext4 nicht ohne zusätzliche Software lesen. Es ist derzeit **nicht** möglich, über Windows direkt auf die primäre KNULLI-Partition zuzugreifen, um Spiele oder andere Nutzerdaten aufzuspielen. Windows-Nutzer können Daten allerdings bequem via W-LAN auf das Gerät spielen, weitere Hinweise dazu findest du im Abschnitt [Spiele hinzufügen](../add-games).
-* Für Geräte, die einen zweiten SD-Karten-Slot haben, kann eine zweite SD-Karte als ext4, FAT32 oder exFAT formatiert werden. (FAT32 und exFAT sind Dateisysteme, die sowohl von Windows als auch von Linux gelesen werden können.) KNULLI wird die zweite SD-Karte automatisch während des Bootvorgangs erkennen und als Speichermedium für Spiele bereitstellen.
-* KNULLI-Images für x86-Geräte enthalten ein Installationsprogramm, das in der grafischen Benutzeroberfläche EmulationStation im Menü "Tools" zu finden ist.
 
 ## Nächste Schritte
 
