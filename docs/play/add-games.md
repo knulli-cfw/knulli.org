@@ -1,34 +1,40 @@
 # :material-layers-plus: Adding Games to KNULLI
 
-!!! info "Unlike many other CFWs, KNULLI formats the *SHARE* partition to ext4 by default. The ext4 filesystem is not readable by Windows, so by default, you will not be able to add games in the same way you might be used to from other CFWs. However, some games from the [PortMaster](../../systems/portmaster) library only work on ext4 filesystems because they rely on symbolic links and large swap files. It is possible to [reformat the partition to exFAT](#reformat-the-share-partition-to-exfat) after first boot, however, you should be aware that some PortMaster games might not work on your device if you choose to reformat to exFAT."
+!!! info "Unlike many other CFWs, KNULLI formats the *SHARE* partition to ext4 by default. The ext4 filesystem is not readable by Windows, so by default, you will not be able to add games in the same way you might be used to from other CFWs. However, some games from the [PortMaster](../../systems/portmaster) library only work on ext4 filesystems because they rely on symbolic links and large swap files. It is possible to [reformat the partition to exFAT](#reformat-the-share-partition-to-exfat) *after first boot*, however, you should be aware that some PortMaster games might not work on your device if you choose to reformat to exFAT."
 
 KNULLI has a few options for adding games. Depending on the capabilites of your device, you will have to determine which option to choose. For example, some devices do not have networking capabilites, so with those devices you will not be able to use the network transfer options. Additionally, you might have to consider the computer you will use as a data source, since some options are restricted to specific operating systems.
 
-## Data storage structure
+## Data storage on KNULLI devices
 
-When you install KNULLI on a SD card, several partitions will be created, which will be shown to you as different drives on your computer. Most of these drives can only be accessed from a Linux operating system. They are not accessible on Windows.
+Before you start adding your games, please take the time to understand how data storage is structured on KNULLI. This might be helpful, *especially* when you already have experience with other CFWs and want to migrate your data.
 
-!!! danger "You should never format the KNULLI partitions which Windows cannot read, no matter how strongly Windows suggests that."
+### The `/userdata` folder
 
-The *BATOCERA* drive will be the only drive formatted to FAT32, to make it accessible on Windows. However, this is just the place where the operating system itself is stored, so it is not a place to store your games. You still might need access to the *BATOCERA* partition if you want to update KNULLI manually as described in the [update](../update) section.
+KNULLI supports single and dual SD card setups. Internally, KNULLI has a folder called `/userdata` where all your data (games, screenshots, bezels, saves, configurations, themes, etc.) will be stored. On a single-SD-card setup, the `/userdata` folder will always point to the *SHARE* partition of your primary SD card. If you have a device with more than one SD card slot and choose to create a dual-SD-card setup, the `/userdata` folder will point to the main partition of your secondary SD card **instead**.
 
-### The share partition
+!!! info "You can switch between single/dual SD card mode by following the steps in the section about [Using a second SD card](#using-a-second-sd-card). Basically, by switching between internal/external storage, you just tell KNULLI which drive/partition `/userdata` should point to."
 
-The biggest partition on your SD card is the *SHARE* partition. By default, KNULLI formats the *SHARE* partition to ext4. Therefore, the drive is not accessible on Windows computers. The *SHARE* partition is the drive where your user data is stored - all your games, saved states, screenshots, configurations, etc. Within KNULLI, the *SHARE* partition is mounted as `/userdata`.
+Inside the `/userdata` folder, you will find subfolders where you can store your games and other files. After installing for the first time, KNULLI will create and populate all these folders automatically. The most important folders for you to know are the following:
 
-### The userdata folder
-
-Inside the `/userdata` folder, you will find subfolders where you can store your games and other files. The most important folders for you to know are the following:
-
-* `/userdata`
-    * `/roms` is the folder where you can store your games. Inside the folder you will find subfolders for all supported systems. Simply place your game files into the folders of the system the game was made for.
+* `/userdata` (corresponds to either the *SHARE* partition of your primary SD card or the main partition of the secondary SD card)
     * `/bios` is the folder where you can store your BIOSes.
+    * `/cheats` is the folder where you can store your cheats.
+    * `/decorations` is the folder where you can store your decorations/bezels.
     * `/music` is the folder where you can store MP3 and OGG files to have them play as background music on EmulationStation. (The songs should have a sample rate of 44100Hz and a bitrate of 256kb/s max.)
+    * `/roms` is the folder where you can store your games. Inside the folder you will find subfolders for all supported systems. Simply place your game files into the folders of the system the game was made for, e.g.
+        * `/snes` is the folder where your SNES games should be stored.
+        * `/gb` is the folder where your Gameboy games should be stored.
+        * `/ports` is the folder where your ports (including [PortMaster](../../systems/portmaster) should be stored.
+        * ...
     * `/saves` is the folder where your savegames will be stored.
     * `/screenshots` is the folder where your screenshots will be stored.
     * `/system` is the folder where your settings will be stored. You should not change anything in here, unless you are absolutely sure that you know what you are doing. However, it can't hurt to include this folder in your backups.
+    * `/theme-customizations` is the folder where your theme customizations will be stored.
+    * `/themes` is the folder where your themes will be stored.
 
-!!! info "KNULLI only scans for games in the `roms` folder. Games which are stored outside of the folder will not be recognized as such."
+!!! info "KNULLI only scans for games in the subfolders of the `roms` folder. Games which are stored anywhere else will not be recognized as such."
+
+!!! info "KNULLI is a Linux system which is *case-sensitive*. Consequently, you should pay attention to capital letters when renaming folders or migrating folders from other systems/devices."
 
 !!! info "For details about the files which are required/supported for each system, have a look into the [Systems](/../systems) section of the wiki."
 
@@ -45,7 +51,7 @@ If you use KNULLI on a device which has a second SD card slot, you may use the s
 * During reboot, KNULLI will automatically populate the second SD card with all the folders and files you would usually find in the [userdata folder](#the-userdata-folder)/*SHARE* partition.
 * If your second SD card is formatted to exFAT, you can now take the card out of the device when it is shut off. You can put the card in your computer to access it and populate it with your data.
 
-!!! info "Older alpha versions of KNULLI created a subfolder `batocera` on your SD card and stored the contents of the [userdata folder](#the-userdata-folder)/*SHARE* partition there. To maintain compatibility with current KNULLI releases, simply move the entire contents of the `batocera` folder to the top level of your second SD card."
+!!! info "Older alpha versions of KNULLI created a subfolder `batocera` on your SD card and made the [userdata folder](#the-userdata-folder) point to that `batocera` folder. However, more recent versions got rid of the `batocera` folder entirely. To maintain compatibility with current KNULLI releases, simply move the entire contents of the `batocera` folder to the top level of your second SD card."
 
 ## Option 1: Network transfer
 
@@ -70,7 +76,7 @@ Like many other operating systems, KNULLI supports SMB, the Windows network prot
     - If additional security measurements are in place, you will be prompted for your credentials.
         - The expected username is `root`, the password is the *Root password* shown in the *Security* section of the *System settings*.
 
-After you successfully logged in, you will be able to access the `share` partition as a network drive. The network drive corresponds to your `/userdata` folder, so you can put all your data (games, etc.) in the respective folders.
+After you successfully logged in, you will be able to access the `share` partition as a network drive. The network drive corresponds to your current [`/userdata` folder](#the-userdata-folder). Here, you can put all your data (games, etc.) in the respective folders.
 
 ### FTP
 
@@ -84,13 +90,13 @@ Using your FTP program of choice; set up an SFTP connection to the IP address to
 
 Once your data is completely transferred, make sure to update your gamelists to make the data available. You can do so by pressing ++"Start"++ to open the main menu, then open *Game settings* and select *Update gamelists*. KNULLI will rescan all game folders and identify all the games you added to make them available in EmulationStation.
 
-## Option 2: SD card
+## Option 2: Accessing the SD card
 
 Under certain circumstances, games can be added directly to your SD card.
 
 ### Devices with a single SD card
 
-As explained in the [Data storage structure](#data-storage-structure) section, the *SHARE* partition is formatted to ext4 by default. Therefore, it is not accessible on Windows. However, if neither network transfer nor a Linux computer is available to you, there are options to access the SD card from Windows anyway.
+As explained above, the *SHARE* partition is formatted to ext4 by default. Therefore, it is not accessible on Windows. However, if neither network transfer nor a Linux computer is available to you, there are options to access the SD card from Windows anyway.
 
 #### Reformat the share partition to exFAT
 

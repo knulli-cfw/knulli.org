@@ -17,20 +17,22 @@ KNULLI is installed by downloading an image for your device, flashing it to an S
 * Then write the image to an SD Card using an imaging tool.
     * Common imaging tools include [Rufus](https://rufus.ie/), [Balena](https://balena.io), [Raspberry Pi Imager](https://www.raspberrypi.com/software/), and [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/).  If you're skilled with the command line, `dd` can also be used.
 
+During the imaging, several partitions will be created, which will be shown to you as different drives on your computer. Most of these drives can only be accessed from a Linux operating system. They are not accessible on Windows.
+
+!!! danger "You should never format the KNULLI partitions which Windows cannot read, no matter how strongly Windows suggests that."
+
+After successful flashing, the *BATOCERA* drive will be the only drive formatted to FAT32, to make it accessible on Windows for manual updates as described in the [update](../update) section. However, this is just the place where the operating system itself is stored, so it is not a place to store your games. For more informations on how to add games, please refer to the [Add Games](../add-games) section *after first boot*.
+
+!!! warning "During flashing, a partition called *SHARE* will be created. This is where all your games and other data will be stored. However, the *SHARE* partition will only be expanded to its full size during first boot. It is *mandatory* to finish installation by booting KNULLI *before* you can access the *SHARE* partition and start adding your games. By default, the *SHARE* partition will be formatted to ext4, hence, it will not be accessible through Windows. Please have a look at the [Add Games](../add-games) section to learn how to add games to your KNULLI device - *after first boot*."
+
 ## Step 3: Boot your device
 
-* Insert your SD Card into your device while its off and then turn it on
-* Note: Some devices may require you to set the boot order so your SD Card is loaded first.  Please see documentation for your specific device to see if this applies to you.
+* Insert your SD Card into your device while it is turned off.
+    * If your device has a secondary SD card slot, please make sure it is empty during first boot.
+* Turn on your device.
+    * Note: Some devices may require you to set the boot order so your SD Card is loaded first.  Please see documentation for your specific device to see if this applies to you.
 * KNULLI will run through its install process and then reboot your device after its complete.
 * When your device reboots it will load directly into EmulationStation; at this point you are good to go!
-
----
-
-## Additional Notes
-
-* KNULLI operating system is stored on an Ext4 partition that can be read by LINUX but is not natively readable on Windows. Currently it is not possible to access the primary KNULLI Ext4 partition on Windows to add games.
-* On devices that support a second sd card, the sd card can be formatted as Ext4, FAT32, or exFAT. KNULLI will automatically detect the second SD card on boot and make it available as game storage.
-* On x86 devices KNULLI includes an installation tool.  The installation tool can be found in the tools menu, which is one of the systems listed within ES.
 
 ## Next Steps
 

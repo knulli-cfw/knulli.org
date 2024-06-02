@@ -1,35 +1,40 @@
 # :material-layers-plus: Spiele zu KNULLI hinzufügen
 
-
 !!! info "Anders als viele andere CFWs formattiert KNULLI die *SHARE*-Partition standardmäßig mit ext4. Das Dateisystem ext4 ist unter Windows nicht lesbar, d.h. du wirst deine Spiele möglicherweise nicht auf die gleiche Weise hinzufügen können, wie du es von anderen CFWs gewohnt bist. Der Grund dafür ist, dass einige Spiele aus der [PortMaster](../../systems/portmaster)-Bibliothek auf das ext4-Dateisystem angewiesen sind, da sie symbolische Links und große Swap-Dateien einsetzen, die von Windows-Dateisystemen nicht unterstützt werden. Es ist möglich, die Partition nach dem ersten Bootvorgang stattdessen [mit exFAT zu formatieren](#die-share-partition-mit-exfat-formatieren). Du solltest dir allerdings darüber im Klaren sein, dass einige PortMaster-Spiele dann nicht mehr funktionieren werden."
 
 Es gibt verschiedene Möglichkeiten, um Spiele auf dein KNULLI-Gerät zu laden. Welche Möglichkeiten für dich geeignet sind, hängt davon ab, welche Funktionen auf deinem Gerät zur Verfügung stehen. Wenn dein Gerät beispielsweise keine geeignete Hardware hat, um einem Netzwerk beizutreten, kannst du natürlich keine Daten via Netzwerk übertragen. Außerdem spielt es natürlich eine Rolle, welches Gerät dir als Datenquelle zur Verfügung steht.
 
 ## Datenstruktur
 
-Wenn du KNULLI auf einer SD-Karte installierst, werden dabei mehrere Partitionen angelegt, die auf deinem Computer als einzelne Laufwerke angezeigt werden. Die meisten Laufwerke können nur von Linux-Betriebssystemen gelesen werden, unter Windows erscheinen diese Laufwerke unbrauchbar.
+Bevor du anfängst, deine Spiele hinzuzufügen, solltest du dir die Zeit nehmen, um zu verstehen, wie die Datenstruktur von KNULLI funktioniert. Dies ist *besonders wichtig*, wenn du bereits Erfahrungen mit anderen CFWs gesammelt hast und deine Daten migrieren möchtest.
 
-!!! danger "Du solltest auf keinen Fall die für Windows unleserlichen KNULLI-Partitionen formatieren, auch wenn Windows es dir vorschlägt."
+### Der `/userdata`-Ordner.
 
-Nur das Laufwerk *BATOCERA* wird von KNULLI mit FAT32 formatiert, damit du auch von Windows aus darauf zugreifen kannst. Hier liegt allerdings nur das KNULLI-Betriebssystem. Auf der *BATOCERA*-Partition kannst du keine Spiele hinzufügen, du benötigst sie nur, wenn du KNULLI manuell aktualisieren möchtest, wie im Abschnitt [Aktualisieren](../update) beschrieben.
+Du kannst KNULLI sowohl mit einer einzelnen SD-Karte als auch mit zwei getrennten SD-Karten verwenden. Intern benutzt KNULLI einen Ordner namens `/userdata`, um alle deine Daten (Spiele, Screenshots, Bezels, Speicherstände, Konfigurationen, Themes etc.) darin abzulegen. Wenn du KNULLI mit einer einzelnen SD-Karte verwendest, wird der `/userdata`-Ordner immer auf die *SHARE*-Partition deiner primären SD-Karte zeigen. Wenn du ein Gerät mit mehr als einem SD-Karten-Slot hast und eine zweite SD-Karte verwenden möchtest, wird `/userdata` **stattdessen** auf die Partition der zweiten SD-Karte zeigen.
 
-### Die Share-Partition
+!!! info "Du kannst zwischen einzelner und zweiter SD-Karte wechseln, in dem du den Schritten im Abschnitt [Eine zweite SD-Karte verwenden](#eine-zweite-sd-karte-verwenden) folgst. In dem du zwischen internem und externem Speicher hin- und her schaltest, legst du für KNULLI fest, wohin `/userdata` zeigen soll."
 
-Die größte Partition auf deiner SD-Karte ist die *SHARE*-Partition. *SHARE* wird von Knulli standardmäßig mit dem Dateisystem ext4 formatiert, daher erscheint das Laufwerk auf Windows-Computern unleserlich. Die *SHARE*-Partition ist das Laufwerk, auf dem KNULLI deine Benutzerdaten ablegt - deine Spiele, Speicherstände, Screenshots, Konfigurationen, usw. Innerhalb von KNULLI wird die *SHARE*-Partition als `/userdata` addressiert.
+Im Verzeichnis `/userdata` befinden sich weitere Unterordner, in denen du Spiele und weitere Dateien ablegen kannst. Nach der ersten Installation wird KNULLI diese Ordner automatisch anlegen und befüllen. Die wichtigsten Ordner für dich sind folgende:
 
-### Das Nutzerdatenverzeichnis
-
-Im Verzeichnis `/userdata` befinden sich weitere Unterordner, in denen du Spiele und weitere Dateien ablegen kannst. Die wichtigsten Ordner für dich sind folgende:
-
-* `/userdata`
-    * `/roms` ist der Ordner, in dem du deine Spiele ablegen kannst. Der Ordner enthält bereits diverse Unterordner für verschiedene Systeme. Leg deine Spiele einfach in die passenden Ordner der Systeme, für die das jeweilige Spiel entwickelt wurde.
+* `/userdata` (entspricht entweder deiner *SHARE*-Partition auf der primären SD-Karte oder der Hauptpartition auf der zweiten SD-Karte)
     * `/bios` ist der Ordner, in dem du BIOSe ablegen kannst.
+    * `/cheats` ist der Ordner, in dem du Cheats ablegen kannst.
+    * `/decorations` ist der Ordner, in dem du deine Bezels ablegen kannst.
     * `/music` ist der Ordner, in dem du MP3s und OGG-Dateien ablegen kannst, die in EmulationStation als Hintergrundmusik abgespielt werden können. (Die Songs sollten eine Samplerate von 44100Hz haben und eine Bitrate von maximal 256 kb/s.)
+    * `/roms` ist der Ordner, in dem du deine Spiele ablegen kannst. Der Ordner enthält bereits diverse Unterordner für verschiedene Systeme. Leg deine Spiele einfach in die passenden Ordner der Systeme, für die das jeweilige Spiel entwickelt wurde.
+        * `/snes` ist der Ordner, in dem du deine SNES-Spiele ablegen kannst.
+        * `/gb` ist der Ordner, in dem du deine Gameboy-Spiele ablegen kannst.
+        * `/ports` ist der Ordner, in dem du deine Ports (inklusive [PortMaster](../../systems/portmaster) ablegen kannst.
+        * ...
     * `/saves` ist der Ordner, in dem deine gespeicherten Spielstände abgelegt werden.
     * `/screenshots` ist der Ordner, in dem deine gespeicherten Screenshots abgelegt werden.
     * `/system` ist der Ordner, der deine Einstellungen enthält. Du solltest hier keine Änderungen vornehmen, wenn du nicht weißt, was du tust. Es kann aber nicht schaden, von diesem Ordner regelmäßige Backups anzufertigen.
+    * `/theme-customizations` ist der Ordner, in dem du Anpassungen an deinen Themes vornehmen kannst.
+    * `/themes` ist der Ordner, in dem du deine Themes ablegen kannst.
 
 !!! info "KNULLI sucht ausschließlich im dafür vorgesehenen Ordner `roms` nach Spielen. Spiele, die außerhalb des dafür vorgesehenen Ordners abgelegt werden, werden von KNULLI nicht erkannt."
+
+!!! info "KNULLI ist ein Linux-System. Anders als Windows unterscheiden Linux-Systeme zwischen *Groß- und Kleinschreibung* in Datei- und Ordnernamen. Du solltest deswegen darauf achten, dich an die erwartete Groß- und Kleinschreibung zu halten, wenn du deine Dateien migrierst."
 
 !!! info "Für Details bzgl. der Dateien, die das jeweilige System benötigt, besuche bitte die entsprechenden Seiten im Abschnitt [Systeme](/../systems) in diesem Wiki."
 
@@ -43,10 +48,10 @@ Wenn du KNULLI auf einem Gerät installierst, das über zwei SD-Karten-Slots ver
 * Im Abschnitt *Storage* kannst du das *Storage device* auswählen.
     * Stelle von *Internal* (der "interne" Speicher ist die *SHARE*-Partition deiner KNULLI-SD-Karte) auf den Namen deiner zweiten SD-Karte, z.B. *SHARE - 25.6G*.
 * Reboote KNULLI, um die Änderungen wirksam zu machen, drücke dazu den ++"Start"++-Button und gehe im Hauptmenü zu *Quit* und wähle dort *Restart system*.
-* Beim Neustart wird KNULLI auf deiner zweiten SD-Karte automatisch alle Ordner und Dateien anlegen, die du normalerweise im [Nutzerdatenverzeichnis](#das-nutzerdatenverzeichnis) bzw. auf der *SHARE*-Partition findest.
+* Beim Neustart wird KNULLI auf deiner zweiten SD-Karte automatisch alle Ordner und Dateien anlegen, die du normalerweise im [`/userdata`-Ordner](#der-userdata-ordner) bzw. auf der *SHARE*-Partition findest.
 * Wenn die zweite SD-Karte mit exFAT formatiert ist, kannst du die Karte aus dem Slot nehmen, nachdem du das Gerät heruntergefahren hast, und über deinen Computer mit Daten füllen.
 
-!!! info "Ältere Alpha-Versionen von KNULLI haben auf der zweiten SD-Karte einen Ordner `batocera` angelegt, in dem die Ordner und Dateien des [Nutzerdatenverzeichnisses](#das-nutzerdatenverzeichnis) abgelegt wurden. Um Kompatiblität mit aktuellen KNULLI-Releases sicherzustellen, kannst du einfach den gesamten Inhalt des `batocera`-Ordners auf die oberste Ebene deiner zweiten SD-Karte verschieben."
+!!! info "Ältere Alpha-Versionen von KNULLI haben auf der zweiten SD-Karte einen Ordner namens `batocera` angelegt. In diesen Versionen hat der [`/userdata`-Ordner](#der-userdata-ordner) noch auf den `batocera`-Ordner gezeigt. Um Kompatiblität mit aktuellen KNULLI-Releases sicherzustellen, kannst du einfach den gesamten Inhalt des `batocera`-Ordners auf die oberste Ebene deiner zweiten SD-Karte verschieben."
 
 ## Option 1: Netzwerkübertragung
 
@@ -71,7 +76,7 @@ KNULLI unterstützt, wie viele andere Betriebssysteme, das Windows-Netzwerkproto
     - Du wirst möglicherweise nach Benutzername und Passwort gefragt, wenn die erweiterten Sicherheitseinstellungen aktiv sind.
         - Der Benutzername ist `root`, das Passwort wird dir als *Root password* im Bereich *Security* der *System settings* angezeigt.
 
-Nachdem du dich erfolgreich eingeloggt hast, kannst du den Netzwerkordner `share` sehen, darin ist deine Nutzerdatenpartition (`/userdata`) enthalten. Hier kannst du deine Daten (Spiele etc.) in den dafür vorgesehenen Ordner ablegen.
+Nachdem du dich erfolgreich eingeloggt hast, kannst du den Netzwerkordner `share` sehen. Dieser Ordner entspricht deinem aktuellen [`/userdata`-Ordner](#der-userdata-ordner). Hier kannst du deine Daten (Spiele etc.) in den dafür vorgesehenen Ordnern ablegen.
 
 ### FTP
 
