@@ -183,6 +183,8 @@ nav:
       - SSH: configure/ssh.md
       - Retroarch:
         - Controls: configure/retroarch/controls.md
+      - PPSSPP:
+        - Cheats: configure/ppsspp/cheats.md
     - Systems:
       - Engines:
         - Pico-8: systems/pico-8.md
