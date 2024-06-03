@@ -27,6 +27,14 @@ A: Yes, we do. 😃
 
 ---
 
+### Q: I am using the Batocera v39/40 beta on my RG35XX Plus/H - should I switch to KNULLI?
+
+A: The short answer is: Yes!
+
+The long answer is: After we adapted Batocera to make it work on the RG35XX Plus/H, it became clear that Batocera will not be able to integrate our proposed changes into their software due to licensing issues. The license under which Batocera is published is not compatible with the license of the drivers for the RG35XX Plus/H. Therefore, we created a fork of Batocera under a completely new name to resolve the licensing issues. While the Batocera v39/40 beta for RG35XX Plus/H is no longer maintained, KNULLI is its immediate successor. Consequently, switching to KNULLI corresponds to updating to a newer version of the same OS you are already using.
+
+---
+
 ### Q: Where can I download the latest version?
 
 A: You will find the latest version of KNULLI on our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). Find the download for your device in the `Installation Package Downloads` section and follow the [Installation guide](../play/install) to install KNULLI on your device. If your device is not listed there, please be patient - there is no public release of KNULLI for your device available, yet.
