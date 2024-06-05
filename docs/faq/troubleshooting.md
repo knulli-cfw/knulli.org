@@ -3,7 +3,9 @@
 ### Q: I want to add my own ROMs to the SD card but my Windows/Mac computer can't see the roms partition - what can I do?
 
 A: By default KNULLI formats the second partition with the ext4 filesystem for Linux. That format is typically
-not readable/mountable under Windows/Mac. We propose to use network transfer instead. Alternatively, you may reformat the partition from within KNULLI. Please refer to the [Add Games](../../play/add-games) section for details.
+not readable/mountable under Windows/Mac. However, ext4 is required for several [PortMaster](../../systems/portmaster) games to work properly. 
+
+Instead of accessing the partition directly, we propose to use network transfer instead. Alternatively, you may reformat the partition from within KNULLI, if you are sure that you do not want to play PortMaster games. Please refer to the [Add Games](../../play/add-games) section for details about network transfer and reformatting.
 
 ---
 

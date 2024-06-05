@@ -11,11 +11,13 @@ The library is divided in two major categories:
 * Ports which are *"Ready to run"* are ports of free games which you can install and immediately start playing.
 * Ports with *"Files needed"* are ports of commercially released games. To be able to run these ports, you will have to provide essential files from the games you bought.
 
-!!! info "Some PortMaster games only run on drives which are formatted to ext4. For this reason, KNULLI formats the *SHARE* partition to ext4 by default. However, if you re-formatted the *SHARE* partition to exFAT or if you use a second SD card which is formatted to exFAT, some PortMaster games might not work on your device. You will find information on how to reformat your drive to ext4 in the [Add Games](../../play/add-games) section."
+!!! info "Some PortMaster games only run on drives which are formatted to ext4. For this reason, KNULLI formats the *SHARE* partition to ext4 by default. However, if you re-formatted the *SHARE* partition to exFAT or if you use a second SD card which is formatted to exFAT, some PortMaster games might not work on your device. You will find information on how to reformat your drive to ext4 in the [Add Games](../../play/add-games) section. Additionally, you will find a [list of games with known issues](#known-issues-with-portmaster-games-on-exfat-formatted-partitions) below."
 
 ## Installing PortMaster
 
-After installing KNULLI, you will find the PortMaster install script (*Install.PortMaster*) in the *Ports* category. Running this script will install PortMaster on your KNULLI device and restart EmulationStation automatically. Now, you will find *PortMaster* in the *Ports* category instead of the install script.
+After installing KNULLI for the first time, you will find the PortMaster install script (*Install.PortMaster*) in the *Ports* category. Running this script will install PortMaster on your KNULLI device and restart EmulationStation automatically. Now, you will find *PortMaster* in the *Ports* category instead of the install script.
+
+!!! info "If the PortMaster installer (*Install.PortMaster*) is missing from your *Ports* section, do not panic. This might happen, e.g., if you [updated](../../play/update) from a previous version without PortMaster or if you use an SD card which is already populated with games. In this case, you can find the installer in our [Github repository](https://github.com/knulli-cfw/distribution/blob/knulli-main/board/batocera/allwinner/h700/fsoverlay/usr/share/batocera/datainit/roms/ports/Install.PortMaster.sh). Download the file (`Install.PortMaster.sh`) and add it to `roms/ports` as you would [add a game](../../play/add-games)."
 
 ## Managing games
 
@@ -49,3 +51,18 @@ After you added all the required files, the game should be ready to run. Simply 
 !!! info "During first launch, some ports will take some time to compress and/or compile and/or repackage files from the original game. Depending on the game, this may take several minutes, sometimes even longer. Do not panic if the first launch takes some time. Do not panic if you see a lot of command-line messages. Some games may even require several attempts to prepare all the necessary assets for playing the game on your handheld. Be patient."
 
 If the game does not show up, press ++"Start"++ and pick *Game settings* and *Update gamelists* to restart EmulationStation and detect new games. If that does not help, launch *PortMaster*, find the game in the *Manage Ports* section and reinstall it.
+
+## Known issues with PortMaster games on exFAT-formatted partitions
+
+As mentioned above and throughout this Wiki, many PortMaster games rely on symbolic links and very large swap files which are not supported by the exFAT file system. If you attempt to run PortMaster games from a partition which is formatted to exFAT, you might be lucky and have some games working perfectly fine. However, you will also run into games which will not work as expected.
+
+For many games, symbolic links are implemented to put the savegames and configuration files in the right place. Without symbolic links, the files might end up as temporary files which will be deleted automatically once you quit the game. Hence, you will have to reconfigure and start over when you launch the game again.
+
+The following list is by no means a complete list of all games which do not work. It is just a small collection of issues we are already aware of and can warn you about, issues you will run into when attempting to run these games from an exFAT-formatted SD card.
+
+- *Half-Life*: Works.
+- *Owlboy*: Game is runnable but **loses all settings/savegames** when quit.
+- *TMNT: Shredder's Revenge*: 
+    - First-launch compile/compression **fails** if *"YES"* is chosen for each question.
+    - First-launch compile/compression **works** if *"NO"* is chosen for each question.
+    - Game is runnable but **loses all settings/savegames** when quit.
