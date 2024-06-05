@@ -62,7 +62,8 @@ The following list is by no means a complete list of all games which do not work
 
 - *Half-Life*: Works.
 - *Owlboy*: Game is runnable but **loses all settings/savegames** when quit.
-- *TMNT: Shredder's Revenge*: 
+- *Stardew Valley*: Game is runnable but **loses all settings/savegames** when quit.
+- *TMNT: Shredder's Revenge*:
     - First-launch compile/compression **fails** if *"YES"* is chosen for each question.
     - First-launch compile/compression **works** if *"NO"* is chosen for each question.
     - Game is runnable but **loses all settings/savegames** when quit.
