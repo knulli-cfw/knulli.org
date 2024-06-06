@@ -26,7 +26,9 @@ Your first steps will depend on how you want to use your KNULLI device.
 
 ### 1. Set up your data storage
 
-For most users, we **recommend** to use a **single SD card** with the **default formatting**. However, if you want a different setup, e.g. because your device does not support Wi-Fi, use the table below to determine, which setup suits your needs. Be aware that it might be required to **reformat** the storage before you can use it. Please use the built-in KNULLI formatter for this purpose. (You will find instructions in the [Add Games](../add-games) section.) Be aware that PortMaster will **not** work properly if you decide to format to **exFAT**.
+For most users, we **recommend** to use a **single SD card** with the **default formatting**.
+
+However, if you want a different setup, e.g. because your device does not support Wi-Fi, use the table below to determine, which setup suits your needs. Be aware that it might be required to **reformat** the storage before you can use it. Please use the **built-in KNULLI formatter** for this purpose. Also, please be aware that you have to **switch** between internal and external storage **manually**. (You will find detailed instructions on switching and formatting storages in the [Add Games](../add-games) section.)
 
 It is possible, to use an already populated SD card as secondary SD card. However, if you attempt to do so, please make sure that the **folder structure** matches the one described in the [Add Games](../add-games) section.
 
@@ -38,6 +40,8 @@ It is possible, to use an already populated SD card as secondary SD card. Howeve
     | 2            | *You will have to* ***reformat*** *your* ***external storage*** *to* ***ext4*** *(unless it is already formatted to ext4).*      | *You will have to ***reformat** your ***external storage*** to ***exFAT** (unless it is already formatted to exFAT).* |
 
 Make sure that you **made a decision** on how to store your files and **prepared the storage accordingly** before you continue with the next step.
+
+Be aware that PortMaster will **not** work properly if you decide to format to **exFAT**.
 
 ### 2. Set up your controls (RG35XX Plus/H/2024/SP)
 
