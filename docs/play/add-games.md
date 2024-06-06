@@ -40,6 +40,8 @@ Inside the `/userdata` folder, you will find subfolders where you can store your
 
 ### Using a second SD card
 
+!!! warning "Please be aware that you may not be able to run certain games from the [PortMaster](../../systems/portmaster) library if your secondary SD card is formatted to exFAT. Some ports rely on symlinks and large swap files which are not supported by the exFAT file system."
+
 If you use KNULLI on a device which has a second SD card slot, you may use the second slot for a secondary SD card, which can be used instead of the *SHARE* partition:
 
 * Make sure that the second SD card is formatted to ext4 or exFAT. (You don't have to reformat it if it already is formatted to ext4 or exFAT.)

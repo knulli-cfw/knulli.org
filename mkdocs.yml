@@ -170,6 +170,7 @@ nav:
       - About KNULLI: faq/knulli.md
       - Troubleshooting: faq/troubleshooting.md
     - Play:
+      - Quick Start Guide: play/quick-start.md
       - Install: play/install.md
       - Update: play/update.md
       - Add Games: play/add-games.md
