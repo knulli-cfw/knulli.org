@@ -2,7 +2,7 @@
 
 Hi there! Welcome to KNULLI!
 
-With this quick start guide, we will help you get started with KNULLI on your handheld device. If you are **completely new** to handheld emulation and custom firmwares, this guide will lead you through your **first steps**. If you are an **advanced user**, this guide will make you aware of things KNULLI might do **differently** then other custom firmwares (CFWs) you have already used.
+With this quick start guide, we will help you get started with KNULLI on your handheld device. If you are **completely new** to handheld emulation and custom firmwares (CFWs), this guide will lead you through your **first steps**. If you are an **advanced user**, this guide will make you aware of things KNULLI might do **differently** than other custom firmwares you have already used.
 
 !!! danger "Important: Read this before you start!"
 
