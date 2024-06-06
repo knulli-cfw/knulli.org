@@ -30,7 +30,7 @@ For most users, we **recommend** to use a **single SD card** with the **default 
 
 However, if you want a different setup, e.g. because your device does not support Wi-Fi, use the table below to determine, which setup suits your needs. Be aware that it might be required to **reformat** the storage before you can use it. Please use the **built-in KNULLI formatter** for this purpose. Also, please be aware that you have to **switch** between internal and external storage **manually**. (You will find detailed instructions on switching and formatting storages in the [Add Games](../add-games) section.)
 
-It is possible, to use an already populated SD card as secondary SD card. However, if you attempt to do so, please make sure that the **folder structure** matches the one described in the [Add Games](../add-games) section.
+It is possible to use an already populated SD card as secondary SD card. However, if you attempt to do so, please make sure that the **folder structure** matches the one described in the [Add Games](../add-games) section.
 
 !!! danger "Decide how you want to store your files"
 
