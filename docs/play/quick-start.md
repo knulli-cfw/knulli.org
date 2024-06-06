@@ -6,9 +6,9 @@ With this quick start guide, we will help you get started with KNULLI on your ha
 
 !!! danger "Important: Read this before you start!"
 
-    Unlike many other CFWs, KNULLI currently uses **ext4** as the default file system for your games, saves, configs, etc. We made this decision **purposely**, to give you the best out-of-the-box experience with **PortMaster**. Currently, PortMaster does **not** work properly on Windows-compatible exFAT partitions on KNULLI. (You can read more about this topic in the [PortMaster](../../systems/portmaster) section.)
+    Unlike many other CFWs, KNULLI currently uses **ext4** as the default file system for your games, saves, configs, etc. We made this decision **purposely**, to give you the best out-of-the-box experience with **PortMaster**. Currently, PortMaster does **not** work properly with KNULLI on Windows/macOS-compatible exFAT partitions. (You can read more about this topic in the [PortMaster](../../systems/portmaster) section.)
 
-    However, ext4 is **not accessible** from **Windows** directly. Consequently, you will not be able to access your SD card in the same way you might be used to from other CFWs. To add your files, we suggest that you use **network transfer** instead. Once you have added the device to your Wi-Fi (as explained in the [Networking](../../configure/networking) chapter), your KNULLI device will show up in the **Network** section of your **Windows Explorer**, where you can drag-and-drop your files just as easily. (You will find a more detailed walkthrough in the [Add Games](../add-games) section.)
+    It is possible to access the ext4-formatted partitions with **Linux** systems. However, ext4 is **not accessible** from **Windows/macOS** directly. Consequently, you will not be able to access your SD card in the same way you might be used to from other CFWs. To add your files, we suggest that you use **network transfer** instead. Once you have added the device to your Wi-Fi (as explained in the [Networking](../../configure/networking) chapter), your KNULLI device will show up in the **Network** section of your **Windows Explorer**, where you can drag-and-drop your files just as easily. (You will find a more detailed walkthrough in the [Add Games](../add-games) section.)
     
     We know, that network transfer is a bit slower, which is an inconvenience during the initial setup when you are uploading the major part of your games. However, we also believe that it is **worth the effort**. The PortMaster library contains about **500 games**, a lot of them will be **fully playable** on your handheld device if you stick with ext4.
 
@@ -36,8 +36,8 @@ It is possible to use an already populated SD card as secondary SD card. However
 
     | SD cards     | I want to play PortMaster games!                                                                                                 | I want to access the SD card from Windows without Network transfer! (I accept that PortMaster will *not* work.) |
     | ------------ | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-    | 1            | *You are good to go!* :material-check:                                                                                           | *You will have to ***reformat*** your ***internal storage*** to ***exFAT**. |
-    | 2            | *You will have to* ***reformat*** *your* ***external storage*** *to* ***ext4*** *(unless it is already formatted to ext4).*      | *You will have to ***reformat** your ***external storage*** to ***exFAT** (unless it is already formatted to exFAT).* |
+    | 1            | *You are good to go!* :material-check:                                                                                           | *You will have to* ***reformat*** *your* ***internal storage*** *to* ***exFAT***. |
+    | 2            | *You will have to* ***reformat*** *your* ***external storage*** *to* ***ext4*** *(unless it is already formatted to ext4).*      | *You will have to* ***reformat*** *your* ***external storage*** *to* ***exFAT*** *(unless it is already formatted to exFAT).* |
 
 Make sure that you **made a decision** on how to store your files and **prepared the storage accordingly** before you continue with the next step.
 
@@ -46,6 +46,10 @@ Be aware that PortMaster will **not** work properly if you decide to format to *
 ### 2. Set up your controls (RG35XX Plus/H/2024/SP)
 
 If you have installed KNULLI on a device of the **Anbernic RG35XX Plus/H/2024/SP** series, please make sure to set up your controls before you proceed. Press the ++"Start"++ button to bring up the main menu, find *Controller & Bluetooth Settings* and select *Controller Mapping*. Follow the on-screen instructions to set up your controls. (You will find more detailed instructions in the [Controls](../../configure/controls) section.)
+
+!!! info "Anbernic RG35XX Plus/H/2024/SP Series"
+
+    The Anbernic RG35XX Plus/H/2024/SP series relies on almost identical hardware. However, the sticks and shoulder buttons are slightly different between these models. Since the hardware is too similar to auto-detect, which device you are using, setting up the controls is **mandatory** for all devices of this series.
 
 ### 3. Set up your Wi-Fi
 
@@ -57,11 +61,11 @@ Unless you have decided to reformat to exFAT, this step is **mandatory** to be a
 
 ### 4. Add games and BIOSes
 
-Depending on your storage choice, you can now start to add your games. Open your Windows Explorer and find the **KNULLI** device in your **Network** section. If the device does not show up, you can type `//KNULLI` in the address par of your Windows Explorer to find it manually. (If you changed the hostname manually, look for the hostname of your choice instead.)
+Depending on your storage choice, you can now start to add your games. On Windows, open your **Windows Explorer** and find the **KNULLI** device in your **Network** section. If the device does not show up, you can type `\\KNULLI` in the address bar of your Windows Explorer to find it manually. On **macOS**, select *Go* in *Finder*, pick *Connect to Server* and type `smb://KNULLI` in the address bar. (If you changed the hostname manually, look for the hostname of your choice instead.)
 
-Alternatively, if you have formatted your SD card to exFAT, you can shut your KNULLI device down, eject the SD card, insert it into your computer and access it directly.
+Alternatively, if you have a Linux-driven computer available, or if you have formatted your SD card to exFAT, you can shut down your KNULLI device, eject the SD card, insert it into your computer, and access it directly.
 
-In any case, you may drag-and-drop your games and BIOS files from your local hard disk drives to the corresponding folders on your KNULLI device. (You will find a more detailed walkthrough in the [Add Games](../add-games) section.)
+In any case, you may drag-and-drop your games and BIOS files from your local hard disk drives to the corresponding folders on your KNULLI device. You will find a more detailed walkthrough and more alternative solutions for adding games in the [Add Games](../add-games) section.
 
 ### 5. Install PortMaster (optional)
 
