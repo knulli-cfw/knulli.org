@@ -64,19 +64,47 @@ Um Netzwerkübertragung zu nutzen, musst du als erstes die Netzwerkverbindungen 
 
 ### Windows-Netzwerk (SMB)
 
-KNULLI unterstützt, wie viele andere Betriebssysteme, das Windows-Netzwerkprotokoll SMB. Um Daten via SMB an dein Gerät zu übertragen, hast du verschiedene Möglichkeiten, je nachdem, welche Art von Computer du für die Übertragung nutzt:
-
-- Windows:
-    - Öffne ein Windows-Explorer-Fenster und gib in die Adressleiste entweder `\\[HOSTNAME]` oder `\\[IP-ADRESSE]` ein (ersetze dabei `[HOSTNAME]` mit dem Hostnamen bzw. `[IP-ADRESSE]` mit der IP-Adresse deines Geräts).
-    - Du wirst möglicherweise nach Benutzername und Passwort gefragt, wenn die erweiterten Sicherheitseinstellungen aktiv sind.
-        - Der Benutzername ist `root`, das Passwort wird dir als *Root password* im Bereich *Security* der *System settings* angezeigt.
-- MacOS:
-    - Öffne Finder und wähle *Gehe zu* und dann *Mit Server verbinden* aus dem Hauptmenü.
-    - In der Adressleiste, die jetzt erscheint, musst du `smb://[IP-ADRESSE]` eingeben (ersetze `[IP-ADRESSE]` mit deiner IP-Adresse).
-    - Du wirst möglicherweise nach Benutzername und Passwort gefragt, wenn die erweiterten Sicherheitseinstellungen aktiv sind.
-        - Der Benutzername ist `root`, das Passwort wird dir als *Root password* im Bereich *Security* der *System settings* angezeigt.
+KNULLI unterstützt, wie viele andere Betriebssysteme, das Windows-Netzwerkprotokoll SMB. Um Daten via SMB an dein Gerät zu übertragen, hast du verschiedene Möglichkeiten, je nachdem, welche Art von Computer du für die Übertragung nutzt.
 
 Nachdem du dich erfolgreich eingeloggt hast, kannst du den Netzwerkordner `share` sehen. Dieser Ordner entspricht deinem aktuellen [`/userdata`-Ordner](#der-userdata-ordner). Hier kannst du deine Daten (Spiele etc.) in den dafür vorgesehenen Ordnern ablegen.
+
+#### Windows
+
+Auf Windows-Computern ist SMB direkt in den *Windows-Explorer* integriert.
+
+<table>
+	<tr>
+		<td>
+			<img src="/_inc/images/play/add-games/001a-smb-find-in-network-section.png">
+			<p><strong>Schritt 1a: </strong>Finde dein KNULLI-Gerät im Abschnitt <em>Netzwerk</em> in deinem <em>Windows Explorer</em>.</p>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/001b-smb-find-by-hostname.png">
+	    	<p><strong>Schritt 1b: </strong>Finde dein KNULLI-Gerät, indem du <code>\\KNULLI</code> in der Adressleiste des <em>Windows Explorers</em> eingibst.</p>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/002-smb-open-share-folder.png">
+			<p><strong>Schritt 2: </strong>Öffne den <code>share</code>-Ordner deines KNULLI-Geräts, um auf den Inhalt des <code>/userdata</code>-Ordners zuzugreifen.</p>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/003-smb-find-system-in-roms-folder.png">
+			<p><strong>Schritt 3: </strong>Öffne den <code>roms</code>-Ordner deines KNULLI-Geräts, um auf die Unterordner für die verschiedenen Systeme zuzugreifen (z.B. SNES).</p>
+		</td>
+	</tr>
+</table>
+
+!!! danger "Problemlösungen"
+
+    - Der Gerätename im Windows-Explorer entspricht dem **hostname** deines Geräts. Wenn `KNULLI` nicht funktioniert, solltest du in den *Network Settings* deines Geräts nachsehen, welchen **hostname** dein Gerät eingetragen hat. Du kannst anstelle des **hostname** auch die **IP-Adresse** deines Gerätes verwenden, wenn du die Adresse direkt in die Adressleiste eintippst.
+    - Du wirst möglicherweise nach Benutzername und Passwort gefragt, wenn die erweiterten Sicherheitseinstellungen aktiv sind.
+        - Der Benutzername ist `root`, das Passwort wird dir als *Root password* im Bereich *Security* der *System settings* angezeigt.
+
+#### macOS
+
+- Öffne Finder und wähle *Gehe zu* und dann *Mit Server verbinden* aus dem Hauptmenü.
+- In der Adressleiste, die jetzt erscheint, musst du `smb://[IP-ADRESSE]` eingeben (ersetze `[IP-ADRESSE]` mit deiner IP-Adresse).
+- Du wirst möglicherweise nach Benutzername und Passwort gefragt, wenn die erweiterten Sicherheitseinstellungen aktiv sind.
+    - Der Benutzername ist `root`, das Passwort wird dir als *Root password* im Bereich *Security* der *System settings* angezeigt.
 
 ### FTP
 
