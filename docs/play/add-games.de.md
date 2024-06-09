@@ -93,6 +93,26 @@ Auf Windows-Computern ist SMB direkt in den *Windows-Explorer* integriert.
 	</tr>
 </table>
 
+Falls du in Zukunft öfter auf dein KNULLI-Gerät zugreifen möchtest, kannst du dem Gerät sogar einen Laufwerksbuchstaben zuweisen, damit es im Bereich *Dieser PC* sichtbar wird. Wenn du das tust, kannst du dort sogar nachsehen, wieviel freier Speicher auf deiner SD-Karte verfügbar ist.
+
+<table>
+	<tr>
+		<td>
+			<img src="/_inc/images/play/add-games/004-smb-map-network-drive.png">
+			<p><strong>Schritt 1: </strong>Klick mit der rechten Maustaste auf den <code>share</code>-Ordner in deinem <em>Windows Explorer</em> und wähle <em>Netzlaufwerk verbinden...</em>.</p>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/005-smb-map-network-drive.png">
+	    	<p><strong>Schritt 2: </strong>Weise dem Netzlaufwerk einen Buchstaben zu und bestätige.</p>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/006-smb-map-network-drive.png">
+			<p><strong>Schritt 3: </strong>Du wirst deinen <code>share</code>-Ordner jetzt als Netzlaufwerk im Abschnitt <em>Dieser PC</em> im <em>Windows Explorer</em> finden.</p>
+		</td>
+	</tr>
+</table>
+
+
 !!! danger "Problemlösungen"
 
     - Der Gerätename im Windows-Explorer entspricht dem **hostname** deines Geräts. Wenn `KNULLI` nicht funktioniert, solltest du in den *Network Settings* deines Geräts nachsehen, welchen **hostname** dein Gerät eingetragen hat. Du kannst anstelle des **hostname** auch die **IP-Adresse** deines Gerätes verwenden, wenn du die Adresse direkt in die Adressleiste eintippst.

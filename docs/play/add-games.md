@@ -95,6 +95,25 @@ On every Windows computer, SMB is integrated into the *Windows Explorer*.
 	</tr>
 </table>
 
+If you want to access your KNULLI device regularly, you can even assign a drive letter to make it show up in *This PC*. By doing so, you will even be able to see, how much space you have left on your SD card.
+
+<table>
+	<tr>
+		<td>
+			<img src="/_inc/images/play/add-games/004-smb-map-network-drive.png">
+			<p><strong>Step 1: </strong>Right-click the <code>share</code> folder in <em>Windows Explorer</em> and select <em>Map network drive...</em>.</p>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/005-smb-map-network-drive.png">
+	    	<p><strong>Step 2: </strong>Assign a drive letter and confirm.</p>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/006-smb-map-network-drive.png">
+			<p><strong>Step 3: </strong>Find your KNULLI <code>share</code> folder as a network drive in <em>This PC</em> in <em>Windows Explorer</em>.</p>
+		</td>
+	</tr>
+</table>
+
 !!! danger "Troubleshooting"
 
     - The name of the device corresponds to the **hostname** set it your KNULLI device. If `KNULLI` does not work, check the current **hostname** in the *Network Settings* of your KNULLI device. you can also use the **IP address** of your device when typing directly into the address bar.
