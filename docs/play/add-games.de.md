@@ -75,21 +75,19 @@ Auf Windows-Computern ist SMB direkt in den *Windows-Explorer* integriert.
 <table>
 	<tr>
 		<td>
-			<img src="../../../_inc/images/play/add-games/001a-smb-find-in-network-section.png">
+			<img src="/_inc/images/play/add-games/001a-smb-find-in-network-section.png">
 			<p><strong>Schritt 1a: </strong>Finde dein KNULLI-Gerät im Abschnitt <em>Netzwerk</em> in deinem <em>Windows Explorer</em>.</p>
 		</td>
 		<td>
-			<img src="../../../_inc/images/play/add-games/001b-smb-find-by-hostname.png">
+			<img src="/_inc/images/play/add-games/001b-smb-find-by-hostname.png">
 	    	<p><strong>Schritt 1b: </strong>Finde dein KNULLI-Gerät, indem du <code>\\KNULLI</code> in der Adressleiste des <em>Windows Explorers</em> eingibst.</p>
 		</td>
-	</tr>
-	<tr>
 		<td>
-			<img src="../../../_inc/images/play/add-games/002-smb-open-share-folder.png">
+			<img src="/_inc/images/play/add-games/002-smb-open-share-folder.png">
 			<p><strong>Schritt 2: </strong>Öffne den <code>share</code>-Ordner deines KNULLI-Geräts, um auf den Inhalt des <code>/userdata</code>-Ordners zuzugreifen.</p>
 		</td>
 		<td>
-			<img src="../../../_inc/images/play/add-games/003-smb-find-system-in-roms-folder.png">
+			<img src="/_inc/images/play/add-games/003-smb-find-system-in-roms-folder.png">
 			<p><strong>Schritt 3: </strong>Öffne den <code>roms</code>-Ordner deines KNULLI-Geräts, um auf die Unterordner für die verschiedenen Systeme zuzugreifen (z.B. SNES).</p>
 		</td>
 	</tr>
