@@ -63,6 +63,27 @@ Unless you have decided to reformat to exFAT, this step is **mandatory** to be a
 
 Depending on your storage choice, you can now start to add your games. On Windows, open your **Windows Explorer** and find the **KNULLI** device in your **Network** section. If the device does not show up, you can type `\\KNULLI` in the address bar of your Windows Explorer to find it manually. On **macOS**, select *Go* in *Finder*, pick *Connect to Server* and type `smb://KNULLI` in the address bar. (If you changed the hostname manually, look for the hostname of your choice instead.)
 
+<table>
+	<tr>
+		<td>
+			<img src="/_inc/images/play/add-games/001a-smb-find-in-network-section.png">
+			<p><strong>Step 1a: </strong>Find your KNULLI device in the <em>Network</em> section of your <em>Windows Explorer</em>.</p>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/001b-smb-find-by-hostname.png">
+	    	<p><strong>Step 1b: </strong>Find your KNULLI device by typing <code>\\KNULLI</code> in the address bar of your <em>Windows Explorer</em>.</p>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/002-smb-open-share-folder.png">
+			<p><strong>Step 2: </strong>Open the <code>share</code> folder of your KNULLI device to find the contents of the <code>/userdata</code> folder.</p>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/003-smb-find-system-in-roms-folder.png">
+			<p><strong>Step 3: </strong>Open the <code>roms</code> folder of your KNULLI device to find the subfolders for each systems (e.g., SNES).</p>
+		</td>
+	</tr>
+</table>
+
 Alternatively, if you have a Linux-driven computer available, or if you have formatted your SD card to exFAT, you can shut down your KNULLI device, eject the SD card, insert it into your computer, and access it directly.
 
 In any case, you may drag-and-drop your games and BIOS files from your local hard disk drives to the corresponding folders on your KNULLI device. You will find a more detailed walkthrough and more alternative solutions for adding games in the [Add Games](../add-games) section.
