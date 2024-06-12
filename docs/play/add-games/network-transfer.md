@@ -2,10 +2,10 @@
 
 Network transfer can be used on any device which can be connected to the internet or a local network. (This includes devices with native networking capabilites and ones where networking can be added through an external dongle.)
 
-This option first requires you to set up networking on your device.  Please see [Networking](../../configure/networking) for details. Once you have completed those steps, you will need
+This option first requires you to set up networking on your device.  Please see [Networking](../../../configure/networking) for details. Once you have completed those steps, you will need
 
 * the hostname and/or IP address of your device.
-* the root password, if additional security measurements are in place, as explained in the [Networking](../../configure/networking) section.
+* the root password, if additional security measurements are in place, as explained in the [Networking](../../../configure/networking) section.
 
 ### Windows networks (SMB)
 
