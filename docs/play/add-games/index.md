@@ -1,0 +1,5 @@
+# :material-layers-plus: Adding Games to KNULLI
+
+!!! info "Unlike many other CFWs, KNULLI formats the *SHARE* partition to ext4 by default. The ext4 filesystem is not readable by Windows, so by default, you will not be able to add games in the same way you might be used to from other CFWs. However, some games from the [PortMaster](../../systems/portmaster) library only work on ext4 filesystems because they rely on symbolic links and large swap files. It is possible to [reformat the partition to exFAT](../formatting) *after first boot*, however, you should be aware that some PortMaster games might not work on your device if you choose to reformat to exFAT."
+
+KNULLI has a few options for adding games. Depending on the capabilites of your device, you will have to determine which option to choose. For example, some devices do not have networking capabilites, so with those devices you will not be able to use the network transfer options. Additionally, you might have to consider the computer you will use as a data source, since some options are restricted to specific operating systems.
