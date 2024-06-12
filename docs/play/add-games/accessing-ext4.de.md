@@ -26,7 +26,7 @@ Es gibt Software von Drittanbietern, mit denen man auch unter Windows/MacOS auf 
 
 ### Geräte mit einer zweiten SD-Karte
 
-Wenn dein Gerät über einen Slot für eine zweite SD-Karte verfügt, kannst du einfach eine zweite SD-Karte an deinem Computer mit exFAT formatieren. Anschließend kannst du sie in KNULLI einrichten wie im Abschnitt [Eine zweite SD-Karte verwenden](../2-sd-cards) beschrieben.
+Wenn dein Gerät über einen Slot für eine zweite SD-Karte verfügt, kannst du einfach eine zweite SD-Karte an deinem Computer mit exFAT formatieren. Anschließend kannst du sie in KNULLI einrichten wie im Abschnitt [Eine zweite SD-Karte verwenden](../second-sd-card) beschrieben.
 
 ## Option 3: Linux
 

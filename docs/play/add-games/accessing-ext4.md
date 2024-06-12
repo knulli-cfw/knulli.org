@@ -23,7 +23,7 @@ Some third-party developers offer software solutions to access Linux file system
 
 ### Devices with a second SD card
 
-If you have slot for a second SD card available, you can simply format a second SD card to exFAT on your computer and set it up as explained in the section [Using a second SD card](../2-sd-cards).
+If you have slot for a second SD card available, you can simply format a second SD card to exFAT on your computer and set it up as explained in the section [Using a second SD card](../second-sd-card).
 
 ## Option 3: Linux
 

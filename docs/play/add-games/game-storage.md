@@ -6,7 +6,7 @@ Before you start adding your games, please take the time to understand how data 
 
 KNULLI supports single and dual SD card setups. Internally, KNULLI has a folder called `/userdata` where all your data (games, screenshots, bezels, saves, configurations, themes, etc.) will be stored. On a single-SD-card setup, the `/userdata` folder will always point to the *SHARE* partition of your primary SD card. If you have a device with more than one SD card slot and choose to create a dual-SD-card setup, the `/userdata` folder will point to the main partition of your secondary SD card **instead**.
 
-!!! info "You can switch between single/dual SD card mode by following the steps in the section about [Using a second SD card](../2-sd-cards). Basically, by switching between internal/external storage, you just tell KNULLI which drive/partition `/userdata` should point to."
+!!! info "You can switch between single/dual SD card mode by following the steps in the section about [Using a second SD card](../second-sd-card). Basically, by switching between internal/external storage, you just tell KNULLI which drive/partition `/userdata` should point to."
 
 Inside the `/userdata` folder, you will find subfolders where you can store your games and other files. After installing for the first time, KNULLI will create and populate all these folders automatically. The most important folders for you to know are the following:
 
