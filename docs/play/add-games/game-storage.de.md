@@ -26,7 +26,7 @@ Im Verzeichnis `/userdata` befinden sich weitere Unterordner, in denen du Spiele
     * `/theme-customizations` ist der Ordner, in dem du Anpassungen an deinen Themes vornehmen kannst.
     * `/themes` ist der Ordner, in dem du deine Themes ablegen kannst.
 
-!!! info "KNULLI sucht ausschließlich im dafür vorgesehenen Ordner `roms` nach Spielen. Spiele, die außerhalb des dafür vorgesehenen Ordners abgelegt werden, werden von KNULLI nicht erkannt."
+!!! info "KNULLI sucht ausschließlich im dafür vorgesehenen Ordner `roms` nach Spielen. Spiele, die außerhalb des dafür vorgesehenen Ordners abgelegt werden, werden von KNULLI nicht erkannt. Wenn du nicht sicher bist, welche Spiele in welchen Ordner gehören, empfehlen wir dringend, dass du einen Blick ins [Batocera Wiki](https://wiki.batocera.org/systems) wirfst!"
 
 !!! info "KNULLI ist ein Linux-System. Anders als Windows unterscheiden Linux-Systeme zwischen *Groß- und Kleinschreibung* in Datei- und Ordnernamen. Du solltest deswegen darauf achten, dich an die erwartete Groß- und Kleinschreibung zu halten, wenn du deine Dateien migrierst."
 
