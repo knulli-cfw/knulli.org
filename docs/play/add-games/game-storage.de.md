@@ -6,7 +6,9 @@ Bevor du anfängst, deine Spiele hinzuzufügen, solltest du dir die Zeit nehmen,
 
 Du kannst KNULLI sowohl mit einer einzelnen SD-Karte als auch mit zwei getrennten SD-Karten verwenden. Intern benutzt KNULLI einen Ordner namens `/userdata`, um alle deine Daten (Spiele, Screenshots, Bezels, Speicherstände, Konfigurationen, Themes etc.) darin abzulegen. Wenn du KNULLI mit einer einzelnen SD-Karte verwendest, wird der `/userdata`-Ordner immer auf die *SHARE*-Partition deiner primären SD-Karte zeigen. Wenn du ein Gerät mit mehr als einem SD-Karten-Slot hast und eine zweite SD-Karte verwenden möchtest, wird `/userdata` **stattdessen** auf die Partition der zweiten SD-Karte zeigen.
 
-!!! info "Du kannst zwischen einzelner und zweiter SD-Karte wechseln, in dem du den Schritten im Abschnitt [Eine zweite SD-Karte verwenden](../second-sd-card) folgst. In dem du zwischen internem und externem Speicher hin- und her schaltest, legst du für KNULLI fest, wohin `/userdata` zeigen soll."
+!!! info "Interner und externer Speicher"
+
+    Du kannst zwischen erster und zweiter SD-Karte wechseln, in dem du den Schritten im Abschnitt [Eine zweite SD-Karte verwenden](../second-sd-card) folgst. Indem du zwischen internem und externem Speicher hin- und her schaltest, legst du für KNULLI fest, wohin `/userdata` zeigen soll.
 
 Im Verzeichnis `/userdata` befinden sich weitere Unterordner, in denen du Spiele und weitere Dateien ablegen kannst. Nach der ersten Installation wird KNULLI diese Ordner automatisch anlegen und befüllen. Die wichtigsten Ordner für dich sind folgende:
 
