@@ -18,7 +18,7 @@ Inside the `/userdata` folder, you will find subfolders where you can store your
     * `/roms` is the folder where you can store your games. Inside the folder you will find subfolders for all supported systems. Simply place your game files into the folders of the system the game was made for, e.g.
         * `/snes` is the folder where your SNES games should be stored.
         * `/gb` is the folder where your Gameboy games should be stored.
-        * `/ports` is the folder where your ports (including [PortMaster](../../systems/portmaster) should be stored.
+        * `/ports` is the folder where your ports (including [PortMaster](../../../systems/portmaster) should be stored.
         * ...
     * `/saves` is the folder where your savegames will be stored.
     * `/screenshots` is the folder where your screenshots will be stored.

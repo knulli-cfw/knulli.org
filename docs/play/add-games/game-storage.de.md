@@ -18,7 +18,7 @@ Im Verzeichnis `/userdata` befinden sich weitere Unterordner, in denen du Spiele
     * `/roms` ist der Ordner, in dem du deine Spiele ablegen kannst. Der Ordner enthält bereits diverse Unterordner für verschiedene Systeme. Leg deine Spiele einfach in die passenden Ordner der Systeme, für die das jeweilige Spiel entwickelt wurde.
         * `/snes` ist der Ordner, in dem du deine SNES-Spiele ablegen kannst.
         * `/gb` ist der Ordner, in dem du deine Gameboy-Spiele ablegen kannst.
-        * `/ports` ist der Ordner, in dem du deine Ports (inklusive [PortMaster](../../systems/portmaster) ablegen kannst.
+        * `/ports` ist der Ordner, in dem du deine Ports (inklusive [PortMaster](../../../systems/portmaster) ablegen kannst.
         * ...
     * `/saves` ist der Ordner, in dem deine gespeicherten Spielstände abgelegt werden.
     * `/screenshots` ist der Ordner, in dem deine gespeicherten Screenshots abgelegt werden.
