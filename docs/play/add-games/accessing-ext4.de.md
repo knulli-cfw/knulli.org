@@ -1,5 +1,9 @@
 # :material-micro-sd: Auf die SD-Karte zugreifen
 
+!!! danger "Wichtig: Unbedingt lesen bevor du weitermachst!"
+
+    Wir empfehlen **dringend**, dass du via [**Netzwerkübertragung**](../network-transfer) auf dein KNULLI-Gerät zugreifst. Bevor du versuchst, direkt auf deine SD-Karte zuzugreifen, solltest du sicherstellen, dass du die Warnung im Abschnitt [Spiele hinzufügen](..) gelesen und verstanden hast.
+
 Spiele können via SD-Karte hinzugefügt werden.
 
 ### Geräte mit nur einer SD-Karte

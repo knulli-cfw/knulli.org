@@ -1,5 +1,9 @@
 # :material-micro-sd: Accessing the SD Card
 
+!!! danger "Important: Read this before you proceed!"
+
+    We **strongly** suggest to use [**Network Transfer**](../network-transfer) to access to your KNULLI device. Before you attempt to access your SD card directly, please make sure to read the warning in the [Add Games](..) section.
+
 Under certain circumstances, games can be added directly to your SD card.
 
 ### Devices with a single SD card
