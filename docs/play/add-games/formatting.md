@@ -14,12 +14,16 @@
 
 The built-in KNULLI formatter offers **three** different filesystems. However, only **two** of them are currently supported by KNULLI:
 
-* **exFAT** is a Windows/macOS-compatible file system which is used by most CFWs, Smartphones, etc. However, exFAT is **incapable** of handling **large swap files** and **symbolic links**. Therefore, many PortMaster games **cannot be played** on exFAT-formatted storages.
-* **ext4** is a Linux file system which **cannot be accessed** directly from Windows/macOS. However, ext4 supports **large swap files** and **symbolic links**. Therefore, PortMaster games **run perfectly** on ext4-formatted storages.
-* **BTRFS** is a file system which is currently **NOT SUPPORTED BY KNULLI**.
+* **:material-check: ext4** is a Linux file system which **cannot be accessed** directly from Windows/macOS. However, ext4 supports **large swap files** and **symbolic links**. Therefore, PortMaster games **run perfectly** on ext4-formatted storages.
+* **:material-check: exFAT** is a Windows/macOS-compatible file system which is used by most CFWs, Smartphones, etc. However, exFAT is **incapable** of handling **large swap files** and **symbolic links**. Therefore, many PortMaster games **cannot be played** on exFAT-formatted storages.
+* **:material-cancel: BTRFS** is a file system which is currently **NOT SUPPORTED BY KNULLI**.
 
 ## Formatting
 
 The built-in KNULLI formatter can be used to format both, the internal data storage on your primary SD card (**internal**) and the optional second SD card (**external**).
 
-To format your data storages to the file systems of your choice, open the KNULLI main menu by pressing ++"Start"++ and choose *Format a disk* in the *Frontent developer options* section of the *System settings*. Make sure to choose the correct *Device to Format* and the *File System* you want to format the device to. Be aware that you need to reboot your device to apply the formatting after you chose **Format now*.
+To format your data storages to the file systems of your choice, open the KNULLI main menu by pressing ++"Start"++ and choose *Format a disk* in the *Frontent developer options* section of the *System settings*. Make sure to choose the correct *Device to Format* and the *File System* you want to format the device to. Be aware that you need to reboot your device to apply the formatting after you chose *Format now*.
+
+!!! info "After Formatting"
+
+    After formatting, KNULLI will create and populate the [`/userdata` folder](../game-storage) for you.
