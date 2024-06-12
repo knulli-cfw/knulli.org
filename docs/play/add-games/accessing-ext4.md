@@ -4,19 +4,13 @@
 
     We **strongly** suggest to use [**Network Transfer**](../network-transfer) to access to your KNULLI device. Before you attempt to access your SD card directly, please make sure to read the warning in the [Add Games](..) section.
 
-Under certain circumstances, games can be added directly to your SD card.
+As explained above, the *SHARE* partition is formatted to ext4 by default. Therefore, it is not accessible on Windows. However, if network transfer is not available to you, there are other options to access the SD card directly.
 
-### Devices with a single SD card
+## Option 1: Linux
 
-As explained above, the *SHARE* partition is formatted to ext4 by default. Therefore, it is not accessible on Windows. However, if neither network transfer nor a Linux computer is available to you, there are options to access the SD card from Windows anyway.
+If you have access to a Linux computer, you will be able to access the *SHARE* partition anyway, even if it is formatted to ext4. Simply plug your card into your Linux computer and you will be able to browse the directories and add files directly.
 
-#### Reformat the share partition to exFAT
-
-!!! warning "Before reformatting the SD card to exFAT, please be aware that you may not be able to run certain games from the [PortMaster](../../systems/portmaster) library afterwards. Some ports rely on symlinks and large swap files which are not supported by the exFAT file system."
-
-It is possible to reformat the *SHARE* partition to exFAT, to make the partition accessible on Windows. To format the partition to exFAT anyway, open the KNULLI main menu by pressing ++"Start"++ and choose *Format a disk* in the *Frontent developer options* section of the *System settings*. You will be able to choose whether you want your partition formatted to ext4 or exFAT.
-
-#### Third party software
+## Option 2: Third Party Software
 
 Some third-party developers offer software solutions to access Linux file systems from Windows/MacOS:
 
@@ -25,10 +19,10 @@ Some third-party developers offer software solutions to access Linux file system
 
 !!! danger "We generally do **not** recommend using third party software to access Linux file systems. If you know what you are doing, you may try this approach anyway. However, you should be aware that you risk data loss."
 
-### Devices with a second SD card
+## Option 3: Reformat to exFAT
 
-If you have slot for a second SD card available, you can simply format a second SD card to exFAT on your computer and set it up as explained in the section [Using a second SD card](../second-sd-card).
+!!! danger "Important: Read this before you proceed!"
 
-## Option 3: Linux
+    Be aware, that **many** PortMaster games will **not** work properly from an exFAT-formatted drive. Read the warning in the [Add Games](..) section for a detailed explanation.
 
-If you have access to a Linux computer, you will be able to access the *SHARE* partition anyway, even if it is formatted to ext4. Simply plug your card into your Linux computer and you will be able to browse the directories and add files directly.
+It is possible to (re)format your file storages to exFAT, to make them accessible on your Windows/macOS computer. Please avoid formatting your storages directly from Windows/macOS. Instead, follow the instructions in the [Formatting](../formatting) to format with the built-in KNULLI formatter.
