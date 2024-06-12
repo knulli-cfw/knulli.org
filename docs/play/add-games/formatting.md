@@ -1,6 +1,6 @@
 # :material-folder-cog: Formatting
 
-!!! danger "Important: Unbedingt lesen bevor du weitermachst!"
+!!! danger "Important:  Read this before you proceed!"
 
     We **strongly** suggest to use [**Network Transfer**](../network-transfer) to access to your KNULLI device and stick with the **ext4** file system. Before you attempt to format any of your SD cards, please make sure to read the warning in the [Add Games](..) section.
 

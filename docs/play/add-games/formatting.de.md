@@ -1,6 +1,6 @@
 # :material-folder-cog: Formatieren
 
-!!! danger "Wichtig: Read this before you proceed!"
+!!! danger "Wichtig: Unbedingt lesen bevor du weitermachst!"
 
     Wir empfehlen **dringend**, dass du via [**Netzwerkübertragung**](../network-transfer) auf dein KNULLI-Gerät zugreifst und das Dateisystem **ext4** beibehältst. Bevor du dich dazu entscheidest, deine Speicherkarten zu formatieren, solltest du sicherstellen, dass du die Warnung im Abschnitt [Spiele hinzufügen](..) gelesen und verstanden hast.
 
