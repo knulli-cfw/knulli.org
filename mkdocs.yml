@@ -59,7 +59,7 @@ extra:
     - icon: fontawesome/brands/github 
       link: https://github.com/knulli-cfw/distribution
     - icon: fontawesome/brands/discord 
-      link: https://discord.gg/QZKr2QFA
+      link: https://discord.gg/HXPS3DAeeB
   extra:
     alternate:
       - name: English
@@ -125,6 +125,11 @@ plugins:
             Install: Installation
             Update: Aktualisieren
             Add Games: Spiele hinzufügen
+            Game Storage: Speicherort für Spiele
+            Network Transfer: Netzwerkübertragung
+            Accessing SD Card: Zugriff auf SD-Karte
+            Second SD Card: Zweite SD-Karte
+            Formatting: Formatieren
             Scraping: Scraping
             Hotkey shortcuts: Tastenkombinationen
             Achievements: Achievements
@@ -172,12 +177,18 @@ nav:
     - Play:
       - Quick Start Guide: play/quick-start.md
       - Install: play/install.md
-      - Update: play/update.md
-      - Add Games: play/add-games.md
+      - Add Games:
+        - play/add-games/index.md
+        - Game Storage: play/add-games/game-storage.md
+        - Network Transfer: play/add-games/network-transfer.md
+        - Accessing SD Card: play/add-games/accessing-ext4.md
+        - Second SD Card: play/add-games/second-sd-card.md
+        - Formatting: play/add-games/formatting.md
       - Scraping: play/scraping.md
       - Hotkey Shortcuts: play/hotkey-shortcuts.md
       - Achievements: play/retro-achievements.md
       - Netplay: play/netplay.md
+      - Update: play/update.md
     - Configure:
       - Networking: configure/networking.md
       - Controls: configure/controls.md
