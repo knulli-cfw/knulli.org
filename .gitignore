@@ -159,6 +159,12 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Eclipse IDE
+.project
+
+# Windows batch scripts
+*.bat
+
 # OS generated files #
 ######################
 .DS_Store

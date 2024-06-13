@@ -6,12 +6,12 @@ Knulli's default frontend is EmulationStation and default theme is [Art Book Nex
 
 <table>
   <tr>
-    <td><img src="../../_inc/images/screenshots/system-view.png"/></td>
-    <td><img src="../../_inc/images/screenshots/menu.png"/></td>
+    <td><img src="/_inc/images/screenshots/system-view.png"/></td>
+    <td><img src="/_inc/images/screenshots/menu.png"/></td>
   </tr>
   <tr>
-    <td><img src="../../_inc/images/screenshots/gamelist-view-metadata-immersive.png"/></td>
-    <td><img src="../../_inc/images/screenshots/gamelist-view-no-metadata-immersive.png"/></td>
+    <td><img src="/_inc/images/screenshots/gamelist-view-metadata-immersive.png"/></td>
+    <td><img src="/_inc/images/screenshots/gamelist-view-no-metadata-immersive.png"/></td>
   </tr>
 </table>
 
@@ -28,7 +28,7 @@ The following options can be changed directly from the main menu under `User Int
 | Game Artwork | Defines the type of artwork used to represent a game. These are sourced from the the selections you make in the scraper menu. Image will display the image you selected to scrape for `Image Source`.  Image (Cropped) will display that same image zoomed in to fill the screen.  Boxart will display the image you selected to scrape for `Box Source` | `Image`, `Image (Cropped)`, `Boxart` |
 | Game Metadata | Sets if metadata (e.g. description, release date, etc...) should be displayed for a game | `On`, `Off` |
 | Font Size | Set the size for text elements throughout the theme. | `Default`, `Small`, `Large` |
-| Color Scheme | Sets the color scheme that is used for the theme.  There is a set of prebuilt color schemes that you can select and an option to supply your custom color scheme (selected by choosing `custom`). You can see details on customizations below under [Theme Customizations](#theme-customizations). | `Default`, `Light`, `Steam OS`, `SNES`, `Famicom`, `DMG`, `OLED`, `Custom` |
+| Color Scheme | Sets the color scheme that is used for the theme.  There is a set of prebuilt color schemes that you can select and an option to supply your custom color scheme (selected by choosing `custom`). You can see details on customizations below under [Customization](#customization). | `Default`, `Light`, `Steam OS`, `SNES`, `Famicom`, `DMG`, `OLED`, `Custom` |
 
 ### Additional UI Settings 
 

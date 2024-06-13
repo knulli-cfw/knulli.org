@@ -4,7 +4,7 @@ In addition to the systems displayed; EmulationStation (ES) has functionality to
 
 All of the options described below can be managed by pressing ++"START"++ anywhere in ES to open the Main Menu and then opening ++"Game Collection Settings"++
 
-![Game Collection Settings Menu](../../_inc/images/collections-main-menu.png)
+![Game Collection Settings Menu](/_inc/images/collections-main-menu.png)
 
 ## Managing Your Backlog
 
@@ -12,8 +12,8 @@ Knulli includes a `Now Playing` collection that can be used to curate and play t
 
 <table>
     <tr>
-        <td><img src="../../_inc/images/collections-from-theme-1.png"></td>
-        <td><img src="../../_inc/images/collections-from-theme-2.png"></td>
+        <td><img src="/_inc/images/collections-from-theme-1.png"></td>
+        <td><img src="/_inc/images/collections-from-theme-2.png"></td>
     </tr>
 </table>
 
@@ -41,12 +41,12 @@ A dynamic collection enables you to create a set of filters that will automatica
 
 <table>
     <tr>
-        <td><img src="../../_inc/images/collections-dynamic-1.png"></td>
-        <td><img src="../../_inc/images/collections-dynamic-2.png"></td>
+        <td><img src="/_inc/images/collections-dynamic-1.png"></td>
+        <td><img src="/_inc/images/collections-dynamic-2.png"></td>
     </tr>
     <tr>
-        <td><img src="../../_inc/images/collections-dynamic-3.png"></td>
-        <td><img src="../../_inc/images/collections-dynamic-4.png"></td>
+        <td><img src="/_inc/images/collections-dynamic-3.png"></td>
+        <td><img src="/_inc/images/collections-dynamic-4.png"></td>
     </tr>
 </table>
 

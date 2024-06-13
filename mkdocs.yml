@@ -192,6 +192,8 @@ nav:
     - Configure:
       - Networking: configure/networking.md
       - Controls: configure/controls.md
+      - Collections: configure/collections.md
+      - Themes: configure/themes.md
       - SSH: configure/ssh.md
       - Retroarch:
         - Controls: configure/retroarch/controls.md
