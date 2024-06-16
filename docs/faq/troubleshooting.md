@@ -70,7 +70,7 @@ A: Most bezel decorations are made for screens with an aspect ratio of 16:9. Con
 
 ---
 
-### Q: There seems to be a battery drain. What can I do?
+### Q: There seems to be some battery drain. What can I do?
 
 A: Most likely, there is no battery drain. There is a bug in the algorithm which calculates and refreshes the estimated battery charge. Therefore, the displayed percentage is inaccurate. Do not worry about it, your battery is fine. Our developers are already working on a solution to give you a more precise battery charge indicator.
 
