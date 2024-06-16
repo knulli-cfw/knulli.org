@@ -1,4 +1,4 @@
-# Cheats for PPSSPP
+# :material-auto-fix: Cheats for PPSSPP
 
 The standalone PPSSPP emulator for PlayStation Portable (PSP) brings its own database of cheats which can be applied to your PSP games.
 

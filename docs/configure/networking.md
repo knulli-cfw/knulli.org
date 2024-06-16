@@ -1,4 +1,4 @@
-# Networking
+# :material-wifi: Networking
 
 Many devices which are supported by KNULLI are capable of connecting to the internet as well as local networks. In most cases, this is achieved by a built-in Wi-Fi adapter. However, KNULLI also supports network connection via USB dongles.
 

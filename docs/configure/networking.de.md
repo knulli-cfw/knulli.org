@@ -1,4 +1,4 @@
-# Netzwerkverbindungen
+# :material-wifi: Netzwerkverbindungen
 
 Viele Geräte, die von KNULLI unterstützt werden, sind in der Lage, sich mit dem Internet oder anderen lokalen Netzwerken zu verbinden. In den meisten Fällen geschieht dies über den eingebauten W-LAN-Adapter. Allerdings unterstützt KNULLI auch Netzwerkverbindungen über USB-Dongles.
 

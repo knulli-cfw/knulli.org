@@ -1,4 +1,4 @@
-# SSH
+# :material-console: SSH
 
 As an advanced user, you might want to access the command line (or shell) of your KNULLI device to enter Linux commands directly. You may do so by connecting to KNULLI via SSH. There are several SSH clients available. For Windows users, we recommmend [SmarTTY](https://sysprogs.com/SmarTTY) or [PuTTY](https://www.putty.org).
 

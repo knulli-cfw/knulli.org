@@ -1,4 +1,4 @@
-# Bezel Decorations
+# :material-image-frame: Bezel Decorations
 
 KNULLI supports a lot of different emulators for a lot of different systems. Many of these systems originally had an aspect ratio that is different from the built-in screen of your KNULLI device. To fill the black void between the border of the screen and the game area, KNULLI supports using *decorations*, also referred to as *bezels* or *bezel decorations*.
 
