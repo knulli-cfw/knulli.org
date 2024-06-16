@@ -137,6 +137,7 @@ plugins:
             Configure: Konfiguration
             Networking: Netzwerkverbindungen
             Unbranded: Ohne Marke
+            Bezel Decorations: Bezel-Dekorationen
         - locale: pl
           name: Polski
           build: true
@@ -193,6 +194,7 @@ nav:
       - Networking: configure/networking.md
       - Controls: configure/controls.md
       - Collections: configure/collections.md
+      - Bezel Decorations: configure/bezel-decorations.md
       - Themes: configure/themes.md
       - SSH: configure/ssh.md
       - Retroarch:
