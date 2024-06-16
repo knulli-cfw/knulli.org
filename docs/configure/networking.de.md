@@ -4,11 +4,17 @@ Viele Geräte, die von KNULLI unterstützt werden, sind in der Lage, sich mit de
 
 ## W-LAN
 
+!!! danger "WPA3-Probleme"
+
+    Einige Nutzer haben von Problemen berichtet, die entstanden sind, als sie ihr KNULLI-Gerät mit einem WPA3-geschützten W-LAN verbinden wollten. Falls du Probleme hast, mit deinem W-LAN zu verbinden, stelle sicher, dass es mit WPA2 und **nicht** mit WPA3 geschützt ist.
+
 Wenn dein Gerät einen eingebauten W-LAN-Adapter hat, kannst du ihn direkt via KNULLI konfigurieren. Öffne das Hauptmenü, in dem du den ++"Start"++-Button drückst, gehe zu *Network settings* und konfiguriere dort deine W-LAN-Verbindung. Im unteren Abschnitt *Settings* kannst du W-LAN aktivieren (*Enable WIFI*) und dein W-LAN ahand seiner SSID auswählen. Anschließend kannst du den W-LAN-Schlüssel eingeben und das Menü schließen, um mit dem W-LAN zu verbinden.
 
 Im Abschnitt darüber kannst du sehen, ob du gerade mit einem W-LAN verbunden bist. Außerdem siehst du deine aktuelle IP-Adresse und kannst das Netzwerksymbol ein- oder ausschalten.
 
-!!! warning "Standardmäßig ist in KNULLI kein root-Passwort gesetzt. Das bedeutet, dass deine Nutzerdaten-Partition sofort und ohne Passwortschutz zugreifbar ist, sobald du mit einem W-LAN verbindest. In den eigenen vier Wänden mag das ein praktisches Feature sein. Wenn du dein Gerät allerdings mit einem W-LAN verbindest, das nicht unter deiner Kontrolle ist, gehst du damit ein Sicherheitsrisiko ein."
+!!! warning "Passwortschutz"
+
+    Standardmäßig fragt KNULLI nicht nach einem Passwort, wenn man übers Netzwerk auf dein Gerät zugreift. Das bedeutet, dass deine Nutzerdaten-Partition sofort und ohne Passwortschutz zugreifbar ist, sobald du dein Gerät mit einem W-LAN verbindest. In den eigenen vier Wänden mag das ein praktisches Feature sein. Wenn du dein Gerät allerdings mit einem W-LAN verbindest, das nicht unter deiner Kontrolle ist, gehst du damit ein Sicherheitsrisiko ein. Wir empfehlen dringend, die Maßnahmen für **zusätzliche Sicherheit** zu ergreifen.
 
 ### Zusätzliche Sicherheit
 
@@ -18,7 +24,9 @@ Wenn du die Sicherheitsmaßnahmen eingeschaltet und das Gerät neu gestartet has
 
 Dieses Passwort, in Kombination mit dem Benutzernamen `root`, bildet die Zugangsdaten, mit denen auf dein Gerät via Netzwerk zugegriffen werden kann.
 
-!!! warning "Dir sollte bewusst sein, dass KNULLI für Retro-Gaming und niedrigschwelligen Netzwerkzugang entwickelt wurde. Die erweiterten Sicherheitsmaßnahmen stellen eine zusätzliche Hürde da, um deine Nutzerdaten vor ungewollten Zugriffen zu schützen. Du solltest das Gerät trotzdem nicht mit einem W-LAN verbinden, von dem du nicht sicher bist, dass es sicher ist!"
+!!! warning "Fremde Netzwerke"
+
+    Dir sollte bewusst sein, dass KNULLI für Retro-Gaming und niedrigschwelligen Netzwerkzugang entwickelt wurde. Die erweiterten Sicherheitsmaßnahmen stellen eine zusätzliche Hürde da, um deine Nutzerdaten vor ungewollten Zugriffen zu schützen. Du solltest das Gerät trotzdem nicht mit einem W-LAN verbinden, von dem du nicht sicher bist, dass es sicher ist!
 
 ### Hostname
 
