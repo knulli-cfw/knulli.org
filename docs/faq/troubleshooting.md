@@ -63,3 +63,9 @@ A: If you have updated from an older version you may need to copy the ``batocera
 A: Nothing. But don't worry! If you see this message, it only means that your version of KNULLI does not support **displaying** your collected Retro Achievements, **yet**. However, it is still completely possible to **collect** Retro Achievements while playing! Just set up your Retro Achievements account as explained in the [Retro Achievements](../../play/retro-achievements) section and start hunting!
 
 ---
+
+### Q: Why are bezel decorations not working on my KNULLI device?
+
+A: Most bezel decorations are made for screens with an aspect ratio of 16:9. Consequently, those bezels do not work on a 4:3 display (like on the Anbernic RG35XX H/Plus/SP). To get bezel decorations working, find a bezel pack for 4:3 displays. You will find a detailed explanation (and a pointer to 4:3-compatible bezels) in the [Bezel Decorations](../../configure/bezel-decorations) section.
+
+---
