@@ -56,6 +56,8 @@ A: If you have updated from an older version you may need to copy the ``batocera
   * If you use one single SD card, mount the second partition on your PC/Mac/Linux (``SHARE``) and copy the file to ``system/batocera.conf``
   * If you use two SD cards, mount the second SD card on your PC/Mac/Linux and copy the file to ``system/batocera.conf``
 
+---
+
 ### Q: When I try to open Retro Achievements, I get an error message with status code `419`, telling me I am not authorized. What can I do?
 
 A: Nothing. But don't worry! If you see this message, it only means that your version of KNULLI does not support **displaying** your collected Retro Achievements, **yet**. However, it is still completely possible to **collect** Retro Achievements while playing! Just set up your Retro Achievements account as explained in the [Retro Achievements](../../play/retro-achievements) section and start hunting!
