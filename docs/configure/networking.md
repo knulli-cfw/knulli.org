@@ -1,14 +1,20 @@
-# Networking
+# :material-wifi: Networking
 
 Many devices which are supported by KNULLI are capable of connecting to the internet as well as local networks. In most cases, this is achieved by a built-in Wi-Fi adapter. However, KNULLI also supports network connection via USB dongles.
 
 ## Wi-Fi
 
+!!! danger "WPA3 issues"
+
+    Some users experienced issues when connecting their device to a WPA3-protected Wi-Fi. If your device does not connect to your local Wi-Fi, make sure that it is protected with WPA2, **not** WPA3.
+
 If your device has a built-in Wi-Fi adapter, you can set it up directly via KNULLI. Press the ++"Start"++ button to open the main menu, go to *Network settings* where you can configure your Wi-Fi connection. In the lower *Settings* section, enable Wi-Fi, then select your Wi-Fi by its SSID, enter your Wi-Fi key, and leave the menu to connect to your Wi-Fi.
 
 In the section above, you can see whether you are currently connected to Wi-Fi, see your current IP address and toggle the network indicator on or off.
 
-!!! warning "By default, your KNULLI device does not have a root password set. Consequently, as soon as you connect to a network, the data on your device becomes accessible in your local network without any password protection. While this might be convenient within your own home, it might be a severe security risk when connecting to a network which is not under your control."
+!!! warning "Password protection"
+
+    By default, your KNULLI device does not require a root password to access your device. Consequently, as soon as you connect to a network, the data on your device becomes accessible in your local network without any password protection. While this might be convenient within your own home, it might be a severe security risk when connecting to a network which is not under your control. We strongly suggest to enable **additional security**.
 
 ### Additional security
 
@@ -18,7 +24,9 @@ After you enabled additioal security and rebooted your device, return to the *Se
 
 The password and the username `root` must now be used to access the device via network.
 
-!!! warning "Be aware, that KNULLI is built for retro gaming and easy network access. While this setting will make it harder to access your userdata partition, you still should not connect your KNULLI-driven device to any unknown local networks."
+!!! warning "Unknown networks"
+
+    Be aware, that KNULLI is built for retro gaming and easy network access. While this setting will make it harder to access your userdata partition, you still should not connect your KNULLI-driven device to any unknown local networks.
 
 ### Hostname
 

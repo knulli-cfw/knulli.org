@@ -2,6 +2,12 @@
 
 KNULLI has a native integration with [RetroAchievements](https://retroachievements.org/) which allows you to earn achievements as you play games across numerous emulators. In order to use RetroAchievements your device must be connected to the internet.
 
+!!! warning "Error 419"
+
+    It is currently not possible to access your collected *Retroachievements* from the main menu. There is a change needed on the RetroAchievements API in order to be able to display your history of earned achievements in EmulationStation.  Once the needed change is made by RetroAchievements, we will re-enable this feature in EmulationStation.
+    
+    However, even if you cannot **look** at your collected achievements, you can still **collect** achievements by following the steps below!
+
 ## Setup
 
 1. Create an account at [RetroAchievements.org](https://retroachievements.org/).
@@ -18,4 +24,3 @@ KNULLI has a native integration with [RetroAchievements](https://retroachievemen
     - Unlock Sound (++"On"++): this plays the classic unlock sound each time an achievement is earned.
     - Automatic Screenshot (++"On"++): this takes a screenshot each time an achievement is earned and stores it in the screenshots directory.  These can be viewed in the screenshots system in EmulationStation.
 - Not all emulators and games support RetroAchievements; please see the list of emulators that support achievements [here](https://docs.retroachievements.org/Emulator-Support-and-Issues/) and check if your game has achievements available by searching for it on RetroAchievements.org
-- There is a change needed on the RetroAchievements API in order to be able to display to display your history of earned achievements in EmulationStation.  Once the needed change is made by RetroAchievements; we can look at renabling this functionality in EmulationStation.

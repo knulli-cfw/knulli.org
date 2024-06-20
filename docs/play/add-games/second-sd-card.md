@@ -1,4 +1,4 @@
-# :material-layers-plus: Using a Second SD Card
+# :material-micro-sd: Using a Second SD Card
 
 !!! danger "Important:  Read this before you proceed!"
 

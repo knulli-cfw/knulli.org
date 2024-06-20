@@ -137,6 +137,7 @@ plugins:
             Configure: Konfiguration
             Networking: Netzwerkverbindungen
             Unbranded: Ohne Marke
+            Bezel Decorations: Bezel-Dekorationen
         - locale: pl
           name: Polski
           build: true
@@ -171,14 +172,14 @@ plugins:
 nav:
     - Home: index.md
     - FAQs:
-      - faq/index.md
+      - FAQs: faq/index.md
       - About KNULLI: faq/knulli.md
       - Troubleshooting: faq/troubleshooting.md
     - Play:
       - Quick Start Guide: play/quick-start.md
       - Install: play/install.md
       - Add Games:
-        - play/add-games/index.md
+        - Add Games: play/add-games/index.md
         - Game Storage: play/add-games/game-storage.md
         - Network Transfer: play/add-games/network-transfer.md
         - Accessing SD Card: play/add-games/accessing-ext4.md
@@ -193,6 +194,7 @@ nav:
       - Networking: configure/networking.md
       - Controls: configure/controls.md
       - Collections: configure/collections.md
+      - Bezel Decorations: configure/bezel-decorations.md
       - Themes: configure/themes.md
       - SSH: configure/ssh.md
       - Retroarch:

@@ -1,4 +1,4 @@
-# Modifying controls in RetroArch
+# :material-controller: Modifying controls in RetroArch
 
 For several systems, KNULLI employs emulation cores from the RetroArch library (*libretro*). You will find exhaustive documentation on how to use RetroArch in the excellent [RetroArch documentation portal](https://docs.libretro.com). However, to give you a kick-start, here's how to remap controls for your RetroArch-driven emulation systems on your KNULLI device.
 

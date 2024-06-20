@@ -1,4 +1,4 @@
-# SSH
+# :material-console: SSH
 
 Als fortgeschrittener Nutzer möchtest du möglicherweise auf die Kommandozeile (oder Shell) deines KNULLI-Gerätes zugreifen, um Linux-Befehle direkt eingeben zu können. KNULLI stellt dafür einen SSH-Zugang bereit. Es gibt viele verschiedene SSH-Clients, die du nutzen kannst, um Zugriff auf die Shell deines KNULLI-Gerätes zu erhalten. Für Windows-Nutzer empfehlen wir [SmarTTY](https://sysprogs.com/SmarTTY) oder [PuTTY](https://www.putty.org).
 
