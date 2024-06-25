@@ -78,11 +78,11 @@ extra:
         link: /tr/
         lang: tr
       - name: Português do Brasil
-        link: /pt-br/
-        lang: pt-br
+        link: /pt_BR/
+        lang: pt_BR
 plugins:
   - search:
-      lang: [en, es, de, pl, tr, pt-br]
+      lang: [en, es, de, pl, tr, pt_BR]
   - glightbox
   - macros:
       include_dir: includes
@@ -172,7 +172,7 @@ plugins:
             Controls: Kontroller
             Netplay: Ağ Oyunu Desteği
             Unbranded: Markasız
-        - locale: pt-br
+        - locale: pt_BR
           name: Português do Brasil
           build: true
           site_name: "KNULLI Wiki"
