@@ -78,11 +78,11 @@ extra:
         link: /tr/
         lang: tr
       - name: Português do Brasil
-        link: /pt_BR/
-        lang: pt_BR
+        link: /pt-BR/
+        lang: pt-BR
 plugins:
   - search:
-      lang: [en, es, de, pl, tr, pt_BR]
+      lang: [en, es, de, pl, tr, pt-BR]
   - glightbox
   - macros:
       include_dir: includes
