@@ -172,7 +172,7 @@ plugins:
             Controls: Kontroller
             Netplay: Ağ Oyunu Desteği
             Unbranded: Markasız
-        - locale: pt_BR
+        - locale: pt-BR
           name: Português do Brasil
           build: true
           site_name: "KNULLI Wiki"
