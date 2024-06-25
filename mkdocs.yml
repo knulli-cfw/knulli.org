@@ -77,9 +77,12 @@ extra:
       - name: Türkçe
         link: /tr/
         lang: tr
+      - name: Português do Brasil
+        link: /pt-br/
+        lang: pt-br
 plugins:
   - search:
-      lang: [en, es, de, pl, tr]
+      lang: [en, es, de, pl, tr, pt-br]
   - glightbox
   - macros:
       include_dir: includes
@@ -169,6 +172,36 @@ plugins:
             Controls: Kontroller
             Netplay: Ağ Oyunu Desteği
             Unbranded: Markasız
+        - locale: pt-br
+          name: Português do Brasil
+          build: true
+          site_name: "KNULLI Wiki"
+          nav_translations:
+            Home: Início
+            FAQs: Perguntas Frequentes
+            About KNULLI: Sobre o KNULLI
+            Troubleshooting: Solução de Problemas
+            Play: Jogar
+            Quick Start Guide: Guia rápido
+            Install: Instalação
+            Add Games: Adicionar Jogos
+            Game Storage: Armazenamento dos Jogos
+            Network Transfer: Transferência via Rede
+            Accessing SD Card: Acessando o Cartão SD
+            Second SD Card: Segundo Cartão SD
+            Formatting: Formatando
+            Hotkey Shortcuts: Atalhos
+            Achievements: Conquistas
+            Update: Atualizar
+            Configure: Configuração
+            Networking: Rede
+            Controls: Controles
+            Collections: Coleções
+            Bezel Decorations: Molduras
+            Themes: Temas
+            Systems: Sistemas
+            Devices: Dispositivos
+            Unbranded: Sem Marca
 nav:
     - Home: index.md
     - FAQs:
