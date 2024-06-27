@@ -2,7 +2,19 @@
 
 Many devices which are supported by KNULLI are capable of connecting to the internet as well as local networks. In most cases, this is achieved by a built-in Wi-Fi adapter. However, KNULLI also supports network connection via USB dongles.
 
-## Wi-Fi
+## Supported network adapters
+
+Some KNULLI-supported devices (e.g., Anbernic RG35XX Plus/H/SP, TrimUI Smart Pro) already come with a built-in network adapter that is completely supported by KNULLI. If your device comes with a built-in Wi-Fi adapter, you can skip ahead to [setting up Wi-Fi](#setting-up-wi-fi).
+
+However, even devices without a built-in network adapter (e.g., Anbernic RG35XX 2024, Anbernic RG28XX) can be connected to your Wi-Fi. KNULLI supports external USB Wi-Fi dongles which are based on the *RTL8192cu* or *RTL8188eu/us* chipsets. More specifically, the KNULLI community strongly recommends the **TP-Link TL-WN725N** network adapter.
+
+To activate your USB network adapter
+
+* plug the network adapter into an appropriate USB port of your KNULLI device.
+* press the ++"Start"++ button and head to *System Settings*. There you will find *Services* where you need to turn on `ENABLE_WIFI` **after** you plugged the network adapter into your device.
+* follow the instructions for [setting up Wi-Fi](#setting-up-wi-fi).
+
+## Setting up Wi-Fi
 
 !!! danger "WPA3 issues"
 

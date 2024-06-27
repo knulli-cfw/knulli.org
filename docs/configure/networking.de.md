@@ -2,7 +2,19 @@
 
 Viele Geräte, die von KNULLI unterstützt werden, sind in der Lage, sich mit dem Internet oder anderen lokalen Netzwerken zu verbinden. In den meisten Fällen geschieht dies über den eingebauten W-LAN-Adapter. Allerdings unterstützt KNULLI auch Netzwerkverbindungen über USB-Dongles.
 
-## W-LAN
+## Unterstützte Netzwerkadapter
+
+Einige von KNULLI unterstützte Geräte (z.B. Anbernic RG35XX Plus/H/SP, TrimUI Smart Pro) verfügen bereits über einen eingebauten Netzwerkadapter, den KNULLI vollständig unterstützt. Wenn dein Gerät einen eingebauten Netzwerkadapter hat, kannst du diesen Abschnitt überspringen und direkt dein [W-LAN einrichten](#w-lan-einrichten).
+
+Falls dein Gerät keinen eingebauten Netzwerkadapter hat (z.B. Anbernic RG35XX 2024, Anbernic RG28XX), gibt es trotzdem eine Möglichkeit, um dein Gerät mit deinem W-LAN zu verbinden. KNULLI unterstützt nahezu alle USB-W-LAN-Dongles, die einen Chipsatz *RTL8192cu* oder *RTL8188eu/us* verwenden. Die KNULLI-Community empfiehlt insbesondere den **TP-Link TL-WN725N** Netzwekadapter.
+
+Um deinen Netzwerkadapter in Betrieb zu nehmen
+
+* steck zunächst den Netzwerkadapter in einen passenden USB-Port deines KNULLI-Geräts.
+* drück ++"Start"++ und öffne *System Settings*. Von dort gelangst du zum Untermenü *Services*, wo du `ENABLE_WIFI` aktivieren kannst, **nachdem** du den USB-W-LAN-Dongle eingesteckt hast.
+* folge den Anweisungen im Abschnitt [W-LAN einrichten](#w-lan-einrichten).
+
+## W-LAN einrichten
 
 !!! danger "WPA3-Probleme"
 
