@@ -48,8 +48,13 @@ Be aware that PortMaster will **not** work properly if you decide to format to *
 If you have installed KNULLI on a device of the **Anbernic RG35XX Plus/H/2024/SP** series, please make sure to set up your controls before you proceed. Press the ++"Start"++ button to bring up the main menu, find *Controller & Bluetooth Settings* and select *Controller Mapping*. Follow the on-screen instructions to set up your controls. (You will find more detailed instructions in the [Controls](../../configure/controls) section.)
 
 !!! info "Anbernic RG35XX Plus/H/2024/SP Series"
-
     The Anbernic RG35XX Plus/H/2024/SP series relies on almost identical hardware. However, the sticks and shoulder buttons are slightly different between these models. Since the hardware is too similar to auto-detect, which device you are using, setting up the controls is **mandatory** for all devices of this series.
+
+!!! danger "Face buttons are indicated by direction"
+     ![Face buttons](/_inc/images/face-buttons.png){ width=25% align=right }
+    Since the face buttons might have different labels on different devices, during controller mapping they are referred to by their direction. For example, the **north** button refers to the top face button (:material-gamepad-circle-up:) which is labeled ++"X"++ on most Anbernic devices.
+    
+    Make sure that you do **not** confuse the directional **face buttons** (:material-gamepad-circle-up: :material-gamepad-circle-right: :material-gamepad-circle-down: :material-gamepad-circle-left:) with the **D-pad** directions (:material-gamepad-up: :material-gamepad-right: :material-gamepad-down: :material-gamepad-left:)!
 
 ### 3. Set up your Wi-Fi
 
