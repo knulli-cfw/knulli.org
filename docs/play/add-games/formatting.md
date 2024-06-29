@@ -10,10 +10,10 @@
 * Make sure to choose the **correct disk** for formatting, especially if you have a **2-SD-card setup**!
 * **Avoid** formatting directly from your Windows/macOS/Linux computer and use the **built-in KNULLI formatter instead** if possible!
 
+## The built-in formatter
+
 !!! danger "Issues with the built-in formatter"
     Some users experienced issues when formatting their SD cards with the built-in formatter of KNULLI build 05/30. The issues have been **resolved since**. However, if you run KNULLI build 05/30 and are unable to format your SD card with the built-in formatter, you might want to try [formatting with Windows](#formatting-with-windows) instead.
-
-## The built-in formatter
 
 ### Available file systems
 
@@ -47,13 +47,13 @@ If you want to format your SD card from Windows, we strongly suggest to use the 
 		</td>
 		<td width="50%">
 			<img src="/_inc/images/play/formatting/002-formatting-delete-volume.png">
-	    	<p><strong>Step 2: </strong>After your SD card has been initialized, find the largest, now expanded partition and select <em>Delete Volume</em>.</p>
+	    	<p><strong>Step 2: </strong>After your SD card has been initialized, find the largest, now expanded partition, right-click and select <em>Delete Volume...</em>.</p>
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<img src="/_inc/images/play/formatting/003-formatting-create-volume.png">
-			<p><strong>Step 3: </strong>Right-click the now unallocated space and pick <em>New Simple Volume</em>.</p>
+			<p><strong>Step 3: </strong>Right-click the now unallocated space and pick <em>New Simple Volume...</em>.</p>
 		</td>
 		<td>
 			<img src="/_inc/images/play/formatting/004-formatting-create-volume-max-size.png">
@@ -78,3 +78,7 @@ If you want to format your SD card from Windows, we strongly suggest to use the 
 		<td></td>
 	</tr>
 </table>
+
+!!! info "After Formatting"
+
+    After formatting, you should put the SD card in your device and boot KNULLI. While booting, KNULLI will create and populate the [`/userdata` folder](../game-storage) for you.
