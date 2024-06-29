@@ -17,7 +17,9 @@ If you press a wrong button, don't worry: You will always be able to return to t
 !!! danger "Face buttons are indicated by direction!"
     KNULLI supports several different handhelds and controllers from different brands. Depending on your device, labels on the face buttons might differ. Therefore, KNULLI names face buttons not by their label but by their direction.
     
-    For example, out of the four face buttons, the **north** button (:material-gamepad-circle-up:) is labeled ++"X"++ on the standard SNES controllers and on most Anbernic devices. The same button is labeled ++"Y"++ on Xbox controllers and ++"△"++ on PlayStation controllers. You will find more information about face buttons in the [Hotkey shortcuts](../../play/hotkey-shortcuts) section.
+    For example, out of the four face buttons, the **north** button (:material-gamepad-circle-up:) is labeled ++"X"++ on the standard SNES controllers and on most Anbernic devices. The same button is labeled ++"Y"++ on Xbox controllers and ++"△"++ on PlayStation controllers.
+    
+    Make sure that you do **not** confuse the directional **face buttons** (:material-gamepad-circle-up: :material-gamepad-circle-right: :material-gamepad-circle-down: :material-gamepad-circle-left:) with the **D-pad** directions (:material-gamepad-up: :material-gamepad-right: :material-gamepad-down: :material-gamepad-left:)! You will find more information about face buttons in the [Hotkey shortcuts](../../play/hotkey-shortcuts) section.
 
 ## Connect a Bluetooth controller
 

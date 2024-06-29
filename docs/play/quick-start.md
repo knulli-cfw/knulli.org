@@ -52,7 +52,9 @@ If you have installed KNULLI on a device of the **Anbernic RG35XX Plus/H/2024/SP
 
 !!! danger "Face buttons are indicated by direction"
      ![Face buttons](/_inc/images/face-buttons.png){ width=25% align=right }
-    Since the face buttons might have different labels on different devices, during controller mapping they are referred to by their direction. The **north** button refers to the top face button (:material-gamepad-circle-up:) which is labeled ++"X"++ on most Anbernic devices.
+    Since the face buttons might have different labels on different devices, during controller mapping they are referred to by their direction. For example, the **north** button refers to the top face button (:material-gamepad-circle-up:) which is labeled ++"X"++ on most Anbernic devices.
+    
+    Make sure that you do **not** confuse the directional **face buttons** (:material-gamepad-circle-up: :material-gamepad-circle-right: :material-gamepad-circle-down: :material-gamepad-circle-left:) with the **D-pad** directions (:material-gamepad-up: :material-gamepad-right: :material-gamepad-down: :material-gamepad-left:)!
 
 ### 3. Set up your Wi-Fi
 

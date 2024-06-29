@@ -17,13 +17,19 @@ Falls du mal danebendrückst, mach dir keine Sorgen: Du kannst jederzeit in das 
 !!! danger "Face-Buttons werden anhand der "Himmelsrichtung" identifiziert!"
     KNULLI unterstützt verschiedene Handhelds und Controller von verschiedenen Herstellern. Abhängig davon, welches Gerät du gerade benutzt, kann die Beschriftung der "Face-Buttons" sich voneinander unterscheiden. Deshalb identifiziert KNULLI diese Tasten nicht anhand ihrer Beschriftung, sondern anhand ihrer "Himmelsrichtung".
     
-    Beispielsweise ist der **nördliche** der vier Face-Buttons (:material-gamepad-circle-up:) auf dem SNES-Controller und auf den meisten Anbernic-Geräten mit ++"X"++ beschriftet. Die gleiche Taste ist auf dem Xbox-Controller mit ++"Y"++ beschriftet, auf dem PlayStation-Controller mit ++"△"++. Im Abschnitt [Hotkey-shortcuts](../../play/hotkey-shortcuts) findest du weitere Informationen bzgl. der Face-Buttons..
+    Beispielsweise ist der **nördliche** der vier Face-Buttons (:material-gamepad-circle-up:) auf dem SNES-Controller und auf den meisten Anbernic-Geräten mit ++"X"++ beschriftet. Die gleiche Taste ist auf dem Xbox-Controller mit ++"Y"++ beschriftet, auf dem PlayStation-Controller mit ++"△"++.
+
+    Achte darauf, dass du die **Face-Buttons** (:material-gamepad-circle-up: :material-gamepad-circle-right: :material-gamepad-circle-down: :material-gamepad-circle-left:) **nicht** mit den **Steuerkreuz-Richtungen** (:material-gamepad-up: :material-gamepad-right: :material-gamepad-down: :material-gamepad-left:) verwechselst! Im Abschnitt [Hotkey-Shortcuts](../../play/hotkey-shortcuts) findest du weitere Informationen bzgl. der Face-Buttons.
+
+
 ## Bluetooth-Controller verbindenn
 Um einen Bluetooth-Controller mit deinem KNULLI-Gerät zu verbinden, musst du zunächst sicherstellen, dass sowohl das Gerät als auch der Controller Bluetooth unterstützen. Wenn beide Geräte Bluetooth unterstützen, kannst du auf ++"Start"++ drücken, um das Hauptmenü zu öffnen und *Controller & Bluetooth Settings* auszuwählen. Hier kannst du bei *Enable Bluetooth* zunächst Bluetooth einschalten, falls es nicht schon eingeschaltet ist.
-Anschließend kannst du entweder versuchen, den Controller automatisch zu erkennen, in dem du *Pair Bluetooth Pads Automatically* auswählst, oder *Pair A Bluetooth Device Manually* auswählen, um den Controller aus einer Liste in der Nähe befindlicher Bluetooth-Geräte auszuwählen. Falls dein Controller in der Liste nicht angezeigt wird, oder das Bluetooth-Pairing fehlschlägt, schau in das Handbuch deines Controllers und such nach der Anleitung für Bluetooth-Verbindungen.
+
+Anschließend kannst du entweder versuchen, den Controller automatisch zu erkennen, in dem du *Pair Bluetooth Pads Automatically* auswählst, oder *Pair A Bluetooth Device Manually* auswählen, um den Controller aus einer Liste in der Nähe befindlicher Bluetooth-Geräte auszuwählen. Falls dein Controller in der Liste nicht angezeigt wird, oder das Bluetooth-Pairing fehlschlägt, schau in das Handbuch deines Controllers und such nach der Anleitung für Bluetooth-Verbindungen.
 Wenn der Bluetooth-Controller verbunden ist, solltest du überprüfen, ob du den [Controller einrichten](#controller-einrichten) musst..
 
 !!! info "Andere Blueooth-Geräte"
     KNULLI unterstützt auch Bluetooth-Kopfhörer und -Lautsprecher."
 ## Bluetooth-Controller vergessenn
-Wenn du einen Bluetooth-Controller entfernen bzw. "vergessen" möchtest, drück auf ++"Start"++ um ins Hauptmenü zu gelangen, geh zu *Controller & Bluetooth Settings*, öffne *Forget A Bluetooth Device*, wähle dort den entsprechenden Controller aus und entferne ihn.
+
+Wenn du einen Bluetooth-Controller entfernen bzw. "vergessen" möchtest, drück auf ++"Start"++ um ins Hauptmenü zu gelangen, geh zu *Controller & Bluetooth Settings*, öffne *Forget A Bluetooth Device*, wähle dort den entsprechenden Controller aus und entferne ihn.
