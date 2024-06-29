@@ -60,10 +60,12 @@ For many games, symbolic links are implemented to put the savegames and configur
 
 The following list is by no means a complete list of all games which do not work. It is just a small collection of issues we are already aware of and can warn you about, issues you will run into when attempting to run these games from an exFAT-formatted SD card.
 
-- *Half-Life*: Works.
-- *Owlboy*: Game is runnable but **loses all settings/savegames** when quit.
-- *Stardew Valley*: Game is runnable but **loses all settings/savegames** when quit.
-- *TMNT: Shredder's Revenge*:
-    - First-launch compile/compression **fails** if *"YES"* is chosen for each question.
-    - First-launch compile/compression **works** if *"NO"* is chosen for each question.
-    - Game is runnable but **loses all settings/savegames** when quit.
+### PortMaster compatibility chart
+
+| Game                     | Runs on ext4     | Runs on exFAT     | Game breaking issues on exFAT               |
+| ------------------------ | ---------------- | ----------------- | ------------------------------------------- |
+| Half-Life                | :material-check: | :material-check:  | None                                        |
+| Owlboy                   | :material-check: | :material-check:  | **Loses all settings/savegames** when quit. |
+| Stardew Valley           | :material-check: | :material-check:  | **Loses all settings/savegames** when quit. |
+| TMNT: Shredder's Revenge | :material-check: | :material-check:  | **Loses all settings/savegames** when quit. First-launch compile/compression fails due to swap-file size issues. |
+
