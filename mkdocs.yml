@@ -80,9 +80,12 @@ extra:
       - name: Português do Brasil
         link: /pt-BR/
         lang: pt-BR
+      - name: Italiano
+        link: /it/ 
+        lang: it
 plugins:
   - search:
-      lang: [en, es, de, pl, tr, pt-BR]
+      lang: [en, es, de, pl, tr, pt-BR, it]
   - glightbox
   - macros:
       include_dir: includes
@@ -202,6 +205,36 @@ plugins:
             Systems: Sistemas
             Devices: Dispositivos
             Unbranded: Sem Marca
+          - locale: it
+          name: Italiano
+          build: true
+          site_name: "KNULLI Wiki"
+          nav_translations:
+            Home: Inizio
+            FAQs: Domande Frequenti
+            About KNULLI: Info su KNULLI
+            Troubleshooting: Risoluzione dei problemi
+            Play: Giocare
+            Quick Start Guide: Guida Rapida
+            Install: Installazione
+            Add Games: Aggiungere Giochi
+            Game Storage: Archiviazione dei Giochi
+            Network Transfer: Trasferimento via Rete
+            Accessing SD Card: Accesso alla Scheda SD
+            Second SD Card: Seconda Scheda SD
+            Formatting: Formattare
+            Hotkey Shortcuts: Scorciatoie
+            Achievements: Achievements
+            Update: Aggiornare
+            Configure: Configurazione
+            Networking: Rete
+            Controls: Controlli
+            Collections: Collezioni
+            Bezel Decorations: Decorazioni
+            Themes: Temi
+            Systems: Sistema
+            Devices: Dispositivo
+            Unbranded: Senza Marchio
 nav:
     - Home: index.md
     - FAQs:
