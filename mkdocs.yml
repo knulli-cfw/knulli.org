@@ -205,7 +205,7 @@ plugins:
             Systems: Sistemas
             Devices: Dispositivos
             Unbranded: Sem Marca
-          - locale: it
+        - locale: it
           name: Italiano
           build: true
           site_name: "KNULLI Wiki"
