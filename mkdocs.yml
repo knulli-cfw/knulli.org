@@ -205,7 +205,7 @@ plugins:
             Systems: Sistemas
             Devices: Dispositivos
             Unbranded: Sem Marca
-           - locale: it
+          - locale: it
           name: Italiano
           build: true
           site_name: "KNULLI Wiki"
@@ -228,7 +228,7 @@ plugins:
             Update: Aggiornare
             Configure: Configurazione
             Networking: Rete
-            Controls: COntrolli
+            Controls: Controlli
             Collections: Collezioni
             Bezel Decorations: Decorazioni
             Themes: Temi
