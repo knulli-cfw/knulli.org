@@ -272,6 +272,7 @@ nav:
       - Engines:
         - Pico-8: systems/pico-8.md
       - PortMaster: systems/portmaster.md
+      - ScummVM: systems/scummvm.md
     - Devices: 
       - devices/index.md
       - Anbernic:
