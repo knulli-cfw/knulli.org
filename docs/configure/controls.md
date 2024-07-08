@@ -30,7 +30,7 @@ Once Bluetooth is enabled, either try to *Pair Bluetooth Pads Automatically* or 
 Once the Bluetooth controller is paired and connected, you may want to proceed with [Controller mapping](#controller-mapping).
 
 !!! info "Other Bluetooth devices"
-    KNULLI also supports Bluetooth headphones or speakers.
+    KNULLI also supports other Bluetooth devices such as mice, headphones, or speakers.
 
 
 ## Forget a Bluetooth controller

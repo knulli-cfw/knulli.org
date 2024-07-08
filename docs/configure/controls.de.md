@@ -29,7 +29,8 @@ Anschließend kannst du entweder versuchen, den Controller automatisch zu erkenn
 Wenn der Bluetooth-Controller verbunden ist, solltest du überprüfen, ob du den [Controller einrichten](#controller-einrichten) musst..
 
 !!! info "Andere Blueooth-Geräte"
-    KNULLI unterstützt auch Bluetooth-Kopfhörer und -Lautsprecher."
+    KNULLI unterstützt auch andere Bluetooth-Geräte, z.B. Mäuse, Kopfhörer und Lautsprecher.
+
 ## Bluetooth-Controller vergessenn
 
 Wenn du einen Bluetooth-Controller entfernen bzw. "vergessen" möchtest, drück auf ++"Start"++ um ins Hauptmenü zu gelangen, geh zu *Controller & Bluetooth Settings*, öffne *Forget A Bluetooth Device*, wähle dort den entsprechenden Controller aus und entferne ihn.
