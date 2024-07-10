@@ -144,7 +144,11 @@ plugins:
             Configure: Konfiguration
             Networking: Netzwerkverbindungen
             Unbranded: Ohne Marke
+            Customization: Personalisieren
+            Themes: Themes
+            Background Music: Hintergrundmusik
             Bezel Decorations: Bezel-Dekorationen
+            Boot Logo: Bootlogo
         - locale: pl
           name: Polski
           build: true
@@ -261,8 +265,12 @@ nav:
       - Networking: configure/networking.md
       - Controls: configure/controls.md
       - Collections: configure/collections.md
-      - Bezel Decorations: configure/bezel-decorations.md
-      - Themes: configure/themes.md
+      - Customization:
+        - Customization: configure/customization/index.md
+        - Themes: configure/customization/themes.md
+        - Background Music: configure/customization/background-music.md
+        - Bezel Decorations: configure/customization/bezel-decorations.md
+        - Boot Logo: configure/customization/bootlogo.md
       - SSH: configure/ssh.md
       - Retroarch:
         - Controls: configure/retroarch/controls.md
