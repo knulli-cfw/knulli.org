@@ -29,6 +29,7 @@ The following options can be changed directly from the main menu under `User Int
 | Game Metadata | Sets if metadata (e.g. description, release date, etc...) should be displayed for a game | `On`, `Off` |
 | Font Size | Set the size for text elements throughout the theme. | `Default`, `Small`, `Large` |
 | Color Scheme | Sets the color scheme that is used for the theme.  There is a set of prebuilt color schemes that you can select and an option to supply your custom color scheme (selected by choosing `custom`). You can see details on customizations below under [Customization](#customization). | `Default`, `Light`, `Steam OS`, `SNES`, `Famicom`, `DMG`, `OLED`, `Custom` |
+| Splash Screen | Toggles an optional custom splash screen which will be displayed when EmulationStation is loading and/or scanning for ROMs. | `Default`, `Custom` |
 
 ### Additional UI Settings 
 
@@ -78,6 +79,14 @@ The artwork used on the system view can be customized with your own images.
     * `_default.png/jpg` can be used for creating a single image that is used for all systems OR a fallback for systems that you did not create a custom image for (if you don't want to use the fallback that already exists in the theme)
     * `${system.theme}.png/jpg` should be named for the system you are looking to override. For example if you wanted to override the artwork for `snes` you would create an image called `snes.png` or `snes.jpg` in the artwork folder.
 * Once your images are in place you turn on custom images by changing the `System Artwork` setting to `Custom (Fullscreen)`
+
+#### Splash Screen
+
+* Upload your image to the folder you created above
+* It can be named:
+    * `splash.png`
+    * `splash.jpg`
+* One your image is in place you turn on your splash screen by changing `Splash Screen` to `Custom`
 
 ### Color Schemes
 
