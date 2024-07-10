@@ -25,7 +25,7 @@ Some bezels which were originally created by [drkhrse](https://github.com/drkhrs
     * or just clicking [here](https://github.com/nvitaterna/batocera_4_3_handheld_bezels/archive/refs/heads/main.zip).
 * unzip the file (e.g. with [7-Zip](https://7-zip.org/)).
 * find the `batocera_4_3_handheld_bezels` folder **inside** the `decorations` folder you just unzipped.
-* copy the **entire** `batocera_4_3_handheld_bezels` folder into the `decorations` folder of your  [userdata folder](../../play/add-games/game-storage).
+* copy the **entire** `batocera_4_3_handheld_bezels` folder into the `decorations` folder of your  [userdata folder](../../../play/add-games/game-storage).
 
 The bezel pack should now be installed and ready to use. However, to apply it, you have to set it up as explained in the [Apply bezel decorations](#apply-bezel-decorations) section.
 
