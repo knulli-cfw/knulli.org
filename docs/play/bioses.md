@@ -8,7 +8,7 @@ A BIOS (basic input/output system) is a software which provides basic, low-level
 
 ## Adding BIOS files
 
-KNULLI comes with many different emulators for many different systems. Not all of these systems require BIOS files. However, emulators which required BIOS files, expect the BIOS files to be stored in the `bios` folder. The emulators expect the files to be stored under very specific names, sometimes even in a very specific subfolder.
+KNULLI comes with many different emulators for many different systems. Not all of these systems require BIOS files. However, emulators which required BIOS files expect the BIOS files to be stored in the `bios` folder. The emulators expect the files to be stored under very specific names, sometimes even in a very specific subfolder.
 
 ### Identifying missing BIOS files
 
