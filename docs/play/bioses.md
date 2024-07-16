@@ -12,7 +12,7 @@ KNULLI comes with many different emulators for many different systems. Not all o
 
 ### Identifying missing BIOS files
 
-Thankfully, KNULLI comes with a *Missing BIOS check* which helps you determine which BIOS files are missing for your emulators to run. To launch the *Missing BIOS check*, pressing  ++"Start"++ and head to *Game settings* where you will find *Missing BIOS check*. Here, you will be informed about all the BIOS files which are either **missing** entirely or just not matching the checksum and therefore **wrong** files in the right place.
+Thankfully, KNULLI comes with a *Missing BIOS check* which helps you determine which BIOS files are missing for your emulators to run. To launch the *Missing BIOS check*, press  ++"Start"++ and head to *Game settings* where you will find *Missing BIOS check*. Here, you will be informed about all the BIOS files which are either **missing** entirely or just not matching the checksum and therefore **wrong** files in the right place.
 
 Make sure to **pay attention** to
 
