@@ -1,6 +1,6 @@
 # :material-chip: BIOSes
 
-A BIOS (basic input/output system) is a software which provides basic, low-level access to the hardware of a computer system. Many types of computer systems come with a pre-installed BIOS which is embedded in the hardware, often stord on read-only memory (ROM). Some video game consoles also come with BIOses. When emulating those systems, sometimes the BIOSes are required to emulate the systems properly.
+A BIOS (basic input/output system) is a software which provides basic, low-level access to the hardware of a computer system. Many types of computer systems come with a pre-installed BIOS which is embedded in the hardware, often stored on read-only memory (ROM). Some video game consoles also come with BIOses. When emulating those systems, sometimes the BIOSes are required to emulate the systems properly.
 
 !!! warning "BIOSes are protected by copyright"
 
