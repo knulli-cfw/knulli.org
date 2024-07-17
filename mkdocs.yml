@@ -256,6 +256,7 @@ nav:
         - Accessing SD Card: play/add-games/accessing-ext4.md
         - Second SD Card: play/add-games/second-sd-card.md
         - Formatting: play/add-games/formatting.md
+      - BIOSes: play/bioses.md
       - Scraping: play/scraping.md
       - Hotkey Shortcuts: play/hotkey-shortcuts.md
       - Achievements: play/retro-achievements.md
