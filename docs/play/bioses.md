@@ -12,14 +12,18 @@ KNULLI comes with many different emulators for many different systems. Not all o
 
 ### Identifying missing BIOS files
 
-Thankfully, KNULLI comes with a *Missing BIOS check* which helps you determine which BIOS files are missing for your emulators to run. To launch the *Missing BIOS check*, press  ++"Start"++ and head to *Game settings* where you will find *Missing BIOS check*. Here, you will be informed about all the BIOS files which are either **missing** entirely or just not matching the checksum and therefore **wrong** files in the right place.
+Thankfully, KNULLI comes with a *Missing BIOS check* which helps you determine which BIOS files are missing for your emulators to run. To launch the *Missing BIOS check*, press  ++"Start"++ and head to *Game settings* where you will find *Missing BIOS check*. Here, you will be informed about all the BIOS files which are either **missing** entirely or not matching the checksum and therefore possibly **wrong** files in the right place.
 
 Make sure to **pay attention** to
 
 * the **path** of the file. (Is it `bios/[filename]` or `bios/[subdir]/[filename]`?)
-* the **exact** path/file names. (Mind spaces, underscores, etc.)
+* the **exact** path/file **names**. (Mind spaces, underscores, etc.)
 * any lowercase/uppercase letters. (Knulli is **case-sensitive**!)
-* whether the file is **missing** or has the wrong **checksum**, indicating a **wrong** file rather than a **missing** file.
+* whether the file is really **missing** or just has the wrong **checksum**, indicating a **wrong** file rather than a **missing** file.
+
+!!! info "Files with wrong checksum"
+
+    The *Missing BIOS check* is **very strict** about correct checksums. However, in some cases, even though the checksums **do not match up**, the BIOS files are still **working fine**. If your BIOS files are in the right place but not passing the checksum test, try running your games anyway.
 
 Additionally, if you are using Microsoft Windows, you might want to make sure that **file extensions** are **visible** in your Windows Explorer. This way, you will be able to avoid accidentally having **double file extensions** like `.bin.bin` or **wrong file extentions** like `.bin.zip`.
 
