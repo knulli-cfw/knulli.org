@@ -87,9 +87,9 @@ Once the above is set up is you have 2 options for playing games through Pico-8'
     - To use this method simply create a file named `Splore.png` in `roms/pico8`.
     - Note that you will need an internet connection to browse the pico-8 BBS (If you don't have an internet connection you can still use it to launch games you have downloaded previously)
     - To exit and return to EmulationStation you can press the ++"START"++ button while highlighting a game in Splore then selecting `Options > Shutdown`
-2. Through .png or .p8 files added directly `roms/pico-8`
+2. Through .png or .p8 files added directly `roms/pico8`
     - Browse the list of games (aka. "Carts") on [Lexaloffle's website](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2)
-    - Download the .png or .p8 file for any game you are interested in playing and upload it to either `roms/pico-8`
+    - Download the .png or .p8 file for any game you are interested in playing and upload it to either `roms/pico8`
     - Refresh EmulationStation by pressing ++"START"++ to open the Main Menu then select `Game Settings > Update Gamelists`.
     - You should now be able to launch the game by selecting it from the gamelist.
     - To exit a game and return to EmulationStation you can press the ++"START"++ button then selecting `Options > Shutdown`
