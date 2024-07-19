@@ -43,20 +43,7 @@ Make sure that you **made a decision** on how to store your files and **prepared
 
 Be aware that PortMaster will **not** work properly if you decide to format to **exFAT**.
 
-### 2. Set up your controls (RG35XX Plus/H/2024/SP)
-
-If you have installed KNULLI on a device of the **Anbernic RG35XX Plus/H/2024/SP** series, please make sure to set up your controls before you proceed. Press the ++"Start"++ button to bring up the main menu, find *Controller & Bluetooth Settings* and select *Controller Mapping*. Follow the on-screen instructions to set up your controls. (You will find more detailed instructions in the [Controls](../../configure/controls) section.)
-
-!!! info "Anbernic RG35XX Plus/H/2024/SP Series"
-    The Anbernic RG35XX Plus/H/2024/SP series relies on almost identical hardware. However, the sticks and shoulder buttons are slightly different between these models. Since the hardware is too similar to auto-detect, which device you are using, setting up the controls is **mandatory** for all devices of this series.
-
-!!! danger "Face buttons are indicated by direction"
-     ![Face buttons](/_inc/images/face-buttons.png){ width=25% align=right }
-    Since the face buttons might have different labels on different devices, during controller mapping they are referred to by their direction. For example, the **north** button refers to the top face button (:material-gamepad-circle-up:) which is labeled ++"X"++ on most Anbernic devices.
-    
-    Make sure that you do **not** confuse the directional **face buttons** (:material-gamepad-circle-up: :material-gamepad-circle-right: :material-gamepad-circle-down: :material-gamepad-circle-left:) with the **D-pad** directions (:material-gamepad-up: :material-gamepad-right: :material-gamepad-down: :material-gamepad-left:)!
-
-### 3. Set up your Wi-Fi
+### 2. Set up your Wi-Fi
 
 Unless you have decided to reformat to exFAT, this step is **mandatory** to be able to add your games. Press the ++"Start"++ button to open the main menu and go to *Network settings* where you can configure your Wi-Fi connection. (You will find more detailed instructions about setting up Wi-Fi and increasing security in the [Networking](../../configure/networking) section.)
 
@@ -64,7 +51,7 @@ Unless you have decided to reformat to exFAT, this step is **mandatory** to be a
 
     If you are unable to connect your KNULLI device to your Wi-Fi, please make sure to disable WPA3 encryption in your router and stick with WPA2 instead.
 
-### 4. Add games and BIOSes
+### 3. Add games and BIOSes
 
 Depending on your storage choice, you can now start to add your games. On Windows, open your **Windows Explorer** and find the **KNULLI** device in your **Network** section. If the device does not show up, you can type `\\KNULLI` in the address bar of your Windows Explorer to find it manually. On **macOS**, select *Go* in *Finder*, pick *Connect to Server* and type `smb://KNULLI` in the address bar. (If you changed the hostname manually, look for the hostname of your choice instead.)
 
@@ -93,7 +80,7 @@ Alternatively, if you have a Linux-driven computer available, or if you have for
 
 In any case, you may drag-and-drop your games and BIOS files from your local hard disk drives to the corresponding folders on your KNULLI device. You will find a more detailed walkthrough and more alternative solutions for adding games in the [Add Games](../add-games) section.
 
-### 5. Install PortMaster (optional)
+### 4. Install PortMaster (optional)
 
 If you chose to stick with ext4, you may now install PortMaster. Make sure that you are connected to your Wi-Fi, head to the *Ports* section, find *Install.PortMaster* and launch it. Afterwards, you will find *PortMaster* in the *Ports* section. (You will find more information about how to install and run PortMaster in the [PortMaster](../../systems/portmaster) section.)
 
@@ -101,11 +88,11 @@ If you chose to stick with ext4, you may now install PortMaster. Make sure that 
 
     If *Install.PortMaster* is missing from your *Ports* section, please follow the instructions in the [PortMaster](../../systems/portmaster) section.
 
-### 6. Scrape media (optional)
+### 5. Scrape media (optional)
 
 After you have added and installed all your games, you might want to **add cover artworks**, text descriptions and other **metadata** to your games. KNULLI comes with a fully functional **scraper** which will retrieve available media and metadata for you. Our scraper supports **ScreenScraper**, **TheGamesDB** and **ArcadeDB** as scraping sources. (You will find instructions for scraping in the [Scraping](../scraping) section.)
 
-### 7. Set up Retro Achievements (optional)
+### 6. Set up Retro Achievements (optional)
 
 If you want to collect Retro Achievements, you should log in to your Retro Achievements account. Press ++"START"++ on your controller, select *Game Settings* and head to *RetroAchievement Settings* to enter your credentials. Be aware that Retro Achievements only work while you are connected to the internet. (You will find more information about Retro Achievements in the  [Retro Achievements](../retro-achievements) section.)
 

@@ -264,6 +264,7 @@ nav:
       - Update: play/update.md
     - Configure:
       - Networking: configure/networking.md
+      - Bluetooth: configure/bluetooth.md
       - Controls: configure/controls.md
       - Collections: configure/collections.md
       - Customization:

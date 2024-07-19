@@ -1,38 +1,36 @@
 # :material-controller: Controls
 
-!!! info "Map controls after installation"
-    Depending on your device and your version of KNULLI, it might be required to map the built-in controls of your device before you can start playing.
-
-Even though it was designed for handheld devices, KNULLI still supports various types of USB and Bluetooth controllers. However, before a controller can be used with your KNULLI device, it might be necessary to map its buttons and directional controls to the corresponding game inputs.
-
 !!! danger "Do not confuse hardware setup with button mapping for games/systems!"
-    Do not confuse controller setup with* game-* or *core-specific* button remapping! This section is about the *global* controller setup to make the *hardware* work. If you want to remap the controls for a specific *game* or *emulation core*, follow the guide for the respective core (e.g. [Retroarch](../retroarch/controls)).
+
+    Do not confuse controller setup with **game-** or **core-specific** button remapping! This section is about the **global** controller setup to make the **hardware** work. If you want to remap the controls for a specific **game** or **emulator**, follow the guide for the respective emulator (e.g. [Retroarch](../retroarch/controls)).
+
+Even though it was designed for handheld devices, KNULLI still supports various types of USB and Bluetooth controllers. Additionally, Knulli also supports other types of input devices, such as mice and keyboards.
+
+If a controller does not work with your KNULLI-device out of the box, it might be necessary to map its buttons and directional controls to the corresponding game inputs, as explained in the sections below.
+
+## The built-in controls
+
+Most KNULLI-compatible devices are handhelds with built-in controls. They usually consists of a **directional pad** (:material-gamepad:, short: **D-pad**), the so called **face buttons** (:material-gamepad-circle:), some **shoulder buttons** (++"L1"++, ++"R1"++) and/or **shoulder triggers** (++"L2"++, ++"R2"++) and some buttons for ++"Start"++ and ++"Select"++. Additionally, your device will most likely have **power switch** and a **function button** (++"Function"++) which will be used for hotkey shortcuts. **Optionally**, your device might also have **analog sticks** and a **reset button**. If you do not know where those buttons are located on your device, please have a look at the manual of your device.
+
+KNULLI comes with a set of pre-defined **hotkey shortcuts** which allow you to save, load, and quit your games, take screenshots, etc. We strongly recommend to **learn** the hotkey shortcuts and we also strongly advise **against** modifying the hotkey shortcuts. You will find a list of all default hotkey shortcuts in the [Hotkey Shortcuts](../../play/hotkey-shortcuts) section.
+
+!!! info "Controller names"
+
+    Depending on your device, your built-in controls have a distinct name. For example, on the Anbernic RG40XX H, the built-in controls are called `anbernic-keys`.
 
 ## Controller mapping
+
+!!! danger "Do not attempt to remap the built-in controls"
+
+    Each KNULLI build is **optimized** for the specific device it was designed for. Specificially, all built-in controls are **already mapped** for you. Do **not** attempt to remap the built-in controls in the *Controller & Bluetooth Settings* menu. By doing so, you might **break** essential **hotkey shortcuts**. If you want to remap controls for certain *games* or *systems*, please do it within the respective game or emulator settings. The *Controller & Bluetooth Settings* menu is **not** the right place to map game- or system-specific controls!
 
 To map the buttons and directional inputs of a controller, press the ++"Start"++ button to bring up the main menu, find *Controller & Bluetooth Settings* and select *Controller Mapping*. On-screen instructions will ask you to hold a button on the controller you want to map. Once the controller was detected, you will be guided through the process: Simply press the button on your controller which corresponds best to the button/function displayed on screen.
 
 If you press a wrong button, don't worry: You will always be able to return to this menu and remap the controller again.
 
 !!! danger "Face buttons are indicated by direction!"
-    KNULLI supports several different handhelds and controllers from different brands. Depending on your device, labels on the face buttons might differ. Therefore, KNULLI names face buttons not by their label but by their direction.
+    KNULLI supports several different controllers from different brands. Depending on your controller, labels on the face buttons might differ. Therefore, KNULLI names face buttons not by their label but by their direction.
     
-    For example, out of the four face buttons, the **north** button (:material-gamepad-circle-up:) is labeled ++"X"++ on the standard SNES controllers and on most Anbernic devices. The same button is labeled ++"Y"++ on Xbox controllers and ++"△"++ on PlayStation controllers.
+    For example, out of the four face buttons, the **north** button (:material-gamepad-circle-up:) is labeled ++"X"++ on the standard SNES controllers. The same button is labeled ++"Y"++ on Xbox controllers and ++"△"++ on PlayStation controllers.
     
     Make sure that you do **not** confuse the directional **face buttons** (:material-gamepad-circle-up: :material-gamepad-circle-right: :material-gamepad-circle-down: :material-gamepad-circle-left:) with the **D-pad** directions (:material-gamepad-up: :material-gamepad-right: :material-gamepad-down: :material-gamepad-left:)! You will find more information about face buttons in the [Hotkey shortcuts](../../play/hotkey-shortcuts) section.
-
-## Connect a Bluetooth controller
-
-To use a Bluetooth controller with your KNULLI device, you first need to make sure that both your device and your controller support Bluetooth. If so, press ++"Start"++ to bring up the main menu and go to *Controller & Bluetooth Settings*. Here, you will be able to *Enable Bluetooth* if it is not enabled, yet.
-
-Once Bluetooth is enabled, either try to *Pair Bluetooth Pads Automatically* or select *Pair A Bluetooth Device Manually* and find your controller in a list of available Bluetooth devices in your vicinity. If your controller does not show up or pairing does not work as expected, check the manual of your controller for pairing instructions.
-
-Once the Bluetooth controller is paired and connected, you may want to proceed with [Controller mapping](#controller-mapping).
-
-!!! info "Other Bluetooth devices"
-    KNULLI also supports other Bluetooth devices such as mice, headphones, or speakers.
-
-
-## Forget a Bluetooth controller
-
-If you want to remove or "forget" a paired Bluetooth controller, press the ++"Start"++ button to bring up the main menu, head to *Controller & Bluetooth Settings*, open *Forget A Bluetooth Device*, find the device and remove it.

@@ -2,13 +2,37 @@
 
 Hotkey shortcuts are among the most important basics you need to learn in order to navigate your KNULLI device and play your games. This section will give you an overview over the available hotkey shortcuts.
 
+## The ++"Power"++ button
+
+When your device is turned off, the power button can be used to turn on your KNULLI device as explained in the manual of your device. Once your Knulli device is turned on
+
+* **tap** the **power button** once to switch into **sleep mode** (depending on your device, there might still be a lot of power consumption in sleep mode).
+* **hold** the **power button** for **2 seconds** (until the device vibrates) to do a normal **shutdown**.
+    * All system settings you made since the last booting will be saved automatically.
+    * If you are playing a game with a RetroArch core, your game will be saved automatically.
+    * If you are playing a game with a standalone emulator your game will **not** be saved automatically.
+* **hold** the **power button** for **5 or more seconds** to **cut the power off**, overriding the normal shutdown.
+    * **Nothing** will be saved - this is meant as a last resort when your device is frozen!
+* **hold** the ++"Function"++ button and **tap** the **power button** to switch between LED modes:
+     * LED always on (default)
+     * LED turns off while playing (LED blinks to confirm)
+     * LED always off
+     * The LED mode will reset to default after each reboot/shutdown.
+     
+### Clamshell lid
+
+If your device is a clamshell device with a lid (e.g., Anbernic RG35XX SP), you may
+
+* close the lid to **enter sleep mode**.
+* open the lid to **return** from **sleep mode**.
+
 ## The ++"Function"++ button
 
 Each KNULLI-driven device has a dedicated button we refer to as the ++"Function"++ button. Depending on your device, the ++"Function"++ button can be in different places. E.g., for the Anbernic RG35XX H, the button is located at the top right of the device, indicated by the letter *F*. (Sometimes, the ++"Function"++ button is also referred to as the "menu" button, the "FN" button, the "F" button, or the "hotkey".)
 
 The button can be used to trigger a number of shortcuts which will help you control the currently running emulation core.
 
-!!! info "When playing with bluetooth controllers without a ++"Function"++ button, the ++"Select"++ button often can be used as a substitute. However, be aware that in this case the default *select* action of the respective context is *also* triggered when you press the button."
+!!! info "When playing with Bluetooth controllers without a ++"Function"++ button, the ++"Select"++ button often can be used as a substitute. However, be aware that in this case the default *select* action of the respective context is *also* triggered when you press the button."
 
 ## The face buttons
 
@@ -38,6 +62,7 @@ All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"+
 | Shortcut                                        | Action                                           |
 | ----------------------------------------------- | ------------------------------------------------ |
 | ++"Function"++ + ++"Start"++                    | Quit the game and return to EmulationStation     |
+| ++"Function"++ + ++"Select"++                   | On devices without analog sticks: Toggle between mapping either the D-pad or an analog stick to the D-pad (e.g., for playing N64)     |
 | ++"Function"++ + :material-gamepad-circle-down: | Open the emulator menu of the current core       |
 | ++"Function"++ + :material-gamepad-circle-left: | Quick save in the currently selected save slot   |
 | ++"Function"++ + :material-gamepad-circle-up:   | Quick load from the currently selected save slot |
