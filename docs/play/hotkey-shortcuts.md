@@ -8,7 +8,7 @@ When your device is turned off, the power button can be used to turn on your KNU
 
 * **tap** the **power button** once to switch into **sleep mode** (depending on your device, there might still be a lot of power consumption in sleep mode).
 * **hold** the **power button** for **2 seconds** (until the device vibrates) to do a normal **shutdown**.
-    * All system settings you made since the last booting will be saved automatically.
+    * All system settings you made since you last booted your device will be saved automatically.
     * If you are playing a game with a RetroArch core, your game will be saved automatically.
     * If you are playing a game with a standalone emulator your game will **not** be saved automatically.
 * **hold** the **power button** for **5 or more seconds** to **cut the power off**, overriding the normal shutdown.
