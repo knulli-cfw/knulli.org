@@ -8,7 +8,11 @@
 
 ## Instructions
 
-### Option 1: Running Pico-8 through the native engine
+### Option 1: Running Pico-8 through RetroArch Fake-08
+
+By default, KNULLI comes with *Fake08*, a free, Pico-8-compatible engine provided by RetroArch. Many Pico-8 games run perfectly fine with *Fake08*. Since Pico-8 games are usually free, you can download the `png` game files (or "carts") from the [Pico-8 website](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2) and drop them in your `roms/pico8` folder. However, since *Fake08* does not cover all the features of the native Pico-8 engine, some games might nor run properly with *Fake08*.
+
+### Option 2: Running Pico-8 through the native engine
 
 Pico-8 games are best played with the native engine as it supports all Pico-8 features without any limitations.  You need to purchase it from [Lexaloffle](https://www.lexaloffle.com/pico-8.php) and we do recommend that you buy a copy if you can. Its an awesome piece of software and it also comes with the tools to make your own games.
 
@@ -63,7 +67,7 @@ ls -l /userdata/bios/pico-8/pico8
             </emulator>
             <emulator name="libretro">
                 <cores>
-                    <core>retro8</core>
+                    <core>fake08</core>
                 </cores>
             </emulator>
         </emulators>
@@ -83,13 +87,9 @@ Once the above is set up is you have 2 options for playing games through Pico-8'
     - To use this method simply create a file named `Splore.png` in `roms/pico8`.
     - Note that you will need an internet connection to browse the pico-8 BBS (If you don't have an internet connection you can still use it to launch games you have downloaded previously)
     - To exit and return to EmulationStation you can press the ++"START"++ button while highlighting a game in Splore then selecting `Options > Shutdown`
-2. Through .png or .p8 files added directly `roms/pico-8`
+2. Through .png or .p8 files added directly `roms/pico8`
     - Browse the list of games (aka. "Carts") on [Lexaloffle's website](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2)
-    - Download the .png or .p8 file for any game you are interested in playing and upload it to either `roms/pico-8`
+    - Download the .png or .p8 file for any game you are interested in playing and upload it to either `roms/pico8`
     - Refresh EmulationStation by pressing ++"START"++ to open the Main Menu then select `Game Settings > Update Gamelists`.
     - You should now be able to launch the game by selecting it from the gamelist.
     - To exit a game and return to EmulationStation you can press the ++"START"++ button then selecting `Options > Shutdown`
-
-### Option 2: Running through RetroArch Fake-08
-
-*coming soon*
