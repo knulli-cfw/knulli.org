@@ -1,7 +1,5 @@
 # Orange Pi 5
 
-![](../../_inc/images/devices/orange-pi-zero-2w.png){ .off-glb }
-
 ## Overview
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
@@ -10,13 +8,4 @@
 
 ## Notes
 
-### Installation
-
-TBC
-
-## Additional References
-
-TBC
-
-## Community Videos
-
+!!! warning "The RG35XX is currently not supported by KNULLI."

@@ -1,7 +1,5 @@
 # Anbernic RG35XX (Original)
 
-![](../../_inc/images/devices/anbernic-rg35xx.png){ .off-glb }
-
 ## Overview
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
@@ -23,16 +21,9 @@ The firwmare included in releases uses the kernel, bootloader, and u-boot from t
 
 * Suspend (briefly press power button)
 * HDMI
-* Dual frontend: choose between Emulation Station or Simplemenu
+* Emulation Station frontend
 * Wireless support with compatible USB-Wifi dongles
 
 ## Notes
 
-### Installation
-
-Download the latest `RG35XX` version of KNULLI from the button below and follow the instructions listed on the [Install](../../../play/install/) page.
-
-
-
-
-
+!!! warning "The RG35XX is currently not supported by KNULLI."

@@ -1,4 +1,4 @@
-# Anbernic RG35XX Plus
+# Anbernic RG35XX SP
 
 ## Overview
 
@@ -10,7 +10,7 @@
 
 ## Extracting the kernel and bootloader
 
-Anbernic has not published the source code of the u-boot and kernel of the RG35XX Plus. In order to have a working configuration you have two options:
+Anbernic has not published the source code of the u-boot and kernel of the RG35XX SP. In order to have a working configuration you have two options:
 
 * You can use the stock kernel, bootloader, and u-boot from the stock SDCARD. See below for instructions on how to extract those. 
 * You can compile the included kernel with the source code of this distribution, however, note that there will be a few elements that are missing
@@ -30,7 +30,7 @@ You can read [this page](../../guides/h700-firmware-extract.md) to learn how to 
 
 ## Installation
 
-Our [Quick Start Guide](../../../play/quick-start/) will guide you through the process of installing and setting up KNULLI on the RG35XX Plus.
+Our [Quick Start Guide](../../../play/quick-start/) will guide you through the process of installing and setting up KNULLI on the RG35XX H.
 
 ### Video Guide
 
@@ -41,5 +41,5 @@ Our [Quick Start Guide](../../../play/quick-start/) will guide you through the p
 
 ### Videos
 
-| <iframe width="560" height="315" src="https://www.youtube.com/embed/0Du0SmGCb-Y?si=VxvtjPDPbfjY5W4J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/yEr_Pjsb_iQ?si=iYW5lNNmyJzyWMnl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/0Du0SmGCb-Y?si=VxvtjPDPbfjY5W4J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/0M1fYSOhwZ4?si=rhVM8sOm8Xhto1uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
 | -- | -- |

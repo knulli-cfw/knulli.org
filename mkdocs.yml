@@ -285,34 +285,14 @@ nav:
     - Devices: 
       - devices/index.md
       - Anbernic:
-        - RG35xx Original: devices/anbernic/rg35xx.md
-        - RG35xx Plus: devices/anbernic/rg35xx-plus.md
-        - RG35xx H: devices/anbernic/rg35xx-h.md
-        - RG35xx 2024: devices/anbernic/rg35xx-2024.md
-        - RG35xx SP: devices/anbernic/rg35xx-sp.md
-      - Capcom:
-        - Retro Station Tron: devices/capcom/retro-station-tron.md
+        - RG35XX Original: devices/anbernic/rg35xx.md
+        - RG35XX Plus: devices/anbernic/rg35xx-plus.md
+        - RG35XX H: devices/anbernic/rg35xx-h.md
+        - RG35XX 2024: devices/anbernic/rg35xx-2024.md
+        - RG35XX SP: devices/anbernic/rg35xx-sp.md
       - Orange Pi Zero 2w:
         - Orange Pi Zero 2w: devices/orange-pi/orange-pi-zero-2w.md
       - Powkiddy:
-        - Powkiddy A12: devices/powkiddy/rgb10-max-3-pro.md
-        - Powkiddy A13: devices/powkiddy/rgb10-max-3.md
         - RGB30: devices/powkiddy/rgb30.md
-        - X51: devices/powkiddy/x51.md
-      - Sega:
-        - Astro City Mini: devices/sega/astro-city-mini.md
-      - SGJAM:
-        - M17: devices/sgjam/m17.md
-      - Taito:
-        - Egret II Mini: devices/taito/egret-ii-mini.md
       - TrimUI:
         - TrimUI Smart Pro: devices/trimui/smart-pro.md
-      - Unbranded:
-        - PS5000: devices/unbranded/ps5000.md
-        - PS7000: devices/unbranded/ps7000.md
-        - PocketGo S30: devices/unbranded/pocketgo-s30.md
-      - Unico:
-        - Neo Geo Mini: devices/unico/neogeomini.md
-        - MVSX: devices/unico/mvsx.md
-        - Fun R1: devices/unico/fun-r1.md
-        - Arcade Stick Pro: devices/unico/arcade-stick-pro.md
