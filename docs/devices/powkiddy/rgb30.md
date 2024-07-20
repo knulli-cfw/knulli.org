@@ -1,7 +1,5 @@
 # Powkiddy RGB30
 
-![](../../_inc/images/devices/powkiddy-rgb30.png){ .off-glb }
-
 ## Overview
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
