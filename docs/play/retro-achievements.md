@@ -4,9 +4,11 @@ KNULLI has a native integration with [RetroAchievements](https://retroachievemen
 
 !!! warning "Error 419"
 
-    It is currently not possible to access your collected *Retroachievements* from the main menu. There is a change needed on the RetroAchievements API in order to be able to display your history of earned achievements in EmulationStation.  Once the needed change is made by RetroAchievements, we will re-enable this feature in EmulationStation.
+    While you can add your credentials to **collect** Retro Achievements, it is currently **not possible** to **look at** your **collected** Retro Achievements from the main menu. Any attempt to do so will result in an error message, referring to "Error 419". Our developers are aware of the issue and are working on a solution.
     
-    However, even if you cannot **look** at your collected achievements, you can still **collect** achievements by following the steps below!
+    Until the issue is resolved, you can still look at your collected Retro Achievements from within **RetroArch**: Launch your game and press ++"Function"+++:material-gamepad-circle-down: to bring up the RetroArch GUI and find *Achievements*.
+    
+    Additionally, if the *RetroAchievements* option in the main menu annoys or confuses you, you can hide it from the main menu: Press ++"Start"++ to bring up the main menu, head to *Game Settings* and find *RetroAchievement Settings*. Here, you can toggle *Show RetroAchievements entry in main menu* on or off.
 
 ## Setup
 
