@@ -10,13 +10,4 @@
 
 ## Notes
 
-### Installation
-
-TBC
-
-## Additional References
-
-TBC
-
-## Community Videos
-
+!!! warning "The RG35XX is currently not supported by KNULLI."

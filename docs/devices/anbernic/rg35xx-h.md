@@ -12,7 +12,7 @@
 
 ## Extracting the kernel and bootloader
 
-Anbernic has not published the source code of the u-boot and kernel of the RG35xx Plus. In order to have a working configuration you have two options:
+Anbernic has not published the source code of the u-boot and kernel of the RG35xXX H. In order to have a working configuration you have two options:
 
 * You can use the stock kernel, bootloader, and u-boot from the stock SDCARD. See below for instructions on how to extract those. 
 * You can compile the included kernel with the source code of this distribution, however, note that there will be a few elements that are missing
@@ -27,11 +27,21 @@ You can read [this page](../../guides/h700-firmware-extract.md) to learn how to 
 * Bluetooth
 * Suspend (briefly press power button)
 * HDMI
-* Dual frontend: choose between Emulation Station or Simplemenu
+* Emulation Station frontend
 * Wireless support with compatible USB-Wifi dongles
 
-## Notes
+## Installation
 
-### Installation
+Our [Quick Start Guide](../../../play/quick-start/) will guide you through the process of installing and setting up KNULLI on the RG35XX H.
 
-Download the latest `RG35XX` version of KNULLI from the button below and follow the instructions listed on the [Install](../../../play/install/) page.
+### Video Guide
+
+> Courtesy of [@TechDweeb](https://www.youtube.com/@TechDweeb)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MVPUu2BWuqw?si=icEWARXRxd9oB1DC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Community
+
+### Videos
+
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/0Du0SmGCb-Y?si=VxvtjPDPbfjY5W4J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/S6rRbb0yq84?si=2VRg0Vmbwb6WizcF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+| -- | -- |
