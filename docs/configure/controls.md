@@ -16,13 +16,23 @@ KNULLI comes with a set of pre-defined **hotkey shortcuts** which allow you to s
 
 !!! info "Controller names"
 
-    Depending on your device, your built-in controls have a distinct name. For example, on the Anbernic RG40XX H, the built-in controls are called `anbernic-keys`.
+    Depending on your device, your built-in controls have a distinct name. For example, on the Anbernic RG40XX H, the built-in controls are called `ANBERNIC-keys`, on the RG35XX H, they are called `Deeplay-keys`.
+
+## Assigning controllers
+
+After connecting a controller, the controller can instantly be used to navigate the EmulationStation GUI. However, to use a controller **in a game**, it must be assigned to a **player**. By default, only the **built-in** controls are assigned to **player 1**. After connecting additional controllers, you have to assign the controllers to the respective players.
+
+Press ++"Start"++ to open the main menu and head to *Controller & Bluetooth Settings*. Towards the end of the menu, you will find the controller assignments for players 1-8. Here, you can assign each player a dedicated controller.
+
+!!! info "Controller assignments are reset after reboot"
+
+    Your KNULLI device does not memorize, which controller was assigned to which player in a previous session. Make sure to always assign all controllers to the corresponding players after you (re-)connected them to your KNULLI device.
 
 ## Controller mapping
 
 !!! danger "Do not attempt to remap the built-in controls"
 
-    Each KNULLI build is **optimized** for the specific device it was designed for. Specificially, all built-in controls are **already mapped** for you. Do **not** attempt to remap the built-in controls in the *Controller & Bluetooth Settings* menu. By doing so, you might **break** essential **hotkey shortcuts**. If you want to remap controls for certain *games* or *systems*, please do it within the respective game or emulator settings. The *Controller & Bluetooth Settings* menu is **not** the right place to map game- or system-specific controls!
+    Each KNULLI build is **optimized** for the specific device it was designed for. Specificially, all built-in controls are **already mapped** for you. Do **not** attempt to remap the built-in controls in the *Controller & Bluetooth Settings* menu. By doing so, you might **break** any hidden virtual controls (e.g. the **D-pad-to-virtual-stick mapping** for devices without analog sticks, which usually can be toggled with ++"Function"+++++"Select"++). If you want to remap controls for certain *games* or *systems*, please do it within the respective game or emulator settings. The *Controller & Bluetooth Settings* menu is **not** the right place to map game- or system-specific controls!
 
 To map the buttons and directional inputs of a controller, press the ++"Start"++ button to bring up the main menu, find *Controller & Bluetooth Settings* and select *Controller Mapping*. On-screen instructions will ask you to hold a button on the controller you want to map. Once the controller was detected, you will be guided through the process: Simply press the button on your controller which corresponds best to the button/function displayed on screen.
 

@@ -18,11 +18,21 @@ KNULLI bringt eine ganze Reihe vordefinierter **Hotkey-Shortcuts** mit - Tastenk
 
     Je nachdem, welches Gerät du verwendest, wird der fest verbaute "Controller" deines Geräts einen eigenen Namen haben. Auf dem Anbernic RG40XX H beispielsweise heißt der eingebaute Controller `anbernic-keys`.
 
+## Controller zuweisen
+
+Nachdem du einen Controller verbunden hast, kannst du ihn sofort benutzen, um durch die EmulationStation-GUI zu navigieren. Allerdings musst du den Controller einem **Spieler** zuweisen, damit du ihn auch **zum Spielen** nutzen kannst. Standardmäßig ist nur der **eingebaute "Controller"** immer **Spieler 1** zu geordnet. Nachdem du weitere Controller hinzugefügt hast, musst du sie daher den jeweiligen Spielern zuweisen.
+
+Drück ++"Start"++ um ins Hauptmenü zu gelangen und wähle *Controller & Bluetooth Settings*. Am unteren Ende des Menüs findest du die Controller-Zuordnungen für die Spieler 1-8. Hier kannst du jedem Spieler seinen eigenen Controller zuweisen.
+
+!!! info "Controller-Zuweisungen werden nach dem Neustart zurückgesetzt"
+
+    Dein KNULLI-Gerät merkt sich nicht, welcher Controller in einer vorherigen Session welchem Spieler zugeordnet war. Du solltest daher immer sicherstellen, dass alle Controller den richtigen Spielern zugeordnet sind, nachdem du sie (erneut) mit deinem KNULLI-Gerät verbunden hast.
+
 ## Controller einrichten
 
 !!! danger "Versuch nicht, die eingebauten Controller erneut zu einzurichten"
 
-    Jedes KNULLI-Image ist **optimiert** für das jeweilige Gerät, für das das Image vorgesehen ist. Insbesondere die eingebauten "Controller" sind bereits **fertig konfiguriert**. Du solltest **nicht** versuchen, die Einrichtung über das Menü *Controller & Bluetooth Settings* erneut durchzuführen. Bei manchen Geräten könntest du damit essenzielle **Hotkey-Shortcuts** zurücksetzen, so dass sie **nicht mehr funktionieren**. Wenn du die Tastenbelegung für ein **Spiel** oder eine Konsole anpassen möchtest, erledige das bitte in den dafür vorgesehenen Emulatoreinstellungen. Das Menü *Controller & Bluetooth Settings* ist **nicht** der richtige Ort um Tastenbelegungen für einzele Spiele oder Konsolen zu konfigurieren!
+    Jedes KNULLI-Image ist **optimiert** für das jeweilige Gerät, für das das Image vorgesehen ist. Insbesondere die eingebauten "Controller" sind bereits **fertig konfiguriert**. Du solltest **nicht** versuchen, die Einrichtung über das Menü *Controller & Bluetooth Settings* erneut durchzuführen. Bei manchen Geräten könntest du damit z.B. die virtuellen Eingabemöglichkeiten **dauerhaft löschen** (z.B. die **D-Pad-als-virtueller-Stick-Zuordnung** für Geräte ohne Analog-Sticks, die du üblicherweise mit der Tastenkombination ++"Function"+++++"Select"++ ein- und ausschalten kannst). Wenn du die Tastenbelegung für ein **Spiel** oder eine Konsole anpassen möchtest, erledige das bitte in den dafür vorgesehenen Emulatoreinstellungen. Das Menü *Controller & Bluetooth Settings* ist **nicht** der richtige Ort um Tastenbelegungen für einzele Spiele oder Konsolen zu konfigurieren!
 
 Um einen Controller einzurichten, musst du alle Buttons und Richtungseingaben ihren jeweiligen Funktionen zuordnen. Drücke dazu zunächst auf ++"Start"++ um das Hauptmenü zu öffnen, gehe zu *Controller & Bluetooth Settings* und wähle dort *Controller Mapping*. Folge jetzt einfach den Anweisungen auf dem Bildschirm. Du wirst zunächst aufgefordert, einen beliebigen Knopf auf dem Controller, den du einrichten möchtest, gedrückt zu halten. Anschließend wirst du Schritt für Schritt durch die Einrichtung geführt. Drücke einfach immer den Button, der am besten zu dem Button passt, der gerade auf dem Bildschirm angezeigt wird.
 
