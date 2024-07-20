@@ -1,6 +1,6 @@
 # Anbernic RG35XX H
 
-![](../../_inc/images/knulli-booting-up.png)
+![](/_inc/images/knulli-booting-up.png)
 
 ## Overview
 

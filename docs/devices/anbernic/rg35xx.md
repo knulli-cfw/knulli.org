@@ -1,7 +1,5 @@
 # Anbernic RG35XX (Original)
 
-![](../../_inc/images/devices/anbernic-rg35xx.png){ .off-glb }
-
 ## Overview
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
