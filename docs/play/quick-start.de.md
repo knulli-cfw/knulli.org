@@ -43,21 +43,7 @@ Stell sicher, dass du eine **Entscheidung gefällt hast**, wie du deinen Datensp
 
 Sei dir bitte bewusst, dass PortMaster **nicht** vollumfänglich funktionieren wird, wenn du dich dafür entscheidest, deinen Datenspeicher mit **exFAT** zu formatieren.
 
-### 2. Steuerkreuz, Tasten, und Analog-Sticks einrichten (RG35XX Plus/H/2024/SP)
-
-Wenn du KNULLI auf einem Gerät der **Anbernic RG35XX Plus/H/2024/SP**-Serie installiert hast, solltest du als nächstes Sicherstellen, dass   Steuerkreuz, Tasten, und Analog-Sticks richtig konfiguriert sind. Drück auf ++"Start"++ um ins Hauptmenü zu gelangen, gehe zu *Controller & Bluetooth Settings* und wähle dort *Controller Mapping*. Folge den Anweisungen auf dem Bildschirm um Steuerkreuz, Tasten, und Analog-Sticks zu konfigurieren. (Du findest eine detailliertere Anleitung im Abschnitt [Controller](../../configure/controls).)
-
-!!! info "Anbernic RG35XX Plus/H/2024/SP-Serie"
-    
-    Die Geräte der Anbernic RG35XX Plus/H/2024/SP-Serie enthalten Hardware, die beinahe identisch ist. Leider unterscheiden sich die Schultertasten und die Analogsticks zwischen den verschiedenen Modellen. Da die Hardware sich zu ähnlich ist um automatisch zu erkennen, welches Gerät du benutzt, ist es bei allen Geräten dieser Serie **zwingend nötig** die eingebauten Eingabegeräte nach der Installation zu konfigurieren.
-
-!!! danger "Aktionstasten als Himmelsrichtungen"
-     ![Tasten](/_inc/images/face-buttons.png){ width=25% align=right }
-    Die vier Aktionstasten auf der Oberseite können, je nach Gerät, unterschiedlich beschriftet sein. Aus diesem Grund werden sie bei der Einrichtung der Eingabegeräte anhand ihrer **Himmelsrichtung** identifiziert. **Norden** verweist dabei auf die obere der vier Tasten (:material-gamepad-circle-up:) die auf den meisten Anbernic-Geräten mit ++"X"++ beschriftet ist.
-    
-    Pass bitte auf, dass du die per Himmelsrichtungen identifizierten **Aktionstasten** (:material-gamepad-circle-up: :material-gamepad-circle-right: :material-gamepad-circle-down: :material-gamepad-circle-left:) **nicht** mit den **Steuerkreuz-Richtungen** (:material-gamepad-up: :material-gamepad-right: :material-gamepad-down: :material-gamepad-left:) verwechselst!
-
-### 3. W-LAN einrichten
+### 2. W-LAN einrichten
 
 Dieser Schritt ist **zwingend nötig** um deine Spiele hinzuzufügen, es sei denn, dass du dich dafür entschieden hast, deine SD-Karte mit exFAT zu formatieren. Drück ++"Start"++ um ins Hauptmenü zu gelangen und gehe zu *Network settings*, wo du deine W-LAN-Verbindung einrichten kannst. (Eine detailliertere Anleitung zur Einrichtung des W-LANs und zur Verbesserung der Sicherheit deines Gerätes findest du im Abschnitt [Netzwerkverbindungen](../../configure/networking).)
 
@@ -65,7 +51,7 @@ Dieser Schritt ist **zwingend nötig** um deine Spiele hinzuzufügen, es sei den
 
     Falls du dein KNULLI-Gerät nicht mit deinem W-LAN verbinden kannst, solltest du prüfen, ob WPA3-Verschlüsselung in deinem Router aktiviert ist und sie ggf. abschalten und stattdessen WPA2 verwenden.
 
-### 4. Spiele und BIOSe hinzufügen
+### 3. Spiele und BIOSe hinzufügen
 
 Abhängig davon, wie du deinen Datenspeicher eingerichtet hast, kannst du jetzt anfangen, deine Spiele auf dein Gerät zu laden. Unter Windows kannst du im Normalfall einfach den **Windows Explorer** öffnen und dein Gerät unter dem Namen **KNULLI** im Abschnitt **Netzwerk** finden. Falls das Gerät dort nicht auftaucht, kannst du einfach `\\KNULLI` in die Adresszeile deines Windows Explorers eingeben. Unter **macOS** findest du dein Gerät, in dem du im *Finder* *Gehe zu* öffnest und dort *Mit Server verbinden* auswählst. Hier kannst du `smb://KNULLI` in der Adressleiste eintippen, um auf dein Gerät zuzugreifen. (Falls du den Hostnamen deines Gerätes geändert hast, musst du stattdessen den geänderten Hostnamen deines Gerätes verwenden.)
 
@@ -94,7 +80,7 @@ Als Alternative kannst du, falls dir ein Linux-Computer zur Verfügung steht, od
 
 In jedem Fall kannst du bequem per Drag-and-Drop deine Spiele und BIOS-Dateien von deiner Festplatte in die entsprechenden Ordner deines KNULLI-Gerätes kopieren. Eine umfangreichere Anleitung und ein paar weitere alternative Möglichkeiten findest du im Abschnitt [Spiele hinzufügen](../add-games).
 
-### 5. PortMaster installieren (optional)
+### 4. PortMaster installieren (optional)
 
 Falls du dich dafür entschieden hast, bei ext4 zu bleiben, kannst du jetzt PortMaster installieren. Als erstes solltest du sicherstellen, dass du mit deinem W-LAN verbunden bist. Anschließend kannst du auf deinem KNULLI-Gerät in der Kategorie *Ports* das Script *Install.PortMaster* ausführen, um die Installation zu beginnn. Nach Abschluss der Installation wirst du *PortMaster* in der *Ports*-Kategorie finden. (Mehr Informationen rund um [PortMaster](../../systems/portmaster) findest du im entsprechenden Abschnitt des Wikis.)
 
@@ -102,11 +88,11 @@ Falls du dich dafür entschieden hast, bei ext4 zu bleiben, kannst du jetzt Port
 
      Falls *Install.PortMaster* in deiner *Ports*-Kategorie fehlt, folge den Anweisungen im Abschnitt[PortMaster](../../systems/portmaster).
 
-### 6. Medien und Metadaten scrapen (optional)
+### 5. Medien und Metadaten scrapen (optional)
 
 Nachdem du alle deine Spiele hinzugefügt und installiert hast, möchtest du möglicherweise **Artworks**, textuelle Beschreibungen und andere **Metadaten** **hinzufügen**. KNULLI bringt dafür einen **Scraper** mit, der für dich verfügbare Medien und Metadaten herunterladen kann. Unser Scraper unterstützt **ScreenScraper**, **TheGamesDB** und **ArcadeDB** als Datenquellen. (Eine umfangreichere Anleitung zum [Scraping](../scraping) findest du im entsprechenden Abschnitt des Wikis.)
 
-### 7. Retro Achievements einrichten (optional)
+### 6. Retro Achievements einrichten (optional)
 
 Wenn du Retro-Achievements sammeln möchtest, solltest du dich in dein Retro-Achievements-Konto einloggen. Drück ++"START"++, wähle *Game Settings* und gehe dort zu *RetroAchievement Settings* um deine Zugangsdaten einzugeben. Bitte denk daran, dass Retro-Achievements nur funktionieren während du mit dem Internet verbunden bist. (Weitere Informationen zum Thema Retro-Achievements findest du im Abschnitt [Achievements](../retro-achievements).)
 

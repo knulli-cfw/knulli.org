@@ -264,6 +264,7 @@ nav:
       - Update: play/update.md
     - Configure:
       - Networking: configure/networking.md
+      - Bluetooth: configure/bluetooth.md
       - Controls: configure/controls.md
       - Collections: configure/collections.md
       - Customization:
@@ -290,6 +291,7 @@ nav:
         - RG35XX H: devices/anbernic/rg35xx-h.md
         - RG35XX 2024: devices/anbernic/rg35xx-2024.md
         - RG35XX SP: devices/anbernic/rg35xx-sp.md
+        - RG40XX H: devices/anbernic/rg40xx-h.md
       - Orange Pi Zero 2w:
         - Orange Pi Zero 2w: devices/orange-pi/orange-pi-zero-2w.md
       - Powkiddy:
