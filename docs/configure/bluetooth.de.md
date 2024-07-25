@@ -4,13 +4,15 @@ KNULLI unterstützt eine ganze Reihe verschiedener Bluetooth-Geräte, z.B. Einga
 
 ## Bluetooth-Geräte verbinden
 
-Um ein Bluetooth-Gerät mit deinem KNULLI-Gerät zu verbinden, musst du zunächst sicherstellen, dass beide Geräte Bluetooth unterstützen. Wenn beide Geräte Bluetooth unterstützen, kannst du auf ++"Start"++ drücken, um das Hauptmenü zu öffnen und *Controller & Bluetooth Settings* auswählen. Hier kannst du bei *Enable Bluetooth* zunächst Bluetooth einschalten, falls es nicht schon eingeschaltet ist.
-
-Anschließend kannst du entweder versuchen, alle Eingabegeräte in deiner Nähe automatisch zu erkennen und zu verbinden, in dem du *Pair Bluetooth Pads Automatically* auswählst. Alternativ kannst du *Pair A Bluetooth Device Manually* auswählen, um dein Gerät aus einer Liste in der Nähe befindlicher Bluetooth-Geräte auszuwählen. Falls dein Gerät in der Liste nicht angezeigt wird, oder das Bluetooth-Pairing fehlschlägt, schau in das Handbuch deines Geräts und such dort nach der Anleitung für Bluetooth-Verbindungen.
-
 !!! info "Problemlösung"
 
     Falls dein KNULLI-Gerät dein Gerät nicht findet oder du Verbindungsprobleme hast, deaktiviere den W-LAN-Zugiff deines KNULLI-Geräts während des Verbindungsaufbaus (Pairing).
+    
+    Außerdem solltest du dir bewusst sein, dass manche Bluetooth-Controller so konstruiert sind, dass sie **ausschließlich** mit den Systemen verbinden, für die sie hergestellt wurden (z.B. Android oder Nintendo Switch). Wenn dein Bluetooth-Controller an deinem KNULLI-Gerät nicht funktioniert, solltest du zunächst überprüfen, ob dein Controller-Modell überhaupt via Bluetooth mit einem **PC** verbunden werden kann.
+
+Um ein Bluetooth-Gerät mit deinem KNULLI-Gerät zu verbinden, musst du zunächst sicherstellen, dass beide Geräte Bluetooth unterstützen. Wenn beide Geräte Bluetooth unterstützen, kannst du auf ++"Start"++ drücken, um das Hauptmenü zu öffnen und *Controller & Bluetooth Settings* auswählen. Hier kannst du bei *Enable Bluetooth* zunächst Bluetooth einschalten, falls es nicht schon eingeschaltet ist.
+
+Anschließend kannst du entweder versuchen, alle Eingabegeräte in deiner Nähe automatisch zu erkennen und zu verbinden, in dem du *Pair Bluetooth Pads Automatically* auswählst. Alternativ kannst du *Pair A Bluetooth Device Manually* auswählen, um dein Gerät aus einer Liste in der Nähe befindlicher Bluetooth-Geräte auszuwählen. Falls dein Gerät in der Liste nicht angezeigt wird, oder das Bluetooth-Pairing fehlschlägt, schau in das Handbuch deines Geräts und such dort nach der Anleitung für Bluetooth-Verbindungen.
 
 ### Controller zuordnen
 

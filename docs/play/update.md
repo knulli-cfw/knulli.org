@@ -1,27 +1,29 @@
 #  :material-update: Updating KNULLI
 
-On devices which can be connected to the internet, KNULLI can be updated "over the air" (OTA). Alternatively, KNULLI can also be updated by downloading the respective update file and installing it manually.
+!!! info "OTA Updates"
 
-## Option 1: OTA update
+    Batocera supports OTA (over-the-air) updates which can be executed directly from the EmulationStation GUI. Consequently, KNULLI also shows the OTA update menu. However, currently, we do **not have OTA servers** set up, yet. Until we do, we kindly ask you to update your KNULLI installation **manually**.
 
-If your device has access to the internet, you can update KNULLI directly from EmulationStation.
+## Manual Update
 
-1. In EmulationStation, open the main menu by pressing the ++"Start"++ button on your controller.
-2. Select *Updates & downloads*.
-3. Select *Start updates*.
+KNULLI can be updated by downloading the **boot package** for your device and replacing the `batocera` file manually.
 
-!!! info "By toggling *Check for updates*, you can decide if you want to be informed about new updates. By selecting an *Update type*, you may choose to only install *Stable* releases or to try out beta versions by selecting (*Butterfy*)."
-
-## Option 2: Manual update
-
-If your device does not have access to the internet or OTA updates are not available for other reasons, you can still update your KNULLI installation manually.
-
-
-1. Download the latest update (the file name ends with `boot.gz` or `boot.tar.gz`) for your device from the [Releases page](https://github.com/knulli-cfw/distribution/releases/latest).
-    * You'll find download links for each device/platform we support under the `Update Package Downloads` header.
-    * Make sure to download the correct image for your device.  For example; if you are installing KNULLI on a [RG35XX](../devices/anbernic/rg35xx.md) you would download the `rg35xx` image.
+1. Download the latest **boot package** for your device from our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest) by following these steps:
+    * Scroll to the bottom of the latest release to find it's **Assets** list.
+    * Identify the **boot package** for your respective device by making sure
+        * it contains the device name (e.g., `rg35xx-h` for the Anbernic RG35XX-H).
+        * it **ends** with `boot.gz`, `boot.xz`,`boot.tar.gz`, or `boot.tar.xz`.
+        * it has a size of approx. 1.5-2.0 GB.
     * If you have any questions you can check the [Device Support](../devices/index.md) section to confirm which image you should download for your specific device.
 2. Extract the data from the compressed file (e.g. with [7-Zip](https://7-zip.org/)).
+    * Be aware that a package that ends in `tar.gz` or `tar.xz` contains a compressed file within a compressed file, so you might need to first take the `tar` file out of the `gz`/`xz` file before you can extract the contents of the `tar` file.
 3. Insert your KNULLI SD card into the SD card reader of your computer.
-4. Replace the file `boot/batocera` on the *BATOCERA* partition of your SD card with the file `boot/batocera.update` from the file you downloaded.
+4. Replace the file `boot/batocera` on the *BATOCERA* partition of your SD card with the file `boot/batocera.update` from the file you downloaded by following these steps:
+    * **Delete** the existing `batocera` file **or rename** the current `batocera` file (e.g. to `batocera.bak`) if you want to keep it, e.g., to be able to downgrade to the previous KNULLI version again. (If you still have a backup of a previous KNULLI version, you might want to delete this now to make some room.)
+    * **Copy** `batocera.update` you extracted from the **boot package** to the `boot` folder on the `batocera` drive of your SD card.
+    * **Rename** `batocera.update` to `batocera`.
 5. Reboot the device, and the update will begin automatically.
+
+!!! danger "Re-creating default settings"
+
+     **Usually**, KNULLI updates will **NOT** require you to re-create neither a single configuration file nor your entire `system` folder. However, in **VERY rare cases** it might be required to adapt your configuration to new KNULLI default settings. In those cases, the easiest way is to reset to factory settings, either by re-creating single files or sometimes the entire `system` folder. You can learn more about it in the [Reset to factory settings](../../configure/reset-to-factory-settings) section, however, do **NOT** do this, unless you are absolutely sure it is required!
