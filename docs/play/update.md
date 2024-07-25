@@ -24,14 +24,6 @@ KNULLI can be updated by downloading the **boot package** for your device and re
     * **Rename** `batocera.update` to `batocera`.
 5. Reboot the device, and the update will begin automatically.
 
-## Re-creating contents of the `system` folder
+!!! danger "Re-creating default settings"
 
-!!! danger "Re-creating the `system` folder"
-
-     **Usually**, KNULLI updates will **NOT** require you to re-create your entire `system` folder. Re-creating the `system` folder corresponds to **resetting to factory defaults**. Consequently, it will force you to **re-configure a lot of settings manually** since they will be gone afterwards! Do **NOT** do this, unless you are absolutely sure it is required.
-
-As you might already know, **all your settings** are stored in your `userdata/system` folder as explained in the [Game Storage](../add-games/game-storage) section. In some **VERY rare cases**, it might be required to adapt your settings to new KNULLI defaults by **replacing/updating some files** in that `system` folder after you installed an update. The easiest way to achieve that is by just **removing** either the respective files **or** the entire folder. During the next boot, KNULLI will replace all the missing files with new files which contain the default settings.
-
-If you want or need to re-create a configuration file (or the entire `system` folder) with default settings, access your `userdata` folder the same way you always access it. We **strongly suggest** that you **rename** the `system` folder **or** the files you want to replace by adding a suffix like `.bak` (e.g., rename from `system` to `system.bak`)
-
-Afterwards, reboot your KNULLI device. It will re-create the missing files and folders from KNULLI defaults. Now, you can either re-configure all your settings via the EmulationStation GUI or you can hand-pick configuration details by comparing your old settings (`.bak`) with the new ones.
+     **Usually**, KNULLI updates will **NOT** require you to re-create neither a single configuration file nor your entire `system` folder. However, in **VERY rare cases** it might be required to adapt your configuration to new KNULLI default settings. In those cases, the easiest way is to reset to factory settings, either by re-creating single files or sometimes the entire `system` folder. You can learn more about it in the [Reset to factory settings](../../configure/reset-to-factory-settings) section, however, do **NOT** do this, unless you are absolutely sure it is required!

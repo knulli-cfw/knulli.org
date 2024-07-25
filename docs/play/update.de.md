@@ -24,14 +24,6 @@ Du kannst die KNULLI-Installation auf deinem Gerät aktualisieren, indem du das 
     * **Benenne** die datei `batocera.update` in `batocera` **um**.
 5. Starte das Gerät erneut, um mit dem Updatevorgang zu beginnen!
 
-## Den `system`-Ordner zurücksetzen
+!!! danger "Re-creating default settings"
 
-!!! danger "Den `system`-Ordner zurücksetzen"
-
-     **Normalerweise** erfordern KNULLI-Updates **NICHT**, dass du den gesamten `system`-Ordner zurückgesetzt. Das Zurücksetzen des `system`-Ordners kommt dem **Zurücksetzen auf Werkseinstellungen** gleich. Dementsprechend ist es danach zwingend nötig, **alle deine Einstellungen erneut vorzunehmen**. Du solltest **NICHT** versuchen, den `system`-Ordner zurückzusetzen, wenn du dir nicht absolut sicher bist, dass es notwendig ist.
-
-Wie du wahrscheinlich bereits weißt, sind **deine gesamten Einstellungen** in deinem `userdata/system`-Ordner gespeichert, wie im Abschnitt [Speicherort für Spiele](../add-games/game-storage) erklärt. In **SEHR seltenen Fällen** kann es nötig sein, nach einem Update einige Einstellungen auf neue KNULLI-Standardwerte zu setzen, indem die entsprechenden Dateien im `system`-Ordner **ersetzt** oder **angepasst** werden. Der einfachste Weg um dieses Ziel zu erreichen ist, die entsprechenden Dateien **order** den gesamten Ordner zu **entfernen**. Während des nächsten Bootvorgangs wird KNULLI die fehlenden Dateien mit neuen Dateien ersetzen, die dann die aktuellen KNULLI-Standardeinstellungen enthalten.
-
-Wenn du eine einzelne Konfigurationsdatei (oder den gesamten `system`-Ordner) zurücksetzen musst oder möchtest, greif dazu zunächst auf deinen `userdata`-Ordner zu, wie du es sonst auch machst. Wir **empfehlen dringend**, dass du die betroffenen Dateien **oder** den `system`-Ordner **umbenennst** statt zu löschen, indem du `.bak` ans Ende des Dateinamens schreibst (also z.B. den `system`-Ordner in `system.bak` umbenennst).
-
-Anschließend kannst du dein KNULLI-Gerät neu starten. Es wird alle fehlenden Dateien und Ordner während des Bootvorgangs neu erzeugen. Du kannst jetzt entweder alle deine Einstellungen wieder händisch über die KNULLI-GUI vornehmen, oder die Konfigurationsdateien mit deiner `.bak`-Sicherung vergleichen und Zeile für Zeile alle Einstellungen übernehmen, die du behalten möchtest.
+     **Normalerweise** erfordern KNULLI-Updates **NICHT** dass du einzelne Dateien oder gar den ganzen `system`-Ordner auf Werkseinstellungen zurücksetzt. In **SEHR seltenen Fällen** kann es allerdings nötig sein, deine Einstellungen an neue KNULLI-Standardeinstellungen anzupassen. In diesen Fällen ist es häufig am einfachsten, die entsprechenden Werkseinstellungen wiederherzustellen, entweder in dem man einzelne Dateien oder ganze Ordner zurücksetzt. Du kannst mehr über das Thema im Abschnitt [Werkseinstellungen](../../configure/reset-to-factory-settings) erfahren. Du solltest dies aber **NIEMALS** tun, wenn du dir nicht absolut sicher bist, dass es notwendig ist!
