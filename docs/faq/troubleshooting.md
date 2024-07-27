@@ -3,7 +3,7 @@
 ### Q: I want to add my own ROMs to the SD card but my Windows/Mac computer can't see the roms partition - what can I do?
 
 A: By default KNULLI formats the second partition with the ext4 filesystem for Linux. That format is typically
-not readable/mountable under Windows/Mac. However, ext4 is required for several [PortMaster](../../systems/portmaster) games to work properly. 
+not readable/mountable under Windows/Mac. However, ext4 is required for several [PortMaster](../../systems/portmaster) games to work properly.
 
 Instead of accessing the partition directly, we propose to use network transfer instead. Alternatively, you may reformat the partition from within KNULLI, if you are sure that you do not want to play PortMaster games. Please refer to the [Add Games](../../play/add-games) section for details about network transfer and reformatting.
 
@@ -13,9 +13,9 @@ Instead of accessing the partition directly, we propose to use network transfer 
 
 A: Yes! if you have a new or empty SDCARD you can insert the SDCARD on the second slot of the RG35XX and follow these steps:
 
-* Boot KNULLI and go to ``Settings -> System Settings -> Storage Device`` and change it from ``INTERNAL`` to your second card, e.g. ``SHARE - 25.6G``. 
-* Exit the settings menu and the system will indicate you need to reboot to get the changes applied. 
-* Go to the menu ``Settings -> Quit -> Restart System`` to reboot. The system will reboot and the second card will be now used for batocera and the folder structure (roms, bios, etc.) will be created. 
+* Boot KNULLI and go to ``Settings -> System Settings -> Storage Device`` and change it from ``INTERNAL`` to your second card, e.g. ``SHARE - 25.6G``.
+* Exit the settings menu and the system will indicate you need to reboot to get the changes applied.
+* Go to the menu ``Settings -> Quit -> Restart System`` to reboot. The system will reboot and the second card will be now used for batocera and the folder structure (roms, bios, etc.) will be created.
 * You can now shutdown the console, insert the card on your computer, and copy your bios & roms content.
 
 ---
@@ -55,12 +55,6 @@ A: Make sure that your router is set to WPA2. Some users experience connection i
 A: If you have updated from an older version you may need to copy the ``batocera.conf`` from the releases page to your SD card:
   * If you use one single SD card, mount the second partition on your PC/Mac/Linux (``SHARE``) and copy the file to ``system/batocera.conf``
   * If you use two SD cards, mount the second SD card on your PC/Mac/Linux and copy the file to ``system/batocera.conf``
-
----
-
-### Q: When I try to open Retro Achievements, I get an error message with status code `419`, telling me I am not authorized. What can I do?
-
-A: Nothing. But don't worry! If you see this message, it only means that your version of KNULLI does not support **displaying** your collected Retro Achievements, **yet**. However, it is still completely possible to **collect** Retro Achievements while playing! Just set up your Retro Achievements account as explained in the [Retro Achievements](../../play/retro-achievements) section and start hunting!
 
 ---
 
