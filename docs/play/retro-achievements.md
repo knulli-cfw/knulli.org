@@ -2,14 +2,6 @@
 
 KNULLI has a native integration with [RetroAchievements](https://retroachievements.org/) which allows you to earn achievements as you play games across numerous emulators. In order to use RetroAchievements your device must be connected to the internet.
 
-!!! warning "Error 419"
-
-    While you can add your credentials to **collect** Retro Achievements, it is currently **not possible** to **look at** your **collected** Retro Achievements from the main menu. Any attempt to do so will result in an error message, referring to "Error 419". Our developers are aware of the issue and are working on a solution.
-    
-    Until the issue is resolved, you can still look at your collected Retro Achievements from within **RetroArch**: Launch your game and press ++"Function"+++:material-gamepad-circle-down: to bring up the RetroArch GUI and find *Achievements*.
-    
-    Additionally, if the *RetroAchievements* option in the main menu annoys or confuses you, you can hide it from the main menu: Press ++"Start"++ to bring up the main menu, head to *Game Settings* and find *RetroAchievement Settings*. Here, you can toggle *Show RetroAchievements entry in main menu* on or off.
-
 ## Setup
 
 1. Create an account at [RetroAchievements.org](https://retroachievements.org/).
