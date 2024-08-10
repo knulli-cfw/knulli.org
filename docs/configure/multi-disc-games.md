@@ -6,7 +6,7 @@ All you have to do is create a **`m3u` playlist** file within the folder for the
 
 If you feel unsure how to achieve that, follow this guide. It will take you through the process step by step.
 
-!!! info "Make sure that 'ignore multi-disc content' is turned on"
+!!! info "Make sure that 'Ignore Multi-File Disk Content' is turned on"
 
     KNULLI comes with a setting that allows to hide or show the content (the individual discs) of multi-disc games. By default, hiding individual discs is turned **on**. However, if you have issues with individual discs unwantedly showing up on your Knulli device, make sure this feature is turned **on**.
 
