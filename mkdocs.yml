@@ -150,6 +150,7 @@ plugins:
             Bezel Decorations: Bezel-Dekorationen
             Boot Logo: Bootlogo
             Factory Settings: Werkseinstellungen
+            Multi-Disc Games: Spiele mit mehreren CDs
         - locale: pl
           name: Polski
           build: true
@@ -268,6 +269,7 @@ nav:
       - Bluetooth: configure/bluetooth.md
       - Controls: configure/controls.md
       - Collections: configure/collections.md
+      - Multi-Disc Games: configure/multi-disc-games.md
       - Customization:
         - Customization: configure/customization/index.md
         - Themes: configure/customization/themes.md
