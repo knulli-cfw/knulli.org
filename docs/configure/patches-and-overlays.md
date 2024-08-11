@@ -190,7 +190,7 @@ Have a close look at the output of this command, maybe copy-paste it to a text f
 
 ### If required: Create overlay manually
 
-Some **patch installers** implicitly create or update the **overlay**. However, some do not. If you are not sure whether the patch you applied created an overlay, you better do it yourself. To do so, establish a SSH connection (as explained in the [SSH](../ssh) section) and execute the following command:
+Some **patch installers** implicitly create or update the **overlay**. However, some do not. If your patch did **not** come with a patch installer, if you want to patch in your **own modifications**, or if you are not sure whether the patch you applied created an overlay, you better do it yourself. To do so, establish a SSH connection (as explained in the [SSH](../ssh) section) and execute the following command:
 ```
 batocera-save-overlay
 ```
