@@ -70,9 +70,62 @@ If you want to access your KNULLI device regularly, you can even assign a drive 
 - If additional security measurements are in place, you will be prompted for your credentials.
     - The expected username is `root`, the password is the *Root password* shown in the *Security* section of the *System settings*.
 
-### FTP
+### SCP/FTP
 
-Using your FTP program of choice; set up an SFTP connection to the IP address to your KNULLI device. You will need hte hostname or the IP address of the device. Make sure the port is set to `22`. The expected username is `root` and the expected password is the *Root password* you will find in the *Security* section of the *System settings*.
+Using your SCP/FTP program of choice; set up an SCP/SFTP connection to the IP address to your KNULLI device. You will need the hostname or the IP address of the device (the default hostname is `KNULLI`). Make sure the port is set to `22`. The expected username is `root` and the expected password is the *Root password* you will find in the *Security* section of the *System settings* (the default password is `linux`).
+
+!!! info "Parts of KNULLI are read-only"
+
+    Unlike the *SMB* file transfer, SCP/FTP will provide access to the **entire** KNULLI file system, not just the `/userdata` folder. However, **everything outside** of the `/userdata` folder is **read-only** - you **can** edit, change, remove, and delete files, but your changes will be **undone** every time you **reboot**.
+    
+    If you want to make persistent chances outside of the `/userdata` folder, please have a look at the section about [Patches and Overlays](../../../configure/patches-and-overlays).
+
+For Windows users, we recommend to use [WinSCP](https://winscp.net). After installing WinSCP on your Windows computer, follow these steps to establish a SCP connection to your KNULLI device, where you will able to drag-and-drop or copy/paste files directly from the *Windows Explorer*:
+
+<table>
+	<tr>
+		<td>
+			<img src="/_inc/images/play/add-games/add-games-scp-001.png">
+			<p><strong>Step 1: </strong>Create a <em>New Site</em> with the following setup and click <em>Login</em>.<p>
+			<table>
+				<tr>
+					<th>File protocol:</th>
+					<td>SCP</td>
+				</tr>
+				<tr>
+					<th>Host name:</th>
+					<td><code>KNULLI</code></td>
+				</tr>
+				<tr>
+					<th>Port:</th>
+					<td><code>22</code></td>
+				</tr>
+				<tr>
+					<th>User name:</th>
+					<td><code>root</code></td>
+				</tr>
+				<tr>
+					<th>Password:</th>
+					<td><code>linux</code></td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/add-games-scp-002.png">
+	    	<p><strong>Step 2: </strong><em>Accept</em> the host key.</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="/_inc/images/play/add-games/add-games-scp-003.png">
+			<p><strong>Step 3: </strong>Ignore any warnings about password expiration and just <em>Continue</em>.</p>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/add-games-scp-004.png">
+			<p><strong>Step 4: </strong>You have successfully established a connection to your KNULLI device. <strong>Do not panic</strong> if you do not see all the folders immediately. Select a folder (e.g., <em>userdata</em>) in the folder tree on the left side of the window to see its contents.</p>
+		</td>
+	</tr>
+</table>
 
 ### HTTP
 
