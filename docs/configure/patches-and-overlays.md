@@ -21,7 +21,7 @@ If you are a Windows user who has never worked with Linux before, you might want
 
 ### File systems on Windows machines
 
-On your Windows computer, each **drive** (or **partition**) has an assigned **drive letter**. You might think about them like labeled drawers of a filing cabinet. The **main drive** that hosts your Windows installation traditionally uses the drive letter `C:` - this is a relic of a time when drive letters `A:` and `B:` where reserved for the two floppy disc drives computers used to have. However, if you connect another drive to your PC, like a thumb drive or a SD card, Windows automatically assigns new drive letters to them, so you can access those drives from your *Windows Explorer*. Files and folders are addressed by their **absolute path** which starts with the **drive letter**. E.g., the folder which holds your pictures is located at
+On your Windows computer, each **drive** (or **partition**) has an assigned **drive letter**. You might think about them like labeled drawers of a filing cabinet. The **main drive** that hosts your Windows installation traditionally uses the drive letter `C:` - this is a relic of a time when drive letters `A:` and `B:` were reserved for the two floppy disc drives computers used to have. However, if you connect another drive to your PC, like a thumb drive or a SD card, Windows automatically assigns new drive letters to them, so you can access those drives from your *Windows Explorer*. Files and folders are addressed by their **absolute path** which starts with the **drive letter**. E.g., the folder which holds your pictures is located at
 
 ```
 C:\Users\<username>\Pictures
