@@ -151,6 +151,7 @@ plugins:
             Boot Logo: Bootlogo
             Factory Settings: Werkseinstellungen
             Multi-Disc Games: Spiele mit mehreren CDs
+            Patches and Overlays: Patches und Overlays
         - locale: pl
           name: Polski
           build: true
@@ -277,12 +278,12 @@ nav:
         - Bezel Decorations: configure/customization/bezel-decorations.md
         - Boot Logo: configure/customization/bootlogo.md
       - SSH: configure/ssh.md
-      - Reset t
       - Retroarch:
         - Controls: configure/retroarch/controls.md
       - PPSSPP:
         - Cheats: configure/ppsspp/cheats.md
       - Factory Settings: configure/reset-to-factory-settings.md
+      - Patches and Overlays: configure/patches-and-overlays.md
     - Systems:
       - Engines:
         - Pico-8: systems/pico-8.md
