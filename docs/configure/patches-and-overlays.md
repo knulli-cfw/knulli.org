@@ -21,7 +21,7 @@ If you are a Windows user who has never worked with Linux before, you might want
 
 ### File systems on Windows machines
 
-On your Windows computer, each **drive** (or **partition**) has an assigned **drive letter**. You might think about them like labeled drawers of a filing cabinet. The **main drive** that hosts your Windows installation traditionally uses the drive letter `C:` - this is a relic of a time when drive letters `A:` and `B:` were reserved for the two floppy disc drives computers used to have. However, if you connect another drive to your PC, like a thumb drive or a SD card, Windows automatically assigns new drive letters to them, so you can access those drives from your *Windows Explorer*. Files and folders are addressed by their **absolute path** which starts with the **drive letter**. E.g., the folder which holds your pictures is located at
+On your Windows computer, each **drive** (or **partition**) has an assigned **drive letter**. You might think about them like labeled drawers of a filing cabinet. The **main drive** that hosts your Windows installation traditionally uses the drive letter `C:` - this is a relic of a time when drive letters `A:` and `B:` were reserved for the two floppy disk drives computers used to have. However, if you connect another drive to your PC, like a thumb drive or a SD card, Windows automatically assigns new drive letters to them, so you can access those drives from your *Windows Explorer*. Files and folders are addressed by their **absolute path** which starts with the **drive letter**. E.g., the folder which holds your pictures is located at
 
 ```
 C:\Users\<username>\Pictures
@@ -29,9 +29,9 @@ C:\Users\<username>\Pictures
 
 ### File systems on Linux machines 
 
-Linux filesystems work a little different. On Linux, every **drive** is treated like a **folder**. A Linux system always has a so called **root** that **loosely** corresponds conceptually to the drive letter `C:` on a Windows machine. The **root** is always referred to by the symbol `/`. By definition, each **absolute path** always starts with `/` symbol.
+Linux filesystems work a little different. On Linux, every **drive** is treated like a **folder**. A Linux system always has a so called **root** that **loosely** corresponds conceptually to the drive letter `C:` on a Windows machine. The **root** is always referred to by the symbol `/`. By definition, each **absolute path** always starts with the `/` symbol.
 
-Other **drives** are treated like **subfolders** of the **root**. With a command called `mount`, any **empty folder** on a Linux system can be assigned to **any drive** of the device. It is even allowed, to have **more than one folder** that points to **the same drive**. Following the previous metaphor, consider a filing cabinet with only a **single drawer**.
+Other **drives** are treated like **subfolders** of the **root**. With a command called `mount`, any **empty folder** of a Linux system can be assigned to **any drive** of the device. It is even allowed, to have **more than one folder** that points to **the same drive**. Following the previous metaphor, consider a filing cabinet with only a **single drawer**.
 
 For example, on your KNULLI device, your games are stored in
 
@@ -112,7 +112,7 @@ point **to the exact same file**, too.
 
 Since everything outside of the `/userdata` folder of your KNULLI installation is **read-only** by definition, you will need to create an **overlay** to make **permanent** changes to your KNULLI installation. Otherwise, all changes will simply be undone after every reboot of your system.
 
-Your primary SD card (SD1) has a drive called `BATOCERA`, which is formatted to **FAT32** and can be accessed easily from Windows, Linux, and MacOS. On that drive, you will find a folder called `boot` which contains a **file** called `batocera` - that file contains the **majority of your KNULLI installation**. (This is why you can manually update your KNULLI installation by simply replacing this file, as explained in the [Update](../../play/update) section.
+Your primary SD card (SD1) has a drive called `BATOCERA`, which is formatted to **FAT32** and can be accessed easily from Windows, Linux, and MacOS. On that drive, you will find a folder called `boot` which contains a **file** called `batocera` - that file contains the **majority of your KNULLI installation**. (This is why you can manually update your KNULLI installation by simply replacing this file, as explained in the [Update](../../play/update) section.)
 
 The **overlay** is **another** file that is just called `overlay` and resides in the same folder. The overlay is **optional** - usually, users do **not** have an overlay in place. The **overlay file** contains **changes** you made to the KNULLI installation, which will be applied **during boot**.
 
@@ -156,11 +156,50 @@ There are several options to put files in the right places **outside** of the `/
     or
     ```
     mv /userdata/system/some-file.sh /usr/bin/some-file.sh
-    ```    
+    ```
+    where the **first** argument is always the path to the **source file** you want to copy/move and the **second** argument is always the **final destination** where you want the file to end up.    
     
 ### Making files executable
 
-After you have moved the files in the right places, you need to make sure that all files which are **supposed** to be executable **actually are** executable. Again, you have several options to achieve this:
+After you have moved the files in the right places, you need to make sure that all files which are **supposed** to be executable **actually are** executable.
+
+#### Linux file system permissions
+
+On Linux file systems, three different permissions can be set on each file or folder:
+
+* The **read** (`r`) permission allows to **read** the contents of the file.
+* The **write** (`w`)  permission allows to **modify** or even **delete** the file and/or its content.
+* The **execute** (`x`)  permission allows to **execute** the file, which is a special precaution to avoid users accidentally launching dangerous programs. Each program has to be actively set to actually be **executable**.
+
+The three permissions can be set on each file for three different "user classes":
+
+* The **owner** is a **single user** who **owns** the file. (It doesn't necessarily has to be the file's creator.)
+* The **group** is a single **group of users** who might have a certain interest in the file.
+* The **others** are **all other users** who are **not** the owner and **not** members of the group.
+
+As a result, the permissions of each file can be represented by a 3-by-3 matrix. In this example, **everyone** can **read** and **execute** the file, but only the **owner** can **modify** it:
+
+|        | Read                  | Write                 | Execute               |
+| ------ | --------------------- | --------------------- | --------------------- |
+| Owner  | :material-check-bold: | :material-check-bold: | :material-check-bold: |
+| Group  | :material-check-bold: |                       | :material-check-bold: |
+| Others | :material-check-bold: |                       | :material-check-bold: |
+
+This corresponds to a string representation of
+
+```
+rwxr-xr-x
+```
+
+where the first 3 letters represent the **owner**, the next 3 letters represent the **group** and the last 3 letters represent the **others**.
+
+#### Setting Linux file permissions
+
+!!! warning "Make sure that files need to be executable"
+
+    Before you make a file executable, make sure the file actually **needs** to be executable. Do **not** randomly mark files as executable "just to be safe". If you are unsure, check back with the patch developer and ask if a file should be executable or not.
+
+Again, you have several options to set the file permissions on the files of your KNULLI system and make sure a file is **executable**:
 
 * If using WinSCP, you can right-click a file and select *Properties*.
     * In the *Common* tab, go to the *Permissions* section and make sure all the *X*es are **checked** if the file is required to be **executable**.
@@ -173,7 +212,7 @@ After you have moved the files in the right places, you need to make sure that a
     ```
     -rwxr-xr-x 1 root root 458 Aug  3 22:20 /userdata/system/patch-installer.sh
     ```
-    and you can tell from the part `rwxr-xr-x` if a file is executable (you see 3 `x` letters) or not (you see less than 3 or even no `x` letters).
+    and you can tell from the part `rwxr-xr-x` if a file is executable for **everyone**.
     * use the `chmod` command to change the permissions of a file and make it executable, e.g.,
     ```
     chmod +x /userdata/system/patch-installer.sh
