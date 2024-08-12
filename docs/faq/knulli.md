@@ -37,7 +37,7 @@ The long answer is: After we adapted Batocera to make it work on the RG35XX Plus
 
 ### Q: Where can I download the latest version?
 
-A: You will find the latest version of KNULLI on our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). Find the download for your device in the `Installation Package Downloads` section and follow the [Installation guide](../play/install) to install KNULLI on your device. If your device is not listed there, please be patient - there is no public release of KNULLI for your device available, yet.
+A: You will find the latest version of KNULLI on our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). Find the download for your device in the `Installation Package Downloads` section and follow the [Quick Start Guide](../../play/quick-start) to install KNULLI on your device. If your device is not listed there, please be patient - there is no public release of KNULLI for your device available, yet.
 
 ---
 
@@ -49,12 +49,7 @@ A: You will find a list of all currently supported devices in the `Installation 
 
 ### Q: Do I have to flash every release or can I update?
 
-A: For most of the releases you can update:
-  * Download the boot.tar.xz file from the releases page
-  * Extract its content
-  * Mount your KNULLI SDCARD on your PC/Mac/Linux computer
-  * Delete the file ``boot/knulli`` (you can make a backup of this file on your computer in case you want to revert to the previous version)
-  * Copy the contents of the extracted boot.tar.xz to the SDCARD
+A: For most of the releases you can run a manual update as explained in the [Update](../../play/update) section.
 
 ---
 
