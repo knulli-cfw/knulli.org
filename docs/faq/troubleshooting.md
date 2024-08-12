@@ -11,12 +11,7 @@ Instead of accessing the partition directly, we propose to use network transfer 
 
 ### Q: Can I use a second SD card for my roms/bios content?
 
-A: Yes! if you have a new or empty SDCARD you can insert the SDCARD on the second slot of the RG35XX and follow these steps:
-
-* Boot KNULLI and go to ``Settings -> System Settings -> Storage Device`` and change it from ``INTERNAL`` to your second card, e.g. ``SHARE - 25.6G``. 
-* Exit the settings menu and the system will indicate you need to reboot to get the changes applied. 
-* Go to the menu ``Settings -> Quit -> Restart System`` to reboot. The system will reboot and the second card will be now used for batocera and the folder structure (roms, bios, etc.) will be created. 
-* You can now shutdown the console, insert the card on your computer, and copy your bios & roms content.
+A: Yes! Have a look in the [Second SD Card](../../play/add-games/second-sd-card) section!
 
 ---
 
@@ -38,23 +33,15 @@ A: Expanding and booting the first time with a 64GB SDCARD takes about 1 to 1:30
 
 ---
 
-### Q: I've installed KNULLI or updated to the latest version and my controls don't respond as expected - what can I do?
-
-A: For some devices, especially those which share a common installation image (e.g., the RG35XX H/Plus/SP series), it might be required to manually map the controls after the first installation. To do that, follow the instructions in the [Control](../../configure/controls) section.
-
----
-
 ### Q: I cannot connect to my Wi-Fi even though my device has a wireless network adapter - what can I do?
 
 A: Make sure that your router is set to WPA2. Some users experience connection issues with Wi-Fis which are set to WPA3.
 
 ---
 
-### Q: I've installed/updated to the latest version and I don't have audio, or my controls don't respond, or something else is not working as expected:
+### Q: I've installed/updated to the latest version and I don't have audio, or my controls don't respond, or something else is not working as expected - what can I do?
 
-A: If you have updated from an older version you may need to copy the ``batocera.conf`` from the releases page to your SD card:
-  * If you use one single SD card, mount the second partition on your PC/Mac/Linux (``SHARE``) and copy the file to ``system/batocera.conf``
-  * If you use two SD cards, mount the second SD card on your PC/Mac/Linux and copy the file to ``system/batocera.conf``
+A: You might want to try to reset your device to **factory settings**. Please follow our guide on [Resetting to Factory Settings](../../configure/reset-to-factory-settings)
 
 ---
 
@@ -66,7 +53,7 @@ A: Nothing. But don't worry! If you see this message, it only means that your ve
 
 ### Q: Why are bezel decorations not working on my KNULLI device?
 
-A: Most bezel decorations are made for screens with an aspect ratio of 16:9. Consequently, those bezels do not work on a 4:3 display (like on the Anbernic RG35XX H/Plus/SP). To get bezel decorations working, find a bezel pack for 4:3 displays. You will find a detailed explanation (and a pointer to 4:3-compatible bezels) in the [Bezel Decorations](../../configure/bezel-decorations) section.
+A: Most bezel decorations are made for screens with an aspect ratio of 16:9. Consequently, those bezels do not work on a 4:3 display (like on the Anbernic RG35XX H/Plus/SP). To get bezel decorations working, find a bezel pack for 4:3 displays. You will find a detailed explanation (and a pointer to 4:3-compatible bezels) in the [Bezel Decorations](../../configure/customization/bezel-decorations) section.
 
 ---
 
