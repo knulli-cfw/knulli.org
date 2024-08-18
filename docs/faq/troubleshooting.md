@@ -15,6 +15,18 @@ A: Yes! Have a look in the [Second SD Card](../../play/add-games/second-sd-card)
 
 ---
 
+### Q: Can I use one SD card only for PortMaster so that the other can still be exFAT?
+
+A: The short answer is: No.
+
+The long answer is: Knulli will use **either** SD 1 **or** SD 2 for **all** of your user data, including games, saves, etc. There is **no way** around your SD cards being formatted to **ext4** if you want to play PortMaster games.
+
+If you know your way around Linux and understand the concept of symbolic links, you can take the time to study the folder structure of KNULLI and employ symbolic links to use the storage space of both SD cards by turning certain subfolders on the SD card KNULLI is set up to use into symbolic links to subfolders on the **other** SD card. However, for that to work, **both** data storages still need to be formatted to **ext4**.
+
+You can learn more about the [Game Storage](../../play/add-games/game-storage), [using a Second SD card](../../play/add-games/second-sd-card), and [the KNULLI filesystem](../../configure/patches-and-overlays) in the respective wiki sections.
+
+---
+
 ### Q: I would like to try muOS and KNULLI - is it possible to have the same second SD card for both CFWs to share my games between them?
 
 A: KNULLI requires all the ROMs to be in the respective subfolders of the emulated system, e.g., `roms/snes` for SNES ROMs. If you populate your SD card the KNULLI way (see [Add Games](../../play/add-games) section for details), it will be possible to configure your muOS to take the ROMs from these folders, which will enable you to use the same second SD card for your ROMs in both CFWs.
