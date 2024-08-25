@@ -15,6 +15,18 @@ A: Yes! Have a look in the [Second SD Card](../../play/add-games/second-sd-card)
 
 ---
 
+### Q: Can I use one SD card only for PortMaster so that the other can still be exFAT?
+
+A: The short answer is: No.
+
+The long answer is: Knulli will use **either** SD 1 **or** SD 2 for **all** of your user data, including games, saves, etc. There is **no way** around your SD cards being formatted to **ext4** if you want to play PortMaster games.
+
+If you know your way around Linux and understand the concept of symbolic links, you can take the time to study the folder structure of KNULLI and employ symbolic links to use the storage space of both SD cards: You could turn certain subfolders on the SD card KNULLI is **set up to use** into symbolic links to subfolders on the **other** SD card. However, for that to work, **both** data storages still need to be formatted to **ext4**.
+
+You can learn more about the [Game Storage](../../play/add-games/game-storage), [using a Second SD card](../../play/add-games/second-sd-card), and [the KNULLI filesystem](../../configure/patches-and-overlays) in the respective wiki sections.
+
+---
+
 ### Q: I would like to try muOS and KNULLI - is it possible to have the same second SD card for both CFWs to share my games between them?
 
 A: KNULLI requires all the ROMs to be in the respective subfolders of the emulated system, e.g., `roms/snes` for SNES ROMs. If you populate your SD card the KNULLI way (see [Add Games](../../play/add-games) section for details), it will be possible to configure your muOS to take the ROMs from these folders, which will enable you to use the same second SD card for your ROMs in both CFWs.
@@ -48,6 +60,26 @@ A: You might want to try to reset your device to **factory settings**. Please fo
 ### Q: When I try to open Retro Achievements, I get an error message with status code `419`, telling me I am not authorized. What can I do?
 
 A: Nothing. But don't worry! If you see this message, it only means that your version of KNULLI does not support **displaying** your collected Retro Achievements, **yet**. However, it is still completely possible to **collect** Retro Achievements while playing! Just set up your Retro Achievements account as explained in the [Retro Achievements](../../play/retro-achievements) section and start hunting!
+
+---
+
+### Q: Where can I change the hotkey shortcuts? When I try to change hotkeys in RetroArch, my changes are reset every time I start a game!
+
+A: The short answer is: Nowhere. You are not supposed to change them, you should just use the ones described in the [Hotkey Shortcuts](../../play/hotkey-shortcuts) section.
+
+The long answer is: Unlike other CFWs for previous generations of handhelds, KNULLI is **not** limited to RetroArch-integrated emulators. KNULLI comes with **a lot** of **standalone** emulators. Some of them have to be configured by the developers with hard-coded programming because they can't be configured at runtime.
+
+Like the Batocera project we forked from, KNULLI wants to give the users a consistent user experience. Therefore, we provide a set of pre-defined hotkey shortcuts that work for **most** emulators as consistent as possible. We are currently **not** planning to add any options for you to be able to change hotkeys anytime soon, but we are discussing options.
+
+Tech-savvy users might be able to override our settings for **RetroArch** specifically by replacing them in `batocera.conf`, following [this guide](https://wiki.batocera.org/advanced_retroarch_settings#rebinding_retroarch_s_hotkeys) on the Batocera website. However, be aware that some shortcuts that we provide on the OS level might conflict with your manual choices for hotkeys on the RetroArch level, which might lead to double-bindings. Consequently, we do **not** recommend tinkering with hotkeys at all.
+
+---
+
+### Q: Why do my RetroArch settings always reset whenever I launch a game?
+
+A: You are not supposed to make changes in RetroArch directly. Most relevant options for each emulator and/or RetroArch core can be set in EmulationStation either globally or per system or even per game. The RetroArch configuration file is **generated** anew with every launch of a game, based on the settings you made globally or for the specific system/game in **EmulationStation**. For that reason, all the changes you make while playing will be overwritten the next time you launch a game, except for **overrides** and **remap files**.
+
+Please set up your emulators in EmulationStation. If you miss an emulator option in EmulationStation that seems relevant to you, you might want to get in touch and make your case. Maybe we can help you adopt this emulator option into an EmulationStation setting or at least give you insight why we don't think this option should be set by the user (e.g. hotkey changes which would lead to system-wide inconsistencies).
 
 ---
 
