@@ -1,14 +1,35 @@
 # :material-console: SSH
 
-As an advanced user, you might want to access the command line (or shell) of your KNULLI device to enter Linux commands directly. You may do so by connecting to KNULLI via SSH. There are several SSH clients available. For Windows users, we recommmend [SmarTTY](https://sysprogs.com/SmarTTY) or [PuTTY](https://www.putty.org).
+As an advanced user, you might want to access the command line (or shell) of your KNULLI device to enter Linux commands directly. You may do so by connecting to KNULLI via SSH. There are several SSH clients available. For Windows users, we recommmend [SmarTTY](https://sysprogs.com/SmarTTY) (which is also able to do file transfers) or [PuTTY](https://www.putty.org).
 
-To connect to your KNULLI device via SSH, simply connect the device to your local network as described in the [Networking](../networking) section.
+However, it is also possible to simply use the SSH client which is already integrated in your operating system: Most Linux distributions and modern Windows versions come with a SSH command line tool.
+
+To connect to your KNULLI device via SSH, simply connect the device to your local network as described in the [Networking](../networking) section and establish the SSH connection as explained below.
+
+## Required information
 
 When establishing your SSH connection, you will need the following information:
 
 * Host: Either the hostname of your KNULLI device (default is `KNULLI`) or the current IP address (press ++"Start"++ and go to *Network settings* to find your current IP address)
 * Username: `root`
 * Password: Your current root password (press ++"Start"++ and go to *System settings* and *Security* to find your current root password, default is `linux`)
+
+## Option 1: Using SSH from the command line
+
+* Open a command line/terminal on your computer.
+    * Windows users can use the new Windows Terminal, classic CMD, or PowerShell.
+    * Linux users probably know their way around the command line anyway.
+* Type
+  ```
+  ssh root@knulli
+  ```
+  and confirm by pressing ++"Enter"++. (If you changed the hostname of your KNULLI device, you might need to replace `knulli` with the hostname you chose or the IP address of your KNULLI device.)
+* If asked, you may confirm fingerprinting.
+* When asked, type your password and confirm.
+* After the password was verified, you should be connected to your device via SSH.
+* Once you are done with SSH, you can quit the SSH client by typing `exit` and confirming.
+
+## Option 2: Using a standalone SSH client tool
 
 To establish a SSH connection via SmarTTY, install and launch the program, then follow these steps:
 
