@@ -91,17 +91,17 @@ A: Most bezel decorations are made for screens with an aspect ratio of 16:9. Con
 
 ### Q: I am using an Anbernic device of the RG35/40XX H/Plus/SP/V/2024 series. Why does my battery lose so much charge in sleep mode? Sleep mode on Anbernic stock OS seems more efficient!
 
-A: There are two different types of sleep mode: *Suspend to RAM* and *Suspend to disk* (sometimes also referred to as *hibernation*).
+A: There are two different types of sleep mode on modern computers (and similar devices): **Suspend to RAM** and **Suspend to disk** (sometimes also referred to as **hibernation**).
 
-When *suspending to RAM*, many components of the device are shut off, but the entire state of the device is kept in *RAM* (Random Access Memory). Consequently, the device will still require some power to keep the RAM active. This type of sleep mode consumes still quite some power, but it is fast to wake up and it does not wear out the hard disk.
+When **suspending to RAM**, many components of the device are shut off, but the entire state of the device is kept in **RAM** (Random Access Memory). Consequently, the device will still require some power to keep the RAM active. This type of sleep mode **consumes still quite some power**, but it is fast to wake up and it does not wear out the hard disk.
 
-When *suspending to disk*, the state of the device is written to a persistent memory, such as a hard disk or an SD card. The device will be able to power off completely, therefore saving much more battery charge. However, I/O operations to persistent memory are slow, so this mode takes longer to go to sleep and wake up again, also it might slowly wear out the persistent memory.
+When **suspending to disk**, the state of the device is written to a **persistent memory**, such as a hard disk or an SD card. The device will be able to **power off completely**, therefore saving much more battery charge. However, I/O operations to/from persistent memory are slow, so this mode takes longer to go to sleep and wake up again, also it might slowly wear out the persistent memory over time.
 
-The custom kernel provided by Anbernic for the devices of that series only allows *Suspend to RAM*. Sadly, the Anbernic devices of that series consume a lot of power to maintain the RAM in sleep mode, which is why you might notice a discharge of about 5% per hour, so you cannot put the device to sleep indefinitely.
+The custom kernel provided by Anbernic for the devices of that series only allows **Suspend to RAM**. The Anbernic devices of that series consume a lot of power to maintain the RAM in sleep mode, which is why you might notice a **discharge** of about **5% per hour**, so you cannot put the device to sleep indefinitely.
 
-With a more recent update, Anbernic changed the sleep mode concept. Instead of *suspending to RAM*, the stock OS does now *suspend to disk*. However, their implementation of *suspend to disk* is a hacked solution and **not** an appropriate implementation of proper hibernation.
+With a more recent update, Anbernic changed the sleep mode concept. Instead of **suspending to RAM**, the stock OS now **suspends to disk**. However, their implementation of **suspend to disk** is a hacked solution and **not** an appropriate implementation of **real hibernation**.
 
-The KNULLI developers purposely decided **not** to adopt the hacked solution into the KNULLI software. Instead, we are working on switching KNULLI to the mainline Linux kernel, which will allow a **proper** *suspend to disk* mode as it is supposed to be. Until KNULLI is switched to mainline kernel completely, KNULLI will only support *suspend to RAM*.
+The KNULLI developers purposely decided **not** to adopt the hacked solution into the KNULLI software. Instead, we are working on switching KNULLI to the mainline Linux kernel, which will allow a **proper** implementation of **suspend to disk** as it is supposed to be. Until KNULLI is switched to mainline kernel completely, KNULLI will only support **suspend to RAM**.
 
 ---
 
