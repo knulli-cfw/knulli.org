@@ -51,7 +51,7 @@ If you choose to **load**, **append**, or **prepend** a shader, a menu will open
 
 ## Adding your own shaders
 
-KNULLI already comes with a lot of pre-defined shaders which are stored in the **read-only** part of the KNULLI file system in a folder called `/usr/share/batocera/shaders`. However, you are **not**** supposed to **delete** or **add** any shaders there. Instead, KNULLI expects your **own shaders** to be stored in the `shaders` folder in your `userdata`/`SHARE` folder. (If you want to learn more about the `shaders` folder, have a look at the through documentation in the [Batocera wiki](https://wiki.batocera.org/emulationstation:shaders_set).)
+KNULLI already comes with a lot of pre-defined shaders which are stored in the **read-only** part of the KNULLI file system in a folder called `/usr/share/batocera/shaders`. However, you are **not** supposed to **delete** or **add** any shaders there. Instead, KNULLI expects your **own shaders** to be stored in the `shaders` folder in your `userdata`/`SHARE` folder. (If you want to learn more about the `shaders` folder, have a look at the through documentation in the [Batocera wiki](https://wiki.batocera.org/emulationstation:shaders_set).)
 
 If you do not have such a folder, yet, access your `userdata` folder (e.g., via [network transfer](../../../play/add-games/network-transfer)) and add the `shaders` folder. Afterwards, you can copy all your RetroArch shaders into that folder.
 
