@@ -71,9 +71,64 @@ Falls du in Zukunft öfter auf dein KNULLI-Gerät zugreifen möchtest, kannst du
 - Du wirst möglicherweise nach Benutzername und Passwort gefragt, wenn die erweiterten Sicherheitseinstellungen aktiv sind.
     - Der Benutzername ist `root`, das Passwort wird dir als *Root password* im Bereich *Security* der *System settings* angezeigt.
 
-### FTP
+### SCP/FTP
 
-Mit einem FTP-Programm deiner Wahl kannst du eine SFTP-Verbindung zu deinem KNULLI-Gerät aufbauen. Dazu benötigst du den Hostnamen oder die IP-Adresse des Geräts. Stelle sicher, dass als Port `22` eingestellt ist. Der Benutzername lautet `root`, das Passwort wird dir als *Root password* im Bereich *Security* der *System settings* angezeigt.
+Mit einem SCP/FTP-Programm deiner Wahl kannst du eine SCP/SFTP-Verbindung zu deinem KNULLI-Gerät aufbauen. Dazu benötigst du den Hostnamen oder die IP-Adresse des Geräts (der Standard-Hostname lautet `KNULLI`). Stelle sicher, dass als Port `22` eingestellt ist. Der Benutzername lautet `root`, das Passwort wird dir als *Root password* im Bereich *Security* der *System settings* angezeigt (das Standardpasswort lautet `linux`).
+
+!!! info "Teile von KNULLI sind schreibgeschützt"
+
+    Anders als die Dateiübertragung via *SMB* erlaubt dir SCP/FTP nicht nur Zugang zum `/userdata`-Ordner sondern zum **gesamten** KNULLI-Dateisystem. Allerdings ist **alles außerhalb** des `/userdata`-Ordners **schreibgeschützt**. Du kannst Dateien zwar bearbeiten, ändern, löschen und hinzufügen, aber alle deine Änderungen werden bei jedem **Neustart** des Systems **rückgängig gemacht**.
+    
+    Falls du dauerhafte Änderungen an Dateien außerhalb des `/userdata`-Ordners vornehmen möchtest, solltest du einen Blick in den Abschnitt [Patches und Overlays](../../../configure/patches-and-overlays) werfen.
+
+Windows-Nutzern empfehlen wir die Benutzung von [WinSCP](https://winscp.net). Nach der Installation von WinSCP auf deinem Windows-Computer kannst du mit den folgenden Schritten eine SCP-Verbindung zu deinem KNULLI-Gerät aufbauen, mit der du Dateien per Drag-and-Drop oder Kopieren/Einfügen zwischen deinem *Windows Explorer* und deinem KNULLI-Gerät übertragen kannst:
+
+<table>
+	<tr>
+		<td>
+			<img src="/_inc/images/play/add-games/add-games-scp-001.png">
+			<p><strong>Schritt 1: </strong>Lege ein <em>Neues Verbindungsziel</em> mit den folgenden Einstellungen an und klick auf <em>Anmelden</em>.<p>
+			<table>
+				<tr>
+					<th>Übertragungsprotokoll:</th>
+					<td>SCP</td>
+				</tr>
+				<tr>
+					<th>Serveradresse:</th>
+					<td><code>KNULLI</code></td>
+				</tr>
+				<tr>
+					<th>Portnummer:</th>
+					<td><code>22</code></td>
+				</tr>
+				<tr>
+					<th>Benutzername:</th>
+					<td><code>root</code></td>
+				</tr>
+				<tr>
+					<th>Passwort:</th>
+					<td><code>linux</code></td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/add-games-scp-002.png">
+	    	<p><strong>Schritt 2: </strong><em>Akzeptiere</em> den Schüssel.</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="/_inc/images/play/add-games/add-games-scp-003.png">
+			<p><strong>Schritt 3: </strong>Ignoriere alle Warnungen bzgl. des Ablaufdatums des Passworts und wähle <em>Fortsetzen</em>.</p>
+		</td>
+		<td>
+			<img src="/_inc/images/play/add-games/add-games-scp-004.png">
+			<p><strong>Schritt 4: </strong>Du hast erfolgreich eine Verbindung zu deinem KNULLI-Gerät aufgebaut. <strong>Keine Panik</strong> falls du nicht sofort alle Ordner siehst: Wähle einen Ordner (z.B. <em>userdata</em>) im Verzeichnisbaum auf der linken Seite aus, um dessen Inhalt sichtbar zu machen.</p>
+		</td>
+	</tr>
+</table>
+
+
 
 ### HTTP
 
