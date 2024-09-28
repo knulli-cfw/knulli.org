@@ -91,6 +91,10 @@ A: Most bezel decorations are made for screens with an aspect ratio of 16:9. Con
 
 ### Q: I have battery issues with my Anbernic device of the RG35XX/RG40XX Plus/SP/2024/H/V series. My battery seems to discharge faster on Knulli than on stock OS, even in sleep mode or when completely turned off!
 
+!!! danger "Read this before reporting battery issues"
+    Due to the reasons explained below, it is **not helpful at all** to report battery issues based on the **displayed percentage**. Telling us that your battery lost 10% of battery while the device was turned off **does not help**, because **you cannot possibly know** if that number is even correct.
+    Currently, the **only** valid way to investigate your battery issues with KNULLI is to watch the **power indicator LED** of your device and measure the time it takes for the device to drain completely. E.g., when investigating sleep mode efficiency, **charge the device fully**, put it in sleep mode and see how long it takes for the device to **drain completely**.
+
 A: To our knowledge, there is no difference between the the efficiency of sleep modes between Knulli and the Anbernic stock OS. If you perceive that your device discharges too fast, there's a variety of factors which might be at play here:
 
 * The **battery indicator** of **Emulation Station** (the KNULLI frontend) has a **bug** which causes it to get **stuck** sometimes. It is a **known issue** that is being worked on. However, until the issue is fixed, you **cannot rely** on the **accuracy** of the displayed **battery percentage**. Restarting the device or updating gamelists might temporarily fix the issue, however, it will happen again.
