@@ -10,9 +10,14 @@ search:
 | -- | -- | -- | -- | -- |
 | Trimui Smart Pro | Allwinner A133 / PowerVR GE8300 | Allwinner BSP | pvrsrvkm | Emulation Station |
 
-!!! warning "The TrimUI Smart Pro distribution includes a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There are no public sources provided by TrimUI for those"
+
+## Installation
+
+Our [Quick Start Guide](../../../play/quick-start/) will guide you through the process of installing and setting up KNULLI on the TrimUI Smart Pro.
 
 ## Extracting the kernel and bootloader
+
+!!! warning "The TrimUI Smart Pro distribution includes a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There are no public sources provided by TrimUI for those"
 
 TrimUI has not published the source code of the u-boot and kernel of the TrimUI Smart Pro. They have published some libraries and SDK, but those do not include the BSP that includes the kernel, u-boot, and bootloader. In order to have a working configuration you have two options:
 
@@ -22,7 +27,3 @@ TrimUI has not published the source code of the u-boot and kernel of the TrimUI 
 The firwmare included in releases uses the kernel, bootloader, and u-boot from the stock firmware.
 
 You can read [this page](../../guides/A133-firmware-extract.md) to learn how to extract the bootloader, u-boot, and kernel from the stock firmware.
-
-## Installation
-
-Our [Quick Start Guide](../../../play/quick-start/) will guide you through the process of installing and setting up KNULLI on the TrimUI Smart Pro.
