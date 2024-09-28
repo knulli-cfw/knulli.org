@@ -89,24 +89,17 @@ A: Most bezel decorations are made for screens with an aspect ratio of 16:9. Con
 
 ---
 
-### Q: I am using an Anbernic device of the RG35/40XX H/Plus/SP/V/2024 series. Why does my battery lose so much charge in sleep mode? Sleep mode on Anbernic stock OS seems more efficient!
+### Q: I have battery issues with my Anbernic device of the RG35XX/RG40XX Plus/SP/2024/H/V series. My battery seems to discharge faster on Knulli than on stock OS, even in sleep mode or when completely turned off!
 
-A: There are two different types of sleep mode on modern computers (and similar devices): **Suspend to RAM** and **Suspend to disk** (sometimes also referred to as **hibernation**).
+A: To our knowledge, there is no difference between the the efficiency of sleep modes between Knulli and the Anbernic stock OS. If you perceive that your device discharges too fast, there's a variety of factors which might be at play here:
 
-When **suspending to RAM**, many components of the device are shut off, but the entire state of the device is kept in **RAM** (Random Access Memory). Consequently, the device will still require some power to keep the RAM active. This type of sleep mode **consumes still quite some power**, but it is fast to wake up and it does not wear out the hard disk.
-
-When **suspending to disk**, the state of the device is written to a **persistent memory**, such as a hard disk or an SD card. The device will be able to **power off completely**, therefore saving much more battery charge. However, I/O operations to/from persistent memory are slow, so this mode takes longer to go to sleep and wake up again, also it might slowly wear out the persistent memory over time.
-
-The custom kernel provided by Anbernic for the devices of that series only allows **Suspend to RAM**. The Anbernic devices of that series consume a lot of power to maintain the RAM in sleep mode, which is why you might notice a **discharge** of about **5% per hour**, so you cannot put the device to sleep indefinitely.
-
-With a more recent update, Anbernic changed the sleep mode concept. Instead of **suspending to RAM**, the stock OS now **suspends to disk**. However, their implementation of **suspend to disk** is a hacked solution and **not** an appropriate implementation of **real hibernation**.
-
-The KNULLI developers purposely decided **not** to adopt the hacked solution into the KNULLI software. Instead, we are working on switching KNULLI to the mainline Linux kernel, which will allow a **proper** implementation of **suspend to disk** as it is supposed to be. Until KNULLI is switched to mainline kernel completely, KNULLI will only support **suspend to RAM**.
-
----
-
-### Q: There seems to be some battery drain. What can I do?
-
-A: Most likely, there is no battery drain. There is a bug in the algorithm which calculates and refreshes the estimated battery charge. Therefore, the displayed percentage is inaccurate. Do not worry about it, your battery is fine. Our developers are already working on a solution to give you a more precise battery charge indicator.
+* The **battery indicator** of **Emulation Station** (the KNULLI frontend) has a **bug** which causes it to get **stuck** sometimes. It is a **known issue** that is being worked on. However, until the issue is fixed, you **cannot rely** on the **accuracy** of the displayed **battery percentage**. Restarting the device or updating gamelists might temporarily fix the issue, however, it will happen again.
+* The battery percentage that can be read from the **battery drivers** sometimes gives inaccurate readings. Our developers noticed that sometimes the battery percentage reported directly from the battery makes rather large jumps, e.g., from 93% directly to 100% when charging. Consequently, even if your battery indicator is **not** stuck, the displayed battery percentage might still be **a little inaccurate**.
+* The **sleep mode** on the Anbernic devices of that series is very **inefficient**, especially compared to modern smartphones or similar devices:
+     * It applies a simple **suspend to RAM**, which means that many components of the device are shut off, but the entire state of the device is kept in **RAM** (Random Access Memory). Consequently, the device will still require some power to keep the RAM active.
+     * The Anbernic devices of that series consume a lot of power to maintain the RAM in sleep mode, which is why you might notice a **discharge** of about **5% per hour**, so you cannot put the device to sleep indefinitely.
+     * A more efficient power management could be achieved by implementing **suspend to disk**, which would keep the state of the device in a **persistent memory**, such as a hard disk or an SD card. The device would be able to **power off completely**, therefore saving much more battery charge. However, the custom kernel provided by Anbernic for the devices of that series only allows **Suspend to RAM**. We will not be able to provide a **suspend to disk** implementation until the Anbernic devices of that series are supported by the mainline Linux kernel.
+* It is possible that your battery **discharges a little** even when the device is **turned off** completely. It might be a **self-preservation mechanism** built into the battery to make sure that it doesn't stay charged at 100% for too long.
+* If you perceive that your device drains all battery charge within a day or less despite being turned off, the device most likely was **not** turned off but only in **sleep mode**.
 
 ---
