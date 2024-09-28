@@ -8,4 +8,4 @@
 
 ## Notes
 
-!!! warning "The RG35XX is currently not supported by KNULLI."
+!!! warning "The RGB30 is currently not supported by KNULLI."
