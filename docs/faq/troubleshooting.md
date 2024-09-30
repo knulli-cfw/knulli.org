@@ -110,3 +110,9 @@ If you perceive that your device discharges too fast, there's a variety of facto
 * If you perceive that your device drains all battery charge within a day or less despite being turned off, the device most likely was **not** turned off but only in **sleep mode**.
 
 ---
+
+### Q: I am trying to run KNULLI on my RG35XX SP, but I only get some distorted lines on my screen - what can I do to fix this?
+
+A: There is nothing you can do. The device you have is a new revision of the RG35XX SP with a screen that is not yet supported by KNULLI. We have already identified the issue and we are working on a fix. If everything goes according to plan, your device will be fully supported with the next release of KNULLI!
+
+---
