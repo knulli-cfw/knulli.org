@@ -3,7 +3,7 @@
 ### Q: I want to add my own ROMs to the SD card but my Windows/Mac computer can't see the roms partition - what can I do?
 
 A: By default KNULLI formats the second partition with the ext4 filesystem for Linux. That format is typically
-not readable/mountable under Windows/Mac. However, ext4 is required for several [PortMaster](../../systems/portmaster) games to work properly. 
+not readable/mountable under Windows/Mac. However, ext4 is required for several [PortMaster](../../systems/portmaster) games to work properly.
 
 Instead of accessing the partition directly, we propose to use network transfer instead. Alternatively, you may reformat the partition from within KNULLI, if you are sure that you do not want to play PortMaster games. Please refer to the [Add Games](../../play/add-games) section for details about network transfer and reformatting.
 
@@ -54,12 +54,6 @@ A: Make sure that your router is set to WPA2. Some users experience connection i
 ### Q: I've installed/updated to the latest version and I don't have audio, or my controls don't respond, or something else is not working as expected - what can I do?
 
 A: You might want to try to reset your device to **factory settings**. Please follow our guide on [Resetting to Factory Settings](../../configure/reset-to-factory-settings)
-
----
-
-### Q: When I try to open Retro Achievements, I get an error message with status code `419`, telling me I am not authorized. What can I do?
-
-A: Nothing. But don't worry! If you see this message, it only means that your version of KNULLI does not support **displaying** your collected Retro Achievements, **yet**. However, it is still completely possible to **collect** Retro Achievements while playing! Just set up your Retro Achievements account as explained in the [Retro Achievements](../../play/retro-achievements) section and start hunting!
 
 ---
 
