@@ -63,18 +63,6 @@ A: Nothing. But don't worry! If you see this message, it only means that your ve
 
 ---
 
-### Q: Where can I change the hotkey shortcuts? When I try to change hotkeys in RetroArch, my changes are reset every time I start a game!
-
-A: The short answer is: Nowhere. You are not supposed to change them, you should just use the ones described in the [Hotkey Shortcuts](../../play/hotkey-shortcuts) section.
-
-The long answer is: Unlike other CFWs for previous generations of handhelds, KNULLI is **not** limited to RetroArch-integrated emulators. KNULLI comes with **a lot** of **standalone** emulators. Some of them have to be configured by the developers with hard-coded programming because they can't be configured at runtime.
-
-Like the Batocera project we forked from, KNULLI wants to give the users a consistent user experience. Therefore, we provide a set of pre-defined hotkey shortcuts that work for **most** emulators as consistent as possible. We are currently **not** planning to add any options for you to be able to change hotkeys anytime soon, but we are discussing options.
-
-Tech-savvy users might be able to override our settings for **RetroArch** specifically by replacing them in `batocera.conf`, following [this guide](https://wiki.batocera.org/advanced_retroarch_settings#rebinding_retroarch_s_hotkeys) on the Batocera website. However, be aware that some shortcuts that we provide on the OS level might conflict with your manual choices for hotkeys on the RetroArch level, which might lead to double-bindings. Consequently, we do **not** recommend tinkering with hotkeys at all.
-
----
-
 ### Q: Why do my RetroArch settings always reset whenever I launch a game?
 
 A: You are not supposed to make changes in RetroArch directly. Most relevant options for each emulator and/or RetroArch core can be set in EmulationStation either globally or per system or even per game. The RetroArch configuration file is **generated** anew with every launch of a game, based on the settings you made globally or for the specific system/game in **EmulationStation**. For that reason, all the changes you make while playing will be overwritten the next time you launch a game, except for **overrides** and **remap files**.
