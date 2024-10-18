@@ -47,3 +47,29 @@ If your games are all together in a shared ROMs folder (most common in the more 
 This should be all you need to do to keep your hotkeys saved for each folder/core that you launch. You will have to repeat this process at the very least for each retroarch system that you use (unless they happen to share the same system emulation core).
 
 Now whenever you open a game with a saved override, you should see a pop-up confirming that you have an override already saved to this current game and it has successfully launched.  If you change other settings in your retroarch menu (or re-do your hotkeys), it is possible that you must re-save your override file to keep your new changes as well.
+
+## Set up hotkey bindings in `batocera.conf`
+
+This approach is a little more advanced because you do need to know the keycodes of your controller to set up the mappin. But unlike the override method as described above, this is a global RA setting which needs to be set up only **once** without saving overrides.
+
+In `batocera.conf`, you essentially add a block like this towards the end and bind the various RetroArch inputs to the hotkey button of your liking. You can use `"nul"` to disable actions you do not want to be assigned to a hotkey shortcut. You can find more detailed information about this approach in the [Batocera wiki](https://wiki.batocera.org/advanced_retroarch_settings#rebinding_retroarch_s_hotkeys).
+
+```
+# ------------ RA Overrides ----------- #
+# --- Input Hotkeys --- #
+global.retroarch.input_enable_hotkey_btn = "9"
+global.retroarch.input_menu_toggle_btn = "6"
+global.retroarch.input_exit_emulator_btn = "10"
+global.retroarch.input_load_state_btn = "7"
+global.retroarch.input_save_state_btn = "8"
+global.retroarch.input_screenshot_btn = "3"
+global.retroarch.input_toggle_fast_forward_btn = "14"
+global.retroarch.input_rewind_btn = "nul"
+global.retroarch.input_reset_btn = "nul"
+global.retroarch.input_ai_service_btn = "nul"
+global.retroarch.input_shader_prev_btn = "nul"
+global.retroarch.input_shader_next_btn = "nul"
+global.retroarch.input_state_slot_increase_btn = "nul"
+global.retroarch.input_state_slot_decrease_btn = "nul"
+global.retroarch.input_hold_fast_forward_btn = "nul"
+```
