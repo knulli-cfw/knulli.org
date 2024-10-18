@@ -152,6 +152,8 @@ plugins:
             Factory Settings: Werkseinstellungen
             Multi-Disc Games: Spiele mit mehreren CDs
             Patches and Overlays: Patches und Overlays
+            Basic Inputs: Tasten und Funktionen
+            Custom Hotkey Shortcuts: Benutzerdefinierte Tastenkombinationen
         - locale: pl
           name: Polski
           build: true
@@ -261,6 +263,7 @@ nav:
         - Formatting: play/add-games/formatting.md
       - BIOSes: play/bioses.md
       - Scraping: play/scraping.md
+      - Basic Inputs: play/basic-inputs.md
       - Hotkey Shortcuts: play/hotkey-shortcuts.md
       - Achievements: play/retro-achievements.md
       - Netplay: play/netplay.md
@@ -281,6 +284,7 @@ nav:
       - Retroarch:
         - Controls: configure/retroarch/controls.md
         - Shaders: configure/retroarch/shaders.md
+        - Custom Hotkey Shortcuts: configure/retroarch/custom-hotkey-shortcuts.md
       - PPSSPP:
         - Cheats: configure/ppsspp/cheats.md
       - Factory Settings: configure/reset-to-factory-settings.md
