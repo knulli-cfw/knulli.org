@@ -21,13 +21,13 @@ Even though most bezel decoration packs are specifically designed for 16:9 displ
 Some bezels which were originally created by [drkhrse](https://github.com/drkhrse) and [antiKk](https://github.com/antiKk) have been adapted by [nvitaterna](https://github.com/nvitaterna) to work on Batocera-based handhelds with 4:3 displays. To install this set on your Knulli device
 
 * download the bezel pack from the GitHub repository of nvitaterna, either by
-    * visting the [GitHub repository](https://github.com/nvitaterna/batocera_4_3_handheld_bezels) and finding *Download ZIP* in the *Local* menu,
+    * visiting the [GitHub repository](https://github.com/nvitaterna/batocera_4_3_handheld_bezels) and finding *Download ZIP* in the *Local* menu,
     * or just clicking [here](https://github.com/nvitaterna/batocera_4_3_handheld_bezels/archive/refs/heads/main.zip).
 * unzip the file (e.g. with [7-Zip](https://7-zip.org/)).
 * find the `batocera_4_3_handheld_bezels` folder **inside** the `decorations` folder you just unzipped.
 * copy the **entire** `batocera_4_3_handheld_bezels` folder into the `decorations` folder of your  [userdata folder](../../../play/add-games/game-storage).
 
-The bezel pack should now be installed and ready to use. However, to apply it, you have to set it up as explained in the [Apply bezel decorations](#apply-bezel-decorations) section.
+The bezel pack should now be installed and ready to use. However, to apply it, you must set it up as explained in the [Apply bezel decorations](#apply-bezel-decorations) section.
 
 ## Apply bezel decorations
 

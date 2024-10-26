@@ -24,6 +24,6 @@ TrimUI has not published the source code of the u-boot and kernel of the TrimUI 
 * You can use the stock kernel, bootloader, and u-boot from the stock SDCARD. See below for instructions on how to extract those. 
 * You can compile the included kernel with the source code of this distribution, however, note that there will be a few elements that are missing
 
-The firwmare included in releases uses the kernel, bootloader, and u-boot from the stock firmware.
+The firmwmare included in releases uses the kernel, bootloader, and u-boot from the stock firmware.
 
 You can read [this page](../../guides/A133-firmware-extract.md) to learn how to extract the bootloader, u-boot, and kernel from the stock firmware.

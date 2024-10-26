@@ -1,8 +1,8 @@
 # :material-frequently-asked-questions: FAQ: Troubleshooting
 
-### Q: I want to add my own ROMs to the SD card but my Windows/Mac computer can't see the roms partition - what can I do?
+### Q: I want to add my own ROMs to the SD card, but my Windows/Mac computer can't see the roms partition - what can I do?
 
-A: By default KNULLI formats the second partition with the ext4 filesystem for Linux. That format is typically
+A: By default, KNULLI formats the second partition with the ext4 filesystem for Linux. That format is typically
 not readable/mountable under Windows/Mac. However, ext4 is required for several [PortMaster](../../systems/portmaster) games to work properly. 
 
 Instead of accessing the partition directly, we propose to use network transfer instead. Alternatively, you may reformat the partition from within KNULLI, if you are sure that you do not want to play PortMaster games. Please refer to the [Add Games](../../play/add-games) section for details about network transfer and reformatting.
@@ -35,13 +35,13 @@ A: KNULLI requires all the ROMs to be in the respective subfolders of the emulat
 
 ### Q: I have Garlic with my ROMs/BIOSes on the second SD card. Is it possible to reuse that card for KNULLI?
 
-A: By default KNULLI expects a different name for the ROM folders and their location, but thanks to @XQuader there's a script that creates the compatible configuration for KNULLI based on the Garlic structure. You can read more about it on [this Reddit post](https://www.reddit.com/r/RG35XX/comments/12zxs8t/how_to_get_garlicos_roms_folders_working_in/).
+A: By default, KNULLI expects a different name for the ROM folders and their location, but thanks to @XQuader there's a script that creates the compatible configuration for KNULLI based on the Garlic structure. You can read more about it on [this Reddit post](https://www.reddit.com/r/RG35XX/comments/12zxs8t/how_to_get_garlicos_roms_folders_working_in/).
 
 ---
 
-### Q: The installation seems to be running, I can see it's expanding the partition but it's taking too long
+### Q: The installation seems to be running; I can see it's expanding the partition but it's taking too long
 
-A: Expanding and booting the first time with a 64GB SDCARD takes about 1 to 1:30 minutes. If your SDCARD is larger it may take much longer, however, if it goes beyond 5 minutes, chances are that something didn't go well. Just press reset and the system will continue. If that's the case, the partition may have not been expanded. For that you will need to manually expand the card on your PC/Mac/Linux.
+A: Expanding and booting the first time with a 64GB SDCARD takes about 1 to 1:30 minutes. If your SDCARD is larger it may take much longer, however, if it goes beyond 5 minutes, chances are that something didn't go well. Just press reset and the system will continue. If that's the case, the partition may not have been expanded. For that you will need to manually expand the card on your PC/Mac/Linux.
 
 ---
 
@@ -51,7 +51,7 @@ A: Make sure that your router is set to WPA2. Some users experience connection i
 
 ---
 
-### Q: I've installed/updated to the latest version and I don't have audio, or my controls don't respond, or something else is not working as expected - what can I do?
+### Q: I've installed/updated to the latest version, and I don't have audio, my controls don't respond, or something else is not working as expected - what can I do?
 
 A: You might want to try to reset your device to **factory settings**. Please follow our guide on [Resetting to Factory Settings](../../configure/reset-to-factory-settings)
 
@@ -83,7 +83,7 @@ A: Most bezel decorations are made for screens with an aspect ratio of 16:9. Con
     Due to the reasons explained below, it is **not helpful at all** to report battery issues based on the **displayed percentage**. Telling us that your battery lost 10% of battery while the device was turned off **does not help**, because **you cannot possibly know** if that number is even correct.
     Currently, the **only** valid way to investigate your battery issues with KNULLI is to watch the **power indicator LED** of your device and measure the time it takes for the device to drain completely. E.g., when investigating sleep mode efficiency, **charge the device fully**, put it in sleep mode and see how long it takes for the device to **drain completely**.
 
-A: To our knowledge, there is no difference between the the efficiency of sleep modes between KNULLI and the **initial version** of the Anbernic stock OS. However, experiments indicate that the **improved** stock OS sleep mode performs **better** than the the sleep mode provided by KNULLI. Since Anbernic does not make their source code available, our developers are still examining the stock OS to determine, what changes they made to further improve their sleep mode. Until we figure this out, KNULLI will only provide the regular sleep mode which consumes about 5% of battery charge per hour.
+A: To our knowledge, there is no difference between the the efficiency of sleep modes between KNULLI and the **initial version** of the Anbernic stock OS. However, experiments indicate that the **improved** stock OS sleep mode performs **better** than the the sleep mode provided by KNULLI. Since Anbernic does not make their source code available, our developers are still examining the stock OS to determine what changes they made to further improve their sleep mode. Until we figure this out, KNULLI will only provide regular sleep mode which consumes about 5% of battery charge per hour.
 
 If you perceive that your device discharges too fast, there's a variety of factors which might be at play here:
 
@@ -93,7 +93,7 @@ If you perceive that your device discharges too fast, there's a variety of facto
      * It applies a simple **suspend to RAM**, which means that many components of the device are shut off, but the entire state of the device is kept in **RAM** (Random Access Memory). Consequently, the device will still require some power to keep the RAM active.
      * The Anbernic devices of that series consume a lot of power to maintain the RAM in sleep mode, which is why you might notice a **discharge** of about **5% per hour**, so you cannot put the device to sleep indefinitely.
      * The **improved sleep mode** seems to save more power, however, it is still unknown to us how this is achieved.
-     * A more efficient power management could be achieved by implementing **suspend to disk**, which would keep the state of the device in a **persistent memory**, such as a hard disk or an SD card. The device would be able to **power off completely**, therefore saving much more battery charge. However, the custom kernel provided by Anbernic for the devices of that series only allows **Suspend to RAM**. We will not be able to provide a **suspend to disk** implementation until the Anbernic devices of that series are supported by the mainline Linux kernel.
+     * More efficient power management could be achieved by implementing **suspend to disk**, which would keep the state of the device in a **persistent memory**, such as a hard disk or an SD card. The device would be able to **power off completely**, therefore saving much more battery charge. However, the custom kernel provided by Anbernic for the devices of that series only allows **Suspend to RAM**. We will not be able to provide a **suspend to disk** implementation until the Anbernic devices of that series are supported by the mainline Linux kernel.
 * It is possible that your battery **discharges a little** even when the device is **turned off** completely. It might be a **self-preservation mechanism** built into the battery to make sure that it doesn't stay charged at 100% for too long.
 * If you perceive that your device drains all battery charge within a day or less despite being turned off, the device most likely was **not** turned off but only in **sleep mode**.
 

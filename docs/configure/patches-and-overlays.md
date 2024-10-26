@@ -8,7 +8,7 @@
 
 !!! warning "SSH network access to your device is mandatory"
 
-    Before reading any further, be aware that it is **mandatory** to be able to access a command line on your KNULLI device via **SSH** to **install patches** and **create overlays**. Consequently, you will **not** be able to do either unless your device is connected to your Wi-Fi (as explained in the [Networking](../networking) section) and you have prepared SSH access to your device  (as explained in the [SSH](../ssh) section).
+    Before reading any further, be aware that it is **mandatory** to be able to access a command line on your KNULLI device via **SSH** to **install patches** and **create overlays**. Consequently, you will **not** be able to do either unless your device is connected to your Wi-Fi (as explained in the [Networking](../networking) section) and you have prepared SSH access to your device (as explained in the [SSH](../ssh) section).
 
 This section covers details about installing **patches** and persisting changes to the operating system in an **overlay**. As a **regular KNULLI user**, you probably do **not** need to know any of this. This entire section is written for two groups of users:
 
@@ -17,7 +17,7 @@ This section covers details about installing **patches** and persisting changes 
 
 ## Understanding Linux file systems
 
-If you are a Windows user who has never worked with Linux before, you might want to take a little time to understand how Linux file systems work. Bare in mind that this is a **simplified** explanation which is only meant to pick you up and give you a brief understanding of how KNULLI works differently from your Windows PC. If you want to learn more about how Linux work, we **strongly** recommend to find a more extensive source of information.
+If you are a Windows user who has never worked with Linux before, you might want to take a little time to understand how Linux file systems work. Bear in mind that this is a **simplified** explanation which is only meant to pick you up and give you a brief understanding of how KNULLI works differently from your Windows PC. If you want to learn more about how Linux works, we **strongly** recommend finding a more extensive source of information.
 
 ### File systems on Windows machines
 
@@ -29,9 +29,9 @@ C:\Users\<username>\Pictures
 
 ### File systems on Linux machines 
 
-Linux filesystems work a little different. On Linux, every **drive** is treated like a **folder**. A Linux system always has a so called **root** that **loosely** corresponds conceptually to the drive letter `C:` on a Windows machine. The **root** is always referred to by the symbol `/`. By definition, each **absolute path** always starts with the `/` symbol.
+Linux filesystems work a little differently. On Linux, every **drive** is treated like a **folder**. A Linux system always has a so called **root** that **loosely** corresponds conceptually to the drive letter `C:` on a Windows machine. The **root** is always referred to by the symbol `/`. By definition, each **absolute path** always starts with the `/` symbol.
 
-Other **drives** are treated like **subfolders** of the **root**. With a command called `mount`, any **empty folder** of a Linux system can be assigned to **any drive** of the device. It is even allowed, to have **more than one folder** that points to **the same drive**. Following the previous metaphor, consider a filing cabinet with only a **single drawer**.
+Other **drives** are treated like **subfolders** of the **root**. With a command called `mount`, any **empty folder** of a Linux system can be assigned to **any drive** of the device. It is even allowed to have **more than one folder** that points to **the same drive**. Following the previous metaphor, consider a filing cabinet with only a **single drawer**.
 
 For example, on your KNULLI device, your games are stored in
 
@@ -147,7 +147,7 @@ There are several options to put files in the right places **outside** of the `/
 
 * Some patches come with a **patch installer** which moves the file for you. In this case, simply store the **patch installer** and all patch files in your `/userdata` folder according to the specifications made by the developer.
 * You can use SCP/FTP to access the entire KNULLI file system. You will find a subsection on how to use SCP/FTP in the [Network Transfer](../../play/add-games/network-transfer) section. This approach allows to put the files **directly** to their **final destination**.
-* You can copy the files to your `/userdata` folder by the same method you add your games and BIOSes. Afterwards, you can move the files **from** their location inside `/userdata` **to** their **final destination**
+* You can copy the files to your `/userdata` folder by the same method you add your games and BIOS files. Afterwards, you can move the files **from** their location inside `/userdata` **to** their **final destination**
     * **either** by using the *OD-Commander* tool you will find in the *Ports* category of your KNULLI device
     * **or** by connecting via SSH (as explained in the [SSH](../ssh) section) and copying/moving the files via `cp`/`mv` on the command line, e.g.,
     ```
@@ -210,7 +210,7 @@ Again, you have several options to set the file permissions on the files of your
     ```
     to see if a file called `patch-installer.sh` is executable. The response will look like
     ```
-    -rwxr-xr-x 1 root root 458 Aug  3 22:20 /userdata/system/patch-installer.sh
+    -rwxr-xr-x 1 root root 458 Aug 3 22:20 /userdata/system/patch-installer.sh
     ```
     and you can tell from the part `rwxr-xr-x` if a file is executable for **everyone**.
     * use the `chmod` command to change the permissions of a file and make it executable, e.g.,
