@@ -26,7 +26,7 @@ Your first steps will depend on how you want to use your KNULLI device.
 
 ### 1. Set up your data storage
 
-For most users, we **recommend** to use a **single SD card** with the **default formatting**.
+For beginners, we **recommend** to use a **single SD card** with the **default formatting**. For users who are determined to use KNULLI on the long run, we **recommend** to use a **dual SD card** setup with **ext4** formatting. (Do not worry: It is possible to migrate from a single SD card setup to a dual SD card setup later as explained in the [Dual SD Card Migration Guide](../../guides/dual-sd-card-migration).
 
 However, if you want a different setup, e.g. because your device does not support Wi-Fi, use the table below to determine, which setup suits your needs. Be aware that it might be required to **reformat** the storage before you can use it. Please use the **built-in KNULLI formatter** for this purpose. Also, please be aware that you have to **switch** between internal and external storage **manually**. (You will find detailed instructions on [switching](../add-games/second-sd-card) and [formatting](../add-games/formatting) storages in the [Add Games](../add-games) section.)
 
