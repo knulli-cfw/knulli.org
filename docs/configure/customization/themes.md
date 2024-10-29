@@ -77,7 +77,7 @@ The artwork used on the system view can be customized with your own images.
     * `${system.theme}.jpg`
     * The theme will look them up in that order.
     * `_default.png/jpg` can be used for creating a single image that is used for all systems OR a fallback for systems that you did not create a custom image for (if you don't want to use the fallback that already exists in the theme)
-    * `${system.theme}.png/jpg` should be named for the system you are looking to override. for example, if you wanted to override the artwork for `snes` you would create an image called `snes.png` or `snes.jpg` in the artwork folder.
+    * `${system.theme}.png/jpg` should be named for the system you are looking to override. For example, if you wanted to override the artwork for `snes` you would create an image called `snes.png` or `snes.jpg` in the artwork folder.
 * Once your images are in place you turn on custom images by changing the `System Artwork` setting to `Custom (Fullscreen)`
 
 #### Splash Screen
@@ -108,7 +108,7 @@ System logos can be customized by adding your own images
     * `${system.theme}.svg`
     * `${system.theme}.png`
     * The theme will look them up in that order. If a given image is not found in your folder then the images from the theme will be used as a fallback.  This allows you to customize only the images you want and still have images displayed for all systems.
-    * `${system.theme}.svg/png` should be named for the system you are looking to override. for example, if you wanted to override the logo for `snes` you would create an image called `snes.svg` or `snes.png` in the logos folder.
+    * `${system.theme}.svg/png` should be named for the system you are looking to override. For example, if you wanted to override the logo for `snes` you would create an image called `snes.svg` or `snes.png` in the logos folder.
 * Once your images are in place you turn on custom images by changing the `System Logos` setting to `Custom`    
 
 ## Adding Additional Themes
