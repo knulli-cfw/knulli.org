@@ -20,7 +20,7 @@ After your devices have been paired successfully, you might need to take additio
 
 ### Set up audio output
 
-After pairing an audio output device (like a headphone), you need to set it as your audio output. Press ++"Start"++ to bring up the main menu, head to *System Settings* and choose your Blueooth device as *Audio output*.
+After pairing an audio output device (like a headphone), you need to set it as your audio output. Press ++"Start"++ to bring up the main menu, head to *System Settings* and choose your Bluetooth device as *Audio output*.
 
 ## Forget a Bluetooth device
 

@@ -18,12 +18,12 @@ By default, KNULLI uses standalone PPSSPP as emulator for your PSP games. Howeve
 * Head back to the main menu of the PPSSPP overlay, which will now have a *Cheats* section.
 * Go to the *Cheats* section and simply check all the cheats you want to apply to your game. Be aware that not every cheat is available for every game.
 
-You may now return to your game, the cheats should be applied automatically. Since you stored them in a game config file, the cheats will be restored automatically the next time you launch the game with PPSSPP.
+When you now return to your game, the cheats should be applied automatically. Since you stored them in a game config file, the cheats will be restored automatically the next time you launch the game with PPSSPP.
 
 ## Enhancing performance with cheats
 
 Even though the word "cheat" usually refers to gaining gameplay advantages by manipulating, breaking, overriding the rules of a game, PPSSPP cheats also contain some means to improve the performance of certain games.
 
-For example, among the cheats for "God Of War: Chains Of Sparta", you will find cheats for locking the framerate to 30 or 60 FPS. By enabling the 30 FPS lock cheat and setting *Frame skipping* to *1* and *Auto frameskip* to disabled in the *Graphics* tab of the *Game settings*, you might get a more enjoyable performance on a low-powered device like the Anbernic RG35XX H/Plus/SP.
+For example, among the cheats for "God of War: Chains of Sparta", you will find cheats for locking the framerate to 30 or 60 FPS. By enabling the 30 FPS lock cheat and setting *Frame skipping* to *1* and *Auto frameskip* to disabled in the *Graphics* tab of the *Game settings*, you might get a more enjoyable performance on a low-powered device like the Anbernic RG35XX H/Plus/SP.
 
 !!! info "Some stock operating systems (e.g., the Anbernic stock OS) already include game configurations for several games, which have cheats activated by default. If you feel like one of your games performs better on the stock OS of your device, take the time to compare the emulator settings of the same game on both devices and adapt the configuration from the stock OS to your KNULLI device."

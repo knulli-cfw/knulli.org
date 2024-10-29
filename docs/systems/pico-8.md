@@ -10,11 +10,11 @@
 
 ### Option 1: Running Pico-8 through RetroArch Fake-08
 
-By default, KNULLI comes with *Fake08*, a free, Pico-8-compatible engine provided by RetroArch. Many Pico-8 games run perfectly fine with *Fake08*. Since Pico-8 games are usually free, you can download the `png` game files (or "carts") from the [Pico-8 website](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2) and drop them in your `roms/pico8` folder. However, since *Fake08* does not cover all the features of the native Pico-8 engine, some games might nor run properly with *Fake08*.
+By default, KNULLI comes with *Fake08*, a free, Pico-8-compatible engine provided by RetroArch. Many Pico-8 games run perfectly fine with *Fake08*. Since Pico-8 games are usually free, you can download the `png` game files (or "carts") from the [Pico-8 website](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2) and drop them in your `roms/pico8` folder. However, since *Fake08* does not cover all the features of the native Pico-8 engine, some games might not run properly with *Fake08*.
 
 ### Option 2: Running Pico-8 through the native engine
 
-Pico-8 games are best played with the native engine as it supports all Pico-8 features without any limitations.  You need to purchase it from [Lexaloffle](https://www.lexaloffle.com/pico-8.php) and we do recommend that you buy a copy if you can. Its an awesome piece of software and it also comes with the tools to make your own games.
+Pico-8 games are best played with the native engine as it supports all Pico-8 features without any limitations.  You need to purchase it from [Lexaloffle](https://www.lexaloffle.com/pico-8.php) and we do recommend that you buy a copy if you can. It's an awesome piece of software and it also comes with the tools to make your own games.
 
 #### Setup
 

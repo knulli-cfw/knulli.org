@@ -6,9 +6,9 @@
 
 KNULLI is a custom firmware for retro gaming devices (handhelds, bartops, etc.). It's developed as a fork of [Batocera](https://batocera.org). It tries to provide support for devices that fall under at least one of these categories:
 
-* There are no open source kernel and/or u-boot sources available
+* There are no open-source kernel and/or u-boot sources available
 * There are sources, but the kernel is either not mainline, and/or too old (e.g. devices with a BSP kernel 3.4 like the Egret II Mini)
-* There is no GPU support or the gpu is not supported, so framebuffer is the only option
+* There is no GPU support or the GPU is not supported, so framebuffer is the only option
 * It's a device that I own and have decided to build a CFW for it
 
 ## Features
@@ -41,4 +41,4 @@ The releases for some devices include kernels and/or bootloaders that don't have
 
 ## Credits
 
-This project is not the work of one person but it is the work of many persons all over the world who have developed the open source bits without which this project could not exist.  Special thanks to Batocera, muOS, JelOS, CoreELEC, LibreELEC, and to developers and contributors across the open source community.
+This project is not the work of one person, but it is the work of many people all over the world who have developed the open-source bits without which this project could not exist.  Special thanks to Batocera, muOS, JelOS, CoreELEC, LibreELEC, and to developers and contributors across the open-source community.

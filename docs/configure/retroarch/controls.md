@@ -6,7 +6,7 @@ For several systems, KNULLI employs emulation cores from the RetroArch library (
 
 If you want to remap controls for your retroArch-driven games, first you got to decide, whether you want to change controls for the *game*, the *content directory* where the game is stored, or the entire emulation *core*.
 
-When launching a game with a RetroArch core, RetroArch first loads its default remap file `common.rmp`. However, the default remap file can be overriden hierarchically in the following order:
+When launching a game with a RetroArch core, RetroArch first loads its default remap file `common.rmp`. However, the default remap file can be overridden hierarchically in the following order:
 
 1. *core* remap file overrides default remap file
 2. *content directory* remap file overrides core and default remap file
@@ -27,8 +27,8 @@ After you made a decision on whether you want a *game* or *core* specific remapp
 - Go to the *Controls* section and select *Manage Remap Files*.
 - Check if there is already an *Active Remap File* indicated at the top of the menu and if that is the remap file you would like to edit.
     - If the file is named like the game, it is a *game* remap file.
-    - If the file is named like the folder it is a *content directory* remap file.
-    - If the file is named like the emulation core it is a *core* remap file.
+    - If the file is named like the folder, it is a *content directory* remap file.
+    - If the file is named like the emulation core, it is a *core* remap file.
     - If the file is named `common.rmp` it is the *default* remap file. (You should not try to edit this one.)
 - If the default remap file is selected (or the active remap file is not the remap file you want to use),
     - pick *Save Game Remap File* to create a game remap file or
@@ -43,4 +43,4 @@ After you made a decision on whether you want a *game* or *core* specific remapp
     - pick the control port you want to remap (for the controls integrated in your KNULLI device, use *Port 1 Controls*), and
     - find the input of your device that you want to reassign (first/left column) and assign it to the desired input of the emulated system (second/right column).
 
-Once you are done remapping, return to your game. All changes you made will be stored in the currently active remap file and will be automatically restored when you launch the game again, unless they are overriden by another remap file as illustrated above.
+Once you are done remapping, return to your game. All changes you made will be stored in the currently active remap file and will be automatically restored when you launch the game again, unless they are overridden by another remap file as illustrated above.

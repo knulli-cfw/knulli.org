@@ -21,7 +21,7 @@ After installing KNULLI for the first time, you will find the PortMaster install
 
 ## Managing games
 
-PortMaster will automatically check for updates during launch and apply them, if necessary. Afterwards, you will find yourself in the main menu of PortMaster. Here, you can find ports to install or manage the ports on your device.
+PortMaster will automatically check for updates during launch and apply them, if necessary. Afterwards, you will find yourself at the main menu of PortMaster. Here, you can find ports to install or manage the ports on your device.
 
 !!! info "PortMaster requires an active internet connection to install and update ports."
 
@@ -44,9 +44,9 @@ To install a game with files needed, simply find it in the *All Ports* section a
 
 Now, you will have to take care of the files needed to be able to play the game. To do so, gain access to your `roms/ports` folder by one of the methods described in the [Add Games](../../play/add-games) section. In your `roms/ports` folder, you will find subfolders for all the ports you have installed via PortMaster. Find the subfolder which corresponds to the game you want to install.
 
-The [Games](https://portmaster.games/games.html) section of the PortMaster website will provide you with instructions which files you will need and where to put them. Additionally, you might find a `readme` file in the folder where the port is stored. Depending on the game, you might need a specific version to be compatible with the port. You will often find compatible versions of the games on [GOG](https://gog.com) or [Steam](https://store.steampowered.com), however, you should read the instructions of the respective port carefully before buying the game to be sure that you found the right version of it.
+The [Games](https://portmaster.games/games.html) section of the PortMaster website will provide you with instructions about which files you will need and where to put them. Additionally, you might find a `readme` file in the folder where the port is stored. Depending on the game, you might need a specific version to be compatible with the port. You will often find compatible versions of the games on [GOG](https://gog.com) or [Steam](https://store.steampowered.com), however, you should read the instructions of the respective port carefully before buying the game to be sure that you found the right version of it.
 
-After you added all the required files, the game should be ready to run. Simply go to the *Ports* category, find the game, and launch it!
+After you have added all the required files, the game should be ready to run. Simply go to the *Ports* category, find the game, and launch it!
 
 !!! info "During first launch, some ports will take some time to compress and/or compile and/or repackage files from the original game. Depending on the game, this may take several minutes, sometimes even longer. Do not panic if the first launch takes some time. Do not panic if you see a lot of command-line messages. Some games may even require several attempts to prepare all the necessary assets for playing the game on your handheld. Be patient."
 
