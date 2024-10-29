@@ -26,7 +26,7 @@ Deine ersten Schritte hängen teilweise davon ab, wie du dein KNULLI-Gerät benu
 
 ### 1. Datenspeicher einrichten
 
-Den meisten Nutzern **empfehlen** wir, eine **eiznelne SD-Karte** mit der **Standardformatierung** zu verwenden.
+Den meisten Nutzern **empfehlen** wir, eine **einzelne SD-Karte** mit der **Standardformatierung** zu verwenden. Erfahrenen Nutzern, die sich bereits sicher sind, dass sie KNULLI dauerhaft verwenden wollen, **empfehlen** wir eine **2-Karten-Konfiguration** mit **ext4-Formatierung** (Keine Sorge: Es ist auch später noch möglich, von einer 1-SD-Karte-Konfiguration zu einer 2-SD-Karten-Konfiguration zu migrieren, wie in der [Anleitung "Zu Dual-SD-Card-Setup wechseln"](../../guides/dual-sd-card-migration) beschrieben.
 
 Falls du allerdings eine andere Speicherkonfiguration nutzen möchtest, z.B. weil dein Gerät keine W-LAN-Verbindungen unterstützt, kannst du die folgende Tabelle nutzen, um herauszufinden, welche Konfiguration für dich am geeignetsten ist. Sei dir bewusst, dass du deinen Datenspeicher möglicherweise **neu formatieren** musst, bevor du ihn benutzen kannst. Benutze dazu bitte den **eingebauten KNULLI-Formatierer**. Außerdem solltest du beachten, dass du **manuell** zwischen internem und externem Speicher umschalten musst. (Eine genauere Anleitung zum [Wechseln von SD-Karten](../add-games/second-sd-card) und zum [Formatieren](../add-games/formatting) deines Datenspeichers findest du im Abschnitt [Spiele hinzufügen](../add-games).
 

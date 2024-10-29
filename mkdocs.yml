@@ -154,6 +154,7 @@ plugins:
             Patches and Overlays: Patches und Overlays
             Basic Inputs: Tasten und Funktionen
             Custom Hotkey Shortcuts: Benutzerdefinierte Tastenkombinationen
+            Dual SD Card Migration: Zu Dual-SD-Card-Setup wechseln
         - locale: pl
           name: Polski
           build: true
@@ -294,6 +295,8 @@ nav:
         - Pico-8: systems/pico-8.md
       - PortMaster: systems/portmaster.md
       - ScummVM: systems/scummvm.md
+    - Guides:
+        - Dual SD Card Migration: guides/dual-sd-card-migration.md
     - Devices: 
       - devices/index.md
       - Anbernic:

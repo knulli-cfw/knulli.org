@@ -4,6 +4,10 @@
 
     If you want to use a second SD card, we **strongly** recommend to format it to **ext4** and use [**Network Transfer**](../network-transfer) to access it. Before you attempt set up a exFAT-formatted second SD card, pleae make sure to read the warning in the [Add Games](..) section.
 
+!!! info "Migrating to a dual SD card setup"
+
+    This section is meant for users who are working on their inital KNULLI setup. If you already started setting up KNULLI on a single SD card, you might want to take a look at our [Dual SD Card Migration Guide](../../../guides/dual-sd-card-migration) instead.
+
 If you use KNULLI on a device which has a second SD card slot, you may use the second slot for a secondary SD card, which can be used **instead** of the *SHARE* partition of the primary SD card.
 
 * Shut down your KNULLI device (if it is currently turned on).
