@@ -288,6 +288,7 @@ nav:
         - Custom Hotkey Shortcuts: configure/retroarch/custom-hotkey-shortcuts.md
       - PPSSPP:
         - Cheats: configure/ppsspp/cheats.md
+        - Multiplayer: configure/ppsspp/multiplayer.md
       - Factory Settings: configure/reset-to-factory-settings.md
       - Patches and Overlays: configure/patches-and-overlays.md
     - Systems:
