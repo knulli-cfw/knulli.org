@@ -2,6 +2,10 @@
 
 KNULLI runs fine as a single SD card CFW. However, some KNULLI-supported devices have more than one SD card slot which gives you the opportunity to run KNULLI in a dual-SD-card setup.
 
+!!! warning "This guide is not applicable if you already run a dual SD card setup"
+
+    This guide was written specifically for migrating from a single SD card setup to a dual SD card setup.
+
 ## Advantages
 
 It is not technically required to run KNULLI in a dual-SD-card setup. However, using two dedicated SD cards for your KNULLI device brings a couple of advantages:
@@ -20,6 +24,13 @@ Before you start to migrate, make sure that you have the following tools at hand
 * a second SD card ready to be formatted
 * a computer
 * a working [SSH connection](../../configure/ssh) to your KNULLI device
+
+### Make sure that KNULLI uses internal storage
+
+* On your KNULLI device, press the ++"Start"++ button to bring up the main menu.
+* Go to *System Settings* and find *Storage Device* in the *Storage* section.
+* Make sure that *Storage Device* is set to *Internal*.
+* Reboot your KNULLI device.
 
 ### Format the second SD card
 
