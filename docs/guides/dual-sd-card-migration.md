@@ -30,10 +30,10 @@ Before you start to migrate, make sure that you have the following tools at hand
 * Go to *System Settings* and find *Frontend Developer Options*.
 * In *Frontend Developer Options*, find *Format A Disk* in the *Tools* section.
 * In the *Format A Disk* menu,
-    * make sure to pick your secondary SD card as *Device To Format*. (You should be able to recognize it by its size. **Make sure to not format the "internal" device!**)
+    * make sure to pick your secondary SD card as *Device To Format*. (You should be able to recognize it by its size. **Make sure not to format the "internal" device!**)
     * make sure to pick the file system *ext4*. (Technically, it is also possible to format to *exfat*, but we do strongly advise against that, because *exfat* has only **very limited** PortMaster compatibility as explained [here](../../play/add-games).)
-    * select *Format Now* **after** making the settings above.
-* Keep an eye on the upper-right corner of the screen where the formatter will inform you about it's state.
+    * select *Format Now* **after** making the settings explained above.
+* Keep an eye on the upper-right corner of the screen where the formatter will inform you about its state.
 * Reboot your device when the formatter appears to be done: Press ++"Start"++ to bring up the main menu, head to *Quit*, then pick *Restart System*.
 
 ### Back up your user data
@@ -85,7 +85,7 @@ This section might look a little bit scary to Linux beginners, because we run a 
   drwxr-xr-x  4 root root 4096 Oct 29 22:53 SHARE
   drwxr-xr-x 16 root root 4096 Oct 29 22:05 SHARE_1
   ```
-* One of the two `SHARE` folders corresponds to your SD 1, the other one corresponds to SD 2. Unfortunately, you cannot be sure which is which, so you have to explore both folders to learn, which is which:
+* One of the two `SHARE` folders corresponds to your SD 1, the other one corresponds to SD 2. Unfortunately, you cannot be sure which is which, so you have to explore both folders to learn which is which:
 * Type
   ```
   ls -lHa SHARE
