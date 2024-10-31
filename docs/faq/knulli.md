@@ -59,7 +59,7 @@ A: You can find the list of currently supported devices here: [Devices](../../de
 
 If the device you are interested in isn't in that list, then no one has contributed the work to add support for it yet.  Why? To add support for a device we (1) need to be interested in adding support for it 😊 and (2) need to have direct access to the device.
 
-That said, anyone who is interested can submit updates to KNULLI to add support for a device they care about! If you are interested in adding support for a new device, please start here: [Contribute](../contribute)
+That said, anyone who is interested can submit updates to KNULLI to add support for a device they care about! If you are interested in adding support for a new device, please start here: [Contribute](../../community/contribute)
 
 ---
 

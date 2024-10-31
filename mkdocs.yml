@@ -298,6 +298,8 @@ nav:
       - ScummVM: systems/scummvm.md
     - Guides:
         - Dual SD Card Migration: guides/dual-sd-card-migration.md
+    - Community:
+        - Contribute: community/contribute.md
     - Devices: 
       - devices/index.md
       - Anbernic:

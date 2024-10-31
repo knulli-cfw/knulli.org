@@ -35,7 +35,7 @@ C: Şu anda desteklenen cihazların listesini burada bulabilirsiniz: [Cihazlar](
 
 Eğer ilgilendiğiniz cihaz bu listede yoksa, henüz hiç kimse onun için destek eklememiştir demektir. Peki neden? Bir cihaz için destek eklemek için (1) onu eklemek istememiz gerekmekte 😊 ve (2) cihaza doğrudan erişimimizin olması gerekmektedir.
 
-Ancak, ilgilenen herkes KNULLI'ye bir cihaz için destek ekleyebilir! Eğer yeni bir cihaz için destek eklemek istiyorsanız lütfen buradan başlayın: [Katkıda Bulunmak](../contribute)
+Ancak, ilgilenen herkes KNULLI'ye bir cihaz için destek ekleyebilir! Eğer yeni bir cihaz için destek eklemek istiyorsanız lütfen buradan başlayın: [Katkıda Bulunmak](../../community/contribute)
 
 ---
 
