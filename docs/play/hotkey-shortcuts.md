@@ -17,19 +17,19 @@ All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"+
 | Shortcut                                        | Action                                           |
 | ----------------------------------------------- | ------------------------------------------------ |
 | ++"Function"++ + ++"Start"++                    | Quit the game and return to EmulationStation     |
-| ++"Function"++ + ++"Select"++                   | **Only on devices without analog sticks:** Toggle between mapping either the D-pad or an analog stick to the D-pad (e.g., for playing N64)     |
+| ++"Function"++ + ++"Select"++                   | **Only on devices without analog sticks:** Toggle between mapping either the D-pad or an analog stick to the D-pad (e.g., for playing N64 or moving the touch cursor in NDS) |
 | ++"Function"++ + :material-gamepad-circle-down: | Open the emulator menu of the current core       |
 | ++"Function"++ + :material-gamepad-circle-left: | Quick save in the currently selected save slot   |
 | ++"Function"++ + :material-gamepad-circle-up:   | Quick load from the currently selected save slot |
-| ++"Function"++ + :material-gamepad-up:          | Next save slot                                   |
-| ++"Function"++ + :material-gamepad-down:        | Previous save slot                               |
+| ++"Function"++ + :material-gamepad-up:          | Next save slot (**In Drastic (NDS):** Switch between screen arrangements) |
+| ++"Function"++ + :material-gamepad-down:        | Previous save slot (**In Drastic (NDS):** Switch between single/dual screen view) |
 | ++"Function"++ + :material-gamepad-right:       | Fast forward                                     |
-| ++"Function"++ + :material-gamepad-left:        | Rewind                                           |
+| ++"Function"++ + :material-gamepad-left:        | Rewind (**In Drastic (NDS):** Swap first/second screen) |
 | ++"Function"++ + ++"L1"++                       | Take a screenshot                                |
 | ++"Function"++ + ++"Volume Up"++                | Increase brightness                              |
 | ++"Function"++ + ++"Volume Down"++              | Decrease brightness                              |
-| (In **Drastic** (NDS) emulator): ++"L2"++       | Toggle between screen arrangements               |
-| (In **Drastic** (NDS) emulator): ++"R2"++       | Toggle between single/dual screen mode           |
+| ++"L2"++                                        | **In Drastic (NDS)**: Microphone input           |
+| ++"R2"++                                        | **In Drastic (NDS)**: Touch cursor click         |
 
 !!! info "Not every emulator suppports every shortcut"
 
