@@ -275,6 +275,7 @@ nav:
       - Controls: configure/controls.md
       - Collections: configure/collections.md
       - Multi-Disc Games: configure/multi-disc-games.md
+      - RGB LEDs: configure/rgb-leds.md
       - Customization:
         - Customization: configure/customization/index.md
         - Themes: configure/customization/themes.md
