@@ -12,11 +12,11 @@ Bevor du einen Controller an deinem KNULLI-Gerät verwenden kannst, kann es alle
 
 Die meisten KNULLI-kompatiblen Geräte sind Handhelds mit fest verbauten Eingabemöglichkeiten. Dazu gehört üblicherweise ein **Steuerkreuz** (:material-gamepad:, "directional pad" kurz: **D-pad**), die sogenannten **Face-Buttons** (:material-gamepad-circle:), zwei **Schultertasten** (++"L1"++, ++"R1"++) und zwei **Schulter-Trigger** (++"L2"++, ++"R2"++) sowie die Tasten ++"Start"++ und ++"Select"++. Darüber hinaus hat dein Gerät wahrscheinlich eine **Power-Taste** zum Ein- und Ausschalten, und eine **Funktionstaste** (++"Function"++). **Zusätzlich** hat dein Gerät möglicherweise noch **Analog-Sticks** und eine **Reset-Taste**. Wenn du nicht weißt, welche Knöpfe dein Gerät hat und wo sie sich befinden, wird bitte einen Blick ins Handbuch des Geräts.
 
-KNULLI bringt eine ganze Reihe vordefinierter **Hotkey-Shortcuts** mit - Tastenkombinationen, mit denen du dein Spiel speichern, laden und beenden kannst, Screenshots anfertigen kannst, uvm. Wir empfehlen dir dringend, die Hotkey-Shortcuts zu **lernen** und wir raten dringend **davon ab**, die Hotkey-Shortcuts zu verändern. Eine Liste aller möglichen Hotkey-Shortcuts findest du im Abschnitt  [Hotkey Shortcuts](../../play/hotkey-shortcuts).
+KNULLI bringt eine ganze Reihe vordefinierter **Hotkey-Shortcuts** mit - Tastenkombinationen, mit denen du dein Spiel speichern, laden und beenden kannst, Screenshots anfertigen kannst, uvm. Wir empfehlen dir dringend, die Hotkey-Shortcuts zu **lernen**. Eine Liste aller möglichen Hotkey-Shortcuts findest du im Abschnitt  [Hotkey Shortcuts](../../play/hotkey-shortcuts).
 
 !!! info "Controller-Namen"
 
-    Je nachdem, welches Gerät du verwendest, wird der fest verbaute "Controller" deines Geräts einen eigenen Namen haben. Auf dem Anbernic RG40XX H beispielsweise heißt der eingebaute Controller `anbernic-keys`.
+    Je nachdem, welches Gerät du verwendest, wird der fest verbaute "Controller" deines Geräts einen eigenen Namen haben. Auf dem Anbernic RG40XX H beispielsweise heißt der eingebaute Controller `Anbernic RG40XX-H Controller`.
 
 ## Controller zuweisen
 

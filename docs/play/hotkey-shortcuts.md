@@ -2,11 +2,13 @@
 
 Hotkey shortcuts are among the most important basics you need to learn in order to navigate your KNULLI device and play your games. This section will give you an overview over the available hotkey shortcuts.
 
-!!! danger "Customizing shortcuts"
+!!! warning "Customizing shortcuts"
 
-     Currently, KNULLI does **not** support hotkey shortcut customization.
+     KNULLI attempts to provide the best possible out-of-the-box user experience. For that reason, KNULLI comes with pre-defined hotkeys which apply to (almost) **every emulator** KNULLI comes with.
      
-     The reason is simple: KNULLI attempts to provide the best possible out-of-the-box user experience. For that reason, KNULLI comes with pre-defined hotkeys which apply to (almost) **every emulator** KNULLI comes with. Unlike the RetroArch-integrated emulator cores, many **standalone** emulators **cannot** be configured at runtime. Instead, hotkeys have to be defined on the **source-code level**. It is possible to **[override hotkey shortcuts in RetroArch](../../configure/retroarch/custom-hotkey-shortcuts)**, but we **strongly advise against it**.
+     It is possible to **customize** hotkeys from the KNULLI GUI for **RetroArch-integrated emulators**. You can find instructions in the [RetroArch section](../../configure/retroarch/custom-hotkey-shortcuts). However, please be aware that those customizations will **only** apply ro RetroArch cores.
+     
+     Many **standalone** emulators **cannot** be configured at runtime. Instead, hotkeys have to be defined on the **source-code level** and cannot be overriden via configuration.
 
 All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"++ button and press another key to call the respective action as indicated by the table below. If you cannot locate the function button on your device, find help in the [Basic Inputs section](../basic-inputs).
 

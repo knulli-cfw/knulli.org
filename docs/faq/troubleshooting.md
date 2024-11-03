@@ -67,7 +67,7 @@ A: Nothing. But don't worry! If you see this message, it only means that your ve
 
 A: You are not supposed to make changes in RetroArch directly. Most relevant options for each emulator and/or RetroArch core can be set in EmulationStation either globally or per system or even per game. The RetroArch configuration file is **generated** anew with every launch of a game, based on the settings you made globally or for the specific system/game in **EmulationStation**. For that reason, all the changes you make while playing will be overwritten the next time you launch a game, except for **overrides** and **remap files**.
 
-Please set up your emulators in EmulationStation. If you miss an emulator option in EmulationStation that seems relevant to you, you might want to get in touch and make your case. Maybe we can help you adopt this emulator option into an EmulationStation setting or at least give you insight why we don't think this option should be set by the user (e.g. hotkey changes which would lead to system-wide inconsistencies).
+Please set up your emulators in EmulationStation. If you miss an emulator option in EmulationStation that seems relevant to you, you might want to get in touch and make your case. Maybe we can help you adopt this emulator option into an EmulationStation setting or at least give you insight why we don't think this option should be set by the user.
 
 ---
 
