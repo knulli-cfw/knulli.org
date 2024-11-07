@@ -57,12 +57,6 @@ A: You might want to try to reset your device to **factory settings**. Please fo
 
 ---
 
-### Q: When I try to open Retro Achievements, I get an error message with status code `419`, telling me I am not authorized. What can I do?
-
-A: Nothing. But don't worry! If you see this message, it only means that your version of KNULLI does not support **displaying** your collected Retro Achievements, **yet**. However, it is still completely possible to **collect** Retro Achievements while playing! Just set up your Retro Achievements account as explained in the [Retro Achievements](../../play/retro-achievements) section and start hunting!
-
----
-
 ### Q: Why do my RetroArch settings always reset whenever I launch a game?
 
 A: You are not supposed to make changes in RetroArch directly. Most relevant options for each emulator and/or RetroArch core can be set in EmulationStation either globally or per system or even per game. The RetroArch configuration file is **generated** anew with every launch of a game, based on the settings you made globally or for the specific system/game in **EmulationStation**. For that reason, all the changes you make while playing will be overwritten the next time you launch a game, except for **overrides** and **remap files**.
