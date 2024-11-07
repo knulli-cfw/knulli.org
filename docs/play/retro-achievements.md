@@ -2,22 +2,29 @@
 
 KNULLI has a native integration with [RetroAchievements](https://retroachievements.org/) which allows you to earn achievements as you play games across numerous emulators. In order to use RetroAchievements your device must be connected to the internet.
 
-!!! warning "Error 419"
-
-    While you can add your credentials to **collect** Retro Achievements, it is currently **not possible** to **look at** your **collected** Retro Achievements from the main menu. Any attempt to do so will result in an error message, referring to "Error 419". Our developers are aware of the issue and are working on a solution.
-    
-    Until the issue is resolved, you can still look at your collected Retro Achievements from within **RetroArch**: Launch your game and press ++"Function"+++:material-gamepad-circle-down: to bring up the RetroArch GUI and find *Achievements*.
-    
-    Additionally, if the *RetroAchievements* option in the main menu annoys or confuses you, you can hide it from the main menu: Press ++"Start"++ to bring up the main menu, head to *Game Settings* and find *RetroAchievement Settings*. Here, you can toggle *Show RetroAchievements entry in main menu* on or off.
-
 ## Setup
 
-1. Create an account at [RetroAchievements.org](https://retroachievements.org/).
-2. Follow the steps on the [Networking](../../configure/networking) page to connect your device to the internet.
-3. While in EmulationStation press ++"START"++ on your controller to open the Main Menu.
-4. Select `Game Settings` and then choose `RetroAchievement Settings`.
-5. Turn On RetroAchievements (first toggle).
-6. Then enter your username and password for RetroAchievements.org in the username and password fields.
+* Create an account at [RetroAchievements.org](https://retroachievements.org/).
+* Follow the steps on the [Networking](../../configure/networking) page to connect your device to the internet.
+* While in EmulationStation press ++"START"++ on your controller to open the Main Menu.
+* Select `Game Settings` and then choose `RetroAchievement Settings`.
+* Turn On RetroAchievements (first toggle).
+* Then enter your credentials for RetroAchievements.org:
+    * **Username**
+    * **Password**
+    * **API Key**
+
+!!! info "Adding your API key"
+
+    **Without** an API key, you will still be able to **collect** RetroAchievements while playing. However, only by adding your **API key** you will gain access to an **additional** menu which gives you a **summary** of all your collected RetroAchievements (and those that you did not collect, yet).
+
+    Consequently, adding an API key is **optional**.
+
+    You will find your API Key by logging in at [RetroAchievements.org](https://retroachievements.org/) and navigating to the [*Settings* page](https://retroachievements.org/settings). Scroll down to the *Keys* section to find your **Web-API-Key** in a **shortened form**! However, **the shortened form will not work as a valid API key for KNULLI.**
+    
+    To reveal the **entire** API key, copy it from the browser (e.g., to a text editor). Once you revealed the entire API key, enter the **entire** API key in the *RetroAchievement Settings* of your KNULLI device. After re-opening the main menu, you should find the *Retroachievements* section either in the main menu or inside the *Game Menu*, depending on your settings.
+    
+    To change the location of the *Retroachievements* section, press ++"Start"++ to bring up the main menu, head to *Game Settings* and find *RetroAchievement Settings*. Here, you can toggle *Show RetroAchievements entry in main menu* on or off.
 
 ## Additional Notes
 
