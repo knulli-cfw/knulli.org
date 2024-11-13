@@ -31,7 +31,7 @@ All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"+
 | (In **Drastic** (NDS) emulator): ++"L2"++       | Toggle between screen arrangements               |
 | (In **Drastic** (NDS) emulator): ++"R2"++       | Toggle between single/dual screen mode           |
 
-!!! info "Not every emulator suppports every shortcut"
+!!! info "Not every emulator supports every shortcut"
 
     Most hotkey shortcuts work for **most** cores. Even though only savegames from RetroArch cores are integrated into the EmulationStation GUI and can be loaded directly from the menu, most other cores also provide save game slots which can be accessed by the same shortcuts."
 
