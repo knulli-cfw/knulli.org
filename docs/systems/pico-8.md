@@ -16,6 +16,10 @@ By default, KNULLI comes with *Fake08*, a free, Pico-8-compatible engine provide
 
 Pico-8 games are best played with the native engine as it supports all Pico-8 features without any limitations.  You need to purchase it from [Lexaloffle](https://www.lexaloffle.com/pico-8.php) and we do recommend that you buy a copy if you can. It's an awesome piece of software and it also comes with the tools to make your own games.
 
+!!! info "Different save path"
+
+    While *Fake08* stores its saves in the expected folder for savegames (`/userdata/saves/pico8/cdata`),  official *Pico-8* stores it saves somewhere in the `system` folder (`/userdata/system/.lexaloffle/pico-8/cdata`). Please be aware of this when backing up or migrating your saves.
+
 #### Setup
 
 ##### 1) Pico-8 Files
@@ -62,12 +66,12 @@ ls -l /userdata/bios/pico-8/pico8
 	    <emulators>
             <emulator name="lexaloffle">
                 <cores>
-                    <core default="true">pico8_official</core>
+                    <core>pico8_official</core>
                 </cores>
             </emulator>
             <emulator name="libretro">
                 <cores>
-                    <core>fake08</core>
+                    <core default="true">fake08</core>
                 </cores>
             </emulator>
         </emulators>
@@ -76,7 +80,7 @@ ls -l /userdata/bios/pico-8/pico8
 ```
 - upload the `es_systems_pico8.cfg` you created to `/userdata/system/configs/emulationstation/`
 - restart EmulationStation
-- open the Pico-8 gamelist, press ++"SELECT"++, open `ADVANCED SYSTEM OPTIONS → EMULATOR` and then select `LEXALOFFLE: PICO8 OFFICIAL` as your Emulator
+- to make the original Pico-8 your new default Pico-8 engine, open the Pico-8 gamelist, press ++"SELECT"++, open `ADVANCED SYSTEM OPTIONS → EMULATOR` and then select `LEXALOFFLE: PICO8 OFFICIAL` as your Emulator
 
 #### Playing a game
 
