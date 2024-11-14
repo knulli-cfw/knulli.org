@@ -2,7 +2,7 @@
 
 !!! danger "Important:  Read this before you proceed!"
 
-    If you want to use a second SD card, we **strongly** recommend to format it to **ext4** and use [**Network Transfer**](../network-transfer) to access it. Before you attempt set up a exFAT-formatted second SD card, pleae make sure to read the warning in the [Add Games](..) section.
+    If you want to use a second SD card, we **strongly** recommend to format it to **ext4** and use [**Network Transfer**](../network-transfer) to access it. Before you attempt set up a exFAT-formatted second SD card, please make sure to read the warning in the [Add Games](..) section.
 
 !!! info "Migrating to a dual SD card setup"
 
