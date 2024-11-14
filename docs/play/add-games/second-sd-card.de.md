@@ -4,6 +4,8 @@
 
     Wenn du eine zweite SD-Karte verwenden willst, empfehlen wir dir **dringend**, sie mit **ext4** zu formatieren und via [**Netzwerkübertragung**](../network-transfer) darauf zuzugreifen. Bevor du anfängst, eine mit exFAT formatierte zweite SD-Karte einzurichten, lies bitte die Warnung im Abschnitt [Spiele hinzufügen](..).
 
+    Außerdem solltest du dir bewusst sein, dass es **nicht möglich** ist, **gleichzeitig** SD 1 **und** SD 2 als Speicherort für deine Spiele zu verwenden. Du kannst **entweder** SD 1 **oder** SD 2 verwenden - aber niemals beide gleichzeitig! Wenn du mehr darüber erfahren möchtest, wirf bitte einen Blick auf den Abschnitt [Speicherort für Spiele](../game-storage).
+
 !!! info "Zu Dual-SD-Card-Setup wechseln"
 
     Dieser Abschnitt richtet sich an Nutzer, die gerade dabei sind KNULLI zum ersten Mal einzurichten. Falls du bereits eine laufende KNULLI-Installation auf einer einzelnen SD-Karte konfiguriert hast, solltest du lieber einen Blick auf unsere [Anleitung "Zu Dual-SD-Card-Setup wechseln"](../../../guides/dual-sd-card-migration) werfen.
