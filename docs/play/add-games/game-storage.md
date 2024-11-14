@@ -2,13 +2,27 @@
 
 Before you start adding your games, please take the time to understand how data storage is structured on KNULLI. This might be helpful, *especially* when you already have experience with other CFWs and want to migrate your data.
 
-## The `/userdata` Folder
+## The `/userdata` folder
 
-KNULLI supports single and dual SD card setups. Internally, KNULLI has a folder called `/userdata` where all your data (games, screenshots, bezels, saves, configurations, themes, etc.) will be stored. On a single-SD-card setup, the `/userdata` folder will always point to the *SHARE* partition of your primary SD card. If you have a device with more than one SD card slot and choose to create a dual-SD-card setup, the `/userdata` folder will point to the main partition of your secondary SD card **instead**.
+KNULLI supports **single** and **dual SD card** setups. Internally, KNULLI has a folder called `/userdata` where **all your data** (games, screenshots, bezels, saves, configurations, themes, etc.) will be stored. On a single-SD-card setup, the `/userdata` folder will **always** point to the *SHARE* partition of your **primary SD card**. If you have a device with more than one SD card slot and choose to create a **dual-SD-card setup**, the `/userdata` folder will point to the main partition of your **secondary SD card instead**.
+
+Consequently, you will **not** be able to use the *SHARE* partition of SD 1 and SD 2 **at the same time**. Only one of those SD cards can be mounted as `/userdata` at a time. If you attempt your storage via [SMB network transfer](../network-transfer), you will only find **one** *SHARE* folder, which will always point at your `/userdata` folder. Therefore, when running a dual-SD-card setup, your internal *SHARE* partition will neither be used by KNULLI, nor be accessible via network transfer.
 
 !!! info "Internal and external storage"
 
     You can switch between single/dual SD card mode by following the steps in the section about [Using a second SD card](../second-sd-card). Basically, by switching between internal/external storage, you just tell KNULLI which drive/partition `/userdata` should point to.
+
+!!! info "Understanding mounting on Linux"
+
+    Windows users might not know this: On Linux systems, drives are **not** addressed by "drive letters" like you know it from your Windows machine. Instead, Linux mounts the drives into **folders**. The Linux file system does not know any drive letters at all, it consists of just **one** file tree with `/` being the "root" of the tree. Every folder that exists is a **subfolder** of `/`.
+    
+    You might imagine `/` to be roughly comparable to `C:\` on your Windows machine. Try to imagine that, when plugging an USB stick, the stick will not appear as `D:\` but as a folder on `C:\`, e.g. `C:\media\my-usb-stick\`.
+
+    KNULLI is a Linux, so it uses the Linux file system. More specifically, KNULLI always needs to have a folder called `/userdata` (again, roughly comparable to `C:\userdata`) where KNULLI expects all your data (games, themes, saves, etc.) to be located. However `/userdata` is **also** a mount point for a **drive**. By switching between **internal** and **external**, you basically tell KNULLI where `/userdata` should point to after the next boot - it is **either** the internal *SHARE* partition **or** SD 2.
+
+    KNULLI expects **all** your data to be in `/userdata`, it **does not look** for games, themes, or anything else **outside** of the pre-defined folder structure. This is why it is **not** possible to use both SD cards as game storage **at the same time**.
+
+## Pre-defined folders for your data
 
 Inside the `/userdata` folder, you will find subfolders where you can store your games and other files. After installing for the first time, KNULLI will create and populate all these folders automatically. The most important folders for you to know are the following:
 
