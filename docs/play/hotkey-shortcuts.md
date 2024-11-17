@@ -23,15 +23,17 @@ All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"+
 | ++"Function"++ + :material-gamepad-circle-down: | Open the emulator menu of the current core       |
 | ++"Function"++ + :material-gamepad-circle-left: | Quick save in the currently selected save slot   |
 | ++"Function"++ + :material-gamepad-circle-up:   | Quick load from the currently selected save slot |
-| ++"Function"++ + :material-gamepad-up:          | Next save slot (**In Drastic (NDS):** Switch between screen arrangements) |
-| ++"Function"++ + :material-gamepad-down:        | Previous save slot (**In Drastic (NDS):** Switch between single/dual screen view) |
+| ++"Function"++ + :material-gamepad-up:          | Next save slot                                   |
+| ++"Function"++ + :material-gamepad-down:        | Previous save slot                               |
 | ++"Function"++ + :material-gamepad-right:       | Fast forward                                     |
-| ++"Function"++ + :material-gamepad-left:        | Rewind (**In Drastic (NDS):** Swap first/second screen) |
+| ++"Function"++ + :material-gamepad-left:        | Rewind                                           |
 | ++"Function"++ + ++"L1"++                       | Take a screenshot                                |
 | ++"Function"++ + ++"Volume Up"++                | Increase brightness                              |
 | ++"Function"++ + ++"Volume Down"++              | Decrease brightness                              |
-| ++"L2"++                                        | **In Drastic (NDS)**: Microphone input           |
+| ++"L2"++                                        | **In Drastic (NDS)**: Swap first/second screen (single screen) or switch between screen arrangements (dual screen) |
+| ++"Function"++ + ++"L2"++                       | **In Drastic (NDS)**: Switch between single/dual screen |
 | ++"R2"++                                        | **In Drastic (NDS)**: Touch cursor click         |
+| ++"Function"++ + ++"R2"++                       | **In Drastic (NDS)**: Microfone input            |
 
 !!! info "Not every emulator supports every shortcut"
 
