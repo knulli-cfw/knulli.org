@@ -260,7 +260,7 @@ nav:
         - Add Games: play/add-games/index.md
         - Game Storage: play/add-games/game-storage.md
         - Network Transfer: play/add-games/network-transfer.md
-        - Accessing SD Card: play/add-games/accessing-ext4.md
+        - Accessing SD Card: play/add-games/accessing-sd-card.md
         - Second SD Card: play/add-games/second-sd-card.md
         - Formatting: play/add-games/formatting.md
       - BIOSes: play/bioses.md
