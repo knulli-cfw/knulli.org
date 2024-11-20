@@ -155,6 +155,7 @@ plugins:
             Basic Inputs: Tasten und Funktionen
             Custom Hotkey Shortcuts: Benutzerdefinierte Tastenkombinationen
             Dual SD Card Migration: Zu Dual-SD-Card-Setup wechseln
+            PortMaster and exFAT: PortMaster und exFAT
         - locale: pl
           name: Polski
           build: true
@@ -298,6 +299,7 @@ nav:
       - ScummVM: systems/scummvm.md
     - Guides:
         - Dual SD Card Migration: guides/dual-sd-card-migration.md
+        - PortMaster and exFAT: guides/portmaster-and-exfat.md
     - Community:
         - Contribute: community/contribute.md
     - Devices: 
