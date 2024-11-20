@@ -26,7 +26,7 @@ Luckily, you have a couple of options to enjoy PortMaster games on your KNULLI-d
 
 ## Stick with ext4
 
-By default, KNULLI formats its *SHARE* partition to **ext4**. KNULLI also comes with **built-in formatter** that you may use to format any secondary SD card to ext4 as explained in the [Formatting section](../../play/add-games/formatting). ext4 is a **Linux file system** which **supports symbolic links**. Consequently, if you simply stick with ext4, it will not make a difference to you whether the game employs symbolic links or not. PortMaster will just work, that's it.
+By default, KNULLI formats its *SHARE* partition to **ext4**. KNULLI also comes with a **built-in formatter** that you may use to format any secondary SD card to ext4 as explained in the [Formatting section](../../play/add-games/formatting). ext4 is a **Linux file system** which **supports symbolic links**. Consequently, if you simply stick with ext4, it will not make a difference to you whether the game employs symbolic links or not. PortMaster will just work, that's it.
 
 However, ext4 comes at a price: You will **not** be able to **access** your ext4 SD card from a **Windows computer**. Windows does not support the ext4 file system. On your Windows computer, the drive will simply appear as unreadable and Windows will ask you to format the drive to make is accessible. Hence, you will be restricted to accessing your SD card via **Wi-Fi** as explained in the [Network Transfer section](../../play/add-games/network-transfer). Unfortunately, network transfer is significantly slower than direct access to the SD card.
 
