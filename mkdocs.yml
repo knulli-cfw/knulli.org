@@ -155,6 +155,7 @@ plugins:
             Basic Inputs: Tasten und Funktionen
             Custom Hotkey Shortcuts: Benutzerdefinierte Tastenkombinationen
             Dual SD Card Migration: Zu Dual-SD-Card-Setup wechseln
+            PortMaster and exFAT: PortMaster und exFAT
         - locale: pl
           name: Polski
           build: true
@@ -258,9 +259,9 @@ nav:
       - Add Games:
         - Add Games: play/add-games/index.md
         - Game Storage: play/add-games/game-storage.md
-        - Network Transfer: play/add-games/network-transfer.md
-        - Accessing SD Card: play/add-games/accessing-ext4.md
+        - Accessing SD Card: play/add-games/accessing-sd-card.md
         - Second SD Card: play/add-games/second-sd-card.md
+        - Network Transfer: play/add-games/network-transfer.md
         - Formatting: play/add-games/formatting.md
       - BIOSes: play/bioses.md
       - Scraping: play/scraping.md
@@ -299,6 +300,7 @@ nav:
       - ScummVM: systems/scummvm.md
     - Guides:
         - Dual SD Card Migration: guides/dual-sd-card-migration.md
+        - PortMaster and exFAT: guides/portmaster-and-exfat.md
     - Community:
         - Contribute: community/contribute.md
     - Devices: 
