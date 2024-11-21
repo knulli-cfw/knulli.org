@@ -50,7 +50,7 @@ Instead of waiting for the PortMaster maintainers do to the job for you, you cou
 
 * the SD card of your KNULLI device (with the ports already installed).
 * [Notepad++](https://notepad-plus-plus.org)
-    * **Important:** If the words "encoding" and "CRLF" mean anything to you, use whatever editor you like and just make sure to use UTF8 encoding and Linux line feeds. But if this sentence did not make any sense to you at all, **just use [Notepad++](https://notepad-plus-plus.org)**, it will take care of everything.
+    * **Important:** If the words "encoding" and "CRLF" mean anything to you, use whatever editor you like and just make sure to use UTF8 encoding and Linux line endings. But if this sentence did not make any sense to you at all, **just use [Notepad++](https://notepad-plus-plus.org)**, it will take care of everything.
 * a little bit of time.
 
 ### Step 1: Update PortMaster and the respective port(s)
