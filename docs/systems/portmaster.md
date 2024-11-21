@@ -1,5 +1,9 @@
 # :material-ferry: PortMaster
 
+!!! danger "Known issues with PortMaster on exFAT-formatted drives"
+
+    Please take a close look at the [PortMaster and exFAT section](../../../guides/portmaster-and-exfat) and learn about potential issues with PortMaster games on exFAT-formatted drives.
+
 PortMaster is a management software for installing and updating various ports for Linux-driven handheld video game systems. Ports are, in this case, video games which have been adapted from other systems and optimized to run natively on your handheld device. You will find more information about PortMaster on the [PortMaster website](https://portmaster.games).
 
 ## Games
@@ -10,8 +14,6 @@ The library is divided in two major categories:
 
 * Ports which are *"Ready to run"* are ports of free games which you can install and immediately start playing.
 * Ports with *"Files needed"* are ports of commercially released games. To be able to run these ports, you will have to provide essential files from the games you bought.
-
-!!! info "Some PortMaster games only run on drives which are formatted to ext4. For this reason, KNULLI formats the *SHARE* partition to ext4 by default. However, if you re-formatted the *SHARE* partition to exFAT or if you use a second SD card which is formatted to exFAT, some PortMaster games might not work on your device. You will find information on how to reformat your drive to ext4 in the [Add Games](../../play/add-games) section. Additionally, you will find a [list of games with known issues](#known-issues-with-portmaster-games-on-exfat-formatted-partitions) below."
 
 ## Installing PortMaster
 
@@ -51,21 +53,3 @@ After you have added all the required files, the game should be ready to run. Si
 !!! info "During first launch, some ports will take some time to compress and/or compile and/or repackage files from the original game. Depending on the game, this may take several minutes, sometimes even longer. Do not panic if the first launch takes some time. Do not panic if you see a lot of command-line messages. Some games may even require several attempts to prepare all the necessary assets for playing the game on your handheld. Be patient."
 
 If the game does not show up, press ++"Start"++ and pick *Game settings* and *Update gamelists* to restart EmulationStation and detect new games. If that does not help, launch *PortMaster*, find the game in the *Manage Ports* section and reinstall it.
-
-## Known issues with PortMaster games on exFAT-formatted partitions
-
-As mentioned above and throughout this Wiki, many PortMaster games rely on symbolic links and very large swap files which are not supported by the exFAT file system. If you attempt to run PortMaster games from a partition which is formatted to exFAT, you might be lucky and have some games working perfectly fine. However, you will also run into games which will not work as expected.
-
-For many games, symbolic links are implemented to put the savegames and configuration files in the right place. Without symbolic links, the files might end up as temporary files which will be deleted automatically once you quit the game. Hence, you will have to reconfigure and start over when you launch the game again.
-
-The following list is by no means a complete list of all games which do not work. It is just a small collection of issues we are already aware of and can warn you about, issues you will run into when attempting to run these games from an exFAT-formatted SD card.
-
-### PortMaster compatibility chart
-
-| Game                     | Runs on ext4     | Runs on exFAT     | Game breaking issues on exFAT               |
-| ------------------------ | ---------------- | ----------------- | ------------------------------------------- |
-| Half-Life                | :material-check: | :material-check:  | None                                        |
-| Owlboy                   | :material-check: | :material-check:  | **Loses all settings/savegames** when quit. |
-| Stardew Valley           | :material-check: | :material-check:  | **Loses all settings/savegames** when quit. |
-| TMNT: Shredder's Revenge | :material-check: | :material-check:  | **Loses all settings/savegames** when quit. First-launch compile/compression fails due to swap-file size issues. |
-

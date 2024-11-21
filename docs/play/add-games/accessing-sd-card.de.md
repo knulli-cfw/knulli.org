@@ -2,28 +2,35 @@
 
 !!! danger "Wichtig: Unbedingt lesen bevor du weitermachst!"
 
-    Wir empfehlen **dringend**, dass du via [**Netzwerkübertragung**](../network-transfer) auf dein KNULLI-Gerät zugreifst. Bevor du versuchst, direkt auf deine SD-Karte zuzugreifen, solltest du sicherstellen, dass du die Warnung im Abschnitt [Spiele hinzufügen](..) gelesen und verstanden hast.
+    Standardmäßig ist die *SHARE*-Partition deiner KNULLI-SD-Karte mit **ext4** formatiert, um Probleme mit PortMaster und exFAT zu vermeiden. (Du findest eine genauere Erklärung im Abschnitt [PortMaster und exFAT](../../../guides/portmaster-and-exfat).) Wenn du dich entschieden hast, beim ext4-Format zu bleiben, **empfehlen wir dringend**, dass du via [**Netzwerkübertragung**](../network-transfer) auf dein KNULLI-Gerät zugreifst..
 
-Wie im Abschnitt [Datenstruktur](../game-storage) beschrieben, ist die *SHARE*-Partition von KNULLI standardmäßig mit ext4 formatiert und daher unter Windows nicht lesbar. Wenn Netzwerkübertragung nicht möglich ist, gibt es allerdings weitere Lösungen, um direkt auf die Speicherkarte zuzugreifen.
+Abhängig von der Formatierung deiner *SHARE*-Partition (oder deiner zweiten SD-Karte) hast du grundlegend unterschiedliche Möglichkeiten um direkt auf deine SD-Karte zuzugreifen. Dieser Abschnitt gibt dir einen Überblick über die möglichen Optionen.
 
-## Option 1: Linux
+Wenn du mit der Wahl deiner Formatierung unzufrieden bist, kannst du jederzeit den eingebauten KNULLI-Formatierer verwenden, um die Formatierung zu ändern. Bedenke dabei, dass **deine gesamten Nutzerdaten dabei verloren gehen werden**, wenn du dich dafür entscheidest neu zu formatieren. Wenn du mehr über Formatierung wissen möchtest, wird einen Blick in den Abschnitt [Formatieren](../formatting).
+
+## Auf eine exFAT-formatierte SD-Karte zugreifen
+
+exFAT ist das Standarddateisystem für SD-Karten und USB-Sticks. Windows, MacOS und Linux unterstützen exFAT von Haus aus. Steck die SD-Karte einfach in den SD-Kartenleser deines Computers (oder benutze einen externen Kartenleser) um auf deine SD-Karte zuzugreifen wie auf jede andere SD-Karte und jeden USB-Stick.
+
+## Auf eine ext4-formatierte SD-Karte zugreifen
+
+ext4 ist ein Linux-Dateisystem. Windows und MacOS können ext4 nicht interpretieren, sie können weder Daten von ext4-Laufwerken lesen, noch Daten auf ext4-Laufwerke schreiben. Direkter Zugriff auf ext4 ist von einem Windows- oder MacOS-Computer nur mit Drittanbieter-Software möglich.
+
+### Option 1: Linux
 
 Wenn du Zugriff auf einen Computer hast, der mit Linux betrieben ist, kannst du deine normale Speicherkarte auch dann lesen und bespielen, wenn sie in ext4 formatiert ist. Steck deine SD-Karte einfach in den Kartenleser deines Linux-Computers um direkten Zugriff auf die Speicherkarte zu erhalten.
 
-## Option 2: Drittanbieter-Software
+!!! warning "Potentielle Probleme beim Direktzugriff via Linux"
+
+    Einige Nutzer haben Probleme mit ihren SD-Karten gemeldet, nachdem sie via Linux darauf zugegriffen haben. Wir empfehlen daher, den direkten Zugriff via Linux zu vermeiden und stattdessen wenn möglich [**Netzwerkübertragung**](../network-transfer) zu verwenden.
+
+### Option 2: Drittanbieter-Software
 
 Es gibt Software von Drittanbietern, mit denen man auch unter Windows/macOS auf Linux-Partitionen zugreifen kann:
 
 * Paragon EXTFS für Windows/macOS ist ein kostenpflichtiges Tool, das häufig empfohlen wird und ext2/3/4 unterstützt.
 * DiskGenius für Windows ist ein Tool, von dem eher abgeraten wird, erfahrungsgemäß beschädigt das Tool häufiger Partitionen und ihren Dateninhalt.
 
-!!! danger "Der Einsatz von Drittanbieter-Software wird von uns generell **nicht** empfohlen. Wenn du dich damit auskennst, kannst du versuchen, mit diesem Lösungsansatz zu experimentieren. Du solltest dir aber im Klaren sein, dass du das Risiko eingehst, einen Datenverlust zu erleiden."
+!!! warning "Datenverlust"
 
-
-#### Die Share-Partition mit exFAT formatieren
-
-!!! danger "Important: Read this before you proceed!"
-
-    Sei dir bewusst, dass **sehr viele** PortMaster-Spiele **not** oder nur **stark eingeschränkt** funktionieren werden, wenn du deine Speichermedien mit exFAT formatierst. Bitte lies die Warnung im Abschnitt [Spiele hinzufügen](..), bevor du mit dem Formatieren beginnst.
-
-Es ist möglich, deine Speichermedien mit exFAT zu formatieren, um direkt über Windows/macOS darauf zuzugreifen. Du solltest nicht versuchen, die Speichermedien direkt aus Windows/macOS heraus zu formatieren. Folge stattdessen der Anleitung im Abschnitt [Formatieren](../formatting), um deine Speichermedien mit dem integrierten KNULLI-Formatierer zu formatieren.
+    Der Einsatz von Drittanbieter-Software wird von uns generell **nicht** empfohlen. Wenn du dich damit auskennst, kannst du versuchen, mit diesem Lösungsansatz zu experimentieren. Du solltest dir aber im Klaren sein, dass du das Risiko eingehst, einen Datenverlust zu erleiden."

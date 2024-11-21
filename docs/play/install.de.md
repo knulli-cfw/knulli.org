@@ -23,7 +23,9 @@ Während des Flashens werden mehrere Partitionen angelegt, die auf deinem Comput
 
 Nur das Laufwerk *BATOCERA* wird von KNULLI mit FAT32 formatiert, damit du auch von Windows aus darauf zugreifen kannst, um manuelle Updates zu installieren, wie im Abschnitt [Aktualisieren](../update) beschrieben. Auf diesem Laufwerk liegt allerdings nur das KNULLI-Betriebssystem, du solltest hier keine Spiele ablegen. Im Abschnitt [Spiele hinzufügen](../add-games) wirst du lernen, wie du deine Spiele auf das Gerät laden kannst - *nachdem du es zum ersten Mal hochgefahren hast*.
 
-!!! warning "Beim Flashen wird eine Partition namens *SHARE* angelegt, auf der später deine Spiele etc. abgelegt werden können. Die *SHARE*-Partition wird allerdings erst beim ersten Booten auf ihre volle Größe ausgedehnt. Es ist *zwingend* notwendig, KNULLI einmal hochzufahren und die Installation abzuschließen, *bevor* du auf die *SHARE*-Partition zugreifen kannst. Standardmäßig wird die *SHARE*-Partition mit dem Dateisystem ext4 formatiert. Wirf einen Blick in den Abschnitt [Spiele hinzufügen](../add-games) um zu erfahren, wie du Spiele und andere Dateien auf dein KNULLI-Gerät aufspielst."
+!!! warning "Die *SHARE*-Partition auf volle Größe ausdehnen"
+
+    Beim Flashen wird eine Partition namens *SHARE* angelegt, auf der später deine Spiele etc. abgelegt werden können. Die *SHARE*-Partition wird allerdings erst beim ersten Booten auf ihre volle Größe ausgedehnt. Es ist *zwingend* notwendig, KNULLI einmal hochzufahren und die Installation abzuschließen, *bevor* du auf die *SHARE*-Partition zugreifen kannst. Standardmäßig wird die *SHARE*-Partition mit dem Dateisystem ext4 formatiert. Wirf einen Blick in den Abschnitt [Spiele hinzufügen](../add-games) um zu erfahren, wie du Spiele und andere Dateien auf dein KNULLI-Gerät aufspielst."
 
 ## Schritt 3: Boote das Gerät
 

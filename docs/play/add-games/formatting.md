@@ -1,8 +1,8 @@
 # :material-folder-cog: Formatting
 
-!!! danger "Important:  Read this before you proceed!"
+!!! danger "Important: Read this before you proceed!"
 
-    We **strongly** suggest to use [**Network Transfer**](../network-transfer) to access to your KNULLI device and stick with the **ext4** file system. Before you attempt to format any of your SD cards, please make sure to read the warning in the [Add Games](..) section.
+    Before you change the formatting of your *SHARE* partition or your second SD card, please take a close look at the [PortMaster and exFAT section](../../../guides/portmaster-and-exfat) and learn about potential issues with the chosen formatting and PortMaster games.
 
 ## Before you format
 
@@ -19,8 +19,8 @@
 
 The built-in KNULLI formatter offers **three** different filesystems. However, only **two** of them are currently supported by KNULLI:
 
-* **:material-check: ext4** is a Linux file system which **cannot be accessed** directly from Windows/macOS. However, ext4 supports **large swap files** and **symbolic links**. Therefore, PortMaster games **run perfectly** on ext4-formatted storages.
-* **:material-check: exFAT** is a Windows/macOS-compatible file system which is used by most CFWs, Smartphones, etc. However, exFAT is **incapable** of handling **large swap files** and **symbolic links**. Therefore, many PortMaster games **cannot be played** on exFAT-formatted storages.
+* **:material-check: ext4** is a Linux file system which **cannot be accessed** directly from Windows/macOS. However, ext4 supports **symbolic links**. Therefore, PortMaster games **run perfectly** on ext4-formatted storages.
+* **:material-check: exFAT** is a Windows/macOS-compatible file system which is used by most CFWs, Smartphones, etc. However, exFAT is **incapable** of handling **symbolic links**. Therefore, many PortMaster games might not be played on exFAT-formatted storages.
 * **:material-cancel: BTRFS** is a file system which is currently **NOT SUPPORTED BY KNULLI**.
 
 ### Formatting

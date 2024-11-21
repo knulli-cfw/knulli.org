@@ -23,7 +23,9 @@ During the imaging, several partitions will be created, which will be shown to y
 
 After successful flashing, the *BATOCERA* drive will be the only drive formatted to FAT32, to make it accessible on Windows for manual updates as described in the [update](../update) section. However, this is just the place where the operating system itself is stored, so it is not a place to store your games. For more information on how to add games, please refer to the [Add Games](../add-games) section *after first boot*.
 
-!!! warning "During flashing, a partition called *SHARE* will be created. This is where all your games and other data will be stored. However, the *SHARE* partition will only be expanded to its full size during first boot. It is *mandatory* to finish installation by booting KNULLI *before* you can access the *SHARE* partition and start adding your games. By default, the *SHARE* partition will be formatted to ext4, hence, it will not be accessible through Windows. Please have a look at the [Add Games](../add-games) section to learn how to add games to your KNULLI device - *after first boot*."
+!!! warning "Expanding the SHARE partition"
+
+    During flashing, a partition called *SHARE* will be created. This is where all your games and other data will be stored. However, the *SHARE* partition will only be expanded to its full size during first boot. It is *mandatory* to finish installation by booting KNULLI *before* you can access the *SHARE* partition and start adding your games. By default, the *SHARE* partition will be formatted to ext4, hence, it will not be accessible through Windows. Please have a look at the [Add Games](../add-games) section to learn how to add games to your KNULLI device - *after first boot*."
 
 ## Step 3: Boot your device
 
