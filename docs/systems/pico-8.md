@@ -8,11 +8,17 @@
 
 ## Instructions
 
-### Option 1: Running Pico-8 through RetroArch Fake-08
+KNULLI supports two different engines for running Pico-8 games: The libretro-integrated *Fake08* and the official standalone Pico-8 by Lexaloffle.
+
+## Running Pico-8 through RetroArch Fake-08
 
 By default, KNULLI comes with *Fake08*, a free, Pico-8-compatible engine provided by RetroArch. Many Pico-8 games run perfectly fine with *Fake08*. Since Pico-8 games are usually free, you can download the `png` game files (or "carts") from the [Pico-8 website](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2) and drop them in your `roms/pico8` folder. However, since *Fake08* does not cover all the features of the native Pico-8 engine, some games might not run properly with *Fake08*.
 
-### Option 2: Running Pico-8 through the native engine
+!!! info "Splore is not available in Fake08"
+
+    Please be aware that Splore, the official Pico-8 browser, which lets you navigate the online library of Pico-8 games, is only available through the native engine. When playing with Fake-08, you need to add your games manually.
+
+## Running Pico-8 through the native engine
 
 Pico-8 games are best played with the native engine as it supports all Pico-8 features without any limitations.  You need to purchase it from [Lexaloffle](https://www.lexaloffle.com/pico-8.php) and we do recommend that you buy a copy if you can. It's an awesome piece of software and it also comes with the tools to make your own games.
 
@@ -20,9 +26,25 @@ Pico-8 games are best played with the native engine as it supports all Pico-8 fe
 
     While *Fake08* stores its saves in the expected folder for savegames (`/userdata/saves/pico8/cdata`),  official *Pico-8* stores it saves somewhere in the `system` folder (`/userdata/system/.lexaloffle/pico-8/cdata`). Please be aware of this when backing up or migrating your saves.
 
-#### Setup
+## Installing native Pico-8
 
-##### 1) Pico-8 Files
+### Installing Pico-8 with the built-in KNULLI installer
+
+The easiest way to set up standalone Pico-8 on your KNULLI device is via the Pico-8 installer which already comes with KNULLI:
+
+- Go to [Lexaloffle's download page](https://www.lexaloffle.com/games.php?page=updates)
+- From that page download the `Raspberry Pi` zip file
+- Simply copy the zip file into your `roms/pico8` folder
+- establish a ([SSH connection](../../configure/ssh) to your device
+- type the command `install-pico8.sh` and press ++"Enter"++
+
+The installer should take care of everything and install Pico8 for you. It will also install *Splore*, the official browser for Pico-8 games.
+
+### Installing Pico-8 manually
+
+If the built-in installer fails you, it is entirely possible to install Pico-8 manually. Basically, all you have to do is take all the steps the installer would've taken for you automatically.
+
+#### 1) Pico-8 Files
 
 - Go to [Lexaloffle's download page](https://www.lexaloffle.com/games.php?page=updates)
 - From that page download the `Raspberry Pi` zip file
@@ -39,7 +61,7 @@ Pico-8 games are best played with the native engine as it supports all Pico-8 fe
     └─ pico8.dat
 ```
 
-##### 2) Make sure that Pico8 is executable
+#### 2) Make sure that Pico8 is executable
 
 By default, the `pico8` and `pico8_64` files from the Raspberry Pi zip file are already marked as executable (`-rwxr-xr-x`). However, if you unzip the file on a Windows machine, Linux permissions are lost in the process. Therefore, the file you copied to your BIOS folder might no longer be executable.
 
@@ -55,7 +77,7 @@ The file should now be executable. You may verify by typing the following comman
 ls -l /userdata/bios/pico-8/pico8
 ```
 
-##### 3) EmulationStation
+#### 3) EmulationStation
 
 - copy the following text into a file called `es_systems_pico8.cfg`
 ``` bash title="es_systems_pico8.cfg"
@@ -82,7 +104,7 @@ ls -l /userdata/bios/pico-8/pico8
 - restart EmulationStation
 - to make the original Pico-8 your new default Pico-8 engine, open the Pico-8 gamelist, press ++"SELECT"++, open `ADVANCED SYSTEM OPTIONS → EMULATOR` and then select `LEXALOFFLE: PICO8 OFFICIAL` as your Emulator
 
-#### Playing a game
+### Playing Pico-8 with the native engine
 
 Once the above is set up is you have 2 options for playing games through Pico-8's native engine:
 
