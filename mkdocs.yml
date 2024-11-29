@@ -156,6 +156,7 @@ plugins:
             Custom Hotkey Shortcuts: Benutzerdefinierte Tastenkombinationen
             Dual SD Card Migration: Zu Dual-SD-Card-Setup wechseln
             PortMaster and exFAT: PortMaster und exFAT
+            Power Management: Energieeinstellungen
         - locale: pl
           name: Polski
           build: true
@@ -277,6 +278,7 @@ nav:
       - Collections: configure/collections.md
       - Multi-Disc Games: configure/multi-disc-games.md
       - RGB LEDs: configure/rgb-leds.md
+      - Power Management: configure/power-management.md
       - Customization:
         - Customization: configure/customization/index.md
         - Themes: configure/customization/themes.md
@@ -313,6 +315,7 @@ nav:
         - RG35XX SP: devices/anbernic/rg35xx-sp.md
         - RG40XX H: devices/anbernic/rg40xx-h.md
         - RG40XX V: devices/anbernic/rg40xx-v.md
+        - RGCubeXX: devices/anbernic/rgcubexx.md
       - Orange Pi Zero 2w:
         - Orange Pi Zero 2w: devices/orange-pi/orange-pi-zero-2w.md
       - Powkiddy:
