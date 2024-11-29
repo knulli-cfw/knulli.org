@@ -16,6 +16,8 @@ All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"+
 
      If you forgot a shortcut: Don't worry! KNULLI comes with an on-screen manual. At the home screen, press ++"Select"++ to bring up the *Quick access* menu. Here, you will be able to *View user manual*, which contains a list of all shortcuts.
 
+## KNULLI Hotkey Shortcuts
+
 | Shortcut                                        | Action                                           |
 | ----------------------------------------------- | ------------------------------------------------ |
 | ++"Function"++ + ++"Start"++                    | Quit the game and return to EmulationStation     |
@@ -34,6 +36,27 @@ All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"+
 | ++"Function"++ + ++"L2"++                       | **In Drastic (NDS)**: Switch between single/dual screen |
 | ++"R2"++                                        | **In Drastic (NDS)**: Touch cursor click         |
 | ++"Function"++ + ++"R2"++                       | **In Drastic (NDS)**: Microfone input            |
+
+## Drastic-Steward Hotkey Shortcuts
+
+Since Firefly, KNULLI comes with Drastic-Steward, an additional NDS emulator. However, Drastic-Steward has some hard-coded hotkey shortcuts which are very different from the default KNULLI hotkeys. Unfortunately, we cannot change the hotkeys of the closed-source emulator, so you will have to learn them if you want to play with Drastic Steward.
+
+| Shortcut                                        | Action                                           |
+| ----------------------------------------------- | ------------------------------------------------ |
+| ++"Function"++ + ++"Start"++                    | Open Quick Settings                              |
+| ++"Function"++ + ++"Select"++                   | Open Drastic Main Menu                           |
+| ++"Function"++ + :material-gamepad-circle-down: | Toggles blur on/off                              |
+| ++"Function"++ + :material-gamepad-circle-left: | Switch bezel decoration                          |
+| ++"Function"++ + :material-gamepad-circle-right:| Switch between current screen layout and dual screen layout |
+| ++"Function"++ + :material-gamepad-right:       | Next screen layout                               |
+| ++"Function"++ + :material-gamepad-left:        | Previous screen layout                           |
+| ++"Function"++ + ++"L1"++                       | Quit the game and return to EmulationStation     |
+| ++"Function"++ + ++"L2"++                       | Quick load                                       |
+| ++"Function"++ + ++"R1"++                       | Toggle fast forward                              |
+| ++"Function"++ + ++"R2"++                       | Quick save                                       |
+| ++"L2"++                                        | Turn touch cursor on/off                         |
+| ++"R2"++                                        | Swap first/second screen (single screen) or switch between screen arrangements (dual screen) |
+| ++"R3"++                                        | Touch cursor click                               |
 
 !!! info "Not every emulator supports every shortcut"
 
