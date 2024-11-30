@@ -1,8 +1,39 @@
 <div class="preview-container">
-  <img class="off-glb" src="/_inc/images/knulli-booting-up.png"/>
+  <img class="off-glb" src="/_inc/images/knulli-header-firefly.png"/>
 </div>
 
-# Willkommen im KNULLI-Wiki :material-gamepad:
+# Willkommen bei KNULLI :material-gamepad:
+
+## Firefly ist da! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+
+Wir freuen uns sehr, dass wir es endlich ankündigen dürfen: **KNULLI Firefly** steht zum Download bereit! Warum "Firefly"? Ab Firefly werden alle KNULLI-Versionen einen Codenamen haben, um die verschiedenen Versionen leichter unterscheiden zu können. KNULLI Firefly bringt eine ganze Reihe neuer Features und Verbesserungen mit. Hier sind einige Highlights:
+
+* Unterstützung für die Geräte RG40XX H, RG40XX V und RGCubeXX hinzugefügt
+* Unterstützung der Klappfunktion des RG35XX SP verbessert (Standby oder Herunterfahren)
+* "Cardinal Snapping" der Joysticks von RG35XX H und RG40XX H/V entfernt (Vielen Dank, @thegammasqueeze!)
+* Unterstützung für die [RGB-LEDs](../configure/rgb-leds) von RG40XX H/V und RGCubeXX hinzugefügt
+* Drastic-Steward als zusätzlicher NDS-Emulator hinzugefügt
+* Unterstützung für 32-Bit-Portmaster-Spiele hinzugefügt
+* Diverse neue Einstellungsmöglichkeiten in EmulationStation für verschiedene Emulatoren
+* [Konfigurierbare Hotkey-Tastenkombinationen](../configure/retroarch/custom-hotkey-shortcuts) für RetroArch-Cores hinzugefügt
+* Unterstützung der nativen Pico-8-Engine verbessert
+* Einführung von [Multi-Resolution-Bezel-Deko-Sets](../configure/customization/bezel-decorations), die Bezel-Dekos für mehrere verschiedene Bildschirmauflösungen enthalten können
+* Neues Bezel-Deko-Set *Default-KNULLI* mit Bezel-Dekos für 4:3-, 1:1- und 16:9-Bildschirme hinzugefügt
+* Unzählige Bugfixes und Verbesserungen
+
+Ein vollständiges Changelog findet ihr in den [Release Notes auf GitHub](https://github.com/knulli-cfw/distribution/releases/latest).
+
+Für diejenigen, die **KNULLI neu installieren** wollen: Unser [Quick Start Guide](../play/quick-start) wird euch durch die Installation und die ersten Schritte mit KNULLI begleiten. Für diejenigen, die **KNULLI bereits verwenden** und aktualisieren wollen: Bitte **lies die große rote Box** direkt unter diesem Text! In jedem Fall wünschen wir viel Spaß beim Spielen mit KNULLI!
+
+!!! danger "Wichtig: Vor dem Update unbedingt lesen!"
+
+    Diese Version von KNULLI bringt eine große Menge Veränderungen mit sich. Einige dieser Veränderungen machen es leider **zwingend nötig**, dass du KNULLI **neu flashst**. Wir **raten dringend davon ab**, eine bestehende KNULLI installation manuell zu aktualisieren - es wird zu Problemen führen. Wir emfehlen stattdessen, eine frische Installation von KNULLI aufzusetzen.
+
+    Da du deine Benutzerdaten wahrscheinlich behalten möchtest, empfehlen wir, dass du sie entweder selbst auf deinen Computer sicherst oder einen Blick auf unsere [Anleitung zur Migration auf ein Dual-SD-Card-Setup](../guides/dual-sd-card-migration) wirfst. Falls du Benutzerdaten aus einer vorherigen KNULLI-Installation übernehmen willst, solltest du **auf keinen Fall** den `system`-Ordner mitnehmen.
+
+    Außerdem ist jetzt vielleicht ein guter Zeitpunkt, um noch einmal über die Wahl des Dateisystems nachzudenken: Wir empfehlen nach wie vor die Verwendung von ext4, es ist allerdings nicht mehr zwingend notwendig, um PortMaster-Spiele spielen zu können. Das PortMaster-Team ist gerade dabei, eine Lösung auszurollen, damit PortMaster-Spiele in Zukunft auch auf KNULLI-Geräten mit exFAT-Laufwerken gespielt werden können. Bitte lies den Abschnitt [PortMaster und exFAT](../guides/portmaster-and-exfat), wenn du mehr darüber wissen möchtest.
+
+## Über KNULLI
 
 KNULLI ist eine unabhängige Custom-Firmware (CFW) für Retro-Gaming-Konsolen (Handhelds, Bartops, etc.). Knulli wird als Fork von [Batocera](https://batocera.org) entwickelt und verfolgt das Ziel, Geräte zu unterstützen, die unter mindestens eine dieser Kategorien fallen:
 

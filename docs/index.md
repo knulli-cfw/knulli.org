@@ -6,10 +6,10 @@
 
 ## Firefly is here! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
 
-We are happy to announce that **KNULLI Firefly** has gone public! Why "Firefly"? Starting with Firefly, all KNULLI releases will have a codename to indicate the release version. KNULLI Firefly comes with a lot of new features and improvements:
+We are happy to announce that **KNULLI Firefly** has gone public! Why "Firefly"? Starting with Firefly, all KNULLI releases will have a codename to indicate the release version. KNULLI Firefly comes with a lot of new features and improvements. These are just a few highlights:
 
 * Added device support for the RG40XX H, RG40XX V and RGCubeXX
-* Improved support for the lid behavior of the RG35XX SP
+* Improved support for the lid behavior of the RG35XX SP (sleep mode or shutdown)
 * Removed cardinal snapping of the joysticks of the RG35XX H and RG40XX H/V (Thanks to @thegammasqueeze!)
 * Added [RGB LED support](../configure/rgb-leds) for the RG40XX H/V and RGCubeXX
 * Added Drastic-Steward as an additional NDS emulator
@@ -17,7 +17,8 @@ We are happy to announce that **KNULLI Firefly** has gone public! Why "Firefly"?
 * Added a lot of new EmulationStation settings for various emulators
 * Introduced [hotkey shortcut customization](../configure/retroarch/custom-hotkey-shortcuts) for RetroArch cores
 * Improved support for native Pico-8
-* Introduced [multi-resolution bezel decorations](../configure/customization/bezel-decorations)
+* Introduced [multi-resolution bezel decoration sets](../configure/customization/bezel-decorations) which may contain bezel decorations vor various screen resolutions
+* New bezel set *Default-KNULLI* with bezels for 4:3, 1:1, and 16:9 screens
 * Tons of bugfixes and performance improvements
 
 You will find the complete change log in the [release notes on GitHub](https://github.com/knulli-cfw/distribution/releases/latest).
@@ -26,9 +27,9 @@ If you are **new to KNULLI** and you want to get started: Head to the [Quick Sta
 
 !!! danger "Important: Read this before you update!"
 
-    This version of KNULLI comes with a lot of new features which **require** to **re-flash** the firmware. We **strongly discourage** you from attempting a manual update and instead strongly suggest a **fresh installation**!
+    This version of KNULLI comes with a lot of new features which **require** to **re-flash** the firmware. We **strongly discourage** you from attempting a manual update - it will cause problems. Instead, we strongly suggest a **fresh installation** of KNULLI!
 
-    However, if you want to migrate your user data, please have a look at our [Dual SD Card Migration guide](../guides/dual-sd-card-migration). If you decide to migrate, please make sure **not** to adopt the `system` folder from your previous KNULLI installation.
+    However, if you want to migrate your user data, either back it up on your local computer or have a look at our [Dual SD Card Migration guide](../guides/dual-sd-card-migration). If you decide to migrate, please make sure **not** to adopt the `system` folder from your previous KNULLI installation.
 
     Also be aware that the ext4 file system is still strongly recommended but no longer mandatory as explained in the [PortMaster and exFAT Guide](../guides/portmaster-and-exfat).
 
