@@ -9,8 +9,9 @@
 Wir freuen uns sehr, dass wir es endlich ankündigen dürfen: **KNULLI Firefly** steht zum Download bereit! Warum "Firefly"? Ab Firefly werden alle KNULLI-Versionen einen Codenamen haben, um die verschiedenen Versionen leichter unterscheiden zu können. KNULLI Firefly bringt eine ganze Reihe neuer Features und Verbesserungen mit. Hier sind einige Highlights:
 
 * Unterstützung für die Geräte RG40XX H, RG40XX V und RGCubeXX hinzugefügt
-* Unterstützung der Klappfunktion des RG35XX SP verbessert (Standby oder Herunterfahren)
+* Unterstützung der [Klappfunktion](../configure/power-management) des RG35XX SP verbessert (Standby oder Herunterfahren)
 * "Cardinal Snapping" der Joysticks von RG35XX H und RG40XX H/V entfernt (Vielen Dank, @thegammasqueeze!)
+* Einführung von [Energieeinstellungen](../configure/power-management) um die Akkulaufzeit zu verbessern
 * Unterstützung für die [RGB-LEDs](../configure/rgb-leds) von RG40XX H/V und RGCubeXX hinzugefügt
 * Drastic-Steward als zusätzlicher NDS-Emulator hinzugefügt
 * Unterstützung für 32-Bit-Portmaster-Spiele hinzugefügt

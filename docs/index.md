@@ -9,15 +9,16 @@
 We are happy to announce that **KNULLI Firefly** has gone public! Why "Firefly"? Starting with Firefly, all KNULLI releases will have a codename to indicate the release version. KNULLI Firefly comes with a lot of new features and improvements. These are just a few highlights:
 
 * Added device support for the RG40XX H, RG40XX V and RGCubeXX
-* Improved support for the lid behavior of the RG35XX SP (sleep mode or shutdown)
+* Improved support for the [lid behavior](../configure/power-management) of the RG35XX SP (sleep mode or shutdown)
 * Removed cardinal snapping of the joysticks of the RG35XX H and RG40XX H/V (Thanks to @thegammasqueeze!)
+* Introduced [power management](../configure/power-management) to save battery life
 * Added [RGB LED support](../configure/rgb-leds) for the RG40XX H/V and RGCubeXX
 * Added Drastic-Steward as an additional NDS emulator
 * Added support for 32bit PortMaster games
 * Added a lot of new EmulationStation settings for various emulators
 * Introduced [hotkey shortcut customization](../configure/retroarch/custom-hotkey-shortcuts) for RetroArch cores
 * Improved support for native Pico-8
-* Introduced [multi-resolution bezel decoration sets](../configure/customization/bezel-decorations) which may contain bezel decorations vor various screen resolutions
+* Introduced [multi-resolution bezel decoration sets](../configure/customization/bezel-decorations) which may contain bezel decorations for various screen resolutions
 * New bezel set *Default-KNULLI* with bezels for 4:3, 1:1, and 16:9 screens
 * Tons of bugfixes and performance improvements
 
