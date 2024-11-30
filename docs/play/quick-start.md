@@ -8,7 +8,11 @@ With this quick start guide, we will help you get started with KNULLI on your ha
 
     Unlike many other CFWs, KNULLI currently uses **ext4** as the default file system for your games, saves, configs, etc. ext4 is a **Linux** file system which **cannot** be accessed from **Windows/MacOS**. Don't worry: You will still be able to add your games via [network transfer](../add-games/network-transfer). We made this decision **purposely** to create a workaround for an ongoing issue with **PortMaster** compatibility.
 
-    Several PortMaster games are currently not working properly on KNULLI when running from **exFAT**-formatted SD cards. (**exFAT** is the default file system of SD cards and thumb drives.) However, the PortMaster team is aware of the situation and a fix is already on its way. We **strongly recommend** that you read the [PortMaster and exFAT section](../../guides/portmaster-and-exfat) **before you proceed** and make a decision on how to handle data storage on your KNULLI device.
+    It is possible to reformat the internal storage to **exFAT** or use an exFAT-formatted **secondary SD card** if you prefer to be able to access your SD card directly from Windows. (**exFAT** is the default file system of SD cards and thumb drives.)
+
+    However, several PortMaster games are still **not working properly** on KNULLI when running from exFAT-formatted SD cards. The PortMaster team is aware of the situation and a fix is already on its way as they are updating their games systematically.
+
+    We **strongly recommend** that you read the [PortMaster and exFAT section](../../guides/portmaster-and-exfat) **before you proceed** and make a decision on how to handle data storage on your KNULLI device.
 
 ## Installing KNULLI [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
 
