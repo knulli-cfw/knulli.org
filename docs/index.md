@@ -1,15 +1,45 @@
 <div class="preview-container">
-  <img class="off-glb" src="/_inc/images/knulli-booting-up.png"/>
+  <img class="off-glb" src="/_inc/images/knulli-header-firefly.png"/>
 </div>
 
-# Welcome to KNULLI Wiki :material-gamepad:
+# Welcome to KNULLI :material-gamepad:
+
+## Firefly is here! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+
+We are happy to announce that **KNULLI Firefly** has gone public! Why "Firefly"? Starting with Firefly, all KNULLI releases will have a codename to indicate the release version. KNULLI Firefly comes with a lot of new features and improvements:
+
+* Added device support for the RG40XX H, RG40XX V and RGCubeXX
+* Improved support for the lid behavior of the RG35XX SP
+* Removed cardinal snapping of the joysticks of the RG35XX H and RG40XX H/V (Thanks to @thegammasqueeze!)
+* Added [RGB LED support](../configure/rgb-leds) for the RG40XX H/V and RGCubeXX
+* Added Drastic-Steward as an additional NDS emulator
+* Added support for 32bit PortMaster games
+* Added a lot of new EmulationStation settings for various emulators
+* Introduced [hotkey shortcut customization](../configure/retroarch/custom-hotkey-shortcuts) for RetroArch cores
+* Improved support for native Pico-8
+* Introduced [multi-resolution bezel decorations](../configure/customization/bezel-decorations)
+* Tons of bugfixes and performance improvements
+
+You will find the complete change log in the [release notes on GitHub](https://github.com/knulli-cfw/distribution/releases/latest).
+
+If you are **new to KNULLI** and you want to get started: Head to the [Quick Start Guide](../play/quick-start) - it will guide you through the installation and your very first steps. If you are **already running KNULLI** and want to update to Firefly: Please **read the big red box** right below! In any case: We hope you enjoy playing your games with KNULLI!
+
+!!! danger "Important: Read this before you update!"
+
+    This version of KNULLI comes with a lot of new features which **require** to **re-flash** the firmware. We **strongly discourage** you from attempting a manual update and instead strongly suggest a **fresh installation**!
+
+    However, if you want to migrate your user data, please have a look at our [Dual SD Card Migration guide](../guides/dual-sd-card-migration). If you decide to migrate, please make sure **not** to adopt the `system` folder from your previous KNULLI installation.
+
+    Also be aware that the ext4 file system is still strongly recommended but no longer mandatory as explained in the [PortMaster and exFAT Guide](../guides/portmaster-and-exfat).
+
+## About KNULLI
 
 KNULLI is a custom firmware for retro gaming devices (handhelds, bartops, etc.). It's developed as a fork of [Batocera](https://batocera.org). It tries to provide support for devices that fall under at least one of these categories:
 
 * There are no open-source kernel and/or u-boot sources available
 * There are sources, but the kernel is either not mainline, and/or too old (e.g. devices with a BSP kernel 3.4 like the Egret II Mini)
 * There is no GPU support or the GPU is not supported, so framebuffer is the only option
-* It's a device that I own and have decided to build a CFW for it
+* It's a device that we own and have decided to build a CFW for it
 
 ## Features
 
