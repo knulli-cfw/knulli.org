@@ -8,13 +8,15 @@ KNULLI supports a lot of different emulators for a lot of different systems. Man
 
 ## The default bezel decoration set
 
-Unlike Batocera, KNULLI supports bezel sets with bezels for **more than one** resolution/aspect ratio. Consequently, KNULLI comes with a default bezel decoration set called **Default-KNULLI** which contains bezels for 4:3 **and** 16:9 screens. If you activate it, you will have bezel decorations on the built-in screen of your device and you will also have bezel decorations when connecting your device to a TV via HDMI.
+Unlike Batocera, KNULLI supports bezel sets with bezels for **more than one** resolution/aspect ratio. Consequently, KNULLI already comes with a default bezel decoration set called **Default-KNULLI**. Default-KNULLI contains bezels for 4:3, 1:1, **and** 16:9 screens! If you enable it, you will have bezel decorations on the built-in screen of your device and you will also have bezel decorations when connecting your device to a TV via HDMI.
 
-The default bezel decoration set is based on the default Batocera bezel decoration set for 16:9 screens. However, in includes some additional 4:3 bezel decorations to make the set work for the built-in 4:3 screen of your handheld device, too. You can learn more about the default bezel set from its [GitHub repository](https://github.com/chrizzo-hb/knulli-bezels).
+Default-KNULLI contains
 
-!!! warning "No support for 1:1 screens, yet"
+* 16:9 bezels from the original Batocera bezel set "Console".
+* 4:3 bezels by Batocera, [antiKk](https://github.com/antiKk), [drkhrse](https://github.com/drkhrse), [mugwomp93](https://github.com/mugwomp93), and [nvitaterna](https://github.com/nvitaterna).
+* 1:1 bezels by Batocera, [Ifan](https://forums.libretro.com/t/dosbox-overlay/19236), and [Vidnez](https://github.com/Vidnez).
 
-    The **Default-KNULLI** bezel set currently does **not** support screens with a **1:1** aspect ratio. Consequently, the **Default-KNULLI** bezel set does **not** work on devices with a 1:1 screen like the Anbernic RG CubeXX.
+You can learn more about the default bezel set from its [GitHub repository](https://github.com/chrizzo-hb/knulli-bezels).
 
 ## Apply bezel decorations
 
