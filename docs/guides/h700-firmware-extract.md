@@ -288,7 +288,7 @@ Then extract partitions 1 and 2 with:
 
 ```bash
 dd if=RG35XXH-EN16GB-OS240330.IMG of=boot.img bs=512 skip=73728 count=8806400
-dd if=RG35XXH-EN16GB-OS240330.IMG of=env.img bs=512 skip=8880128 count=8945663
+dd if=RG35XXH-EN16GB-OS240330.IMG of=env.img bs=512 skip=8880128 count=65536
 ```
 
 If you use the SDCARD, just replace ``RG35XXH-EN16GB-OS240330.IMG`` with the device of your sdcard. In this example is /dev/sdh but you will need to identify the correct device.
