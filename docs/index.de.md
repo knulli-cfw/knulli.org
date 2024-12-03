@@ -28,9 +28,7 @@ Für diejenigen, die **KNULLI neu installieren** wollen: Unser [Quick Start Guid
 
 !!! danger "Wichtig: Vor dem Update unbedingt lesen!"
 
-    Diese Version von KNULLI bringt eine große Menge Veränderungen mit sich. Einige dieser Veränderungen machen es leider **zwingend nötig**, dass du KNULLI **neu flashst**. Wir **raten dringend davon ab**, eine bestehende KNULLI installation manuell zu aktualisieren - es wird zu Problemen führen. Wir emfehlen stattdessen, eine frische Installation von KNULLI aufzusetzen.
-
-    Da du deine Benutzerdaten wahrscheinlich behalten möchtest, empfehlen wir, dass du sie entweder selbst auf deinen Computer sicherst oder einen Blick auf unsere [Anleitung zur Migration auf ein Dual-SD-Card-Setup](../guides/dual-sd-card-migration) wirfst. Falls du Benutzerdaten aus einer vorherigen KNULLI-Installation übernehmen willst, solltest du **auf keinen Fall** den `system`-Ordner mitnehmen.
+    Diese Version von KNULLI bringt eine große Menge Veränderungen mit sich. Einige dieser Veränderungen machen es leider **zwingend nötig**, dass du KNULLI **neu flashst**. Wir **raten dringend davon ab**, eine bestehende KNULLI installation manuell zu aktualisieren - es wird zu Problemen führen. Wir empfehlen stattdessen, eine frische Installation von KNULLI aufzusetzen.
 
     Außerdem ist jetzt vielleicht ein guter Zeitpunkt, um noch einmal über die Wahl des Dateisystems nachzudenken: Wir empfehlen nach wie vor die Verwendung von ext4, es ist allerdings nicht mehr zwingend notwendig, um PortMaster-Spiele spielen zu können. Das PortMaster-Team ist gerade dabei, eine Lösung auszurollen, damit PortMaster-Spiele in Zukunft auch auf KNULLI-Geräten mit exFAT-Laufwerken gespielt werden können. Bitte lies den Abschnitt [PortMaster und exFAT](../guides/portmaster-and-exfat), wenn du mehr darüber wissen möchtest.
 

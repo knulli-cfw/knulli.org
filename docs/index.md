@@ -30,8 +30,6 @@ If you are **new to KNULLI** and you want to get started: Head to the [Quick Sta
 
     This version of KNULLI comes with a lot of new features which **require** to **re-flash** the firmware. We **strongly discourage** you from attempting a manual update - it will cause problems. Instead, we strongly suggest a **fresh installation** of KNULLI!
 
-    However, if you want to migrate your user data, either back it up on your local computer or have a look at our [Dual SD Card Migration guide](../guides/dual-sd-card-migration). If you decide to migrate, please make sure **not** to adopt the `system` folder from your previous KNULLI installation.
-
     Also be aware that the ext4 file system is still strongly recommended but no longer mandatory as explained in the [PortMaster and exFAT Guide](../guides/portmaster-and-exfat).
 
 ## About KNULLI
