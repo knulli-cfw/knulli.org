@@ -48,7 +48,9 @@ Dieser Schritt ist **zwingend nötig** um deine Spiele hinzuzufügen, es sei den
 
 !!! danger "Problemlösungen"
 
-    Falls du dein KNULLI-Gerät nicht mit deinem W-LAN verbinden kannst, solltest du prüfen, ob WPA3-Verschlüsselung in deinem Router aktiviert ist und sie ggf. abschalten und stattdessen WPA2 verwenden.
+    Falls du dein KNULLI-Gerät nicht mit deinem W-LAN verbinden kannst, solltest du prüfen, ob WPA2+WPA3-Verschlüsselung in deinem Router aktiviert ist und sie ggf. abschalten und stattdessen WPA1+WPA2 verwenden.
+
+    Alternativ kannst du auch den neuen **experimentellen Hintergrunddienst** ausprobieren, der es u.U. ermöglicht, das Gerät mit einem via WPA2+WPA3 geschützen W-LAN zu verbinden. Drück ++"Start"++ um das Hauptmenü zu öffnen, gehe zu *System Settings*, dann *Services* und aktivierte dort *WIRELESS_HYBRID_FIX*. Bitte behalte im Hinterkopf, dass es sich bei diesem Hintergrunddienst um ein **experimentelles** Feature handelt.
 
 ### 3. Spiele und BIOSe hinzufügen
 

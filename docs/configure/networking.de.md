@@ -16,9 +16,12 @@ Um deinen Netzwerkadapter in Betrieb zu nehmen
 
 ## W-LAN einrichten
 
-!!! danger "WPA3-Probleme"
+!!! danger "Probleme mit WPA2+WPA3"
 
-    Einige Nutzer haben von Problemen berichtet, die entstanden sind, als sie ihr KNULLI-Gerät mit einem WPA3-geschützten W-LAN verbinden wollten. Falls du Probleme hast, mit deinem W-LAN zu verbinden, stelle sicher, dass es mit WPA2 und **nicht** mit WPA3 geschützt ist.
+    Einige Nutzer haben von Problemen berichtet, die entstanden sind, als sie ihr KNULLI-Gerät mit einem WPA2+WPA3-geschützten W-LAN verbinden wollten. KNULLI unterstützt WPA2+WPA3 derzeit nicht, wir empfehlen daher, die Netzwerkverschlüsselung zu lockern und, sofern möglich, zu WPA1+WPA2 zu wechseln.
+
+    KNULLI Firefly bringt allerdings einen brandneuen, **experimentellen Hintergrunddienst** mit, der es u.U. ermöglicht, das Gerät mit einem via WPA2+WPA3 geschützen W-LAN zu verbinden. Falls du Probleme hast, dein Gerät mit deinem W-LAN zu verbinden, kannst du versuchen, den neuen Hintergunddienst zu aktivieren. Drück ++"Start"++ um das Hauptmenü zu öffnen, gehe zu *System Settings*, dann *Services* und aktivierte dort *WIRELESS_HYBRID_FIX*. Bitte behalte im Hinterkopf, dass es sich bei diesem Hintergrunddienst um ein **experimentelles** Feature handelt.
+
 
 Wenn dein Gerät einen eingebauten W-LAN-Adapter hat, kannst du ihn direkt via KNULLI konfigurieren. Öffne das Hauptmenü, in dem du den ++"Start"++-Button drückst, gehe zu *Network settings* und konfiguriere dort deine W-LAN-Verbindung. Im unteren Abschnitt *Settings* kannst du W-LAN aktivieren (*Enable WIFI*) und dein W-LAN ahand seiner SSID auswählen. Anschließend kannst du den W-LAN-Schlüssel eingeben und das Menü schließen, um mit dem W-LAN zu verbinden.
 

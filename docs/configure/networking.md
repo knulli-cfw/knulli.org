@@ -16,10 +16,12 @@ To activate your USB network adapter
 
 ## Setting up Wi-Fi
 
-!!! danger "WPA3 issues"
+!!! danger "WPA2+WPA3 issues"
 
-    Some users experienced issues when connecting their device to a WPA3-protected Wi-Fi. If your device does not connect to your local Wi-Fi, make sure that it is protected with WPA2, **not** WPA3.
+    Some users experienced issues when connecting their device to a **WPA2+WPA3-protected Wi-Fi**. KNULLI currently **doesn't support** WPA2+WPA3 networks, so we recommend to lower security measures and switch your Wi-Fi to WPA1+WPA2 if possible.
 
+    However, KNULLI Firefly comes with a brand new **experimental service** which might allow you to connect to your WPA2+WPA3-protected Wi-Fi anyway. If you have problems connecting to your Wi-Fi, try to enable the service. Press ++"Start"++ to bring up the main menu, go to *System Settings*, then *Services*, and enable *WIRELESS_HYBRID_FIX*. Be aware that this feature is **experimental**.
+    
 If your device has a built-in Wi-Fi adapter, you can set it up directly via KNULLI. Press the ++"Start"++ button to open the main menu, go to *Network settings* where you can configure your Wi-Fi connection. In the lower *Settings* section, enable Wi-Fi, then select your Wi-Fi by its SSID, enter your Wi-Fi key, and leave the menu to connect to your Wi-Fi.
 
 In the section above, you can see whether you are currently connected to Wi-Fi, see your current IP address and toggle the network indicator on or off.
