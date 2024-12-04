@@ -8,11 +8,12 @@
 
 We are happy to announce that **KNULLI Firefly** has gone public! Why "Firefly"? Starting with Firefly, all KNULLI releases will have a codename to indicate the release version. KNULLI Firefly comes with a lot of new features and improvements. These are just a few highlights:
 
-* Added device support for the RG40XX H, RG40XX V and RGCubeXX
+* Added device support for the Anbernic RG40XX H, RG40XX V, RGCubeXX
+* Added device support for the TrimUI Brick (pre-alpha)
 * Improved support for the [lid behavior](../configure/power-management) of the RG35XX SP (sleep mode or shutdown)
-* Removed cardinal snapping of the joysticks of the RG35XX H and RG40XX H/V (Thanks to @thegammasqueeze!)
+* Removed cardinal snapping of the joysticks of the RG35XX H and RG40XX H/V (Thanks to [@TheGammaSqueeze](https://github.com/TheGammaSqueeze)!)
 * Introduced [power management](../configure/power-management) to save battery life
-* Added [RGB LED support](../configure/rgb-leds) for the RG40XX H/V and RGCubeXX
+* Added [RGB LED support](../configure/rgb-leds) for the Anbernic RG40XX H/V, RGCubeXX, and TrimUI Smart Pro
 * Added Drastic-Steward as an additional NDS emulator
 * Added support for 32bit PortMaster games
 * Added a lot of new EmulationStation settings for various emulators
@@ -22,15 +23,15 @@ We are happy to announce that **KNULLI Firefly** has gone public! Why "Firefly"?
 * New bezel set *Default-KNULLI* with bezels for 4:3, 1:1, and 16:9 screens
 * Tons of bugfixes and performance improvements
 
-You will find the complete change log in the [release notes on GitHub](https://github.com/knulli-cfw/distribution/releases/latest).
+You will find a complete list of all new features, fixes, and changes in the [change log](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md).
 
-If you are **new to KNULLI** and you want to get started: Head to the [Quick Start Guide](../play/quick-start) - it will guide you through the installation and your very first steps. If you are **already running KNULLI** and want to update to Firefly: Please **read the big red box** right below! In any case: We hope you enjoy playing your games with KNULLI!
+If you are **new to KNULLI** and want to get started: Head to the [Quick Start Guide](https://knulli.org/play/quick-start) on our website - it will guide you through the installation and your very first steps. If you are already running KNULLI and want to **upgrade** to Firefly: Make sure to bring yourself up to speed regarding the [PortMaster and exFAT situation](../guides/portmaster-and-exfat) before you start your new KNULLI setup!
 
-!!! danger "Important: Read this before you update!"
+In any case: We hope you enjoy playing your games with KNULLI!
 
-    This version of KNULLI comes with a lot of new features which **require** to **re-flash** the firmware. We **strongly discourage** you from attempting a manual update - it will cause problems. Instead, we strongly suggest a **fresh installation** of KNULLI!
+!!! warning "Major Update"
 
-    Also be aware that the ext4 file system is still strongly recommended but no longer mandatory as explained in the [PortMaster and exFAT Guide](../guides/portmaster-and-exfat).
+    This version of KNULLI comes with a lot of new features which **require** to re-flash the firmware.
 
 ## About KNULLI
 

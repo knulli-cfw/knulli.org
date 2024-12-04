@@ -8,11 +8,12 @@
 
 Wir freuen uns sehr, dass wir es endlich ankündigen dürfen: **KNULLI Firefly** steht zum Download bereit! Warum "Firefly"? Ab Firefly werden alle KNULLI-Versionen einen Codenamen haben, um die verschiedenen Versionen leichter unterscheiden zu können. KNULLI Firefly bringt eine ganze Reihe neuer Features und Verbesserungen mit. Hier sind einige Highlights:
 
-* Unterstützung für die Geräte RG40XX H, RG40XX V und RGCubeXX hinzugefügt
+* Geräteunterstützung für RG40XX H, RG40XX V und RGCubeXX hinzugefügt
+* Geräteunterstützung für TrimUI Smart Pro (pre-alpha)
 * Unterstützung der [Klappfunktion](../configure/power-management) des RG35XX SP verbessert (Standby oder Herunterfahren)
-* "Cardinal Snapping" der Joysticks von RG35XX H und RG40XX H/V entfernt (Vielen Dank, @thegammasqueeze!)
+* "Cardinal Snapping" der Joysticks von RG35XX H und RG40XX H/V entfernt (Vielen Dank, [@TheGammaSqueeze](https://github.com/TheGammaSqueeze)!)
 * Einführung von [Energieeinstellungen](../configure/power-management) um die Akkulaufzeit zu verbessern
-* Unterstützung für die [RGB-LEDs](../configure/rgb-leds) von RG40XX H/V und RGCubeXX hinzugefügt
+* Unterstützung für die [RGB-LEDs](../configure/rgb-leds) der Geräte Anbernic RG40XX H/V, RGCubeXX und TrimUI Smart Pro hinzugefügt
 * Drastic-Steward als zusätzlicher NDS-Emulator hinzugefügt
 * Unterstützung für 32-Bit-Portmaster-Spiele hinzugefügt
 * Diverse neue Einstellungsmöglichkeiten in EmulationStation für verschiedene Emulatoren
@@ -22,15 +23,15 @@ Wir freuen uns sehr, dass wir es endlich ankündigen dürfen: **KNULLI Firefly**
 * Neues Bezel-Deko-Set *Default-KNULLI* mit Bezel-Dekos für 4:3-, 1:1- und 16:9-Bildschirme hinzugefügt
 * Unzählige Bugfixes und Verbesserungen
 
-Ein vollständiges Changelog findet ihr in den [Release Notes auf GitHub](https://github.com/knulli-cfw/distribution/releases/latest).
+Eine vollständige Liste aller Features, Korrekturen und Änderungen findet ihr im [Changelog](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md).
 
-Für diejenigen, die **KNULLI neu installieren** wollen: Unser [Quick Start Guide](../play/quick-start) wird euch durch die Installation und die ersten Schritte mit KNULLI begleiten. Für diejenigen, die **KNULLI bereits verwenden** und aktualisieren wollen: Bitte **lies die große rote Box** direkt unter diesem Text! In jedem Fall wünschen wir viel Spaß beim Spielen mit KNULLI!
+Falls du KNULLI noch nicht kennst und **neu installieren** möchtest: Unser [Quick Start Guide](../play/quick-start) wird dich durch die Installation und die ersten Schritte mit KNULLI begleiten. Falls du KNULLI bereits verwendest und auf die **neue Firefly-Version wechseln** möchtest: Wirf einen Blick auf die jüngsten Entwicklungen bezüglich der [PortMaster-und-exFAT-Situation](../guides/portmaster-and-exfat) bevor du anfängst, KNULLI neu zu installieren!
 
-!!! danger "Wichtig: Vor dem Update unbedingt lesen!"
+In jedem Fall wünschen wir dir viel Spaß beim Spielen mit KNULLI!
 
-    Diese Version von KNULLI bringt eine große Menge Veränderungen mit sich. Einige dieser Veränderungen machen es leider **zwingend nötig**, dass du KNULLI **neu flashst**. Wir **raten dringend davon ab**, eine bestehende KNULLI installation manuell zu aktualisieren - es wird zu Problemen führen. Wir empfehlen stattdessen, eine frische Installation von KNULLI aufzusetzen.
+!!! warning "Umfangreiches Update"
 
-    Außerdem ist jetzt vielleicht ein guter Zeitpunkt, um noch einmal über die Wahl des Dateisystems nachzudenken: Wir empfehlen nach wie vor die Verwendung von ext4, es ist allerdings nicht mehr zwingend notwendig, um PortMaster-Spiele spielen zu können. Das PortMaster-Team ist gerade dabei, eine Lösung auszurollen, damit PortMaster-Spiele in Zukunft auch auf KNULLI-Geräten mit exFAT-Laufwerken gespielt werden können. Bitte lies den Abschnitt [PortMaster und exFAT](../guides/portmaster-and-exfat), wenn du mehr darüber wissen möchtest.
+    Diese Version von KNULLI bringt eine große Menge Veränderungen mit sich, die es **zwingend nötig** machen, dass du KNULLI **neu flashst**.
 
 ## Über KNULLI
 
