@@ -12,11 +12,11 @@ If a controller does not work with your KNULLI-device out of the box, it might b
 
 Most KNULLI-compatible devices are handhelds with built-in controls. They usually consists of a **directional pad** (:material-gamepad:, short: **D-pad**), the so called **face buttons** (:material-gamepad-circle:), some **shoulder buttons** (++"L1"++, ++"R1"++) and/or **shoulder triggers** (++"L2"++, ++"R2"++) and some buttons for ++"Start"++ and ++"Select"++. Additionally, your device will most likely have **power switch** and a **function button** (++"Function"++) which will be used for hotkey shortcuts. **Optionally**, your device might also have **analog sticks** and a **reset button**. If you do not know where those buttons are located on your device, please have a look at the manual of your device.
 
-KNULLI comes with a set of pre-defined **hotkey shortcuts** which allow you to save, load, and quit your games, take screenshots, etc. We strongly recommend to **learn** the hotkey shortcuts and we also strongly advise **against** modifying the hotkey shortcuts. You will find a list of all default hotkey shortcuts in the [Hotkey Shortcuts](../../play/hotkey-shortcuts) section.
+KNULLI comes with a set of pre-defined **hotkey shortcuts** which allow you to save, load, and quit your games, take screenshots, etc. We strongly recommend to **learn** the hotkey shortcuts. You will find a list of all default hotkey shortcuts in the [Hotkey Shortcuts](../../play/hotkey-shortcuts) section.
 
 !!! info "Controller names"
 
-    Depending on your device, your built-in controls have a distinct name. For example, on the Anbernic RG40XX H, the built-in controls are called `ANBERNIC-keys`, on the RG35XX H, they are called `Deeplay-keys`.
+    Depending on your device, your built-in controls have a distinct name. For example, on the Anbernic RG40XX H, the built-in controls are called `Anbernic RG40XX-H Controller`.
 
 ## Assigning controllers
 

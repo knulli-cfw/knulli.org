@@ -48,7 +48,9 @@ Unless you have decided to reformat to exFAT, this step is **mandatory** to be a
 
 !!! danger "Troubleshooting"
 
-    If you are unable to connect your KNULLI device to your Wi-Fi, please make sure to disable WPA3 encryption in your router and stick with WPA2 instead.
+    If you are unable to connect your KNULLI device to your Wi-Fi, please make sure to disable WPA2+WPA3 encryption in your router and stick with WPA1+WPA2 instead.
+
+    Alternatively, you can try the brand new **experimental service** which might allow you to connect to your WPA2+WPA3-protected Wi-Fi anyway. Press ++"Start"++ to bring up the main menu, go to *System Settings*, then *Services*, and enable *WIRELESS_HYBRID_FIX*. Be aware that this feature is **experimental**.
 
 ### 3. Add games and BIOSes
 

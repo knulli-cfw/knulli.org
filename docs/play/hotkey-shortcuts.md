@@ -2,11 +2,13 @@
 
 Hotkey shortcuts are among the most important basics you need to learn in order to navigate your KNULLI device and play your games. This section will give you an overview over the available hotkey shortcuts.
 
-!!! danger "Customizing shortcuts"
+!!! warning "Customizing shortcuts"
 
-     Currently, KNULLI does **not** support hotkey shortcut customization.
+     KNULLI attempts to provide the best possible out-of-the-box user experience. For that reason, KNULLI comes with pre-defined hotkeys which apply to (almost) **every emulator** KNULLI comes with.
      
-     The reason is simple: KNULLI attempts to provide the best possible out-of-the-box user experience. For that reason, KNULLI comes with pre-defined hotkeys which apply to (almost) **every emulator** KNULLI comes with. Unlike the RetroArch-integrated emulator cores, many **standalone** emulators **cannot** be configured at runtime. Instead, hotkeys have to be defined on the **source-code level**. It is possible to **[override hotkey shortcuts in RetroArch](../../configure/retroarch/custom-hotkey-shortcuts)**, but we **strongly advise against it**.
+     It is possible to **customize** hotkeys from the KNULLI GUI for **RetroArch-integrated emulators**. You can find instructions in the [RetroArch section](../../configure/retroarch/custom-hotkey-shortcuts). However, please be aware that those customizations will **only** apply ro RetroArch cores.
+     
+     Many **standalone** emulators **cannot** be configured at runtime. Instead, hotkeys have to be defined on the **source-code level** and cannot be overriden via configuration.
 
 All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"++ button and press another key to call the respective action as indicated by the table below. If you cannot locate the function button on your device, find help in the [Basic Inputs section](../basic-inputs).
 
@@ -14,10 +16,12 @@ All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"+
 
      If you forgot a shortcut: Don't worry! KNULLI comes with an on-screen manual. At the home screen, press ++"Select"++ to bring up the *Quick access* menu. Here, you will be able to *View user manual*, which contains a list of all shortcuts.
 
+## KNULLI Hotkey Shortcuts
+
 | Shortcut                                        | Action                                           |
 | ----------------------------------------------- | ------------------------------------------------ |
 | ++"Function"++ + ++"Start"++                    | Quit the game and return to EmulationStation     |
-| ++"Function"++ + ++"Select"++                   | **Only on devices without analog sticks:** Toggle between mapping either the D-pad or an analog stick to the D-pad (e.g., for playing N64)     |
+| ++"Function"++ + ++"Select"++                   | **Only on devices without analog sticks:** Toggle between mapping either the D-pad or an analog stick to the D-pad (e.g., for playing N64 or moving the touch cursor in NDS) |
 | ++"Function"++ + :material-gamepad-circle-down: | Open the emulator menu of the current core       |
 | ++"Function"++ + :material-gamepad-circle-left: | Quick save in the currently selected save slot   |
 | ++"Function"++ + :material-gamepad-circle-up:   | Quick load from the currently selected save slot |
@@ -28,8 +32,31 @@ All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"+
 | ++"Function"++ + ++"L1"++                       | Take a screenshot                                |
 | ++"Function"++ + ++"Volume Up"++                | Increase brightness                              |
 | ++"Function"++ + ++"Volume Down"++              | Decrease brightness                              |
-| (In **Drastic** (NDS) emulator): ++"L2"++       | Toggle between screen arrangements               |
-| (In **Drastic** (NDS) emulator): ++"R2"++       | Toggle between single/dual screen mode           |
+| ++"L2"++                                        | **In Drastic (NDS)**: Swap first/second screen (single screen) or switch between screen arrangements (dual screen) |
+| ++"Function"++ + ++"L2"++                       | **In Drastic (NDS)**: Switch between single/dual screen |
+| ++"R2"++                                        | **In Drastic (NDS)**: Touch cursor click         |
+| ++"Function"++ + ++"R2"++                       | **In Drastic (NDS)**: Microfone input            |
+
+## Drastic-Steward Hotkey Shortcuts
+
+Since Firefly, KNULLI comes with Drastic-Steward, an additional NDS emulator. However, Drastic-Steward has some hard-coded hotkey shortcuts which are very different from the default KNULLI hotkeys. Unfortunately, we cannot change the hotkeys of the closed-source emulator, so you will have to learn them if you want to play with Drastic Steward.
+
+| Shortcut                                        | Action                                           |
+| ----------------------------------------------- | ------------------------------------------------ |
+| ++"Function"++ + ++"Start"++                    | Open Quick Settings                              |
+| ++"Function"++ + ++"Select"++                   | Open Drastic Main Menu                           |
+| ++"Function"++ + :material-gamepad-circle-down: | Toggles blur on/off                              |
+| ++"Function"++ + :material-gamepad-circle-left: | Switch bezel decoration                          |
+| ++"Function"++ + :material-gamepad-circle-right:| Switch between current screen layout and dual screen layout |
+| ++"Function"++ + :material-gamepad-right:       | Next screen layout                               |
+| ++"Function"++ + :material-gamepad-left:        | Previous screen layout                           |
+| ++"Function"++ + ++"L1"++                       | Quit the game and return to EmulationStation     |
+| ++"Function"++ + ++"L2"++                       | Quick load                                       |
+| ++"Function"++ + ++"R1"++                       | Toggle fast forward                              |
+| ++"Function"++ + ++"R2"++                       | Quick save                                       |
+| ++"L2"++                                        | Turn touch cursor on/off                         |
+| ++"R2"++                                        | Swap first/second screen (single screen) or switch between screen arrangements (dual screen) |
+| ++"R3"++                                        | Touch cursor click                               |
 
 !!! info "Not every emulator supports every shortcut"
 

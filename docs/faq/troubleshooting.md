@@ -47,7 +47,9 @@ A: Expanding and booting the first time with a 64GB SDCARD takes about 1 to 1:30
 
 ### Q: I cannot connect to my Wi-Fi even though my device has a wireless network adapter - what can I do?
 
-A: Make sure that your router is set to WPA2. Some users experience connection issues with Wi-Fis which are set to WPA3.
+A: Some users experienced issues when connecting their device to a **WPA2+WPA3-protected Wi-Fi**. KNULLI currently **doesn't support** WPA2+WPA3 networks, so we recommend to lower security measures and switch your Wi-Fi to WPA1+WPA2 if possible.
+
+However, KNULLI Firefly comes with a brand new **experimental service** which might allow you to connect to your WPA2+WPA3-protected Wi-Fi anyway. If you have problems connecting to your Wi-Fi, try to enable the service. Press ++"Start"++ to bring up the main menu, go to *System Settings*, then *Services*, and enable *WIRELESS_HYBRID_FIX*. Be aware that this feature is **experimental**.
 
 ---
 
@@ -57,17 +59,11 @@ A: You might want to try to reset your device to **factory settings**. Please fo
 
 ---
 
-### Q: When I try to open Retro Achievements, I get an error message with status code `419`, telling me I am not authorized. What can I do?
-
-A: Nothing. But don't worry! If you see this message, it only means that your version of KNULLI does not support **displaying** your collected Retro Achievements, **yet**. However, it is still completely possible to **collect** Retro Achievements while playing! Just set up your Retro Achievements account as explained in the [Retro Achievements](../../play/retro-achievements) section and start hunting!
-
----
-
 ### Q: Why do my RetroArch settings always reset whenever I launch a game?
 
 A: You are not supposed to make changes in RetroArch directly. Most relevant options for each emulator and/or RetroArch core can be set in EmulationStation either globally or per system or even per game. The RetroArch configuration file is **generated** anew with every launch of a game, based on the settings you made globally or for the specific system/game in **EmulationStation**. For that reason, all the changes you make while playing will be overwritten the next time you launch a game, except for **overrides** and **remap files**.
 
-Please set up your emulators in EmulationStation. If you miss an emulator option in EmulationStation that seems relevant to you, you might want to get in touch and make your case. Maybe we can help you adopt this emulator option into an EmulationStation setting or at least give you insight why we don't think this option should be set by the user (e.g. hotkey changes which would lead to system-wide inconsistencies).
+Please set up your emulators in EmulationStation. If you miss an emulator option in EmulationStation that seems relevant to you, you might want to get in touch and make your case. Maybe we can help you adopt this emulator option into an EmulationStation setting or at least give you insight why we don't think this option should be set by the user.
 
 ---
 
