@@ -32,6 +32,8 @@ In any case: We hope you enjoy playing your games with KNULLI!
 !!! warning "Major Update"
 
     This version of KNULLI comes with a lot of new features which **require** to re-flash the firmware.
+    
+    We **strongly recommend** to simply start over with a clean install. However, if you want to try migrating your user data from a previous installation to the new installation, please have a look at the [Major Updates guide](../guides/major-updates).
 
 ## About KNULLI
 
