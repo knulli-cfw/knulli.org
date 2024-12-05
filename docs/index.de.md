@@ -33,6 +33,8 @@ In jedem Fall wünschen wir dir viel Spaß beim Spielen mit KNULLI!
 
     Diese Version von KNULLI bringt eine große Menge Veränderungen mit sich, die es **zwingend nötig** machen, dass du KNULLI **neu flashst**.
 
+    Wir **raten eindringlich dazu**, eine komplett neue Installation von KNULLI aufzusetzen. Wenn du allerdings unbedingt versuchen möchtest, deine Benutzerdaten einer vorherigen Installation zu übernehmen, wirf bitte einen Blick in den Abschnitt [Umfangreiche Updates](../guides/major-updates).
+
 ## Über KNULLI
 
 KNULLI ist eine unabhängige Custom-Firmware (CFW) für Retro-Gaming-Konsolen (Handhelds, Bartops, etc.). Knulli wird als Fork von [Batocera](https://batocera.org) entwickelt und verfolgt das Ziel, Geräte zu unterstützen, die unter mindestens eine dieser Kategorien fallen:

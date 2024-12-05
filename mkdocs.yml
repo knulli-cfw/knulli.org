@@ -157,6 +157,7 @@ plugins:
             Dual SD Card Migration: Zu Dual-SD-Card-Setup wechseln
             PortMaster and exFAT: PortMaster und exFAT
             Power Management: Energieeinstellungen
+            Major Updates: Umfangreiche Updates
         - locale: pl
           name: Polski
           build: true
@@ -303,6 +304,7 @@ nav:
     - Guides:
         - Dual SD Card Migration: guides/dual-sd-card-migration.md
         - PortMaster and exFAT: guides/portmaster-and-exfat.md
+        - Major Updates: guides/major-updates.md
     - Community:
         - Contribute: community/contribute.md
     - Devices: 
