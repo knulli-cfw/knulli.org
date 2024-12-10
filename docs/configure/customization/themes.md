@@ -1,8 +1,8 @@
 # :material-page-next-outline: Themes
 
-Knulli's default frontend is EmulationStation and default theme is [Art Book Next](https://github.com/anthonycaccese/art-book-next-es). Also included by default is the [Carbon](https://github.com/fabricecaruso/es-theme-carbon) theme from Batocera. Both are updated automatically as part of each release.
+Knulli's default frontend is EmulationStation and default theme is [Art Book Next](https://github.com/anthonycaccese/art-book-next-es). Also included by default is the [Carbon](https://github.com/fabricecaruso/es-theme-carbon) theme from Batocera and [Knulli](https://github.com/symbuzzer/es-theme-knulli) theme. All three themes are automatically updated as part of each release.
 
-## Preview
+## Preview (Art Book Next)
 
 <table>
   <tr>
@@ -12,6 +12,19 @@ Knulli's default frontend is EmulationStation and default theme is [Art Book Nex
   <tr>
     <td><img src="/_inc/images/screenshots/gamelist-view-metadata-immersive.png"/></td>
     <td><img src="/_inc/images/screenshots/gamelist-view-no-metadata-immersive.png"/></td>
+  </tr>
+</table>
+
+## Preview (Knulli)
+
+<table>
+  <tr>
+    <td><img src="/_inc/images/screenshots/knulli-system-view.png"/></td>
+    <td><img src="/_inc/images/screenshots/knulli-menu.png"/></td>
+  </tr>
+  <tr>
+    <td><img src="/_inc/images/screenshots/knulli-gamelist-view-detailed.png"/></td>
+    <td><img src="/_inc/images/screenshots/knulli-gamelist-view-basic.png"/></td>
   </tr>
 </table>
 
