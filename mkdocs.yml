@@ -261,10 +261,10 @@ nav:
       - Add Games:
         - Add Games: play/add-games/index.md
         - Game Storage: play/add-games/game-storage.md
-        - Accessing SD Card: play/add-games/accessing-sd-card.md
+        - Formatting: play/add-games/formatting.md
         - Second SD Card: play/add-games/second-sd-card.md
         - Network Transfer: play/add-games/network-transfer.md
-        - Formatting: play/add-games/formatting.md
+        - Accessing SD Card: play/add-games/accessing-sd-card.md
       - BIOSes: play/bioses.md
       - Scraping: play/scraping.md
       - Basic Inputs: play/basic-inputs.md
