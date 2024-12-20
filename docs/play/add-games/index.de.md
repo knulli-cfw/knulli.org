@@ -17,5 +17,5 @@ Es gibt verschiedene Möglichkeiten, um Spiele auf dein KNULLI-Gerät zu laden. 
 ## Nachdem dein Datenspeicher eingerichtet ist
 
 * [Netzwerkübertragung](network-transfer) - Lerne die Netzwerkübertragung von KNULLI kennen.
-* [Zugriff via USB](accessing-via USB) - Lerne wie du via USB auf dein Gerät zugreifen kannst.
+* [Zugriff via USB](accessing-via-usb) - Lerne wie du via USB auf dein Gerät zugreifen kannst.
 * [Direktzugriff auf die SD-Karte](accessing-sd-card) - Lerne wie du direkt von Windows auf deine SD-Karte zugreifen kannst (falls möglich).
