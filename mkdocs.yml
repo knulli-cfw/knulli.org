@@ -159,6 +159,7 @@ plugins:
             Power Management: Energieeinstellungen
             Major Updates: Umfangreiche Updates
             Questions about KNULLI: Fragen zu KNULLI
+            Accessing via USB: Zugriff via USB
         - locale: pl
           name: Polski
           build: true
@@ -266,6 +267,7 @@ nav:
         - Formatting: play/add-games/formatting.md
         - Second SD Card: play/add-games/second-sd-card.md
         - Network Transfer: play/add-games/network-transfer.md
+        - Accessing via USB: play/add-games/accessing-via-usb.md
         - Accessing SD Card: play/add-games/accessing-sd-card.md
       - BIOSes: play/bioses.md
       - Scraping: play/scraping.md
