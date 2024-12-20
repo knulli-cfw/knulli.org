@@ -158,6 +158,7 @@ plugins:
             PortMaster and exFAT: PortMaster und exFAT
             Power Management: Energieeinstellungen
             Major Updates: Umfangreiche Updates
+            Questions about KNULLI: Fragen zu KNULLI
         - locale: pl
           name: Polski
           build: true
@@ -251,9 +252,10 @@ plugins:
             Unbranded: Senza Marchio
 nav:
     - Home: index.md
+    - About KNULLI: about-knulli.md
     - FAQs:
       - FAQs: faq/index.md
-      - About KNULLI: faq/knulli.md
+      - Questions about KNULLI: faq/knulli.md
       - Troubleshooting: faq/troubleshooting.md
     - Play:
       - Quick Start Guide: play/quick-start.md
