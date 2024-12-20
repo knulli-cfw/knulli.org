@@ -17,4 +17,5 @@ KNULLI has a few options for adding games. Depending on the capabilities of your
 ## After your game storage is set up
 
 * [Network Transfer](network-transfer) - Learn how to add your games via Wi-Fi.
+* [Accessing your device via USB](accessing-via USB) - Learn how to access your device via USB.
 * [Accessing your SD Card directly](accessing-sd-card) - Learn how to access your SD card directly from Windows (if applicable).
