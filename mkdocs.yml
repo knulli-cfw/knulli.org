@@ -158,6 +158,8 @@ plugins:
             PortMaster and exFAT: PortMaster und exFAT
             Power Management: Energieeinstellungen
             Major Updates: Umfangreiche Updates
+            Questions about KNULLI: Fragen zu KNULLI
+            Accessing via USB: Zugriff via USB
         - locale: pl
           name: Polski
           build: true
@@ -251,9 +253,10 @@ plugins:
             Unbranded: Senza Marchio
 nav:
     - Home: index.md
+    - About KNULLI: about-knulli.md
     - FAQs:
       - FAQs: faq/index.md
-      - About KNULLI: faq/knulli.md
+      - Questions about KNULLI: faq/knulli.md
       - Troubleshooting: faq/troubleshooting.md
     - Play:
       - Quick Start Guide: play/quick-start.md
@@ -261,10 +264,11 @@ nav:
       - Add Games:
         - Add Games: play/add-games/index.md
         - Game Storage: play/add-games/game-storage.md
-        - Accessing SD Card: play/add-games/accessing-sd-card.md
+        - Formatting: play/add-games/formatting.md
         - Second SD Card: play/add-games/second-sd-card.md
         - Network Transfer: play/add-games/network-transfer.md
-        - Formatting: play/add-games/formatting.md
+        - Accessing via USB: play/add-games/accessing-via-usb.md
+        - Accessing SD Card: play/add-games/accessing-sd-card.md
       - BIOSes: play/bioses.md
       - Scraping: play/scraping.md
       - Basic Inputs: play/basic-inputs.md
