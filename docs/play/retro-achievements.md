@@ -26,6 +26,25 @@ KNULLI has a native integration with [RetroAchievements](https://retroachievemen
     
     To change the location of the *Retroachievements* section, press ++"Start"++ to bring up the main menu, head to *Game Settings* and find *RetroAchievement Settings*. Here, you can toggle *Show RetroAchievements entry in main menu* on or off.
 
+### Changes through SSH / FTP
+It is possible to add these details over the network via SSH or FTP, please reference the guide on [Configuring SSH](./../configure/ssh) or [Using FTP/SCP](./add-games/network-transfer) to get started.
+
+When you have a connection open, you will need to open the Batocera config file in a Text Editor: `/userdata/system/batocera.conf`
+
+In this file, you can then set the following options. The values are stored in plaintext and require no quotations.
+```
+global.retroachievements.username=
+global.retroachievements.password=
+global.retroachievements.webapikey=
+```
+
+For example, setting a password would be:
+`global.retroachievements.password=This1sN0tSecure`
+
+Once you have made these changes, you can save and exit the Text editor. 
+
+You will need to restart your Device for the config to be picked up.
+
 ## Additional Notes
 
 - There are additional settings that can be changed in the above menu to tailor your experience.  Please see the documentation @ [docs.retroachievements.org](https://docs.retroachievements.org/) for details on each option
