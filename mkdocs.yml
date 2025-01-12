@@ -290,6 +290,7 @@ nav:
         - Background Music: configure/customization/background-music.md
         - Bezel Decorations: configure/customization/bezel-decorations.md
         - Boot Logo: configure/customization/bootlogo.md
+        - Shaders : configure/customization/shaders.md
       - SSH: configure/ssh.md
       - Retroarch:
         - Controls: configure/retroarch/controls.md
