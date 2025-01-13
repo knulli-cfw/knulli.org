@@ -83,26 +83,3 @@ Depending on your previous steps and the emulator you chose, you might be led di
 ### Step 6: Scrape media
 
 By default, each ScummVM game will be named after its `.scummvm` file in your EmulationStation GUI. Since this is not very user-friendly, we recommend scraping for artworks and media. Since the scraper will most likely not be able to identify games based on their sometimes pretty cryptic ScummVM IDs, you may need to do scrape **manually** as explained in the [Scraping](../../play/scraping) section.
-
-### Step 7 : Music emulation
-
-!!! info "MT32"
-    Music emulation sometime relies on specific MT32 files that need to be provided separately
-
-Once you've sourced the files, put them in the folder`/userdata/bios` like this:
-``` bash
-/bios
-  └─ scummvm/
-    └─ extra/
-        └─ MT32_CONTROL.ROM
-        └─ MT32_PCM.ROM
-```
-
-From there:
-
-* Lanch any Scummvm game
-* Directly press ++"Start"++ then `Return to launcher`
-* From there go to `Global options`
-* In the `Audio` pane `Preferred device` > select `MT-32 emulator`
-* Quit Scummvm and relaunch the game
-* Enjoy the music
