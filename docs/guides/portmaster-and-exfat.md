@@ -110,4 +110,4 @@ Try to launch your game and see if it works now. Make sure saving and loading yo
 
 ### Step 4: Contribute
 
-If you know your way around Git and if you have a Github account, you might even create a **pull-request** at the PortPaster repository now. By proposing your updated file to the Port Navigators, you can make your fix available to other players and contribute to the retro gaming community.
+If you know your way around Git and if you have a Github account, you might even create a **pull-request** at the PortMaster repository now. By proposing your updated file to the Port Navigators, you can make your fix available to other players and contribute to the retro gaming community.
