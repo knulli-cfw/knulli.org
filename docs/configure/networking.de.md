@@ -27,6 +27,20 @@ Wenn dein Gerät einen eingebauten W-LAN-Adapter hat, kannst du ihn direkt via K
 
 Im Abschnitt darüber kannst du sehen, ob du gerade mit einem W-LAN verbunden bist. Außerdem siehst du deine aktuelle IP-Adresse und kannst das Netzwerksymbol ein- oder ausschalten.
 
+### Weitere W-LANs (bis zu 3)
+
+KNULLI hat ein paar Features die in der GUI nicht angezeigt werden, für technisch versierte Nutzer aber trotzdem zur Verfügung stehen. Via GUI ist es nur möglich, ein einziges W-LAN zur Zeit zu konfigurieren. Falls du allerdings häufiger unterwegs bist und verschiedene W-LANs nutzen möchtest, kannst du ein sekundäres und tertiäres W-LAN konfigurieren, indem du  die entsprechenden Änderungen in `batocera.conf` vornimmst. Du kannst auf die Datei auf dem selben Weg zugreifen, auf dem du deine Spiele hinzufügst, wie im Abschnitt [Add Games](../../play/add-games) beschrieben. Du kannst aber auch einen Kommandozeileneditor verwenden, wenn du die Datei via [SSH](../../ssh) bearbeiten möchtest. Der Dateipfad lautet `/userdata/system/batocera.conf` oder `SHARE\system\batocera.conf`, je nachdem, aus welcher Perspektive du darauf zugreifen möchtest.  Nachdem du die Datei `batocera.conf` in deinem Editor geöffnet hast, musst du nur die folgenden Zeilen ändern:
+
+```
+## Secondary Wi-Fi
+wifi2.ssid=wifiname2
+wifi2.key=supergoodkey2
+
+## Third Wi-Fi
+wifi3.ssid=wifiname3
+wifi3.key=supergoodkey3    
+```
+
 !!! warning "Passwortschutz"
 
     Standardmäßig fragt KNULLI nicht nach einem Passwort, wenn man übers Netzwerk auf dein Gerät zugreift. Das bedeutet, dass deine Nutzerdaten-Partition sofort und ohne Passwortschutz zugreifbar ist, sobald du dein Gerät mit einem W-LAN verbindest. In den eigenen vier Wänden mag das ein praktisches Feature sein. Wenn du dein Gerät allerdings mit einem W-LAN verbindest, das nicht unter deiner Kontrolle ist, gehst du damit ein Sicherheitsrisiko ein. Wir empfehlen dringend, die Maßnahmen für **zusätzliche Sicherheit** zu ergreifen.
