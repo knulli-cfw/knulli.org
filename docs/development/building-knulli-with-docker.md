@@ -1,4 +1,4 @@
-It is recommended that you build knulli via docker instead of using a direct build.  By using docker, you significantly
+It is recommended that you build KNULLI via Docker instead of using a direct build.  By using Docker, you significantly
 reduce the number of differences between your system and the system that developers are building on which reduces issues
 where the system builds fine for one person while failing for another.
 
@@ -7,10 +7,10 @@ where the system builds fine for one person while failing for another.
 - More than 100 GB of available disk space
 
 ## Retro Achievements and Screen Scraper
-This build does not include the required keys for both Screen Scrapper and Retro achievements.  The image will build 
-succesfully without the key, but neither Retro Achievements or Screen Scraper will work without the keys.
+This build does not include the required keys for both Screen Scraper and RetroAchievements.  The image will build 
+succesfully without the key, but neither RetroAchievements or Screen Scraper will work without the keys.
 
-Retro Achievements and Screen Scrapper will work if you add your own keys prior to building.
+RetroAchievements and Screen Scraper will work if you add your own keys prior to building.
 
 ## Step 1: Install Docker
 
@@ -31,8 +31,8 @@ $ git submodule update
 This is not required on every build.  In fact, you can normally skip this step if you've done it already.
 
 You may need to remove your existing docker container and re-do this step if you are switching between different
-builds or if your are building the mainline and breaking changes have been made (example: a new app or library is
-required.)
+builds or if your are building the mainline and breaking changes have been made (e.g., a new app or library is
+required).
 
 ```
 $ make build-docker-image
