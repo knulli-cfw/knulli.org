@@ -11,7 +11,8 @@ Dementsprechend ist es **nicht** möglich, **gleichzeitig** die *SHARE*-Partitio
 !!! info "Interner und externer Speicher"
 
     Du kannst zwischen erster und zweiter SD-Karte wechseln, in dem du den Schritten im Abschnitt [Eine zweite SD-Karte verwenden](../second-sd-card) folgst. Indem du zwischen internem und externem Speicher hin- und her schaltest, legst du für KNULLI fest, wohin `/userdata` zeigen soll.
-!!! info "Wie "mounten" unter Linux funktioniert"
+
+!!! info "Wie "mounten" unter Linux funktioniert"
 
     Was viele Windows-Nutzer nicht wissen: Linux-Systeme addressieren Laufwerke **nicht** mit "Laufwerksbuchstaben", wie du es von deinem Windows-Computer kennst. Linux "mountet" die Laufwerke stattdessen als **Ordner**. Das Linux-Dateisystem kennt das Konzept von Laufwerksbuchstaben nicht, es besteht nur aus einem einzigen Dateibaum, an dessen Spitze das Symbol `/` steht - die "Wurzel" des Baumes. Jeder Ordner der existiert, existiert als **Unterordner** von `/`.
 
@@ -35,9 +36,9 @@ IIm Verzeichnis `/userdata` befinden sich weitere Unterordner, in denen du Spiel
         * `/gb` ist der Ordner, in dem du deine Gameboy-Spiele ablegen kannst.
         * `/ports` ist der Ordner, in dem du deine Ports (inklusive [PortMaster](../../../systems/portmaster) ablegen kannst.
         * ...
-    * `/saves` ist der Ordner, in dem deine gespeicherten Spielstände abgelegt werden.
+    * `/saves` ist der Ordner, in dem deine gespeicherten Spielstände und deine gespeicherten Emulator-Spielzustände abgelegt werden.
     * `/screenshots` ist der Ordner, in dem deine gespeicherten Screenshots abgelegt werden.
-    * `/system` ist der Ordner, der deine Einstellungen enthält. Du solltest hier keine Änderungen vornehmen, wenn du nicht weißt, was du tust. Es kann aber nicht schaden, von diesem Ordner regelmäßige Backups anzufertigen.
+    * `/system` ist der Ordner, der deine Einstellungen enthält. Du solltest hier keine Änderungen vornehmen, wenn du nicht weißt, was du tust. Es kann aber nicht schaden, von diesem Ordner regelmäßige Backups anzufertigen. Dieser Ordner ist übrigens auch dein Linux-Heimatverzeichnis (`$HOME`, `~`).
     * `/theme-customizations` ist der Ordner, in dem du Anpassungen an deinen Themes vornehmen kannst.
     * `/themes` ist der Ordner, in dem du deine Themes ablegen kannst.
 
