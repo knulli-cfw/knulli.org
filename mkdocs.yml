@@ -306,7 +306,7 @@ nav:
         - PortMaster and exFAT: guides/portmaster-and-exfat.md
         - Major Updates: guides/major-updates.md
     - Development:
-        - Building Knulli With Docker: development/building-knulli-with-docker.md
+        - Building KNULLI With Docker: development/building-knulli-with-docker.md
     - Community:
         - Contribute: community/contribute.md
     - Devices: 
