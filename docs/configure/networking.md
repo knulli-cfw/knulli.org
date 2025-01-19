@@ -26,20 +26,19 @@ If your device has a built-in Wi-Fi adapter, you can set it up directly via KNUL
 
 In the section above, you can see whether you are currently connected to Wi-Fi, see your current IP address and toggle the network indicator on or off.
 
-!!! info "Multiple Wi-Fi Networks (up to 3)"
+### Multiple Wi-Fi networks (up to 3)
 
-    Since Knulli is branched from Batocera, it has many nice features that are hidden behind the UI for the savvy user to take advantage of. Through the GUI you may choose a single wifi network SSID through discovery and provide a key through the soft keyboard - but if you're a gamer on the go, you may want a touch of flexibility for additional hot spots.
-    
-    SOLUTION! Connect via SSH/SCP/SMB and edit the primary configuration file => /userdata/system/batocera.conf 
+KNULLI has some additional options which are hidden from the GUI for the tech-savvy user to take advantage of. Through the GUI you may choose only a single Wi-Fi network SSID through discovery and provide a key through the soft keyboard. But if you're a gamer on the go, you may want a touch of flexibility for additional hot spots. You can configure a secondary and tertiary Wi-Fi by editing `batocera.conf` directly. You can access the file by the same why you add your games as described in the [Add Games](../../play/add-games) section, or use a command line editor via [SSH](../../ssh). The file is located at `/userdata/system/batocera.conf` or `SHARE\system\batocera.conf` depending on your perspective. In `batocera.conf`, simply find and edit the following lines:
 
-    ## Secondary Wi-Fi
-    wifi2.ssid=wifiname2
-    wifi2.key=supergoodkey2
+```
+## Secondary Wi-Fi
+wifi2.ssid=wifiname2
+wifi2.key=supergoodkey2
 
-    ## Third Wi-Fi
-    wifi3.ssid=wifiname3
-    wifi3.key=supergoodkey3    
-    
+## Third Wi-Fi
+wifi3.ssid=wifiname3
+wifi3.key=supergoodkey3    
+```
 !!! warning "Password protection"
 
     By default, your KNULLI device does not require a root password to access your device. Consequently, as soon as you connect to a network, the data on your device becomes accessible in your local network without any password protection. While this might be convenient within your own home, it might be a severe security risk when connecting to a network which is not under your control. We strongly suggest enabling **additional security**.
