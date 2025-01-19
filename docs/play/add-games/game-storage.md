@@ -36,9 +36,9 @@ Inside the `/userdata` folder, you will find subfolders where you can store your
         * `/gb` is the folder where your Gameboy games should be stored.
         * `/ports` is the folder where your ports (including [PortMaster](../../../systems/portmaster) should be stored.
         * ...
-    * `/saves` is the folder where your savegames will be stored.
+    * `/saves` is the folder where your game saves as well as core save states will be stored.
     * `/screenshots` is the folder where your screenshots will be stored.
-    * `/system` is the folder where your settings will be stored. You should not change anything in here, unless you are absolutely sure that you know what you are doing. However, it can't hurt to include this folder in your backups.
+    * `/system` is the folder where your settings will be stored. You should not change anything in here, unless you are absolutely sure that you know what you are doing. However, it can't hurt to include this folder in your backups. This is also your linux $HOME `~` directory.
     * `/theme-customizations` is the folder where your theme customizations will be stored.
     * `/themes` is the folder where your themes will be stored.
 
