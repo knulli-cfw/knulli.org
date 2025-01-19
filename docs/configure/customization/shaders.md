@@ -1,24 +1,22 @@
 # :material-panorama-variant-outline: Knulli Shaders
-!!! warning "Knulli(Batocera) <> Retroarch"
-    This method differs from the [RetroArch shader](../../../configure/retroarch/shaders) one but is more in line with the Batocera mindset.
+!!! warning "Difference between KNULLI (Batocera) and RetroArch"
+    This method differs from how to [add RetroArch shaders](../../../configure/retroarch/shaders) but is more in line with the KNULLI/Batocera mindset.
 
-Knulli allows custom shaders to be made available directly in emulationstation.
+Knulli allows custom shaders to be made available directly in EmulationStation.
 
 Therefor they can be applied:
 
-* **Per game** : Long ++"A"++ press on the game you want the shader to be appplied then go to `Advanced game options > Game rendering & shaders > Shader set` and select the shader you want
+* **Per game**: Press and hold the launch button (++"A"++ or ++"B"++ depending on your setup) on the game you want the shader to be appplied to, then go to *Advanced Game Options*, then *Game Rendering & Shaders*, then *Shader Set* and select the shader you want.
 
-* **For an entire system** : Press the ++"Start"++ button to open the main menu then go to `Game settings > Per system advanced configuration` , select the system then go to `Game rendering & shaders > Shader set` and select the shader you want.
+* **For an entire system**: Press the ++"Start"++ button to open the main menu then go to *Game Settings*, then *Per System Advanced Configuration*. Select the system you want to apply the shader to, then go to *Game Rendering & Shaders*, then *Shader Set* and select the shader you want.
 
 
-!!! info
-    We will use one of the [Shimmerless](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) shaders as an example here but it should apply to any compatible shader
+!!! info "This is just an example"
+    We will use one of the [Shimmerless](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) shaders as an example here, but the method should be applicable to any compatible shader.
 
 ## Folders preparation
 
-[Connect](../../../play/add-games/network-transfer/) to your handled and create a `shaders` folder in `/userdata` ( if it does not exist yet )
-
-Populate it as described bellow.
+[Connect](../../../play/add-games/network-transfer/) to your handheld and create a `shaders` folder in `/userdata` (if it does not exist yet). Populate it as described bellow.
 
 ``` bash
 /shaders
@@ -30,19 +28,20 @@ Populate it as described bellow.
     └─ sharp-shimmerless.glsl
 
 ```
-`*.glsp` and `*.glsl` are extracted from the [Shimmerless](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) repo.
 
-`rendering-defaults.yml` need to be manually created.
+* The `*.glsp` and `*.glsl` files used in this example can be extracted from the [Shimmerless GitHub repository](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader).
+* `rendering-defaults.yml` need to be manually created.
 
 ## Editing rendering-defaults.yml
 
-Add those lines to the `rendering-defaults.yml` file
+After creating a new empty text file called `rendering-defaults.yml`, you can edit it with a text editor of your choice. (For Windows users, we strongly recommend [Notepad++](https://notepad-plus-plus.org).)
+
 ```
 default:
   shader: sharp-shimmerless
 ```
 
-Make sure that `sharp-shimmerless.glslp` point to the correct subfolder and glsl file ( should be the case in our example )
+Make sure that `sharp-shimmerless.glslp` points to the correct subfolder and glsl file (should be the case in our example).
 ```
 shaders = 1
 
@@ -50,10 +49,10 @@ shader0 = shaders/sharp-shimmerless.glsl
 filter_linear0 = true
 ```
 
-Press the ++"Start"++ button to open the main menu, go to *Game settings* and select *Update gamelists*.
+Press the ++"Start"++ button to open the main menu, go to *Game Settings* and select *Update Gamelists* to make the shader available on your handheld.
 
-Enjoy !
+Enjoy!
 
 ## Advance setup
 
-More details are available here : [Batocera wiki](https://wiki.batocera.org/emulationstation:shaders_set)
+More details are available here: [Batocera wiki](https://wiki.batocera.org/emulationstation:shaders_set)
