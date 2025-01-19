@@ -1,4 +1,4 @@
-# :material-panorama-variant-outline: Shaders
+# :material-panorama-variant-outline: RetroArch Shaders
 
 RetroArch allows shaders to be applied over the visual output of the emulator core. This guide will give you the basics on how to apply shaders and where to put your own.
 
