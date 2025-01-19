@@ -1,4 +1,4 @@
-# :material-panorama-variant-outline: Knulli Shaders
+# :material-panorama-variant-outline: KNULLI Shaders
 !!! warning "Difference between KNULLI (Batocera) and RetroArch"
     This method differs from how to [add RetroArch shaders](../../../configure/retroarch/shaders) but is more in line with the KNULLI/Batocera mindset.
 
@@ -16,7 +16,7 @@ Therefor they can be applied:
 
 ## Folders preparation
 
-[Connect](../../../play/add-games/network-transfer/) to your handheld and create a `shaders` folder in `/userdata` (if it does not exist yet). Populate it as described bellow.
+[Connect](../../../play/add-games/network-transfer/) to your handheld and create a `shaders` folder in `/userdata` (if it does not exist yet). Populate it as described below.
 
 ``` bash
 /shaders
