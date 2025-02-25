@@ -23,7 +23,7 @@ If you need more help installing a major update, have a look at our [Major Updat
 
     Batocera supports OTA (over-the-air) updates which can be executed directly from the EmulationStation GUI. Consequently, KNULLI also shows the OTA update menu. However, currently, we do **not have OTA servers** set up, yet. Until we do, we kindly ask you to update your KNULLI installation **manually**.
 
-KNULLI can be updated by downloading the **boot package** for your device and replacing the `batocera` file manually.
+KNULLI can be updated by downloading the **boot package** for your device manually.
 
 1. Download the latest **boot package** for your device from our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest) by following these steps:
     * Scroll to the bottom of the latest release to find it's **Assets** list.
@@ -35,10 +35,7 @@ KNULLI can be updated by downloading the **boot package** for your device and re
 2. Extract the data from the compressed file (e.g. with [7-Zip](https://7-zip.org/)).
     * Be aware that a package that ends in `tar.gz` or `tar.xz` contains a compressed file within a compressed file, so you might need to first take the `tar` file out of the `gz`/`xz` file before you can extract the contents of the `tar` file.
 3. Insert your KNULLI SD card into the SD card reader of your computer.
-4. Replace the file `boot/batocera` on the *BATOCERA* partition of your SD card with the file `boot/batocera.update` from the file you downloaded by following these steps:
-    * **Delete** the existing `batocera` file **or rename** the current `batocera` file (e.g. to `batocera.bak`) if you want to keep it, e.g., to be able to downgrade to the previous KNULLI version again. (If you still have a backup of a previous KNULLI version, you might want to delete this now to make some room.)
-    * **Copy** `batocera.update` you extracted from the **boot package** to the `boot` folder on the `batocera` drive of your SD card.
-    * **Rename** `batocera.update` to `batocera`.
+4. Put the `boot/batocera.update` file you downloaded from the steps before into SD card `boot/` folder.
 5. Reboot the device, and the update will begin automatically.
 
 !!! danger "Re-creating default settings"
