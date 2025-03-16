@@ -1,52 +1,49 @@
 # :material-lightbulb-on-outline: RGB LEDs
 
-KNULLI supports the RGB LEDs of certain devices out of the box (e.g., the RG40XX H/V devices by Anbernic). By default, the RGB LEDs will light in a shade of green that goes well with our KNULLI logo. However, you can, of course, change the **default mode** of your RGB LEDs anyway you like!
+KNULLI supports the RGB LEDs of certain devices out of the box (e.g., the RG40XX H/V devices by Anbernic). By default, the RGB LEDs will light in a shade of green that goes well with our KNULLI logo. However, you can, of course, customize your RGB LEDs anyway you like!
 
-Additionally to the customizable **default mode**, the RGB LEDs will inform you about your **battery status** while the device is turned on. Currently, Knulli has three supported **battery modes**:
-
-* While the battery is **charging**, the RGB LEDs will **blink slowly** in **default green** until the battery is completely charged. When completely charged, the RGB LEDs will return to the default mode.
-* While the battery is **low (20% or below)**, the RGB LEDs will **blink slowly** in **yellow**.
-* While the battery is **very low (5% or below)**, the RGB LEDs will **blink slowly** in **red**.
-
-Finally, if you are hunting for **RetroAchievements**, the RGB LEDs will honor every achievement notification with a short rainbow swirl.
+Additionally, your RGB LEDs can be configured to indicate low battery and/or battery charging and even play an animation when earning a retro achievement.
 
 ## Setting up RGB LEDs
 
-If the RGB LEDs of your device are supported by KNULLI, you will find the *RGB Settings* tool in the *Tools* section of your KNULLI device. In this menu, you can set up the RGB LEDs according to your preferences.
+If your device has RGB LEDs and the RGB LEDs are supported by your version of KNULLI, you will find the *RGB LED Settings* in the *Device Settings* menu.
 
-!!! info "(Re-)starting the RGB LED service"
+* Press ++"Start"++ to bring up the main menu
+* Go to *Device Settings*
+* Go to *RGB LED Settings*
 
-    If your LED cannot be turned on from the *RGB Settings* menu, chances are that the `ANALOG_STICK_LED` service is not running. To launch that service, press the ++"Start"++ button on the home screen to bring up the main menu, head to *System Settings*, then head to *Services*. In the *Services* menu, turn **on** `ANALOG_STICK_LED`.
+The options you will find in this menu depend on your device and your KNULLI version.
 
-### Modes
+### Regular mode and color
 
-With this setting, you can set up the **default mode** of your RGB LEDs. Depending on your device, you will find a variety of *Modes* to choose from, such as *Static* (meaning a constant display of your color of choice) or *Breathing* (meaning the LEDs fading on and off), or *Rainbow* modes where you get random colors changing automatically. By setting *Mode* to *Off*, you disable the **default mode**. This will turn the LEDs off most of the time, however, they can still be used for battery indication and RetroAchievement indication as explained further below.
+This section has the options for the **regular** RGB behavior. The settings apply when your device is **not** in low battery mode or charging.
 
-### Transition speed
-
-Transition speed only applieds to automatic modes such as *Single Rainbow* and *Multi Rainbow*. Other modes might not be influenced by this value at all.
+* **Mode** sets the type of animation your RGB LEDs display most of the time. The available options depend on your device.
+    * *Off* will turn the RGB LEDs off unless you are in low battery mode or charging or you earned a retro achievement.
+    * *Static* is the default setting and shows just constant light in a single color
+    * *Breathing (fast)* fades the RGB LEDs on and off at a fast speed
+    * *Breathing (medium)* fades the RGB LEDs on and off at a medium speed
+    * *Breathing (slow)* fades the RGB LEDs on and off at a slow speed
+    * *Single Rainbow* fades from one random color to the next, creating a constant single-color rainbow animation
+    * *Multi Rainbow* creates a "moving" rainbow effect
+* **Brightness** sets the *relative* brightness of the RGB LEDs. The higher the value, the brighter the RGB LEDs. If *Adaptive Brightess* is turned *off*, 100% brightness corresponds to highest possible brightness of the RGB LEDs. If *adaptive brightness* is turned *on*, 100% brightness corresponds to 100% of the current *screen brightness*.
+* **Adaptive Brightness** automatically adjusts LED brightness when screen brightness is increased/lowered. Can be turned *on* and *off*.
+* **Speed** adjusts the animation speed for some animations. **Does not apply to all LED modes!**
+* **Red** adjusts the amount of red in your RGB color.
+* **Green** adjusts the amount of green in your RGB color.
+* **Blue** adjusts the amount of blue in your RGB color.
+* **Restore Default Colors** restores the default KNULLI green.
 
 !!! warning "Epilepsy warning"
 
-    On some devices like the RG40XX H, the speed range starts at 0 and ends at 255. However, you will already get a pretty fast lightshow at values of 50 or so. Please treat this setting carefully if you or any person who might handle the device has been diagnosed with epilepsy. This level of fast-flickering light may cause seizures!
+    Please be careful with the **speed** setting if you or any person who might handle the device has been diagnosed with photosensitive epilepsy. Keep in mind that fast-flickering lights may cause seizures!
 
 
-### Brightness
+### Battery Charge Indication
 
-Brightness sets the LED brightness value. Be aware that brightness automatically lowers and increases with screen brightness. Find a brightness value which works comfortable for you on any screen brightness you might be using.
+This section allows to configure your RGB LEDs for battery indication.
 
-### Color selection
-
-With this setting, you can set up the color for single-color modes such as *Static* or *Breathing*.
-
-### Low battery mode
-
-The *Low Battery Mode* setting determines at which battery charge percentage the RGB LEDs should start to give you a low battery warning. By setting this value to *0*, you will **turn it off** entirely. The default value for the *Low Battery Mode* is *20%*.
-
-### Charging mode
-
-If you do not want the RGB LEDs to indicate if the battery is charging, you can use this setting to turn off the charging indication.
-
-### Retroachievements mode
-
-If you do not want the RGB LEDs to give you a rainbow swirl when you earn a RetroAchievement, you can use this setting to turn off the RetroAchievements mode.
+* **Low Battery Threshold** sets the threshold for low battery indication. If the battery charge is below the given threshold, the RGB LEDs will switch to low-battery indication mode. If the threshold is set to 0, low battery indication will be disabled.
+    * While the battery is very low (5% or below), the RGB LEDs will blink slowly in red.
+    * While the battery is low (below threshold but above 5%), the RGB LEDs will blink slowly in yellow.
+* **Battery Charging** will make the RGB LEDs blink slowly in default green while the battery is charging. Can be turned *on* and *off*.
