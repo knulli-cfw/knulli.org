@@ -26,6 +26,7 @@ Our [Quick Start Guide](../../../play/quick-start/) will guide you through the p
 
 ## Extracting the kernel and bootloader
 !!! warning "This part is not required if you just want to install KNULLI but might be useful for developpers."
+
 !!! warning "The RG40XX V distribution includes a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There are no public sources provided by anbernic for those"
 
 Anbernic has not published the source code of the u-boot and kernel of the RG40XX V. In order to have a working configuration you have two options:
