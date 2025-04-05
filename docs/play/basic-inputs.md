@@ -2,6 +2,18 @@
 
 This section will give you an overview over the basic inputs on your device. Additionally, it will help you understand the **terminology** which is used throughout this wiki and within the retro gaming community.
 
+!!! info "In-game prompts might not match the labels on your device"
+
+    Knulli is a CFW for retro gaming emulation which also supports certain ports of Linux games. The labels on the device are labeled Nintendo-style as explained in the table below: ++"A"++ is **east** (:material-gamepad-circle-right:), ++"B"++ is **south** (:material-gamepad-circle-down:), and so on.
+
+    It should be obvious, but since some users reported this as a "bug", please understand this:
+
+    Many games will prompt for button labels which **do not match** the labels printed on the buttons of your handheld. For example, if you play a PSX or PSP game and the game prompts for **△**, you need to press the ++"X"++ button (north, :material-gamepad-circle-up:), since the north button is labeled **△** on PlayStation controllers.
+
+    Please be aware that **many PortMaster games** are hard-wired to consider your device as an **Xbox controller**. Hence, the games will give you **Xbox-style prompts**. Consequently, if a PortMaster game prompts for you to press the south button, chances are it will ask you to press **A**, however, it might be required for you to press ++"B"++ instead. We understand that this is counterintuitive, however,  it is still the **correct mapping by position**.
+
+    We will **reject** any request to map buttons for PortMaster games by label instead, so do not bother asking. We are convinced that mapping by position is the only correct way to map controller inputs.
+
 ## The face buttons
 
 ![Face buttons](/_inc/images/face-buttons.png){ align=right }
@@ -19,7 +31,9 @@ KNULLI mostly follows the labeling system known from SNES and the Anbernic devic
 | ++"B"++ | :material-gamepad-circle-down:  | South     | ++"✕"++ | ++"A"++ |
 | ++"Y"++ | :material-gamepad-circle-left:  | West      | ++"◻"++ | ++"X"++ |
 
-!!! info "By default, KNULLI follows the control scheme of Nintendo devices in all menus: ++"A"++ for *OK/confirm* and ++"B"++ for *cancel/back*. However, if you feel more familiar with the PlayStation scheme, press ++"Start"++ to bring up the main menu, go to *System settings* and find *Frontend Developer Options*. Here you will find a toggle to *Switch confirm & cancel buttons in EmulationStation*."
+!!! info "Switch confirm/cancel in EmulationStation"
+
+    By default, KNULLI follows the control scheme of Nintendo devices in all menus: ++"A"++ for *OK/confirm* and ++"B"++ for *cancel/back*. However, if you feel more familiar with the PlayStation scheme, press ++"Start"++ to bring up the main menu, go to *System settings* and find *Frontend Developer Options*. Here you will find a toggle to *Switch confirm & cancel buttons in EmulationStation*.
 
 ## The ++"Function"++ button
 
@@ -48,10 +62,13 @@ When your device is turned off, the power button can be used to turn on your KNU
      * LED turns off while playing (LED blinks to confirm)
      * LED always off
      * The LED mode will reset to default after each reboot/shutdown.
-     
-### Clamshell lid
 
-If your device is a clamshell device with a lid (e.g., Anbernic RG35XX SP), you may
+## Clamshell lid
 
-* close the lid to **enter sleep mode**.
-* open the lid to **return** from **sleep mode**.
+Some devices have clamshell form factor and therefore a lid. Depending on the device, it might be possible to use the lid for  **entering sleep mode** or **shutting down** the device.
+
+!!! info "Returning from sleep mode when opening the lid"
+
+    It is **impossible** for us to run **any** program code while a device is **turned off** or in **sleep mode**. Consequently, if the lid isn't hard-wired on the hardware level to act like a power button, it is **impossible** for us to register if the lid opens while the device is **turned off** or in **sleep mode**, simply **because** the device is **turned off** or in **sleep mode**.
+
+    Consequently, we cannot make such a device (e.g., the **Anbernic RG35XX SP**) wake up or boot when the lid opens. There is no point in asking our developers on Discord for the feature. There is no point in waiting for the feature. There is no point in pressuring. For some devices, it simply cannot be done.
