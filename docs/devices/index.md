@@ -5,6 +5,7 @@
 
 | Manufacturer | Device | CPU / Architecture | Kernel | Build |
 | -- | -- | -- | -- | -- |
+| Anbernic | [RG Arc S](anbernic/rg-arc-s) | Rockchip RK3566 (ARM) | Rockchip BSP 4.19 | --- |
 | Anbernic | [RG28XX](anbernic/rg28xx.md) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg28xx...`](https://github.com/knulli-cfw/distribution/releases) |
 | Anbernic | [RG34XX](anbernic/rg34xx) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg34xx...`](https://github.com/knulli-cfw/distribution/releases) |
 | Anbernic | [RG35XX Plus](anbernic/rg35xx-plus) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg35xx-plus...`](https://github.com/knulli-cfw/distribution/releases) |
@@ -14,5 +15,9 @@
 | Anbernic | [RG40XX H](anbernic/rg40xx-h) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg40xx...`](https://github.com/knulli-cfw/distribution/releases) |
 | Anbernic | [RG40XX V](anbernic/rg40xx-v) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg40xx...`](https://github.com/knulli-cfw/distribution/releases) |
 | Anbernic | [RGCubeXX](anbernic/rgcubexx) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg-cubexx...`](https://github.com/knulli-cfw/distribution/releases) |
+| GoRetroid | [Retroid Pocket 5](goretroid/retroid-pocket-5) | Snapdragon 865 | --- | --- |
+| GoRetroid | [Retroid Pocket Mini](goretroid/retroid-pocket-mini) | Snapdragon 865 | --- | --- |
+| Powkitty | [RGB30](powkiddy/rgb30) | Rockchip RK3566 (ARM) | Rockchip BSP 4.19 | --- |
+| Powkitty | [X55](powkiddy/x55) | Rockchip RK3566 (ARM) | Rockchip BSP 4.19 | --- |
 | TrimUI | [Brick](trimui/brick) | Allwinner A133 / PowerVR GE8300 | Allwinner BSP | [`knulli-a133-trimui-brick...`](https://github.com/knulli-cfw/distribution/releases) |
 | TrimUI | [Smart Pro](trimui/smart-pro) | Allwinner A133 / PowerVR GE8300 | Allwinner BSP | [`knulli-a133-trimui-smart-pro...`](https://github.com/knulli-cfw/distribution/releases) |

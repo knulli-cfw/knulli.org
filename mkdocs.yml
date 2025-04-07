@@ -317,6 +317,7 @@ nav:
     - Devices: 
       - devices/index.md
       - Anbernic:
+        - RG-Arc-S: devices/anbernic/rg-arc-s.md
         - RG28XX: devices/anbernic/rg28xx.md
         - RG34XX: devices/anbernic/rg34xx.md
         - RG35XX Original: devices/anbernic/rg35xx.md
@@ -327,10 +328,14 @@ nav:
         - RG40XX H: devices/anbernic/rg40xx-h.md
         - RG40XX V: devices/anbernic/rg40xx-v.md
         - RGCubeXX: devices/anbernic/rgcubexx.md
+      - GoRetroid:
+        - Retroid Pocket 5: devices/goretroid/retroid-pocket-5.md
+        - Retroid Pocket Mini: devices/goretroid/retroid-pocket-mini.md
       - Orange Pi Zero 2w:
         - Orange Pi Zero 2w: devices/orange-pi/orange-pi-zero-2w.md
       - Powkiddy:
         - RGB30: devices/powkiddy/rgb30.md
+        - X55: devices/powkiddy/x55.md
       - TrimUI:
         - Brick: devices/trimui/brick.md
         - Smart Pro: devices/trimui/smart-pro.md
