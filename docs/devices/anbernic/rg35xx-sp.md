@@ -26,7 +26,11 @@ Our [Quick Start Guide](../../../play/quick-start/) will guide you through the p
 
 ## Extracting the kernel and bootloader
 
-!!! warning "The RG35XX Plus distribution includes a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There are no public sources provided by anbernic for those"
+!!! danger "This section is for developers"
+
+    This section is for **developers** who want to compile their own KNULLI build from **source code**. If you simply want to **install** KNULLI on your device, you can safely ignore this section and simply follow the [Quick Start Guide](../../../play/quick-start/).
+    
+    The KNULLI distribution for the RG35XX SP **already includes** a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There is **no need** to extract any of those manually unless you need them to compile KNULLI **from scratch**.
 
 Anbernic has not published the source code of the u-boot and kernel of the RG35XX SP. In order to have a working configuration you have two options:
 
