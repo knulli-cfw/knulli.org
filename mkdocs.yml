@@ -317,6 +317,7 @@ nav:
     - Devices: 
       - devices/index.md
       - Anbernic:
+        - RG34XX: devices/anbernic/rg34xx.md
         - RG35XX Original: devices/anbernic/rg35xx.md
         - RG35XX Plus: devices/anbernic/rg35xx-plus.md
         - RG35XX H: devices/anbernic/rg35xx-h.md
@@ -330,4 +331,5 @@ nav:
       - Powkiddy:
         - RGB30: devices/powkiddy/rgb30.md
       - TrimUI:
-        - TrimUI Smart Pro: devices/trimui/smart-pro.md
+        - Brick: devices/trimui/brick.md
+        - Smart Pro: devices/trimui/smart-pro.md

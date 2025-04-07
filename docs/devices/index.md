@@ -6,10 +6,13 @@
 | Manufacturer | Device | CPU / Architecture | Kernel | Build |
 | -- | -- | -- | -- | -- |
 | Anbernic | [RG28XX](anbernic/rg28xx.md) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg28xx...`](https://github.com/knulli-cfw/distribution/releases) |
+| Anbernic | [RG34XX](anbernic/rg34xx) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg34xx...`](https://github.com/knulli-cfw/distribution/releases) |
 | Anbernic | [RG35XX Plus](anbernic/rg35xx-plus) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg35xx-plus...`](https://github.com/knulli-cfw/distribution/releases) |
 | Anbernic | [RG35XX 2024](anbernic/rg35xx-2024) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg35xx-plus...`](https://github.com/knulli-cfw/distribution/releases) |
 | Anbernic | [RG35XX H](anbernic/rg35xx-h) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg35xx-h...`](https://github.com/knulli-cfw/distribution/releases) |
 | Anbernic | [RG35XX SP](anbernic/rg35xx-sp) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg35xx-sp...`](https://github.com/knulli-cfw/distribution/releases) |
 | Anbernic | [RG40XX H](anbernic/rg40xx-h) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg40xx...`](https://github.com/knulli-cfw/distribution/releases) |
 | Anbernic | [RG40XX V](anbernic/rg40xx-v) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg40xx...`](https://github.com/knulli-cfw/distribution/releases) |
+| Anbernic | [RGCubeXX](anbernic/rgcubexx) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg-cubexx...`](https://github.com/knulli-cfw/distribution/releases) |
+| TrimUI | [Brick](trimui/brick) | Allwinner A133 / PowerVR GE8300 | Allwinner BSP | [`knulli-a133-trimui-brick...`](https://github.com/knulli-cfw/distribution/releases) |
 | TrimUI | [Smart Pro](trimui/smart-pro) | Allwinner A133 / PowerVR GE8300 | Allwinner BSP | [`knulli-a133-trimui-smart-pro...`](https://github.com/knulli-cfw/distribution/releases) |
