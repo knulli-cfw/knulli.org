@@ -317,6 +317,7 @@ nav:
     - Devices: 
       - devices/index.md
       - Anbernic:
+        - RG28XX: devices/anbernic/rg28xx.md
         - RG34XX: devices/anbernic/rg34xx.md
         - RG35XX Original: devices/anbernic/rg35xx.md
         - RG35XX Plus: devices/anbernic/rg35xx-plus.md
