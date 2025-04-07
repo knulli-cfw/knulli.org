@@ -17,7 +17,11 @@ Our [Quick Start Guide](../../../play/quick-start/) will guide you through the p
 
 ## Extracting the kernel and bootloader
 
-!!! warning "The TrimUI Smart Pro distribution includes a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There are no public sources provided by TrimUI for those"
+!!! danger "This section is for developers"
+
+    This section is for **developers** who want to compile their own KNULLI build from **source code**. If you simply want to **install** KNULLI on your device, you can safely ignore this section and simply follow the [Quick Start Guide](../../../play/quick-start/).
+    
+    The KNULLI distribution for the TrimUI SmartPro **already includes** a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There is **no need** to extract any of those manually unless you need them to compile KNULLI **from scratch**.
 
 TrimUI has not published the source code of the u-boot and kernel of the TrimUI Smart Pro. They have published some libraries and SDK, but those do not include the BSP that includes the kernel, u-boot, and bootloader. In order to have a working configuration you have two options:
 

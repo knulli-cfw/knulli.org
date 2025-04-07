@@ -27,9 +27,12 @@ Our [Quick Start Guide](../../../play/quick-start/) will guide you through the p
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MVPUu2BWuqw?si=icEWARXRxd9oB1DC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Extracting the kernel and bootloader
-!!! warning "This part is not required if you just want to install KNULLI but might be useful for developpers."
 
-!!! warning "The RG40XX H distribution includes a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There are no public sources provided by anbernic for those"
+!!! danger "This section is for developers"
+
+    This section is for **developers** who want to compile their own KNULLI build from **source code**. If you simply want to **install** KNULLI on your device, you can safely ignore this section and simply follow the [Quick Start Guide](../../../play/quick-start/).
+    
+    The KNULLI distribution for the RG40XX H **already includes** a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There is **no need** to extract any of those manually unless you need them to compile KNULLI **from scratch**.
 
 Anbernic has not published the source code of the u-boot and kernel of the RG40XX H. In order to have a working configuration you have two options:
 
