@@ -20,13 +20,7 @@ KNULLI bringt eine ganze Reihe vordefinierter **Hotkey-Shortcuts** mit - Tastenk
 
 ## Controller zuweisen
 
-Nachdem du einen Controller verbunden hast, kannst du ihn sofort benutzen, um durch die EmulationStation-GUI zu navigieren. Allerdings musst du den Controller einem **Spieler** zuweisen, damit du ihn auch **zum Spielen** nutzen kannst. Standardmäßig ist nur der **eingebaute "Controller"** immer **Spieler 1** zu geordnet. Nachdem du weitere Controller hinzugefügt hast, musst du sie daher den jeweiligen Spielern zuweisen.
-
-Drück ++"Start"++ um ins Hauptmenü zu gelangen und wähle *Controller & Bluetooth Settings*. Am unteren Ende des Menüs findest du die Controller-Zuordnungen für die Spieler 1-8. Hier kannst du jedem Spieler seinen eigenen Controller zuweisen.
-
-!!! info "Controller-Zuweisungen werden nach dem Neustart zurückgesetzt"
-
-    Dein KNULLI-Gerät merkt sich nicht, welcher Controller in einer vorherigen Session welchem Spieler zugeordnet war. Du solltest daher immer sicherstellen, dass alle Controller den richtigen Spielern zugeordnet sind, nachdem du sie (erneut) mit deinem KNULLI-Gerät verbunden hast.
+Nachdem du einen Controller verbunden hast, wird er **automatisch** dem **nächsten Spieler** zugeordnet, d.h. der erste Controller, den du verbindest, wird automatisch dem ersten Spieler zugewiesen. Wenn du einen weiteren Controller verbindest, wird er automatisch dem zweiten Spieler zugewiesen Bitte **sei dir bewusst** dass die automatische Controller-Zuweisung **nicht In-Game funktioniert** (ausgenommen bei einigen wenigen Ports, z.B. *TMNT: Shredder's Revenge*). Du solltest daher **erst** alle Controller **verbinden** **bevor** du ein Spiel startest. Wenn ein Controller ausscheidet (z.B. weil er ausgeschaltet wurde, getrennt wurde oder der Akku leer ist), rücken alle übrigen Controller automatisch auf: Wenn z.B. der Controller des ersten Spielers getrennt wird, wird der Controller des zweiten Spielers automatisch dem ersten Spieler zugewiesen, usw.
 
 ## Controller einrichten
 
