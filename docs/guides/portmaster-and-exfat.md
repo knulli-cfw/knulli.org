@@ -1,44 +1,48 @@
 # :material-ferry: PortMaster and exFAT
 
-!!! info "Don't let the technical mumbo-jumbo scare you away"
+!!! warning "You are probably safe"
 
-     This section will introduce you to an ongoing issue with PortMaster games on KNULLI. We **strongly recommend** that you **read** this section and **understand** the issue **before** you start setting up your KNULLI device to **avoid frustration**.
+    First of all, **don't worry**: You are probably safe. **Most ports**, especially the **most popular** ones, have been **updated** since this page was created. If you have been directed here, you have probably run into one of the few games that haven't been updated, yet.
+
+    This section will help you understand the problem. We decided to leave this page up until the last few ports are updated - just in case that one of the games **you** want to play is among the few that have not been adapted, yet.
 
 [**PortMaster**](../../systems/portmaster) is a GUI tool for managing and installing **video game ports** for **handheld devices**. The PortMaster library covers **retro classics** as well as **modern indie games** and lots of **freeware games**. Currently, PortMaster contains far more than **700 games**. By default, KNULLI comes with an **installer** which will set up PortMaster on your device. You can find in in the *Ports* section. The PortMaster library is a great collection of awesome games that you **should not sleep on**: *Stardew Valley*, *Half-Life*, *TMNT: Shredder's Revenge*, *GTA Vice City*, *AM2R*, *Celeste* and *Owlboy* are just a few examples you might have heard of.
 
 However, If you are **absolutely sure** that you are **not interested** in **ever** playing PortMaster games on your KNULLI device, you can stop reading now. This section is **not for you**. In any other case: **Let's get started.**
 
-## The bad news
+## The original issue
 
-Unfortunately, many PortMaster games are currently **not compatible** with KNULLI when using an **exFAT-formatted SD card**. exFAT is the **default file system** of most common SD cards and USB flash drives. If you buy a new SD card and just plug it into your computer or handheld, it is most likely formatted to exFAT.
+Originally, many PortMaster games relied on a concept called **symbolic link** to make the games work on KNULLI. Simply put, a symbolic link is a **pointer** to a file or folder. It basically allows **the same** file or folder to be accessed from **different paths**. A symbolic link is **not a copy** but literally **the same** file or folder in a different place at the same time.
 
-Many PortMaster games rely on a concept called **symbolic link** to make the games work on KNULLI. Simply put, a symbolic link is a **pointer** to a file or folder. It basically allows **the same** file or folder to be accessed from **different paths**. A symbolic link is **not a copy** but literally **the same** file or folder in a different place at the same time.
+Annoyingly, symbolic links only work with very few file systems. **exFAT**, the **default file system** of most common SD cards and USB flash drives, is incapable of providing symbolic links. Consequently, any PortMaster game which relies on symbolic links will not work as expected on an exFAT-formatted drive. Some games do **not work at all**, others are simply **unable to save and load** any settings or game progress.
 
-The **exFAT** file system does **not** support symbolic links. Consequently, any PortMaster game which relies on symbolic links will not work as expected on an exFAT-formatted drive. Some games do **not work at all**, others are simply **unable to save and load** any settings or game progress.
+For that reason, previous KNULLI versions employed the **ext4** file system, a very specific Linux file system which is not accessible from a Windows computer, leaving USB- and network transfer to be the only reasonable ways to access your SD card and add your games, BIOSes, etc.
 
-## The good news
+## Most ports are fixed by now
 
-Luckily, you have a couple of options to enjoy PortMaster games on your KNULLI-driven device anyway. This guide will introduce you to 3 different options how to address the PortMaster/exFAT situation:
+The mighty Port Navigators, our friends at PortMaster, **have found a solution** to the problem and applied it to most of their games. All the most popular games and fan-favorites have been fixed already, which is why you probably do not need to worry about this issue anymore.
 
-* [Stick with ext4](#stick-with-ext4)
-* [Be patient](#be-patient)
+Instead of relying on symbolic links, they now employ a similar concept called **bind mount**. When put in layman's terms, the difference between those two concepts is rather subtle: A **symbolic link** is a **file** that is **stored in the file system** and points to another **file or folder**. In contrast, a **bind mount** simply tells the running operating system to address a file from a different path. It is also a pointer, however, it is kept in memory and does **not** have to be stored in the file system. Consequently, it will not cause any issues with **exFAT** drives.
+
+However, there's still a few games left which haven't been updated, yet. So, if you are really unlucky, you might find a game that does not work with bind mounts, yet.
+
+## Possible solutions
+
+Luckily, you have two options to enjoy these PortMaster games on your KNULLI-driven device anyway:
+
+* Be patient - the Port Navigators might fix the game at some point
+* [Format to ext4](#format-to-ext4)
 * [Do something about it](#do-something-about-it)
 
-## Stick with ext4
+## Format to ext4
 
-By default, KNULLI formats its *SHARE* partition to **ext4**. KNULLI also comes with a **built-in formatter** that you may use to format any secondary SD card to ext4 as explained in the [Formatting section](../../play/add-games/formatting). ext4 is a **Linux file system** which **supports symbolic links**. Consequently, if you simply stick with ext4, it will not make a difference to you whether the game employs symbolic links or not. PortMaster will just work, that's it.
+KNULLI also comes with a **built-in formatter** that you may use to format any secondary SD card to ext4 as explained in the [Formatting section](../../play/add-games/formatting). ext4 is a **Linux file system** which **supports symbolic links**. Consequently, if you simply format to ext4, it will not make a difference to you whether a game employs symbolic links or not. PortMaster will just work, that's it.
 
 However, ext4 comes at a price: You will **not** be able to **access** your ext4 SD card from a **Windows computer**. Windows does not support the ext4 file system. On your Windows computer, the drive will simply appear as unreadable and Windows will ask you to format the drive to make is accessible. Hence, you will be restricted to accessing your SD card via **Wi-Fi** as explained in the [Network Transfer section](../../play/add-games/network-transfer). Unfortunately, network transfer is significantly slower than direct access to the SD card.
 
-Some users consider ext4 a great inconvenience, especially those who want to play on devices **without Wi-Fi capability** (e.g., the Anbernic RG28XX and RG35XX 2024). If Wi-Fi access is not an option for you, you might need to consider **reformatting to exFAT** as explained in the [Formatting section](../../play/add-games/formatting) or simply using an exFAT-formatted second SD card for your data as explained in the [Second SD Card section](../../play/add-games/second-sd-card).
+Some users consider ext4 a great inconvenience, especially those who want to play on devices **without Wi-Fi capability** (e.g., the Anbernic RG28XX and RG35XX 2024). If Wi-Fi access is not an option for you, you should probably stick with **exFAT** instead.
 
-## Be patient
 
-Even if you are unable to stick with ext4 or simply prefer to have your SD card accessible from Windows: **Don't worry!** The mighty Port Navigators, our friends at PortMaster, **have already found a solution** to our common problem.
-
-Instead of relying on symbolic links, they started to employ a similar concept called **bind mount**. When put in layman's terms, the difference between those two concepts is rather subtle: A **symbolic link** is a **file** that is **stored in the file system** and points to another **file or folder**. In contrast, a **bind mount** simply tells the running operating system to address a file from a different path. It is also a pointer, however, it is kept in memory and does **not** have to be stored in the file system. Consequently, it will not cause any issues with **exFAT** drives.
-
-The PortMaster developers have already started to update their games systematically. They will replace every occurrence of symbolic links with bind mounts. However, this process will take time. Right now, in the moment this guide is written, there are **773 ports** available on PortMaster. About **30** of them have **already been updated**. If you are in no rush, you can just sit this one out. Your favorite games will be updated at some point. However, **it might take some time**.
 
 ## Do something about it
 

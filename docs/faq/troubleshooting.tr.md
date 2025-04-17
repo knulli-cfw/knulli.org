@@ -1,22 +1,5 @@
 # :material-frequently-asked-questions: Sıkça Sorulan Sorular
 
-### S: Kendi romlarımı eklemek istiyorum ama Windows/Mac bilgisayarım "roms" disk bölümünü göremiyor 
-
-C: KNULLI varsayılan olarak ikinci disk bölümünü Linux EXT4 dosya biçimi ile biçimlendirir. Bu biçim genellikle Windows/Mac altında okunamaz/bağlanamaz. Bunun için aşağıdaki yaklaşımlardan birini kullanmanız gerekmektedir:
-
-* Windows/Mac için Paragon EXTFS kullanın. Bu araç ücretsiz değildir ancak EXT2/3/4'e sorunsuz erişim sağladığı için önerilir
-* Windows için DiskGenius kullanın. Önerilmez. DiskGenius kötü performans sergiler ve disk bölümünü ve içeriğini bozmaya eğilimlidir
-* İkinci bölümü FAT32 olarak biçimlendirin:
-    * PC/MAC'inize SDCARD'ı takın
-    * Windows üzerinde, disk bölüm aracını açın ve ikinci bölümü (SHARE) FAT32 olarak silin/biçimlendirin
-    * Maalesef Mac'te, bölümü tamamen yeniden biçimlendirmek için terminali kullanmanız gerekecek. Disk Utility'yi açın ve usb'nin disk numarasını ve bölümünü (örn. disk4s2) belirtin. Ardından, terminali açın ve aşağıdaki komutla bölümü yeniden biçimlendirin:
-   ```sudo diskutil eraseVolume ms-dos SHARE /dev/disk4s2```
-    * SDCARD'ı bilgisayarınızdan çıkarın ve tekrar RG35XX'e takın
-    * Cihazı açın
-    * KNULLI, disk bölümünü doğru içerikle dolduracaktır. Sistem başladıktan sonra cihazı kapatıp bilgisayarınıza takarak bios/romlarınızı veya diğer içerikleri ekleyebilirsiniz.
-
----
-
 ### S: Romlar/bios içeriğimi ikinci SDCARD'a ekleyebilir miyim?
 
 C: Evet! Yeni veya boş bir SDCARD'ınız varsa, RG35XX'in ikinci yuvasına SDCARD'ı takabilir ve şu adımları izleyebilirsiniz:
