@@ -20,13 +20,7 @@ KNULLI comes with a set of pre-defined **hotkey shortcuts** which allow you to s
 
 ## Assigning controllers
 
-After connecting a controller, the controller can instantly be used to navigate the EmulationStation GUI. However, to use a controller **in a game**, it must be assigned to a **player**. By default, only the **built-in** controls are assigned to **player 1**. After connecting additional controllers, you have to assign the controllers to the respective players.
-
-Press ++"Start"++ to open the main menu and head to *Controller & Bluetooth Settings*. Towards the end of the menu, you will find the controller assignments for players 1-8. Here, you can assign each player a dedicated controller.
-
-!!! info "Controller assignments are reset after reboot"
-
-    Your KNULLI device does not memorize which controller was assigned to which player in a previous session. Make sure to always assign all controllers to the corresponding players after you (re-)connected them to your KNULLI device.
+After connecting a controller, the controller will be **automatically assigned** to the **next player** in line: The first controller you connect will be automatically assigned to player 1. If you connect a second controller, it will be automatically assigned to player 2. Please **be aware** that controller assignments **do not work in-game** (except for a few ports, e.g. *TMNT: Shredder's Revenge*). Consequently, you need to **connect** your controllers **before** launching a game. If a controller drops out (e.g., because it is turned off, disconnected, or runs out of battery), all other controllers automatically "move up": If the controller of player 1 is disconnected, to controller of player 2 will be reassigned to player 1 and so on.
 
 ## Controller mapping
 

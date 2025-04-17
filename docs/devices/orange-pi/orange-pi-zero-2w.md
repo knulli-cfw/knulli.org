@@ -1,8 +1,8 @@
-# Orange Pi 5
+# Orange Pi Zero 2w
 
 !!! danger "Not supported"
 
-    The RG35XX is currently not supported by KNULLI.
+    The Orange Pi Zero 2w is currently not supported by KNULLI.
 
 ## Overview
 

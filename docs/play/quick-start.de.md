@@ -4,14 +4,6 @@ Moin! Willkommen bei KNULLI!
 
 Mit dieser Schnellstartanleitung wollen wir dir helfen, KNULLI auf deinem Handheld in Betrieb zu nehmen. Falls du **zum ersten Mal** einen Retro-Gaming-Handheld einrichtest und Emulatoren und Custom Firwmwares (CFWs) für dich **Neuland** sind, wird diese Anleitung dich durch deine **ersten Schritte** führen. Falls du ein **erfahrener Nutzer** bist, wird diese Anleitung dir einen Überblick verschaffen, was KNULLI **grundlegend** von anderen Custom Firmwares **unterscheidet**, die du evtl. bereits benutzt hast.
 
-!!! danger "Wichtig: Unbedingt lesen bevor du loslegst!"
-
-    Im Gegensatz zu vielen anderen CFWs verwendet KNULLI standardmäßig das **ext4**-Dateisystem für deine Spiele, Speicherstände, Konfigurationen etc. ext4 ist ein Dateisystem, das **nicht** von **Windows/MacOS** gelesen oder beschrieben werden kann. Keine Panik: Du kannst deine Spiele trotzdem ganz einfach via [Netzwerkübertragung](../add-games/network-transfer) auf die SD-Karte laden. Wir haben diese Entscheidung **bewusst** gefällt um einen Workaround zu schaffen, weil es derzeit Probleme mit der Kompatibilität von **PortMaster**-Spielen gibt.
-
-    Selbstverständlich ist es möglich, den internen Speicher stattdessen mit ***exFAT** zu formatieren oder eine mit exFAT formatierte zweite SD-Karte zu benutzen. (**exFAT** ist das Standarddateisystem für SD-Karten und USB-Sticks.) 
-
-    Allerdings können einige PortMaster-Spiele derzeit noch nicht fehlerfrei ausgeführt werden, wenn KNULLI sie von einer mit **exFAT** formatierten SD-Karte starten muss. Das PortMaster-Team hat bereits eine Lösung für das Problem gefunden und ist dabei, systematisch alle Spiele zu aktualisieren. Wir **empfehlen dringend**, den Abschnitt [PortMaster und exFAT](../../guides/portmaster-and-exfat) zu lesen **bevor** du die Einrichtung fortsetzt, damit du in Ruhe entscheiden kannst, wie du den Datenspeicher deines KNULLI-Gerätes handhaben möchtest.
-
 ## KNULLI installieren [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
 
 Zuerst solltest du die aktuellste KNULLI-Version in unserem [GitHub-Repository](https://github.com/knulli-cfw/distribution/releases/latest) identifizieren, die **exakt für dein Gerät** vorgesehen ist. Du findest eine Übersicht über alle verfügbaren Downloads in der Tabelle *Installation Download Package*. Lade die KNULLI-Version für dein Gerät herunter und "flash" sie auf eine SD-Karte. Du solltest **nicht** versuchen, irgendetwas nach der Installation manuell zu formatieren - KNULLI wird das für dich erledigen! Steck die SD-Karte einfach in dein Gerät und **entferne** alle weiteren SD-Karten aus den übrigen Slots deines Geräts, falls vorhanden. Jetzt kannst du dein KNULLI-Gerät einschalten und booten, um die Installation abzuschließen. (Der erste Bootvorgang kann relativ lange dauern, da KNULLI währenddessen deine Spielepartition expandieren und formatieren wird. Bleib geduldig!)
@@ -24,27 +16,23 @@ Deine ersten Schritte hängen teilweise davon ab, wie du dein KNULLI-Gerät benu
 
 ### 1. Datenspeicher einrichten
 
-KNULLI lässt sich hervorragend mit einer einzelnen SD-Karte betreiben. Wer KNULLI erstmal kennenlernen möchte, dem empfehlen wir, zum reinschnuppern erstmal mit einer einzelnen SD-Karte anzufangen. Langfristig **empfehlen wir aber definitiv** eine **2-Karten-Konfiguration** zu verwenden. Auf der **ersten Karte**  befindet sich dann **nur** das **Betriebssystem**. Alle Spiele, Themes, Speicherstände, etc. werden auf der **zweiten Karte** abgelegt. (Keine Sorge: Es ist auch später noch möglich, von einer 1-SD-Karte-Konfiguration zu einer 2-SD-Karten-Konfiguration zu wechseln, wie in der [Anleitung "Zu Dual-SD-Card-Setup wechseln"](../../guides/dual-sd-card-migration) beschrieben.
+KNULLI lässt sich hervorragend mit einer einzelnen SD-Karte betreiben. Wer KNULLI erstmal kennenlernen möchte, dem empfehlen wir, zum reinschnuppern erstmal mit einer einzelnen SD-Karte anzufangen. Langfristig **empfehlen wir aber definitiv** eine **2-Karten-Konfiguration** zu verwenden, falls dein Gerät über einen zweiten SD-Slot verfügt. Auf der **ersten Karte**  befindet sich dann **nur** das **Betriebssystem**. Alle Spiele, Themes, Speicherstände, etc. werden auf der **zweiten Karte** abgelegt.
 
-Je nachdem, wie dringend du **PortMaster**-Spiele spielen möchtest, solltest du den Abschied über [PortMaster und exFAT](../../guides/portmaster-and-exfat) lesen, um zu entscheiden, welche Speicherkonfiguration du nutzen möchtest.
+Falls du dich für eine Zwei-SD-Karten-Konfiguration entscheiden solltest, beachte bitte, dass du **manuell** zwischen internem und externem Speicher umschalten musst, wenn du eine zweite SD-Karte verwenden möchtest. (Eine genauere Anleitung zum [Wechseln von SD-Karten](../add-games/second-sd-card) findest du im Abschnitt [Spiele hinzufügen](../add-games).)
 
-
-Sei dir bewusst, dass du, je nachdem wofür du dich entschieden hast, deinen Datenspeicher möglicherweise **neu formatieren** musst, bevor du ihn benutzen kannst. Benutze dazu bitte den **eingebauten KNULLI-Formatierer**. Außerdem solltest du beachten, dass du **manuell** zwischen internem und externem Speicher umschalten musst, wenn du eine zweite SD-Karte verwenden möchtest. (Eine genauere Anleitung zum [Wechseln von SD-Karten](../add-games/second-sd-card) und zum [Formatieren](../add-games/formatting) deines Datenspeichers findest du im Abschnitt [Spiele hinzufügen](../add-games).)
+ (Keine Sorge: Es ist auch später noch möglich, von einer 1-SD-Karte-Konfiguration zu einer 2-SD-Karten-Konfiguration zu wechseln, wie in der [Anleitung "Zu Dual-SD-Card-Setup wechseln"](../../guides/dual-sd-card-migration) beschrieben.
 
 Es ist theoretisch möglich, eine bereits mit Daten befüllte SD-Karte als zweite SD-Karte in einer 2-Karten-Konfiguration zu verwenden. Falls du das versuchen möchtest, solltest du sicherstellen, dass die **Ordnerstruktur** auf deiner SD-Karte **exakt** so ist wie im Abschnitt [Speicherort für Spiele](../add-games/game-storage) beschrieben!
 
-!!! danger "Entscheide dich, wie du deine Spiele speichern möchtest"
-
-    | SD-Karten     | Ich brauche keinen direkten Zugriff von Windows auf meine SD-Karte. Netzwerkübertragung genügt mir völlig! Ich möchte lieber sofort und ohne Kompromisse PortMaster-Spiele spielen! | Ich möchte von Windows ohne Netzwerkverbindung direkt auf meine SD-Karte zugreifen! Ist mir egal, dass ich mit PortMaster-Spielen dann etwas warten oder selbst Hand anlegen muss! |
-    | ------------ | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-    | 1            | *Du kannst loslegen!* :material-check:                                                                                           | *Du musst deinen* ***internen Speicher*** *mit* ***exFAT*** [***neu formatieren***](../add-games/formatting). |
-    | 2            | *Du musst deinen* ***externen Speicher*** *mit* ***ext4*** [***neu formatieren***](../add-games/formatting) *(es sei denn er ist schon mit ext4 formatiert).*      | *Du musst deinen* ***externen Speicher*** *mit* ***exFAT*** [***neu formatieren***](../add-games/formatting) *(es sei denn er ist schon mit exFAT formatiert).* |
-
 Stell sicher, dass du eine **Entscheidung gefällt hast**, wie du deinen Datenspeicher einrichten möchtest, und dass du den **Speicher entsprechend vorbereitet hast** bevor du mit dem nächsten Schritt weitermachst.
+
+!!! info "Du kannst auch das ext4-Dateisystem benutzen"
+
+    Falls du das ext4-Dateisystem bevorzugst, z.B. weil du dich bereits gut mit Linux auskennst und dein Gerät stark customizen möchtest und dafür z.B. symbolische Links benötigst, kannst du den eingebauten Formatierer verwenden, um deinen Speicher mit ext4 zu formatieren. Du findest mehr Informationen dazu im Abschnitt [Formatieren](../add-games/formatting).
 
 ### 2. W-LAN einrichten
 
-Dieser Schritt ist **zwingend nötig** um deine Spiele hinzuzufügen, es sei denn, dass du dich dafür entschieden hast, deine SD-Karte mit exFAT zu formatieren. Drück ++"Start"++ um ins Hauptmenü zu gelangen und gehe zu *Network settings*, wo du deine W-LAN-Verbindung einrichten kannst. (Eine detailliertere Anleitung zur Einrichtung des W-LANs und zur Verbesserung der Sicherheit deines Gerätes findest du im Abschnitt [Netzwerkverbindungen](../../configure/networking).)
+Drück ++"Start"++ um ins Hauptmenü zu gelangen und gehe zu *Network settings*, wo du deine W-LAN-Verbindung einrichten kannst. (Eine detailliertere Anleitung zur Einrichtung des W-LANs und zur Verbesserung der Sicherheit deines Gerätes findest du im Abschnitt [Netzwerkverbindungen](../../configure/networking).)
 
 !!! danger "Problemlösungen"
 
@@ -54,9 +42,11 @@ Dieser Schritt ist **zwingend nötig** um deine Spiele hinzuzufügen, es sei den
 
 ### 3. Spiele und BIOSe hinzufügen
 
-Abhängig davon, wie du deinen Datenspeicher eingerichtet hast, kannst du jetzt anfangen, deine Spiele auf dein Gerät zu laden. Falls du dich dafür entschieden hast, **exFAT** zu verwenden, kannst du dein KNULLI-Gerät herunterfahren, die SD-Karte entnehmen, auf der deine Spiele etc. gespeichert sind, und sie in deinen Computer stecken. Anschließend kannst du bequem alle deine Spiele auf die SD-Karte kopieren.
+Du kannst jetzt anfangen, deine Spiele hinzuzufügen. Wir empfehlen, dass du zunächst einen Blick auf den Abschnitt [Speicherort für Spiele](../add-games/game-storage) wirfst, um die Ordnerstruktur von KNULLI kennenzulernen.
 
-Falls du dich dafür entschieden hast, bei **ext4** zu bleiben, solltest du stattdessen die **Netzwerkübertragung** nutzen: Unter Windows kannst du im Normalfall einfach den **Windows Explorer** öffnen und dein Gerät unter dem Namen **KNULLI** im Abschnitt **Netzwerk** finden. Falls das Gerät dort nicht auftaucht, kannst du einfach `\\KNULLI` in die Adresszeile deines Windows Explorers eingeben. Unter **macOS** findest du dein Gerät, in dem du im *Finder* *Gehe zu* öffnest und dort *Mit Server verbinden* auswählst. Hier kannst du `smb://KNULLI` in der Adressleiste eintippen, um auf dein Gerät zuzugreifen. (Falls du den Hostnamen deines Gerätes geändert hast, musst du stattdessen den geänderten Hostnamen deines Gerätes verwenden.)
+Du kannst jetzt einfach dein KNULLI-Gerät herunterfahren, die SD-Karte entnehmen, die du als Speicherort für Spiele vorgesehen hast, und die Karte in deinen Computer stecken. Dort kannst du alle deine Spielen direkt auf die SD-Karte kopieren.
+
+Falls du eine drahtlose Lösung bevorzugst oder dich dafür entschieden hast, das **ext4**-Dateisystem zu nutzen, kannst du stattdessen die **Netzwerkübertragung** nutzen: Unter Windows kannst du im Normalfall einfach den **Windows Explorer** öffnen und dein Gerät unter dem Namen **KNULLI** im Abschnitt **Netzwerk** finden. Falls das Gerät dort nicht auftaucht, kannst du einfach `\\KNULLI` in die Adresszeile deines Windows Explorers eingeben. Unter **macOS** findest du dein Gerät, in dem du im *Finder* *Gehe zu* öffnest und dort *Mit Server verbinden* auswählst. Hier kannst du `smb://KNULLI` in der Adressleiste eintippen, um auf dein Gerät zuzugreifen. (Falls du den Hostnamen deines Gerätes geändert hast, musst du stattdessen den geänderten Hostnamen deines Gerätes verwenden.)
 
 <table>
 	<tr>

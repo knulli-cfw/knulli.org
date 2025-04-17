@@ -30,19 +30,19 @@ Depending on your SD card setup, you might be able to cherry-pick certain things
 
 If you prepared a backup of your previous installation, you can put some of the folders back after the installation process of the new KNULLI version is complete. **However, you should make sure not to adopt your previous `system` folder!** This folder might have dated settings and configurations which are now obsolete and/or incompatible with the new KNULLI version. Restoring an old `system` folder after re-flashing a major KNULLI update will lead to **unpredictable behavior**.
 
-### Reset to factory settings on a dual SD card setup
+### Reset to factory settings
 
 If you ran a dual SD card setup before, all your user data is still stored safely on your SD 2. However, this SD 2 still has the old `system` folder which might have dated settings and configurations which are now obsolete and/or incompatible with the new KNULLI version. **You need to make sure to remove the `system` folder and let KNULLI create a new one!** Furthermore, we **strongly recommend** to **remove the `ports` folder from `roms`** to make KNULLI provide the *PortMaster* installer.
 
-#### Reset to factory settings on an exFAT-formatted second SD card
+#### Reset to factory settings via direct access
 
-If your SD 2 is formatted to **exFAT** (and therefore accessible from Windows), you can simply plug your SD 2 into your computer **before** you set it up as your data storage in KNULLI and **delete or rename the `system` folder** and **delete the `ports` folder from `roms`**. Afterwards, put SD 2 back in your device, switch *Storage* to *Any External* as explained in the [Dual-SD-Card setup section](../../play/add-games/second-sd-card) and reboot to apply the change. During the reboot, KNULLI will re-create the missing folders `system` and `roms/ports` with their default values.
+If you can access your SD 2 directly, you can simply plug it into your computer **before** you set it up as your data storage in KNULLI and **delete or rename the `system` folder** and **delete the `ports` folder from `roms`**. Afterwards, put SD 2 back in your device, switch *Storage* to *Any External* as explained in the [Dual-SD-Card setup section](../../play/add-games/second-sd-card) and reboot to apply the change. During the reboot, KNULLI will re-create the missing folders `system` and `roms/ports` with their default values.
 
 You can now start to set up your device and install PortMaster with the PortMaster installer that will have re-appeared in the restored Ports section.
 
-#### Reset to factory settings on an ext4-formatted second SD card
+#### Reset to factory settings via Wi-Fi
 
-If your SD 2 is formatted to **ext4**, you will not be able to read it from Windows, so you will have to restore factory settings after you put your SD 2 back to work. First, put SD 2 back in your device, switch *Storage* to *Any External* as explained in the [Dual-SD-Card setup section](../../play/add-games/second-sd-card) and reboot to apply the change.
+If your SD 2 cannot be accessed directly, you will have to restore factory settings after you put your SD 2 back to work. First, put SD 2 back in your device, switch *Storage* to *Any External* as explained in the [Dual-SD-Card setup section](../../play/add-games/second-sd-card) and reboot to apply the change.
 
 It is crucial now that you **do not change any settings** after rebooting. If you did change anything, please **reboot again**.
 

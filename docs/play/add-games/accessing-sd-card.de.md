@@ -1,9 +1,5 @@
 # :material-micro-sd: Auf die SD-Karte zugreifen
 
-!!! danger "Wichtig: Unbedingt lesen bevor du weitermachst!"
-
-    Standardmäßig ist die *SHARE*-Partition deiner KNULLI-SD-Karte mit **ext4** formatiert, um Probleme mit PortMaster und exFAT zu vermeiden. (Du findest eine genauere Erklärung im Abschnitt [PortMaster und exFAT](../../../guides/portmaster-and-exfat).) Wenn du dich entschieden hast, beim ext4-Format zu bleiben, **empfehlen wir dringend**, dass du via [**Netzwerkübertragung**](../network-transfer) auf dein KNULLI-Gerät zugreifst..
-
 Abhängig von der Formatierung deiner *SHARE*-Partition (oder deiner zweiten SD-Karte) hast du grundlegend unterschiedliche Möglichkeiten um direkt auf deine SD-Karte zuzugreifen. Dieser Abschnitt gibt dir einen Überblick über die möglichen Optionen.
 
 Wenn du mit der Wahl deiner Formatierung unzufrieden bist, kannst du jederzeit den eingebauten KNULLI-Formatierer verwenden, um die Formatierung zu ändern. Bedenke dabei, dass **deine gesamten Nutzerdaten dabei verloren gehen werden**, wenn du dich dafür entscheidest neu zu formatieren. Wenn du mehr über Formatierung wissen möchtest, wird einen Blick in den Abschnitt [Formatieren](../formatting).

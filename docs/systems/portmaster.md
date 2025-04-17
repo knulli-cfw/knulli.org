@@ -1,9 +1,5 @@
 # :material-ferry: PortMaster
 
-!!! danger "Known issues with PortMaster on exFAT-formatted drives"
-
-    Please take a close look at the [PortMaster and exFAT section](../../../guides/portmaster-and-exfat) and learn about potential issues with PortMaster games on exFAT-formatted drives.
-
 PortMaster is a management software for installing and updating various ports for Linux-driven handheld video game systems. Ports are, in this case, video games which have been adapted from other systems and optimized to run natively on your handheld device. You will find more information about PortMaster on the [PortMaster website](https://portmaster.games).
 
 ## Games

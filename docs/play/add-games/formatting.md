@@ -1,9 +1,5 @@
 # :material-folder-cog: Formatting
 
-!!! danger "Important: Read this before you proceed!"
-
-    Before you change the formatting of your *SHARE* partition or your second SD card, please take a close look at the [PortMaster and exFAT section](../../../guides/portmaster-and-exfat) and learn about potential issues with the chosen formatting and PortMaster games.
-
 ## Before you format
 
 * Be aware that formatting implies that **all data** on the formatted storage will be **permanently deleted**.
@@ -12,15 +8,12 @@
 
 ## The built-in formatter
 
-!!! danger "Issues with the built-in formatter"
-    Some users experienced issues when formatting their SD cards with the built-in formatter of KNULLI build 05/30. The issues have been **resolved since**. However, if you run KNULLI build 05/30 and are unable to format your SD card with the built-in formatter, you might want to try [formatting with Windows](#formatting-with-windows) instead.
-
 ### Available file systems
 
 The built-in KNULLI formatter offers **three** different filesystems. However, only **two** of them are currently supported by KNULLI:
 
-* **:material-check: ext4** is a Linux file system which **cannot be accessed** directly from Windows/macOS. However, ext4 supports **symbolic links**. Therefore, PortMaster games **run perfectly** on ext4-formatted storages.
-* **:material-check: exFAT** is a Windows/macOS-compatible file system which is used by most CFWs, Smartphones, etc. However, exFAT is **incapable** of handling **symbolic links**. Therefore, many PortMaster games might not be played on exFAT-formatted storages.
+* **:material-check: ext4** is a Linux file system which **cannot be accessed** directly from Windows/macOS.
+* **:material-check: exFAT** is a Windows/macOS-compatible file system which is used by most CFWs, Smartphones, etc.
 * **:material-cancel: BTRFS** is a file system which is currently **NOT SUPPORTED BY KNULLI**.
 
 ### Formatting
@@ -35,7 +28,7 @@ To format your data storages to the file systems of your choice, open the KNULLI
 
 ## Formatting with Windows
 
-Formatting with Windows is only useful if you want to format your SD card to **exFAT**. As explained throughout this wiki, exFAT will allow direct access to your SD card from Windows but will make it impossible to run most [PortMaster](../../../systems/portmaster) games.
+Formatting with Windows is only useful if you want to format your SD card to **exFAT**.
 
 If you want to format your SD card from Windows, we strongly suggest to use the Windows **Disk Management** tool which will make it easier to format the **correct partition**. You can find the tool by opening the *Start Menu* and typing `disk management`. (The tool will present itself by the name *"Create and format hard disk partitions"*.
 

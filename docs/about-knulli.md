@@ -12,7 +12,6 @@ However, if you already have some experience with other CFWs, we'd like to give 
 * [Built-in features](#built-in-features)
 * [Set up your emulators via EmulationStation](#set-up-your-emulators-via-emulationstation)
 * [Strict folder structure](#strict-folder-structure)
-* [Default file system](#default-file-system)
 
 ## "You've GOT to try KNULLI!"
 
@@ -50,7 +49,3 @@ Expert users will still be able to access the RetroArch GUI while running a game
 ## Strict folder structure
 
 KNULLI comes with a lot of built-in features you won't find in many other CFWs. However, to make all these features work, KNULLI relies on a very **strict folder structure**. Games, BIOS files, saves, themes, etc., need to be in the exact place KNULLI needs them to be. If you want to migrate your existing library to KNULLI, you need to adapt said library to the KNULLI folder structure - there is no way around. You should be aware that KNULLI is **case sensitive**.
-
-## Default file system
-
-Unlike many other CFWs, KNULLI defaults to the **ext4** file system. **ext4** has a lot of advantages, it is more sturdy and reliable than the **exFAT** file system, however, it has one big drawback: **ext4** cannot be accessed from Windows/MacOS. Thankfully, KNULLI provides other means to [add games](../play/add-games) either by network access or via ADB. Don't worry though: It is easily possible to simply [format your storage](../play/add-games/formatting) to exFAT instead if you prefer. However, you should be aware about the [PortMaster/exFAT situation](../guides/portmaster-and-exfat) before doing so.
