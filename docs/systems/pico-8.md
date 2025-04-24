@@ -30,15 +30,20 @@ Pico-8 games are best played with the native engine as it supports all Pico-8 fe
 
 ### Installing Pico-8 with the built-in KNULLI installer
 
-The easiest way to set up standalone Pico-8 on your KNULLI device is via the Pico-8 installer which already comes with KNULLI:
+The easiest way to set up standalone Pico-8 on your KNULLI device is via the Pico-8 installer which already comes with KNULLI. The installer should take care of everything and install Pico8 for you. It will also install *Splore*, the official browser for Pico-8 games.
 
 - Go to [Lexaloffle's download page](https://www.lexaloffle.com/games.php?page=updates)
 - From that page download the `Raspberry Pi` zip file
-- Simply copy the zip file into your `roms/pico8` folder
-- establish a ([SSH connection](../../configure/ssh) to your device
-- type the command `install-pico8.sh` and press ++"Enter"++
+- Simply copy the entire zip file into your `roms/pico8` folder (do **not** unzip it)
+- On your KNULLI device
+    - press ++"Start"++ to bring up the main menu
+    - go to *Device Settings*
+    - find and launch *Install Pico-8* (this option will **only** show up if you put the expected zip file into `roms/pico8`!)
+    - KNULLI will install Pico-8 for you and restart the GUI
 
-The installer should take care of everything and install Pico8 for you. It will also install *Splore*, the official browser for Pico-8 games.
+!!! info "You can also install Pico-8 from the command line"
+
+    The built-in Pico-8 installer can be launched from the command line. Simply put the file in the right place as explained above. Establish access to the command line, either via ADB or via [SSH connection](../../configure/ssh). Now simply type the command `knulli-install-pico8` and press ++"Enter"++ to launch the installer.
 
 ### Installing Pico-8 manually
 
