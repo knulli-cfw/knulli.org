@@ -278,6 +278,7 @@ nav:
       - Update: play/update.md
     - Configure:
       - Networking: configure/networking.md
+      - Quick Resume: configure/quick-resume.md
       - Bluetooth: configure/bluetooth.md
       - Controls: configure/controls.md
       - Collections: configure/collections.md
@@ -302,10 +303,10 @@ nav:
       - Factory Settings: configure/reset-to-factory-settings.md
       - Patches and Overlays: configure/patches-and-overlays.md
     - Systems:
-      - Engines:
-        - Pico-8: systems/pico-8.md
+      - Pico-8: systems/pico-8.md
       - PortMaster: systems/portmaster.md
       - ScummVM: systems/scummvm.md
+      - Media Player: systems/media-player.md
     - Guides:
         - Dual SD Card Migration: guides/dual-sd-card-migration.md
         - PortMaster and exFAT: guides/portmaster-and-exfat.md

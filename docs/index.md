@@ -8,13 +8,29 @@
 
 *"Are you not entertained?!"*
 
-Well, if you are not, this changes now: **KNULLI Gladiator** has gone public! The brand new version of KNULLI comes loaded with a whole lot of new features and improvements:
+Well, if you are not, this changes now: **KNULLI Gladiator** has gone public! The brand new version of KNULLI comes loaded with a whole lot of new features and improvements, such as:
 
+- Added device support for the Anbernic RG34XX
+- Improved support for TrimUI devices (RGB, suspend mode, d-pad-as-stick toggle)
+- Switched default file system to exFAT
+- Added [quick resume mode](../configure/quick-resume) to boot directly back into your game
+- Improved Bluetooth and Wi-Fi connectivity
+- Automated assignment of [controllers](../configure/controls) to players
+- Automated switch between [Bluetooth](../configure/bluetooth) audio and built-in speakers
+- Extended [power management](../configure/power-management) settings in EmulationStation
+- Integrated [RGB settings](../configure/rgb-leds) into EmulationStation
+- Improved RGB behavior
+- Improved power management and battery saving
+- Improved EmulationStation launch speed
+- Replaced Drastic-Steward with Advanced Drastic as an new NDS emulator
+- Added [MPV media player](../systems/media-player)
+- Automated detection of [ScummVM](../systems/scummvm) games
+- Applied 60 Hz patches for RG35XX SP, RG34XX, and RG CubeXX (Thanks to [@TheGammaSqueeze](https://github.com/TheGammaSqueeze)!)
 - Tons of bugfixes and performance improvements
 
 You will find a complete list of all new features, fixes, and changes in the [change log](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md).
 
-If you are **new to KNULLI** and want to get started: Head to the [Quick Start Guide](https://knulli.org/play/quick-start) on our website - it will guide you through the installation and your very first steps.
+If you are **new to KNULLI** and want to get started: Head to the [Quick Start Guide](../play/quick-start) on our website - it will guide you through the installation and your very first steps.
 
 If you are already running KNULLI and want to **upgrade** to Gladiator: Be aware that this is a **minor** upgrade, so re-flashing is not required when updating from **Firefly** to **Gladiator**. You can simply update as explained in the [Update](../play/update) section.
 
