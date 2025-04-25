@@ -38,7 +38,7 @@ Even if you are unable to stick with ext4 or simply prefer to have your SD card 
 
 Instead of relying on symbolic links, they started to employ a similar concept called **bind mount**. When put in layman's terms, the difference between those two concepts is rather subtle: A **symbolic link** is a **file** that is **stored in the file system** and points to another **file or folder**. In contrast, a **bind mount** simply tells the running operating system to address a file from a different path. It is also a pointer, however, it is kept in memory and does **not** have to be stored in the file system. Consequently, it will not cause any issues with **exFAT** drives.
 
-The PortMaster developers have already started to update their games systematically. They will replace every occurrence of symbolic links with bind mounts. However, this process will take time. Right now, in the moment this guide is written, there are **773 ports** available on PortMaster. About **30** of them have **already been updated**. If you are in no rush, you can just sit this one out. Your favorite games will be updated at some point. However, **it might take some time**.
+The PortMaster developers have already updated most of their games systematically. They will replace every occurrence of symbolic links with bind mounts. However, this process will take time. Right now, in the moment this guide is most recently updated, there are **1009 ports** available on PortMaster. [About **25** of them are **still affected by this issue**](https://github.com/ben-willmore/portmaster-bind-directories). If you are in no rush, you can just sit this one out. Your favorite games will be updated at some point. However, **it might take some time**.
 
 ## Do something about it
 
