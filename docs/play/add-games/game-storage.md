@@ -6,7 +6,7 @@ Before you start adding your games, please take the time to understand how data 
 
 KNULLI supports **single** and **dual SD card** setups. Internally, KNULLI has a folder called `/userdata` where **all your data** (games, screenshots, bezels, saves, configurations, themes, etc.) will be stored. On a single-SD-card setup, the `/userdata` folder will **always** point to the *SHARE* partition of your **primary SD card**. If you have a device with more than one SD card slot and choose to create a **dual-SD-card setup**, the `/userdata` folder will point to the main partition of your **secondary SD card instead**.
 
-Consequently, you will **not** be able to use the *SHARE* partition of SD 1 and SD 2 **at the same time**. Only one of those SD cards can be mounted as `/userdata` at a time. When you access your storage via [SMB network transfer](../network-transfer), you will only find **one** *SHARE* folder, which will always point at your `/userdata` folder. Therefore, when running a dual-SD-card setup, your internal *SHARE* partition will neither be used by KNULLI, nor be accessible via network transfer.
+Consequently, you will **not** be able to use the *SHARE* partition of SD 1 and SD 2 **at the same time**. Only one of those SD cards can be mounted as `/userdata` at a time. When you access your storage via [SMB network transfer](../network-transfer) or [MTP](../accessing-via-usb), you will only find **one** *SHARE* folder, which will always point at your `/userdata` folder. Therefore, when running a dual-SD-card setup, your internal *SHARE* partition will neither be used by KNULLI, nor be accessible via network transfer or MTP.
 
 !!! info "Internal and external storage"
 
