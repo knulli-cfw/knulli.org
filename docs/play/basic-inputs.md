@@ -2,18 +2,6 @@
 
 This section will give you an overview over the basic inputs on your device. Additionally, it will help you understand the **terminology** which is used throughout this wiki and within the retro gaming community.
 
-!!! info "In-game prompts might not match the labels on your device"
-
-    Knulli is a CFW for retro gaming emulation which also supports certain ports of Linux games. The labels on the device are labeled Nintendo-style as explained in the table below: ++"A"++ is **east** (:material-gamepad-circle-right:), ++"B"++ is **south** (:material-gamepad-circle-down:), and so on.
-
-    It should be obvious, but since some users reported this as a "bug", please understand this:
-
-    Many games will prompt for button labels which **do not match** the labels printed on the buttons of your handheld. For example, if you play a PSX or PSP game and the game prompts for **△**, you need to press the ++"X"++ button (north, :material-gamepad-circle-up:), since the north button is labeled **△** on PlayStation controllers.
-
-    Please be aware that **many PortMaster games** are hard-wired to consider your device as an **Xbox controller**. Hence, the games will give you **Xbox-style prompts**. Consequently, if a PortMaster game prompts for you to press the south button, chances are it will ask you to press **A**, however, it might be required for you to press ++"B"++ instead. We understand that this is counterintuitive, however,  it is still the **correct mapping by position**.
-
-    We will **reject** any request to map buttons for PortMaster games by label instead, so do not bother asking. We are convinced that mapping by position is the only correct way to map controller inputs.
-
 ## The face buttons
 
 ![Face buttons](/_inc/images/face-buttons.png){ align=right }
@@ -34,6 +22,27 @@ KNULLI mostly follows the labeling system known from SNES and the Anbernic devic
 !!! info "Switch confirm/cancel in EmulationStation"
 
     By default, KNULLI follows the control scheme of Nintendo devices in all menus: ++"A"++ for *OK/confirm* and ++"B"++ for *cancel/back*. However, if you feel more familiar with the PlayStation scheme, press ++"Start"++ to bring up the main menu, go to *System settings* and find *Frontend Developer Options*. Here you will find a toggle to *Switch confirm & cancel buttons in EmulationStation*.
+
+!!! info "In-game prompts might not match the labels on your device"
+
+    Knulli is a CFW for retro gaming emulation which also supports certain ports of Linux games. The labels on the device are labeled Nintendo-style as explained in the table above: ++"A"++ is **east** (:material-gamepad-circle-right:), ++"B"++ is **south** (:material-gamepad-circle-down:), and so on.
+
+    It should be obvious, but since some users reported this as a "bug", please understand this:
+
+    Many games will prompt for button labels which **do not match** the labels printed on the buttons of your handheld. For example, if you play a PSX or PSP game and the game prompts for **△**, you need to press the ++"X"++ button (north, :material-gamepad-circle-up:), since the north button is labeled **△** on PlayStation controllers, as explained in the table above.
+
+    Please be aware that **many PortMaster games** are hard-wired to consider your device as an **Xbox controller**. Hence, the games will give you **Xbox-style prompts**. Consequently, if a PortMaster game prompts for you to press the south button, chances are it will ask you to press **A**, however, it might be required for you to press ++"B"++ instead. We understand that this is counterintuitive, however,  it is still the **correct mapping by position**.
+
+    ### Switch A/B and X/Y for ports
+
+    If you struggle with Xbox-style prompts of a ports game, it is possible to **break the correct cardinal mapping** and enforce an **incorrect cardinal mapping** which maps the buttons **by label** instead. This can **only** be set on a per-game basis in the *Ports* section:
+    
+    * Go to the *Ports* section and pick the game you want to play with broken cardinal mapping
+    * Hold the button which launches the game (++"A"++ or ++"B"++, depending on your setup) to bring up the game menu
+    * Go to *Advanced Game Options*
+    * Find *Switch A/B and X/Y* and turn it *on*
+
+    Be aware that this will make some games hardly playable since all the actions are in the wrong place now.
 
 ## The ++"Function"++ button
 
