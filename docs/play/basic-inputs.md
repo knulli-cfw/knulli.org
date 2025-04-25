@@ -72,3 +72,14 @@ Some devices have clamshell form factor and therefore a lid. Depending on the de
     It is **impossible** for us to run **any** program code while a device is **turned off** or in **sleep mode**. Consequently, if the lid isn't hard-wired on the hardware level to act like a power button, it is **impossible** for us to register if the lid opens while the device is **turned off** or in **sleep mode**, simply **because** the device is **turned off** or in **sleep mode**.
 
     Consequently, we cannot make such a device (e.g., the **Anbernic RG35XX SP**) wake up or boot when the lid opens. There is no point in asking our developers on Discord for the feature. There is no point in waiting for the feature. There is no point in pressuring. For some devices, it simply cannot be done.
+
+## The toggle switch
+
+Some devices, e.g. the TrimUI Brick and the TrimUI Smart Pro come with a toggle switch. The toggle switch is an additional input that can be configured in *Device Settings*:
+
+* Press ++"Start" to bring up the main menu
+* Go to *Device Settings*
+* Find *Toggle Switch Mode* and set it to
+    * *mute/unmute* to mute and unmute the device via toggle switch
+    * *RGB on/off* to enable or disable RGB LED via toggle switch
+    * *Airplane mode on/off* to enable or disable airplane mode via toggle switch

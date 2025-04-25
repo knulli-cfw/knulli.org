@@ -11,7 +11,7 @@
 Falls ihr euch nach besserer Unterhaltung sehnt, haben wir gute Nachrichten: **KNULLI Gladiator** ist da! Die brandneue Version von KNULLI bringt eine ganze Reihe neuer Features und Verbesserungen mit, z.B.:
 
 - Geräteunterstützung für Anbernic RG34XX
-- Verbesserte Unterstützung für Trim-UI-Geräte (Unterstützung des Schalters, RGB, Energiesparmodus, D-Pad-als-Stick-Schalter)
+- Verbesserte Unterstützung für Trim-UI-Geräte ([Unterstützung des Schalters](../play/basic-inputs), RGB, Energiesparmodus, D-Pad-als-Stick-Funktion)
 - exFAT als neues Standarddateisystem
 - Der neue [Quick-Resume-Modus](../configure/quick-resume) lässt euch direkt in euer Spiel booten
 - Verbesserte Bluetooth- und W-LAN-Konnektivität
