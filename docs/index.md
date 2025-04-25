@@ -11,7 +11,7 @@
 Well, if you are not, this changes now: **KNULLI Gladiator** has gone public! The brand new version of KNULLI comes loaded with a whole lot of new features and improvements, such as:
 
 - Added device support for the Anbernic RG34XX
-- Improved support for TrimUI devices (RGB, suspend mode, d-pad-as-stick toggle)
+- Improved support for TrimUI devices (switch support, RGB, suspend mode, d-pad-as-stick toggle)
 - Switched default file system to exFAT
 - Added [quick resume mode](../configure/quick-resume) to boot directly back into your game
 - Improved Bluetooth and Wi-Fi connectivity
