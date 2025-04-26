@@ -36,7 +36,7 @@ The easiest way to set up standalone Pico-8 on your KNULLI device is via the Pic
 - From that page download the `Raspberry Pi` zip file
 - Simply copy the zip file into your `roms/pico8` folder
 - establish a ([SSH connection](../../configure/ssh) to your device
-- type the command `install-pico8.sh` and press ++"Enter"++
+- type the command `knulli-install-pico8` and press ++"Enter"++
 
 The installer should take care of everything and install Pico8 for you. It will also install *Splore*, the official browser for Pico-8 games.
 
