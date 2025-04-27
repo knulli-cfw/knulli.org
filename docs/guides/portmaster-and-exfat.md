@@ -2,7 +2,9 @@
 
 !!! warning "You are probably safe"
 
-    First of all, **don't worry**: You are probably safe. **Most ports**, especially the **most popular** ones, have been **updated** since this page was created. If you have been directed here, you have probably run into one of the few games that haven't been updated, yet.
+     First of all, **don't worry**: You are probably safe.
+
+     The PortMaster developers have already updated **most of their games**. Right now, at the time this guide is updated, there are **1009 ports** available on PortMaster. [Only about **25** of them are **still affected by this issue**](https://github.com/ben-willmore/portmaster-bind-directories). If you have been directed here, you have probably run into one of the few games that haven't been updated, yet.
 
     This section will help you understand the problem. We decided to leave this page up until the last few ports are updated - just in case that one of the games **you** want to play is among the few that have not been adapted, yet.
 
@@ -96,16 +98,16 @@ bind_directories ~/.config/StardewValley "$gamedir/savedata"
 ```
 
 <table>
-	<tr>
-		<td width="50%">
-			<img src="/_inc/images/guides/portmaster-and-exfat/bind-directories-001.png">
-			<p>Remove the <code>rm</code> command line entirely. Replace the <code>ln</code> command (including its modifiers) with <code>bind_directories</code>, switch <em>target</em> and <em>location</em>.</p>
-		</td>
-		<td width="50%">
-			<img src="/_inc/images/guides/portmaster-and-exfat/bind-directories-002.png">
-	    	<p>In the end, there will be only the <code>bind_directories</code> command.</p>
-		</td>
-	</tr>
+  <tr>
+    <td width="50%">
+      <img src="/_inc/images/guides/portmaster-and-exfat/bind-directories-001.png">
+      <p>Remove the <code>rm</code> command line entirely. Replace the <code>ln</code> command (including its modifiers) with <code>bind_directories</code>, switch <em>target</em> and <em>location</em>.</p>
+    </td>
+    <td width="50%">
+      <img src="/_inc/images/guides/portmaster-and-exfat/bind-directories-002.png">
+        <p>In the end, there will be only the <code>bind_directories</code> command.</p>
+    </td>
+  </tr>
 </table>
 
 That's it! You did it!
