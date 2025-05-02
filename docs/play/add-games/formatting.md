@@ -10,11 +10,10 @@
 
 ### Available file systems
 
-The built-in KNULLI formatter offers **three** different filesystems. However, only **two** of them are currently supported by KNULLI:
+The built-in KNULLI formatter offers two different filesystems:
 
 * **:material-check: ext4** is a Linux file system which **cannot be accessed** directly from Windows/macOS.
 * **:material-check: exFAT** is a Windows/macOS-compatible file system which is used by most CFWs, Smartphones, etc.
-* **:material-cancel: BTRFS** is a file system which is currently **NOT SUPPORTED BY KNULLI**.
 
 ### Formatting
 

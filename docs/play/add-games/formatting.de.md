@@ -10,11 +10,10 @@
 
 ### Verfügbare Dateisysteme
 
-Der integrierte KNULLI-Fomatierer bietet dir **drei** verschiedene Dateisysteme an. Allerdings werden nur **zwei** davon derzeit tatsächlich von KNULLI unterstützt:
+Der integrierte KNULLI-Fomatierer bietet dir zwei verschiedene Dateisysteme an:
 
 * **:material-check: ext4** ist ein Linux-Dateisystem, auf das **nicht** via Windows/macOS **zugegriffen** werden kann.
 * **:material-check: exFAT** ist ein Windows/macOS-kompatibles Dateisystem, das von den meisten CFWs, Smartphones etc. verwendet wird.
-* **:material-cancel: BTRFS** ist ein Dateisystem, das derzeit **NICHT VON KNULLI UNTERSTÜTZT WIRD**.
 
 ### Formatieren
 
