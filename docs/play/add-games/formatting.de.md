@@ -12,8 +12,8 @@
 
 Der integrierte KNULLI-Fomatierer bietet dir zwei verschiedene Dateisysteme an:
 
-* **:material-check: ext4** ist ein Linux-Dateisystem, auf das **nicht** via Windows/macOS **zugegriffen** werden kann.
-* **:material-check: exFAT** ist ein Windows/macOS-kompatibles Dateisystem, das von den meisten CFWs, Smartphones etc. verwendet wird.
+* **ext4** ist ein Linux-Dateisystem, auf das **nicht** via Windows/macOS **zugegriffen** werden kann.
+* **exFAT** ist ein Windows/macOS-kompatibles Dateisystem, das von den meisten CFWs, Smartphones etc. verwendet wird.
 
 ### Formatieren
 
