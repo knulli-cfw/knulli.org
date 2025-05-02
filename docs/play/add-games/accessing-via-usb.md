@@ -1,5 +1,9 @@
 # :material-usb: Accessing via USB
 
+!!! danger "Do not use MTP while the device is busy"
+
+    You should **never** modify the files on your device via MTP while the device is busy (e.g., while playing a game, while scraping, etc.). The file system on your device should **not** be manipulated on-device and via MTP at the same time to make sure it will not be corrupted.
+
 KNULLI supports two different methods of USB transfer: **MTP** and **ADB**. To enable a USB mode,
 
 * press ++"Start"++ to bring up the main menu
