@@ -11,29 +11,31 @@
 Falls ihr euch nach besserer Unterhaltung sehnt, haben wir gute Nachrichten: **KNULLI Gladiator** ist da! Die brandneue Version von KNULLI bringt eine ganze Reihe neuer Features und Verbesserungen mit, z.B.:
 
 - Geräteunterstützung für Anbernic RG34XX
-- Verbesserte Unterstützung für Trim-UI-Geräte ([Unterstützung des Schalters](../play/basic-inputs), RGB, Energiesparmodus, D-Pad-als-Stick-Funktion)
+- Verbesserte Unterstützung für Trim-UI-Geräte ([Unterstützung des Schalters](play/basic-inputs), RGB, Energiesparmodus, D-Pad-als-Stick-Funktion)
 - exFAT als neues Standarddateisystem
-- Der neue [Quick-Resume-Modus](../configure/quick-resume) lässt euch direkt in euer Spiel booten
+- Der neue [Quick-Resume-Modus](configure/quick-resume) lässt euch direkt in euer Spiel booten
 - Verbesserte Bluetooth- und W-LAN-Konnektivität
-- Automatische Zuweisung von [Controllern](../configure/controls) zu Spielern
-- Automatisches Umschalten zwischen [Bluetooth](../configure/bluetooth)-Audio und den eingebauten Lautsprechern
-- [RGB-Einstellungen](../configure/rgb-leds) sind jetzt in EmulationStation integriert
+- Automatische Zuweisung von [Controllern](configure/controls) zu Spielern
+- Automatisches Umschalten zwischen [Bluetooth](configure/bluetooth)-Audio und den eingebauten Lautsprechern
+- [RGB-Einstellungen](configure/rgb-leds) sind jetzt in EmulationStation integriert
 - Verbessertes RGB-Verhalten
 - Verbesserte Energieverwaltung und neue Möglichkeiten um den Energieverbrauch zu reduzieren
 - Verbesserte Geschwindigkeit beim Laden von EmulationStation
 - Drastic-Steward von Advanced Drastic als NDS-Emulator abgelöst
-- [MPV Media Player](../systems/media-player) hinzugefügt
-- Automatische Erkennung von [ScummVM](../systems/scummvm)-Spielen
+- [MPV Media Player](systems/media-player) hinzugefügt
+- Automatische Erkennung von [ScummVM](systems/scummvm)-Spielen
 - 60-Hz-Patch für RG35XX SP, RG34XX und RG CubeXX angewandt (Vielen Dank [@TheGammaSqueeze](https://github.com/TheGammaSqueeze)!)
 * Unzählige Bugfixes und Verbesserungen
 
 Eine vollständige Liste aller Features, Korrekturen und Änderungen findet ihr im [Changelog](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md).
 
-Falls du KNULLI noch nicht kennst und **neu installieren** möchtest: Unser [Quick Start Guide](../play/quick-start) wird dich durch die Installation und die ersten Schritte mit KNULLI begleiten.
+!!! warning "Major Update"
 
-Falls du KNULLI bereits verwendest und auf die **neue Gladiator-Version wechseln** möchtest: Es handelt sich hierbei um ein **Minor Upgrade**, d.h. eine komplette Neuinstallation ist nicht zwingend erforderlich, wenn du bereits **KNULLI Firefly** verwendest.
+    Diese Version von KNULLI bringt eine große Menge Veränderungen mit sich, die es **zwingend nötig** machen, dass du KNULLI **neu flashst**.
 
-Falls du allerdings eine ältere Version als Firefly verwendest, ist eine komplette Neuinstallation nach wie vor **zwingend erforderlich**, in diesem Fall halte dich am besten an den [Major-Updates-Guide](../guides/major-updates).
+    Wir **raten eindringlich dazu**, eine komplett neue Installation von KNULLI aufzusetzen. Wenn du allerdings unbedingt versuchen möchtest, deine Benutzerdaten einer vorherigen Installation zu übernehmen, wirf bitte einen Blick in den Abschnitt [Major Updates](guides/major-updates).
+
+Falls du KNULLI noch nicht kennst und **neu installieren** möchtest: Unser [Quick Start Guide](play/quick-start) wird dich durch die Installation und die ersten Schritte mit KNULLI begleiten. Falls du KNULLI bereits verwendest und auf die **neue Gladiator-Version wechseln** möchtest: Bitte sei dir bewusst, dass die [PortMaster-und-exFAT-Situation](guides/portmaster-and-exfat) sich **geklärt hat** und KNULLI jetzt standardmäßig das Windows/MacOS-kompatible Dateisystem **exFAT** verwendet! Vielleicht ist jetzt ein guter Zeitpunkt um einmal das ganze System neu aufzusetzen?
 
 In jedem Fall wünschen wir dir viel Spaß beim Spielen mit KNULLI!
 
