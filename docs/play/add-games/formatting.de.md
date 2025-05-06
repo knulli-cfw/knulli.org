@@ -1,9 +1,5 @@
 # :material-folder-cog: Formatieren
 
-!!! danger "Wichtig: Unbedingt lesen bevor du weitermachst!"
-
-    Bevor du deine *SHARE*-Partition oder deine zweite SD-Karte neu formatierst, solltest du einen Blick auf den Abschnitt [PortMaster und exFAT](../../../guides/portmaster-and-exfat) werfen. Der Abschnitt erklärt mögliche Probleme bei der Verwendung von PortMaster, über die du dir im Klaren sein solltest, bevor du dich für ein Dateisystem entscheidest.
-
 ## Bevor du formatierst
 
 * Sei dir bewusst, dass formatieren impliziert, dass **alle Daten** auf dem formatierten Speicher **unwiderruflich gelöscht** werden.
@@ -12,16 +8,12 @@
 
 ## Der integrierte Formatierer
 
-!!! danger "Probleme mit dem integrierten Formatierer"
-    Einige Nutzer sind bei der Verwendung des integrierten Formatierers des KNULLI-Builds 05/30 auf Probleme gestoßen. Die Probleme **wurden mittlerweile behoben**. Falls einen KNULLI-build 05/30 verwendest und Probleme mit dem eingebauten Formatierer hast, musst du möglicherweise stattdessen auf das [formatieren mit Windows](#formatieren-mit-windows) zurückgreifen.
-
 ### Verfügbare Dateisysteme
 
-Der integrierte KNULLI-Fomatierer bietet dir **drei** verschiedene Dateisysteme an. Allerdings werden nur **zwei** davon derzeit tatsächlich von KNULLI unterstützt:
+Der integrierte KNULLI-Fomatierer bietet dir zwei verschiedene Dateisysteme an:
 
-* **:material-check: ext4** ist ein Linux-Dateisystem, auf das **nicht** via Windows/macOS **zugegriffen** werden kann. Allerdings unterstützt ext4 **große Swap-Dateien** sowie **symbolische Links**. Dementsprechend können die meisten PortMaster-Spiele **ohne Einschränkungen** auf ext4-formatierten Speichermedien gespielt werden.
-* **:material-check: exFAT** ist ein Windows/macOS-kompatibles Dateisystem, das von den meisten CFWs, Smartphones etc. verwendet wird. Leider unterstützt exFAT weder **große Swap-Dateien** noch **symbolische Links**. Viele PortMaster-Spiele können daher **nicht** oder **nur stark eingeschränkt** auf exFAT-formatierten Speichermedien gespielt werden.
-* **:material-cancel: BTRFS** ist ein Dateisystem, das derzeit **NICHT VON KNULLI UNTERSTÜTZT WIRD**.
+* **ext4** ist ein Linux-Dateisystem, auf das **nicht** via Windows/macOS **zugegriffen** werden kann.
+* **exFAT** ist ein Windows/macOS-kompatibles Dateisystem, das von den meisten CFWs, Smartphones etc. verwendet wird.
 
 ### Formatieren
 
@@ -35,7 +27,7 @@ Um deine Speichermedien mit dem Dateisystem deiner Wahl zu formatieren, solltest
 
 ## Formatieren mit Windows
 
-Formatieren mit Windows ist nur dann möglich, wenn du deine SD-Karte mit **exFAT** formatieren willst. Wie an vielen Stellen in diesem Wiki erklärt, ermöglicht exFAT zwar direkten Zugang zur SD-Karte via Windows, allerdings wird es dadurch unmöglich, die meisten [PortMaster](../../../systems/portmaster)-Spiele zu spielen.
+Formatieren mit Windows ist nur dann möglich, wenn du deine SD-Karte mit **exFAT** formatieren willst.
 
 Wenn du deine SD-Karte aus Windows heraus formatieren möchtest, empfehlen wir dir dringend, die Windows-**Datenträgerverwaltung** zu nutzen. In der Datenträgerverwaltung ist es einfacher, die **korrekte Partition** zu identifizieren. Du findest die Datenträgerverwaltung, in dem du das *Startmenü* öffnest und `datenträgerverwaltung` eintippst. Das Tool nennt sich im Startmenü *"Festplattenpartitionen erstellen und formatieren"*.
 

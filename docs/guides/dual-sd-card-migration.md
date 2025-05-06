@@ -42,7 +42,7 @@ Before you start to migrate, make sure that you have the following tools at hand
 * In *Frontend Developer Options*, find *Format A Disk* in the *Tools* section.
 * In the *Format A Disk* menu,
     * make sure to pick your secondary SD card as *Device To Format*. (You should be able to recognize it by its size. **Make sure not to format the "internal" device!**)
-    * make sure to pick the file system *ext4*. (Technically, it is also possible to format to *exfat*, but we do strongly advise against that, because *exfat* has only **very limited** PortMaster compatibility as explained [here](../../play/add-games).)
+    * make sure to pick the file system *exfat* if you want to be able to access your SD card from Windows.
     * select *Format Now* **after** making the settings explained above.
 * Keep an eye on the upper-right corner of the screen where the formatter will inform you about its state.
 * Reboot your device when the formatter appears to be done: Press ++"Start"++ to bring up the main menu, head to *Quit*, then pick *Restart System*.

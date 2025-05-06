@@ -1,9 +1,5 @@
 # :material-micro-sd: Using a Second SD Card
 
-!!! danger "Important:  Read this before you proceed!"
-
-    If you want to use a second SD card, we **strongly** recommend to read the [PortMaster and exFAT section](../../../guides/portmaster-and-exfat) before you proceed. This way, you can make an informed choice on formatting before you set up your second SD card.
-
 !!! info "Migrating to a dual SD card setup"
 
     This section is meant for users who are working on their **inital KNULLI setup**. If you already started setting up KNULLI on a single SD card and want to **migrate to a dual SD card setup**, you might want to take a look at our [Dual SD Card Migration Guide](../../../guides/dual-sd-card-migration) instead.

@@ -1,39 +1,43 @@
 <div class="preview-container">
-  <img class="off-glb" src="/_inc/images/knulli-header-firefly.png"/>
+  <img class="off-glb" src="/_inc/images/knulli-header-gladiator.png"/>
 </div>
 
 # Willkommen bei KNULLI :material-gamepad:
 
-## Firefly ist da! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## Hier kommt der Gladiator! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
 
-Wir freuen uns sehr, dass wir es endlich ankündigen dürfen: **KNULLI Firefly** steht zum Download bereit! Warum "Firefly"? Ab Firefly werden alle KNULLI-Versionen einen Codenamen haben, um die verschiedenen Versionen leichter unterscheiden zu können. KNULLI Firefly bringt eine ganze Reihe neuer Features und Verbesserungen mit. Hier sind einige Highlights:
+*"Gefällt es euch nicht?! Unterhalte ich euch nicht?!"*
 
-* Geräteunterstützung für RG40XX H, RG40XX V und RGCubeXX hinzugefügt
-* Geräteunterstützung für TrimUI Smart Pro (pre-alpha)
-* Unterstützung der [Klappfunktion](../configure/power-management) des RG35XX SP verbessert (Standby oder Herunterfahren)
-* "Cardinal Snapping" der Joysticks von RG35XX H und RG40XX H/V entfernt (Vielen Dank, [@TheGammaSqueeze](https://github.com/TheGammaSqueeze)!)
-* Einführung von [Energieeinstellungen](../configure/power-management) um die Akkulaufzeit zu verbessern
-* Unterstützung für die [RGB-LEDs](../configure/rgb-leds) der Geräte Anbernic RG40XX H/V, RGCubeXX und TrimUI Smart Pro hinzugefügt
-* Drastic-Steward als zusätzlicher NDS-Emulator hinzugefügt
-* Unterstützung für 32-Bit-Portmaster-Spiele hinzugefügt
-* Diverse neue Einstellungsmöglichkeiten in EmulationStation für verschiedene Emulatoren
-* [Konfigurierbare Hotkey-Tastenkombinationen](../configure/retroarch/custom-hotkey-shortcuts) für RetroArch-Cores hinzugefügt
-* Unterstützung der nativen Pico-8-Engine verbessert
-* Einführung von [Multi-Resolution-Bezel-Deko-Sets](../configure/customization/bezel-decorations), die Bezel-Dekos für mehrere verschiedene Bildschirmauflösungen enthalten können
-* Neues Bezel-Deko-Set *Default-KNULLI* mit Bezel-Dekos für 4:3-, 1:1- und 16:9-Bildschirme hinzugefügt
+Falls ihr euch nach besserer Unterhaltung sehnt, haben wir gute Nachrichten: **KNULLI Gladiator** ist da! Die brandneue Version von KNULLI bringt eine ganze Reihe neuer Features und Verbesserungen mit, z.B.:
+
+- Geräteunterstützung für Anbernic RG34XX
+- Verbesserte Unterstützung für Trim-UI-Geräte ([Unterstützung des Schalters](play/basic-inputs), RGB, Energiesparmodus, D-Pad-als-Stick-Funktion)
+- exFAT als neues Standarddateisystem
+- Der neue [Quick-Resume-Modus](configure/quick-resume) lässt euch direkt in euer Spiel booten
+- Verbesserte Bluetooth- und W-LAN-Konnektivität
+- Automatische Zuweisung von [Controllern](configure/controls) zu Spielern
+- Automatisches Umschalten zwischen [Bluetooth](configure/bluetooth)-Audio und den eingebauten Lautsprechern
+- [RGB-Einstellungen](configure/rgb-leds) sind jetzt in EmulationStation integriert
+- Verbessertes RGB-Verhalten
+- Verbesserte Energieverwaltung und neue Möglichkeiten um den Energieverbrauch zu reduzieren
+- Verbesserte Geschwindigkeit beim Laden von EmulationStation
+- Drastic-Steward von Advanced Drastic als NDS-Emulator abgelöst
+- [MPV Media Player](systems/media-player) hinzugefügt
+- Automatische Erkennung von [ScummVM](systems/scummvm)-Spielen
+- 60-Hz-Patch für RG35XX SP, RG34XX und RG CubeXX angewandt (Vielen Dank [@TheGammaSqueeze](https://github.com/TheGammaSqueeze)!)
 * Unzählige Bugfixes und Verbesserungen
 
 Eine vollständige Liste aller Features, Korrekturen und Änderungen findet ihr im [Changelog](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md).
 
-Falls du KNULLI noch nicht kennst und **neu installieren** möchtest: Unser [Quick Start Guide](../play/quick-start) wird dich durch die Installation und die ersten Schritte mit KNULLI begleiten. Falls du KNULLI bereits verwendest und auf die **neue Firefly-Version wechseln** möchtest: Wirf einen Blick auf die jüngsten Entwicklungen bezüglich der [PortMaster-und-exFAT-Situation](../guides/portmaster-and-exfat) bevor du anfängst, KNULLI neu zu installieren!
-
-In jedem Fall wünschen wir dir viel Spaß beim Spielen mit KNULLI!
-
-!!! warning "Umfangreiches Update"
+!!! warning "Major Update"
 
     Diese Version von KNULLI bringt eine große Menge Veränderungen mit sich, die es **zwingend nötig** machen, dass du KNULLI **neu flashst**.
 
-    Wir **raten eindringlich dazu**, eine komplett neue Installation von KNULLI aufzusetzen. Wenn du allerdings unbedingt versuchen möchtest, deine Benutzerdaten einer vorherigen Installation zu übernehmen, wirf bitte einen Blick in den Abschnitt [Umfangreiche Updates](../guides/major-updates).
+    Wir **raten eindringlich dazu**, eine komplett neue Installation von KNULLI aufzusetzen. Wenn du allerdings unbedingt versuchen möchtest, deine Benutzerdaten einer vorherigen Installation zu übernehmen, wirf bitte einen Blick in den Abschnitt [Major Updates](guides/major-updates).
+
+Falls du KNULLI noch nicht kennst und **neu installieren** möchtest: Unser [Quick Start Guide](play/quick-start) wird dich durch die Installation und die ersten Schritte mit KNULLI begleiten. Falls du KNULLI bereits verwendest und auf die **neue Gladiator-Version wechseln** möchtest: Bitte sei dir bewusst, dass die [PortMaster-und-exFAT-Situation](guides/portmaster-and-exfat) sich **geklärt hat** und KNULLI jetzt standardmäßig das Windows/MacOS-kompatible Dateisystem **exFAT** verwendet! Vielleicht ist jetzt ein guter Zeitpunkt um einmal das ganze System neu aufzusetzen?
+
+In jedem Fall wünschen wir dir viel Spaß beim Spielen mit KNULLI!
 
 ## Über KNULLI
 

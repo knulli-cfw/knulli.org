@@ -1,16 +1,13 @@
-# Anbernic RG35XX Plus
+# Anbernic RG28XX
 
 ## Overview
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
-| RG35XX Plus | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | Mali G31 | Emulation Station |
-
+| RG28XX | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | Mali G31 | Emulation Station |
 
 ## Features
 
-* Wireless
-* Bluetooth
 * Suspend (briefly press power button)
 * HDMI
 * Emulation Station frontend
@@ -18,7 +15,7 @@
 
 ## Installation
 
-Our [Quick Start Guide](../../../play/quick-start/) will guide you through the process of installing and setting up KNULLI on the RG35XX Plus.
+Our [Quick Start Guide](../../../play/quick-start/) will guide you through the process of installing and setting up KNULLI on the RG28XX.
 
 ### Video Guide
 
@@ -31,9 +28,9 @@ Our [Quick Start Guide](../../../play/quick-start/) will guide you through the p
 
     This section is for **developers** who want to compile their own KNULLI build from **source code**. If you simply want to **install** KNULLI on your device, you can safely ignore this section and simply follow the [Quick Start Guide](../../../play/quick-start/).
     
-    The KNULLI distribution for the RG35XX Plus **already includes** a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There is **no need** to extract any of those manually unless you need them to compile KNULLI **from scratch**.
+    The KNULLI distribution for the RG28XX **already includes** a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There is **no need** to extract any of those manually unless you need them to compile KNULLI **from scratch**.
 
-Anbernic has not published the source code of the u-boot and kernel of the RG35XX Plus. In order to have a working configuration you have two options:
+Anbernic has not published the source code of the u-boot and kernel of the RG35xx Plus. In order to have a working configuration you have two options:
 
 * You can use the stock kernel, bootloader, and u-boot from the stock SDCARD. See below for instructions on how to extract those. 
 * You can compile the included kernel with the source code of this distribution, however, note that there will be a few elements that are missing
@@ -46,5 +43,5 @@ You can read [this page](../../guides/h700-firmware-extract.md) to learn how to 
 
 ### Videos
 
-| <iframe width="560" height="315" src="https://www.youtube.com/embed/0Du0SmGCb-Y?si=VxvtjPDPbfjY5W4J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/yEr_Pjsb_iQ?si=iYW5lNNmyJzyWMnl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/0Du0SmGCb-Y?si=VxvtjPDPbfjY5W4J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/WcKsti3iy7U?si=4bmNdxbAAQAqKDX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
 | -- | -- |

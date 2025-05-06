@@ -278,6 +278,7 @@ nav:
       - Update: play/update.md
     - Configure:
       - Networking: configure/networking.md
+      - Quick Resume: configure/quick-resume.md
       - Bluetooth: configure/bluetooth.md
       - Controls: configure/controls.md
       - Collections: configure/collections.md
@@ -302,10 +303,10 @@ nav:
       - Factory Settings: configure/reset-to-factory-settings.md
       - Patches and Overlays: configure/patches-and-overlays.md
     - Systems:
-      - Engines:
-        - Pico-8: systems/pico-8.md
+      - Pico-8: systems/pico-8.md
       - PortMaster: systems/portmaster.md
       - ScummVM: systems/scummvm.md
+      - Media Player: systems/media-player.md
     - Guides:
         - Dual SD Card Migration: guides/dual-sd-card-migration.md
         - PortMaster and exFAT: guides/portmaster-and-exfat.md
@@ -317,6 +318,9 @@ nav:
     - Devices: 
       - devices/index.md
       - Anbernic:
+        - RG-Arc-S: devices/anbernic/rg-arc-s.md
+        - RG28XX: devices/anbernic/rg28xx.md
+        - RG34XX: devices/anbernic/rg34xx.md
         - RG35XX Original: devices/anbernic/rg35xx.md
         - RG35XX Plus: devices/anbernic/rg35xx-plus.md
         - RG35XX H: devices/anbernic/rg35xx-h.md
@@ -325,9 +329,14 @@ nav:
         - RG40XX H: devices/anbernic/rg40xx-h.md
         - RG40XX V: devices/anbernic/rg40xx-v.md
         - RGCubeXX: devices/anbernic/rgcubexx.md
+      - GoRetroid:
+        - Retroid Pocket 5: devices/goretroid/retroid-pocket-5.md
+        - Retroid Pocket Mini: devices/goretroid/retroid-pocket-mini.md
       - Orange Pi Zero 2w:
         - Orange Pi Zero 2w: devices/orange-pi/orange-pi-zero-2w.md
       - Powkiddy:
         - RGB30: devices/powkiddy/rgb30.md
+        - X55: devices/powkiddy/x55.md
       - TrimUI:
-        - TrimUI Smart Pro: devices/trimui/smart-pro.md
+        - Brick: devices/trimui/brick.md
+        - Smart Pro: devices/trimui/smart-pro.md

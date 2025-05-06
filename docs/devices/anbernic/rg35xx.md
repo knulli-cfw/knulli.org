@@ -9,7 +9,7 @@
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
-| RG35xx Original | Actions Semi 7039 (ARM) | Actions Semi BSP 4.9.170 | pvrsrvkm | Emulation Station / Simplemenu |
+| RG35XX Original | Actions Semi 7039 (ARM) | Actions Semi BSP 4.9.170 | pvrsrvkm | Emulation Station / Simplemenu |
 
 
 ## Features
