@@ -33,7 +33,7 @@ This section contains several power saving options to improve your battery life.
 * **Lid Close Mode** is an optional battery save mode which is only available on devices with detectable lid closing (e.g., the RG35XX SP). When closing the lid, the respective mode will be applied.
     * *Display off* simply turns the screen off entirely and mutes the audio output. (Key presses will still wake up the device!)
     * *Suspend* puts the device into sleep mode (which will render **Mode** and **Extended Mode** unreachable).
-    * *Shutdown* puts the device into sleep mode (which will render **Mode** and **Extended Mode** unreachable).
+    * *Shutdown* shuts the device down (which will render **Mode** and **Extended Mode** unreachable).
 
 !!! info "KNULLI saves your progress on shutdown (if the emulator supports auto-save)"
 

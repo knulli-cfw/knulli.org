@@ -160,6 +160,7 @@ plugins:
             Major Updates: Umfangreiche Updates
             Questions about KNULLI: Fragen zu KNULLI
             Accessing via USB: Zugriff via USB
+            Partitioning: Partitionieren
         - locale: pl
           name: Polski
           build: true
@@ -309,8 +310,9 @@ nav:
       - Media Player: systems/media-player.md
     - Guides:
         - Dual SD Card Migration: guides/dual-sd-card-migration.md
-        - PortMaster and exFAT: guides/portmaster-and-exfat.md
         - Major Updates: guides/major-updates.md
+        - Partitioning: guides/partitioning.md
+        - PortMaster and exFAT: guides/portmaster-and-exfat.md
     - Development:
         - Building KNULLI With Docker: development/building-knulli-with-docker.md
     - Community:
