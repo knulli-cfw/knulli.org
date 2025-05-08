@@ -8,7 +8,7 @@ Partitioning means, in layman's terms, to split a data storage (e.g., a hard dis
 
 ## Why should I care?
 
-When you [flash KNULLI](../../play/install) onto an SD card, the SD card will be partitioned during the flashing. It **does not matter** what your SD card was formatted to before or how many partition it had before. During the flashing, the entire SD card will be **wiped** and **repurposed**. Once the flashing is done, your SD card will have been split into 6 segments:
+When you [flash KNULLI](../../play/install) onto an SD card, the SD card will be partitioned during the flashing. It **does not matter** what your SD card was formatted to before or how many partitions it had before. During the flashing, the entire SD card will be **wiped** and **repurposed**. Once the flashing is done, your SD card will have been split into 6 segments:
 
 * Some 36 MB of unallocated space
 * a 20 MB partition that's formatted to a Linux file system and required for running KNULLI
@@ -36,7 +36,7 @@ After flashing, you might notice that your Windows computer will show some new d
 
 Don't worry. By default, KNULLI comes with a small 512 MB userdata partition to make sure it can be flashed on SD cards of any size (8 GB or greater).
 
-However, during the first boot of KNULLI, KNULLI will detect the unused space and **resize** the `SHARE` partition to **max out** the remaining available space of your SD card. Once the partition is resized, it will also be **re-formatted** to **exFAT**. to make this drive accessible on your Windows machine.
+However, during the first boot of KNULLI, KNULLI will detect the unused space and **resize** the `SHARE` partition to **max out** the remaining available space of your SD card. Once the partition is resized, it will also be **re-formatted** to **exFAT** to make this drive accessible on your Windows machine.
 
 <table>
   <tr>
