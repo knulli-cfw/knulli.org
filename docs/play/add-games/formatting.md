@@ -19,7 +19,7 @@ The built-in KNULLI formatter offers two different filesystems:
 
 The built-in KNULLI formatter can be used to format both, the internal data storage on your primary SD card (**internal**) and the optional second SD card (**external**).
 
-To format your data storages to the file systems of your choice, open the KNULLI main menu by pressing ++"Start"++ and choose *Format a disk* in the *Frontent developer options* section of the *System settings*. Make sure to choose the correct *Device to Format* and the *File System* you want to format the device to. Be aware that you need to reboot your device to apply the formatting after you chose *Format now*.
+To format your data storages to the file systems of your choice, open the KNULLI main menu by pressing ++"Start"++ and choose *Format a disk* in the *Frontend developer options* section of the *System settings*. Make sure to choose the correct *Device to Format* and the *File System* you want to format the device to. Be aware that you need to reboot your device to apply the formatting after you chose *Format now*.
 
 !!! info "After Formatting"
 

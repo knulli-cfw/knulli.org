@@ -21,7 +21,7 @@ Using a dual SD card setup still has a lot of advantages:
 * Insert the second SD card into the second SD card slot while the device is turned off.
 * Boot KNULLI, open the main menu by pressing the ++"Start"++ button and choose *System settings*.
 * Find the *Storage* section where you can choose your *Storage device*.
-    * Switch fom *Internal* (the "internal" storage is the *SHARE* partition of your KNULLI SD card) to the name of your second SD card, e.g., *SHARE - 25.6G*.
+    * Switch from *Internal* (the "internal" storage is the *SHARE* partition of your KNULLI SD card) to the name of your second SD card, e.g., *SHARE - 25.6G*.
 * Reboot KNULLI to apply the changes by pressing the ++"Start"++ button and choosing *Restart system* in the *Quit* section.
 * If your secondary SD card is **not yet** formatted to the file system of your choice
     * follow instructions in the [Formatting](../formatting) section to format your SD card with the **built-in KNULLI formatter**.
