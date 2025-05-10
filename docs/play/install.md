@@ -42,4 +42,4 @@ After successful flashing, the *BATOCERA* drive will be the only drive formatted
 * [Set up Controls](../../configure/controls)
 * [Add Games](../../play/add-games)
 * [Scraping](../../play/scraping)
-* [Themes](../../configure/themes)
+* [Themes](../../configure/customization/themes)
