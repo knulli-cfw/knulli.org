@@ -16,4 +16,4 @@ To enable quick resume mode,
 
 !!! warning "Not every emulator/system supports auto save/load"
 
-    Be aware that standalone games (e.g., ports) and several emulators do not have any auto-save capabilities. Those games will **still be reloaded** after boot when quick resume mode is turned on. However, you will need to take care of saving and loading yourself!
+    Be aware that standalone games (e.g., ports) and several emulators do not have any auto-save capabilities. Those games will **still be reloaded** after boot when quick resume mode is turned on. However, you will need to take care of saving and loading yourself! RetroAchievements in Hardcore Mode will also prevent Quick Resume.
