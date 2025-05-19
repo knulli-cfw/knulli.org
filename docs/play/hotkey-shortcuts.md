@@ -48,7 +48,7 @@ Since Gladiator, KNULLI comes with Advanced-Drastic, an additional Nintendo DS (
 | ++"Function"++ + ++"Select"++                   | **Only on devices without analog sticks:** Toggle between mapping either the D-pad or an analog stick to the D-pad (for moving the touch cursor in NDS) |
 | ++"Function"++ + :material-gamepad-circle-down:  | Open the emulator menu                           |
 | ++"Function"++ + :material-gamepad-circle-left:  | Quick save in the currently selected save slot   |
-| ++"Function"++ + :material-gamepad-circle-right: | Quick save in the currently selected save slot   |
+| ++"Function"++ + :material-gamepad-circle-right: | Toggle blur on/off                               |
 | ++"Function"++ + :material-gamepad-circle-up:    | Quick load from the currently selected save slot |
 | ++"Function"++ + :material-gamepad-up:           | Next screen arrangement layout                   |
 | ++"Function"++ + :material-gamepad-down:         | Previous screen arrangement layout               |
