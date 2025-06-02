@@ -13,7 +13,6 @@ Well, if you are not, this changes now: **KNULLI Gladiator** has gone public! Th
 - Added device support for the Anbernic RG34XX
 - Improved support for TrimUI devices ([toggle switch support](play/basic-inputs), RGB, suspend mode, d-pad-as-stick toggle)
 - Switched default file system to exFAT
-- Introduced access via [USB in MTP mode](play/add-games/accessing-via-usb)
 - Added [quick resume mode](configure/quick-resume) to boot directly back into your game
 - Improved Bluetooth and Wi-Fi connectivity
 - Automated assignment of [controllers](configure/controls) to players

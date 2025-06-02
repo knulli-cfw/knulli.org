@@ -2,29 +2,27 @@
 
 !!! danger "Do not use MTP while the device is busy"
 
-    You should **never** modify the files on your device via MTP while the device is busy (e.g., while playing a game, while scraping, etc.). The file system on your device should **not** be manipulated on-device and via MTP at the same time to make sure it will not be corrupted.
+    **A lot of users** have suffered from **corrupted file systems** after transferring data via MTP. Consequently, we have decided to **remove MTP** with the **next KNULLI version**. Until then, we **strongly** recommend that you **do not use MTP** unless you are absolutely sure what you are doing.
 
-KNULLI supports two different methods of USB transfer: **MTP** and **ADB**. To enable a USB mode,
+    The corruption is caused by running more than one writing process in parallel. While you are transferring data via MTP, **no other process is allowed to write anything to the SD card**. You should **never** attempt to play a game, sync saves, edit configuration, use network transfer, install a theme or anything like that until after MTP transfer was finished and the USB connection was separated gracefully.
+
+    Writing any data via MTP while also writing any data through any other process **will cause file system corruption**.
+
+    If you encountered file system corruption, the best course of action would be to simply start over with a fresh installation.
+
+KNULLI supports USB transfer via **ADB**. To change USB mode,
 
 * press ++"Start"++ to bring up the main menu
 * go to *Device Settings*
 * find *USB Mode*
 * set it to
-    * *MTP* for Media Transfer Protocol (recommended)
-    * *ADB* for Android Debug Bridge (for advanced users)
+    * *ADB* for Android Debug Bridge
+    * *MTP* **(not recommended)**
     * *Off* to disable USB access (default)
 
 !!! info "Don't forget to update your gamelists!"
 
     Once your data is completely transferred, make sure to update your gamelists to make the data available. You can do so by pressing ++"Start"++ to open the main menu, then open *Game settings* and select *Update gamelists*. KNULLI will rescan all game folders and identify all the games you added to make them available in EmulationStation.
-
-## MTP (Media Transfer Protocol)
-
-!!! warning "exFAT formatting required to use MTP from a Windows computer"
-
-    If you want to access your SD card via MTP, make sure the SD card is formatted with exFAT (it is by default).
-
-Using MTP is pretty straight forward: After enabling MTP as explained above, simply plug your device to your computer. Your [userdata folder](../game-storage) should appear automatically in *My PC* like every other thumbdrive or external hard disk drive. You may now copy your files. Just do **not** forget to **properly eject**. It is never a good idea to unplug a USB data storage without ejecting it first!
 
 ## ADB (Android Debug Bridge)
 
