@@ -31,4 +31,4 @@ Once you have removed the 3 offending lines, save the configuration file, reload
 
 !!! info "Quick Resume Mode must be manually re-enabled to use the feature again"
 
-    You will have to manually go into the settings menu and re-enable Quick Resume Mode to use this feature again after manually disabling it. It is also advised to ensure *Auto Save/Load" is also enabled.
+    You must manually go into the settings menu and re-enable Quick Resume Mode to use this feature again after following the above steps to disable it. It is also advised to ensure *Auto Save/Load" is also enabled should you want to re-enable this feature.
