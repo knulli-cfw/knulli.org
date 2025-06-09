@@ -20,7 +20,7 @@ To enable quick resume mode,
 
 ### Troubleshooting
 
-On the rare occasion that your device cannot load the game and/or you get stuck in a reboot loop, you can manually disable *Quick Resume Mode* by making a modification Knulli's main configuration file. This file can be found in the following location: `SHARE/system/batocera.conf`.
+On the rare occasion that your device cannot load the game and/or you get stuck in a reboot loop, you can manually disable *Quick Resume Mode* by making a modification to KNULLI's main configuration file. This file can be found in the following location: `system/batocera.conf`.
 
 You need to remove the lines corresponding to these 3 values, which appear near the bottom of the configuration file:
 * `global.quickresume`
