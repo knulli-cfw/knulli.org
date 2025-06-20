@@ -27,11 +27,12 @@ theme:
     #- navigation.instant
     - navigation.sections
     - navigation.indexes
-    - toc.follow 
+    - toc.follow
     - search.suggest
     - content.tooltips
     - content.code.copy
     - content.code.annotate
+  custom_dir: overrides
 markdown_extensions:
   - tables
   - attr_list
