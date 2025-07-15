@@ -33,8 +33,8 @@ Nur das Laufwerk *BATOCERA* wird von KNULLI mit FAT32 formatiert, damit du auch 
     * Falls das Gerät einen zweiten SD-Karten-Slot hat, solltest du vor dem ersten Hochfahren sicherstellen, dass der zweite Slot leer ist.
 * Schalte das Gerät ein.
     * Achtung: Bei manchen Geräte muss die Bootreihenfolge so angepasst werden, dass die SD-Karte als erstes angesprochen wird. Überprüfe im Zweifelsfall die Dokumentation für dein Gerät, um zu prüfen, ob es in deinem Fall notwendig ist.
-* Beim ersten Booten läuft KNULLI selbstständig durch den Installationsvorgang und startet das Gerät automatisch neu, sobald die Installation abgeschlossen ist.
-* Am Ende des Reboots wird das Gerät automatisch EmulationStation laden, die grafische Benutzeroberfläche von KNULLI. Die Installation ist jetzt abgeschlossen und du kannst loslegen!
+* Beim ersten Booten läuft KNULLI selbstständig durch den Installationsvorgang - bleib geduldig, einige Schritte können ein paar Minuten dauern!
+* Am Ende der Installation wird das Gerät automatisch EmulationStation laden, die grafische Benutzeroberfläche von KNULLI. Die Installation ist jetzt abgeschlossen und du kannst loslegen!
 
 ## Nächste Schritte
 
