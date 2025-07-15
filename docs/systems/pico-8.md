@@ -34,9 +34,9 @@ The easiest way to set up standalone Pico-8 on your KNULLI device is via the Pic
 
 - Go to [Lexaloffle's download page](https://www.lexaloffle.com/games.php?page=updates)
 - From that page download the `Raspberry Pi` zip file
-- (Users of **MacOS/Safari** might need to press ans hold ++"Alt/Option"++ while clicking the download link to avoid automatically unzipping the file)
+- (Users of **MacOS/Safari** might need to press and hold ++"Alt/Option"++ while clicking the download link to avoid automatically unzipping the file)
 - Simply copy the entire zip file into your `roms/pico8` folder (do **not** unzip it)
-- Make sure the zip file has its original name, e.g. `pico-8_0.2.6b_raspi.zip` - the installer will look for a `.zip` file with the word `raspi` in the file name!
+- Make sure the zip file has its original name, e.g., `pico-8_0.2.6b_raspi.zip` - the installer will look for a `.zip` file with the word `raspi` in the file name!
 - On your KNULLI device
     - press ++"Start"++ to bring up the main menu
     - go to *Device Settings*
