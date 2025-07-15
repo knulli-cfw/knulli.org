@@ -33,8 +33,8 @@ After successful flashing, the *BATOCERA* drive will be the only drive formatted
     * If your device has a secondary SD card slot, please make sure it is empty during first boot.
 * Turn on your device.
     * Note: Some devices may require you to set the boot order so your SD Card is loaded first.  Please see documentation for your specific device to see if this applies to you.
-* KNULLI will run through its install process and then reboot your device after its complete.
-* When your device reboots it will load directly into EmulationStation; at this point you are good to go!
+* KNULLI will run through its install process automatically - give it some time, some steps take a few minutes to finish!
+* After the installation concludes, KNULLI will boot into EmulationStation, the KNULLI GUI - at this point you are good to go!
 
 ## Next Steps
 
