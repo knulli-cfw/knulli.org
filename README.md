@@ -1,7 +1,7 @@
 # Welcome to the KNULLI Wiki!
 
 > [!IMPORTANT]
-> This is the repository of the **KNULLI Website**. Please **do not report issues** regarding the **operating system** in this repository. If you want to report issues with KNULLI, either use the **[issue tracker of the distribution repository](https://github.com/knulli-cfw/distribution/issues)** or simply **[join us on :simple-discord: Discord](https://discord.gg/HXPS3DAeeB)**.
+> This is the repository of the **KNULLI Website**. Please **do not report issues** regarding the **operating system** in this repository. If you want to report issues with KNULLI, either use the **[issue tracker of the distribution repository](https://github.com/knulli-cfw/distribution/issues)** or simply **[join us on Discord](https://discord.gg/HXPS3DAeeB)**.
 
 The **[official KNULLI website](https://knulli.org)** is a source of information for our users. It is our mission to keep it up-to-date and to be always in line with the **latest public KNULLI version**. However, like the software itself, the KNULLI website is an open-source project and a community effort. We consider the KNULLI website a wiki which means that **you** are invited to participate in adding and improving any information!
 
@@ -47,7 +47,7 @@ When creating a pull-request, please make sure to summarize **which changes** yo
 
 A team member will **review your pull-request** and ideally accept it right away. In rare occurrences, a team member might ask you for changes to add **before** accepting your pull-request. In even rarer cares, a pull-request might even be **declined** - if that happens, the responsible team member will explain to you why your pull-request could not be accepted.
 
-If a week has passed without anyone reviewing your pull-request hasn't been reviewed, don't hesitate to give us a bump on [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB) **in the #website channel**.
+If a week has passed without anyone reviewing your pull-request hasn't been reviewed, don't hesitate to give us a bump on [Discord](https://discord.gg/HXPS3DAeeB) **in the #website channel**.
 
 ## Where to start
 
