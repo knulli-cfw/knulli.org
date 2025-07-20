@@ -1,4 +1,4 @@
-#  :material-folder-refresh: Reset To Factory Settings
+#  :material-folder-refresh: Auf Werkseinstellungen zurücksetzen
 
 Seit KNULLI Gladiator II bringt das Betriebssystem eine eigene Funktion mit, um das Gerät direkt über EmulationStation (die KNULLI GUI) auf Werkseinstellungen zurückzusetzen. Falls du also mit einer frischen Konfiguration von vorn anfangen möchtest, aber keine Lust hast, alle deine ROMS, BIOS-Dateien etc. noch einmal zu kopieren, ist dies möglicherweise die Funktion die du suchst! Dabei wird automatisch deine **existierende PortMaster-Installation erhalten**.
 
