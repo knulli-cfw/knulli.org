@@ -1,4 +1,19 @@
-#  :material-folder-refresh: Auf Werkseinstellungen zurücksetzen
+#  :material-folder-refresh: Reset To Factory Settings
+
+Seit KNULLI Gladiator II bringt das Betriebssystem eine eigene Funktion mit, um das Gerät direkt über EmulationStation (die KNULLI GUI) auf Werkseinstellungen zurückzusetzen. Falls du also mit einer frischen Konfiguration von vorn anfangen möchtest, aber keine Lust hast, alle deine ROMS, BIOS-Dateien etc. noch einmal zu kopieren, ist dies möglicherweise die Funktion die du suchst! Dabei wird automatisch deine **existierende PortMaster-Installation erhalten**.
+
+Darüber hinaus hast du weiterhin die Möglichkeit, den Reset manuell durchzuführen, z.B. falls du die GUI nicht mehr öffnen kannst. In diesem Fall wird deine **PortMaster-Installation nicht erhalten**. Stattdessen enthält die Anleitung aber die nötigen Schritte um den PortMaster-Installer wieder in der Ports-Kategorie sichtbar zu machen.
+
+## Auf Werkseinstellungen zurücksetzen via EmulationStation
+
+Um das Gerät auf Werkseinstellungen zurückzusetzen
+
+* drück ++"Start"++ um das Hauptmenü zu öffnen
+* gehe zu *Device Settings*
+* wähle *Factory Reset*
+* bestätige, dass du das Gerät wirklich zurücksetzen möchtest
+
+## Manuell auf Werkseinstellungen zurücksetzen
 
 !!! danger "Den gesamten `system`-Ordner zurücksetzen"
 
@@ -12,7 +27,7 @@ Der einfachste Weg um dieses Ziel zu erreichen ist, die entsprechenden Dateien *
 
 Wenn du eine einzelne Konfigurationsdatei (oder den gesamten `system`-Ordner) zurücksetzen musst oder möchtest, greif dazu zunächst auf deinen `userdata`-Ordner zu, wie du es sonst auch machst, oder benutz den mitgelieferten *OD-Commander* aus der Kategorie *Ports*. Wir **empfehlen dringend**, dass du die betroffenen Dateien **oder** den `system`-Ordner **umbenennst** statt zu löschen, indem du `.bak` ans Ende des Dateinamens schreibst (also z.B. den `system`-Ordner in `system.bak` umbenennst). Auf diese Weise kannst du deine alten Einstellungen jederzeit wiederherstellen, oder einzelne Dateien/Zeilen aus deiner alten Konfiguration übernehmen.
 
-### Dateien und Ordner mit OD-Commander umbenennen
+#### Dateien und Ordner mit OD-Commander umbenennen
 
 * Öffne die Kategorie *Ports*.
 * Starte *OD-Commander*.
@@ -26,6 +41,6 @@ Wenn du eine einzelne Konfigurationsdatei (oder den gesamten `system`-Ordner) zu
     * wähle *Rename*.
     * benutz die On-Screen-Tastatur um den Datei-/Ordnernamen zu ändern.
 
-### Konfigurationsdateien zurücksetzen
+#### Konfigurationsdateien zurücksetzen
 
 Anschließend kannst du dein KNULLI-Gerät neu starten. Es wird alle fehlenden Dateien und Ordner während des Bootvorgangs neu erzeugen. Du kannst jetzt entweder alle deine Einstellungen wieder händisch über die KNULLI-GUI vornehmen, oder die Konfigurationsdateien mit deiner `.bak`-Sicherung vergleichen und Zeile für Zeile alle Einstellungen übernehmen, die du behalten möchtest.
