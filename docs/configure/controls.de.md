@@ -20,7 +20,19 @@ KNULLI bringt eine ganze Reihe vordefinierter **Hotkey-Shortcuts** mit - Tastenk
 
 ## Controller zuweisen
 
-Nachdem du einen Controller verbunden hast, wird er **automatisch** dem **nächsten Spieler** zugeordnet, d.h. der erste Controller, den du verbindest, wird automatisch dem ersten Spieler zugewiesen. Wenn du einen weiteren Controller verbindest, wird er automatisch dem zweiten Spieler zugewiesen Bitte **sei dir bewusst** dass die automatische Controller-Zuweisung **nicht In-Game funktioniert** (ausgenommen bei einigen wenigen Ports, z.B. *TMNT: Shredder's Revenge*). Du solltest daher **erst** alle Controller **verbinden** **bevor** du ein Spiel startest. Wenn ein Controller ausscheidet (z.B. weil er ausgeschaltet wurde, getrennt wurde oder der Akku leer ist), rücken alle übrigen Controller automatisch auf: Wenn z.B. der Controller des ersten Spielers getrennt wird, wird der Controller des zweiten Spielers automatisch dem ersten Spieler zugewiesen, usw.
+Nachdem du einen Controller verbunden hast, wird er **automatisch** dem **nächsten Spieler** zugeordnet, d.h. der erste Controller, den du verbindest, wird automatisch dem ersten Spieler zugewiesen. Wenn du einen weiteren Controller verbindest, wird er automatisch dem zweiten Spieler zugewiesen. Wenn ein Controller ausscheidet (z.B. weil er ausgeschaltet wurde, getrennt wurde oder der Akku leer ist), rücken alle übrigen Controller automatisch auf: Wenn z.B. der Controller des ersten Spielers getrennt wird, wird der Controller des zweiten Spielers automatisch dem ersten Spieler zugewiesen, usw.
+
+### Den eingebauten "Controller" für Spieler 1 verwenden
+
+Für den Fall, dass du immer den eingebauten "Controller" für Spieler 1 verwenden möchtest, auch wenn weitere Controller angeschlossen sind
+
+* drücke ++"Start"++ um das Hauptmenü zu öffnen
+* gehe zu *Controller & Bluetooth Settings*
+* suche nach der Option *Use Handheld Controls for Player 1* und schalte sie *ein*
+
+!!! danger "Controller können nicht (neu) zugewiesen werden während ein Spiel läuft"
+
+    Bitte **sei dir bewusst** dass die automatische Controller-Zuweisung **nicht In-Game funktioniert** (ausgenommen bei einigen wenigen Ports, z.B. *TMNT: Shredder's Revenge*). Du solltest daher **erst** alle Controller **verbinden** **bevor** du ein Spiel startest und du solltest das Spiel beenden bevor du einen Controller deaktivierst.
 
 ## Controller einrichten
 

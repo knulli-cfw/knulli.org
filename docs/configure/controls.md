@@ -20,7 +20,19 @@ KNULLI comes with a set of pre-defined **hotkey shortcuts** which allow you to s
 
 ## Assigning controllers
 
-After connecting a controller, the controller will be **automatically assigned** to the **next player** in line: The first controller you connect will be automatically assigned to player 1. If you connect a second controller, it will be automatically assigned to player 2. Please **be aware** that controller assignments **do not work in-game** (except for a few ports, e.g. *TMNT: Shredder's Revenge*). Consequently, you need to **connect** your controllers **before** launching a game. If a controller drops out (e.g., because it is turned off, disconnected, or runs out of battery), all other controllers automatically "move up": If the controller of player 1 is disconnected, to controller of player 2 will be reassigned to player 1 and so on.
+After connecting a controller, the controller will be **automatically assigned** to the **next player** in line: The first controller you connect will be automatically assigned to player 1. If you connect a second controller, it will be automatically assigned to player 2 and so on. If a controller drops out (e.g., because it is turned off, disconnected, or runs out of battery), all other controllers automatically "move up": If the controller of player 1 is disconnected, to controller of player 2 will be reassigned to player 1 and so on.
+
+### Use the built-in device controls for player 1
+
+In case you want to always use the built-in controls as a controller for player 1, even if other controllers are connected,
+
+* press ++"Start"++ to bring up the main menu
+* go to *Controller & Bluetooth Settings*
+* make sure that *Use Handheld Controls for Player 1* is *enabled*
+
+!!! danger "Controller cannot be reassigned while in-game"
+
+    Please **be aware** that controller assignments **do not work in-game** (except for a few ports, e.g. *TMNT: Shredder's Revenge*). Consequently, you need to **connect** your controllers **before** launching a game and you need to exit a game before you can have a controller drop out.
 
 ## Controller mapping
 
