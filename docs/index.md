@@ -4,11 +4,19 @@
 
 # Welcome to KNULLI :material-gamepad:
 
-## Here comes the Gladiator! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## It's time for a sequel! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
 
-*"Are you not entertained?!"*
+*"Is this how Rome treats its heroes?"*
 
-Well, if you are not, this changes now: **KNULLI Gladiator** has gone public! The brand new version of KNULLI comes loaded with a whole lot of new features and improvements, such as:
+Oh yes, it is! We are proud to announce that **KNULLI Gladiator II** has just gone public!
+
+We decided to stick with the version name Gladiator since **Gladiator II** is more like a **patch level update**: A couple of bugfixes and quality of life improvements. Most prominently, with Gladiator II, we finally introduce **OTA (over the air) updates** which will enable you to install future updates directly on-device!
+
+### New features of KNULLI Gladiator II
+
+TODO - add Gladiator II features
+
+### New features of KNULLI Gladiator
 
 - Added device support for the Anbernic RG34XX
 - Improved support for TrimUI devices ([toggle switch support](play/basic-inputs), RGB, suspend mode, d-pad-as-stick toggle)
