@@ -107,17 +107,56 @@ plugins:
           site_name: "KNULLI Wiki"
           nav_translations:
             Home: Inicio
-            FAQs: Preguntas Frecuentes 
+            About KNULLI: Acerca de KNULLI
+            FAQs: Preguntas Frecuentes
+            Questions about KNULLI: Preguntas sobre KNULLI
+            Troubleshooting: Solución de Problemas
             Play: Jugar
-            Systems: Sistemas
-            Devices: Dispositivos
-            Install: Instalar
-            Update: Actualizar
+            Quick Start Guide: Guía de Inicio Rápido
+            Install: Instalar KNULLI
             Add Games: Añadir Juegos
+            Game Storage: Almacenamiento de los Juegos
+            Formatting: Formatear
+            Second SD Card: Segunda Tarjeta SD
+            Network Transfer: Transferencia de Red
+            Accessing via USB: Acceso por USB
+            Accessing SD Card: Acceso a la Tarjeta SD
+            Basic Inputs: Métodos de Entrada
+            Hotkey Shortcuts: Atajos
             Achievements: Logros
-            Controls: Controles
             Netplay: Juego en Red
-            Unbranded: Sin Marca
+            Update: Actualizar
+            Configure: Configuración
+            Networking: Redes
+            Quick Resume: Reinicio Rápido
+            Controls: Controles
+            Collections: Colecciones
+            Multi-Disc Games: Juegos Multidisco
+            RGB LEDs: LEDs RGB
+            Power Management: Administración de Energía
+            Customization: Personalización
+            Themes: Temas
+            Background Music: Música de Fondo
+            Bezel Decorations: Marcos
+            Boot Logo: Imagen de Inicio
+            Shaders : Filtros
+            Custom Hotkey Shortcuts: Atajos Personalizados
+            Cheats: Trucos
+            Multiplayer: Multijudador
+            Factory Settings: Reinicio de Fábrica
+            Patches and Overlays: Parchar y Sobreescribir
+            Systems: Sistemas
+            Media Player: Reproductor Multimedia
+            Guides: Guías
+            Dual SD Card Migration: Migración a Doble Tarjeta SD
+            Major Updates: Actualizaciones Mayores
+            Partitioning: Particionado
+            PortMaster and exFAT: PortMaster y exFAT
+            Development: Desarrollo
+            Building KNULLI With Docker: Compilar KNULLI con Docker
+            Community: Comunidad
+            Contribute: Contribuir
+            Devices: Dispositivos
         - locale: de
           name: Deutsch
           build: true
