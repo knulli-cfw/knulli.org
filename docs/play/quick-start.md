@@ -6,7 +6,7 @@ With this quick start guide, we will help you get started with KNULLI on your ha
 
 ## Installing KNULLI [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
 
-Find the latest KNULLI release on our [GitHub repository](https://github.com/knulli-cfw/distribution/releases/latest), find the image for your **specific device** in the *Installation Download Package* section, download it, and flash it onto an SD card. Do **not** attempt to format anything manually afterwards, KNULLI will do it for you! Just put the SD card in your device, **remove** SD cards from any other slot, and boot the device to finish installation. (First boot can take quite long since KNULLI will expand and format your games partition. Be patient.)
+Find the latest KNULLI release on our [GitHub repository](https://github.com/knulli-cfw/distribution/releases/latest), find the image for your **specific device** in the *Installation Package Downloads* section, download it, and flash it onto an SD card. Do **not** attempt to format anything manually afterwards, KNULLI will do it for you! Just put the SD card in your device, **remove** SD cards from any other slot, and boot the device to finish installation. (First boot can take quite long since KNULLI will expand and format your games partition. Be patient.)
 
 If you need more detailed information on how to install KNULLI, have a look into the [Install](../install) section.
 
