@@ -12,7 +12,7 @@ Therefor they can be applied:
 
 
 !!! info "This is just an example"
-    We will use one of the [Shimmerless](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) shaders as an example here, but the method should be applicable to any compatible shader.
+    We will use one of the [Shimmerless](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) shaders as an example here, but the method should be applicable to any compatible shader. In the current releases of Knulli, the sharp-shimmerless shaders are included in the default build so while these instructions are still a valid example, it is possible to use sharp-shimmerless either directly in retroarch or by creating the config file and pointing it to the correct shader in the file system.
 
 ## Folders preparation
 
