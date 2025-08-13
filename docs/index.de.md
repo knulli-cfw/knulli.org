@@ -1,41 +1,46 @@
 <div class="preview-container">
-  <img class="off-glb" src="/_inc/images/knulli-header-gladiator.png"/>
+  <img class="off-glb" src="/_inc/images/knulli-header-gladiator-ii.png"/>
 </div>
 
 # Willkommen bei KNULLI :material-gamepad:
 
-## Hier kommt der Gladiator! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## Es ist an der Zeit für eine Fortsetzung! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
 
-*"Gefällt es euch nicht?! Unterhalte ich euch nicht?!"*
+*"Behandelt Rom so seine Helden?"*
 
-Falls ihr euch nach besserer Unterhaltung sehnt, haben wir gute Nachrichten: **KNULLI Gladiator** ist da! Die brandneue Version von KNULLI bringt eine ganze Reihe neuer Features und Verbesserungen mit, z.B.:
+Oh ja, das tut es! KNULLI Gladiator war *so* gut, es war quasi dafür prädestiniert eine Fortsetzung zu erhalten. Dementsprechend kündigen wir mit Stolz an, dass **KNULLI Gladiator II** soeben veröffentlicht wurde!
 
-- Geräteunterstützung für Anbernic RG34XX
-- Verbesserte Unterstützung für Trim-UI-Geräte ([Unterstützung des Schalters](play/basic-inputs), RGB, Energiesparmodus, D-Pad-als-Stick-Funktion)
-- exFAT als neues Standarddateisystem
-- Der neue [Quick-Resume-Modus](configure/quick-resume) lässt euch direkt in euer Spiel booten
-- Verbesserte Bluetooth- und W-LAN-Konnektivität
-- Automatische Zuweisung von [Controllern](configure/controls) zu Spielern
-- Automatisches Umschalten zwischen [Bluetooth](configure/bluetooth)-Audio und den eingebauten Lautsprechern
-- [RGB-Einstellungen](configure/rgb-leds) sind jetzt in EmulationStation integriert
-- Verbessertes RGB-Verhalten
-- Verbesserte Energieverwaltung und neue Möglichkeiten um den Energieverbrauch zu reduzieren
-- Verbesserte Geschwindigkeit beim Laden von EmulationStation
-- Drastic-Steward von Advanced Drastic als NDS-Emulator abgelöst
-- [MPV Media Player](systems/media-player) hinzugefügt
-- Automatische Erkennung von [ScummVM](systems/scummvm)-Spielen
-- 60-Hz-Patch für RG35XX SP, RG34XX und RG CubeXX angewandt (Vielen Dank [@TheGammaSqueeze](https://github.com/TheGammaSqueeze)!)
-* Unzählige Bugfixes und Verbesserungen
+Die neue Version ist ein Update von KNULLI Gladiator, d.h. es benutzt die gleichen Emulatorversionen etc. Allerdings bringt Gladiator II eine ganze Reihe von Bugfixes und Verbesserungen mit. Im Mittelpunkt stehen dabei **OTA-Updates (over-the-air)**, die es möglich machen, in Zukunft KNULLI über das Internet direkt am Handheld zu aktualisieren!
 
-Eine vollständige Liste aller Features, Korrekturen und Änderungen findet ihr im [Changelog](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md).
+Wir können es natürlich nicht versprechen, aber insofern wir keine **gigantischen** Änderungen machen, die es nötig machen, KNULLI erneut zu flashen, wirst du **alle zukünftigen Updates** über OTA installieren können! (Dadurch werden sich die Entwicklungszyklen allerdings **nicht** verkürzen! Rechne mit neuen OTA-Updates auf dem **Stable**-Kanal auch weiterhin im Abstand von 3-4 Monaten.)
+
+Eine vollständige Liste aller neuen Features, Bugfixes und Änderungen findest du im [Changelog](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md). Hier sind ein paar Highlights:
+
+### Neue Features von KNULLI Gladiator II
+
+- **Geräteunterstützung** für Anbernic RG34XX SP, RG35XX Pro
+- **[Over-the-air-Updates](play/update)** über das Menü *Updates & Downloads* werden zukünftige Updates deutlich vereinfachen
+- **SMB (SAMBA)** ist jetzt ein [**Service**, den du ein- und ausschalten kannst](play/add-games/network-transfer) und der standardmäßig **deaktiviert** ist
+- Ein Schalter um das **eingebaute "Gamepad"** bei der [automatischen Zuweisung](configure/controls) immer Spieler 1 zuzuordnen sowie ein paar Fehlerbehandlungen bei der automatischen Zuweisung von **USB-Controllern**
+- Fehlerbehebung bzgl. **Standalone-Emulatoren für Dreamcast/PSP** auf **A133**-Geräten (TrimUI Brick, TrimUI Smart Pro)
+- Bezel-Dekorationen
+    - sind jetzt **automatisch aktiviert** when als *Decoration Set* der Wert *Auto* ausgewählt ist
+    - werden jetzt auf den *H700*-Geräten (Anbernic RG-XX-Serie) auch bei **Standalone-Emulatoren** angewandt
+    - enthalten jetzt ein zusätzliches Set *Default-Knulli-SP*, das speziell für das **GBA**-System angelegt wurde und **SP**-Vibes auf Clamshell-Geräten mit 4:3-Bildschirmen versprüht
+- Ein **Disk-Check**-Werkzeug wurde unter *System Settings* → *Frontend Developer Options* hinzugefügt, um die Integrität deiner SD-Karten zu überprüfen
+- **Soft Reset** ist ein neuer [Hotkey-Shortcut](play/hotkey-shortcuts), mit dem ein Neustart von EmulationStation erzwungen werden kann
+- Du kannst dein Gerät jetzt direkt über EmulationStation **[auf Werkseinstellungen zurücksetzen](configure/reset-to-factory-settings)**
+- Ein großer Haufen weiterer **Bugfixes** und **Verbesserungen** der Systemstabilität, Performance, und Akkulaufzeit
 
 !!! warning "Major Update"
 
-    Diese Version von KNULLI bringt eine große Menge Veränderungen mit sich, die es **zwingend nötig** machen, dass du KNULLI **neu flashst**.
+    Diese Version von KNULLI bringt eine große Menge Veränderungen mit sich, die es **zwingend nötig** machen, dass du KNULLI **neu flashst**. Insbesondere muss die Partitionsgröße der `BATOCERA`-Partition angepasst werden, damit sie in Zukunft fähig ist, OTA-Updates zu bewältigen.
 
-    Wir **raten eindringlich dazu**, eine komplett neue Installation von KNULLI aufzusetzen. Wenn du allerdings unbedingt versuchen möchtest, deine Benutzerdaten einer vorherigen Installation zu übernehmen, wirf bitte einen Blick in den Abschnitt [Major Updates](guides/major-updates).
+    Falls du ein Update von **Gladiator** zu **Gladiator II** durchführst, kannst du in diesem Fall deinen `system`-Ordner behalten, da es zwischen den Versionen keine Kompatibilitätsprobleme geben sollte.
 
-Falls du KNULLI noch nicht kennst und **neu installieren** möchtest: Unser [Quick Start Guide](play/quick-start) wird dich durch die Installation und die ersten Schritte mit KNULLI begleiten. Falls du KNULLI bereits verwendest und auf die **neue Gladiator-Version wechseln** möchtest: Bitte sei dir bewusst, dass die [PortMaster-und-exFAT-Situation](guides/portmaster-and-exfat) sich **geklärt hat** und KNULLI jetzt standardmäßig das Windows/MacOS-kompatible Dateisystem **exFAT** verwendet! Vielleicht ist jetzt ein guter Zeitpunkt um einmal das ganze System neu aufzusetzen?
+    Jedem anderen **raten wir eindringlich dazu**, eine komplett neue Installation von KNULLI aufzusetzen. Wenn du allerdings unbedingt versuchen möchtest, deine Benutzerdaten einer vorherigen Installation zu übernehmen, wirf bitte einen Blick in den Abschnitt [Major Updates](guides/major-updates).
+
+Falls du KNULLI noch nicht kennst und **neu installieren** möchtest: Unser [Quick Start Guide](play/quick-start) wird dich durch die Installation und die ersten Schritte mit KNULLI begleiten.
 
 In jedem Fall wünschen wir dir viel Spaß beim Spielen mit KNULLI!
 

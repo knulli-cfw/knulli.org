@@ -12,7 +12,7 @@ Oh yes, it is! KNULLI Gladiator was *so* good, it was bound to get a sequel. Hen
 
 The new version is an update of KNULLI Gladiator, using still the same emulator versions etc. However, the new version comes with a couple of bugfixes and quality-of-life improvements. Most prominently, with Gladiator II, we finally introduce **OTA (over the air) updates** which will enable you to install future updates directly on-device!
 
-We can't make any promises, obviously, but unless we make any **huge** changes which would require a reflash, you will be able to install **all future** KNULLI updates via OTA. (This will **not** shorten development cycles though! Expect OTA updates about every 3-4 month or so on the **public** update channel.)
+We can't make any promises, obviously, but unless we make any **huge** changes which would require a reflash, you will be able to install **all future** KNULLI updates via OTA. (This will **not** shorten development cycles though! Expect OTA updates about every 3-4 month or so on the **stable** update channel.)
 
 You will find a complete list of all new features, fixes, and changes in the [change log](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md). However, here are some highlights:
 
