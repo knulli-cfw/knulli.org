@@ -6,8 +6,6 @@ If you want to update KNULLI, you usually have three options:
 * **Re-flash** KNULLI to get a clean installation of the new version
 * Manually update KNULLI by replacing the **boot package**
 
-Please be aware that only **minor updates** come with a **boot package**. If you want to install a **major update**, it usually contains so many **significant changes** that re-flashing KNULLI is mandatory.
-
 ## OTA Updates
 
 !!! info "OTA requires a working internet connection"
@@ -23,7 +21,11 @@ Before you attempt to re-flash or update manually, you might want to verify whet
 * Press *Start Update* to check for updates
 * If an update is available, follow the instructions on screen
 * Updates may take a moment - if you are low on battery, we strongly suggest to connect to a power source before beginning to update
-* **DO NOT** interrupt the device while an update is running!
+* **DO NOT** interrupt the device while an update is running, **DO NOT** try to play a game or do anything else while an update is running - just wait!
+
+!!! info "Alpha updates"
+
+    For regular users, **only** *stable* updates are available right now. Access to *alpha* updates is limited to **KNULLI alpha testers**. If you are interested in becoming an alpha tester, please have a look at the [Contribute](../../community/contribute) section.
 
 ## Major Updates
 

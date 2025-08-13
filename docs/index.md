@@ -1,5 +1,5 @@
 <div class="preview-container">
-  <img class="off-glb" src="/_inc/images/knulli-header-gladiator.png"/>
+  <img class="off-glb" src="/_inc/images/knulli-header-gladiator-ii.png"/>
 </div>
 
 # Welcome to KNULLI :material-gamepad:
@@ -12,7 +12,7 @@ Oh yes, it is! KNULLI Gladiator was *so* good, it was bound to get a sequel. Hen
 
 The new version is an update of KNULLI Gladiator, using still the same emulator versions etc. However, the new version comes with a couple of bugfixes and quality of live improvements. Most prominently, with Gladiator II, we finally introduce **OTA (over the air) updates** which will enable you to install future updates directly on-device!
 
-We can't make any promises, obviously, but unless we make any *major* changes which would require a reflash, you will be able to install the **next** KNULLI update via OTA. (This will **not** shorten development cycles, though. Expect OTA updates about every 3-4 month or so.)
+We can't make any promises, obviously, but unless we make any **huge** changes which would require a reflash, you will be able to install **all future** KNULLI updates via OTA. (This will **not** shorten development cycles though! Expect OTA updates about every 3-4 month or so on the **public** update channel.)
 
 You will find a complete list of all new features, fixes, and changes in the [change log](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md). However, here are some highlights:
 
@@ -20,7 +20,8 @@ You will find a complete list of all new features, fixes, and changes in the [ch
 
 - Added device support for Anbernic RG34XX SP, RG35XX Pro
 - [Over-the-air updates](play/update) via the *Updates & Downloads* menu will make future updates considerably more easy
-- SMB (SAMBA) is now a [service you can turn on/off](play/network-transfer) which is **disabled** by default
+- SMB (SAMBA) is now a [service you can turn on/off](play/add-games/network-transfer) which is **disabled** by default
+- [Factory reset](configure/reset-to-factory-settings) can now be run directly from EmulationStation
 
 ### New features of KNULLI Gladiator
 
