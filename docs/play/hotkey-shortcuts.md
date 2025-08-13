@@ -20,7 +20,8 @@ All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"+
 
 | Shortcut                                         | Action                                           |
 | ------------------------------------------------ | ------------------------------------------------ |
-| ++"Function"++ + ++"Start"++                     | Quit the game and return to EmulationStation     |
+| ++"Function"++ + ++"Start"++ (tap)               | Quit the game and return to EmulationStation     |
+| ++"Function"++ + ++"Start"++ (hold 5 seconds)    | Quit any application and force restart of EmulationStation |
 | ++"Function"++ + ++"Select"++                    | **Only on devices without analog sticks:** Toggle between mapping either the D-pad or an analog stick to the D-pad (e.g., for playing N64 or moving the touch cursor in NDS) |
 | ++"Function"++ + :material-gamepad-circle-down:  | Open the emulator menu of the current core       |
 | ++"Function"++ + :material-gamepad-circle-right: | Reset system                                     |
@@ -33,6 +34,7 @@ All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"+
 | ++"Function"++ + ++"L1"++                        | Take a screenshot                                |
 | ++"Function"++ + ++"Volume Up"++                 | Increase brightness                              |
 | ++"Function"++ + ++"Volume Down"++               | Decrease brightness                              |
+| ++"Function"++ + ++"Power"++                     | Switch power LED modes (on, off when in-game, always off) |
 | ++"L2"++                                         | **In Drastic (NDS)**: Swap first/second screen (single screen) or switch between screen arrangements (dual screen) |
 | ++"Function"++ + ++"L2"++                        | **In Drastic (NDS)**: Switch between single/dual screen |
 | ++"R2"++                                         | **In Drastic (NDS)**: Touch cursor click         |
