@@ -18,11 +18,11 @@ You will find a complete list of all new features, fixes, and changes in the [ch
 
 ### New features of KNULLI Gladiator II
 
-- Added device support for Anbernic RG34XX SP, RG35XX Pro
-- [Over-the-air updates](play/update) via the *Updates & Downloads* menu will make future updates considerably more easy
-- SMB (SAMBA) is now a [service you can turn on/off](play/add-games/network-transfer) which is **disabled** by default
-- Soft reset [hotkey shortcut](play/hotkey-shortcuts)  can be used to quit any application and force the KNULLI GUI to restart
-- [Factory reset](configure/reset-to-factory-settings) can now be run directly from EmulationStation
+- Added **device support** for Anbernic RG34XX SP, RG35XX Pro
+- **[Over-the-air updates](play/update)** via the *Updates & Downloads* menu will make future updates considerably more easy
+- **SMB (SAMBA)** is now a [**service** you can turn on/off](play/add-games/network-transfer) which is **disabled** by default
+- **Soft reset** [hotkey shortcut](play/hotkey-shortcuts)  can be used to force EmulationStation to restart
+- **[Factory reset](configure/reset-to-factory-settings)** is now possible on-device via EmulationStation
 
 ### New features of KNULLI Gladiator
 
