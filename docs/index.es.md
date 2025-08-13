@@ -32,8 +32,8 @@ KNULLI utiliza las páginas de discusión de Discord, si te gustaría unirte a n
 
 KNULLI es una distribución de Linux que está compuesta por muchos componentes de código abierto. Los componentes se proporcionan bajo sus respectivas licencias. Esta distribución incluye componentes licenciados solo para uso no comercial.
 
-### Bundled Works
-All other software is provided under each component's respective license.  These licenses can be found in the software sources or in this project's licenses folder.  Modifications to bundled software and scripts by the KNULLI team are licensed under the terms of the software being modified.
+### Componentes Incluídos
+El resto del software se proporciona bajo su propia licencia correspondiente. Estas licencias se pueden encontrar en la fuente del software o en la carpeta de licencias de este proyecto. Las modificaciones al software incluído y los scripts por parte del equipo de KNULLI están licenciadas bajo los términos del software modificado.
 
 ### Kernels y bootloaders en formato binario
 

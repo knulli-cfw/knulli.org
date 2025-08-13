@@ -27,15 +27,19 @@ When you save your changes, don't forget to add a **commit message**, briefly ex
 
 For more experienced users, we **strongly** recommend to learn how to run the entire website locally on your own machine:
 
-* [Download Python](https://www.python.org/downloads/) and install it on your computer
-* Download a proper plain-text editor (e.g., [Notepad++](https://notepad-plus-plus.org/downloads/)) and install it on your computer
-* Download Git (e.g., [Git for Windows](https://gitforwindows.org/)) and install it on your computer
-* (Optionally) also install a visual Git client (e.g., [TortoiseGit](https://tortoisegit.org/))
-* Check out your own GitHub repository to a folder on your machine
-* Open a command line tool (e.g., Windows PowerShell Terminal), navigate to the project folder
-* Run the command `pipenv run mkdocs serve`
-* You will be able to access your local version of the website at `http://127.0.0.1:8000/`
-* Edit any file you like and either wait for the page to reload automatically or refresh your browser to see the changes you made
+* [Download Python](https://www.python.org/downloads/) and install it on your computer.
+* Download a proper plain-text editor (e.g., [Notepad++](https://notepad-plus-plus.org/downloads/) or [Visual Studio Code](https://code.visualstudio.com/Download)) and install it on your computer.
+* Download Git (e.g., [Git for Windows](https://gitforwindows.org/)) and install it on your computer.
+* (Optionally) also install a visual Git client (e.g., [TortoiseGit](https://tortoisegit.org/) or [Github Desktop](https://desktop.github.com/download/)).
+* Install the following python packages/dependencies:
+    * Install pip env: `pip install pipenv`.
+    * Add this address to your system PATH variable: `C:\Users\{your_windows_user}\AppData\Roaming\Python\{your_Python_version}\Scripts` (you can get the exact string to add from the console output when installing pipenv in the previous bullet).
+    * Install mkdocs and its dependencies: `pip install mkdocs mkdocs-material mkdocs-glightbox mkdocs-macros-plugin mkdocs-static-i18n`.
+* Check out your own GitHub repository to a folder on your machine.
+* Open a command line tool (e.g., Windows PowerShell Terminal), navigate to the project folder.
+* Run the command `pipenv run mkdocs serve`.
+* You will be able to access your local version of the website at `http://127.0.0.1:8000/`.
+* Edit any file you like and either wait for the page to reload automatically or refresh your browser to see the changes you made.
 
 Once you are done with all the changes you want to propose to us, make sure to **commit** them with a proper commit message and **push** them to your GitHub repository.
 
