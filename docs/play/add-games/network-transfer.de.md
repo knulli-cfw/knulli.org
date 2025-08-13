@@ -7,11 +7,21 @@ Um Netzwerkübertragung zu nutzen, musst du als erstes die Netzwerkverbindungen 
 * den Hostnamen und/oder die IP-Adresse deines Geräts.
 * das Root-Passwort, wenn erweiterte Sicherheitsmaßnahmen aktiviert sind, wie im Abschnitt [Netzwerkverbindungen](../../../configure/networking) beschrieben.
 
+!!! info "Standard-Zugangsdaten"
+
+    Der **Benutzername** für den Netzwerkzugriff auf dein Gerät lautet `root`. Das voreingestellte **Passwort** lautet `linux`.
+
 ### Windows-Netzwerk (SMB)
 
-KNULLI unterstützt, wie viele andere Betriebssysteme, das Windows-Netzwerkprotokoll SMB. Um Daten via SMB an dein Gerät zu übertragen, hast du verschiedene Möglichkeiten, je nachdem, welche Art von Computer du für die Übertragung nutzt.
+!!! info "SMB ist jetzt ein Hintergrunddienst"
 
-Nachdem du dich erfolgreich eingeloggt hast, kannst du den Netzwerkordner `share` sehen. Dieser Ordner entspricht deinem aktuellen [`/userdata`-Ordner](../game-storage). Hier kannst du deine Daten (Spiele etc.) in den dafür vorgesehenen Ordnern ablegen.
+    Seit KNULLI Gladiator II, ist SMB ein Service, ein Hintergrunddienst, den du selbst jederzeit ein- oder ausschalten kannst. Wenn du SMB nicht benötigst, kannst du es einfach ausgeschaltet lassen, und so evtl. ein Bisschen Akkulaufzeit einsparen.
+
+    Um SMB zu aktivieren musst du *System Settings* öffnen, dort *Services* auswählen und dann *SAMBA* aktivieren!
+
+KNULLI unterstützt, wie viele andere Betriebssysteme, das Windows-Netzwerkprotokoll SMB (oft auch SAMBA genannt). Seit KNULLI Gladiator II ist SMB nicht mehr standardmäßig aktiviert. Du kannst SMB allerdings jederzeit ein- oder ausschalten, wenn du es benötigst. Gehe dazu einfach in *System Settings* auf *Services* und schalte *SAMBA* dort ein oder aus.
+
+Um Daten via SMB an dein Gerät zu übertragen, hast du verschiedene Möglichkeiten, je nachdem, welche Art von Computer du für die Übertragung nutzt. Nachdem du erfolgreich eine SMB-Verbindung zu deinem Gerät aufgebaut hast, kannst du den Netzwerkordner `share` sehen. Dieser Ordner entspricht deinem aktuellen [`/userdata`-Ordner](../game-storage). Hier kannst du deine Daten (Spiele etc.) in den dafür vorgesehenen Ordnern ablegen.
 
 #### Windows
 

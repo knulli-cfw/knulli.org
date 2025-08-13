@@ -7,11 +7,21 @@ This option first requires you to set up networking on your device.  Please see 
 * the hostname and/or IP address of your device.
 * the root password, if additional security measurements are in place, as explained in the [Networking](../../../configure/networking) section.
 
+!!! info "Default credentials"
+
+    The default **username** for network access to your device is `root`. The default **password** is `linux`.
+
 ### Windows networks (SMB)
 
-Like many other operating systems, KNULLI supports SMB, the Windows network protocol. Depending on the type of computer you have, there are different options to transfer your games and other data via SMB.
+!!! info "SMB is a service now"
 
-After you successfully logged in, you will be able to access the `share` partition as a network drive. The network drive corresponds to your current [`/userdata` folder](../game-storage). Here, you can put all your data (games, etc.) in the respective folders.
+    Starting with KNULLI Gladiator II, SMB is a service that you can enable and disable anytime you like. For users who do not need it, keeping it disabled might save a bit of battery charge.
+
+    To enable SMB, go to *System Settings*, then *Services* and enable *SAMBA*!
+
+Like many other operating systems, KNULLI supports SMB (often also called SAMBA), the Windows network protocol. Since KNULLI Gladiator II, SMB is no longer enabled by default. However, you can always toggle SMB on and off as you like it. To enable/disable SMB, go to *System Settings*, then *Services* and enable/disable *SAMBA*.
+
+Now, depending on the type of computer you have, there are different options to transfer your games and other data via SMB. After you successfully gained access to your device, you will be able to access the `share` partition as a network drive. The network drive corresponds to your current [`/userdata` folder](../game-storage). Here, you can put all your data (games, etc.) in the respective folders.
 
 #### Windows
 

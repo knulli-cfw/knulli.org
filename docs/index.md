@@ -8,13 +8,19 @@
 
 *"Is this how Rome treats its heroes?"*
 
-Oh yes, it is! We are proud to announce that **KNULLI Gladiator II** has just gone public!
+Oh yes, it is! KNULLI Gladiator was *so* good, it was bound to get a sequel. Hence, we are proud to announce that **KNULLI Gladiator II** has just gone public!
 
-We decided to stick with the version name Gladiator since **Gladiator II** is more like a **patch level update**: A couple of bugfixes and quality of life improvements. Most prominently, with Gladiator II, we finally introduce **OTA (over the air) updates** which will enable you to install future updates directly on-device!
+The new version is an update of KNULLI Gladiator, using still the same emulator versions etc. However, the new version comes with a couple of bugfixes and quality of live improvements. Most prominently, with Gladiator II, we finally introduce **OTA (over the air) updates** which will enable you to install future updates directly on-device!
+
+We can't make any promises, obviously, but unless we make any *major* changes which would require a reflash, you will be able to install the **next** KNULLI update via OTA. (This will **not** shorten development cycles, though. Expect OTA updates about every 3-4 month or so.)
+
+You will find a complete list of all new features, fixes, and changes in the [change log](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md). However, here are some highlights:
 
 ### New features of KNULLI Gladiator II
 
-TODO - add Gladiator II features
+- Added device support for Anbernic RG34XX SP, RG35XX Pro
+- [Over-the-air updates](play/update) via the *Updates & Downloads* menu will make future updates considerably more easy
+- SMB (SAMBA) is now a [service you can turn on/off](play/network-transfer) which is **disabled** by default
 
 ### New features of KNULLI Gladiator
 

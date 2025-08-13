@@ -19,7 +19,7 @@ Before you attempt to re-flash or update manually, you might want to verify whet
 * Press ++"Start"++ to bring up the main menu
 * Go to *Updates & Downloads*
 * Make sure *Check For Updates* is *enabled* to receive info about new KNULLI versions right after boot
-* Set *Update Type* to *Stable* (*Alpha* and *Development* are currently restricted to developers and alpha testers)
+* Set *Update Type* to *Stable* (*Alpha* and *Development* are currently restricted to developers and alpha testers only!)
 * Press *Start Update* to check for updates
 * If an update is available, follow the instructions on screen
 * Updates may take a moment - if you are low on battery, we strongly suggest to connect to a power source before beginning to update
