@@ -18,7 +18,7 @@ You will find a complete list of all new features, fixes, and changes in the [ch
 
 ### New features of KNULLI Gladiator II
 
-- Added **device support** for Anbernic RG34XX SP, RG35XX Pro
+- Added **device support** for Anbernic RG34XX SP, RG35XX Pro and Powkiddy V90S, V20
 - **[Over-the-air updates](play/update)** via the *Updates & Downloads* menu will make future updates considerably more easy
 - **SMB (SAMBA)** is now a [**service** you can turn on/off](play/add-games/network-transfer) which is **disabled** by default
 - Added a toggle for always [auto-assigning](configure/controls) the **built-in controls** to player one and fixed issues with **USB controller assignment**
