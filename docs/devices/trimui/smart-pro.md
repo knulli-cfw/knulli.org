@@ -47,7 +47,7 @@ In the second step, we need to extract the configuration files of the newly cali
 * Open a command line prompt
     * For **Windows** users: Press the *Windows* button, search for the *Command Prompt* or `cmd` app and open it (Do not confuse it with PowerShell!)
     * For **Linux** users: You probably have a favorite command line tool anyway and a strong opinion why it is the best, so we wouldn't dare making a suggestion
-    * For **MacOs** users: Yeah, sorry, I do not have a Mac, I hope someone who got one will pass through here and edit this page
+    * For **MacOs** users: Press *Command* + *Space* to invoke Spotlight, search for *Terminal* and open it
 * You should now see a (most likely black) window where you can type commands like a really cool hacker would (after typing a command you need to press *Enter* to confirm!)
 * You will need to navigate to the folder where you installed ADB now (it's good you memorized it as I told you above!)
     * Type `cd` (that's short for "change directory") followed by a space and the path to your ADB SDK Platform Tools installation, e.g.
@@ -56,10 +56,9 @@ In the second step, we need to extract the configuration files of the newly cali
          * For example, to pull the files directly to your desktop on a **Windows** machine, try 
              * `.\adb.exe pull /mnt/UDISK/joypad.config %userprofile%\Desktop\`
              * `.\adb.exe pull /mnt/UDISK/joypad_right.config %userprofile%\Desktop\`
-         * For example, to pull the files directly to your desktop on a **Linux** machine, try 
+         * For example, to pull the files directly to your desktop on a **Linux** or **Mac** machine, try 
              * `./adb pull /mnt/UDISK/joypad.config ~/Desktop/`
              * `./adb pull /mnt/UDISK/joypad_right.config ~/Desktop/`
-         * Again, I'm sorry, I do not have a Mac
 * Don't close the command prompt, yet - we'll use it once again in the next step!
 
 And that's it! The fun part is over, you have successfully extracted your config files from the device like a real hacker would! I'm so proud of you! Good job!
