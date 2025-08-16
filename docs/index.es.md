@@ -21,7 +21,7 @@ Encontrarás una lista completa de todas las nuevas características, correccion
 - **Soporte agregado** para Anbernic RG34XX SP, RG35XX Pro y Powkiddy V90S, V20.
 - **[Actualizaciones OTA](play/update)** a través del menú de *Actualizaciones y Descargas* que facilitarán considerablemente las futuras actualizaciones.
 - **SMB (SAMBA)** ahora es un [**servicio** que se puede activar o desactivar](play/add-games/network-transfer), aunque está **deshabilitado** por defecto.
-- Se ha añadido un interruptor para [asignar automáticamente](configure/controls) los **controles integrados** al primer jugador y se han corregido problemas con la **asignación de controles USB**.
+- Se ha añadido un interruptor para [asignar automáticamente](configure/controls) los **controles integrados** siempre al primer jugador y se han corregido problemas con la **asignación de controles USB**.
 - Se han corregido problemas con los **emuladores independientes de Dreamcast/PSP** en dispositivos **A133** (TrimUI Brick, TrimUI Smart Pro).
 - Los marcos
     - se **activan automáticamente** cuando *Decoration Set* está configurado en *Auto*.
