@@ -29,7 +29,7 @@ In KNULLI, a lot of game-related settings can be set to ***"auto"***. *"auto"* *
 * **KNULLI defaults** - settings we consider the best choice for most users.
 * **Global settings** - settings which are set up **globally**. To edit global settings, press ++"Start"++ to bring up the main menu, then head to *Game Settings*.
 * **System settings** - settings which are set up for an **emulated system**, for example for all N64 games, all PSP games, etc. To edit system settings, you have two options:
-    * Press ++"Start"++ to bring up the main menu, then head to *Game Settings*, then head to *Per System Advanced Configuration" and pick the system you want to set up.
+    * Press ++"Start"++ to bring up the main menu, then head to *Game Settings*, then head to *Per System Advanced Configuration* and pick the system you want to set up.
     * Go to the game list of the respective system, press ++"Select"++, then head to *Advanced System Options*.
 * **Per-game settings** - settings which are up for a **single game**, for example "Super Mario World". To edit per-game settings, navigate to the respective game and **press and hold** the button which launches the game (either :material-gamepad-circle-right: or :material-gamepad-circle-down:, depending on your setup), then head to *Advanced Game Options*.
 
