@@ -180,6 +180,7 @@ plugins:
             Formatting: Formatieren
             Scraping: Scraping
             Hotkey shortcuts: Tastenkombinationen
+            Game Settings: Spieleinstellungen
             Achievements: Achievements
             Controls: Controller
             Configure: Konfiguration
@@ -315,6 +316,7 @@ nav:
       - Scraping: play/scraping.md
       - Basic Inputs: play/basic-inputs.md
       - Hotkey Shortcuts: play/hotkey-shortcuts.md
+      - Game Settings: play/game-settings.md
       - Achievements: play/retro-achievements.md
       - Netplay: play/netplay.md
       - Update: play/update.md
