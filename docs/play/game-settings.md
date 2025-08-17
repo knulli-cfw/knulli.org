@@ -2,11 +2,13 @@
 
 !!! info "Attention please, RetroArch know-it-alls!"
 
-    If you have used **other handheld CFWs** before, you might feel like this section does not apply to you, because you know how to set up **RetroArch** to your liking. Well, this section is **especially for** you.
+    If you have used **other handheld CFWs** before, you might feel like this section does not apply to you, because you know how to set up **RetroArch** to your liking. Well, this section is **especially for you**.
 
-    Whenever a game is launched in KNULLI, all emulator-specific configuration files are purged and new files are generated, based on the settings you made in **EmulationStation**. Hence, settings you make within the emulator GUI at runtime will be of no consequence, they will be lost when you re-start the game.
+    Whenever a game is launched in KNULLI, **all** emulator-specific configuration files are **purged** and new files are generated, based on the settings you made in **EmulationStation**. Hence, settings you make within the emulator GUI at runtime will be of **no consequence**, they will be lost when you re-start the game.
 
-    This section will teach you how to set up games with KNULLI.
+    Yeah, yeah, don't worry: **Advanced RetroArch users** will still be able to set up their games directly in RetroArch. However, to do so, you must rely on [**overrides**](../../configure/retroarch/shaders) and [**remap files**](../../configure/retroarch/controls) or try your luck with manually editing `batocera.conf`. Be aware that certain KNULLI features (e.g., using a multi-resolution bezel set to have a bezel decoration on the built-in screen **and** when playing via HDMI out without ever having to manually switch bezel decorations) are **not compatible** with overrides.
+
+    Making your settings the KNULLI way certainly has advantages. This section will teach you how to set up games with KNULLI.
 
 After you installed KNULLI and added your games, KNULLI should give you a pretty good out-of-the-box experience. Still, maybe you are interested in exploring options to customize your gaming experience. This might be about personal preferences (like trying integer scaling, disabling or customizing bezel decorations, applying shaders, etc.) or even about trying entirely different emulators. Some systems like N64 are really hard to emulate, so some emulators might perform better with one game while another emulator performs better with another game. In this section, you will learn how to set up games with KNULLI.
 
@@ -37,7 +39,7 @@ You will find that by default, most of those settings are set to *auto* on every
 
 For example, if you want to enable *Toggle Fast Forward* only for "Super Mario World", just set it in **per-game** settings. If you want to apply it to all SNES games, set it in **system** settings. If you want to apply it to **all games**, set it in the **global** game settings.
 
-!!! warning "Not every emulator supports every setting"
+!!! danger "Not every emulator supports every setting"
 
     Some settings, which can be set up globally for convenience, aren't supported by all emulators. Consequently, making a setting on a higher layer does not always guarantee that the emulator you are using or the device you are using actually supports the feature.
 
@@ -49,13 +51,15 @@ KNULLI comes with a lot of emulators. Many systems even have a selection of emul
 
 Mind that emulators can only be switched on the **system** and **per-game** layer, obviously. You cannot pick a global emulator because there is no single emulator that's capable of covering all systems KNULLI supports.
 
-To switch the emulator for a system or game, go to either **system** or **per-game** settings and find *Emulator*.
+To switch the emulator for a system or game, go to either **system** or **per-game** settings and find *Emulator*. Here, you can pick your favorite among all available emulators for the respective system.
+
+Be aware that sometimes, when switching an emulator, emulator-related settings also change because some emulators have different options than others. Explore the settings and try them out.
 
 !!! info "Libretro cores and standalone emulators"
 
-    When discussing emulators, we distinguish **"libretro cores"** (also referred to as **"RetroArch cores"** and **standalone emulators**. This is due to the great popularity and the great integration of **RetroArch/libretro** into the KNULLI OS. A **standalone** emulator is an emulator that isn't included in libretro, therefore it does not come with RetroArch features.
+    When discussing emulators, we distinguish **"libretro cores"** (also referred to as **"RetroArch cores"**) and **standalone emulators**. This is due to the great popularity and the great integration of **RetroArch/libretro** into the KNULLI OS. A **standalone** emulator is an emulator that isn't included in libretro, therefore it does not come with RetroArch features.
 
-    For example, many standalone emulators do **not** support auto-save/load. They also will not give you save game screenshot. Some cannot even have their save games integrated in ES.
+    For example, many standalone emulators do **not** support auto-save/load. They also will not give you a save game screenshot. Some cannot even have their save games integrated in ES at all.
 
     For example, if you play N64 with *Mupen64plus: Rice*, you will be able to save and load your game state with ++"Function"++ + :material-gamepad-circle-left:/:material-gamepad-circle-up:. However, your saves will **not** appear in ES and you will not be able to drop into the game right at the save state.
 
