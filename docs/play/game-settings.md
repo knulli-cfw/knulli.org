@@ -6,7 +6,7 @@
 
     Whenever a game is launched in KNULLI, **all** emulator-specific configuration files are **purged** and new files are generated, based on the settings you made in **EmulationStation**. Hence, settings you make within the emulator GUI at runtime will be of **no consequence**, they will be lost when you re-start the game.
 
-    Yeah, yeah, don't worry: **Advanced RetroArch users** will still be able to set up their games directly in RetroArch. However, to do so, you must rely on [**overrides**](/../..configure/retroarch/shaders) and [**remap files**](/../..configure/retroarch/controls) or try your luck with manually editing `batocera.conf`. Be aware that certain KNULLI features (e.g., using a multi-resolution bezel set to have a bezel decoration on the built-in screen **and** when playing via HDMI out without ever having to manually switch bezel decorations) are **not compatible** with overrides.
+    Yeah, yeah, don't worry: **Advanced RetroArch users** will still be able to set up their games directly in RetroArch. However, to do so, you must rely on [**overrides**](../../configure/retroarch/shaders) and [**remap files**](../../configure/retroarch/controls) or try your luck with manually editing `batocera.conf`. Be aware that certain KNULLI features (e.g., using a multi-resolution bezel set to have a bezel decoration on the built-in screen **and** when playing via HDMI out without ever having to manually switch bezel decorations) are **not compatible** with overrides.
 
     Making your settings the KNULLI way certainly has advantages. This section will teach you how to set up games with KNULLI.
 
@@ -57,7 +57,7 @@ Be aware that sometimes, when switching an emulator, emulator-related settings a
 
 !!! info "Libretro cores and standalone emulators"
 
-    When discussing emulators, we distinguish **"libretro cores"** (also referred to as **"RetroArch cores"** and **standalone emulators**. This is due to the great popularity and the great integration of **RetroArch/libretro** into the KNULLI OS. A **standalone** emulator is an emulator that isn't included in libretro, therefore it does not come with RetroArch features.
+    When discussing emulators, we distinguish **"libretro cores"** (also referred to as **"RetroArch cores"**) and **standalone emulators**. This is due to the great popularity and the great integration of **RetroArch/libretro** into the KNULLI OS. A **standalone** emulator is an emulator that isn't included in libretro, therefore it does not come with RetroArch features.
 
     For example, many standalone emulators do **not** support auto-save/load. They also will not give you a save game screenshot. Some cannot even have their save games integrated in ES at all.
 
