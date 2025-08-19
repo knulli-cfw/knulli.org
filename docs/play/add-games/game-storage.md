@@ -45,5 +45,3 @@ Inside the `/userdata` folder, you will find subfolders where you can store your
 !!! info "KNULLI only scans for games in the subfolders of the `roms` folder. Games which are stored anywhere else will not be recognized as such. If you are unsure, which folder to choose for your games, we strongly suggest to have a look into the [Batocera Wiki](https://wiki.batocera.org/systems)!"
 
 !!! info "KNULLI is a Linux system which is *case-sensitive*. Consequently, you should pay attention to capital letters when renaming folders or migrating folders from other systems/devices."
-
-!!! info "For details about the files which are required/supported for each system, have a look into the [Systems](/../systems) section of the wiki."
