@@ -68,3 +68,58 @@ The structure of the table of contents mirrors the `docs` folder. The file also 
 The various wiki pages are stored in the `docs` folder, with `docs/index.md` being the **landing page**, the first thing you see when visiting knulli.org. Variants like `docs/index.de.md` are translations (in this case, the German version, indicated by the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)).
 
 Subfolders mirror the tree structure of the table of contents and group any files which can be grouped into a major category, e.g. `configuration`, `guides`, or `faq`. **If you add a new page to the table of contents, make sure to never refer to a translated version but always to the original English version**. Country codes will be applied automatically when users switch languages!
+
+## Style guide
+
+Generally speaking, we prefer substance over style. So if you want to add something to the website but you are new to Markdown, don't be scared to do it wrong, just get started. Nobody did everything perfect right from the start.
+
+However, if you want some pointers, here's the gist:
+
+### Text formatting
+
+#### Emphasize
+
+To emphasize a word, we use **bold** formatting which can be achieved by surrounding the text a double `**` character (asterisk) at start and end of the text, e.g. `this is a **bold statement** right here`.
+
+#### Menu and menu item names
+
+When you refer to a menu name, a menu item name, or a menu item option name, it should always be formatted *italic*. This can be achieved by surrounding the text with a single `*` (asterisk) character at start and end of the text, e.g. `this is an *italic word* right here`.
+
+#### Buttons
+
+When you want to tell the user which buttons to press, the button names should be formatted as such via `++"<button name>"++`, e.g. `++"Start"++` to create a Start button icon inside the text.
+
+Additionally, you may use icon shortcodes for material icons to display face buttons:
+
+| Shortcode                                  | Description |
+| `:material-gamepad-circle-up:`     | Face button north (X) |
+| `:material-gamepad-circle-down:`  | Face button south (B) |
+| `:material-gamepad-circle-left:`  | Face button west (Y) |
+| `:material-gamepad-circle-right:` | Face button east (A) |
+| `:material-gamepad-circle-up:`     | Dpad up |
+| `:material-gamepad-circle-down:`  | Dpad down |
+| `:material-gamepad-circle-left:`  | Dpad left |
+| `:material-gamepad-circle-right:` | Dpad right |
+
+For example:
+
+```
+Press ++"Start"++ to open the main menu, then use :material-gamepad-circle-up: and :material-gamepad-circle-down: to select a submenu.
+```
+
+#### Source code, configuration files and user input
+
+Source code and any texts the user is expected to input via keyboard (including on-screen keyboards) should be marked as `code`. To format a phrase within a sentence as code, add the ````` character ("backtick") at start and end of the text, e.g. ``I really love writing `source code` for KNULLI``!
+
+If you want to add an entire block of code, e.g. a multi-line excerpt from a configuration file, put three backticks in a line, put the code excerpt in the following lines and end the code block by adding another line of only three backticks:
+
+````
+Here are some lines from `batocera.conf` as an example:
+
+```
+system.toggleswitch.mode=mute
+system.input.p1_handheld=0
+global.bezel=default-knulli-sp
+
+```
+````
