@@ -92,6 +92,7 @@ When you want to tell the user which buttons to press, the button names should b
 Additionally, you may use icon shortcodes for material icons to display face buttons:
 
 | Shortcode                                  | Description |
+|----|----|
 | `:material-gamepad-circle-up:`     | Face button north (X) |
 | `:material-gamepad-circle-down:`  | Face button south (B) |
 | `:material-gamepad-circle-left:`  | Face button west (Y) |
