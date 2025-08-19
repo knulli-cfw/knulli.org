@@ -37,7 +37,7 @@ If you want or need to re-create a configuration file (or the entire `system` fo
 * Locate the `system` folder on the left side of the screen.
 * While the focus is on the `system` folder
      * **either** enter the folder and locate the single files or subfolders you want to re-create
-     * **or** just stay, if you want to re-create the entire system folder.
+     * **or** just stay, if you want to re-create the entire `system` folder.
 * Once you have moved the focus on a file/folder you want to re-create
     * press ++"X"++ to open the file menu.
     * select *Rename*.
