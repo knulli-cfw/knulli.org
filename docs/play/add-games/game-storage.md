@@ -34,7 +34,7 @@ Inside the `/userdata` folder, you will find subfolders where you can store your
     * `/roms` is the folder where you can store your games. Inside the folder you will find subfolders for all supported systems. Simply place your game files into the folders of the system the game was made for, e.g.
         * `/snes` is the folder where your SNES games should be stored.
         * `/gb` is the folder where your Gameboy games should be stored.
-        * `/ports` is the folder where your ports (including [PortMaster](../../../systems/portmaster) should be stored.
+        * `/ports` is the folder where your ports (including [PortMaster](../../../systems/portmaster)) should be stored.
         * ...
     * `/saves` is the folder where your game saves as well as core save states will be stored.
     * `/screenshots` is the folder where your screenshots will be stored.
@@ -42,6 +42,10 @@ Inside the `/userdata` folder, you will find subfolders where you can store your
     * `/theme-customizations` is the folder where your theme customizations will be stored.
     * `/themes` is the folder where your themes will be stored.
 
-!!! info "KNULLI only scans for games in the subfolders of the `roms` folder. Games which are stored anywhere else will not be recognized as such. If you are unsure, which folder to choose for your games, we strongly suggest to have a look into the [Batocera Wiki](https://wiki.batocera.org/systems)!"
+!!! info "Folders for your rooms"
 
-!!! info "KNULLI is a Linux system which is *case-sensitive*. Consequently, you should pay attention to capital letters when renaming folders or migrating folders from other systems/devices."
+    KNULLI only scans for games in the subfolders of the `roms` folder. Games which are stored anywhere else will not be recognized as such. If you are unsure, which folder to choose for your games, we strongly suggest to have a look into the [Batocera Wiki](https://wiki.batocera.org/systems)!
+
+!!! info "KNULLI is case-sensitive"
+
+    KNULLI is a Linux system which is *case-sensitive*. Consequently, you should pay attention to capital letters when renaming folders or migrating folders from other systems/devices.

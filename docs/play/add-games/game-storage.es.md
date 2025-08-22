@@ -34,7 +34,7 @@ Dentro de la carpeta `/userdata`, podrás encontrar subcarpetas donde puedes gua
     * `/roms` Es la carpeta donde puedes guardar tus juegos. Dentro de esta carpeta encontrarás subcarpetas para todos los sistemas compatibles. Simplemente coloca los archivos de tus juegos en las carpetas del sistema para el que fueron creados, por ejemplo:
         * `/snes` Es la carpeta donde se deben guardar tus juegos de SNES.
         * `/gb` Es la carpeta donde se deben guardar tus juegos de Gameboy.
-        * `/ports` Es la carpeta donde se deben almacenar tus ports (incluido [PortMaster](../../../systems/portmaster).
+        * `/ports` Es la carpeta donde se deben almacenar tus ports (incluido [PortMaster](../../../systems/portmaster)).
         * ...
     * `/saves` Es la carpeta donde se guardarán tus partidas guardadas, así como los estados de guardado de los núcleos.
     * `/screenshots` Es la carpeta donde se guardarán tus capturas de pantalla.
@@ -42,6 +42,10 @@ Dentro de la carpeta `/userdata`, podrás encontrar subcarpetas donde puedes gua
     * `/theme-customizations` Es la carpeta donde se guardarán las personalizaciones de tus temas.
     * `/themes` Es la carpeta donde se guardarán tus temas.
 
-!!! info "KNULLI solo busca juegos en las subcarpetas de la carpeta `roms`. Los juegos almacenados en cualquier otra carpeta no se reconocerán como tales. ¡Si no estás seguro de qué carpeta elegir para tus juegos, te recomendamos consultar la [Wiki de Batocera](https://wiki.batocera.org/systems)!"
+!!! info "Carpetas para tus juegos."
 
-!!! info "KNULLI es un sistema Linux que *distingue entre mayúsculas y minúsculas*. Por lo tanto, presta atención a las mayúsculas al renombrar carpetas o migrarlas desde otros sistemas/dispositivos."
+    KNULLI solo busca juegos en las subcarpetas de la carpeta `roms`. Los juegos almacenados en cualquier otra carpeta no se reconocerán como tales. ¡Si no estás seguro de qué carpeta elegir para tus juegos, te recomendamos consultar la [Wiki de Batocera](https://wiki.batocera.org/systems)!
+
+!!! info "KNULLI distingue entre mayúsculas y minúsculas."
+
+    KNULLI es un sistema Linux que *distingue entre mayúsculas y minúsculas*. Por lo tanto, presta atención a las mayúsculas al renombrar carpetas o migrarlas desde otros sistemas/dispositivos.
