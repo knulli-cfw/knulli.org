@@ -9,7 +9,9 @@ KNULLI is installed by downloading an image for your device, flashing it to an S
     * Make sure to download the correct image for your device.  For example; if you are installing KNULLI on a [RG35XX](../devices/anbernic/rg35xx.md) you would download the `rg35xx` image.
     * If you have any questions you can check the [Device Support](../devices/index.md) section to confirm which image you should download for your specific device.
 
-!!! warning "If your device is *not* listed among the `Installation Package Downloads`, there is no public release of Knulli for your device, yet. You should *not* attempt to use a package for a different device."
+!!! warning "Not supported devices."
+
+    If your device is *not* listed among the `Installation Package Downloads`, there is no public release of Knulli for your device, yet. You should *not* attempt to use a package for a different device.
 
 ## Step 2: Flash
 
@@ -19,7 +21,9 @@ KNULLI is installed by downloading an image for your device, flashing it to an S
 
 During the imaging, several partitions will be created, which will be shown to you as different drives on your computer. Most of these drives can only be accessed from a Linux operating system. They are not accessible on Windows.
 
-!!! danger "You should never format the KNULLI partitions which Windows cannot read, no matter how strongly Windows suggests that."
+!!! danger "Do not format the KNULLI partitions."
+
+    You should never format the KNULLI partitions which Windows cannot read, no matter how strongly Windows suggests that.
 
 After successful flashing, the *BATOCERA* drive will be the only drive formatted to FAT32, to make it accessible on Windows for manual updates as described in the [update](../update) section. However, this is just the place where the operating system itself is stored, so it is not a place to store your games. For more information on how to add games, please refer to the [Add Games](../add-games) section *after first boot*.
 
