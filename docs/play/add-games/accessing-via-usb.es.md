@@ -13,16 +13,16 @@
 KNULLI admite la transferencia USB mediante **ADB**. Para cambiar el modo USB:
 
 * Presiona ++"Start"++ para abrir el menú principal.
-* Ve a *Ajustes del Dispositivo*.
-* Busca *Modo USB*.
+* Ve a *Device Settings*.
+* Busca *USB Mode*.
 * Configúralo en:
     * *ADB* para Android Debug Bridge.
     * *MTP* (**no recomendado**).
-    * *Desactivado* para deshabilitar el acceso USB (predeterminado).
+    * *OFF* para deshabilitar el acceso USB (predeterminado).
 
 !!! info "¡No olvides actualizar tus listas de juegos!"
 
-    Una vez que tus datos se hayan transferido por completo, asegúrate de actualizar tus listas de juegos para que estén disponibles. Puedes hacerlo presionando ++"Start"++ para abrir el menú principal, luego abre *Configuración del juego* y selecciona *Actualizar listas de juegos*. KNULLI volverá a escanear todas las carpetas de juegos e identificará todos los juegos que añadiste para que estén disponibles en EmulationStation.
+    Una vez que tus datos se hayan transferido por completo, asegúrate de actualizar tus listas de juegos para que estén disponibles. Puedes hacerlo presionando ++"Start"++ para abrir el menú principal, luego abre *Ajustes de Juegos* y selecciona *Actualizar Listas de Juegos*. KNULLI volverá a escanear todas las carpetas de juegos e identificará todos los juegos que añadiste para que estén disponibles en EmulationStation.
 
 ## ADB (Android Debug Bridge)
 
