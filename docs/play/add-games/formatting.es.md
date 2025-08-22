@@ -19,11 +19,9 @@ El formateador integrado de KNULLI tiene soporte para dos sistemas de archivos d
 
 El formateador KNULLI integrado permite formatear tanto el almacenamiento interno de datos de la tarjeta SD principal (**interna**) como la segunda tarjeta SD opcional (**externa**).
 
-Para formatear el almacenamiento de datos con el sistema de archivos que prefieras, abre el menú principal de KNULLI presionando ++"Start"++ y selecciona *Format a disk* en la sección *Frontend developer options* de *System settings*. Asegúrate de seleccionar el *Dispositivo a Formatear* y el *Sistema de Archivos* correctos. Ten en cuenta que, tras seleccionar *Formatear ahora*, deberás reiniciar el dispositivo para aplicar el formateo.
+Para formatear el almacenamiento de datos con el sistema de archivos que prefieras, abre el menú principal de KNULLI presionando ++"Start"++ y selecciona *Formatear un Disco* en la sección *Opciones de Desarrollador* de *Ajustes del Sistema*. Asegúrate de seleccionar el *Dispositivo a Formatear* y el *Sistema de Archivos* correctos. Ten en cuenta que, tras seleccionar *Formatear Ahora*, deberás reiniciar el dispositivo para aplicar el formateo.
 
-To format your data storages to the file systems of your choice, open the KNULLI main menu by pressing ++"Start"++ and choose *Format a disk* in the *Frontend developer options* section of the *System settings*. Make sure to choose the correct *Device to Format* and the *File System* you want to format the device to. Be aware that you need to reboot your device to apply the formatting after you chose *Format now*.
-
-!!! info "Después de Formatear."
+!!! info "Después de formatear."
 
 	Después de formatear, KNULLI creará y llenará la [carpeta `/userdata`](../game-storage) por ti.
 
@@ -73,6 +71,6 @@ Si deseas formatear tu tarjeta SD desde Windows, te recomendamos usar la herrami
 	</tr>
 </table>
 
-!!! info "Después de Formatear."
+!!! info "Después de formatear."
 
 	Después de formatear, deberás insertar la tarjeta SD en tu dispositivo e iniciar KNULLI. Durante el arranque, KNULLI creará y llenará la [carpeta `/userdata`](../game-storage) por ti.
