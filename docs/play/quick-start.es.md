@@ -8,7 +8,7 @@ Con esta guía de inicio rápido, te ayudaremos a empezar a usar KNULLI en tu di
 
 Encuentra la versión más reciente de KNULLI en nuestro [Repositorio de GitHub](https://github.com/knulli-cfw/distribution/releases/latest), busca la imagen para **tu dispositivo** en la sección *Installation Package Downloads*, descárgala y grábala en una tarjeta SD. **No** intentes formatear nada manualmente después; ¡KNULLI lo hará por ti! Sólo inserta la tarjeta SD en tu dispositivo, **retira** las tarjetas SD de cualquier otra ranura e inicia el dispositivo para finalizar la instalación. (El primer arranque puede tardar bastante, ya que KNULLI expandirá y formateará la partición de tus juegos. Ten paciencia).
 
-Si necesitas información más detallada sobre cómo instalar KNULLI, consulta la sección [Instalar](../install).
+Si necesitas información más detallada sobre cómo instalar KNULLI, consulta la sección [Instalar KNULLI](../install).
 
 ## Primeros pasos
 
@@ -22,9 +22,9 @@ Si quieres usar una configuración de doble tarjeta SD de inmediato, ten en cuen
 
 Es posible usar una tarjeta SD ya ocupada como tarjeta SD secundaria. Sin embargo, si intentas hacerlo, asegúrate de que la **estructura de carpetas** coincida con la descrita en la sección [Almacenamiento de los Juegos](../add-games/game-storage).
 
-!!! info "También peudes usar el sistema de archivos ext4"
+!!! info "También peudes usar el sistema de archivos ext4."
 
-	Si prefiere el sistema de archivos ext4, por ejemplo, porque estás acostumbrado a trabajar con Linux y deseas personalizar tu experiencia con Knulli, por ejemplo, mediante enlaces simbólicos, puedes usar el formateador integrado para re-formatear tu dispositivo a ext4. Encontrarás más información en la sección [Formatear](../add-games/formatting).
+	Si prefieres el sistema de archivos ext4, por ejemplo, porque estás acostumbrado a trabajar con Linux y deseas personalizar tu experiencia con Knulli, por ejemplo, mediante enlaces simbólicos, puedes usar el formateador integrado para re-formatear tu dispositivo a ext4. Encontrarás más información en la sección [Formatear](../add-games/formatting).
 
 Asegúrate de **haber decidido** cómo almacenar tus archivos y de **haber preparado el almacenamiento adecuadamente** antes de continuar con el siguiente paso.
 
@@ -32,15 +32,15 @@ Asegúrate de **haber decidido** cómo almacenar tus archivos y de **haber prepa
 
 Presiona el botón ++"Start"++ para abrir el menú principal y ve a *Configuración de Red*, donde podrás configurar tu conexión Wi-Fi. (Encontrarás instrucciones más detalladas sobre cómo configurar el Wi-Fi y aumentar la seguridad en la sección [Redes](../../configure/networking)).
 
-!!! danger "Solución de problemas"
+!!! danger "Solución de problemas."
 
 	Si no puedes conectar tu dispositivo KNULLI a tu Wi-Fi, asegúrate de desactivar el cifrado WPA2+WPA3 en tu router y usa WPA1+WPA2.
 
-	Como alternativa, puedes probar el nuevo **servicio experimental**, que podría permitirte conectarte a tu Wi-Fi protegida con WPA2+WPA3. Presiona ++"Start"++ para abrir el menú principal, ve a *Configuración del sistema*, luego a *Servicios* y activa *WIRELESS_HYBRID_FIX*. Ten en cuenta que esta función es **experimental**.
+	Como alternativa, puedes probar el nuevo **servicio experimental**, que podría permitirte conectarte a tu Wi-Fi protegida con WPA2+WPA3. Presiona ++"Start"++ para abrir el menú principal, ve a *Ajustes del Sistema*, luego a *Servicios* y activa *WIRELESS_HYBRID_FIX*. Ten en cuenta que esta función es **experimental**.
 
 ### 3. Agregar juegos y BIOS
 
-Ahora puedes empezar a agregar tus juegos. Te recomendamos encarecidamente que te familiarices con la estructura de carpetas de KNULLI en la sección [Almacenamiento de los Juegos](../add-games/game-storage).
+Ahora puedes empezar a agregar tus juegos. Te recomendamos fuertemente que te familiarices con la estructura de carpetas de KNULLI en la sección [Almacenamiento de los Juegos](../add-games/game-storage).
 
 A menos que hayas cambiado el sistema de archivos a **ext4**, simplemente apaga tu dispositivo KNULLI, extrae la tarjeta SD que contiene tus juegos e introdúcela en tu computadora. Podrás copiar todos tus juegos directamente a la tarjeta SD.
 
@@ -73,7 +73,7 @@ En cualquier caso, puedes arrastrar y soltar tus juegos y archivos de BIOS desde
 
 Si te interesan los ports, probablemente quieras instalar PortMaster ahora. Asegúrate de estar conectado a tu Wi-Fi, ve a la sección *Ports*, busca *Install.PortMaster* e inícialo. Después, encontrarás *PortMaster* en la sección *Ports*. (Encontrarás más información sobre cómo instalar y ejecutar PortMaster en la sección [PortMaster](../../systems/portmaster)).
 
-!!! info "Instalador de PortMaster no disponible"
+!!! info "Instalador de PortMaster no disponible."
 
 	Si *Install.PortMaster* no está en la sección *Ports*, sigue las instrucciones de la sección [PortMaster](../../systems/portmaster).
 
@@ -83,11 +83,11 @@ Después de agregar e instalar todos tus juegos, puedes **añadir carátulas**, 
 
 ### 6. Configurar RetroAchievements (opcional)
 
-Si quieres conseguir logros retro, inicia sesión en tu cuenta de RetroAchievements. Presiona ++"START"++ en tu control, selecciona *Ajustes del juego* y dirígete a *Ajustes de RetroAchievements* para introducir tus credenciales. Ten en cuenta que RetroAchievements solo funciona con conexión a internet. (Encontrarás más información sobre RetroAchievements en la sección [Logros](../retro-achievements)).
+Si quieres conseguir logros retro, inicia sesión en tu cuenta de RetroAchievements. Presiona ++"START"++ en tu control, selecciona *Ajustes de Juegos* y dirígete a *Ajustes de RetroAchievements* para introducir tus credenciales. Ten en cuenta que RetroAchievements solo funciona con conexión a internet. (Encontrarás más información sobre RetroAchievements en la sección [Logros](../retro-achievements)).
 
 ## ¡A jugar!
 
-¡Felicidades! ¡Estás listo para empezar a jugar! ¿Qué te parece? Si es la primera vez que usas un dispositivo/firmware personalizado como este, te recomendamos encarecidamente que aprendas los **atajos** (los encontrarás en la sección [Atajos](../hotkey-shortcuts)) antes de iniciar el primer juego. ¡Fuera de eso, estás listo!
+¡Felicidades! ¡Estás listo para empezar a jugar! ¿Qué te parece? Si es la primera vez que usas un dispositivo/firmware personalizado como este, te recomendamos fuertemente que aprendas los **atajos** (los encontrarás en la sección [Atajos](../hotkey-shortcuts)) antes de iniciar el primer juego. ¡Fuera de eso, estás listo!
 
 ¡Esperamos que disfrutes jugando tus juegos con KNULLI!
 
