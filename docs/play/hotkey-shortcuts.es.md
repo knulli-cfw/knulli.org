@@ -2,7 +2,7 @@
 
 Los atajos son uno de los conceptos básicos más importantes que debes aprender para navegar por tu dispositivo KNULLI y jugar tus juegos. Esta sección te dará una descripción general de los atajos de teclado disponibles.
 
-!!! warning "Customizing shortcuts"
+!!! warning "Personalizar atajos."
 
     KNULLI busca ofrecer la mejor experiencia de usuario desde el primer momento. Por ello, incluye atajos predefinidos que se aplican a (casi) **todos los emuladores** que incluye KNULLI.
 

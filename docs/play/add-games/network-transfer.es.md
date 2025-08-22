@@ -4,8 +4,8 @@ La transferencia de red se puede usar en cualquier dispositivo que se conecte a 
 
 Esta opción requiere que primero configures la red en tu dispositivo. Consulta la sección [Redes](../../../configure/networking) para obtener más información. Una vez completados esos pasos, necesitarás:
 
-* el hostname o la dirección IP de tu dispositivo.
-* la contraseña de root, si existen medidas de seguridad adicionales, como se explica en la sección [Redes](../../../configure/networking).
+* El hostname o la dirección IP de tu dispositivo.
+* La contraseña de root, si existen medidas de seguridad adicionales, como se explica en la sección [Redes](../../../configure/networking).
 
 !!! info "Credenciales predeterminadas."
 
@@ -17,15 +17,15 @@ Esta opción requiere que primero configures la red en tu dispositivo. Consulta 
 
 	A partir de KNULLI Gladiator II, SMB es un servicio que puedes activar y desactivar cuando quieras. Para usuarios que no lo necesitan, deshabilitarlo puede ahorrar un poco de batería.
 
-	Para activar SMB, ve a *Configuración del Sistema*, luego a *Servicios* y ¡activa SAMBA!
+	Para activar SMB, ve a *Ajustes del Sistema*, luego a *Servicios* y ¡activa SAMBA!
 
-Al igual que muchos otros sistemas operativos, KNULLI es compatible con SMB (también llamado SAMBA), el protocolo de redes de Windows. Desde KNULLI Gladiator II, SMB ya no está activado por defecto. Sin embargo, siempre puedes activar o desactivar SMB a tu gusto. Para activar o desactivar SMB, ve a *Configuración del Sistema*, luego a *Servicios* y activa/desactiva *SAMBA*.
+Al igual que muchos otros sistemas operativos, KNULLI es compatible con SMB (también llamado SAMBA), el protocolo de redes de Windows. Desde KNULLI Gladiator II, SMB ya no está activado por defecto. Sin embargo, siempre puedes activar o desactivar SMB a tu gusto. Para activar o desactivar SMB, ve a *Ajustes del Sistema*, luego a *Servicios* y activa/desactiva *SAMBA*.
 
 Ahora, según el tipo de computadora que tengas, existen diferentes opciones para transferir tus juegos y otros datos mediante SMB. Una vez que hayas accedido a tu dispositivo, podrás acceder a la partición `share` como una unidad de red. La unidad de red corresponde a tu [carpeta `/userdata`](../game-storage) actual. Aquí puedes poner todos tus datos (juegos, etc.) en las carpetas correspondientes.
 
 #### Windows
 
-En cada computadora con Windows, SMB está integrado en el *Explorador de Windows*.
+En las computadoras con Windows, SMB está integrado en el *Explorador de Windows*.
 
 <table>
 	<tr>
@@ -71,18 +71,18 @@ Si deseas acceder a tu dispositivo KNULLI con frecuencia, puedes incluso asignar
 
 	- El nombre del dispositivo corresponde al **hostname** configurado en tu dispositivo KNULLI. Si `KNULLI` no funciona, verifica el **hostname** actual en la *Configuración de Red* de tu dispositivo KNULLI. También puedes usar la **dirección IP** de tu dispositivo escribiéndola directamente en la barra de direcciones.
 	- Si se tienen configuradas medidas de seguridad adicionales, se te solicitarán tus credenciales.
-		- El nombre de usuario esperado es `root` y la contraseña es la **contraseña de root** que se muestra en la sección *Seguridad* de la *Configuración del Sistema*.
+		- El nombre de usuario esperado es `root` y la contraseña es la **contraseña de root** que se muestra en la sección *Seguridad* de *Ajustes del Sistema*.
     
 #### macOS
 
 - Abre Finder, selecciona *Ir* y luego *Conectarse a un Servidor* en el menú superior.
 - En la barra de direcciones que aparece, escribe `smb://[HOSTNAME]` o `smb://[DIRECCION-IP]` (reemplaza `[HOSTNAME]` por el hostname o `[DIRECCION-IP]` por la dirección IP de tu dispositivo).
 - Si se tienen configuradas medidas de seguridad adicionales, se te solicitarán tus credenciales.
-		- El nombre de usuario esperado es `root` y la contraseña es la **contraseña de root** que se muestra en la sección *Seguridad* de la *Configuración del Sistema*.
+		- El nombre de usuario esperado es `root` y la contraseña es la **contraseña de root** que se muestra en la sección *Seguridad* de *Ajustes del Sistema*.
 
 ### SCP/FTP
 
-Usando el programa SCP/FTP que prefieras, configura una conexión SCP/SFTP a la dirección IP de tu dispositivo KNULLI. Necesitarás el hostname o la dirección IP del dispositivo (el hostname predeterminado es `KNULLI`). Asegúrate de que el puerto esté configurado en `22`. El nombre de usuario esperado es `root` y la contraseña esperada es la *contraseña de root* que encontrarás en la sección *Seguridad* de la *Configuración del Sistema* (la contraseña predeterminada es `linux`).
+Usando el programa SCP/FTP que prefieras, configura una conexión SCP/SFTP a la dirección IP de tu dispositivo KNULLI. Necesitarás el hostname o la dirección IP del dispositivo (el hostname predeterminado es `KNULLI`). Asegúrate de que el puerto esté configurado en `22`. El nombre de usuario esperado es `root` y la contraseña esperada es la *contraseña de root* que encontrarás en la sección *Seguridad* de *Ajustes del Sistema* (la contraseña predeterminada es `linux`).
 
 !!! info "Algunas partes de KNULLI son de solo lectura."
 
@@ -139,8 +139,10 @@ Para usuarios de Windows, recomendamos usar [WinSCP](https://winscp.net). Despu�
 
 ### HTTP
 
-!!! warning "Esta sección aún está en construcción. ¡Lo sentimos, estamos trabajando en ello! :smile: Mientras tanto, te recomendamos unirte a nuestro [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB) para contactarnos. ¡Quizás podamos ayudarte ahí!"
+!!! warning "Esta sección aún está en construcción."
+
+	¡Lo sentimos, estamos trabajando en ello! :smile: Mientras tanto, te recomendamos unirte a nuestro [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB) para contactarnos. ¡Quizás podamos ayudarte ahí!
 
 ### Después de transferir tus datos
 
-Una vez transferidos los datos, asegúrate de actualizar tus listas de juegos para que estén disponibles. Para ello, presiona ++"Start"++ para abrir el menú principal, luego abre *Configuración de los juegos* y selecciona *Actualizar listas de juegos*. KNULLI volverá a escanear todas las carpetas de juegos e identificará todos los juegos que has añadido para que estén disponibles en EmulationStation.
+Una vez transferidos los datos, asegúrate de actualizar tus listas de juegos para que estén disponibles. Para ello, presiona ++"Start"++ para abrir el menú principal, luego abre *Ajustes de Juegos* y selecciona *Actualizar Listas de Juegos*. KNULLI volverá a escanear todas las carpetas de juegos e identificará todos los juegos que has añadido para que estén disponibles en EmulationStation.
