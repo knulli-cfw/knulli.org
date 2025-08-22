@@ -18,10 +18,10 @@ Usar una configuración de doble tarjeta SD tiene muchas ventajas:
 
 * Apaga tu dispositivo KNULLI (si está encendido).
 * Inserta la segunda tarjeta SD en la ranura correspondiente con el dispositivo apagado.
-* Inicia KNULLI, abre el menú principal presionando el botón ++"Start"++ y selecciona *Configuración del sistema*.
+* Inicia KNULLI, abre el menú principal presionando el botón ++"Start"++ y selecciona *Ajustes del Sistema*.
 * Busca la sección *Almacenamiento*, donde podrás seleccionar tu *Dispositivo de Almacenamiento*.
     * Cambia de *Interno* (el almacenamiento "interno" es la partición *SHARE* de tu tarjeta SD con KNULLI) al nombre de tu segunda tarjeta SD, por ejemplo, *SHARE - 25.6G*.
-* Reinicia KNULLI para aplicar los cambios presionando el botón ++"Start"++ y seleccionando *Reiniciar sistema* en la sección *Salir*.
+* Reinicia KNULLI para aplicar los cambios presionando el botón ++"Start"++ y seleccionando *Reiniciar Sistema* en la sección *Salir*.
 * Si tu tarjeta SD secundaria **aún no** está formateada con el sistema de archivos que prefieras:
     * Sigue las instrucciones de la sección [Formatear](../formatting) para formatear tu tarjeta SD con el **formateador integrado de KNULLI**.
     * Asegúrate de reiniciar nuevamente para aplicar el formateo.
