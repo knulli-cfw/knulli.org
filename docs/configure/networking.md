@@ -11,7 +11,7 @@ However, even devices without a built-in network adapter (e.g., Anbernic RG35XX 
 To activate your USB network adapter
 
 * plug the network adapter into an appropriate USB port of your KNULLI device.
-* press the ++"Start"++ button and head to *System Settings*. There you will find *Services* where you need to turn on `ENABLE_WIFI` **after** you plugged the network adapter into your device.
+* press the ++"Start"++ button and head to *System Settings*. There you will find *Services* where you need to turn on `ENABLE_WIFI_DONGLE` **after** you have plugged the network adapter into your device.
 * follow the instructions for [setting up Wi-Fi](#setting-up-wi-fi).
 
 ## Setting up Wi-Fi
