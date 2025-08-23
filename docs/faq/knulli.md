@@ -1,7 +1,7 @@
 # :material-frequently-asked-questions: FAQ: About KNULLI
 
 ### Q: What is KNULLI?
-A: KNULLI is a fork of [Batocera](https://batocera.org). It tries to provide support for devices that fall under at least one of these two categories:
+A: KNULLI is a fork of [Batocera](https://batocera.org). It tries to provide support for devices that fall under at least one of these three categories:
 
 * There are no open-source kernels and/or u-boot sources available
 * There are sources, but the kernel is either not mainline, and/or too old (e.g. devices with a BSP kernel 3.4 like the Egret II Mini)

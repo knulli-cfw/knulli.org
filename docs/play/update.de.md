@@ -1,11 +1,31 @@
 #  :material-update: KNULLI aktualisieren
 
-Wenn du KNULLI aktualisieren möchtest, hast du normalerweise zwei Möglichkeiten:
+Wenn du KNULLI aktualisieren möchtest, hast du normalerweise drei Möglichkeiten:
 
+* Du kannst die eingebaute OTA-Funktion (over the air) nutzen um deine KNULLI-Installation zu aktualisieren
 * Du kannst KNULLI **erneut flashen** um eine saubere Installation der neuen Version zu bekommen
 * Du kannst KNULLI manuell aktualisieren, in dem du das neueste **Boot-Package** aufspielst
 
-Sei dir bitte bewusst, dass wir **Boot-Packages** ausschließlich für **kleine Updates** bereitstellen. Wenn du ein **größeres Update** installieren möchtest, enthält es in der Regel so viele **schwerwiegende Änderungen**, dass ein erneutes Flashen zwingend erforderlich ist.
+## OTA Updates
+
+!!! info "OTA benötigt eine funktionierende Internetverbindung"
+
+    Geräte, die nicht W-LAN-fähig sind, können nicht via OTA aktualisiert werden, da KNULLI eine aktive Internetverbindung benötigt, um OTA-Updates herunterzuladen!
+
+Bevor du versuchst, KNULLI erneut zu flashen oder manuall zu aktualisieren, solltest du zunächst prüfen, ob das Update, das du installieren möchtest, auch als OTA-Update zur Verfügung steht:
+
+* Drück ++"Start"++ um das Hauptmenü zu öffnen
+* Öffne *Updates & Downloads*
+* Stelle sicher dass *Check For Updates* auf deinem Gerät *aktiviert* ist um in Zukunft direkt nach dem Hochfahren auf neue Updates aufmerksam gemacht zu werden
+* Stelle *Update Type* auf *Stable* (*Alpha* und *Development* sind derzeit auf KNULLI-Entwickler und Alpha-Tester begrenzt)
+* Wähle *Start Update* um zu prüfen, ob Updates zur Verfügung stehen
+* Falls ein Update verfügbar ist, kannst du jetzt einfach den Anweisungen auf dem Bildschirm folgen
+* Updates können ein Bisschen dauern - wir empfehlen daher, Updates nur durchzuführen, wenn dein Gerät via Ladekabel an eine Stromquelle angeschlossen ist
+* Du solltest das Gerät **NIEMALS** unterbrechen oder ein Spiel starten während ein Update ausgeführt wird!
+
+!!! info "Alpha-Updates"
+
+    Für reguläre KNULLI-Nutzer sind derzeit **ausschließlich** Updates vom Typ *stable* verfügbar. Der Zugriff auf *alpha*-Updates wird ausschließlich unseren **KNULLI-Alpha-Testern** gewährt. Falls du Interesse hast, ein Alpha-Tester zu werden, solltest du einen Blick auf den Abschnitt [Contribute](../../community/contribute) werfen.
 
 ## Größere Updates
 

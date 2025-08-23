@@ -115,6 +115,7 @@ plugins:
             Quick Start Guide: Guía de Inicio Rápido
             Install: Instalar KNULLI
             Add Games: Añadir Juegos
+            BIOSes: BIOS
             Game Storage: Almacenamiento de los Juegos
             Formatting: Formatear
             Second SD Card: Segunda Tarjeta SD
@@ -123,6 +124,7 @@ plugins:
             Accessing SD Card: Acceso a la Tarjeta SD
             Basic Inputs: Métodos de Entrada
             Hotkey Shortcuts: Atajos
+            Game Settings: Configuración de los Juegos
             Achievements: Logros
             Netplay: Juego en Red
             Update: Actualizar
@@ -179,6 +181,7 @@ plugins:
             Formatting: Formatieren
             Scraping: Scraping
             Hotkey shortcuts: Tastenkombinationen
+            Game Settings: Spieleinstellungen
             Achievements: Achievements
             Controls: Controller
             Configure: Konfiguration
@@ -314,6 +317,7 @@ nav:
       - Scraping: play/scraping.md
       - Basic Inputs: play/basic-inputs.md
       - Hotkey Shortcuts: play/hotkey-shortcuts.md
+      - Game Settings: play/game-settings.md
       - Achievements: play/retro-achievements.md
       - Netplay: play/netplay.md
       - Update: play/update.md

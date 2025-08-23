@@ -7,11 +7,21 @@ This option first requires you to set up networking on your device.  Please see 
 * the hostname and/or IP address of your device.
 * the root password, if additional security measurements are in place, as explained in the [Networking](../../../configure/networking) section.
 
+!!! info "Default credentials"
+
+    The default **username** for network access to your device is `root`. The default **password** is `linux`.
+
 ### Windows networks (SMB)
 
-Like many other operating systems, KNULLI supports SMB, the Windows network protocol. Depending on the type of computer you have, there are different options to transfer your games and other data via SMB.
+!!! info "SMB is a service now"
 
-After you successfully logged in, you will be able to access the `share` partition as a network drive. The network drive corresponds to your current [`/userdata` folder](../game-storage). Here, you can put all your data (games, etc.) in the respective folders.
+    Starting with KNULLI Gladiator II, SMB is a service that you can enable and disable anytime you like. For users who do not need it, keeping it disabled might save a bit of battery charge.
+
+    To enable SMB, go to *System Settings*, then *Services* and enable *SAMBA*!
+
+Like many other operating systems, KNULLI supports SMB (often also called SAMBA), the Windows network protocol. Since KNULLI Gladiator II, SMB is no longer enabled by default. However, you can always toggle SMB on and off as you like it. To enable/disable SMB, go to *System Settings*, then *Services* and enable/disable *SAMBA*.
+
+Now, depending on the type of computer you have, there are different options to transfer your games and other data via SMB. After you successfully gained access to your device, you will be able to access the `share` partition as a network drive. The network drive corresponds to your current [`/userdata` folder](../game-storage). Here, you can put all your data (games, etc.) in the respective folders.
 
 #### Windows
 
@@ -59,7 +69,7 @@ If you want to access your KNULLI device regularly, you can even assign a drive 
 
 !!! danger "Troubleshooting"
 
-    - The name of the device corresponds to the **hostname** set it your KNULLI device. If `KNULLI` does not work, check the current **hostname** in the *Network Settings* of your KNULLI device. you can also use the **IP address** of your device when typing directly into the address bar.
+    - The name of the device corresponds to the **hostname** set it your KNULLI device. If `KNULLI` does not work, check the current **hostname** in the *Network Settings* of your KNULLI device. You can also use the **IP address** of your device when typing directly into the address bar.
     - If additional security measurements are in place, you will be prompted for your credentials.
         - The expected username is `root`, the password is the **root password** shown in the *Security* section of the *System Settings*.
     
@@ -68,7 +78,7 @@ If you want to access your KNULLI device regularly, you can even assign a drive 
 - Open finder, select *Go* and then *Connect to Server* from the top menu.
 - In the address bar that appears, type either `smb://[HOSTNAME]` or `smb://[IP-ADDRESS]` into the address bar (replace `[HOSTNAME]` with the hostname or `[IP-ADDRESS]` with the IP address of your device).
 - If additional security measurements are in place, you will be prompted for your credentials.
-    - The expected username is `root`, the password is the *Root password* shown in the *Security* section of the *System settings*.
+    - The expected username is `root`, the password is the **root password** shown in the *Security* section of the *System Settings*.
 
 ### SCP/FTP
 
@@ -78,7 +88,7 @@ Using your SCP/FTP program of choice; set up an SCP/SFTP connection to the IP ad
 
     Unlike the *SMB* file transfer, SCP/FTP will provide access to the **entire** KNULLI file system, not just the `/userdata` folder. However, **everything outside** of the `/userdata` folder is **read-only** - you **can** edit, change, remove, and delete files, but your changes will be **undone** every time you **reboot**.
     
-    If you want to make persistent chances outside of the `/userdata` folder, please have a look at the section about [Patches and Overlays](../../../configure/patches-and-overlays).
+    If you want to make persistent changes outside of the `/userdata` folder, please have a look at the section about [Patches and Overlays](../../../configure/patches-and-overlays).
 
 For Windows users, we recommend to use [WinSCP](https://winscp.net). After installing WinSCP on your Windows computer, follow these steps to establish a SCP connection to your KNULLI device, where you will able to drag-and-drop or copy/paste files directly from the *Windows Explorer*:
 
@@ -97,7 +107,7 @@ For Windows users, we recommend to use [WinSCP](https://winscp.net). After insta
 					<td><code>KNULLI</code></td>
 				</tr>
 				<tr>
-					<th>Port:</th>
+					<th>Port number:</th>
 					<td><code>22</code></td>
 				</tr>
 				<tr>
