@@ -9,7 +9,9 @@ KNULLI se instala descargando una imagen para tu dispositivo, grabándola en una
     * Asegúrate de descargar la imagen correcta para tu dispositivo. Por ejemplo, si estás instalando KNULLI en una [RG35XX](../devices/anbernic/rg35xx.md), deberías descargar la imagen `rg35xx`.
     * Si tienes alguna pregunta, puedes consultar la sección de [Dispositivos](../devices/index.md) para confirmar qué imagen deberías descargar para tu dispositivo.
 
-!!! warning "Si su dispositivo **no** aparece en la lista de `Installation Package Downloads`, aún no hay una versión pública de Knulli para su dispositivo. **No** deberías intentar usar un paquete para otro dispositivo."
+!!! warning "Dispositivos no soportados."
+
+    Si tu dispositivo *no* aparece en la lista de `Installation Package Downloads`, aún no hay una versión pública de Knulli para tu dispositivo. *No* deberías intentar usar un paquete para otro dispositivo.
 
 ## Paso 2: Grabar
 
@@ -19,11 +21,13 @@ KNULLI se instala descargando una imagen para tu dispositivo, grabándola en una
 
 Mientras se graba la imagen, se crearán varias particiones, que se mostrarán como unidades diferentes en tu computadora. La mayoría de estas unidades solo se puede acceder desde Linux. No son accesibles desde Windows.
 
-!!! danger "Nunca debes formatear las particiones de KNULLI que Windows no pueda leer, por mucho que Windows lo sugiera."
+!!! danger "No formatees las particiones de KNULLI."
 
-Después de grabar, la unidad *BATOCERA* será la única formateada en FAT32 para que Windows pueda acceder a ella para actualizaciones manuales, como se describe en la sección [Actualizar](../update). Sin embargo, esta es solo la ubicación donde se almacena el sistema operativo, por lo que no es un lugar para guardar tus juegos. Para más información sobre cómo agregar juegos, consulta la sección [Añadir Juegos](../add-games)" *después del primer arranque*.
+    Nunca debes formatear las particiones de KNULLI que Windows no pueda leer, por mucho que Windows lo sugiera.
 
-!!! warning "Expansión de la partición SHARE"
+Después de grabar, la unidad *BATOCERA* será la única formateada en FAT32 para que Windows pueda acceder a ella para actualizaciones manuales, como se describe en la sección [Actualizar](../update). Sin embargo, esta es solo la ubicación donde se almacena el sistema operativo, por lo que no es un lugar para guardar tus juegos. Para más información sobre cómo agregar juegos, consulta la sección [Añadir Juegos](../add-games) *después del primer arranque*.
+
+!!! warning "Expansión de la partición SHARE."
 
     Mientras se graba la imagen, se creará una partición llamada *SHARE*. Aquí es donde todos tus juegos y demás datos se almacenarán. Sin embargo, la partición *SHARE* solo se expandirá a su tamaño completo durante el primer arranque. Es *obligatorio* finalizar la instalación iniciando KNULLI *antes* de poder acceder a la partición *SHARE* y comenzar a agregar tus juegos. Consulta la sección [Añadir Juegos](../add-games) para saber cómo agregar juegos a tu dispositivo KNULLI *después del primer arranque*.
 

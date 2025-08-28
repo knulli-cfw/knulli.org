@@ -29,4 +29,4 @@ Some third-party developers offer software solutions to access Linux file system
 
 !!! warning "Data loss"
 
-    We generally do **not** recommend using third party software to access Linux file systems. If you know what you are doing, you may try this approach anyway. However, you should be aware that you risk data loss."
+    We generally do **not** recommend using third party software to access Linux file systems. If you know what you are doing, you may try this approach anyway. However, you should be aware that you risk data loss.

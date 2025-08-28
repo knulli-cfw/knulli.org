@@ -8,7 +8,7 @@ R: ¡Sí! Consulta la sección [Segunda Tarjeta SD](../../play/add-games/second-
 
 ### P: Me gustaría probar muOS y KNULLI. ¿Es posible usar la misma segunda tarjeta SD para ambos firmwares personalizados y compartir mis juegos?
 
-R: KNULLI requiere que todas las ROMs estén en las subcarpetas correspondientes del sistema emulado; por ejemplo, `roms/snes` para las ROMs de SNES. Si usas tu tarjeta SD con la estructura de KNULLI (consulta la sección [Añadir Juegos](../../play/add-games) para más detalles), podrás configurar tu muOS para que tome las ROMs de estas carpetas, lo que te permitirá usar la misma segunda tarjeta SD para tus ROMs en ambos firwares personalizados.
+R: KNULLI requiere que todas las ROMs estén en las subcarpetas correspondientes del sistema emulado; por ejemplo, `roms/snes` para las ROMs de SNES. Si usas tu tarjeta SD con la estructura de KNULLI (consulta la sección [Añadir Juegos](../../play/add-games) para más detalles), podrás configurar tu muOS para que tome las ROMs de estas carpetas, lo que te permitirá usar la misma segunda tarjeta SD para tus ROMs en ambos firmwares personalizados.
 
 ---
 
@@ -54,9 +54,9 @@ R: La mayoría de los marcos están diseñadas para pantallas con una relación 
 
 ### P: Tengo problemas con la batería de mi dispositivo Anbernic de la serie RG35XX/RG40XX Plus/SP/2024/H/V. Parece que la batería se descarga más rápido con Knulli que con el sistema operativo original, ¡incluso en modo de suspensión o completamente apagado!
 
-!!! danger "Lea esto antes de reportar problemas con la batería."
+!!! danger "Lee esto antes de reportar problemas con la batería."
     Por las razones que se explican a continuación, **no es útil** reportar problemas con la batería basándose en el **porcentaje mostrado en pantalla**. Decir que la batería perdió el 10% mientras el dispositivo estaba apagado **no sirve de nada**, ya que **es imposible saber** si esa cifra es correcta.
-    Actualmente, **la única** forma válida de investigar los problemas con la batería con KNULLI es observar el **LED indicador de energía** del dispositivo y medir el tiempo que tarda en descargarse por completo. Por ejemplo, para verificar la eficiencia del modo de suspensión, **cargue el dispositivo completamente**, póngalo en modo de suspensión y vea cuánto tarda en **descargarse por completo**.
+    Actualmente, **la única** forma válida de investigar los problemas con la batería con KNULLI es observar el **LED indicador de energía** del dispositivo y medir el tiempo que tarda en descargarse por completo. Por ejemplo, para verificar la eficiencia del modo de suspensión, **carga tu dispositivo completamente**, ponlo en modo de suspensión y ve cuánto tarda en **descargarse por completo**.
 
 R: Hasta donde sabemos, no hay diferencia en la eficiencia de los modos de suspensión entre KNULLI y la **versión inicial** del sistema operativo original de Anbernic. Sin embargo, los experimentos indican que el modo de suspensión **mejorado** del sistema operativo original funciona **mejor** que el modo de suspensión proporcionado por KNULLI. Dado que Anbernic no publica su código fuente, nuestros desarrolladores aún están examinando el sistema operativo original para determinar qué cambios implementaron para mejorar aún más su modo de suspensión. Hasta que lo resolvamos, KNULLI solo ofrecerá el modo de suspensión normal, que consume aproximadamente un 5% de la batería por hora.
 
@@ -64,7 +64,7 @@ Si percibes que tu dispositivo se descarga demasiado rápido, existen varios fac
 
 * El **indicador de batería** de **Emulation Station** (el frontend de KNULLI) presenta un **error** que a veces provoca que se **bloquee**. Es un **problema conocido** en el que se está trabajando. Sin embargo, hasta que se solucione, **no puedes confiar** en la **precisión** del **porcentaje de batería** mostrado. Reiniciar el dispositivo o actualizar las listas de juegos podría solucionar el problema temporalmente; sin embargo, puede volver a ocurrir.
 
-* El porcentaje de batería que se puede leer desde los **controladores de la batería** a veces da lecturas inexactas. Nuestros desarrolladores observaron que, en ocasiones, el porcentaje de batería que se informa directamente desde la batería presenta saltos bastante pronunciados, por ejemplo, del 93% al 100% durante la carga. Por lo tanto, incluso si el indicador de batería **no** se bloquea, el porcentaje de batería mostrado podría ser **ligeramente inexacto**.
+* El porcentaje de batería que se puede leer desde los **controladores de la batería** a veces da lecturas inexactas. Nuestros desarrolladores han observado que, en ocasiones, el porcentaje de batería que se informa directamente desde la batería presenta saltos bastante pronunciados, por ejemplo, del 93% al 100% durante la carga. Por lo tanto, incluso si el indicador de batería **no** se bloquea, el porcentaje de batería mostrado podría ser **ligeramente inexacto**.
 
 * El **modo de suspensión** estándar que ofrece el kernel para los dispositivos Anbernic de esa serie es muy **ineficiente**, especialmente en comparación con los smartphones modernos o dispositivos similares:
 

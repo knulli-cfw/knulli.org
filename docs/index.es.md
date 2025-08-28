@@ -23,24 +23,24 @@ Encontrarás una lista completa de todas las nuevas características, correccion
 - **SMB (SAMBA)** ahora es un [**servicio** que se puede activar o desactivar](play/add-games/network-transfer), aunque está **deshabilitado** por defecto.
 - Se ha añadido un interruptor para [asignar automáticamente](configure/controls) los **controles integrados** siempre al primer jugador y se han corregido problemas con la **asignación de controles USB**.
 - Se han corregido problemas con los **emuladores independientes de Dreamcast/PSP** en dispositivos **A133** (TrimUI Brick, TrimUI Smart Pro).
-- Los marcos
-    - se **activan automáticamente** cuando *Decoration Set* está configurado en *Auto*.
-    - ahora son compatibles con emuladores **independientes** en dispositivos **H700** (Anbernic serie RG XX).
-    - ahora incluyen un conjunto *Default-Knulli-SP* específico para **GBA** para ofrecer una experiencia **SP** en pantallas con formato clamshell 4:3.
+- Los marcos:
+    - Se **activan automáticamente** cuando *Configurar Decoración* está configurado en *Auto*.
+    - Ahora son compatibles con emuladores **independientes** en dispositivos **H700** (Anbernic serie RG XX).
+    - Ahora incluyen un conjunto *Default-Knulli-SP* específico para **GBA** para ofrecer una experiencia **SP** en pantallas con formato clamshell 4:3.
 - Una herramienta **Disk Check** para verificar la integridad de tu tarjeta SD. Se agregó a *Ajustes del sistema* → *Opciones de Desarrollador*.
-- El [atajo](play/hotkey-shortcuts) **Soft Reset** se puede usar para forzar el reinicio de EmulationStation.
+- El [atajo](play/hotkey-shortcuts) **Reinicio Suave** se puede usar para forzar el reinicio de EmulationStation.
 - Ahora es posible hacer un **[Reinicio de Fábrica](configure/reset-to-factory-settings)** en el dispositivo a través de EmulationStation.
 - Numerosas **correcciones de errores** y **mejoras** a la estabilidad del sistema, el rendimiento y la duración de la batería.
 
-!!! warning "Actualización Mayor"
+!!! warning "Actualización Mayor."
 
     Esta versión de KNULLI viene con muchas características nuevas que **requieren volver a flashear el firmware**. En especial, necesitamos **incrementar el tamaño de la partición** de `BATOCERA` para futuras actualizaciones OTA.
 
     Si **actualizas** desde **Gladiator** a **Gladiator II**, puedes conservar tu carpeta de `system` y mantener todas tus configuraciones previas. No habrá problemas de compatibilidad entre estas dos versiones.
     
-    En cualquier otro caso, **recomendamos fuertemente** comenzar desde cero con una instalación nueva. Sin embargo, si desea intentar migrar sus datos de usuario de una instalación anterior a la nueva, consulte la guía de [Actualizaciones Mayores](guides/major-updates).
+    En cualquier otro caso, **recomendamos fuertemente** comenzar desde cero con una instalación nueva. Sin embargo, si deseas intentar migrar tus datos de usuario de una instalación anterior a la nueva, consulta la guía de [Actualizaciones Mayores](guides/major-updates).
 
-Si eres **nuevo en KNULLI** y quieres comenzar: Consulta la [Guía de Inicio Rápido](play/quick-start) en nuestro sitio web - te guiará durante la instalación y los primeros pasos.
+Si eres **nuevo en KNULLI** y quieres comenzar: Consulta la [Guía de Inicio Rápido](play/quick-start) en nuestro sitio web, te guiará durante la instalación y los primeros pasos.
 
 En cualquier caso: ¡Esperamos que disfrutes jugando tus juegos con KNULLI!
 
@@ -55,14 +55,14 @@ KNULLI es un firmware personalizado (custom firmware o CFW en inglés) para disp
 
 ## Características
 
-KNULLI soporta dispostivos con GPU (soporte a través de GLES) y aquellas que sólo tienen framebuffer (legacy).
+KNULLI soporta dispostivos con GPU (soporte a través de GLES) y aquellas que sólo tienen framebuffer (legado).
 
 * Interfaz Emulation Station para dispositivos basados en GPU.
 * Simplemenu/Simplermenu+ para dispositivos solo de framebuffer (también para los de GPU si se prefiere).
 * RetroArch más múltiples núcleos libretro.
 * Soporte inalámbrico y Bluetooth (incluido el audio) cuando el dispositivo lo soporta.
 * Soporte para USB inalámbrico externo para aquellos sin tarjeta inalámbrica interna.
-* Retroachivements.
+* RetroAchivements.
 * Juego en red.
 * Soporte para scraping de carátulas/miniaturas.
 
