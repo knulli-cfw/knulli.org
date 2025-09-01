@@ -340,7 +340,6 @@ nav:
       - SSH: configure/ssh.md
       - Retroarch:
         - Controls: configure/retroarch/controls.md
-        - Shaders: configure/retroarch/shaders.md
         - Custom Hotkey Shortcuts: configure/retroarch/custom-hotkey-shortcuts.md
       - PPSSPP:
         - Cheats: configure/ppsspp/cheats.md
