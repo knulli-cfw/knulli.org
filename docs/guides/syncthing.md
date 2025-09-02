@@ -16,13 +16,13 @@ You will get a message about usage reporting, click yes or no.
 
 There will be a danger warning about setting a user and password. Go ahead and do that by clicking *Settings* on the webpage and then clicking the *GUI* tab. Set your *GUI Authentication User* and *GUI Authentication Password* and click save.
 
-You will then be prompted to login with the user name and password you just created. Ignore the `Notice` about running as a privileged user and click `OK`.
+You will then be prompted to login with the user name and password you just created. Ignore the *Notice* about running as a privileged user and click *OK*.
 
 Repeat these steps on the second device.
 
 ## Setting up the sync
 
-Begin by setting up the folder you wish to share. Open the web UI of one of the devices and click *Add Folder*. Give the folder a name under *Folder Label*, e.g., `KNULLI saves`. For the *Folder Path*, enter the path you want to sync, e.g., the folder to where the saves a kept: `/userdata/saves`. Then click `Save` to save your settings.
+Begin by setting up the folder you wish to share. Open the web UI of one of the devices and click *Add Folder*. Give the folder a name under *Folder Label*, e.g., `KNULLI saves`. For the *Folder Path*, enter the path you want to sync, e.g., the folder to where the saves a kept: `/userdata/saves`. Then click *Save* to save your settings.
 
 We now need to connect the devices and tell them which folder we would like to sync. Begin by clicking *Add Remote Device* on the device you just set up the folder path for.
 
