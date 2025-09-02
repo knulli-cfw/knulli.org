@@ -356,6 +356,7 @@ nav:
         - Major Updates: guides/major-updates.md
         - Partitioning: guides/partitioning.md
         - PortMaster and exFAT: guides/portmaster-and-exfat.md
+        - Syncthing: guides/syncthing.md
     - Development:
         - Building KNULLI With Docker: development/building-knulli-with-docker.md
     - Community:
