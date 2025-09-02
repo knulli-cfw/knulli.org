@@ -1,4 +1,4 @@
-# Syncthing
+# :material-sync: Syncthing
 
 ## Syncing between KNULLI devices
 
