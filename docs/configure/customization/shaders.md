@@ -2,7 +2,7 @@
 
 In context of video game emulation, shaders are software modules which can be applied to modify the look and feel of your games. Some shaders are made to improve visual quality, others are designed to purposely distort the visuals to re-create a specific nostalgic feel of an original LCD or CRT screen.
 
-Not even emulator which comes with KNULLI does support shaders. However, most RetroArch-integrated emulators do.
+Not every emulator which comes with KNULLI does support shaders. However, most RetroArch-integrated emulators do.
 
 The world of shaders can be a pretty deep rabbit hole. Thankfully, KNULLI will make it pretty easy for you to apply shaders to your games.
 
