@@ -5,9 +5,9 @@ KNULLI has a native integration with [RetroAchievements](https://retroachievemen
 ## Setup
 
 * Create an account at [RetroAchievements.org](https://retroachievements.org/).
-* Follow the steps on the [Networking](../../configure/networking) page to connect your device to the internet.
+* Follow the steps on the [Networking](../../configure/networking) section to connect your device to the internet.
 * While in EmulationStation press ++"START"++ on your controller to open the Main Menu.
-* Select `Game Settings` and then choose `RetroAchievement Settings`.
+* Select *Game Settings* and then choose *RetroAchievement Settings*.
 * Turn On RetroAchievements (first toggle).
 * Then enter your credentials for RetroAchievements.org:
     * **Username**
@@ -27,11 +27,13 @@ KNULLI has a native integration with [RetroAchievements](https://retroachievemen
     To change the location of the *Retroachievements* section, press ++"Start"++ to bring up the main menu, head to *Game Settings* and find *RetroAchievement Settings*. Here, you can toggle *Show RetroAchievements entry in main menu* on or off.
 
 ### Changes through SSH / FTP
-It is possible to add these details over the network via SSH or FTP, please reference the guide on [Configuring SSH](./../configure/ssh) or [Using FTP/SCP](./add-games/network-transfer) to get started.
+
+It is possible to add these details over the network via SSH or FTP, please reference the guide on [Configuring SSH](./../configure/ssh) or [Using FTP/SCP](./../add-games/network-transfer) to get started.
 
 When you have a connection open, you will need to open the Batocera config file in a Text Editor: `/userdata/system/batocera.conf`
 
 In this file, you can then set the following options. The values are stored in plaintext and require no quotations.
+
 ```
 global.retroachievements.username=
 global.retroachievements.password=
@@ -48,7 +50,7 @@ You will need to restart your Device for the config to be picked up.
 ## Additional Notes
 
 - There are additional settings that can be changed in the above menu to tailor your experience.  Please see the documentation @ [docs.retroachievements.org](https://docs.retroachievements.org/) for details on each option
-    - Recommended Settings:
+- Recommended Settings:
     - Unlock Sound (++"On"++): this plays the classic unlock sound each time an achievement is earned.
     - Automatic Screenshot (++"On"++): this takes a screenshot each time an achievement is earned and stores it in the screenshots directory.  These can be viewed in the screenshots system in EmulationStation.
 - Not all emulators and games support RetroAchievements; please see the list of emulators that support achievements [here](https://docs.retroachievements.org/Emulator-Support-and-Issues/) and check if your game has achievements available by searching for it on RetroAchievements.org
