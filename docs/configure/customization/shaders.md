@@ -42,15 +42,21 @@ The per-system setting can be used to **override** the **global** and/or the **s
 
 ## Shader Sets Included with KNULLI
 
-* *Enhanced*
-* *Flatten-Glow*
-* *Retro*
-* *RCG-Dramatic-CRT
-* *Scanlines*
-* *Sharp-Bilinear-Simple*
-* *Sharp-Shimmerless*
-* *Sharp-Shimmerless-LCD-CRT*
-* *Zfast*
+* *Auto* applies the default KNULLI shader set (which has no shaders specified) but applies GB - DMG colorization to gb and gb2players
+* *None* prevents KNULLI from applying any shaders.  _This is the option to choose if you want Retroarch shader override saves to work as described in "Retroarch Overrides" below._
+* *Curvature* applies crt-lottes-fast by default for most consoles and zfast-lcd for many handhelds. This provides some simple scanline and CRT curvature effects for consoles and a simple LCD grid for the handheld systems.
+* *Enhanced* appies advanced-aa (anti-aliasing) by default, with psp-color being applied to some handheld systems and 2xScaleHQ for "Arcade" systems (neogeo, neogeocd, mame, fbneo, naomi, naomi2, and atomiswave).
+* *Flatten-Glow* applies the blur filter kawase_glow to simulate the glowing color bleed of CRTs.  Some of the handheld systems use a version of simpletex_lcd which applies a texture to the output, simulating the old LCD displays, but some of them include color correction shaders stacked with them.
+* *Retro* applies sharp-bilinear-simple to most systems and bevel for most handhelds.  
+* *RGC-Dramatic-CRT* applies a custom shader preset based on some of Retro Game Corps' recommendations for a dramitic glow effect. This requires integer scaling in order to render evenly.
+* *Scanlines* for most systems applies crt-pi for low GPU devices and crt-easymode other devicess as well as lcd-grid-v2 to most handhelds to provide some basic CRT effects and grids.
+* *Sharp-Bilinear-Simple* applies sharp-bilinear-simple to *all* systems.
+* *Sharp-Shimmerless* applies sharp-shimmerless to all systems (recommended by RGC for pixel balancing on non-integer scaled systems).
+* *Sharp-Shimmerless-LCD-CRT* applies the sharp-shimmerless variants that include scanlines for consoles and grid lines for handhelds (recommended by RGC for pixel balencing on non-integer scaled systems).
+* *Zfast* applies zfast-crt to most systems for a simple CRT effect and zfast-lcd for most handhelds for a simple grid.
+
+!!! info "Interactions between shader sets and decoration sets (bezels)"
+    While most shader sets can be applied in conjunction with most decoration sets, there can be conflicts due to scaling weirdness or both the shader and the bezel overlay trying to do the same job but different.  For example, some handheld overlays have an LCD style grid built into them to provide that type of effect.  By itself this is fine and less processor intensive (and more performance friendly) than using a shader to achieve the same effect.  However, it is also possible to have a shader that applies a differently spaced grid on the image resulting in two conflicting grids on top of the emulated game image which is somewhat unpleasant.  In those cases, it may be best to set either the shader set or decoration set for that system to "None" if you prefer the effect of the other method.
 
 ## Creating your own shader configurations
 
