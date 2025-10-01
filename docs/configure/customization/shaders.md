@@ -40,6 +40,18 @@ The per-system setting can be used to **override** the **global** and/or the **s
 * Head to *Game Rendering & Shaders*
 * Pick your preferred *Shader Set*
 
+## Shader Sets Included with KNULLI
+
+* *Enhanced*
+* *Flatten-Glow*
+* *Retro*
+* *RCG-Dramatic-CRT
+* *Scanlines*
+* *Sharp-Bilinear-Simple*
+* *Sharp-Shimmerless*
+* *Sharp-Shimmerless-LCD-CRT*
+* *Zfast*
+
 ## Creating your own shader configurations
 
 KNULLI allows to create your own shader configurations and apply them directly through EmulationStation. While this requires a tiny bit of tinkering, it is the **recommended way** of adding your own preferred shader setups for a bunch of reasons. Most prominently, setting up shaders through EmulationStation avoids messing with RetroArch overrides which might interfere with other KNULLI features such as multi-resolution bezel sets.
