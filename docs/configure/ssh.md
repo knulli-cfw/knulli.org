@@ -19,7 +19,7 @@ When establishing your SSH connection, you will need the following information:
 * Open a command line/terminal on your computer.
     * Windows users can use the new Windows Terminal, classic CMD, or PowerShell.
     * Linux users probably know their way around the command line anyway.
-    * MacOS can just use the default terminal app.
+    * MacOS users can just use the default terminal app.
 * Type
   ```
   ssh root@knulli
