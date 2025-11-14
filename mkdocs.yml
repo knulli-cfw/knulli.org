@@ -148,12 +148,14 @@ plugins:
             Factory Settings: Reinicio de Fábrica
             Patches and Overlays: Parchar y Sobreescribir
             Systems: Sistemas
+            Tools: Herramientas
             Media Player: Reproductor Multimedia
             Guides: Guías
             Dual SD Card Migration: Migración a Doble Tarjeta SD
             Major Updates: Actualizaciones Mayores
             Partitioning: Particionado
             PortMaster and exFAT: PortMaster y exFAT
+            Syncthing: Sincronización
             Development: Desarrollo
             Building KNULLI With Docker: Compilar KNULLI con Docker
             Community: Comunidad
@@ -351,6 +353,8 @@ nav:
       - PortMaster: systems/portmaster.md
       - ScummVM: systems/scummvm.md
       - Media Player: systems/media-player.md
+      - Tools:
+          - OD Commander: systems/tools/od-commander.md
     - Guides:
         - Dual SD Card Migration: guides/dual-sd-card-migration.md
         - Major Updates: guides/major-updates.md

@@ -25,7 +25,7 @@ KNULLI mostly follows the labeling system known from SNES and the Anbernic devic
 
 !!! info "In-game prompts might not match the labels on your device"
 
-    Knulli is a CFW for retro gaming emulation which also supports certain ports of Linux games. The labels on the device are labeled Nintendo-style as explained in the table above: ++"A"++ is **east** (:material-gamepad-circle-right:), ++"B"++ is **south** (:material-gamepad-circle-down:), and so on.
+    KNULLI is a CFW for retro gaming emulation which also supports certain ports of Linux games. The labels on the device are labeled Nintendo-style as explained in the table above: ++"A"++ is **east** (:material-gamepad-circle-right:), ++"B"++ is **south** (:material-gamepad-circle-down:), and so on.
 
     It should be obvious, but since some users reported this as a "bug", please understand this:
 
