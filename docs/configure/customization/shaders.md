@@ -82,7 +82,7 @@ Gain access to your device, either by direct access to the SD card or via [netwo
 Inside the new `shaders` folder, you will need at least two sub-folders for specific files:
 
 * `shaders/`
-    * `config/` will hold a **sub-folder** for every shader configuration you want to add to Emulation Station which will be populated with a simple text file called `rendering-defaults.yml` as explained below
+    * `configs/` will hold a **sub-folder** for every shader configuration you want to add to Emulation Station which will be populated with a simple text file called `rendering-defaults.yml` as explained below
     * `presets/` will hold your presets, usually `.glslp` files
     * `shaders/` will hold the actual shaders, usually in a **sub-folder** for every shader or shader set, usually `.glsl` files
 
