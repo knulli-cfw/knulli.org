@@ -2,10 +2,10 @@
 
 Network transfer can be used on any device which can be connected to the internet or a local network. (This includes devices with native networking capabilites and ones where networking can be added through an external dongle.)
 
-This option first requires you to set up networking on your device.  Please see [Networking](../../../configure/networking) for details. Once you have completed those steps, you will need
+This option first requires you to set up networking on your device.  Please see [Networking](../../configure/networking.md) for details. Once you have completed those steps, you will need
 
 * the hostname and/or IP address of your device.
-* the root password, if additional security measurements are in place, as explained in the [Networking](../../../configure/networking) section.
+* the root password, if additional security measurements are in place, as explained in the [Networking](../../configure/networking.md) section.
 
 !!! info "Default credentials"
 
@@ -21,7 +21,7 @@ This option first requires you to set up networking on your device.  Please see 
 
 Like many other operating systems, KNULLI supports SMB (often also called SAMBA), the Windows network protocol. Since KNULLI Gladiator II, SMB is no longer enabled by default. However, you can always toggle SMB on and off as you like it. To enable/disable SMB, go to *System Settings*, then *Services* and enable/disable *SAMBA*.
 
-Now, depending on the type of computer you have, there are different options to transfer your games and other data via SMB. After you successfully gained access to your device, you will be able to access the `share` partition as a network drive. The network drive corresponds to your current [`/userdata` folder](../game-storage). Here, you can put all your data (games, etc.) in the respective folders.
+Now, depending on the type of computer you have, there are different options to transfer your games and other data via SMB. After you successfully gained access to your device, you will be able to access the `share` partition as a network drive. The network drive corresponds to your current [`/userdata` folder](./game-storage.md). Here, you can put all your data (games, etc.) in the respective folders.
 
 #### Windows
 
@@ -88,7 +88,7 @@ Using your SCP/FTP program of choice; set up an SCP/SFTP connection to the IP ad
 
     Unlike the *SMB* file transfer, SCP/FTP will provide access to the **entire** KNULLI file system, not just the `/userdata` folder. However, **everything outside** of the `/userdata` folder is **read-only** - you **can** edit, change, remove, and delete files, but your changes will be **undone** every time you **reboot**.
     
-    If you want to make persistent changes outside of the `/userdata` folder, please have a look at the section about [Patches and Overlays](../../../configure/patches-and-overlays).
+    If you want to make persistent changes outside of the `/userdata` folder, please have a look at the section about [Patches and Overlays](../../configure/patches-and-overlays.md).
 
 For Windows users, we recommend to use [WinSCP](https://winscp.net). After installing WinSCP on your Windows computer, follow these steps to establish a SCP connection to your KNULLI device, where you will able to drag-and-drop or copy/paste files directly from the *Windows Explorer*:
 

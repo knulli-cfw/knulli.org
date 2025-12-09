@@ -2,10 +2,10 @@
 
 La transferencia de red se puede usar en cualquier dispositivo que se conecte a internet o a una red local. (Esto incluye dispositivos con funciones de red nativas y aquellos a los que se le pueden añadir mediante un adaptador externo).
 
-Esta opción requiere que primero configures la red en tu dispositivo. Consulta la sección [Redes](../../../configure/networking) para obtener más información. Una vez completados esos pasos, necesitarás:
+Esta opción requiere que primero configures la red en tu dispositivo. Consulta la sección [Redes](../../configure/networking.md) para obtener más información. Una vez completados esos pasos, necesitarás:
 
 * El hostname o la dirección IP de tu dispositivo.
-* La contraseña de root, si existen medidas de seguridad adicionales, como se explica en la sección [Redes](../../../configure/networking).
+* La contraseña de root, si existen medidas de seguridad adicionales, como se explica en la sección [Redes](../../configure/networking.md).
 
 !!! info "Credenciales predeterminadas."
 
@@ -21,7 +21,7 @@ Esta opción requiere que primero configures la red en tu dispositivo. Consulta 
 
 Al igual que muchos otros sistemas operativos, KNULLI es compatible con SMB (también llamado SAMBA), el protocolo de redes de Windows. Desde KNULLI Gladiator II, SMB ya no está activado por defecto. Sin embargo, siempre puedes activar o desactivar SMB a tu gusto. Para activar o desactivar SMB, ve a *Ajustes del Sistema*, luego a *Servicios* y activa/desactiva *SAMBA*.
 
-Ahora, según el tipo de computadora que tengas, existen diferentes opciones para transferir tus juegos y otros datos mediante SMB. Una vez que hayas accedido a tu dispositivo, podrás acceder a la partición `share` como una unidad de red. La unidad de red corresponde a tu [carpeta `/userdata`](../game-storage) actual. Aquí puedes poner todos tus datos (juegos, etc.) en las carpetas correspondientes.
+Ahora, según el tipo de computadora que tengas, existen diferentes opciones para transferir tus juegos y otros datos mediante SMB. Una vez que hayas accedido a tu dispositivo, podrás acceder a la partición `share` como una unidad de red. La unidad de red corresponde a tu [carpeta `/userdata`](./game-storage.md) actual. Aquí puedes poner todos tus datos (juegos, etc.) en las carpetas correspondientes.
 
 #### Windows
 
@@ -88,7 +88,7 @@ Usando el programa SCP/FTP que prefieras, configura una conexión SCP/SFTP a la 
 
 	A diferencia de la transferencia de archivos *SMB*, SCP/FTP proporciona acceso a **todo** el sistema de archivos de KNULLI, no solo a la carpeta `/userdata`. Sin embargo, **todo lo que esté fuera** de la carpeta `/userdata` es de **solo lectura**: **puedes** editar, cambiar, eliminar y borrar archivos, pero los cambios se **revertirán** cada vez que **reinicies**.
 
-	Si deseas hacer cambios persistentes fuera de la carpeta `/userdata`, consulta la sección [Parchar y Sobreescribir](../../../configure/patches-and-overlays).
+	Si deseas hacer cambios persistentes fuera de la carpeta `/userdata`, consulta la sección [Parchar y Sobreescribir](../../configure/patches-and-overlays.md).
 
 Para usuarios de Windows, recomendamos usar [WinSCP](https://winscp.net). Después de instalar WinSCP en tu computadora con Windows, sigue estos pasos para establecer una conexión SCP con tu dispositivo KNULLI, donde podrás arrastrar y soltar o copiar/pegar archivos directamente desde el *Explorador de Windows*:
 

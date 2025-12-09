@@ -2,10 +2,10 @@
 
 Netzwerkübertragung kann mit jedem Gerät genutzt werden, das mit dem Internet oder einem lokalen Netzwerk verbunden werden kann. (Das schließt nicht nur Geräte ein, die von sich aus W-LAN- oder kabelnetzwerkefähig sind, sondern auch Geräte, an die man einen externen USB-Dongle anschließen kann.)
 
-Um Netzwerkübertragung zu nutzen, musst du als erstes die Netzwerkverbindungen deines Geräts einrichten. Im Abschnitt [Netzwerkverbindungen](../../../configure/networking) findest du Details dazu. Um Daten an dein Gerät via Netzwerk übertragen zu können, benötigst du
+Um Netzwerkübertragung zu nutzen, musst du als erstes die Netzwerkverbindungen deines Geräts einrichten. Im Abschnitt [Netzwerkverbindungen](../../configure/networking.md) findest du Details dazu. Um Daten an dein Gerät via Netzwerk übertragen zu können, benötigst du
 
 * den Hostnamen und/oder die IP-Adresse deines Geräts.
-* das Root-Passwort, wenn erweiterte Sicherheitsmaßnahmen aktiviert sind, wie im Abschnitt [Netzwerkverbindungen](../../../configure/networking) beschrieben.
+* das Root-Passwort, wenn erweiterte Sicherheitsmaßnahmen aktiviert sind, wie im Abschnitt [Netzwerkverbindungen](../../configure/networking.md) beschrieben.
 
 !!! info "Standard-Zugangsdaten"
 
@@ -21,7 +21,7 @@ Um Netzwerkübertragung zu nutzen, musst du als erstes die Netzwerkverbindungen 
 
 KNULLI unterstützt, wie viele andere Betriebssysteme, das Windows-Netzwerkprotokoll SMB (oft auch SAMBA genannt). Seit KNULLI Gladiator II ist SMB nicht mehr standardmäßig aktiviert. Du kannst SMB allerdings jederzeit ein- oder ausschalten, wenn du es benötigst. Gehe dazu einfach in *System Settings* auf *Services* und schalte *SAMBA* dort ein oder aus.
 
-Um Daten via SMB an dein Gerät zu übertragen, hast du verschiedene Möglichkeiten, je nachdem, welche Art von Computer du für die Übertragung nutzt. Nachdem du erfolgreich eine SMB-Verbindung zu deinem Gerät aufgebaut hast, kannst du den Netzwerkordner `share` sehen. Dieser Ordner entspricht deinem aktuellen [`/userdata`-Ordner](../game-storage). Hier kannst du deine Daten (Spiele etc.) in den dafür vorgesehenen Ordnern ablegen.
+Um Daten via SMB an dein Gerät zu übertragen, hast du verschiedene Möglichkeiten, je nachdem, welche Art von Computer du für die Übertragung nutzt. Nachdem du erfolgreich eine SMB-Verbindung zu deinem Gerät aufgebaut hast, kannst du den Netzwerkordner `share` sehen. Dieser Ordner entspricht deinem aktuellen [`/userdata`-Ordner](./game-storage.md). Hier kannst du deine Daten (Spiele etc.) in den dafür vorgesehenen Ordnern ablegen.
 
 #### Windows
 
@@ -89,7 +89,7 @@ Mit einem SCP/FTP-Programm deiner Wahl kannst du eine SCP/SFTP-Verbindung zu dei
 
     Anders als die Dateiübertragung via *SMB* erlaubt dir SCP/FTP nicht nur Zugang zum `/userdata`-Ordner sondern zum **gesamten** KNULLI-Dateisystem. Allerdings ist **alles außerhalb** des `/userdata`-Ordners **schreibgeschützt**. Du kannst Dateien zwar bearbeiten, ändern, löschen und hinzufügen, aber alle deine Änderungen werden bei jedem **Neustart** des Systems **rückgängig gemacht**.
     
-    Falls du dauerhafte Änderungen an Dateien außerhalb des `/userdata`-Ordners vornehmen möchtest, solltest du einen Blick in den Abschnitt [Patches und Overlays](../../../configure/patches-and-overlays) werfen.
+    Falls du dauerhafte Änderungen an Dateien außerhalb des `/userdata`-Ordners vornehmen möchtest, solltest du einen Blick in den Abschnitt [Patches und Overlays](../../configure/patches-and-overlays.md) werfen.
 
 Windows-Nutzern empfehlen wir die Benutzung von [WinSCP](https://winscp.net). Nach der Installation von WinSCP auf deinem Windows-Computer kannst du mit den folgenden Schritten eine SCP-Verbindung zu deinem KNULLI-Gerät aufbauen, mit der du Dateien per Drag-and-Drop oder Kopieren/Einfügen zwischen deinem *Windows Explorer* und deinem KNULLI-Gerät übertragen kannst:
 
