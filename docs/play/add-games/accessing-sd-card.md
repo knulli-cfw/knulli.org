@@ -2,7 +2,7 @@
 
 Depending on the formatting of your *SHARE* partition (or your second SD card), your options for direct access to the SD card are very different. This section will give you an overview about the possible options.
 
-If you are unhappy with your current formatting, you can always use the built-in KNULLI formatter to change the formatting of your data storage. Please be aware that **all contents of your data storage are lost** if you decide to format. You can learn more about formatting in the [Formatting section](../formatting).
+If you are unhappy with your current formatting, you can always use the built-in KNULLI formatter to change the formatting of your data storage. Please be aware that **all contents of your data storage are lost** if you decide to format. You can learn more about formatting in the [Formatting section](./formatting.md).
 
 ## Accessing an exFAT-formatted SD Card
 
@@ -18,7 +18,7 @@ If you have access to a Linux computer, you will be able to access the *SHARE* p
 
 !!! warning "Potential issue with direct access from Linux"
 
-    Some users reported issues with their SD cards after accessing them from Linux. We suggest to avoid access from Linux for now and try [**Network Transfer**](../network-transfer) instead if possible.
+    Some users reported issues with their SD cards after accessing them from Linux. We suggest to avoid access from Linux for now and try [**Network Transfer**](./network-transfer.md) instead if possible.
 
 ### Option 2: Third Party Software
 
