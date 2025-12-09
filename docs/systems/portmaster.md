@@ -15,7 +15,7 @@ The library is divided in two major categories:
 
 After installing KNULLI for the first time, you will find the PortMaster install script (*Install.PortMaster*) in the *Ports* category. Running this script will install PortMaster on your KNULLI device and restart EmulationStation automatically. Now, you will find *PortMaster* in the *Ports* category instead of the install script.
 
-!!! info "If the PortMaster installer (*Install.PortMaster*) is missing from your *Ports* section, do not panic. This might happen, e.g., if you [updated](../../play/update) from a previous version without PortMaster or if you use an SD card which is already populated with games. In this case, you can find the installer in our [Github repository](https://github.com/knulli-cfw/distribution/blob/knulli-main/board/batocera/allwinner/h700/fsoverlay/usr/share/batocera/datainit/roms/ports/Install.PortMaster.sh). Download the file (`Install.PortMaster.sh`) and add it to `roms/ports` as you would [add a game](../../play/add-games)."
+!!! info "If the PortMaster installer (*Install.PortMaster*) is missing from your *Ports* section, do not panic. This might happen, e.g., if you [updated](../play/update.md) from a previous version without PortMaster or if you use an SD card which is already populated with games. In this case, you can find the installer in our [Github repository](https://github.com/knulli-cfw/distribution/blob/knulli-main/board/batocera/allwinner/h700/fsoverlay/usr/share/batocera/datainit/roms/ports/Install.PortMaster.sh). Download the file (`Install.PortMaster.sh`) and add it to `roms/ports` as you would [add a game](../play/add-games/index.md)."
 
 ## Managing games
 
@@ -40,7 +40,7 @@ If the game does not show up, press ++"Start"++ and pick *Game settings* and *Up
 
 To install a game with files needed, simply find it in the *All Ports* section and install it by following the on-screen instructions. Once you are done installing your games, exit PortMaster from the PortMaster main menu. EmulationStation will restart automatically to apply the changes and detect the newly installed games.
 
-Now, you will have to take care of the files needed to be able to play the game. To do so, gain access to your `roms/ports` folder by one of the methods described in the [Add Games](../../play/add-games) section. In your `roms/ports` folder, you will find subfolders for all the ports you have installed via PortMaster. Find the subfolder which corresponds to the game you want to install.
+Now, you will have to take care of the files needed to be able to play the game. To do so, gain access to your `roms/ports` folder by one of the methods described in the [Add Games](../play/add-games/index.md) section. In your `roms/ports` folder, you will find subfolders for all the ports you have installed via PortMaster. Find the subfolder which corresponds to the game you want to install.
 
 The [Games](https://portmaster.games/games.html) section of the PortMaster website will provide you with instructions about which files you will need and where to put them. Additionally, you might find a `readme` file in the folder where the port is stored. Depending on the game, you might need a specific version to be compatible with the port. You will often find compatible versions of the games on [GOG](https://gog.com) or [Steam](https://store.steampowered.com), however, you should read the instructions of the respective port carefully before buying the game to be sure that you found the right version of it.
 
