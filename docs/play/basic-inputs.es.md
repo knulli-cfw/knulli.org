@@ -4,7 +4,7 @@ Esta sección te brindará una descripción general de las entradas básicas de 
 
 ## Los botones frontales
 
-![Face buttons](/_inc/images/face-buttons.png){ align=right }
+![Face buttons](../_inc/images/face-buttons.png){ align=right }
 
 La mayoría de las consolas portátiles compatibles con KNULLI cuentan con botones frontales, generalmente ubicados en el lateral derecho. En la mayoría de los dispositivos, hay cuatro botones frontales. Dependiendo del dispositivo o control, los botones pueden tener diferentes etiquetas.
 
@@ -48,7 +48,7 @@ KNULLI sigue principalmente el sistema de etiquetado de SNES y los dispositivos 
 
 Cada dispositivo controlado por KNULLI tiene un botón dedicado llamado botón ++"Function"++. Dependiendo de tu dispositivo, el botón ++"Function"++ puede estar en diferentes lugares. Por ejemplo, en la Anbernic RG35XX H, se encuentra en la esquina superior derecha del dispositivo, indicado con la letra *F*. (A veces, también se le conoce como botón de "menu", botón "FN", botón "F" o de "atajo").
 
-Este botón te permite activar diversos atajos que te ayudarán a controlar el núcleo de emulación en ejecución. Puedes obtener más información sobre los atajos predeterminados de KNULLI en la sección [Atajos](../hotkey-shortcuts).
+Este botón te permite activar diversos atajos que te ayudarán a controlar el núcleo de emulación en ejecución. Puedes obtener más información sobre los atajos predeterminados de KNULLI en la sección [Atajos](./hotkey-shortcuts.md).
 
 !!! info "El botón Select sustituye al botón Function en muchos controles externos."
 

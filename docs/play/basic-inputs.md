@@ -4,7 +4,7 @@ This section will give you an overview over the basic inputs on your device. Add
 
 ## The face buttons
 
-![Face buttons](/_inc/images/face-buttons.png){ align=right }
+![Face buttons](../_inc/images/face-buttons.png){ align=right }
 
 Most KNULLI-compatible handhelds have a set of face buttons - usually on the right side of the device. On most devices, you have four face buttons. Depending on your device and/or controller, the buttons may have different labels.
 
@@ -48,7 +48,7 @@ KNULLI mostly follows the labeling system known from SNES and the Anbernic devic
 
 Each KNULLI-driven device has a dedicated button we refer to as the ++"Function"++ button. Depending on your device, the ++"Function"++ button can be in different places. E.g., for the Anbernic RG35XX H, the button is located at the top right of the device, indicated by the letter *F*. (Sometimes, the ++"Function"++ button is also referred to as the "menu" button, the "FN" button, the "F" button, or the "hotkey".)
 
-The button can be used to trigger a number of shortcuts which will help you control the currently running emulation core. Learn more about KNULLIs default shortcuts in the [Hotkey Shortcuts section](../hotkey-shortcuts).
+The button can be used to trigger a number of shortcuts which will help you control the currently running emulation core. Learn more about KNULLIs default shortcuts in the [Hotkey Shortcuts section](./hotkey-shortcuts.md).
 
 !!! info "Select substitutes as function button on many external controllers"
 
