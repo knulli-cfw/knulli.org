@@ -6,11 +6,11 @@ Antes de empezar a añadir tus juegos, tómate un tiempo para comprender cómo s
 
 KNULLI admite configuraciones con **una** o **dos tarjetas SD**. Internamente, KNULLI cuenta con una carpeta llamada `/userdata` donde se almacenan **todos tus datos** (juegos, capturas de pantalla, marcos, partidas guardadas, configuraciones, temas, etc.). En una configuración con una sola tarjeta SD, la carpeta `/userdata` **siempre** apuntará a la partición *SHARE* de tu **tarjeta SD principal**. Si tienes un dispositivo con más de una ranura para tarjetas SD y decides crear una **configuración con dos tarjetas SD**, la carpeta `/userdata` apuntará a la partición principal de tu **tarjeta SD secundaria**.
 
-Por lo tanto, **no** podrás usar la partición *SHARE* de la SD 1 y la SD 2 **al mismo tiempo**. Solo se puede montar una de esas tarjetas SD como `/userdata` a la vez. Al acceder a tu almacenamiento mediante [Transferencia de Red](../network-transfer) o [MTP](../accessing-via-usb), solo encontrarás **una** carpeta *SHARE*, que siempre apuntará a tu carpeta `/userdata`. Por lo tanto, al ejecutar una configuración de doble tarjeta SD, KNULLI no utilizará tu partición *SHARE* interna ni será accesible a través de transferencia de red o MTP.
+Por lo tanto, **no** podrás usar la partición *SHARE* de la SD 1 y la SD 2 **al mismo tiempo**. Solo se puede montar una de esas tarjetas SD como `/userdata` a la vez. Al acceder a tu almacenamiento mediante [Transferencia de Red](./network-transfer.md) o [MTP](./accessing-via-usb.md), solo encontrarás **una** carpeta *SHARE*, que siempre apuntará a tu carpeta `/userdata`. Por lo tanto, al ejecutar una configuración de doble tarjeta SD, KNULLI no utilizará tu partición *SHARE* interna ni será accesible a través de transferencia de red o MTP.
 
 !!! info "Almacenamiento interno y externo."
 
-    Puedes alternar entre el modo de tarjeta SD única y doble siguiendo los pasos de la sección [Segunda Tarjeta SD](../second-sd-card). Básicamente, al alternar entre almacenamiento interno y externo, simplemente le indicas a KNULLI a qué unidad/partición debe apuntar la carpeta `/userdata`.
+    Puedes alternar entre el modo de tarjeta SD única y doble siguiendo los pasos de la sección [Segunda Tarjeta SD](./second-sd-card.md). Básicamente, al alternar entre almacenamiento interno y externo, simplemente le indicas a KNULLI a qué unidad/partición debe apuntar la carpeta `/userdata`.
 
 !!! info "Entendiendo el montaje en Linux."
 
@@ -34,7 +34,7 @@ Dentro de la carpeta `/userdata`, podrás encontrar subcarpetas donde puedes gua
     * `/roms` Es la carpeta donde puedes guardar tus juegos. Dentro de esta carpeta encontrarás subcarpetas para todos los sistemas compatibles. Simplemente coloca los archivos de tus juegos en las carpetas del sistema para el que fueron creados, por ejemplo:
         * `/snes` Es la carpeta donde se deben guardar tus juegos de SNES.
         * `/gb` Es la carpeta donde se deben guardar tus juegos de Gameboy.
-        * `/ports` Es la carpeta donde se deben almacenar tus ports (incluido [PortMaster](../../../systems/portmaster)).
+        * `/ports` Es la carpeta donde se deben almacenar tus ports (incluido [PortMaster](../../systems/portmaster.md)).
         * ...
     * `/saves` Es la carpeta donde se guardarán tus partidas guardadas, así como los estados de guardado de los núcleos.
     * `/screenshots` Es la carpeta donde se guardarán tus capturas de pantalla.
