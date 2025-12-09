@@ -25,7 +25,7 @@ If your Bluetooth device does not show up or pairing does not work as expected, 
 
 !!! info "Controllers are assigned to players automatically"
 
-    As soon as Bluetooth controller is connected, it is automatically assigned to the next available player. Learn more about the automatic assignment in the [Controls](../controls) section.
+    As soon as Bluetooth controller is connected, it is automatically assigned to the next available player. Learn more about the automatic assignment in the [Controls](./controls.md) section.
 
 ## Connect/disconnect a paired Bluetooth device
 
