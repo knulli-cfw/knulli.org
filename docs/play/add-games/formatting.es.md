@@ -23,7 +23,7 @@ Para formatear el almacenamiento de datos con el sistema de archivos que prefier
 
 !!! info "Después de formatear."
 
-	Después de formatear, KNULLI creará y llenará la [carpeta `/userdata`](../game-storage) por ti.
+	Después de formatear, KNULLI creará y llenará la [carpeta `/userdata`](./game-storage.md) por ti.
 
 ## Formatear con Windows
 
@@ -73,4 +73,4 @@ Si deseas formatear tu tarjeta SD desde Windows, te recomendamos usar la herrami
 
 !!! info "Después de formatear."
 
-	Después de formatear, deberás insertar la tarjeta SD en tu dispositivo e iniciar KNULLI. Durante el arranque, KNULLI creará y llenará la [carpeta `/userdata`](../game-storage) por ti.
+	Después de formatear, deberás insertar la tarjeta SD en tu dispositivo e iniciar KNULLI. Durante el arranque, KNULLI creará y llenará la [carpeta `/userdata`](./game-storage.md) por ti.
