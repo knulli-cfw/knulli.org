@@ -25,13 +25,13 @@ Antes de intentar instalar desde cero o actualizar manualmente, deberías verifi
 
 !!! info "Actualizaciones Alfa."
 
-    Para usuarios comunes, actualmente **solo** hay actualizaciones *estables* disponibles. El acceso a las actualizaciones *alfa* está limitado a los **testers alfa de KNULLI**. Si te interesa convertirte en tester alfa, consulta la sección [Contribuir](../../community/contribute).
+    Para usuarios comunes, actualmente **solo** hay actualizaciones *estables* disponibles. El acceso a las actualizaciones *alfa* está limitado a los **testers alfa de KNULLI**. Si te interesa convertirte en tester alfa, consulta la sección [Contribuir](../community/contribute.md).
 
 ## Actualizaciones Mayores
 
-Las actualizaciones mayores de KNULLI (por ejemplo, la actualización de **20240721** a **Firefly**) requieren una reinstalación completa del firmware personalizado de KNULLI y un reinicio completo de todas tus **configuraciones**. Por lo tanto, las actualizaciones mayores de KNULLI **no** incluyen un paquete de arranque a propósito. Si deseas instalar una actualización importante de KNULLI, te recomendamos fuertemente crear una copia de seguridad de tu [carpeta userdata](../add-games/game-storage) antes de reinstalar. Además, si utilizas una configuración de doble tarjeta SD, **debes** eliminar tu carpeta `system` de tu [carpeta userdata](../add-games/game-storage) para que KNULLI pueda crear una nueva con todas las nuevas configuraciones predeterminadas. Una vez que la nueva versión de KNULLI esté funcionando, podrás restaurar la copia de seguridad copiando de vuelta todos tus archivos.
+Las actualizaciones mayores de KNULLI (por ejemplo, la actualización de **20240721** a **Firefly**) requieren una reinstalación completa del firmware personalizado de KNULLI y un reinicio completo de todas tus **configuraciones**. Por lo tanto, las actualizaciones mayores de KNULLI **no** incluyen un paquete de arranque a propósito. Si deseas instalar una actualización importante de KNULLI, te recomendamos fuertemente crear una copia de seguridad de tu [carpeta userdata](./add-games/game-storage.md) antes de reinstalar. Además, si utilizas una configuración de doble tarjeta SD, **debes** eliminar tu carpeta `system` de tu [carpeta userdata](./add-games/game-storage.md) para que KNULLI pueda crear una nueva con todas las nuevas configuraciones predeterminadas. Una vez que la nueva versión de KNULLI esté funcionando, podrás restaurar la copia de seguridad copiando de vuelta todos tus archivos.
 
-Si necesitas más ayuda para instalar una actualización mayor, consulta nuestra [Guía de Actualizaciones Mayores](../../guides/major-updates).
+Si necesitas más ayuda para instalar una actualización mayor, consulta nuestra [Guía de Actualizaciones Mayores](../guides/major-updates.md).
 
 !!! danger "La carpeta system."
 
@@ -63,4 +63,4 @@ Puedes actualizar KNULLI descargando el **paquete de arranque** para tu disposit
 
 !!! danger "Restablecer la configuración predeterminada."
 
-    **Normalmente**, las actualizaciones menores de KNULLI **NO** requieren que vuelvas a crear ni un solo archivo de configuración ni toda la carpeta `system`. Sin embargo, en **casos MUY excepcionales**, podría ser necesario adaptar tu configuración a la nueva configuración predeterminada de KNULLI. En esos casos, la forma más sencilla es restablecer la configuración de fábrica, ya sea recreando archivos individuales o, en ocasiones, toda la carpeta `system`. Puedes aprender más al respecto en la sección [Reinicio de Fábrica](../../configure/reset-to-factory-settings). Sin embargo, **NO** lo hagas a menos que estés completamente seguro de que es necesario.
+    **Normalmente**, las actualizaciones menores de KNULLI **NO** requieren que vuelvas a crear ni un solo archivo de configuración ni toda la carpeta `system`. Sin embargo, en **casos MUY excepcionales**, podría ser necesario adaptar tu configuración a la nueva configuración predeterminada de KNULLI. En esos casos, la forma más sencilla es restablecer la configuración de fábrica, ya sea recreando archivos individuales o, en ocasiones, toda la carpeta `system`. Puedes aprender más al respecto en la sección [Reinicio de Fábrica](../configure/reset-to-factory-settings.md). Sin embargo, **NO** lo hagas a menos que estés completamente seguro de que es necesario.
