@@ -6,11 +6,11 @@ Los atajos son uno de los conceptos básicos más importantes que debes aprender
 
     KNULLI busca ofrecer la mejor experiencia de usuario desde el primer momento. Por ello, incluye atajos predefinidos que se aplican a (casi) **todos los emuladores** que incluye KNULLI.
 
-    Es posible **personalizar** atajos desde la interfaz gráfica de usuario de KNULLI para los **emuladores integrados en RetroArch**. Encontrarás instrucciones en la sección de [RetroArch](../../configure/retroarch/custom-hotkey-shortcuts). Sin embargo, ten en cuenta que esas personalizaciones **solo** se aplicarán a los núcleos de RetroArch.
+    Es posible **personalizar** atajos desde la interfaz gráfica de usuario de KNULLI para los **emuladores integrados en RetroArch**. Encontrarás instrucciones en la sección de [RetroArch](../configure/retroarch/custom-hotkey-shortcuts.md). Sin embargo, ten en cuenta que esas personalizaciones **solo** se aplicarán a los núcleos de RetroArch.
 
     Muchos emuladores **independientes** **no** se pueden configurar en tiempo de ejecución. En su lugar, los atajos deben definirse **en el código fuente** y no se pueden sobrescribir mediante configuraciones.
 
-Todos los atajos siguen el mismo patrón: **mantén** presionado el botón ++"Function"++ y presiona otro botón para ejecutar la acción correspondiente, como se indica en la siguiente tabla. Si no encuentras el botón de función en tu dispositivo, consulta la sección [Métodos de Entrada](../basic-inputs).
+Todos los atajos siguen el mismo patrón: **mantén** presionado el botón ++"Function"++ y presiona otro botón para ejecutar la acción correspondiente, como se indica en la siguiente tabla. Si no encuentras el botón de función en tu dispositivo, consulta la sección [Métodos de Entrada](./basic-inputs.md).
 
 !!! info "Manual en pantalla."
 
@@ -67,8 +67,8 @@ Desde Gladiator, KNULLI viene con Advanced-Drastic, un emulador adicional de Nin
 
 !!! info "Atajos y RetroAchievements."
 
-    Si estás consiguiendo [RetroAchievements](../retro-achievements) en *hardcore mode*, todas las acciones de guardar rápido, cargar rápido, avanzar rápidamente y rebobinar están deshabilitadas por definición. Sin embargo, para los RetroAchievements en modo *regular*, guardar/cargar, etc., están habilitadas.
+    Si estás consiguiendo [RetroAchievements](./retro-achievements.md) en *hardcore mode*, todas las acciones de guardar rápido, cargar rápido, avanzar rápidamente y rebobinar están deshabilitadas por definición. Sin embargo, para los RetroAchievements en modo *regular*, guardar/cargar, etc., están habilitadas.
 
 !!! warning "Los atajos de emulación no se aplican a las aplicaciones nativas."
 
-    Los juegos de la biblioteca [PortMaster](../../systems/portmaster) no se emulan y, por lo tanto, no responden a los atajos de emulación. No te preocupes si tus juegos de PortMaster no responden a los atajos; es normal. Para saber cómo guardar, cargar y salir de tus juegos de PortMaster, consulta el manual del juego.
+    Los juegos de la biblioteca [PortMaster](../systems/portmaster.md) no se emulan y, por lo tanto, no responden a los atajos de emulación. No te preocupes si tus juegos de PortMaster no responden a los atajos; es normal. Para saber cómo guardar, cargar y salir de tus juegos de PortMaster, consulta el manual del juego.
