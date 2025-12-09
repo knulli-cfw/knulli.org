@@ -45,7 +45,7 @@ The easiest way to set up standalone Pico-8 on your KNULLI device is via the Pic
 
 !!! info "You can also install Pico-8 from the command line"
 
-    The built-in Pico-8 installer can be launched from the command line. Simply put the file in the right place as explained above. Establish access to the command line, either via ADB or via [SSH connection](../../configure/ssh). Now simply type the command `knulli-install-pico8` and press ++"Enter"++ to launch the installer.
+    The built-in Pico-8 installer can be launched from the command line. Simply put the file in the right place as explained above. Establish access to the command line, either via ADB or via [SSH connection](../configure/ssh.md). Now simply type the command `knulli-install-pico8` and press ++"Enter"++ to launch the installer.
 
 ### Installing Pico-8 manually
 
@@ -72,7 +72,7 @@ If the built-in installer fails you, it is entirely possible to install Pico-8 m
 
 By default, the `pico8` and `pico8_64` files from the Raspberry Pi zip file are already marked as executable (`-rwxr-xr-x`). However, if you unzip the file on a Windows machine, Linux permissions are lost in the process. Therefore, the file you copied to your BIOS folder might no longer be executable.
 
-To make sure that the file is executable again, you may establish an SSH connection (see [SSH](../../configure/ssh) section for details) and enter the following command on the shell of your KNULLI device to add the executable permission (`x`) for all three user types:
+To make sure that the file is executable again, you may establish an SSH connection (see [SSH](../configure/ssh.md) section for details) and enter the following command on the shell of your KNULLI device to add the executable permission (`x`) for all three user types:
 
 ```
 chmod +x /userdata/bios/pico-8/pico8
