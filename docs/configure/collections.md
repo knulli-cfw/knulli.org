@@ -4,7 +4,7 @@ In addition to the systems displayed, EmulationStation (ES) has functionality to
 
 All of the options described below can be managed by pressing ++"START"++ anywhere in ES to open the Main Menu and then opening ++"Game Collection Settings"++
 
-![Game Collection Settings Menu](/_inc/images/collections-main-menu.png)
+![Game Collection Settings Menu](../_inc/images/collections-main-menu.png)
 
 ## Managing Your Backlog
 
