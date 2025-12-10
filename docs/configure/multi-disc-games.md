@@ -1,6 +1,6 @@
 # :material-disc: Multi-Disc Games
 
-Some video games for disc-based consoles, especially those with lots of cinematics, come on more than one disc. Once you [added](../../play/add-games) a multi-disc game to your KNULLI device, each disc of the game will show up as its own game. Of course, this adds unnecessary clutter to your game list. Therefore, KNULLI comes with a feature that allows you to hide **all** the discs of the multi-disc game and display a **playlist** instead.
+Some video games for disc-based consoles, especially those with lots of cinematics, come on more than one disc. Once you [added](../play/add-games/index.md) a multi-disc game to your KNULLI device, each disc of the game will show up as its own game. Of course, this adds unnecessary clutter to your game list. Therefore, KNULLI comes with a feature that allows you to hide **all** the discs of the multi-disc game and display a **playlist** instead.
 
 All you have to do is create a **`m3u` playlist** file within the folder for the ROMs of the given system and add **relative path references** to all the **disc images** in the **correct order**.
 
@@ -18,7 +18,7 @@ If you feel unsure how to achieve that, follow this guide. It will take you thro
 
 There are several possibilities how to store multi-disc game files. Let's take the PlayStation classic *Metal Gear Solid* as an example.
 
-As thoroughly explained in the [Add Games](../../play/add-games) section, all your games have to be stored in your userdata/share folder in a subfolder of `roms` that corresponds to the system the game was developed for - in this case, `psx`, the folder for PlayStation games.
+As thoroughly explained in the [Add Games](../play/add-games/index.md) section, all your games have to be stored in your userdata/share folder in a subfolder of `roms` that corresponds to the system the game was developed for - in this case, `psx`, the folder for PlayStation games.
 
 ### Top level of the system's ROMs folder
 
