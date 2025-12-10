@@ -8,7 +8,7 @@
 
     This section will help you understand the problem. We decided to leave this page up until the last few ports are updated - just in case that one of the games **you** want to play is among the few that have not been adapted, yet.
 
-[**PortMaster**](../../systems/portmaster) is a GUI tool for managing and installing **video game ports** for **handheld devices**. The PortMaster library covers **retro classics** as well as **modern indie games** and lots of **freeware games**. Currently, PortMaster contains far more than **700 games**. By default, KNULLI comes with an **installer** which will set up PortMaster on your device. You can find in in the *Ports* section. The PortMaster library is a great collection of awesome games that you **should not sleep on**: *Stardew Valley*, *Half-Life*, *TMNT: Shredder's Revenge*, *GTA Vice City*, *AM2R*, *Celeste* and *Owlboy* are just a few examples you might have heard of.
+[**PortMaster**](../systems/portmaster.md) is a GUI tool for managing and installing **video game ports** for **handheld devices**. The PortMaster library covers **retro classics** as well as **modern indie games** and lots of **freeware games**. Currently, PortMaster contains far more than **700 games**. By default, KNULLI comes with an **installer** which will set up PortMaster on your device. You can find in in the *Ports* section. The PortMaster library is a great collection of awesome games that you **should not sleep on**: *Stardew Valley*, *Half-Life*, *TMNT: Shredder's Revenge*, *GTA Vice City*, *AM2R*, *Celeste* and *Owlboy* are just a few examples you might have heard of.
 
 However, If you are **absolutely sure** that you are **not interested** in **ever** playing PortMaster games on your KNULLI device, you can stop reading now. This section is **not for you**. In any other case: **Let's get started.**
 
@@ -38,9 +38,9 @@ Luckily, you have two options to enjoy these PortMaster games on your KNULLI-dri
 
 ## Format to ext4
 
-KNULLI also comes with a **built-in formatter** that you may use to format any secondary SD card to ext4 as explained in the [Formatting section](../../play/add-games/formatting). ext4 is a **Linux file system** which **supports symbolic links**. Consequently, if you simply format to ext4, it will not make a difference to you whether a game employs symbolic links or not. PortMaster will just work, that's it.
+KNULLI also comes with a **built-in formatter** that you may use to format any secondary SD card to ext4 as explained in the [Formatting section](../play/add-games/formatting.md). ext4 is a **Linux file system** which **supports symbolic links**. Consequently, if you simply format to ext4, it will not make a difference to you whether a game employs symbolic links or not. PortMaster will just work, that's it.
 
-However, ext4 comes at a price: You will **not** be able to **access** your ext4 SD card from a **Windows computer**. Windows does not support the ext4 file system. On your Windows computer, the drive will simply appear as unreadable and Windows will ask you to format the drive to make is accessible. Hence, you will be restricted to accessing your SD card via **Wi-Fi** as explained in the [Network Transfer section](../../play/add-games/network-transfer). Unfortunately, network transfer is significantly slower than direct access to the SD card.
+However, ext4 comes at a price: You will **not** be able to **access** your ext4 SD card from a **Windows computer**. Windows does not support the ext4 file system. On your Windows computer, the drive will simply appear as unreadable and Windows will ask you to format the drive to make is accessible. Hence, you will be restricted to accessing your SD card via **Wi-Fi** as explained in the [Network Transfer section](../play/add-games/network-transfer.md). Unfortunately, network transfer is significantly slower than direct access to the SD card.
 
 Some users consider ext4 a great inconvenience, especially those who want to play on devices **without Wi-Fi capability** (e.g., the Anbernic RG28XX and RG35XX 2024). If Wi-Fi access is not an option for you, you should probably stick with **exFAT** instead.
 
