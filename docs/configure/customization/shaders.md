@@ -77,7 +77,7 @@ However, with the following example, we give you a very brief overview on what t
 
 #### Folder preparations
 
-Gain access to your device, either by direct access to the SD card or via [network transfer](../../../play/add-games/network-transfer/). If it does not exist already, create a `shaders` folder in your [`/userdata`](../../../play/add-games/game-storage).
+Gain access to your device, either by direct access to the SD card or via [network transfer](../../play/add-games/network-transfer.md). If it does not exist already, create a `shaders` folder in your [`/userdata`](../../play/add-games/game-storage.md).
 
 Inside the new `shaders` folder, you will need at least two sub-folders for specific files:
 
@@ -216,7 +216,7 @@ You can also delete existing override files from this menu.
 
 KNULLI already comes with a lot of pre-defined shaders which are stored in the **read-only** part of the KNULLI file system in a folder called `/usr/share/batocera/shaders`. However, you are **not** supposed to **delete** or **add** any shaders there. Instead, KNULLI expects your **own shaders** to be stored in the `shaders` folder in your `userdata`/`SHARE` folder. (If you want to learn more about the `shaders` folder, have a look at the thorough documentation in the [Batocera wiki](https://wiki.batocera.org/emulationstation:shaders_set).)
 
-If you do not have such a folder yet, access your `userdata` folder (e.g., via [network transfer](../../../play/add-games/network-transfer)) and add the `shaders` folder. Afterwards, you can copy all your RetroArch shaders into that folder.
+If you do not have such a folder yet, access your `userdata` folder (e.g., via [network transfer](../../play/add-games/network-transfer.md)) and add the `shaders` folder. Afterwards, you can copy all your RetroArch shaders into that folder.
 
 #### Create a shortcut to your own shaders folder
 
@@ -224,7 +224,7 @@ As explained above, navigating from the default shaders folder to your custom sh
 
 The easiest way would be to create a symbolic link when your device is starting up. This could be achieved by simply adding/editing a `custom.sh` bash script in your `system` folder:
 
-* Go to your `system` folder (e.g., via [network transfer](../../../play/add-games/network-transfer)).
+* Go to your `system` folder (e.g., via [network transfer](../../play/add-games/network-transfer.md)).
 * If it does not exist yet, create a new text file `custom.sh`.
     * Windows users need to make sure **the file extension is correct**. (Please make sure your file extensions are visible before proceeding!)
 * Edit `custom.sh` with a text editor (preferably something like *Notepad++*).
@@ -244,4 +244,4 @@ After rebooting your system, it should now automatically create a link which mak
 
 !!! info "Permanent link in overlay"
 
-    It would also be possible to store a **permanent** link in the `overlay` file rather than re-creating the link on every boot. To do so, simply [SSH](../../ssh) into the device, create the link with the command shown above and run `batocera-save-overlay` to make the change permanent. However, by creating the link via `custom.sh` on boot, the link would survive re-flashing SD 1 on dual SD card setups and can also be included in your backups of the entire `userdata` folder.
+    It would also be possible to store a **permanent** link in the `overlay` file rather than re-creating the link on every boot. To do so, simply [SSH](../ssh.md) into the device, create the link with the command shown above and run `batocera-save-overlay` to make the change permanent. However, by creating the link via `custom.sh` on boot, the link would survive re-flashing SD 1 on dual SD card setups and can also be included in your backups of the entire `userdata` folder.
