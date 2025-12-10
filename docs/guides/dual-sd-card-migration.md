@@ -10,7 +10,7 @@ KNULLI runs fine as a single SD card CFW. However, some KNULLI-supported devices
 
 It is not technically required to run KNULLI in a dual-SD-card setup. However, using two dedicated SD cards for your KNULLI device brings a couple of advantages:
 
-* **Updating** KNULLI is **significantly** easier if all your games, saves, configurations, etc., are stored on a dedicated SD card. You can always simply shut down your KNULLI device, remove your primary SD (which has **only** the OS) and **simply re-flash** it with the newest version without a single worry about your user data. (Technically, for most KNULLI updates it is possible to just do a manual update as explained in the [Update section](../../play/update). However, **some updates require to re-flash**, which will be less of a hassle if you run with a dual-SD setup.
+* **Updating** KNULLI is **significantly** easier if all your games, saves, configurations, etc., are stored on a dedicated SD card. You can always simply shut down your KNULLI device, remove your primary SD (which has **only** the OS) and **simply re-flash** it with the newest version without a single worry about your user data. (Technically, for most KNULLI updates it is possible to just do a manual update as explained in the [Update section](../play/update.md). However, **some updates require to re-flash**, which will be less of a hassle if you run with a dual-SD setup.
 * **Switching devices** is easier. Since some KNULLI-driven device are somewhat different, it might be **required** to **remove your `system` folder** and reboot to re-configure KNULLI from scratch if you migrate to a different device. However, all your games, BIOSes, screenshots, themes, saves, decorations, etc. can still be easily transferred to a new device if you simply plug your old SD 2 into your new device.
 * **Backing up your user data** can also be significantly easier if you can simply duplicate the entire SD card, e.g. by drawing an image from your original SD 2 and flashing it onto a new SD card.
 
@@ -23,7 +23,7 @@ Before you start to migrate, make sure that you have the following tools at hand
 * a primary KNULLI SD card
 * a second SD card ready to be formatted
 * a computer
-* a working [SSH connection](../../configure/ssh) to your KNULLI device
+* a working [SSH connection](../configure/ssh.md) to your KNULLI device
 
 ### Make sure that KNULLI uses internal storage
 
@@ -72,7 +72,7 @@ This section might look a little bit scary to Linux beginners, because we run a 
 
     * `mv` - means *move*, a command to move files and directories
 
-* Establish your [SSH connection](../../configure/ssh).
+* Establish your [SSH connection](../configure/ssh.md).
 * On the SSH prompt, type
   ```
   cd /media
