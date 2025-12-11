@@ -32,6 +32,6 @@ KNULLI, cihazınız için bir disk görüntüsü indirerek, bunu bir SD Kart'a (
 
 ## Sonraki Adımlar
 
-* [Oyun Ekleme](/play/add-games)
-* [Ağ Kurulumu](/configure/networking)
-* [Temalar](/configure/themes)
+* [Oyun Ekleme](./add-games/index.md)
+* [Ağ Kurulumu](../configure/networking.md)
+* [Temalar](../configure/customization/themes.md)

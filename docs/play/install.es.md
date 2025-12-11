@@ -25,11 +25,11 @@ Mientras se graba la imagen, se crearán varias particiones, que se mostrarán c
 
     Nunca debes formatear las particiones de KNULLI que Windows no pueda leer, por mucho que Windows lo sugiera.
 
-Después de grabar, la unidad *BATOCERA* será la única formateada en FAT32 para que Windows pueda acceder a ella para actualizaciones manuales, como se describe en la sección [Actualizar](../update). Sin embargo, esta es solo la ubicación donde se almacena el sistema operativo, por lo que no es un lugar para guardar tus juegos. Para más información sobre cómo agregar juegos, consulta la sección [Añadir Juegos](../add-games) *después del primer arranque*.
+Después de grabar, la unidad *BATOCERA* será la única formateada en FAT32 para que Windows pueda acceder a ella para actualizaciones manuales, como se describe en la sección [Actualizar](./update.md). Sin embargo, esta es solo la ubicación donde se almacena el sistema operativo, por lo que no es un lugar para guardar tus juegos. Para más información sobre cómo agregar juegos, consulta la sección [Añadir Juegos](./add-games/index.md) *después del primer arranque*.
 
 !!! warning "Expansión de la partición SHARE."
 
-    Mientras se graba la imagen, se creará una partición llamada *SHARE*. Aquí es donde todos tus juegos y demás datos se almacenarán. Sin embargo, la partición *SHARE* solo se expandirá a su tamaño completo durante el primer arranque. Es *obligatorio* finalizar la instalación iniciando KNULLI *antes* de poder acceder a la partición *SHARE* y comenzar a agregar tus juegos. Consulta la sección [Añadir Juegos](../add-games) para saber cómo agregar juegos a tu dispositivo KNULLI *después del primer arranque*.
+    Mientras se graba la imagen, se creará una partición llamada *SHARE*. Aquí es donde todos tus juegos y demás datos se almacenarán. Sin embargo, la partición *SHARE* solo se expandirá a su tamaño completo durante el primer arranque. Es *obligatorio* finalizar la instalación iniciando KNULLI *antes* de poder acceder a la partición *SHARE* y comenzar a agregar tus juegos. Consulta la sección [Añadir Juegos](./add-games/index.md) para saber cómo agregar juegos a tu dispositivo KNULLI *después del primer arranque*.
 
 ## Paso 3: Iniciar tu dispositivo
 
@@ -42,8 +42,8 @@ Después de grabar, la unidad *BATOCERA* será la única formateada en FAT32 par
 
 ## Siguientes pasos
 
-* [Redes](../../configure/networking)
-* [Controles](../../configure/controls)
-* [Añadir Juegos](../add-games)
-* [Scraping](../../play/scraping)
-* [Temas](../../configure/customization/themes)
+* [Redes](../configure/networking.md)
+* [Controles](../configure/controls.md)
+* [Añadir Juegos](./add-games/index.md)
+* [Scraping](./scraping.md)
+* [Temas](../configure/customization/themes.md)
