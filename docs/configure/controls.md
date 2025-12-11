@@ -2,7 +2,7 @@
 
 !!! danger "Do not confuse hardware setup with button mapping for games/systems!"
 
-    Do not confuse controller setup with **game-** or **core-specific** button remapping! This section is about the **global** controller setup to make the **hardware** work. If you want to remap the controls for a specific **game** or **emulator**, follow the guide for the respective emulator (e.g. [Retroarch](../retroarch/controls)).
+    Do not confuse controller setup with **game-** or **core-specific** button remapping! This section is about the **global** controller setup to make the **hardware** work. If you want to remap the controls for a specific **game** or **emulator**, follow the guide for the respective emulator (e.g. [Retroarch](./retroarch/controls.md)).
 
 Even though it was designed for handheld devices, KNULLI still supports various types of USB and Bluetooth controllers. Additionally, Knulli also supports other types of input devices, such as mice and keyboards.
 
@@ -12,7 +12,7 @@ If a controller does not work with your KNULLI-device out of the box, it might b
 
 Most KNULLI-compatible devices are handhelds with built-in controls. They usually consists of a **directional pad** (:material-gamepad:, short: **D-pad**), the so called **face buttons** (:material-gamepad-circle:), some **shoulder buttons** (++"L1"++, ++"R1"++) and/or **shoulder triggers** (++"L2"++, ++"R2"++) and some buttons for ++"Start"++ and ++"Select"++. Additionally, your device will most likely have **power switch** and a **function button** (++"Function"++) which will be used for hotkey shortcuts. **Optionally**, your device might also have **analog sticks** and a **reset button**. If you do not know where those buttons are located on your device, please have a look at the manual of your device.
 
-KNULLI comes with a set of pre-defined **hotkey shortcuts** which allow you to save, load, and quit your games, take screenshots, etc. We strongly recommend to **learn** the hotkey shortcuts. You will find a list of all default hotkey shortcuts in the [Hotkey Shortcuts](../../play/hotkey-shortcuts) section.
+KNULLI comes with a set of pre-defined **hotkey shortcuts** which allow you to save, load, and quit your games, take screenshots, etc. We strongly recommend to **learn** the hotkey shortcuts. You will find a list of all default hotkey shortcuts in the [Hotkey Shortcuts](../play/hotkey-shortcuts.md) section.
 
 !!! info "Controller names"
 
@@ -49,4 +49,4 @@ If you press a wrong button, don't worry: You will always be able to return to t
     
     For example, out of the four face buttons, the **north** button (:material-gamepad-circle-up:) is labeled ++"X"++ on the standard SNES controllers. The same button is labeled ++"Y"++ on Xbox controllers and ++"△"++ on PlayStation controllers.
     
-    Make sure that you do **not** confuse the directional **face buttons** (:material-gamepad-circle-up: :material-gamepad-circle-right: :material-gamepad-circle-down: :material-gamepad-circle-left:) with the **D-pad** directions (:material-gamepad-up: :material-gamepad-right: :material-gamepad-down: :material-gamepad-left:)! You will find more information about face buttons in the [Hotkey shortcuts](../../play/hotkey-shortcuts) section.
+    Make sure that you do **not** confuse the directional **face buttons** (:material-gamepad-circle-up: :material-gamepad-circle-right: :material-gamepad-circle-down: :material-gamepad-circle-left:) with the **D-pad** directions (:material-gamepad-up: :material-gamepad-right: :material-gamepad-down: :material-gamepad-left:)! You will find more information about face buttons in the [Hotkey shortcuts](../play/hotkey-shortcuts.md) section.
