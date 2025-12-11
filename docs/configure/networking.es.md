@@ -28,7 +28,7 @@ En la sección superior, puedes ver si estás conectado a una red Wi-Fi, tu dire
 
 ### Múltiples redes Wi-Fi (hasta 3)
 
-KNULLI ofrece opciones adicionales ocultas en la interfaz gráfica de usuario (GUI) para que los usuarios con conocimientos técnicos puedan aprovecharlas. A través de la GUI, puedes elegir solo un SSID de red Wi-Fi mediante descubrimiento y proporcionar una clave mediante el teclado virtual. Si juegas fuera de casa, quizás quieras un poco más de flexibilidad para puntos de acceso adicionales. Puedes configurar una red Wi-Fi secundaria y una terciaria editando directamente el archivo `batocera.conf`. Puedes acceder al archivo de la misma manera que agregas tus juegos, como se describe en la sección [Añadir Juegos](../../play/add-games), o usar un editor de línea de comandos mediante [SSH](../ssh). El archivo se encuentra en `/userdata/system/batocera.conf` o `SHARE\system\batocera.conf`, según tu perspectiva. En `batocera.conf`, simplemente busca y edita las siguientes líneas:
+KNULLI ofrece opciones adicionales ocultas en la interfaz gráfica de usuario (GUI) para que los usuarios con conocimientos técnicos puedan aprovecharlas. A través de la GUI, puedes elegir solo un SSID de red Wi-Fi mediante descubrimiento y proporcionar una clave mediante el teclado virtual. Si juegas fuera de casa, quizás quieras un poco más de flexibilidad para puntos de acceso adicionales. Puedes configurar una red Wi-Fi secundaria y una terciaria editando directamente el archivo `batocera.conf`. Puedes acceder al archivo de la misma manera que agregas tus juegos, como se describe en la sección [Añadir Juegos](../play/add-games/index.md), o usar un editor de línea de comandos mediante [SSH](./ssh.md). El archivo se encuentra en `/userdata/system/batocera.conf` o `SHARE\system\batocera.conf`, según tu perspectiva. En `batocera.conf`, simplemente busca y edita las siguientes líneas:
 
 ```
 ## Secondary Wi-Fi
@@ -69,4 +69,4 @@ La ruta
 \\KNULLI\share
 ```
 
-(reemplaza `KNULLI` con el hostname si lo cambiaste) te llevará directamente a la carpeta `/userdata`, donde encontrarás tus ROMs, archivos de BIOS, etc. Consulta la sección [Añadir Juegos](../../play/add-games) para obtener más información.
+(reemplaza `KNULLI` con el hostname si lo cambiaste) te llevará directamente a la carpeta `/userdata`, donde encontrarás tus ROMs, archivos de BIOS, etc. Consulta la sección [Añadir Juegos](../play/add-games/index.md) para obtener más información.
