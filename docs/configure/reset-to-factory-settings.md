@@ -19,7 +19,7 @@ To reset to factory settings from the KNULLI GUI
 
      **Usually**, KNULLI updates will **NOT** require you to re-create your entire `system` folder. Re-creating the `system` folder corresponds to **resetting to factory defaults**. Consequently, it will force you to **re-configure a lot of settings manually** since they will be gone afterwards! Do **NOT** do this, unless you are absolutely sure it is required.
 
-As you might already know, **all your settings** are stored in your `userdata/system` folder as explained in the [Game Storage](../../play/add-games/game-storage) section.
+As you might already know, **all your settings** are stored in your `userdata/system` folder as explained in the [Game Storage](../play/add-games/game-storage.md) section.
 
 If your system does not work as expected after you changed a setting and you can't find a way to undo said setting, your issue might still be fixed by resetting the corresponding configuration file or the entire `system` folder to factory settings. In **VERY rare cases**, it might also be required to adapt your settings to new KNULLI defaults by **replacing/updating some files** in that `system` folder after you installed an update.
 

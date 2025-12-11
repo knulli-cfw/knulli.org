@@ -19,7 +19,7 @@ Para restablecer la configuración de fábrica desde la interfaz gráfica de KNU
 
      **Normalmente**, las actualizaciones de KNULLI **NO** requieren que vuelvas a crear la carpeta `system` completa. Recrear la carpeta `system` equivale a **restablecer la configuración de fábrica**. Por lo tanto, te obligará a **reconfigurar manualmente muchos ajustes**, ¡ya que desaparecerán después! **NO** lo hagas a menos que estés completamente seguro de que es necesario.
 
-Como ya sabrás, **todas tus configuraciones** se almacenan en tu carpeta `userdata/system`, como se explica en la sección [Almacenamiento de los Juegos](../../play/add-games/game-storage).
+Como ya sabrás, **todas tus configuraciones** se almacenan en tu carpeta `userdata/system`, como se explica en la sección [Almacenamiento de los Juegos](../play/add-games/game-storage.md).
 
 Si tu sistema no funciona correctamente después de cambiar una configuración y no encuentras la manera de deshacerla, el problema podría solucionarse restableciendo el archivo de configuración correspondiente o toda la carpeta `system` a la configuración de fábrica. En **casos MUY excepcionales**, también podría ser necesario adaptar tu configuración a los nuevos valores predeterminados de KNULLI **reemplazando o actualizando algunos archivos** en esa carpeta `system` después de instalar una actualización.
 
