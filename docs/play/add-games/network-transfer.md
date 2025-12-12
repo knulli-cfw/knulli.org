@@ -139,7 +139,9 @@ For Windows users, we recommend to use [WinSCP](https://winscp.net). After insta
 
 ### HTTP
 
-	Support for HTTP for file transfer is not currently supported and is not on the roadmap.  Pull Requests are welcome and you can join us on [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB) to engage with the developers if you are interested in contributing.
+!!! info "Currently not supported"
+
+    Support for HTTP for file transfer is not currently supported and is not on the roadmap.  Pull Requests are welcome and you can join us on [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB) to engage with the developers if you are interested in contributing.
 
 ### After transferring your data
 
