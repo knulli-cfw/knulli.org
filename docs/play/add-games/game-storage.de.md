@@ -46,4 +46,4 @@ IIm Verzeichnis `/userdata` befinden sich weitere Unterordner, in denen du Spiel
 
 !!! info "KNULLI ist ein Linux-System. Anders als Windows unterscheiden Linux-Systeme zwischen *Groß- und Kleinschreibung* in Datei- und Ordnernamen. Du solltest deswegen darauf achten, dich an die erwartete Groß- und Kleinschreibung zu halten, wenn du deine Dateien migrierst."
 
-!!! info "Für Details bzgl. der Dateien, die das jeweilige System benötigt, besuche bitte die entsprechenden Seiten im Abschnitt [Systeme](/../systems) in diesem Wiki."
+!!! info "Für Details bzgl. der Dateien, die das jeweilige System benötigt, besuche bitte die entsprechenden Seiten im Abschnitt Systeme in diesem Wiki."
