@@ -39,7 +39,7 @@ Anbernic has not published the source code of the u-boot and kernel of the RG35X
 
 The firwmare included in releases uses the kernel, bootloader, and u-boot from the stock firmware.
 
-You can read [this page](../../guides/h700-firmware-extract.md) to learn how to extract the bootloader, u-boot, and kernel from the stock firmware.
+You can read [this page](../../guides/firmware-extraction/h700-firmware-extract.md) to learn how to extract the bootloader, u-boot, and kernel from the stock firmware.
 
 ## Community
 
