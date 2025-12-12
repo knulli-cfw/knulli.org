@@ -31,11 +31,11 @@ C: Desteklenen cihazların listesini kontrol edin
 ---
 
 ### S: X cihazını destekliyor musunuz? X cihazı için destek ekleyecek misiniz?
-C: Şu anda desteklenen cihazların listesini burada bulabilirsiniz: [Cihazlar](../devices)
+C: Şu anda desteklenen cihazların listesini burada bulabilirsiniz: [Cihazlar](../devices/index.md)
 
 Eğer ilgilendiğiniz cihaz bu listede yoksa, henüz hiç kimse onun için destek eklememiştir demektir. Peki neden? Bir cihaz için destek eklemek için (1) onu eklemek istememiz gerekmekte 😊 ve (2) cihaza doğrudan erişimimizin olması gerekmektedir.
 
-Ancak, ilgilenen herkes KNULLI'ye bir cihaz için destek ekleyebilir! Eğer yeni bir cihaz için destek eklemek istiyorsanız lütfen buradan başlayın: [Katkıda Bulunmak](../../community/contribute)
+Ancak, ilgilenen herkes KNULLI'ye bir cihaz için destek ekleyebilir! Eğer yeni bir cihaz için destek eklemek istiyorsanız lütfen buradan başlayın: [Katkıda Bulunmak](../community/contribute.md)
 
 ---
 

@@ -38,7 +38,7 @@ La respuesta larga es: Tras adaptar Batocera para que funcionara en la RG35XX Pl
 
 ### P: ¿De dónde puedo descargar la versión más reciente?
 
-R: Encontrarás la versión más reciente de KNULLI en nuestra [Página de Versiones](https://github.com/knulli-cfw/distribution/releases/latest). Busca la descarga para tu dispositivo en la sección `Installation Package Downloads` y sigue la [Guía de Inicio Rápido](../../play/quick-start) para instalar KNULLI en tu dispositivo. Si tu dispositivo no aparece en la lista, ten paciencia - todavía no hay una versión pública de KNULLI disponible para tu dispositivo.
+R: Encontrarás la versión más reciente de KNULLI en nuestra [Página de Versiones](https://github.com/knulli-cfw/distribution/releases/latest). Busca la descarga para tu dispositivo en la sección `Installation Package Downloads` y sigue la [Guía de Inicio Rápido](../play/quick-start.md) para instalar KNULLI en tu dispositivo. Si tu dispositivo no aparece en la lista, ten paciencia - todavía no hay una versión pública de KNULLI disponible para tu dispositivo.
 
 ---
 
@@ -50,17 +50,17 @@ R: Encontrarás una lista de todos los dispositivos compatibles actualmente en l
 
 ### P: ¿Tengo que flashear cada versión o puedo actualizar?
 
-R: Para la mayoría de las versiones, se puede ejecutar una actualización manual como se explica en la sección [Actualizar](../../play/update).
+R: Para la mayoría de las versiones, se puede ejecutar una actualización manual como se explica en la sección [Actualizar](../play/update.md).
 
 ---
 
 ### P: ¿Es compatible con "tal dispositivo"? ¿Añadirán compatibilidad para "tal dispositvo"?
 
-R: Puedes encontrar la lista de dispositivos compatibles actualmente aquí: [Dispositivos](../../devices).
+R: Puedes encontrar la lista de dispositivos compatibles actualmente aquí: [Dispositivos](../devices/index.md).
 
 Si el dispositivo que te interesa no está en la lista, significa que nadie ha contribuido a añadir compatibilidad. ¿Por qué? Para añadir compatibilidad con un dispositivo, (1) debemos estar interesados en ello 😊 y (2) debemos tener acceso al dispositivo.
 
-Dicho esto, ¡cualquier persona interesada puede enviar actualizaciones a KNULLI para añadir compatibilidad con un dispositivo que le interese! Si te interesa añadir compatibilidad con un nuevo dispositivo, por favor comienza por aquí: [Contribuir](../../community/contribute).
+Dicho esto, ¡cualquier persona interesada puede enviar actualizaciones a KNULLI para añadir compatibilidad con un dispositivo que le interese! Si te interesa añadir compatibilidad con un nuevo dispositivo, por favor comienza por aquí: [Contribuir](../community/contribute.md).
 
 ---
 

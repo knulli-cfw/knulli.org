@@ -1,6 +1,6 @@
 # :material-folder-music-outline: Background Music
 
-Your [userdata folder](../../../play/add-games/game-storage) contains a folder called `music`. If you store any compatible music files in this folder, the music will **replace** the original background music that comes with KNULLI. Instead of the built-in background music, KNULLI will now play the songs from your `music` folder while you are browsing your games in EmulationStation.
+Your [userdata folder](../../play/add-games/game-storage.md) contains a folder called `music`. If you store any compatible music files in this folder, the music will **replace** the original background music that comes with KNULLI. Instead of the built-in background music, KNULLI will now play the songs from your `music` folder while you are browsing your games in EmulationStation.
 
 !!! info "Make sure your music files are compatible"
 

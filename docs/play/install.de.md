@@ -6,8 +6,8 @@ Um KNULLI installieren zu können, musst du als erstes ein passendes Image für 
 
 * Lade die aktuellste Version von KNULLI für dein Gerät von der [Release-Seite](https://github.com/knulli-cfw/distribution/releases/latest) herunter.
     * Du findest Download-Links für alle Geräte und Plattformen, die von uns unterstützt werden, in der Tabelle "`Installation Package Downloads`".
-    * Stelle sicher, dass du das richtige Image für dein Gerät herunterlädst. Wenn du KNULLI z.B. auf einem [RG35XX](../../devices/anbernic/rg35xx) installieren möchtest, musst du das `rg35xx`-Image herunterladen.
-    * Wenn unklar ist, welches Image für dein Gerät geeignet ist, kannst du im Abschnitt [Unterstützte Geräte](../../devices) überprüfen, welches Image du für dein Gerät herunterladen solltest.
+    * Stelle sicher, dass du das richtige Image für dein Gerät herunterlädst. Wenn du KNULLI z.B. auf einem [RG35XX](../devices/anbernic/rg35xx.md) installieren möchtest, musst du das `rg35xx`-Image herunterladen.
+    * Wenn unklar ist, welches Image für dein Gerät geeignet ist, kannst du im Abschnitt [Unterstützte Geräte](../devices/index.md) überprüfen, welches Image du für dein Gerät herunterladen solltest.
 
 !!! warning "Falls dein Gerät *nicht* ist der Liste der `Installation Package Downloads` enthalten ist, gibt es noch keine öffentlich zugängliche Release-Version von Knulli für dein Gerät. Du solltest *nicht* versuchen, ein Installationspaket für ein anderes Gerät zu installieren."
 
@@ -21,11 +21,11 @@ Während des Flashens werden mehrere Partitionen angelegt, die auf deinem Comput
 
 !!! danger "Du solltest auf keinen Fall die für Windows unleserlichen KNULLI-Partitionen formatieren, auch wenn Windows es dir vorschlägt."
 
-Nur das Laufwerk *BATOCERA* wird von KNULLI mit FAT32 formatiert, damit du auch von Windows aus darauf zugreifen kannst, um manuelle Updates zu installieren, wie im Abschnitt [Aktualisieren](../update) beschrieben. Auf diesem Laufwerk liegt allerdings nur das KNULLI-Betriebssystem, du solltest hier keine Spiele ablegen. Im Abschnitt [Spiele hinzufügen](../add-games) wirst du lernen, wie du deine Spiele auf das Gerät laden kannst - *nachdem du es zum ersten Mal hochgefahren hast*.
+Nur das Laufwerk *BATOCERA* wird von KNULLI mit FAT32 formatiert, damit du auch von Windows aus darauf zugreifen kannst, um manuelle Updates zu installieren, wie im Abschnitt [Aktualisieren](./update.md) beschrieben. Auf diesem Laufwerk liegt allerdings nur das KNULLI-Betriebssystem, du solltest hier keine Spiele ablegen. Im Abschnitt [Spiele hinzufügen](./add-games/index.md) wirst du lernen, wie du deine Spiele auf das Gerät laden kannst - *nachdem du es zum ersten Mal hochgefahren hast*.
 
 !!! warning "Die *SHARE*-Partition auf volle Größe ausdehnen"
 
-    Beim Flashen wird eine Partition namens *SHARE* angelegt, auf der später deine Spiele etc. abgelegt werden können. Die *SHARE*-Partition wird allerdings erst beim ersten Booten auf ihre volle Größe ausgedehnt. Es ist *zwingend* notwendig, KNULLI einmal hochzufahren und die Installation abzuschließen, *bevor* du auf die *SHARE*-Partition zugreifen kannst. Wirf einen Blick in den Abschnitt [Spiele hinzufügen](../add-games) um zu erfahren, wie du Spiele und andere Dateien auf dein KNULLI-Gerät aufspielst."
+    Beim Flashen wird eine Partition namens *SHARE* angelegt, auf der später deine Spiele etc. abgelegt werden können. Die *SHARE*-Partition wird allerdings erst beim ersten Booten auf ihre volle Größe ausgedehnt. Es ist *zwingend* notwendig, KNULLI einmal hochzufahren und die Installation abzuschließen, *bevor* du auf die *SHARE*-Partition zugreifen kannst. Wirf einen Blick in den Abschnitt [Spiele hinzufügen](./add-games/index.md) um zu erfahren, wie du Spiele und andere Dateien auf dein KNULLI-Gerät aufspielst."
 
 ## Schritt 3: Boote das Gerät
 
@@ -38,8 +38,8 @@ Nur das Laufwerk *BATOCERA* wird von KNULLI mit FAT32 formatiert, damit du auch 
 
 ## Nächste Schritte
 
-* [Netzwerk konfigurieren](../../configure/networking)
-* [Controller konfigurieren](../../configure/controls)
-* [Spiele hinzufügen](../../play/add-games)
-* [Scrapen](../../play/scraping)
-* [Themes installieren und konfigurieren](../../configure/themes)
+* [Netzwerk konfigurieren](../configure/networking.md)
+* [Controller konfigurieren](../configure/controls.md)
+* [Spiele hinzufügen](./add-games/index.md)
+* [Scrapen](./scraping.md)
+* [Themes installieren und konfigurieren](../configure/customization/themes.md)

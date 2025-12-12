@@ -4,13 +4,13 @@
 
     The safest way to apply a major update is to **start over** with a clean install. It might take a little longer, but it will safely avoid all potential issues.
 
-Minor KNULLI updates can be installed manually by simply exchanging the `boot/batocera` file, as explained in the [Update section](../../play/update). However, a **major** KNULLI update comes with significant changes which require a clean re-flash. Furthermore, a **major** update might also require to set all settings back to default since new settings might be introduced and existing settings might have been removed. However, it is possible to **salvage parts** of your previous installation and thereby **ease the process** of setting up KNULLI anew.
+Minor KNULLI updates can be installed manually by simply exchanging the `boot/batocera` file, as explained in the [Update section](../play/update.md). However, a **major** KNULLI update comes with significant changes which require a clean re-flash. Furthermore, a **major** update might also require to set all settings back to default since new settings might be introduced and existing settings might have been removed. However, it is possible to **salvage parts** of your previous installation and thereby **ease the process** of setting up KNULLI anew.
 
 ## Backing up your user data before re-flashing
 
 If you run a dual SD card setup, all your user data is already stored on SD 2 anyway, so you do not need to back up anything.
 
-However, if you run a single SD card setup, you might want to create a backup of your stuff before you re-flash KNULLI. Depending on the formatting of your SD card, you might be able to extract your user data either by plugging the SD card into a computer or by accessing your user data via [Network Transfer](../../play/add-games/network-transfer). In any case, you should be able to back up the entire content of your `/userdata` folder (also known as `\\KNULLI\share` folder or `SHARE` partition) to a different data storage, e.g., a computer hard drive.
+However, if you run a single SD card setup, you might want to create a backup of your stuff before you re-flash KNULLI. Depending on the formatting of your SD card, you might be able to extract your user data either by plugging the SD card into a computer or by accessing your user data via [Network Transfer](../play/add-games/network-transfer.md). In any case, you should be able to back up the entire content of your `/userdata` folder (also known as `\\KNULLI\share` folder or `SHARE` partition) to a different data storage, e.g., a computer hard drive.
 
 ## Re-flashing KNULLI
 
@@ -36,16 +36,16 @@ If you ran a dual SD card setup before, all your user data is still stored safel
 
 #### Reset to factory settings via direct access
 
-If you can access your SD 2 directly, you can simply plug it into your computer **before** you set it up as your data storage in KNULLI and **delete or rename the `system` folder** and **delete the `ports` folder from `roms`**. Afterwards, put SD 2 back in your device, switch *Storage* to *Any External* as explained in the [Dual-SD-Card setup section](../../play/add-games/second-sd-card) and reboot to apply the change. During the reboot, KNULLI will re-create the missing folders `system` and `roms/ports` with their default values.
+If you can access your SD 2 directly, you can simply plug it into your computer **before** you set it up as your data storage in KNULLI and **delete or rename the `system` folder** and **delete the `ports` folder from `roms`**. Afterwards, put SD 2 back in your device, switch *Storage* to *Any External* as explained in the [Dual-SD-Card setup section](../play/add-games/second-sd-card.md) and reboot to apply the change. During the reboot, KNULLI will re-create the missing folders `system` and `roms/ports` with their default values.
 
 You can now start to set up your device and install PortMaster with the PortMaster installer that will have re-appeared in the restored Ports section.
 
 #### Reset to factory settings via Wi-Fi
 
-If your SD 2 cannot be accessed directly, you will have to restore factory settings after you put your SD 2 back to work. First, put SD 2 back in your device, switch *Storage* to *Any External* as explained in the [Dual-SD-Card setup section](../../play/add-games/second-sd-card) and reboot to apply the change.
+If your SD 2 cannot be accessed directly, you will have to restore factory settings after you put your SD 2 back to work. First, put SD 2 back in your device, switch *Storage* to *Any External* as explained in the [Dual-SD-Card setup section](../play/add-games/second-sd-card.md) and reboot to apply the change.
 
 It is crucial now that you **do not change any settings** after rebooting. If you did change anything, please **reboot again**.
 
-Now you need to **delete or rename the `system` folder** and **delete the `ports` folder from `roms`**, either by accessing your user data via [Network Transfer](../../play/add-games/network-transfer) or by using the built-in OD-Commander if you know how to use it. Afterwards, **reboot immediately** without changing any settings. During the reboot, KNULLI will re-create the missing folders `system` and `roms/ports` with their default values.
+Now you need to **delete or rename the `system` folder** and **delete the `ports` folder from `roms`**, either by accessing your user data via [Network Transfer](../play/add-games/network-transfer.md) or by using the built-in OD-Commander if you know how to use it. Afterwards, **reboot immediately** without changing any settings. During the reboot, KNULLI will re-create the missing folders `system` and `roms/ports` with their default values.
 
 You can now start to set up your device and install PortMaster with the PortMaster installer that will have re-appeared in the restored Ports section.

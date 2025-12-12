@@ -25,11 +25,11 @@ During the imaging, several partitions will be created, which will be shown to y
 
     You should never format the KNULLI partitions which Windows cannot read, no matter how strongly Windows suggests that.
 
-After successful flashing, the *BATOCERA* drive will be the only drive formatted to FAT32, to make it accessible on Windows for manual updates as described in the [update](../update) section. However, this is just the place where the operating system itself is stored, so it is not a place to store your games. For more information on how to add games, please refer to the [Add Games](../add-games) section *after first boot*.
+After successful flashing, the *BATOCERA* drive will be the only drive formatted to FAT32, to make it accessible on Windows for manual updates as described in the [update](./update.md) section. However, this is just the place where the operating system itself is stored, so it is not a place to store your games. For more information on how to add games, please refer to the [Add Games](./add-games/index.md) section *after first boot*.
 
 !!! warning "Expanding the SHARE partition"
 
-    During flashing, a partition called *SHARE* will be created. This is where all your games and other data will be stored. However, the *SHARE* partition will only be expanded to its full size during first boot. It is *mandatory* to finish installation by booting KNULLI *before* you can access the *SHARE* partition and start adding your games. Please have a look at the [Add Games](../add-games) section to learn how to add games to your KNULLI device - *after first boot*."
+    During flashing, a partition called *SHARE* will be created. This is where all your games and other data will be stored. However, the *SHARE* partition will only be expanded to its full size during first boot. It is *mandatory* to finish installation by booting KNULLI *before* you can access the *SHARE* partition and start adding your games. Please have a look at the [Add Games](./add-games/index.md) section to learn how to add games to your KNULLI device - *after first boot*."
 
 ## Step 3: Boot your device
 
@@ -42,8 +42,8 @@ After successful flashing, the *BATOCERA* drive will be the only drive formatted
 
 ## Next Steps
 
-* [Set up Networking](../../configure/networking)
-* [Set up Controls](../../configure/controls)
-* [Add Games](../../play/add-games)
-* [Scraping](../../play/scraping)
-* [Themes](../../configure/customization/themes)
+* [Set up Networking](../configure/networking.md)
+* [Set up Controls](../configure/controls.md)
+* [Add Games](./add-games/index.md)
+* [Scraping](./scraping.md)
+* [Themes](../configure/customization/themes.md)

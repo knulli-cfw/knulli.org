@@ -4,7 +4,7 @@ As an advanced user, you might want to access the command line (or shell) of you
 
 However, it is also possible to simply use the SSH client which is already integrated in your operating system: Most Linux distributions and modern Windows versions come with a SSH command line tool, MacOS comes with one by default as well.
 
-To connect to your KNULLI device via SSH, simply connect the device to your local network as described in the [Networking](../networking) section and establish the SSH connection as explained below.
+To connect to your KNULLI device via SSH, simply connect the device to your local network as described in the [Networking](./networking.md) section and establish the SSH connection as explained below.
 
 ## Required information
 

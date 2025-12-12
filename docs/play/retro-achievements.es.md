@@ -5,7 +5,7 @@ KNULLI se integra de forma nativa con [RetroAchievements](https://retroachieveme
 ## Configuración
 
 - Crea una cuenta en [RetroAchievements.org](https://retroachievements.org/).
-- Sigue los pasos de la sección de [Redes](../../configure/networking) para conectar tu dispositivo a internet.
+- Sigue los pasos de la sección de [Redes](../configure/networking.md) para conectar tu dispositivo a internet.
 - En EmulationStation, presiona ++"START"++ en el control para abrir el menú principal.
 - Selecciona *Ajustes de Juegos* y luego *Ajustes de RetroAchievements*.
 - Activa *RetroAchievements (Trofeos)* (primera opción).
@@ -28,7 +28,7 @@ KNULLI se integra de forma nativa con [RetroAchievements](https://retroachieveme
 
 ### Cambios a través de SSH / FTP
 
-Es posible agregar estos datos a través de la red mediante SSH o FTP. Para comenzar, consulta la sección [SSH](./../configure/ssh) o [Using FTP/SCP](./../add-games/network-transfer).
+Es posible agregar estos datos a través de la red mediante SSH o FTP. Para comenzar, consulta la sección [SSH](../configure/ssh.md) o [Using FTP/SCP](./add-games/network-transfer.md).
 
 Cuando tengas una conexión establecida, deberás abrir el archivo de configuración de Batocera en un editor de texto: `/userdata/system/batocera.conf`
 

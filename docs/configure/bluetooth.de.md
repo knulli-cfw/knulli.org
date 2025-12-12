@@ -25,7 +25,7 @@ Falls dein Gerät in der Liste nicht angezeigt wird, oder das Bluetooth-Pairing 
 
 !!! info "Controller werden automatisch den Spielern zugewiesen"
 
-    Sobald ein Bluetooth-Controller verbunden ist, wird er automatisch dem nächsten freien Spieler zugewiesen. Du kannst im Abschnitt [Controller](../controls) mehr über die automatische Zuweisung erfahren.
+    Sobald ein Bluetooth-Controller verbunden ist, wird er automatisch dem nächsten freien Spieler zugewiesen. Du kannst im Abschnitt [Controller](./controls.md) mehr über die automatische Zuweisung erfahren.
 
 ## Ein verknüpftes Bluetooth-Gerät verbinden/trennen
 

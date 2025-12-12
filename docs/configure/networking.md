@@ -28,7 +28,7 @@ In the section above, you can see whether you are currently connected to Wi-Fi, 
 
 ### Multiple Wi-Fi networks (up to 3)
 
-KNULLI has some additional options which are hidden from the GUI for the tech-savvy user to take advantage of. Through the GUI you may choose only a single Wi-Fi network SSID through discovery and provide a key through the soft keyboard. But if you're a gamer on the go, you may want a touch of flexibility for additional hot spots. You can configure a secondary and tertiary Wi-Fi by editing `batocera.conf` directly. You can access the file by the same why you add your games as described in the [Add Games](../../play/add-games) section, or use a command line editor via [SSH](../ssh). The file is located at `/userdata/system/batocera.conf` or `SHARE\system\batocera.conf` depending on your perspective. In `batocera.conf`, simply find and edit the following lines:
+KNULLI has some additional options which are hidden from the GUI for the tech-savvy user to take advantage of. Through the GUI you may choose only a single Wi-Fi network SSID through discovery and provide a key through the soft keyboard. But if you're a gamer on the go, you may want a touch of flexibility for additional hot spots. You can configure a secondary and tertiary Wi-Fi by editing `batocera.conf` directly. You can access the file by the same why you add your games as described in the [Add Games](../play/add-games/index.md) section, or use a command line editor via [SSH](./ssh.md). The file is located at `/userdata/system/batocera.conf` or `SHARE\system\batocera.conf` depending on your perspective. In `batocera.conf`, simply find and edit the following lines:
 
 ```
 ## Secondary Wi-Fi
@@ -69,4 +69,4 @@ The path
 \\KNULLI\share
 ```
 
-(replace `KNULLI` with your hostname if you changed it) will lead directly to the `/userdata` folder where you will find your ROMs, BIOS files, etc. See the [Add Games](../../play/add-games) section for more details.
+(replace `KNULLI` with your hostname if you changed it) will lead directly to the `/userdata` folder where you will find your ROMs, BIOS files, etc. See the [Add Games](../play/add-games/index.md) section for more details.

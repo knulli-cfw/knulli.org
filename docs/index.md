@@ -19,17 +19,17 @@ You will find a complete list of all new features, fixes, and changes in the [ch
 ### New features of KNULLI Gladiator II
 
 - Added **device support** for Anbernic RG34XX SP, RG35XX Pro and Powkiddy V90S, V20
-- **[Over-the-air updates](play/update)** via the *Updates & Downloads* menu will make future updates considerably more easy
-- **SMB (SAMBA)** is now a [**service** you can turn on/off](play/add-games/network-transfer) which is **disabled** by default
-- Added a toggle for always [auto-assigning](configure/controls) the **built-in controls** to player one and fixed issues with **USB controller assignment**
+- **[Over-the-air updates](./play/update.md)** via the *Updates & Downloads* menu will make future updates considerably more easy
+- **SMB (SAMBA)** is now a [**service** you can turn on/off](./play/add-games/network-transfer.md) which is **disabled** by default
+- Added a toggle for always [auto-assigning](./configure/controls.md) the **built-in controls** to player one and fixed issues with **USB controller assignment**
 - Fixed issues with **standalone Dreamcast/PSP emulators** on **A133** devices (TrimUI Brick, TrimUI Smart Pro)
 - Bezel decorations
     - are now **enabled automatically** when *Decoration Set* is set to *Auto*
     - are now supported for **standalone** emulators on **H700** devices (Anbernic RG XX series)
     - now come with a set *Default-Knulli-SP* specifically for **GBA** to give **SP** vibes on 4:3 clamshell displays
 - A **Disk Check** utility to verify your SD card's integrity was added to *System Settings* → *Frontend Developer Options*
-- **Soft reset** [hotkey shortcut](play/hotkey-shortcuts) can be used to force EmulationStation to restart
-- **[Factory reset](configure/reset-to-factory-settings)** is now possible on-device via EmulationStation
+- **Soft reset** [hotkey shortcut](./play/hotkey-shortcuts.md) can be used to force EmulationStation to restart
+- **[Factory reset](./configure/reset-to-factory-settings.md)** is now possible on-device via EmulationStation
 - A ton of **bugfixes** and **improvements** to system stability, performance, and battery life
 
 !!! warning "Major Update"
@@ -38,9 +38,9 @@ You will find a complete list of all new features, fixes, and changes in the [ch
     
     If you **update** from **Gladiator** to **Gladiator II**, you may keep your `system` folder and adopt all your previous settings, there will not be any compatibility issues between those two versions.
     
-    For everyone else, we **strongly recommend** to simply start over with a clean install. However, if you want to try migrating your user data from a previous installation to the new installation, please have a look at the [Major Updates guide](guides/major-updates).
+    For everyone else, we **strongly recommend** to simply start over with a clean install. However, if you want to try migrating your user data from a previous installation to the new installation, please have a look at the [Major Updates guide](./guides/major-updates.md).
 
-If you are **new to KNULLI** and want to get started: Head to the [Quick Start Guide](play/quick-start) on our website - it will guide you through the installation and your very first steps.
+If you are **new to KNULLI** and want to get started: Head to the [Quick Start Guide](./play/quick-start.md) on our website - it will guide you through the installation and your very first steps.
 
 In any case: We hope you enjoy playing your games with KNULLI!
 

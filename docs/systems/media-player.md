@@ -4,7 +4,7 @@ Tiny handhelds aren't exactly made to watch movies on. However, in case you want
 
 To play media with MPV,
 
-- simply drop the media files in `roms/mpv` which you will find in your  [`userdata` folder](../../play/add-games/game-storage)
+- simply drop the media files in `roms/mpv` which you will find in your  [`userdata` folder](../play/add-games/game-storage.md)
 - a new category "MPV" will appear on your home screen
 - find the media file you want to play and launch it like you would launch a game
 

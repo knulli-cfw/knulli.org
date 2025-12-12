@@ -130,7 +130,7 @@ plugins:
             Update: Actualizar
             Configure: Configuración
             Networking: Redes
-            Quick Resume: Reinicio Rápido
+            Quick Resume: Reanudación Rápida
             Controls: Controles
             Collections: Colecciones
             Multi-Disc Games: Juegos Multidisco
@@ -156,6 +156,7 @@ plugins:
             Partitioning: Particionado
             PortMaster and exFAT: PortMaster y exFAT
             Syncthing: Sincronización
+            Firmware Extraction: Extraer Firmware
             Development: Desarrollo
             Building KNULLI With Docker: Compilar KNULLI con Docker
             Community: Comunidad
@@ -361,6 +362,9 @@ nav:
         - Partitioning: guides/partitioning.md
         - PortMaster and exFAT: guides/portmaster-and-exfat.md
         - Syncthing: guides/syncthing.md
+        - Firmware Extraction:
+            - A133: guides/firmware-extraction/A133-firmware-extract.md
+            - H700: guides/firmware-extraction/h700-firmware-extract.md
     - Development:
         - Building KNULLI With Docker: development/building-knulli-with-docker.md
     - Community:

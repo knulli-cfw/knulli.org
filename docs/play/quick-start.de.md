@@ -8,7 +8,7 @@ Mit dieser Schnellstartanleitung wollen wir dir helfen, KNULLI auf deinem Handhe
 
 Zuerst solltest du die aktuellste KNULLI-Version in unserem [GitHub-Repository](https://github.com/knulli-cfw/distribution/releases/latest) identifizieren, die **exakt für dein Gerät** vorgesehen ist. Du findest eine Übersicht über alle verfügbaren Downloads in der Tabelle *Installation Download Package*. Lade die KNULLI-Version für dein Gerät herunter und "flash" sie auf eine SD-Karte. Du solltest **nicht** versuchen, irgendetwas nach der Installation manuell zu formatieren - KNULLI wird das für dich erledigen! Steck die SD-Karte einfach in dein Gerät und **entferne** alle weiteren SD-Karten aus den übrigen Slots deines Geräts, falls vorhanden. Jetzt kannst du dein KNULLI-Gerät einschalten und booten, um die Installation abzuschließen. (Der erste Bootvorgang kann relativ lange dauern, da KNULLI währenddessen deine Spielepartition expandieren und formatieren wird. Bleib geduldig!)
 
-Falls du ausführlichere Hilfe bei der Installation von KNULLI benötigst, schau am Besten in den Abschnitt [Installation](../install).
+Falls du ausführlichere Hilfe bei der Installation von KNULLI benötigst, schau am Besten in den Abschnitt [Installation](./install.md).
 
 ## Erste Schritte
 
@@ -18,21 +18,21 @@ Deine ersten Schritte hängen teilweise davon ab, wie du dein KNULLI-Gerät benu
 
 KNULLI lässt sich hervorragend mit einer einzelnen SD-Karte betreiben. Wer KNULLI erstmal kennenlernen möchte, dem empfehlen wir, zum reinschnuppern erstmal mit einer einzelnen SD-Karte anzufangen. Langfristig **empfehlen wir aber definitiv** eine **2-Karten-Konfiguration** zu verwenden, falls dein Gerät über einen zweiten SD-Slot verfügt. Auf der **ersten Karte**  befindet sich dann **nur** das **Betriebssystem**. Alle Spiele, Themes, Speicherstände, etc. werden auf der **zweiten Karte** abgelegt.
 
-Falls du dich für eine Zwei-SD-Karten-Konfiguration entscheiden solltest, beachte bitte, dass du **manuell** zwischen internem und externem Speicher umschalten musst, wenn du eine zweite SD-Karte verwenden möchtest. (Eine genauere Anleitung zum [Wechseln von SD-Karten](../add-games/second-sd-card) findest du im Abschnitt [Spiele hinzufügen](../add-games).)
+Falls du dich für eine Zwei-SD-Karten-Konfiguration entscheiden solltest, beachte bitte, dass du **manuell** zwischen internem und externem Speicher umschalten musst, wenn du eine zweite SD-Karte verwenden möchtest. (Eine genauere Anleitung zum [Wechseln von SD-Karten](./add-games/second-sd-card.md) findest du im Abschnitt [Spiele hinzufügen](./add-games/index.md).)
 
- (Keine Sorge: Es ist auch später noch möglich, von einer 1-SD-Karte-Konfiguration zu einer 2-SD-Karten-Konfiguration zu wechseln, wie in der [Anleitung "Zu Dual-SD-Card-Setup wechseln"](../../guides/dual-sd-card-migration) beschrieben.
+ (Keine Sorge: Es ist auch später noch möglich, von einer 1-SD-Karte-Konfiguration zu einer 2-SD-Karten-Konfiguration zu wechseln, wie in der [Anleitung "Zu Dual-SD-Card-Setup wechseln"](../guides/dual-sd-card-migration.md) beschrieben.
 
-Es ist theoretisch möglich, eine bereits mit Daten befüllte SD-Karte als zweite SD-Karte in einer 2-Karten-Konfiguration zu verwenden. Falls du das versuchen möchtest, solltest du sicherstellen, dass die **Ordnerstruktur** auf deiner SD-Karte **exakt** so ist wie im Abschnitt [Speicherort für Spiele](../add-games/game-storage) beschrieben!
+Es ist theoretisch möglich, eine bereits mit Daten befüllte SD-Karte als zweite SD-Karte in einer 2-Karten-Konfiguration zu verwenden. Falls du das versuchen möchtest, solltest du sicherstellen, dass die **Ordnerstruktur** auf deiner SD-Karte **exakt** so ist wie im Abschnitt [Speicherort für Spiele](./add-games/game-storage.md) beschrieben!
 
 Stell sicher, dass du eine **Entscheidung gefällt hast**, wie du deinen Datenspeicher einrichten möchtest, und dass du den **Speicher entsprechend vorbereitet hast** bevor du mit dem nächsten Schritt weitermachst.
 
 !!! info "Du kannst auch das ext4-Dateisystem benutzen"
 
-    Falls du das ext4-Dateisystem bevorzugst, z.B. weil du dich bereits gut mit Linux auskennst und dein Gerät stark customizen möchtest und dafür z.B. symbolische Links benötigst, kannst du den eingebauten Formatierer verwenden, um deinen Speicher mit ext4 zu formatieren. Du findest mehr Informationen dazu im Abschnitt [Formatieren](../add-games/formatting).
+    Falls du das ext4-Dateisystem bevorzugst, z.B. weil du dich bereits gut mit Linux auskennst und dein Gerät stark customizen möchtest und dafür z.B. symbolische Links benötigst, kannst du den eingebauten Formatierer verwenden, um deinen Speicher mit ext4 zu formatieren. Du findest mehr Informationen dazu im Abschnitt [Formatieren](./add-games/formatting.md).
 
 ### 2. W-LAN einrichten
 
-Drück ++"Start"++ um ins Hauptmenü zu gelangen und gehe zu *Network settings*, wo du deine W-LAN-Verbindung einrichten kannst. (Eine detailliertere Anleitung zur Einrichtung des W-LANs und zur Verbesserung der Sicherheit deines Gerätes findest du im Abschnitt [Netzwerkverbindungen](../../configure/networking).)
+Drück ++"Start"++ um ins Hauptmenü zu gelangen und gehe zu *Network settings*, wo du deine W-LAN-Verbindung einrichten kannst. (Eine detailliertere Anleitung zur Einrichtung des W-LANs und zur Verbesserung der Sicherheit deines Gerätes findest du im Abschnitt [Netzwerkverbindungen](../configure/networking.md).)
 
 !!! danger "Problemlösungen"
 
@@ -42,7 +42,7 @@ Drück ++"Start"++ um ins Hauptmenü zu gelangen und gehe zu *Network settings*,
 
 ### 3. Spiele und BIOSe hinzufügen
 
-Du kannst jetzt anfangen, deine Spiele hinzuzufügen. Wir empfehlen, dass du zunächst einen Blick auf den Abschnitt [Speicherort für Spiele](../add-games/game-storage) wirfst, um die Ordnerstruktur von KNULLI kennenzulernen.
+Du kannst jetzt anfangen, deine Spiele hinzuzufügen. Wir empfehlen, dass du zunächst einen Blick auf den Abschnitt [Speicherort für Spiele](./add-games/game-storage.md) wirfst, um die Ordnerstruktur von KNULLI kennenzulernen.
 
 Du kannst jetzt einfach dein KNULLI-Gerät herunterfahren, die SD-Karte entnehmen, die du als Speicherort für Spiele vorgesehen hast, und die Karte in deinen Computer stecken. Dort kannst du alle deine Spielen direkt auf die SD-Karte kopieren.
 
@@ -69,30 +69,30 @@ Falls du eine drahtlose Lösung bevorzugst oder dich dafür entschieden hast, da
 	</tr>
 </table>
 
-In jedem Fall kannst du bequem per Drag-and-Drop deine Spiele und BIOS-Dateien von deiner Festplatte in die entsprechenden Ordner deines KNULLI-Gerätes kopieren. Eine umfangreichere Anleitung und ein paar weitere alternative Möglichkeiten findest du im Abschnitt [Spiele hinzufügen](../add-games).
+In jedem Fall kannst du bequem per Drag-and-Drop deine Spiele und BIOS-Dateien von deiner Festplatte in die entsprechenden Ordner deines KNULLI-Gerätes kopieren. Eine umfangreichere Anleitung und ein paar weitere alternative Möglichkeiten findest du im Abschnitt [Spiele hinzufügen](./add-games/index.md).
 
 ### 4. PortMaster installieren (optional)
 
-Wenn du dich für PortMaster-Spiele interessierst, ist jetzt ein guter Zeitpunkt um PortMaster zu installieren. Als erstes solltest du sicherstellen, dass du mit deinem W-LAN verbunden bist. Anschließend kannst du auf deinem KNULLI-Gerät in der Kategorie *Ports* das Script *Install.PortMaster* ausführen, um die Installation zu beginnn. Nach Abschluss der Installation wirst du *PortMaster* in der *Ports*-Kategorie finden. (Mehr Informationen rund um [PortMaster](../../systems/portmaster) findest du im entsprechenden Abschnitt des Wikis.)
+Wenn du dich für PortMaster-Spiele interessierst, ist jetzt ein guter Zeitpunkt um PortMaster zu installieren. Als erstes solltest du sicherstellen, dass du mit deinem W-LAN verbunden bist. Anschließend kannst du auf deinem KNULLI-Gerät in der Kategorie *Ports* das Script *Install.PortMaster* ausführen, um die Installation zu beginnn. Nach Abschluss der Installation wirst du *PortMaster* in der *Ports*-Kategorie finden. (Mehr Informationen rund um [PortMaster](../systems/portmaster.md) findest du im entsprechenden Abschnitt des Wikis.)
 
 !!! info "Fehlendes PortMaster-Installationsscript"
 
-     Falls *Install.PortMaster* in deiner *Ports*-Kategorie fehlt, folge den Anweisungen im Abschnitt[PortMaster](../../systems/portmaster).
+     Falls *Install.PortMaster* in deiner *Ports*-Kategorie fehlt, folge den Anweisungen im Abschnitt[PortMaster](../systems/portmaster.md).
 
 ### 5. Medien und Metadaten scrapen (optional)
 
-Nachdem du alle deine Spiele hinzugefügt und installiert hast, möchtest du möglicherweise **Artworks**, textuelle Beschreibungen und andere **Metadaten** **hinzufügen**. KNULLI bringt dafür einen **Scraper** mit, der für dich verfügbare Medien und Metadaten herunterladen kann. Unser Scraper unterstützt **ScreenScraper**, **TheGamesDB** und **ArcadeDB** als Datenquellen. (Eine umfangreichere Anleitung zum [Scraping](../scraping) findest du im entsprechenden Abschnitt des Wikis.)
+Nachdem du alle deine Spiele hinzugefügt und installiert hast, möchtest du möglicherweise **Artworks**, textuelle Beschreibungen und andere **Metadaten** **hinzufügen**. KNULLI bringt dafür einen **Scraper** mit, der für dich verfügbare Medien und Metadaten herunterladen kann. Unser Scraper unterstützt **ScreenScraper**, **TheGamesDB** und **ArcadeDB** als Datenquellen. (Eine umfangreichere Anleitung zum [Scraping](./scraping.md) findest du im entsprechenden Abschnitt des Wikis.)
 
 ### 6. Retro Achievements einrichten (optional)
 
-Wenn du Retro-Achievements sammeln möchtest, solltest du dich in dein Retro-Achievements-Konto einloggen. Drück ++"START"++, wähle *Game Settings* und gehe dort zu *RetroAchievement Settings* um deine Zugangsdaten einzugeben. Bitte denk daran, dass Retro-Achievements nur funktionieren während du mit dem Internet verbunden bist. (Weitere Informationen zum Thema Retro-Achievements findest du im Abschnitt [Achievements](../retro-achievements).)
+Wenn du Retro-Achievements sammeln möchtest, solltest du dich in dein Retro-Achievements-Konto einloggen. Drück ++"START"++, wähle *Game Settings* und gehe dort zu *RetroAchievement Settings* um deine Zugangsdaten einzugeben. Bitte denk daran, dass Retro-Achievements nur funktionieren während du mit dem Internet verbunden bist. (Weitere Informationen zum Thema Retro-Achievements findest du im Abschnitt [Achievements](./retro-achievements.md).)
 
 ## Spielen!!
 
-Herzlichen Glückwunsch - dein Gerät ist bereit um zu spielen! Wie fühlt sich das an? Wenn dies deine erste Berührung mit einem Retro-Gaming-Handheld und/oder einer CFW ist, würden wir dir empfehlen, noch schnell die **Hotkey Shortcuts** zu lernen (du findest eine Liste im Abschnitt [Hotkey Shortcuts](../hotkey-shortcuts)) bevor du das erste Spiel startest. Abgesehen davon kannst du jetzt loslegen!
+Herzlichen Glückwunsch - dein Gerät ist bereit um zu spielen! Wie fühlt sich das an? Wenn dies deine erste Berührung mit einem Retro-Gaming-Handheld und/oder einer CFW ist, würden wir dir empfehlen, noch schnell die **Hotkey Shortcuts** zu lernen (du findest eine Liste im Abschnitt [Hotkey Shortcuts](./hotkey-shortcuts.md)) bevor du das erste Spiel startest. Abgesehen davon kannst du jetzt loslegen!
 
 Wir wünschen dir viel Spaß beim Spielen mit KNULLI!
 
 !!! info "Du bist nicht allein!"
 
-     Falls du Probleme hast oder Hilfe brauchst: Keine Panik - du bist nicht allein! Vielleicht findest du eine Lösung für deine Probleme hier im Wiki, wirf z.B. mal einen Blick auf die [häufig gestellten Fragen](../../faq) oder besuch uns auf [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB), wo wir gern versuchen werden, deine Fragen zu beantworten.
+     Falls du Probleme hast oder Hilfe brauchst: Keine Panik - du bist nicht allein! Vielleicht findest du eine Lösung für deine Probleme hier im Wiki, wirf z.B. mal einen Blick auf die [häufig gestellten Fragen](../faq/index.md) oder besuch uns auf [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB), wo wir gern versuchen werden, deine Fragen zu beantworten.

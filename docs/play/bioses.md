@@ -35,4 +35,4 @@ If you want to learn more about compatible BIOS files, you might want to check o
 
 #### Adding the files
 
-You can add the files to your `bios` folder the same way you add your games to the `roms` folder. You will find detailed instructions in the [Add Games](../../play/add-games) section. Please make sure to add BIOS files *exactly* as specified by the *Missing BIOS check*.
+You can add the files to your `bios` folder the same way you add your games to the `roms` folder. You will find detailed instructions in the [Add Games](../play/add-games/index.md) section. Please make sure to add BIOS files *exactly* as specified by the *Missing BIOS check*.

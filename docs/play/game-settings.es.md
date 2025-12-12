@@ -6,7 +6,7 @@
 
     Al iniciar un juego en KNULLI, **se borran todos** los archivos de configuración específicos del emulador y se generan nuevos archivos basados ​​en la configuración que realizaste en **EmulationStation**. Por lo tanto, la configuración que realices en la interfaz gráfica del emulador durante la ejecución **no será persistente**; se perderá al reiniciar el juego.
 
-    Sí, sí, no te preocupes: los **usuarios avanzados de RetroArch** podrán configurar sus juegos directamente en RetroArch. Sin embargo, para ello, deberás usar archivos de [**sobreescritura**](../../configure/retroarch/shaders) y [**remapeo**](../../configure/retroarch/controls), o probar suerte editando manualmente el archivo `batocera.conf`. Ten en cuenta que ciertas funciones de KNULLI (por ejemplo, usar un bisel multiresolución configurado para tener una decoración en la pantalla integrada **y** otra para jugar a través de la salida HDMI sin tener que cambiar manualmente la decoración) **no son compatibles** con las sobreescrituras.
+    Sí, sí, no te preocupes: los **usuarios avanzados de RetroArch** podrán configurar sus juegos directamente en RetroArch. Sin embargo, para ello, deberás usar archivos de [**sobreescritura**](../configure/customization/shaders.md) y [**remapeo**](../configure/retroarch/controls.md), o probar suerte editando manualmente el archivo `batocera.conf`. Ten en cuenta que ciertas funciones de KNULLI (por ejemplo, usar un bisel multiresolución configurado para tener una decoración en la pantalla integrada **y** otra para jugar a través de la salida HDMI sin tener que cambiar manualmente la decoración) **no son compatibles** con las sobreescrituras.
 
     Configurar con KNULLI sin duda tiene ventajas. Esta sección te enseñará a configurar juegos con KNULLI.
 
@@ -14,7 +14,7 @@ Después de instalar KNULLI y añadir tus juegos, KNULLI debería ofrecerte una 
 
 !!! info "Esta sección no trata sobre scraping."
 
-    Esta sección **no** trata de agregar metadatos ni carátulas (si buscas eso, echa un vistazo a la sección [Scraping](../scraping)).
+    Esta sección **no** trata de agregar metadatos ni carátulas (si buscas eso, echa un vistazo a la sección [Scraping](./scraping.md)).
 
 ## La filosofía de KNULLI
 
