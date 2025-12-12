@@ -142,7 +142,10 @@ Windows-Nutzern empfehlen wir die Benutzung von [WinSCP](https://winscp.net). Na
 
 ### HTTP
 
-!!! warning "Dieser Abschnitt ist noch in Bearbeitung. Es tut uns leid, wir arbeiten dran! :smile: Bis es soweit ist kannst du uns via [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB) kontaktieren - vielleicht können wir dir dort helfen!"
+
+!!! info "Derzeit keine Unterstützung für HTTP-Übertragung"
+
+    Derzeit wird HTTP-Dateiübertragung nicht unterstützt und ist auch nicht auf der Roadmap der KNULLI-Entwickler. Wir freuen uns allerdings über Pull-Requests. Besuch uns gern auf [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB) um mit den Entwicklern ins Gespräch zu kommen, falls du etwas zu diesem Projekt beitragen möchtest.
 
 ### Nach der Übertragung
 
