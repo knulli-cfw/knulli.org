@@ -7,6 +7,7 @@ KNULLI is installed by downloading an image for your device, flashing it to an S
 * Download the latest version of KNULLI for your device from the [releases page](https://github.com/knulli-cfw/distribution/releases/latest).
     * You'll find download links for each device/platform we support under the "`Installation Package Downloads`" header.
     * Make sure to download the correct image for your device.  For example; if you are installing KNULLI on a [RG35XX](../devices/anbernic/rg35xx.md) you would download the `rg35xx` image.
+    * If there are multiple files download all parts 001, 002 etc.
     * If you have any questions you can check the [Device Support](../devices/index.md) section to confirm which image you should download for your specific device.
 
 !!! warning "Not supported devices."
@@ -16,6 +17,7 @@ KNULLI is installed by downloading an image for your device, flashing it to an S
 ## Step 2: Flash
 
 * First decompress the image.
+* If there are mulitple parts with .001 and 002, ensure they are all in the same folder and use [7zip](https://www.7-zip.org/) to extract the 001 file and will extract all parts. 
 * Then write the image to an SD Card using an imaging tool.
     * Common imaging tools include [Rufus](https://rufus.ie/), [Balena](https://balena.io), [Raspberry Pi Imager](https://www.raspberrypi.com/software/), and [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/).  If you're skilled with the command line, `dd` can also be used.
 
