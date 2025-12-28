@@ -21,8 +21,8 @@ RetroAchievements and Screen Scraper will work if you add your own keys prior to
 
 ## Step 2: Grab the latest source code
 ```
-git clone https://github.com/knulli-cfw/distribution distribution
-cd distribution
+git clone https://github.com/knulli-cfw/knulli-linux knulli-linux
+cd knulli-linux
 git submodule init
 git submodule update
 ```
