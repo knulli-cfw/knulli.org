@@ -4,7 +4,7 @@ where the system builds fine for one person while failing for another.
 
 ## System requirements
 - Linux Operating System capable of running docker
-- More than 100 GB of available disk space
+- More than 180 GB of available disk space
 
 ## Retro Achievements and Screen Scraper
 This build does not include the required keys for both Screen Scraper and RetroAchievements.  The image will build 
@@ -21,10 +21,10 @@ RetroAchievements and Screen Scraper will work if you add your own keys prior to
 
 ## Step 2: Grab the latest source code
 ```
-$ git clone https://github.com/knulli-cfw/distribution distribution
-$ cd distribution
-$ git submodule init
-$ git submodule update
+git clone https://github.com/knulli-cfw/knulli-linux knulli-linux
+cd knulli-linux
+git submodule init
+git submodule update
 ```
 
 ## Step 3: Setup the docker container
@@ -35,7 +35,7 @@ builds or if your are building the mainline and breaking changes have been made 
 required).
 
 ```
-$ make build-docker-image
+make build-docker-image
 ```
 
 ## Step 4: Building the target
@@ -43,11 +43,11 @@ $ make build-docker-image
 | Device                   | Build Target              |
 |--------------------------|---------------------------|
 | Anbernic RG35XX Original | ```  ``` |
-| Anbernic RG35XX 2024     | ``` $ make h700-build ``` |
-| Anbernic RG35XX Plus     | ``` $ make h700-build ``` |
-| Anbernic RG35XX SP       | ``` $ make h700-build ``` |
-| Anbernic RG35XX-H        | ``` $ make h700-build ``` |
-| Anbernic RG35XX-V        | ``` $ make h700-build ``` |
-| Anbernic RG-CubeXX   | ``` $ make h700-build ``` |
-| Trim UI Brick            | ``` $ make a133-build ``` |
-| Trim UI Smart Pro        | ``` $ make a133-build ``` |
+| Anbernic RG35XX 2024     | ``` make h700-build ``` |
+| Anbernic RG35XX Plus     | ``` make h700-build ``` |
+| Anbernic RG35XX SP       | ``` make h700-build ``` |
+| Anbernic RG35XX-H        | ``` make h700-build ``` |
+| Anbernic RG35XX-V        | ``` make h700-build ``` |
+| Anbernic RG-CubeXX   | ``` make h700-build ``` |
+| Trim UI Brick            | ``` make a133-build ``` |
+| Trim UI Smart Pro        | ``` make a133-build ``` |
