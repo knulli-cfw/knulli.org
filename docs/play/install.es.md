@@ -7,6 +7,7 @@ KNULLI se instala descargando una imagen para tu dispositivo, grabándola en una
 * Descarga la versión más reciente de KNULLI para tu dispositivo desde la [Página de Versiones](https://github.com/knulli-cfw/distribution/releases/latest).
     * Encontrarás enlaces de descarga para cada dispositivo/plataforma compatible en la sección `Installation Package Downloads`.
     * Asegúrate de descargar la imagen correcta para tu dispositivo. Por ejemplo, si estás instalando KNULLI en una [RG35XX](../devices/anbernic/rg35xx.md), deberías descargar la imagen `rg35xx`.
+    * Si hay varios archivos, descarga todas las partes 001, 002, etc.
     * Si tienes alguna pregunta, puedes consultar la sección de [Dispositivos](../devices/index.md) para confirmar qué imagen deberías descargar para tu dispositivo.
 
 !!! warning "Dispositivos no soportados."
@@ -16,6 +17,7 @@ KNULLI se instala descargando una imagen para tu dispositivo, grabándola en una
 ## Paso 2: Grabar
 
 * Primero descomprime la imagen.
+* Si hay varias partes con .001 y 002, asegúrate de que estén todas en la misma carpeta y usa [7zip](https://www.7-zip.org/) para extraer el archivo 001 y extraerá todas las partes.
 * Luego, grábala en una tarjeta SD con una herramienta de imágenes.
     * Algunas herramientas comunes para grabar imágenes son [Rufus](https://rufus.ie/), [Balena](https://balena.io), [Raspberry Pi Imager](https://www.raspberrypi.com/software/) y [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/). Si tienes experiencia con la línea de comandos, también puedes usar `dd`.
 
