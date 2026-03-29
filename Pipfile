@@ -4,12 +4,18 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-
-[dev-packages]
-mkdocs-static-i18n = "*"
-mkdocs-material = "*"
+mkdocs = "==1.5.3"
+mkdocs-material = "==9.5.3"
 mkdocs-glightbox = "*"
 mkdocs-macros-plugin = "*"
+mkdocs-static-i18n = "==1.2.0"
+
+[dev-packages]
+mkdocs-static-i18n = "==1.2.0"
+mkdocs-glightbox = "*"
+mkdocs-macros-plugin = "*"
+mkdocs = "==1.5.3"
+mkdocs-material = "==9.5.3"
 
 [requires]
 python_version = "3"
