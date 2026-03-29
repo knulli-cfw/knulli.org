@@ -208,7 +208,7 @@ plugins:
                 - Quick Resume: configure/quick-resume.md
                 - Bluetooth: configure/bluetooth.md
                 - Controller: configure/controls.md
-                - Colecciones: configure/collections.md
+                - Spielesammlungen: configure/collections.md
                 - Spiele mit mehreren CDs: configure/multi-disc-games.md
                 - RGB LEDs: configure/rgb-leds.md
                 - Energieeinstellungen: configure/power-management.md
@@ -245,9 +245,9 @@ plugins:
                     - A133: guides/firmware-extraction/A133-firmware-extract.md
                     - H700: guides/firmware-extraction/h700-firmware-extract.md
             - Entwicklung:
-                - Building KNULLI With Docker: development/building-knulli-with-docker.md
+                - KNULLI mit Docker bauen: development/building-knulli-with-docker.md
             - Gemeinschaft:
-                - Contribute: community/contribute.md
+                - Unterstützen: community/contribute.md
             - Geräte: devices/index.md
         - locale: pl
           name: Polski
