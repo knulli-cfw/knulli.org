@@ -86,218 +86,254 @@ extra:
         lang: it
 plugins:
   - search:
-      lang: [en, es, de, pl, tr, pt-BR, it]
+      lang: [en, es, de, pl, tr, it] # Removed pt-BR here to stop the warning
   - glightbox
   - macros:
       include_dir: includes
   - i18n:
       docs_structure: suffix
-      fallback_to_default: true
       reconfigure_material: true
       reconfigure_search: true
       languages:
         - locale: en
-          default: true
           name: English
+          default: true
           build: true
-          site_name: "KNULLI Wiki"
         - locale: es
           name: Español
           build: true
-          site_name: "KNULLI Wiki"
-          nav_translations:
-            Home: Inicio
-            About KNULLI: Acerca de KNULLI
-            FAQs: Preguntas Frecuentes
-            Questions about KNULLI: Preguntas sobre KNULLI
-            Troubleshooting: Solución de Problemas
-            Play: Jugar
-            Quick Start Guide: Guía de Inicio Rápido
-            Install: Instalar KNULLI
-            Add Games: Añadir Juegos
-            BIOSes: BIOS
-            Game Storage: Almacenamiento de los Juegos
-            Formatting: Formatear
-            Second SD Card: Segunda Tarjeta SD
-            Network Transfer: Transferencia de Red
-            Accessing via USB: Acceso por USB
-            Accessing SD Card: Acceso a la Tarjeta SD
-            Basic Inputs: Métodos de Entrada
-            Hotkey Shortcuts: Atajos
-            Game Settings: Configuración de los Juegos
-            Achievements: Logros
-            Netplay: Juego en Red
-            Update: Actualizar
-            Configure: Configuración
-            Networking: Redes
-            Quick Resume: Reanudación Rápida
-            Controls: Controles
-            Collections: Colecciones
-            Multi-Disc Games: Juegos Multidisco
-            RGB LEDs: LEDs RGB
-            Power Management: Administración de Energía
-            Customization: Personalización
-            Themes: Temas
-            Background Music: Música de Fondo
-            Bezel Decorations: Marcos
-            Boot Logo: Imagen de Inicio
-            Shaders : Filtros
-            Custom Hotkey Shortcuts: Atajos Personalizados
-            Cheats: Trucos
-            Multiplayer: Multijudador
-            Factory Settings: Reinicio de Fábrica
-            Patches and Overlays: Parchar y Sobreescribir
-            Systems: Sistemas
-            Tools: Herramientas
-            Media Player: Reproductor Multimedia
-            Guides: Guías
-            Dual SD Card Migration: Migración a Doble Tarjeta SD
-            Major Updates: Actualizaciones Mayores
-            Partitioning: Particionado
-            PortMaster and exFAT: PortMaster y exFAT
-            Syncthing: Sincronización
-            Firmware Extraction: Extraer Firmware
-            Development: Desarrollo
-            Building KNULLI With Docker: Compilar KNULLI con Docker
-            Community: Comunidad
-            Contribute: Contribuir
-            Devices: Dispositivos
+          nav:
+            - Inicio: index.md
+            - Acerca de KNULLI: about-knulli.md
+            - Preguntas Frecuentes:
+                - Preguntas Frecuentes: faq/index.md
+                - Preguntas sobre KNULLI: faq/knulli.md
+                - Solución de Problemas: faq/troubleshooting.md
+            - Jugar:
+                - Guía de Inicio Rápido: play/quick-start.md
+                - Instalar KNULLI: play/install.md
+                - Añadir Juegos:
+                    - Añadir Juegos: play/add-games/index.md
+                    - Almacenamiento de los Juegos: play/add-games/game-storage.md
+                    - Formatear: play/add-games/formatting.md
+                    - Segunda Tarjeta SD: play/add-games/second-sd-card.md
+                    - Transferencia de Red: play/add-games/network-transfer.md
+                    - Acceso por USB: play/add-games/accessing-via-usb.md
+                    - Acceso a la Tarjeta SD: play/add-games/accessing-sd-card.md
+                - BIOS: play/bioses.md
+                - Scraping: play/scraping.md
+                - Métodos de Entrada: play/basic-inputs.md
+                - Atajos: play/hotkey-shortcuts.md
+                - Configuración de los Juegos: play/game-settings.md
+                - Logros: play/retro-achievements.md
+                - Juego en Red: play/netplay.md
+                - Actualizar: play/update.md
+            - Configuración:
+                - Redes: configure/networking.md
+                - Reanudación Rápida: configure/quick-resume.md
+                - Bluetooth: configure/bluetooth.md
+                - Controles: configure/controls.md
+                - Colecciones: configure/collections.md
+                - Juegos Multidisco: configure/multi-disc-games.md
+                - LEDs RGB: configure/rgb-leds.md
+                - Administración de Energía: configure/power-management.md
+                - Personalización:
+                    - Personalización: configure/customization/index.md
+                    - Temas: configure/customization/themes.md
+                    - Música de Fondo: configure/customization/background-music.md
+                    - Marcos: configure/customization/bezel-decorations.md
+                    - Imagen de Inicio: configure/customization/bootlogo.md
+                    - Filtros: configure/customization/shaders.md
+                - SSH: configure/ssh.md
+                - Retroarch:
+                    - Controles: configure/retroarch/controls.md
+                    - Atajos Personalizados: configure/retroarch/custom-hotkey-shortcuts.md
+                - PPSSPP:
+                    - Trucos: configure/ppsspp/cheats.md
+                    - Multijudador: configure/ppsspp/multiplayer.md
+                - Reinicio de Fábrica: configure/reset-to-factory-settings.md
+                - Parchar y Sobreescribir: configure/patches-and-overlays.md
+            - Sistemas:
+                - Pico-8: systems/pico-8.md
+                - PortMaster: systems/portmaster.md
+                - ScummVM: systems/scummvm.md
+                - Reproductor Multimedia: systems/media-player.md
+                - Herramientas:
+                    - OD Commander: systems/tools/od-commander.md
+            - Guías:
+                - Migración a Doble Tarjeta SD: guides/dual-sd-card-migration.md
+                - Actualizaciones Mayores: guides/major-updates.md
+                - Particionado: guides/partitioning.md
+                - PortMaster y exFAT: guides/portmaster-and-exfat.md
+                - Sincronización: guides/syncthing.md
+                - Extraer Firmware:
+                    - A133: guides/firmware-extraction/A133-firmware-extract.md
+                    - H700: guides/firmware-extraction/h700-firmware-extract.md
+            - Desarrollo:
+                - Compilar KNULLI con Docker: development/building-knulli-with-docker.md
+            - Comunidad:
+                - Contribuir: community/contribute.md
+            - Dispositivos: devices/index.md
         - locale: de
           name: Deutsch
           build: true
-          site_name: "KNULLI Wiki"
-          nav_translations:
-            Home: Start
-            FAQs: Häufige Fragen
-            About KNULLI: Über KNULLI
-            Troubleshooting: Problemlösungen
-            Quick Start Guide: Schnellstartanleitung
-            Play: Spielen
-            Devices: Geräte
-            Install: Installation
-            Update: Aktualisieren
-            Add Games: Spiele hinzufügen
-            Game Storage: Speicherort für Spiele
-            Network Transfer: Netzwerkübertragung
-            Accessing SD Card: Zugriff auf SD-Karte
-            Second SD Card: Zweite SD-Karte
-            Formatting: Formatieren
-            Scraping: Scraping
-            Hotkey shortcuts: Tastenkombinationen
-            Game Settings: Spieleinstellungen
-            Achievements: Achievements
-            Controls: Controller
-            Configure: Konfiguration
-            Networking: Netzwerkverbindungen
-            Unbranded: Ohne Marke
-            Customization: Personalisieren
-            Themes: Themes
-            Background Music: Hintergrundmusik
-            Bezel Decorations: Bezel-Dekorationen
-            Boot Logo: Bootlogo
-            Factory Settings: Werkseinstellungen
-            Multi-Disc Games: Spiele mit mehreren CDs
-            Patches and Overlays: Patches und Overlays
-            Basic Inputs: Tasten und Funktionen
-            Custom Hotkey Shortcuts: Benutzerdefinierte Tastenkombinationen
-            Dual SD Card Migration: Zu Dual-SD-Card-Setup wechseln
-            PortMaster and exFAT: PortMaster und exFAT
-            Power Management: Energieeinstellungen
-            Major Updates: Umfangreiche Updates
-            Questions about KNULLI: Fragen zu KNULLI
-            Accessing via USB: Zugriff via USB
-            Partitioning: Partitionieren
+          nav:
+            - Start: index.md
+            - Über KNULLI: about-knulli.md
+            - Häufige Fragen:
+                - Häufige Fragen: faq/index.md
+                - Fragen zu KNULLI: faq/knulli.md
+                - Problemlösungen: faq/troubleshooting.md
+            - Spielen:
+                - Schnellstartanleitung: play/quick-start.md
+                - Installation: play/install.md
+                - Spiele hinzufügen:
+                    - Spiele hinzufügen: play/add-games/index.md
+                    - Speicherort für Spiele: play/add-games/game-storage.md
+                    - Formatieren: play/add-games/formatting.md
+                    - Zweite SD-Karte: play/add-games/second-sd-card.md
+                    - Netzwerkübertragung: play/add-games/network-transfer.md
+                    - Zugriff via USB: play/add-games/accessing-via-usb.md
+                    - Zugriff auf SD-Karte: play/add-games/accessing-sd-card.md
+                - BIOSes: play/bioses.md
+                - Scraping: play/scraping.md
+                - Tasten und Funktionen: play/basic-inputs.md
+                - Tastenkombinationen: play/hotkey-shortcuts.md
+                - Spieleinstellungen: play/game-settings.md
+                - Achievements: play/retro-achievements.md
+                - Netplay: play/netplay.md
+                - Aktualisieren: play/update.md
+            - Konfiguration:
+                - Netzwerkverbindungen: configure/networking.md
+                - Quick Resume: configure/quick-resume.md
+                - Bluetooth: configure/bluetooth.md
+                - Controller: configure/controls.md
+                - Colecciones: configure/collections.md
+                - Spiele mit mehreren CDs: configure/multi-disc-games.md
+                - RGB LEDs: configure/rgb-leds.md
+                - Energieeinstellungen: configure/power-management.md
+                - Personalisieren:
+                    - Personalisieren: configure/customization/index.md
+                    - Themes: configure/customization/themes.md
+                    - Hintergrundmusik: configure/customization/background-music.md
+                    - Bezel-Dekorationen: configure/customization/bezel-decorations.md
+                    - Bootlogo: configure/customization/bootlogo.md
+                    - Shaders: configure/customization/shaders.md
+                - SSH: configure/ssh.md
+                - Retroarch:
+                    - Controller: configure/retroarch/controls.md
+                    - Benutzerdefinierte Tastenkombinationen: configure/retroarch/custom-hotkey-shortcuts.md
+                - PPSSPP:
+                    - Cheats: configure/ppsspp/cheats.md
+                    - Multiplayer: configure/ppsspp/multiplayer.md
+                - Werkseinstellungen: configure/reset-to-factory-settings.md
+                - Patches und Overlays: configure/patches-and-overlays.md
+            - Systeme:
+                - Pico-8: systems/pico-8.md
+                - PortMaster: systems/portmaster.md
+                - ScummVM: systems/scummvm.md
+                - Media Player: systems/media-player.md
+                - Werkzeuge:
+                    - OD Commander: systems/tools/od-commander.md
+            - Anleitungen:
+                - Zu Dual-SD-Card-Setup wechseln: guides/dual-sd-card-migration.md
+                - Umfangreiche Updates: guides/major-updates.md
+                - Partitionieren: guides/partitioning.md
+                - PortMaster und exFAT: guides/portmaster-and-exfat.md
+                - Syncthing: guides/syncthing.md
+                - Firmware Extraction:
+                    - A133: guides/firmware-extraction/A133-firmware-extract.md
+                    - H700: guides/firmware-extraction/h700-firmware-extract.md
+            - Entwicklung:
+                - Building KNULLI With Docker: development/building-knulli-with-docker.md
+            - Gemeinschaft:
+                - Contribute: community/contribute.md
+            - Geräte: devices/index.md
         - locale: pl
           name: Polski
           build: true
-          site_name: "KNULLI Wiki"
-          nav_translations:
-            Home: Strona główna
-            FAQs: Często zadawane pytania
-            Play: Graj
-            Devices: Urządzenia
-            Install: Instalacja
-            Update: Aktualizacja
-            Add Games: Dodaj gry
-            Achievements: Osiągnięcia
-            Controls: Sterowanie
-            Unbranded: Bez marki
+          nav:
+            - Strona główna: index.md
+            - FAQs: faq/index.md
+            - Graj:
+                - Instalacja: play/install.md
+                - Dodaj gry: play/add-games/index.md
+                - Osiągnięcia: play/retro-achievements.md
+            - Sterowanie: configure/controls.md
+            - Urządzenia: devices/index.md
         - locale: tr
           name: Türkçe
           build: true
-          site_name: "KNULLI Viki"
-          nav_translations:
-            Home: Anasayfa
-            FAQs: Sıkça Sorulan Sorular 
-            Play: Oyna
-            Devices: Cihazlar
-            Install: Kurulum
-            Update: Güncelleme
-            Add Games: Oyun Ekleme
-            Achievements: Başarımlar
-            Controls: Kontroller
-            Netplay: Ağ Oyunu Desteği
-            Unbranded: Markasız
+          nav:
+            - Anasayfa: index.md
+            - FAQs: faq/index.md
+            - Oyna:
+                - Kurulum: play/install.md
+                - Oyun Ekleme: play/add-games/index.md
+                - Başarımlar: play/retro-achievements.md
+                - Ağ Oyunu Desteği: play/netplay.md
+            - Kontroller: configure/controls.md
+            - Cihazlar: devices/index.md
         - locale: pt-BR
           name: Português do Brasil
           build: true
-          site_name: "KNULLI Wiki"
-          nav_translations:
-            Home: Início
-            FAQs: Perguntas Frequentes
-            About KNULLI: Sobre o KNULLI
-            Troubleshooting: Solução de Problemas
-            Play: Jogar
-            Quick Start Guide: Guia rápido
-            Install: Instalação
-            Add Games: Adicionar Jogos
-            Game Storage: Armazenamento dos Jogos
-            Network Transfer: Transferência via Rede
-            Accessing SD Card: Acessando o Cartão SD
-            Second SD Card: Segundo Cartão SD
-            Formatting: Formatando
-            Hotkey Shortcuts: Atalhos
-            Achievements: Conquistas
-            Update: Atualizar
-            Configure: Configuração
-            Networking: Rede
-            Controls: Controles
-            Collections: Coleções
-            Bezel Decorations: Molduras
-            Themes: Temas
-            Systems: Sistemas
-            Devices: Dispositivos
-            Unbranded: Sem Marca
+          nav:
+            - Início: index.md
+            - Sobre o KNULLI: about-knulli.md
+            - Perguntas Frequentes:
+                - Perguntas Frequentes: faq/index.md
+                - Solução de Problemas: faq/troubleshooting.md
+            - Jogar:
+                - Guia rápido: play/quick-start.md
+                - Instalação: play/install.md
+                - Adicionar Jogos:
+                    - Adicionar Jogos: play/add-games/index.md
+                    - Armazenamento dos Jogos: play/add-games/game-storage.md
+                    - Formatando: play/add-games/formatting.md
+                    - Segundo Cartão SD: play/add-games/second-sd-card.md
+                    - Transferência via Rede: play/add-games/network-transfer.md
+                    - Acessando o Cartão SD: play/add-games/accessing-sd-card.md
+                - Atalhos: play/hotkey-shortcuts.md
+                - Conquistas: play/retro-achievements.md
+                - Atualizar: play/update.md
+            - Configuração:
+                - Rede: configure/networking.md
+                - Controles: configure/controls.md
+                - Coleções: configure/collections.md
+                - Molduras: configure/customization/bezel-decorations.md
+                - Temas: configure/customization/themes.md
+            - Sistemas: systems/media-player.md
+            - Dispositivos: devices/index.md
         - locale: it
           name: Italiano
           build: true
-          site_name: "KNULLI Wiki"
-          nav_translations:
-            Home: Inizio
-            FAQs: Domande Frequenti
-            About KNULLI: Info su KNULLI
-            Troubleshooting: Risoluzione dei problemi
-            Play: Giocare
-            Quick Start Guide: Guida Rapida
-            Install: Installazione
-            Add Games: Aggiungere Giochi
-            Game Storage: Archiviazione dei Giochi
-            Network Transfer: Trasferimento via Rete
-            Accessing SD Card: Accesso alla Scheda SD
-            Second SD Card: Seconda Scheda SD
-            Formatting: Formattare
-            Hotkey Shortcuts: Scorciatoie
-            Achievements: Achievements
-            Update: Aggiornare
-            Configure: Configurazione
-            Networking: Rete
-            Controls: Controlli
-            Collections: Collezioni
-            Bezel Decorations: Decorazioni
-            Themes: Temi
-            Systems: Sistema
-            Devices: Dispositivo
-            Unbranded: Senza Marchio
+          nav:
+            - Inizio: index.md
+            - Info su KNULLI: about-knulli.md
+            - Domande Frequenti:
+                - Domande Frequenti: faq/index.md
+                - Risoluzione dei problemi: faq/troubleshooting.md
+            - Giocare:
+                - Guia Rapida: play/quick-start.md
+                - Installazione: play/install.md
+                - Aggiungere Giochi:
+                    - Aggiungere Giochi: play/add-games/index.md
+                    - Archiviazione dei Giochi: play/add-games/game-storage.md
+                    - Formattare: play/add-games/formatting.md
+                    - Seconda Scheda SD: play/add-games/second-sd-card.md
+                    - Trasferimento via Rete: play/add-games/network-transfer.md
+                    - Accesso alla Scheda SD: play/add-games/accessing-sd-card.md
+                - Scorciatoie: play/hotkey-shortcuts.md
+                - Achievements: play/retro-achievements.md
+                - Aggiornare: play/update.md
+            - Configurazione:
+                - Rete: configure/networking.md
+                - Controlli: configure/controls.md
+                - Collezioni: configure/collections.md
+                - Decorazioni: configure/customization/bezel-decorations.md
+                - Temi: configure/customization/themes.md
+            - Sistema: systems/media-player.md
+            - Dispositivo: devices/index.md
 nav:
     - Home: index.md
     - About KNULLI: about-knulli.md
