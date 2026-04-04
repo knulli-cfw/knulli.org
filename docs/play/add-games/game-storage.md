@@ -42,7 +42,7 @@ Inside the `/userdata` folder, you will find subfolders where you can store your
     * `/theme-customizations` is the folder where your theme customizations will be stored.
     * `/themes` is the folder where your themes will be stored.
 
-!!! info "Folders for your rooms"
+!!! info "Folders for your roms"
 
     KNULLI only scans for games in the subfolders of the `roms` folder. Games which are stored anywhere else will not be recognized as such. If you are unsure, which folder to choose for your games, we strongly suggest to have a look into the [Batocera Wiki](https://wiki.batocera.org/systems)!
 
