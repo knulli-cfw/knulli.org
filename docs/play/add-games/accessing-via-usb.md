@@ -26,7 +26,7 @@ KNULLI supports USB transfer via **ADB**. To change USB mode,
 
 ## ADB (Android Debug Bridge)
 
-If [network transfer](../network-transfer) is not an option for you, but you still want to rely on the ext4 file system, you can set up Android Debug Bridge (ADB) to access your KNULLI device via USB connection. However, this is a bit more challenging than going through MTP as you need third-party software to establish the ADB connection.
+If [network transfer](./network-transfer.md) is not an option for you, but you still want to rely on the ext4 file system, you can set up Android Debug Bridge (ADB) to access your KNULLI device via USB connection. However, this is a bit more challenging than going through MTP as you need third-party software to establish the ADB connection.
 
 ### Install ADB
 
@@ -66,7 +66,7 @@ Before you start adding or removing files, take a moment to understand how to na
 
 * Click *Nexus 4* to expand and then *Browse*.
 * In the next menu, make sure to double-click *Root*, which will take you to the root folder of your KNULLI device.
-* From here, scroll down and double-click `userdata` to enter your [userdata folder](../game-storage).
+* From here, scroll down and double-click `userdata` to enter your [userdata folder](./game-storage.md).
 * You can use the *Up* symbol or the *Back* arrow in the address bar to return to the previous folder.
 
 <table>

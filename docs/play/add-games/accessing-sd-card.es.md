@@ -2,7 +2,7 @@
 
 Dependiendo del formato de tu partición *SHARE* (o de tu segunda tarjeta SD), las opciones para acceder directamente a la tarjeta SD son muy diferentes. Esta sección te ofrece una descripción general de las opciones disponibles.
 
-Si no estás satisfecho con tu formato actual, siempre puedes usar el formateador integrado de KNULLI para cambiar el formato del almacenamiento de tus datos. Ten en cuenta que **todo el contenido de tu almacenamiento de datos se perderá** si decides formatear. Puedes obtener más información sobre el formateo en la sección [Formatear](../formatting).
+Si no estás satisfecho con tu formato actual, siempre puedes usar el formateador integrado de KNULLI para cambiar el formato del almacenamiento de tus datos. Ten en cuenta que **todo el contenido de tu almacenamiento de datos se perderá** si decides formatear. Puedes obtener más información sobre el formateo en la sección [Formatear](./formatting.md).
 
 ## Acceder a una Tarjeta SD Formateada en exFAT
 
@@ -18,7 +18,7 @@ Si tienes acceso a una computadora con Linux, podrás acceder a la partición *S
 
 !!! warning "Posible problema con el acceso directo desde Linux."
 
-    Algunos usuarios han reportado problemas con sus tarjetas SD después de acceder a ellas desde Linux. Te sugerimos evitar el acceso desde Linux por ahora y, si es posible, probar la [**Transferencia de Red**](../network-transfer).
+    Algunos usuarios han reportado problemas con sus tarjetas SD después de acceder a ellas desde Linux. Te sugerimos evitar el acceso desde Linux por ahora y, si es posible, probar la [**Transferencia de Red**](./network-transfer.md).
 
 ### Opción 2: Software de terceros
 

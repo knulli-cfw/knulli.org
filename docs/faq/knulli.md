@@ -37,7 +37,7 @@ The long answer is: After we adapted Batocera to make it work on the RG35XX Plus
 
 ### Q: Where can I download the latest version?
 
-A: You will find the latest version of KNULLI on our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). Find the download for your device in the `Installation Package Downloads` section and follow the [Quick Start Guide](../../play/quick-start) to install KNULLI on your device. If your device is not listed there, please be patient - there is no public release of KNULLI for your device available, yet.
+A: You will find the latest version of KNULLI on our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). Find the download for your device in the `Installation Package Downloads` section and follow the [Quick Start Guide](../play/quick-start.md) to install KNULLI on your device. If your device is not listed there, please be patient - there is no public release of KNULLI for your device available, yet.
 
 ---
 
@@ -49,17 +49,17 @@ A: You will find a list of all currently supported devices in the `Installation 
 
 ### Q: Do I have to flash every release, or can I update?
 
-A: For most of the releases you can run a manual update as explained in the [Update](../../play/update) section.
+A: For most of the releases you can run a manual update as explained in the [Update](../play/update.md) section.
 
 ---
 
 ### Q: Do you support X device?  Will you add support for X device?
 
-A: You can find the list of currently supported devices here: [Devices](../../devices)
+A: You can find the list of currently supported devices here: [Devices](../devices/index.md)
 
 If the device you are interested in isn't in that list, then no one has contributed the work to add support for it yet.  Why? To add support for a device we (1) need to be interested in adding support for it 😊 and (2) need to have direct access to the device.
 
-That said, anyone who is interested can submit updates to KNULLI to add support for a device they care about! If you are interested in adding support for a new device, please start here: [Contribute](../../community/contribute)
+That said, anyone who is interested can submit updates to KNULLI to add support for a device they care about! If you are interested in adding support for a new device, please start here: [Contribute](../community/contribute.md)
 
 ---
 

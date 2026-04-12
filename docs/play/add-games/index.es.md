@@ -4,12 +4,12 @@ KNULLI ofrece varias opciones para añadir juegos. Dependiendo de las capacidade
 
 ## Antes de añadir juegos
 
-* [Almacenamiento de los Juegos](game-storage) - Aprende sobre la estructura de carpetas de KNULLI.
-* [Formatear](formatting) - Aprende sobre las opciones de formato.
-* [Segunda Tarjeta SD](second-sd-card) - Aprende sobre las configuraciones de tarjetas SD individuales y dobles.
+* [Almacenamiento de los Juegos](game-storage.md) - Aprende sobre la estructura de carpetas de KNULLI.
+* [Formatear](formatting.md) - Aprende sobre las opciones de formato.
+* [Segunda Tarjeta SD](second-sd-card.md) - Aprende sobre las configuraciones de tarjetas SD individuales y dobles.
 
 ## Después de configurar el almacenamiento de tus juegos
 
-* [Transferencia de Red](network-transfer) - Aprende a añadir tus juegos por Wi-Fi.
-* [Acceso por USB](accessing-via-usb) - Aprende a acceder a tu dispositivo por USB.
-* [Acceso a la Tarjeta SD](accessing-sd-card) - Aprende a acceder a tu tarjeta SD directamente desde Windows (si aplica).
+* [Transferencia de Red](network-transfer.md) - Aprende a añadir tus juegos por Wi-Fi.
+* [Acceso por USB](accessing-via-usb.md) - Aprende a acceder a tu dispositivo por USB.
+* [Acceso a la Tarjeta SD](accessing-sd-card.md) - Aprende a acceder a tu tarjeta SD directamente desde Windows (si aplica).

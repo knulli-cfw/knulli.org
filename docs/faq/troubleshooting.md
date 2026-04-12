@@ -2,13 +2,13 @@
 
 ### Q: Can I use a second SD card for my roms/bios content?
 
-A: Yes! Have a look in the [Second SD Card](../../play/add-games/second-sd-card) section!
+A: Yes! Have a look in the [Second SD Card](../play/add-games/second-sd-card.md) section!
 
 ---
 
 ### Q: I would like to try muOS and KNULLI - is it possible to have the same second SD card for both CFWs to share my games between them?
 
-A: KNULLI requires all the ROMs to be in the respective subfolders of the emulated system, e.g., `roms/snes` for SNES ROMs. If you populate your SD card the KNULLI way (see [Add Games](../../play/add-games) section for details), it will be possible to configure your muOS to take the ROMs from these folders, which will enable you to use the same second SD card for your ROMs in both CFWs.
+A: KNULLI requires all the ROMs to be in the respective subfolders of the emulated system, e.g., `roms/snes` for SNES ROMs. If you populate your SD card the KNULLI way (see [Add Games](../play/add-games/index.md) section for details), it will be possible to configure your muOS to take the ROMs from these folders, which will enable you to use the same second SD card for your ROMs in both CFWs.
 
 ---
 
@@ -34,7 +34,7 @@ However, KNULLI Firefly comes with a brand new **experimental service** which mi
 
 ### Q: I've installed/updated to the latest version, and I don't have audio, my controls don't respond, or something else is not working as expected - what can I do?
 
-A: You might want to try to reset your device to **factory settings**. Please follow our guide on [Resetting to Factory Settings](../../configure/reset-to-factory-settings)
+A: You might want to try to reset your device to **factory settings**. Please follow our guide on [Resetting to Factory Settings](../configure/reset-to-factory-settings.md)
 
 ---
 
@@ -48,7 +48,7 @@ Please set up your emulators in EmulationStation. If you miss an emulator option
 
 ### Q: Why are bezel decorations not working on my KNULLI device?
 
-A: Most bezel decorations are made for screens with an aspect ratio of 16:9. Consequently, those bezels do not work on a 4:3 display (like on the Anbernic RG35XX H/Plus/SP). To get bezel decorations working, find a bezel pack for 4:3 displays. You will find a detailed explanation (and a pointer to 4:3-compatible bezels) in the [Bezel Decorations](../../configure/customization/bezel-decorations) section.
+A: Most bezel decorations are made for screens with an aspect ratio of 16:9. Consequently, those bezels do not work on a 4:3 display (like on the Anbernic RG35XX H/Plus/SP). To get bezel decorations working, find a bezel pack for 4:3 displays. You will find a detailed explanation (and a pointer to 4:3-compatible bezels) in the [Bezel Decorations](../configure/customization/bezel-decorations.md) section.
 
 ---
 

@@ -2,13 +2,13 @@
 
 ### P: ¿Puedo usar una segunda tarjeta SD para mis ROMs/BIOS?
 
-R: ¡Sí! Consulta la sección [Segunda Tarjeta SD](../../play/add-games/second-sd-card).
+R: ¡Sí! Consulta la sección [Segunda Tarjeta SD](../play/add-games/second-sd-card.md).
 
 ---
 
 ### P: Me gustaría probar muOS y KNULLI. ¿Es posible usar la misma segunda tarjeta SD para ambos firmwares personalizados y compartir mis juegos?
 
-R: KNULLI requiere que todas las ROMs estén en las subcarpetas correspondientes del sistema emulado; por ejemplo, `roms/snes` para las ROMs de SNES. Si usas tu tarjeta SD con la estructura de KNULLI (consulta la sección [Añadir Juegos](../../play/add-games) para más detalles), podrás configurar tu muOS para que tome las ROMs de estas carpetas, lo que te permitirá usar la misma segunda tarjeta SD para tus ROMs en ambos firmwares personalizados.
+R: KNULLI requiere que todas las ROMs estén en las subcarpetas correspondientes del sistema emulado; por ejemplo, `roms/snes` para las ROMs de SNES. Si usas tu tarjeta SD con la estructura de KNULLI (consulta la sección [Añadir Juegos](../play/add-games/index.md) para más detalles), podrás configurar tu muOS para que tome las ROMs de estas carpetas, lo que te permitirá usar la misma segunda tarjeta SD para tus ROMs en ambos firmwares personalizados.
 
 ---
 
@@ -34,7 +34,7 @@ Sin embargo, KNULLI Firefly incluye un nuevo **servicio experimental** que podr�
 
 ### P: He instalado o actualizado a la última versión y no tengo audio, mis controles no responden o algo no funciona correctamente. ¿Qué puedo hacer?
 
-R: Quizás quieras intentar restablecer tu dispositivo a la configuración de fábrica. Consulta nuestra guía sobre [Reinicio de Fábrica](../../configure/reset-to-factory-settings).
+R: Quizás quieras intentar restablecer tu dispositivo a la configuración de fábrica. Consulta nuestra guía sobre [Reinicio de Fábrica](../configure/reset-to-factory-settings.md).
 
 ---
 
@@ -48,7 +48,7 @@ Configura tus emuladores en EmulationStation. Si no encuentras alguna opción de
 
 ### P: ¿Por qué no funcionan los marcos en mi dispositivo con KNULLI?
 
-R: La mayoría de los marcos están diseñadas para pantallas con una relación de aspecto de 16:9. Por lo tanto, estos marcos no funcionan en una pantalla 4:3 (como la de la Anbernic RG35XX H/Plus/SP). Para que funcionen, busca un paquete de marcos para pantallas 4:3. Encontrarás una explicación detallada (y un link a marcos compatibles con 4:3) en la sección [Marcos](../../configure/customization/bezel-decorations).
+R: La mayoría de los marcos están diseñadas para pantallas con una relación de aspecto de 16:9. Por lo tanto, estos marcos no funcionan en una pantalla 4:3 (como la de la Anbernic RG35XX H/Plus/SP). Para que funcionen, busca un paquete de marcos para pantallas 4:3. Encontrarás una explicación detallada (y un link a marcos compatibles con 4:3) en la sección [Marcos](../configure/customization/bezel-decorations.md).
 
 ---
 

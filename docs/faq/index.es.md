@@ -1,4 +1,4 @@
 # :material-frequently-asked-questions: Preguntas Frecuentes
 
-* [Preguntas sobre KNULLI](knulli)
-* [Solución de Problemas](troubleshooting)
+* [Preguntas sobre KNULLI](./knulli.md)
+* [Solución de Problemas](./troubleshooting.md)

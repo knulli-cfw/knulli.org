@@ -4,7 +4,7 @@ Hi there! Welcome to KNULLI!
 
 KNULLI is a custom firmware (CFW) for retro-gaming devices. It is developed as a fork of the very well-known [Batocera](https://batocera.org/) adapted to handheld devices which are incompatible with the mainline Linux kernel or need other types of device-specific special attention.
 
-If you are new to retro-gaming: Don't be scared! The initial setup might look a little intimidating at first, but you'll get the gist of it pretty fast, our wiki will guide you through it! Just head to the [Quick Start Guide](../play/quick-start) and follow it step by step and you'll have your KNULLI installation up and running in no time!
+If you are new to retro-gaming: Don't be scared! The initial setup might look a little intimidating at first, but you'll get the gist of it pretty fast, our wiki will guide you through it! Just head to the [Quick Start Guide](./play/quick-start.md) and follow it step by step and you'll have your KNULLI installation up and running in no time!
 
 However, if you already have some experience with other CFWs, we'd like to give you a brief introduction, since KNULLI might do some things a little differently from other CFWs. So, if you want to make sure KNULLI is the right fit for you, check out the following sections:
 
@@ -23,20 +23,20 @@ Our friend [TechDweeb](https://www.youtube.com/@TechDweeb) made a very comprehen
 
 KNULLI comes with a lot of built-in features:
 
-* KNULLI comes with a ton of different emulators and ports (including PortMaster) and supports the addition of [native Pico-8](../systems/pico-8).
-* You can [scrape](../play/scraping) the metadata and media (screenshots, boxarts, videos, descriptions, etc.) directly from ScreenScraper, TheGamesDB and ArcadeDB.
-* You can collect and review your [RetroAchievements](../play/retro-achievements).
-* You can connect [Bluetooth](../configure/bluetooth) controllers and headphones if your handheld supports Bluetooth.
+* KNULLI comes with a ton of different emulators and ports (including PortMaster) and supports the addition of [native Pico-8](./systems/pico-8.md).
+* You can [scrape](./play/scraping.md) the metadata and media (screenshots, boxarts, videos, descriptions, etc.) directly from ScreenScraper, TheGamesDB and ArcadeDB.
+* You can collect and review your [RetroAchievements](./play/retro-achievements.md).
+* You can connect [Bluetooth](./configure/bluetooth.md) controllers and headphones if your handheld supports Bluetooth.
 * KNULLI supports using the HDMI output of your device (if it has one) to play your games on the big screen.
-* KNULLI allows to [add files wirelessly](../play/add-games/network-transfer) by making your userdata available via SMB (the default built-in Windows file sharing protocol).
-* KNULLI comes with a set of default [bezel decorations](../configure/customization/bezel-decorations) that you can simply switch on.
-* You can switch between a lot of different [themes](../configure/customization/themes).
-* You can organize your games in [dynamic collections](../configure/collections) which group your games automatically by certain keywords or attributes.
-* You can create [custom collections](../configure/collections) of hand-picked games, too!
+* KNULLI allows to [add files wirelessly](./play/add-games/network-transfer.md) by making your userdata available via SMB (the default built-in Windows file sharing protocol).
+* KNULLI comes with a set of default [bezel decorations](./configure/customization/bezel-decorations.md) that you can simply switch on.
+* You can switch between a lot of different [themes](./configure/customization/themes.md).
+* You can organize your games in [dynamic collections](./configure/collections.md) which group your games automatically by certain keywords or attributes.
+* You can create [custom collections](./configure/collections.md) of hand-picked games, too!
 * KNULLI comes with syncthing to synchronize your savegames and states among different KNULLI/Batocera devices.
-* If your device comes with [RGB LEDs](../configure/rgb-leds), KNULLI enables you to set them up and even use them as battery indicators.
-* Expert users can access KNULLI via [SSH](../configure/SSH).
-* KNULLI allows to either go on standby or shutdown gracefully when [closing the lid](../configure/power-management) of a clamshell device.
+* If your device comes with [RGB LEDs](./configure/rgb-leds.md), KNULLI enables you to set them up and even use them as battery indicators.
+* Expert users can access KNULLI via [SSH](./configure/ssh.md).
+* KNULLI allows to either go on standby or shutdown gracefully when [closing the lid](./configure/power-management.md) of a clamshell device.
 
 ## Set up your emulators via EmulationStation
 
@@ -44,7 +44,7 @@ The frontend of KNULLI is called EmulationStation. It is a very comprehensive GU
 
 Other CFWs expect you to set up the emulators via each emulator's own GUI (which is **RetroArch** in most cases). However, KNULLI encourages you **not** to rely on the RetroArch GUI **at all**. KNULLI will **generate** the emulator configuration for each game individually on launch, based on the settings you set up in EmulationStation.
 
-Expert users will still be able to access the RetroArch GUI while running a game. [**Overrides**](../configure/retroarch/shaders) and [**remap**](../configure/retroarch/controls) files can be used either **per game** or **per system** to make manual adjustments directly in the RetroArch GUI. However, one of the core features of KNULLI is to aggregate emulation settings into EmulationStation to make messing around with individual emulator GUIs obsolete.
+Expert users will still be able to access the RetroArch GUI while running a game. [**Overrides**](./configure/customization/shaders.md) and [**remap**](./configure/retroarch/controls.md) files can be used either **per game** or **per system** to make manual adjustments directly in the RetroArch GUI. However, one of the core features of KNULLI is to aggregate emulation settings into EmulationStation to make messing around with individual emulator GUIs obsolete.
 
 ## Strict folder structure
 

@@ -19,17 +19,17 @@ Encontrarás una lista completa de todas las nuevas características, correccion
 ### Nuevas características de KNULLI Gladiator II
 
 - **Soporte agregado** para Anbernic RG34XX SP, RG35XX Pro y Powkiddy V90S, V20.
-- **[Actualizaciones OTA](play/update)** a través del menú de *Actualizaciones y Descargas* que facilitarán considerablemente las futuras actualizaciones.
-- **SMB (SAMBA)** ahora es un [**servicio** que se puede activar o desactivar](play/add-games/network-transfer), aunque está **deshabilitado** por defecto.
-- Se ha añadido un interruptor para [asignar automáticamente](configure/controls) los **controles integrados** siempre al primer jugador y se han corregido problemas con la **asignación de controles USB**.
+- **[Actualizaciones OTA](./play/update.md)** a través del menú de *Actualizaciones y Descargas* que facilitarán considerablemente las futuras actualizaciones.
+- **SMB (SAMBA)** ahora es un [**servicio** que se puede activar o desactivar](./play/add-games/network-transfer.md), aunque está **deshabilitado** por defecto.
+- Se ha añadido un interruptor para [asignar automáticamente](./configure/controls.md) los **controles integrados** siempre al primer jugador y se han corregido problemas con la **asignación de controles USB**.
 - Se han corregido problemas con los **emuladores independientes de Dreamcast/PSP** en dispositivos **A133** (TrimUI Brick, TrimUI Smart Pro).
 - Los marcos:
     - Se **activan automáticamente** cuando *Configurar Decoración* está configurado en *Auto*.
     - Ahora son compatibles con emuladores **independientes** en dispositivos **H700** (Anbernic serie RG XX).
     - Ahora incluyen un conjunto *Default-Knulli-SP* específico para **GBA** para ofrecer una experiencia **SP** en pantallas con formato clamshell 4:3.
 - Una herramienta **Disk Check** para verificar la integridad de tu tarjeta SD. Se agregó a *Ajustes del sistema* → *Opciones de Desarrollador*.
-- El [atajo](play/hotkey-shortcuts) **Reinicio Suave** se puede usar para forzar el reinicio de EmulationStation.
-- Ahora es posible hacer un **[Reinicio de Fábrica](configure/reset-to-factory-settings)** en el dispositivo a través de EmulationStation.
+- El [atajo](./play/hotkey-shortcuts.md) **Reinicio Suave** se puede usar para forzar el reinicio de EmulationStation.
+- Ahora es posible hacer un **[Reinicio de Fábrica](./configure/reset-to-factory-settings.md)** en el dispositivo a través de EmulationStation.
 - Numerosas **correcciones de errores** y **mejoras** a la estabilidad del sistema, el rendimiento y la duración de la batería.
 
 !!! warning "Actualización Mayor."
@@ -38,9 +38,9 @@ Encontrarás una lista completa de todas las nuevas características, correccion
 
     Si **actualizas** desde **Gladiator** a **Gladiator II**, puedes conservar tu carpeta de `system` y mantener todas tus configuraciones previas. No habrá problemas de compatibilidad entre estas dos versiones.
     
-    En cualquier otro caso, **recomendamos fuertemente** comenzar desde cero con una instalación nueva. Sin embargo, si deseas intentar migrar tus datos de usuario de una instalación anterior a la nueva, consulta la guía de [Actualizaciones Mayores](guides/major-updates).
+    En cualquier otro caso, **recomendamos fuertemente** comenzar desde cero con una instalación nueva. Sin embargo, si deseas intentar migrar tus datos de usuario de una instalación anterior a la nueva, consulta la guía de [Actualizaciones Mayores](./guides/major-updates.md).
 
-Si eres **nuevo en KNULLI** y quieres comenzar: Consulta la [Guía de Inicio Rápido](play/quick-start) en nuestro sitio web, te guiará durante la instalación y los primeros pasos.
+Si eres **nuevo en KNULLI** y quieres comenzar: Consulta la [Guía de Inicio Rápido](./play/quick-start.md) en nuestro sitio web, te guiará durante la instalación y los primeros pasos.
 
 En cualquier caso: ¡Esperamos que disfrutes jugando tus juegos con KNULLI!
 

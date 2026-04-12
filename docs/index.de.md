@@ -19,17 +19,17 @@ Eine vollständige Liste aller neuen Features, Bugfixes und Änderungen findest 
 ### Neue Features von KNULLI Gladiator II
 
 - **Geräteunterstützung** für Anbernic RG34XX SP, RG35XX Pro und Powkiddy V90S, V20
-- **[Over-the-air-Updates](play/update)** über das Menü *Updates & Downloads* werden zukünftige Updates deutlich vereinfachen
-- **SMB (SAMBA)** ist jetzt ein [**Service**, den du ein- und ausschalten kannst](play/add-games/network-transfer) und der standardmäßig **deaktiviert** ist
-- Ein Schalter um das **eingebaute "Gamepad"** bei der [automatischen Zuweisung](configure/controls) immer Spieler 1 zuzuordnen sowie ein paar Fehlerbehandlungen bei der automatischen Zuweisung von **USB-Controllern**
+- **[Over-the-air-Updates](./play/update.md)** über das Menü *Updates & Downloads* werden zukünftige Updates deutlich vereinfachen
+- **SMB (SAMBA)** ist jetzt ein [**Service**, den du ein- und ausschalten kannst](./play/add-games/network-transfer.md) und der standardmäßig **deaktiviert** ist
+- Ein Schalter um das **eingebaute "Gamepad"** bei der [automatischen Zuweisung](./configure/controls.md) immer Spieler 1 zuzuordnen sowie ein paar Fehlerbehandlungen bei der automatischen Zuweisung von **USB-Controllern**
 - Fehlerbehebung bzgl. **Standalone-Emulatoren für Dreamcast/PSP** auf **A133**-Geräten (TrimUI Brick, TrimUI Smart Pro)
 - Bezel-Dekorationen
     - sind jetzt **automatisch aktiviert** when als *Decoration Set* der Wert *Auto* ausgewählt ist
     - werden jetzt auf den *H700*-Geräten (Anbernic RG-XX-Serie) auch bei **Standalone-Emulatoren** angewandt
     - enthalten jetzt ein zusätzliches Set *Default-Knulli-SP*, das speziell für das **GBA**-System angelegt wurde und **SP**-Vibes auf Clamshell-Geräten mit 4:3-Bildschirmen versprüht
 - Ein **Disk-Check**-Werkzeug wurde unter *System Settings* → *Frontend Developer Options* hinzugefügt, um die Integrität deiner SD-Karten zu überprüfen
-- **Soft Reset** ist ein neuer [Hotkey-Shortcut](play/hotkey-shortcuts), mit dem ein Neustart von EmulationStation erzwungen werden kann
-- Du kannst dein Gerät jetzt direkt über EmulationStation **[auf Werkseinstellungen zurücksetzen](configure/reset-to-factory-settings)**
+- **Soft Reset** ist ein neuer [Hotkey-Shortcut](./play/hotkey-shortcuts.md), mit dem ein Neustart von EmulationStation erzwungen werden kann
+- Du kannst dein Gerät jetzt direkt über EmulationStation **[auf Werkseinstellungen zurücksetzen](./configure/reset-to-factory-settings.md)**
 - Ein großer Haufen weiterer **Bugfixes** und **Verbesserungen** der Systemstabilität, Performance, und Akkulaufzeit
 
 !!! warning "Major Update"
@@ -38,9 +38,9 @@ Eine vollständige Liste aller neuen Features, Bugfixes und Änderungen findest 
 
     Falls du ein Update von **Gladiator** zu **Gladiator II** durchführst, kannst du in diesem Fall deinen `system`-Ordner behalten, da es zwischen den Versionen keine Kompatibilitätsprobleme geben sollte.
 
-    Jedem anderen **raten wir eindringlich dazu**, eine komplett neue Installation von KNULLI aufzusetzen. Wenn du allerdings unbedingt versuchen möchtest, deine Benutzerdaten einer vorherigen Installation zu übernehmen, wirf bitte einen Blick in den Abschnitt [Major Updates](guides/major-updates).
+    Jedem anderen **raten wir eindringlich dazu**, eine komplett neue Installation von KNULLI aufzusetzen. Wenn du allerdings unbedingt versuchen möchtest, deine Benutzerdaten einer vorherigen Installation zu übernehmen, wirf bitte einen Blick in den Abschnitt [Major Updates](./guides/major-updates.md).
 
-Falls du KNULLI noch nicht kennst und **neu installieren** möchtest: Unser [Quick Start Guide](play/quick-start) wird dich durch die Installation und die ersten Schritte mit KNULLI begleiten.
+Falls du KNULLI noch nicht kennst und **neu installieren** möchtest: Unser [Quick Start Guide](./play/quick-start.md) wird dich durch die Installation und die ersten Schritte mit KNULLI begleiten.
 
 In jedem Fall wünschen wir dir viel Spaß beim Spielen mit KNULLI!
 

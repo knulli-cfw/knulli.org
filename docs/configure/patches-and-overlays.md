@@ -4,11 +4,11 @@
 
     This section deals with adding **patches** to your KNULLI installation **manually**. This is **not** a guide for **regular updates**. Please be absolutely aware that this guide is just a kick-off guide for **advanced users** who want to learn more about Linux and apply manual changes to their KNULLI installation.
     
-    If you are looking for information on how to update your KNULLI device regularly, please head to the [Update](../../play/update) section instead!
+    If you are looking for information on how to update your KNULLI device regularly, please head to the [Update](../play/update.md) section instead!
 
 !!! warning "SSH network access to your device is mandatory"
 
-    Before reading any further, be aware that it is **mandatory** to be able to access a command line on your KNULLI device via **SSH** to **install patches** and **create overlays**. Consequently, you will **not** be able to do either unless your device is connected to your Wi-Fi (as explained in the [Networking](../networking) section) and you have prepared SSH access to your device (as explained in the [SSH](../ssh) section).
+    Before reading any further, be aware that it is **mandatory** to be able to access a command line on your KNULLI device via **SSH** to **install patches** and **create overlays**. Consequently, you will **not** be able to do either unless your device is connected to your Wi-Fi (as explained in the [Networking](./networking.md) section) and you have prepared SSH access to your device (as explained in the [SSH](./ssh.md) section).
 
 This section covers details about installing **patches** and persisting changes to the operating system in an **overlay**. As a **regular KNULLI user**, you probably do **not** need to know any of this. This entire section is written for two groups of users:
 
@@ -43,12 +43,12 @@ For example, on your KNULLI device, your games are stored in
 
 KNULLI is a Linux, so it uses a Linux file system. The entire KNULLI system is stored in a **read-only** SquashFS. (You can learn more about SquashFS on [Wikipedia](https://en.wikipedia.org/wiki/SquashFS).) The **only exception** is a **writable** folder called `/userdata`.
 
-During boot, KNULLI uses the `mount` command to make the folder `/userdata` point to a **writable** drive. By switching between **internal** and **external** storage (as explained in the [Second SD Card](../../play/add-games/second-sd-card) section), you tell KNULLI which **drive** to mount as `/userdata` during boot:
+During boot, KNULLI uses the `mount` command to make the folder `/userdata` point to a **writable** drive. By switching between **internal** and **external** storage (as explained in the [Second SD Card](../play/add-games/second-sd-card.md) section), you tell KNULLI which **drive** to mount as `/userdata` during boot:
 
 * If you use a **single SD card** setup (**internal** storage), KNULLI mounts the `SHARE` partition of **SD 1**.
 * If you use a **dual SD card** setup (**external** storage), KNULLI mounts the main partition of **SD 2**.
 
-When accessing your KNULLI device via Windows/SMB network transfer (as explained in the [Network Transfer](../../play/add-games/network-transfer) section), you will access a network drive called `share` that corresponds **exactly** to your **current** `/userdata` folder. The SMB address
+When accessing your KNULLI device via Windows/SMB network transfer (as explained in the [Network Transfer](../play/add-games/network-transfer.md) section), you will access a network drive called `share` that corresponds **exactly** to your **current** `/userdata` folder. The SMB address
 
 ```
 \\KNULLI\share
@@ -62,7 +62,7 @@ points to the exact same place as the absolute path
 
 on your KNULLI device.
 
-The [Game Storage](../../play/add-games/game-storage) section covers in great detail how to use the **writable** part of your device to add games, BIOS files, bezel decorations, etc. However, when you want to install **patches**, you want to modify files **outside** of the writable `/userdata` folder - that is, where the **overlay** comes into play.
+The [Game Storage](../play/add-games/game-storage.md) section covers in great detail how to use the **writable** part of your device to add games, BIOS files, bezel decorations, etc. However, when you want to install **patches**, you want to modify files **outside** of the writable `/userdata` folder - that is, where the **overlay** comes into play.
 
 #### Many ways lead to Rome
 
@@ -112,7 +112,7 @@ point **to the exact same file**, too.
 
 Since everything outside of the `/userdata` folder of your KNULLI installation is **read-only** by definition, you will need to create an **overlay** to make **permanent** changes to your KNULLI installation. Otherwise, all changes will simply be undone after every reboot of your system.
 
-Your primary SD card (SD1) has a drive called `BATOCERA`, which is formatted to **FAT32** and can be accessed easily from Windows, Linux, and MacOS. On that drive, you will find a folder called `boot` which contains a **file** called `batocera` - that file contains the **majority of your KNULLI installation**. (This is why you can manually update your KNULLI installation by simply replacing this file, as explained in the [Update](../../play/update) section.)
+Your primary SD card (SD1) has a drive called `BATOCERA`, which is formatted to **FAT32** and can be accessed easily from Windows, Linux, and MacOS. On that drive, you will find a folder called `boot` which contains a **file** called `batocera` - that file contains the **majority of your KNULLI installation**. (This is why you can manually update your KNULLI installation by simply replacing this file, as explained in the [Update](../play/update.md) section.)
 
 The **overlay** is **another** file that is just called `overlay` and resides in the same folder. The overlay is **optional** - usually, users do **not** have an overlay in place. The **overlay file** contains **changes** you made to the KNULLI installation, which will be applied **during boot**.
 
@@ -146,10 +146,10 @@ Some developers **simplify** this process for you, by providing a **patch instal
 There are several options to put files in the right places **outside** of the `/userdata` folder.
 
 * Some patches come with a **patch installer** which moves the file for you. In this case, simply store the **patch installer** and all patch files in your `/userdata` folder according to the specifications made by the developer.
-* You can use SCP/FTP to access the entire KNULLI file system. You will find a subsection on how to use SCP/FTP in the [Network Transfer](../../play/add-games/network-transfer) section. This approach allows to put the files **directly** to their **final destination**.
+* You can use SCP/FTP to access the entire KNULLI file system. You will find a subsection on how to use SCP/FTP in the [Network Transfer](../play/add-games/network-transfer.md) section. This approach allows to put the files **directly** to their **final destination**.
 * You can copy the files to your `/userdata` folder by the same method you add your games and BIOS files. Afterwards, you can move the files **from** their location inside `/userdata` **to** their **final destination**
     * **either** by using the *OD-Commander* tool you will find in the *Ports* category of your KNULLI device
-    * **or** by connecting via SSH (as explained in the [SSH](../ssh) section) and copying/moving the files via `cp`/`mv` on the command line, e.g.,
+    * **or** by connecting via SSH (as explained in the [SSH](./ssh.md) section) and copying/moving the files via `cp`/`mv` on the command line, e.g.,
     ```
     cp /userdata/system/some-file.sh /usr/bin/some-file.sh
     ```
@@ -203,7 +203,7 @@ Again, you have several options to set the file permissions on the files of your
 
 * If using WinSCP, you can right-click a file and select *Properties*.
     * In the *Common* tab, go to the *Permissions* section and make sure all the *X*es are **checked** if the file is required to be **executable**.
-* If connected via SSH (as explained in the [SSH](../ssh) section), you can
+* If connected via SSH (as explained in the [SSH](./ssh.md) section), you can
     * use the `ls` command to check the permissions of a file, e.g.,
     ```
     ls -l /userdata/system/patch-installer.sh
@@ -220,7 +220,7 @@ Again, you have several options to set the file permissions on the files of your
 
 ### If provided: Run the patch installer
 
-If your patch came with a **patch installer** which you have made executable in the previous step, you can now **execute** the patch installer from the SSH command line. To do so, establish a SSH connection (as explained in the [SSH](../ssh) section) and launch the installer by calling the script by its name from the command line (**Mind the dot** at the beginning of the command!), e.g.,
+If your patch came with a **patch installer** which you have made executable in the previous step, you can now **execute** the patch installer from the SSH command line. To do so, establish a SSH connection (as explained in the [SSH](./ssh.md) section) and launch the installer by calling the script by its name from the command line (**Mind the dot** at the beginning of the command!), e.g.,
 ```
 ./userdata/system/patch-installer.sh
 ```
@@ -229,7 +229,7 @@ Have a close look at the output of this command, maybe copy-paste it to a text f
 
 ### If required: Create overlay manually
 
-Some **patch installers** implicitly create or update the **overlay**. However, some do not. If your patch did **not** come with a patch installer, if you want to patch in your **own modifications**, or if you are not sure whether the patch you applied created an overlay, you better do it yourself. To do so, establish a SSH connection (as explained in the [SSH](../ssh) section) and execute the following command:
+Some **patch installers** implicitly create or update the **overlay**. However, some do not. If your patch did **not** come with a patch installer, if you want to patch in your **own modifications**, or if you are not sure whether the patch you applied created an overlay, you better do it yourself. To do so, establish a SSH connection (as explained in the [SSH](./ssh.md) section) and execute the following command:
 ```
 batocera-save-overlay
 ```

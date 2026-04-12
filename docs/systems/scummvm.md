@@ -8,7 +8,7 @@ Within KNULLI, ScummVM is considered a "system" which appears on your home scree
 
     By default, the cursor of your ScummVM game can be moved with the **d-pad** and/or the **left analog stick** while ++"L1"++ and ++"R1"++ will correspond to left and right click. The ++"Start"++ button will bring up the ScummVM main menu which will allow you to save, load, and edit some settings.
     
-    KNULLI also supports connecting a mouse via Bluetooth, as explained in the [Controls](../../configure/controls) section. However, only the **libretro-integrated** variant of ScummVM currently accepts Bluetooth mouse control input.
+    KNULLI also supports connecting a mouse via Bluetooth, as explained in the [Controls](../configure/controls.md) section. However, only the **libretro-integrated** variant of ScummVM currently accepts Bluetooth mouse control input.
 
 ## Standalone and RetroArch ScummVM
 
@@ -37,7 +37,7 @@ Depending on the game, you will need some files from your original copy of the g
 
 To add a ScummVM game
 
-* Go to the `roms/scummvm` folder in your  [`userdata` folder](../../play/add-games/game-storage)
+* Go to the `roms/scummvm` folder in your  [`userdata` folder](../play/add-games/game-storage.md)
 * Create a **subfolder** for the **game** (e.g., `roms/scummvm/monkey1/`)
 * Put the game files into the newly created game folder
 
@@ -49,7 +49,7 @@ To add a ScummVM game
 
 ### Auto-detect your ScummVM games
 
-If you added the games directly to the [SD card](../../play/add-games/accessing-sd-card), put it back into the device and turn it on to boot KNULLI. If you added the games via [USB](../../play/add-games/accessing-via-usb) or [network transfer](../../play/add-games/network-transfer), simply press ++"Start"++ to bring up the main menu, go to *Game Settings* and hit *Update Gamelists*.
+If you added the games directly to the [SD card](../play/add-games/accessing-sd-card.md), put it back into the device and turn it on to boot KNULLI. If you added the games via [USB](../play/add-games/accessing-via-usb.md) or [network transfer](../play/add-games/network-transfer.md), simply press ++"Start"++ to bring up the main menu, go to *Game Settings* and hit *Update Gamelists*.
 
 In **both cases**, KNULLI will employ the ScummVM-integrated auto-detection to set up your games **automatically**. Once the update to the gamlists is done, you should find your newly added games in the *ScummVM* system/collection.
 
@@ -98,7 +98,7 @@ Press ++"Start"++ to bring up the main menu, go to *Game Settings* and pick *Upd
 
 Some of the engines provided by ScummVM support Roland MT-32 midi music. However, unlike other soundcard emulators like AdLib or CMS, Roland MT-32 music requires some additional files that need to be provided separately.
 
-If you want to use Roland MT-32 music in your ScummVM games, you will have to provide the required files yourself. Once you've sourced the files, put them in the `bios` folder of your [`userdata` folder](../../play/add-games/game-storage) like this:
+If you want to use Roland MT-32 music in your ScummVM games, you will have to provide the required files yourself. Once you've sourced the files, put them in the `bios` folder of your [`userdata` folder](../play/add-games/game-storage.md) like this:
 
 ``` bash
 /bios

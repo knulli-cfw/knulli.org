@@ -8,13 +8,13 @@ Partitioning means, in layman's terms, to split a data storage (e.g., a hard dis
 
 ## Why should I care?
 
-When you [flash KNULLI](../../play/install) onto an SD card, the SD card will be partitioned during the flashing. It **does not matter** what your SD card was formatted to before or how many partitions it had before. During the flashing, the entire SD card will be **wiped** and **repurposed**. Once the flashing is done, your SD card will have been split into 6 segments:
+When you [flash KNULLI](../play/install.md) onto an SD card, the SD card will be partitioned during the flashing. It **does not matter** what your SD card was formatted to before or how many partitions it had before. During the flashing, the entire SD card will be **wiped** and **repurposed**. Once the flashing is done, your SD card will have been split into 6 segments:
 
 * Some 36 MB of unallocated space
 * a 20 MB partition that's formatted to a Linux file system and required for running KNULLI
 * a 16 MB partition that's formatted to a Linux file system and required for running KNULLI
 * a 4 GB partition called `BATOCERA` that's formatted to the Windows/MacOS-compatible **FAT32** and holds the image file which contains the KNULLI custom firmware (`boot/batocera`), as well as some files required for booting, e.g., your `bootlogo.bmp`
-* a 512 MB partition that's formatted to a Linux file system and **will become your `SHARE` partition** - this is where all your [user data](../../play/add-games/game-storage) will be stored
+* a 512 MB partition that's formatted to a Linux file system and **will become your `SHARE` partition** - this is where all your [user data](../play/add-games/game-storage.md) will be stored
 * The remaining, currently unused empty space of your SD card
 
 After flashing, you might notice that your Windows computer will show some new drives in **My PC** and complain about the drives being unreadable and suggest to reformat those drives. **Do not do that.** Windows is unable to read Linux file systems, however, those drives are exactly as they should be. Do not touch them, leave them as they are and ignore Windows' desperate attempts to claim those partitions for itself!
@@ -59,11 +59,11 @@ Once this is done, the partition will be made accessible within KNULLI under the
 
 ## But I want ext4!
 
-Before the release of KNULLI Gladiator, KNULLI formatted the `SHARE` partition to the **ext4** file system by default. The reason was an [issue with PortMaster games](../portmaster-and-exfat) that has been resolved since. Since KNULLI Gladiator, the `SHARE` partition is now formatted to **exFAT** by default, to make it easier for Windows/MacOS users to access their user data directly.
+Before the release of KNULLI Gladiator, KNULLI formatted the `SHARE` partition to the **ext4** file system by default. The reason was an [issue with PortMaster games](./portmaster-and-exfat.md) that has been resolved since. Since KNULLI Gladiator, the `SHARE` partition is now formatted to **exFAT** by default, to make it easier for Windows/MacOS users to access their user data directly.
 
 However, **ext4** is still a **superior file system** in direct comparison to **exFAT**. It is faster and has a better protection against file system corruption caused by interrupted writing operations. If direct access via Windows/MacOS is not important to you, you might prefer to reformat your `/userdata` partition to **ext4**.
 
-No matter if you run a single or dual SD card setup: We **strongly recommend** that you let KNULLI do the formatting **after** flashing and **after** first boot (and therefore **after** the `SHARE` partition of your primary SD card was expanded properly). Simply use the [built-in formatter](../../play/add-games/formatting) to format your `/userdata` partition to your preferred file system.
+No matter if you run a single or dual SD card setup: We **strongly recommend** that you let KNULLI do the formatting **after** flashing and **after** first boot (and therefore **after** the `SHARE` partition of your primary SD card was expanded properly). Simply use the [built-in formatter](../play/add-games/formatting.md) to format your `/userdata` partition to your preferred file system.
 
 ## How does it help me to know this?
 

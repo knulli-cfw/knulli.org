@@ -25,13 +25,13 @@ Bevor du versuchst, KNULLI erneut zu flashen oder manuall zu aktualisieren, soll
 
 !!! info "Alpha-Updates"
 
-    Für reguläre KNULLI-Nutzer sind derzeit **ausschließlich** Updates vom Typ *stable* verfügbar. Der Zugriff auf *alpha*-Updates wird ausschließlich unseren **KNULLI-Alpha-Testern** gewährt. Falls du Interesse hast, ein Alpha-Tester zu werden, solltest du einen Blick auf den Abschnitt [Contribute](../../community/contribute) werfen.
+    Für reguläre KNULLI-Nutzer sind derzeit **ausschließlich** Updates vom Typ *stable* verfügbar. Der Zugriff auf *alpha*-Updates wird ausschließlich unseren **KNULLI-Alpha-Testern** gewährt. Falls du Interesse hast, ein Alpha-Tester zu werden, solltest du einen Blick auf den Abschnitt [Contribute](../community/contribute.md) werfen.
 
 ## Größere Updates
 
-Größere KNULLI-Updates (z.B. das Update von **20240721** auf **Firefly**) erfordern zwingend, dass die KNULLI-CFW erneut geflasht wird und alle deine **Einstellungen zurückgesetzt** werden. Dementsprechend werden größeren KNULLI-Updates von vornherein ganz bewusst keine **Boot-Packages** beigelegt. Wenn du ein größeres KNULLI-Update installieren möchtest, empfehlen wir dir dringend, vorher eine Sicherheitskopie deines  [userdata-Ordners](../add-games/game-storage) zu machen. Falls du ein Dual-SD-Karten-Setup verwendest **musst** du zusätzlich auch den `system`-Ordner aus deinem [userdata-Ordner](../add-games/game-storage) entfernen, damit KNULLI ihn erneut anlegen und dabei alle neuen Standardeinstellungen für dich setzen kann. Nach Abschluss deiner KNULLI-Neuinstallation kannst du dann deine Daten aus der Sicherungskopie wiederherstellen.
+Größere KNULLI-Updates (z.B. das Update von **20240721** auf **Firefly**) erfordern zwingend, dass die KNULLI-CFW erneut geflasht wird und alle deine **Einstellungen zurückgesetzt** werden. Dementsprechend werden größeren KNULLI-Updates von vornherein ganz bewusst keine **Boot-Packages** beigelegt. Wenn du ein größeres KNULLI-Update installieren möchtest, empfehlen wir dir dringend, vorher eine Sicherheitskopie deines  [userdata-Ordners](./add-games/game-storage.md) zu machen. Falls du ein Dual-SD-Karten-Setup verwendest **musst** du zusätzlich auch den `system`-Ordner aus deinem [userdata-Ordner](./add-games/game-storage.md) entfernen, damit KNULLI ihn erneut anlegen und dabei alle neuen Standardeinstellungen für dich setzen kann. Nach Abschluss deiner KNULLI-Neuinstallation kannst du dann deine Daten aus der Sicherungskopie wiederherstellen.
 
-Falls du weitere Hilfe dabei brauchst, ein größeres Update zu installieren, solltest du einen Blick auf den [Major-Updates-Guide](../../guides/major-updates) werfen.
+Falls du weitere Hilfe dabei brauchst, ein größeres Update zu installieren, solltest du einen Blick auf den [Major-Updates-Guide](../guides/major-updates.md) werfen.
 
 !!! danger "Der system-Ordner"
 
@@ -51,7 +51,7 @@ Du kannst die KNULLI-Installation auf deinem Gerät aktualisieren, indem du das 
         * es den Namen deines Gerätes enthält (z.B. `rg35xx-h` für ein Gerät vom Typ Anbernic RG35XX-H).
         * das **Ende** des Dateinamens `boot.gz`, `boot.xz`,`boot.tar.gz` oder `boot.tar.xz` lautet.
         * die Datei eine Größe von etwa 1,5-2,0 GB hat.
-    * Wenn unklar ist, welches Image für dein Gerät geeignet ist, kannst du im Abschnitt [Unterstützte Geräte](../../devices) überprüfen, welches Image du für dein Gerät herunterladen solltest.
+    * Wenn unklar ist, welches Image für dein Gerät geeignet ist, kannst du im Abschnitt [Unterstützte Geräte](../devices/index.md) überprüfen, welches Image du für dein Gerät herunterladen solltest.
 2. Entpacke das komprimierte Archiv (z.B. mit [7-Zip](https://7-zip.org/)).
     * Dateien, deren Namen mit `tar.gz` oder `tar.xz` enden, sind komprimierte Dateien, die zunächst eine weitere komprimierte Datei enthalten. In diesem Fall musst du zunächst die `tar`-Datei aus der `gz`/`xz`-Datei extrahieren, bevor du dann den Inhalt der `tar`-Datei entpacken kannst.
 3. Setz deine SD-Karte deiner KNULLI-Installation in deinen Kartenleser am Computer ein.
@@ -63,4 +63,4 @@ Du kannst die KNULLI-Installation auf deinem Gerät aktualisieren, indem du das 
 
 !!! danger "Standardeintstellungen wiederherstellen"
 
-     **Normalerweise** erfordern kleinere KNULLI-Updates **NICHT** dass du einzelne Dateien oder gar den ganzen `system`-Ordner auf Werkseinstellungen zurücksetzt. In **SEHR seltenen Fällen** kann es allerdings nötig sein, deine Einstellungen an neue KNULLI-Standardeinstellungen anzupassen. In diesen Fällen ist es häufig am einfachsten, die entsprechenden Werkseinstellungen wiederherzustellen, entweder in dem man einzelne Dateien oder ganze Ordner zurücksetzt. Du kannst mehr über das Thema im Abschnitt [Werkseinstellungen](../../configure/reset-to-factory-settings) erfahren. Du solltest dies aber **NIEMALS** tun, wenn du dir nicht absolut sicher bist, dass es notwendig ist!
+     **Normalerweise** erfordern kleinere KNULLI-Updates **NICHT** dass du einzelne Dateien oder gar den ganzen `system`-Ordner auf Werkseinstellungen zurücksetzt. In **SEHR seltenen Fällen** kann es allerdings nötig sein, deine Einstellungen an neue KNULLI-Standardeinstellungen anzupassen. In diesen Fällen ist es häufig am einfachsten, die entsprechenden Werkseinstellungen wiederherzustellen, entweder in dem man einzelne Dateien oder ganze Ordner zurücksetzt. Du kannst mehr über das Thema im Abschnitt [Werkseinstellungen](../configure/reset-to-factory-settings.md) erfahren. Du solltest dies aber **NIEMALS** tun, wenn du dir nicht absolut sicher bist, dass es notwendig ist!

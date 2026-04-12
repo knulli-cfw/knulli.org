@@ -4,7 +4,7 @@ Als fortgeschrittener Nutzer möchtest du möglicherweise auf die Kommandozeile 
 
 Es ist allerdings auch möglich, den SSH-Client zu verwenden, der bereits in dein Betriebssystem integriert ist: Die meisten Linux-Distributionen und modernen Windows-Versionen enthalten bereits ein SSH-Programm, das auf der Kommandozeile ausgeführt werden kann.
 
-Um auf dein KNULLI-Gerät via SSH zuzugreifen, musst du das Gerät zuerst mit deinem lokalen Netzwerk verbinden, wie im Abschnitt [Netzwerkverbindungen](../networking) beschrieben und anschließend eine SSH-Verbindung aufbauen, wie in den folgenden Abschnitten beschrieben.
+Um auf dein KNULLI-Gerät via SSH zuzugreifen, musst du das Gerät zuerst mit deinem lokalen Netzwerk verbinden, wie im Abschnitt [Netzwerkverbindungen](./networking.md) beschrieben und anschließend eine SSH-Verbindung aufbauen, wie in den folgenden Abschnitten beschrieben.
 
 ## Benötigte Informationen
 

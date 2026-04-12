@@ -2,11 +2,11 @@
 
 !!! info "Zu Dual-SD-Card-Setup wechseln"
 
-    Dieser Abschnitt richtet sich an Nutzer, die gerade dabei sind KNULLI zum ersten Mal einzurichten. Falls du bereits eine laufende KNULLI-Installation auf einer einzelnen SD-Karte konfiguriert hast, solltest du lieber einen Blick auf unsere [Anleitung "Zu Dual-SD-Card-Setup wechseln"](../../../guides/dual-sd-card-migration) werfen.
+    Dieser Abschnitt richtet sich an Nutzer, die gerade dabei sind KNULLI zum ersten Mal einzurichten. Falls du bereits eine laufende KNULLI-Installation auf einer einzelnen SD-Karte konfiguriert hast, solltest du lieber einen Blick auf unsere [Anleitung "Zu Dual-SD-Card-Setup wechseln"](../../guides/dual-sd-card-migration.md) werfen.
 
 Wenn du KNULLI auf einem Gerät installierst, das über zwei SD-Karten-Slots verfügt, kannst du den zweiten Slot für eine zweite SD-Karte nutzen, die dann **anstelle** der *SHARE*-Partition der ersten SD-Karte genutzt werden kann.
 
-Dir sollte bewusst sein, dass es **nicht möglich** ist, **gleichzeitig** SD 1 **und** SD 2 als Speicherort für deine Spiele zu verwenden. Du kannst **entweder** SD 1 **oder** SD 2 verwenden - aber niemals beide gleichzeitig! Wenn du mehr darüber erfahren möchtest, wirf bitte einen Blick auf den Abschnitt [Speicherort für Spiele](../game-storage).
+Dir sollte bewusst sein, dass es **nicht möglich** ist, **gleichzeitig** SD 1 **und** SD 2 als Speicherort für deine Spiele zu verwenden. Du kannst **entweder** SD 1 **oder** SD 2 verwenden - aber niemals beide gleichzeitig! Wenn du mehr darüber erfahren möchtest, wirf bitte einen Blick auf den Abschnitt [Speicherort für Spiele](./game-storage.md).
 
 Trotzdem hat die Nutzung von zwei SD-Karten ein paar deutliche Vorteile:
 
@@ -23,7 +23,7 @@ Trotzdem hat die Nutzung von zwei SD-Karten ein paar deutliche Vorteile:
     * Stelle von *Internal* (der "interne" Speicher ist die *SHARE*-Partition deiner KNULLI-SD-Karte) auf den Namen deiner zweiten SD-Karte, z.B. *SHARE - 25.6G*.
 * Reboote KNULLI, um die Änderungen wirksam zu machen, drücke dazu den ++"Start"++-Button und gehe im Hauptmenü zu *Quit* und wähle dort *Restart system*.
 * Falls deine zweite SD-Karte **noch nicht** mit dem Dateisystem deiner Wahl formatiert ist
-    * folge der Anleitung im Abschnitt [Formatieren](../formatting) um die SD-Karte mit dem **integrierten KNULLI-Formatierer** zu formatieren.
+    * folge der Anleitung im Abschnitt [Formatieren](./formatting.md) um die SD-Karte mit dem **integrierten KNULLI-Formatierer** zu formatieren.
     * stelle sicher, dass du das Gerät noch einmal neustartest, um die Formatierung fertigzustellen.
-* Beim Neustart wird KNULLI auf deiner zweiten SD-Karte automatisch alle benötigten Ordner und Dateien anlegen, die du normalerweise im [`/userdata`-Ordner](../game-storage) bzw. auf der *SHARE*-Partition findest.
+* Beim Neustart wird KNULLI auf deiner zweiten SD-Karte automatisch alle benötigten Ordner und Dateien anlegen, die du normalerweise im [`/userdata`-Ordner](./game-storage.md) bzw. auf der *SHARE*-Partition findest.
 * Falls du deine zweite SD-Karte mit exFAT formatiert hast, kannst du die Karte aus dem Slot nehmen, nachdem du das Gerät heruntergefahren hast, und über deinen Computer mit Daten füllen.

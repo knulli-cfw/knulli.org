@@ -29,7 +29,7 @@ Im Abschnitt darüber kannst du sehen, ob du gerade mit einem W-LAN verbunden bi
 
 ### Weitere W-LANs (bis zu 3)
 
-KNULLI hat ein paar Features die in der GUI nicht angezeigt werden, für technisch versierte Nutzer aber trotzdem zur Verfügung stehen. Via GUI ist es nur möglich, ein einziges W-LAN zur Zeit zu konfigurieren. Falls du allerdings häufiger unterwegs bist und verschiedene W-LANs nutzen möchtest, kannst du ein sekundäres und tertiäres W-LAN konfigurieren, indem du  die entsprechenden Änderungen in `batocera.conf` vornimmst. Du kannst auf die Datei auf dem selben Weg zugreifen, auf dem du deine Spiele hinzufügst, wie im Abschnitt [Add Games](../../play/add-games) beschrieben. Du kannst aber auch einen Kommandozeileneditor verwenden, wenn du die Datei via [SSH](../ssh) bearbeiten möchtest. Der Dateipfad lautet `/userdata/system/batocera.conf` oder `SHARE\system\batocera.conf`, je nachdem, aus welcher Perspektive du darauf zugreifen möchtest.  Nachdem du die Datei `batocera.conf` in deinem Editor geöffnet hast, musst du nur die folgenden Zeilen ändern:
+KNULLI hat ein paar Features die in der GUI nicht angezeigt werden, für technisch versierte Nutzer aber trotzdem zur Verfügung stehen. Via GUI ist es nur möglich, ein einziges W-LAN zur Zeit zu konfigurieren. Falls du allerdings häufiger unterwegs bist und verschiedene W-LANs nutzen möchtest, kannst du ein sekundäres und tertiäres W-LAN konfigurieren, indem du  die entsprechenden Änderungen in `batocera.conf` vornimmst. Du kannst auf die Datei auf dem selben Weg zugreifen, auf dem du deine Spiele hinzufügst, wie im Abschnitt [Add Games](../play/add-games/index.md) beschrieben. Du kannst aber auch einen Kommandozeileneditor verwenden, wenn du die Datei via [SSH](./ssh.md) bearbeiten möchtest. Der Dateipfad lautet `/userdata/system/batocera.conf` oder `SHARE\system\batocera.conf`, je nachdem, aus welcher Perspektive du darauf zugreifen möchtest.  Nachdem du die Datei `batocera.conf` in deinem Editor geöffnet hast, musst du nur die folgenden Zeilen ändern:
 
 ```
 ## Secondary Wi-Fi
@@ -70,5 +70,5 @@ Der Pfad
 \\KNULLI\share
 ```
 
-(wobei du`KNULLI` ggf. mit deinem eigenen Hostnamen ersetzen musst) führt direkt zum `/userdata`-Verzeichnis, wo deine ROMs, BIOSe etc. abgelegt sind. Mehr Informationen dazu findest du im Abschnitt [Spiele hinzufügen](../../play/add-games).
+(wobei du`KNULLI` ggf. mit deinem eigenen Hostnamen ersetzen musst) führt direkt zum `/userdata`-Verzeichnis, wo deine ROMs, BIOSe etc. abgelegt sind. Mehr Informationen dazu findest du im Abschnitt [Spiele hinzufügen](../play/add-games/index.md).
 

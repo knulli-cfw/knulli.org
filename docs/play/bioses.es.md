@@ -35,4 +35,4 @@ Si deseas obtener más información sobre archivos BIOS compatibles, consulta la
 
 #### Añadir los archivos
 
-Puedes añadir los archivos a la carpeta `bios` de la misma forma que añades los juegos a la carpeta `roms`. Encontrarás instrucciones detalladas en la sección [Añadir juegos](../../play/add-games). Asegúrate de añadir los archivos de las BIOS *exactamente* como se indica en la *Comprobación de BIOS Ausentes*.
+Puedes añadir los archivos a la carpeta `bios` de la misma forma que añades los juegos a la carpeta `roms`. Encontrarás instrucciones detalladas en la sección [Añadir juegos](../play/add-games/index.md). Asegúrate de añadir los archivos de las BIOS *exactamente* como se indica en la *Comprobación de BIOS Ausentes*.

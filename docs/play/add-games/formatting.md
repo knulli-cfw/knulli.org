@@ -23,7 +23,7 @@ To format your data storages to the file systems of your choice, open the KNULLI
 
 !!! info "After Formatting"
 
-    After formatting, KNULLI will create and populate the [`/userdata` folder](../game-storage) for you.
+    After formatting, KNULLI will create and populate the [`/userdata` folder](./game-storage.md) for you.
 
 ## Formatting with Windows
 
@@ -73,4 +73,4 @@ If you want to format your SD card from Windows, we strongly suggest to use the 
 
 !!! info "After Formatting"
 
-    After formatting, you should put the SD card in your device and boot KNULLI. While booting, KNULLI will create and populate the [`/userdata` folder](../game-storage) for you.
+    After formatting, you should put the SD card in your device and boot KNULLI. While booting, KNULLI will create and populate the [`/userdata` folder](./game-storage.md) for you.

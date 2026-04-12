@@ -6,11 +6,11 @@ Hotkey shortcuts are among the most important basics you need to learn in order 
 
     KNULLI attempts to provide the best possible out-of-the-box user experience. For that reason, KNULLI comes with pre-defined hotkeys which apply to (almost) **every emulator** KNULLI comes with.
      
-    It is possible to **customize** hotkeys from the KNULLI GUI for **RetroArch-integrated emulators**. You can find instructions in the [RetroArch section](../../configure/retroarch/custom-hotkey-shortcuts). However, please be aware that those customizations will **only** apply to RetroArch cores.
+    It is possible to **customize** hotkeys from the KNULLI GUI for **RetroArch-integrated emulators**. You can find instructions in the [RetroArch section](../configure/retroarch/custom-hotkey-shortcuts.md). However, please be aware that those customizations will **only** apply to RetroArch cores.
      
     Many **standalone** emulators **cannot** be configured at runtime. Instead, hotkeys have to be defined on the **source-code level** and cannot be overriden via configuration.
 
-All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"++ button and press another key to call the respective action as indicated by the table below. If you cannot locate the function button on your device, find help in the [Basic Inputs section](../basic-inputs).
+All hotkey shortcuts follow the same pattern: Press *and hold* the ++"Function"++ button and press another key to call the respective action as indicated by the table below. If you cannot locate the function button on your device, find help in the [Basic Inputs section](./basic-inputs.md).
 
 !!! info "On-screen manual"
 
@@ -67,8 +67,8 @@ Since Gladiator, KNULLI comes with Advanced-Drastic, an additional Nintendo DS (
 
 !!! info "Hotkey shortcuts and RetroAchievements"
 
-    If you are collecting [Retro Achievements](../retro-achievements) in *hardcore mode*, all save/load fast foward/rewind actions are disabled by definition. However, for *regular* RetroAchievements, saving/loading etc. is enabled.
+    If you are collecting [Retro Achievements](./retro-achievements.md) in *hardcore mode*, all save/load fast foward/rewind actions are disabled by definition. However, for *regular* RetroAchievements, saving/loading etc. is enabled.
 
 !!! warning "Emulation shortcuts do not apply to native applications"
 
-    Games from the [PortMaster](../../systems/portmaster) library are not emulated and therefore do not respond to emulation shortcuts. Do not panic if your PortMaster games do not react to your hotkey shortcuts - this is expected behavior. To find out how to save, load, and exit your PortMaster games, please refer to the game's manual.
+    Games from the [PortMaster](../systems/portmaster.md) library are not emulated and therefore do not respond to emulation shortcuts. Do not panic if your PortMaster games do not react to your hotkey shortcuts - this is expected behavior. To find out how to save, load, and exit your PortMaster games, please refer to the game's manual.

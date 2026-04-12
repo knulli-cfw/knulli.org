@@ -7,6 +7,7 @@ KNULLI is installed by downloading an image for your device, flashing it to an S
 * Download the latest version of KNULLI for your device from the [releases page](https://github.com/knulli-cfw/distribution/releases/latest).
     * You'll find download links for each device/platform we support under the "`Installation Package Downloads`" header.
     * Make sure to download the correct image for your device.  For example; if you are installing KNULLI on a [RG35XX](../devices/anbernic/rg35xx.md) you would download the `rg35xx` image.
+    * If there are multiple files download all parts 001, 002 etc.
     * If you have any questions you can check the [Device Support](../devices/index.md) section to confirm which image you should download for your specific device.
 
 !!! warning "Not supported devices."
@@ -16,6 +17,7 @@ KNULLI is installed by downloading an image for your device, flashing it to an S
 ## Step 2: Flash
 
 * First decompress the image.
+* If there are mulitple parts with .001 and 002, ensure they are all in the same folder and use [7zip](https://www.7-zip.org/) to extract the 001 file and will extract all parts. 
 * Then write the image to an SD Card using an imaging tool.
     * Common imaging tools include [Rufus](https://rufus.ie/), [Balena](https://balena.io), [Raspberry Pi Imager](https://www.raspberrypi.com/software/), and [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/).  If you're skilled with the command line, `dd` can also be used.
 
@@ -25,11 +27,11 @@ During the imaging, several partitions will be created, which will be shown to y
 
     You should never format the KNULLI partitions which Windows cannot read, no matter how strongly Windows suggests that.
 
-After successful flashing, the *BATOCERA* drive will be the only drive formatted to FAT32, to make it accessible on Windows for manual updates as described in the [update](../update) section. However, this is just the place where the operating system itself is stored, so it is not a place to store your games. For more information on how to add games, please refer to the [Add Games](../add-games) section *after first boot*.
+After successful flashing, the *BATOCERA* drive will be the only drive formatted to FAT32, to make it accessible on Windows for manual updates as described in the [update](./update.md) section. However, this is just the place where the operating system itself is stored, so it is not a place to store your games. For more information on how to add games, please refer to the [Add Games](./add-games/index.md) section *after first boot*.
 
 !!! warning "Expanding the SHARE partition"
 
-    During flashing, a partition called *SHARE* will be created. This is where all your games and other data will be stored. However, the *SHARE* partition will only be expanded to its full size during first boot. It is *mandatory* to finish installation by booting KNULLI *before* you can access the *SHARE* partition and start adding your games. Please have a look at the [Add Games](../add-games) section to learn how to add games to your KNULLI device - *after first boot*."
+    During flashing, a partition called *SHARE* will be created. This is where all your games and other data will be stored. However, the *SHARE* partition will only be expanded to its full size during first boot. It is *mandatory* to finish installation by booting KNULLI *before* you can access the *SHARE* partition and start adding your games. Please have a look at the [Add Games](./add-games/index.md) section to learn how to add games to your KNULLI device - *after first boot*."
 
 ## Step 3: Boot your device
 
@@ -42,8 +44,8 @@ After successful flashing, the *BATOCERA* drive will be the only drive formatted
 
 ## Next Steps
 
-* [Set up Networking](../../configure/networking)
-* [Set up Controls](../../configure/controls)
-* [Add Games](../../play/add-games)
-* [Scraping](../../play/scraping)
-* [Themes](../../configure/customization/themes)
+* [Set up Networking](../configure/networking.md)
+* [Set up Controls](../configure/controls.md)
+* [Add Games](./add-games/index.md)
+* [Scraping](./scraping.md)
+* [Themes](../configure/customization/themes.md)

@@ -13,7 +13,7 @@ search:
 
 ## Installation
 
-Our [Quick Start Guide](../../../play/quick-start/) will guide you through the process of installing and setting up KNULLI on the TrimUI Smart Pro.
+Our [Quick Start Guide](../../play/quick-start.md) will guide you through the process of installing and setting up KNULLI on the TrimUI Smart Pro.
 
 ## Joystick Calibration
 
@@ -71,7 +71,7 @@ Now that you are a real console jockey, the next part will come easy to you!
 * Grab your KNULLI SD cards and copy `joypad.config` and `joypad_right.config` to your `system` folder (you may do so directly by plugging the card into your device or by using network transfer)
 * Plug the SD card back in your device (if it isn't plugged already) and boot KNULLI (if it isn't booted already)
 * Now we need the command line prompt again!
-    * Type `ssh root@knulli` to establish an SSH connection to your device ([read here to learn more about SSH](../../../configure/ssh/))
+    * Type `ssh root@knulli` to establish an SSH connection to your device ([read here to learn more about SSH](../../configure/ssh.md))
     * Once the SSH connection is established, use the `cp` command (short for copy!) to copy the files you added to their final destination:
         * `cp /userdata/system/joypad.config /mnt/UDISK/joypad.config`
         * `cp /userdata/system/joypad_right.config /mnt/UDISK/joypad_right.config`
@@ -81,7 +81,7 @@ Unfortunately, those files will only stay in this place temporarily, so we need 
 
 ### Make the changes stick via overlay or via `custom.sh`
 
-As explained above, changes to the `/mnt/UDISK/` folder will **not survive a reboot**. I could bore you with a complicated explanation now, but you don't really care, do you? ([If you do, you can learn more here.](../../../configure/patches-and-overlays/))
+As explained above, changes to the `/mnt/UDISK/` folder will **not survive a reboot**. I could bore you with a complicated explanation now, but you don't really care, do you? ([If you do, you can learn more here.](../../configure/patches-and-overlays.md))
 
 For now, we just want to make your new calibration files stick. You have two options now:
 
@@ -131,7 +131,7 @@ After a successful test, reboot the device once and launch the same game again t
 
 !!! danger "This section is for developers"
 
-    This section is for **developers** who want to compile their own KNULLI build from **source code**. If you simply want to **install** KNULLI on your device, you can safely ignore this section and simply follow the [Quick Start Guide](../../../play/quick-start/).
+    This section is for **developers** who want to compile their own KNULLI build from **source code**. If you simply want to **install** KNULLI on your device, you can safely ignore this section and simply follow the [Quick Start Guide](../../play/quick-start.md).
     
     The KNULLI distribution for the TrimUI Smart Pro **already includes** a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There is **no need** to extract any of those manually unless you need them to compile KNULLI **from scratch**.
 
@@ -142,4 +142,4 @@ TrimUI has not published the source code of the u-boot and kernel of the TrimUI 
 
 The firmwmare included in releases uses the kernel, bootloader, and u-boot from the stock firmware.
 
-You can read [this page](../../guides/A133-firmware-extract.md) to learn how to extract the bootloader, u-boot, and kernel from the stock firmware.
+You can read [this page](../../guides/firmware-extraction/A133-firmware-extract.md) to learn how to extract the bootloader, u-boot, and kernel from the stock firmware.

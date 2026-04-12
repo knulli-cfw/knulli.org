@@ -13,4 +13,4 @@ For a wholesome KNULLI experience, you may want to replace your boot logo to mat
 
 !!! info "Boot logo and splash screen"
 
-    The **boot logo** is an image which is displayed while KNULLI is booting, from the moment the device is turned on until the moment EmulationStation is launched. The EmulationStation **splash screen** is displayed while EmulationStation is loading, scanning for games, or shutting down. The **splash screen** is controlled by the **theme** of your KNULLI installation - learn how to customize it in the [Themes](../themes) section. the **boot logo** on the other hand is part of the boot partition KNULLI is installed on.
+    The **boot logo** is an image which is displayed while KNULLI is booting, from the moment the device is turned on until the moment EmulationStation is launched. The EmulationStation **splash screen** is displayed while EmulationStation is loading, scanning for games, or shutting down. The **splash screen** is controlled by the **theme** of your KNULLI installation - learn how to customize it in the [Themes](./themes.md) section. the **boot logo** on the other hand is part of the boot partition KNULLI is installed on.

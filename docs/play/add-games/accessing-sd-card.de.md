@@ -2,7 +2,7 @@
 
 Abhängig von der Formatierung deiner *SHARE*-Partition (oder deiner zweiten SD-Karte) hast du grundlegend unterschiedliche Möglichkeiten um direkt auf deine SD-Karte zuzugreifen. Dieser Abschnitt gibt dir einen Überblick über die möglichen Optionen.
 
-Wenn du mit der Wahl deiner Formatierung unzufrieden bist, kannst du jederzeit den eingebauten KNULLI-Formatierer verwenden, um die Formatierung zu ändern. Bedenke dabei, dass **deine gesamten Nutzerdaten dabei verloren gehen werden**, wenn du dich dafür entscheidest neu zu formatieren. Wenn du mehr über Formatierung wissen möchtest, wird einen Blick in den Abschnitt [Formatieren](../formatting).
+Wenn du mit der Wahl deiner Formatierung unzufrieden bist, kannst du jederzeit den eingebauten KNULLI-Formatierer verwenden, um die Formatierung zu ändern. Bedenke dabei, dass **deine gesamten Nutzerdaten dabei verloren gehen werden**, wenn du dich dafür entscheidest neu zu formatieren. Wenn du mehr über Formatierung wissen möchtest, wird einen Blick in den Abschnitt [Formatieren](./formatting.md).
 
 ## Auf eine exFAT-formatierte SD-Karte zugreifen
 
@@ -18,7 +18,7 @@ Wenn du Zugriff auf einen Computer hast, der mit Linux betrieben ist, kannst du 
 
 !!! warning "Potentielle Probleme beim Direktzugriff via Linux"
 
-    Einige Nutzer haben Probleme mit ihren SD-Karten gemeldet, nachdem sie via Linux darauf zugegriffen haben. Wir empfehlen daher, den direkten Zugriff via Linux zu vermeiden und stattdessen wenn möglich [**Netzwerkübertragung**](../network-transfer) zu verwenden.
+    Einige Nutzer haben Probleme mit ihren SD-Karten gemeldet, nachdem sie via Linux darauf zugegriffen haben. Wir empfehlen daher, den direkten Zugriff via Linux zu vermeiden und stattdessen wenn möglich [**Netzwerkübertragung**](./network-transfer.md) zu verwenden.
 
 ### Option 2: Drittanbieter-Software
 

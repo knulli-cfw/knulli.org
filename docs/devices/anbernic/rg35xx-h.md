@@ -1,6 +1,6 @@
 # Anbernic RG35XX H
 
-![](/_inc/images/knulli-booting-up.png)
+![](../../_inc/images/knulli-booting-up.png)
 
 ## Overview
 
@@ -19,7 +19,7 @@
 
 ## Installation
 
-Our [Quick Start Guide](../../../play/quick-start/) will guide you through the process of installing and setting up KNULLI on the RG35XX H.
+Our [Quick Start Guide](../../play/quick-start.md) will guide you through the process of installing and setting up KNULLI on the RG35XX H.
 
 ### Video Guide
 
@@ -30,7 +30,7 @@ Our [Quick Start Guide](../../../play/quick-start/) will guide you through the p
 
 !!! danger "This section is for developers"
 
-    This section is for **developers** who want to compile their own KNULLI build from **source code**. If you simply want to **install** KNULLI on your device, you can safely ignore this section and simply follow the [Quick Start Guide](../../../play/quick-start/).
+    This section is for **developers** who want to compile their own KNULLI build from **source code**. If you simply want to **install** KNULLI on your device, you can safely ignore this section and simply follow the [Quick Start Guide](../../play/quick-start.md).
     
     The KNULLI distribution for the RG35XX H **already includes** a bootloader, u-boot, and kernel in binary form extracted from the stock firmware. There is **no need** to extract any of those manually unless you need them to compile KNULLI **from scratch**.
 
@@ -41,7 +41,7 @@ Anbernic has not published the source code of the u-boot and kernel of the RG35x
 
 The firwmare included in releases uses the kernel, bootloader, and u-boot from the stock firmware.
 
-You can read [this page](../../guides/h700-firmware-extract.md) to learn how to extract the bootloader, u-boot, and kernel from the stock firmware.
+You can read [this page](../../guides/firmware-extraction/h700-firmware-extract.md) to learn how to extract the bootloader, u-boot, and kernel from the stock firmware.
 
 ## Community
 

@@ -23,7 +23,7 @@ Um deine Speichermedien mit dem Dateisystem deiner Wahl zu formatieren, solltest
 
 !!! info "Nach dem Formatieren"
 
-    Nach dem Formatieren richtet KNULLI für dich automatisch einen [`/userdata`-Ordner](../game-storage) an.
+    Nach dem Formatieren richtet KNULLI für dich automatisch einen [`/userdata`-Ordner](./game-storage.md) an.
 
 ## Formatieren mit Windows
 
@@ -73,4 +73,4 @@ Wenn du deine SD-Karte aus Windows heraus formatieren möchtest, empfehlen wir d
 
 !!! info "Nach dem Formatieren"
 
-    Nach dem Formatieren solltest du die SD-Karte in dein Gerät stecken und KNULLI starten. Während des Bootvorgangs richtet KNULLI für dich automatisch einen [`/userdata`-Ordner](../game-storage) an.
+    Nach dem Formatieren solltest du die SD-Karte in dein Gerät stecken und KNULLI starten. Während des Bootvorgangs richtet KNULLI für dich automatisch einen [`/userdata`-Ordner](./game-storage.md) an.

@@ -40,6 +40,24 @@ The per-system setting can be used to **override** the **global** and/or the **s
 * Head to *Game Rendering & Shaders*
 * Pick your preferred *Shader Set*
 
+## Shader Sets Included with KNULLI
+
+* *Auto* applies the default KNULLI shader set (which has no shaders specified) but applies GB - DMG colorization to gb and gb2players
+* *None* prevents KNULLI from applying any shaders. _This is the option to choose if you want Retroarch shader override saves to work as described in "Retroarch Overrides" below._
+* *Curvature* applies crt-lottes-fast by default for most consoles and zfast-lcd for many handhelds. This provides some simple scanline and CRT curvature effects for consoles and a simple LCD grid for the handheld systems.
+* *Enhanced* applies advanced-aa (anti-aliasing) by default, with psp-color being applied to some handheld systems and 2xScaleHQ for "Arcade" systems (neogeo, neogeocd, mame, fbneo, naomi, naomi2, and atomiswave).
+* *Flatten-Glow* applies the blur filter kawase_glow to simulate the glowing color bleed of CRTs. Some of the handheld systems use a version of simpletex_lcd which applies a texture to the output, simulating the old LCD displays, but some of them include color correction shaders stacked with them.
+* *Retro* applies sharp-bilinear-simple to most systems and bevel for most handhelds.
+* *RGC-Dramatic-CRT* applies a custom shader preset based on some of Retro Game Corps' recommendations for a dramatic glow effect. This requires integer scaling in order to render evenly.
+* *Scanlines* for most systems applies crt-pi for low GPU devices and crt-easymode for other devices as well as lcd-grid-v2 to most handhelds to provide some basic CRT effects and grids.
+* *Sharp-Bilinear-Simple* applies sharp-bilinear-simple to *all* systems.
+* *Sharp-Shimmerless* applies sharp-shimmerless to all systems (recommended by RGC for pixel balancing on non-integer scaled systems).
+* *Sharp-Shimmerless-LCD-CRT* applies the sharp-shimmerless variants that include scanlines for consoles and grid lines for handhelds (recommended by RGC for pixel balencing on non-integer scaled systems).
+* *Zfast* applies zfast-crt to most systems for a simple CRT effect and zfast-lcd for most handhelds for a simple grid.
+
+!!! info "Interactions between shader sets and decoration sets (bezels)"
+    While most shader sets can be applied in conjunction with most decoration sets, there can be conflicts due to scaling weirdness or both the shader and the bezel overlay trying to do the same job but different. For example, some handheld overlays have an LCD style grid built into them to provide that type of effect. By itself this is fine and less processor intensive (and more performance friendly) than using a shader to achieve the same effect. However, it is also possible to have a shader that applies a differently spaced grid on the image resulting in two conflicting grids on top of the emulated game image which is somewhat unpleasant. In those cases, it may be best to set either the shader set or decoration set for that system to "None" if you prefer the effect of the other method.
+
 ## Creating your own shader configurations
 
 KNULLI allows to create your own shader configurations and apply them directly through EmulationStation. While this requires a tiny bit of tinkering, it is the **recommended way** of adding your own preferred shader setups for a bunch of reasons. Most prominently, setting up shaders through EmulationStation avoids messing with RetroArch overrides which might interfere with other KNULLI features such as multi-resolution bezel sets.
@@ -59,12 +77,12 @@ However, with the following example, we give you a very brief overview on what t
 
 #### Folder preparations
 
-Gain access to your device, either by direct access to the SD card or via [network transfer](../../../play/add-games/network-transfer/). If it does not exist already, create a `shaders` folder in your [`/userdata`](../../../play/add-games/game-storage).
+Gain access to your device, either by direct access to the SD card or via [network transfer](../../play/add-games/network-transfer.md). If it does not exist already, create a `shaders` folder in your [`/userdata`](../../play/add-games/game-storage.md).
 
 Inside the new `shaders` folder, you will need at least two sub-folders for specific files:
 
 * `shaders/`
-    * `config/` will hold a **sub-folder** for every shader configuration you want to add to Emulation Station which will be populated with a simple text file called `rendering-defaults.yml` as explained below
+    * `configs/` will hold a **sub-folder** for every shader configuration you want to add to Emulation Station which will be populated with a simple text file called `rendering-defaults.yml` as explained below
     * `presets/` will hold your presets, usually `.glslp` files
     * `shaders/` will hold the actual shaders, usually in a **sub-folder** for every shader or shader set, usually `.glsl` files
 
@@ -198,7 +216,7 @@ You can also delete existing override files from this menu.
 
 KNULLI already comes with a lot of pre-defined shaders which are stored in the **read-only** part of the KNULLI file system in a folder called `/usr/share/batocera/shaders`. However, you are **not** supposed to **delete** or **add** any shaders there. Instead, KNULLI expects your **own shaders** to be stored in the `shaders` folder in your `userdata`/`SHARE` folder. (If you want to learn more about the `shaders` folder, have a look at the thorough documentation in the [Batocera wiki](https://wiki.batocera.org/emulationstation:shaders_set).)
 
-If you do not have such a folder yet, access your `userdata` folder (e.g., via [network transfer](../../../play/add-games/network-transfer)) and add the `shaders` folder. Afterwards, you can copy all your RetroArch shaders into that folder.
+If you do not have such a folder yet, access your `userdata` folder (e.g., via [network transfer](../../play/add-games/network-transfer.md)) and add the `shaders` folder. Afterwards, you can copy all your RetroArch shaders into that folder.
 
 #### Create a shortcut to your own shaders folder
 
@@ -206,7 +224,7 @@ As explained above, navigating from the default shaders folder to your custom sh
 
 The easiest way would be to create a symbolic link when your device is starting up. This could be achieved by simply adding/editing a `custom.sh` bash script in your `system` folder:
 
-* Go to your `system` folder (e.g., via [network transfer](../../../play/add-games/network-transfer)).
+* Go to your `system` folder (e.g., via [network transfer](../../play/add-games/network-transfer.md)).
 * If it does not exist yet, create a new text file `custom.sh`.
     * Windows users need to make sure **the file extension is correct**. (Please make sure your file extensions are visible before proceeding!)
 * Edit `custom.sh` with a text editor (preferably something like *Notepad++*).
@@ -226,4 +244,4 @@ After rebooting your system, it should now automatically create a link which mak
 
 !!! info "Permanent link in overlay"
 
-    It would also be possible to store a **permanent** link in the `overlay` file rather than re-creating the link on every boot. To do so, simply [SSH](../../ssh) into the device, create the link with the command shown above and run `batocera-save-overlay` to make the change permanent. However, by creating the link via `custom.sh` on boot, the link would survive re-flashing SD 1 on dual SD card setups and can also be included in your backups of the entire `userdata` folder.
+    It would also be possible to store a **permanent** link in the `overlay` file rather than re-creating the link on every boot. To do so, simply [SSH](../ssh.md) into the device, create the link with the command shown above and run `batocera-save-overlay` to make the change permanent. However, by creating the link via `custom.sh` on boot, the link would survive re-flashing SD 1 on dual SD card setups and can also be included in your backups of the entire `userdata` folder.

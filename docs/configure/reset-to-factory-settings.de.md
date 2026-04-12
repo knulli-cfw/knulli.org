@@ -19,7 +19,7 @@ Um das Gerät auf Werkseinstellungen zurückzusetzen
 
      **Normalerweise** erfordern KNULLI-Updates **NICHT**, dass du den gesamten `system`-Ordner zurückgesetzt. Das Zurücksetzen des `system`-Ordners kommt dem **Zurücksetzen auf Werkseinstellungen** gleich. Dementsprechend ist es danach zwingend nötig, **alle deine Einstellungen erneut vorzunehmen**. Du solltest **NICHT** versuchen, den `system`-Ordner zurückzusetzen, wenn du dir nicht absolut sicher bist, dass es notwendig ist.
 
-Wie du wahrscheinlich bereits weißt, sind **deine gesamten Einstellungen** in deinem `userdata/system`-Ordner gespeichert, wie im Abschnitt [Speicherort für Spiele](../../play/add-games/game-storage) erklärt.
+Wie du wahrscheinlich bereits weißt, sind **deine gesamten Einstellungen** in deinem `userdata/system`-Ordner gespeichert, wie im Abschnitt [Speicherort für Spiele](../play/add-games/game-storage.md) erklärt.
 
 Wenn dein System sich nicht mehr Erwartungskonform verhält, nachdem du eine Einstellung geändert hast, und du die Änderung nicht rückgängig machen kannst, kannst du das Problem möglicherweise lösen, in dem du die entsprechende Konfigurationsdatei oder den gesamten `system`-Ordner zurücksetzt. In **SEHR seltenen Fällen** kann es auch nötig sein, nach einem Update einige Einstellungen auf neue KNULLI-Standardwerte zu setzen, indem die entsprechenden Dateien im `system`-Ordner **ersetzt** oder **angepasst** werden.
 

@@ -2,7 +2,7 @@
 
 !!! danger "¡No confundas la configuración del hardware con la asignación de botones para juegos/sistemas!"
 
-    ¡No confundas la configuración del control con la reasignación de botones específicos del **juego** o del **núcleo**! Esta sección trata sobre la configuración **global** del mando para que el **hardware** funcione. Si quieres reasignar los controles para un **juego** o **emulador** específico, sigue la guía del emulador correspondiente (por ejemplo, [Retroarch](../retroarch/controls)).
+    ¡No confundas la configuración del control con la reasignación de botones específicos del **juego** o del **núcleo**! Esta sección trata sobre la configuración **global** del mando para que el **hardware** funcione. Si quieres reasignar los controles para un **juego** o **emulador** específico, sigue la guía del emulador correspondiente (por ejemplo, [Retroarch](./retroarch/controls.md)).
 
 Aunque fue diseñado para dispositivos portátiles, KNULLI es compatible con varios tipos de controles USB y Bluetooth. Además, Knulli también es compatible con otros dispositivos de entrada, como ratones y teclados.
 
@@ -12,7 +12,7 @@ Si un control no funciona con tu dispositivo KNULLI de fábrica, podría ser nec
 
 La mayoría de los dispositivos compatibles con KNULLI son portátiles con controles integrados. Suelen constar de un **pad direccional** (:material-gamepad:, abreviado: **D-pad**), los **botones frontales** (:material-gamepad-circle:), algunos **botones superiores** (++"L1"++, ++"R1"++) y/o **gatillos superiores** (++"L2"++, ++"R2"++) y botones para ++"Start"++ y ++"Select"++. Además, es probable que tu dispositivo cuente con un **interruptor de encendido** y un **botón de función** (++"Function"++) que se usa para atajos. **Opcionalmente**, tu dispositivo también podría tener **joysticks analógicos** y un **botón de reinicio**. Si no sabes dónde se encuentran estos botones en tu dispositivo, consulta su manual.
 
-KNULLI incluye un conjunto de a**tajos** predefinidos que te permiten guardar, cargar y salir de tus juegos, tomar capturas de pantalla, etc. Te recomendamos mucho que te **aprendas** los atajos de teclado. Encontrarás una lista de todos los atajos predeterminados en la sección [Atajos](../../play/hotkey-shortcuts).
+KNULLI incluye un conjunto de a**tajos** predefinidos que te permiten guardar, cargar y salir de tus juegos, tomar capturas de pantalla, etc. Te recomendamos mucho que te **aprendas** los atajos de teclado. Encontrarás una lista de todos los atajos predeterminados en la sección [Atajos](../play/hotkey-shortcuts.md).
 
 !!! info "Nombres de los controles."
 
@@ -50,4 +50,4 @@ Si presionas un botón incorrecto, no te preocupes: siempre podrás volver a est
 
     Por ejemplo, de los cuatro botones frontales, el botón **norte** (:material-gamepad-circle-up:) está marcado como ++"X"++ en los controles estándar de SNES. El mismo botón está marcado como ++"Y"++ en los controles de Xbox y como ++"△"++ en los de PlayStation.
 
-    ¡Asegúrate de **no** confundir los **botones frontales** (:material-gamepad-circle-up: :material-gamepad-circle-right: :material-gamepad-circle-down: :material-gamepad-circle-left:) con las direcciones del **D-pad** (:material-gamepad-up: :material-gamepad-right: :material-gamepad-down: :material-gamepad-left:)! Encontrarás más información sobre los botones frontales en la sección de [Atajos](../../play/hotkey-shortcuts).
+    ¡Asegúrate de **no** confundir los **botones frontales** (:material-gamepad-circle-up: :material-gamepad-circle-right: :material-gamepad-circle-down: :material-gamepad-circle-left:) con las direcciones del **D-pad** (:material-gamepad-up: :material-gamepad-right: :material-gamepad-down: :material-gamepad-left:)! Encontrarás más información sobre los botones frontales en la sección de [Atajos](../play/hotkey-shortcuts.md).

@@ -4,12 +4,12 @@ Es gibt verschiedene Möglichkeiten, um Spiele auf dein KNULLI-Gerät zu laden. 
 
 ## Bevor du anfängst Spiele hinzuzufügen
 
-* [Speicherort für Spiele](game-storage) - Lerne die Ordnerstruktur von KNULLI kennen.
-* [SD-Karte(n) formatieren](formatting) - Lerne die Formatierungsoptionen kennen.
-* [Zweite SD-Karte einrichten](second-sd-card) - Lerne, wie man eine zweite SD-Karte in Betrieb nimmt.
+* [Speicherort für Spiele](game-storage.md) - Lerne die Ordnerstruktur von KNULLI kennen.
+* [SD-Karte(n) formatieren](formatting.md) - Lerne die Formatierungsoptionen kennen.
+* [Zweite SD-Karte einrichten](second-sd-card.md) - Lerne, wie man eine zweite SD-Karte in Betrieb nimmt.
 
 ## Nachdem dein Datenspeicher eingerichtet ist
 
-* [Netzwerkübertragung](network-transfer) - Lerne die Netzwerkübertragung von KNULLI kennen.
-* [Zugriff via USB](accessing-via-usb) - Lerne wie du via USB auf dein Gerät zugreifen kannst.
-* [Direktzugriff auf die SD-Karte](accessing-sd-card) - Lerne wie du direkt von Windows auf deine SD-Karte zugreifen kannst (falls möglich).
+* [Netzwerkübertragung](network-transfer.md) - Lerne die Netzwerkübertragung von KNULLI kennen.
+* [Zugriff via USB](accessing-via-usb.md) - Lerne wie du via USB auf dein Gerät zugreifen kannst.
+* [Direktzugriff auf die SD-Karte](accessing-sd-card.md) - Lerne wie du direkt von Windows auf deine SD-Karte zugreifen kannst (falls möglich).
