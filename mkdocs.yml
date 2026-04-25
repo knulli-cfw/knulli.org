@@ -145,6 +145,7 @@ plugins:
                     - Imagen de Inicio: configure/customization/bootlogo.md
                     - Filtros: configure/customization/shaders.md
                 - SSH: configure/ssh.md
+                - Sincronización: configure/syncthing.md
                 - Retroarch:
                     - Controles: configure/retroarch/controls.md
                     - Atajos Personalizados: configure/retroarch/custom-hotkey-shortcuts.md
@@ -165,7 +166,6 @@ plugins:
                 - Actualizaciones Mayores: guides/major-updates.md
                 - Particionado: guides/partitioning.md
                 - PortMaster y exFAT: guides/portmaster-and-exfat.md
-                - Sincronización: guides/syncthing.md
                 - Extraer Firmware:
                     - A133: guides/firmware-extraction/A133-firmware-extract.md
                     - H700: guides/firmware-extraction/h700-firmware-extract.md
@@ -220,6 +220,7 @@ plugins:
                     - Bootlogo: configure/customization/bootlogo.md
                     - Shaders: configure/customization/shaders.md
                 - SSH: configure/ssh.md
+                - Syncthing: configure/syncthing.md
                 - Retroarch:
                     - Controller: configure/retroarch/controls.md
                     - Benutzerdefinierte Tastenkombinationen: configure/retroarch/custom-hotkey-shortcuts.md
@@ -240,7 +241,6 @@ plugins:
                 - Umfangreiche Updates: guides/major-updates.md
                 - Partitionieren: guides/partitioning.md
                 - PortMaster und exFAT: guides/portmaster-and-exfat.md
-                - Syncthing: guides/syncthing.md
                 - Firmware Extraction:
                     - A133: guides/firmware-extraction/A133-firmware-extract.md
                     - H700: guides/firmware-extraction/h700-firmware-extract.md
@@ -377,6 +377,7 @@ nav:
         - Boot Logo: configure/customization/bootlogo.md
         - Shaders : configure/customization/shaders.md
       - SSH: configure/ssh.md
+      - Syncthing: configure/syncthing.md
       - Retroarch:
         - Controls: configure/retroarch/controls.md
         - Custom Hotkey Shortcuts: configure/retroarch/custom-hotkey-shortcuts.md
@@ -397,7 +398,6 @@ nav:
         - Major Updates: guides/major-updates.md
         - Partitioning: guides/partitioning.md
         - PortMaster and exFAT: guides/portmaster-and-exfat.md
-        - Syncthing: guides/syncthing.md
         - Firmware Extraction:
             - A133: guides/firmware-extraction/A133-firmware-extract.md
             - H700: guides/firmware-extraction/h700-firmware-extract.md
