@@ -137,6 +137,7 @@ plugins:
                 - Juegos Multidisco: configure/multi-disc-games.md
                 - LEDs RGB: configure/rgb-leds.md
                 - Administración de Energía: configure/power-management.md
+                - BatteryPlus: configure/batteryplus.md
                 - Personalización:
                     - Personalización: configure/customization/index.md
                     - Temas: configure/customization/themes.md
@@ -212,6 +213,7 @@ plugins:
                 - Spiele mit mehreren CDs: configure/multi-disc-games.md
                 - RGB LEDs: configure/rgb-leds.md
                 - Energieeinstellungen: configure/power-management.md
+                - BatteryPlus: configure/batteryplus.md
                 - Personalisieren:
                     - Personalisieren: configure/customization/index.md
                     - Themes: configure/customization/themes.md
@@ -369,6 +371,7 @@ nav:
       - Multi-Disc Games: configure/multi-disc-games.md
       - RGB LEDs: configure/rgb-leds.md
       - Power Management: configure/power-management.md
+      - BatteryPlus: configure/batteryplus.md
       - Customization:
         - Customization: configure/customization/index.md
         - Themes: configure/customization/themes.md
