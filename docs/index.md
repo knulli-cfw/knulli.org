@@ -2,7 +2,7 @@
   <img class="off-glb" src="/_inc/images/knulli-header-gladiator-ii.png"/>
 </div>
 
-# Welcome to KNULLI :material-gamepad:
+# Welcome to KNULLI!!!!!! :material-gamepad:
 
 ## A new release has come into being! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
 

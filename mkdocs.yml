@@ -3,6 +3,7 @@ site_url: https://knulli.org
 repo_url: https://github.com/knulli-cfw/knulli.org
 repo_name: knulli.org
 copyright: Copyright Creative Commons Attribution-ShareAlike 4.0 International
+docs_dir: docs
 theme:
   name: material
   logo: _inc/images/logo-knulli.png

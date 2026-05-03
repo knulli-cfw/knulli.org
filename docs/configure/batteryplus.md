@@ -19,7 +19,7 @@ Result:
     
     To the contrary, voltage-based calculation is more accurate.
     However, you should be aware that depending on the device and the different software options installed, you might encounter confusing behavior.
-    For example, on the TrimUI Smart Pro and Brick (Hammer) devices, RGB is disabled automatically when the PMIC-reported value hits a certain threshold.
+    For example, on the TrimUI Smart Pro and Brick (Hammer) devices, RGB is disabled automatically when the PMIC-reported value hits a certain threshold (see also: [RGB LEDs](../rgb-leds)).
     Depending on the difference between the PMIC-reported value and the voltage-based calculation and the low battery warning threshold set in the RGB menu, you might never actually get the low battery warning in voltage mode.
     Also, some applications might still get their battery estimation directly via PMIC, bypassing BatteryPlus entirely.
     
@@ -31,8 +31,8 @@ To calibrate BatteryPlus on your device,
 
 * power on the device
 * plug into a wall charger
-* let it charge until it reaches 100%, leading to displaying 0-1% even if
-    * must be done while powered on
+* let it charge until it reaches 100%
+    * **must** be done while **powered on**
     * disable auto suspend/shutdown if needed
 * unplug the charger
 * wait ~15 seconds

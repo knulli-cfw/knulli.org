@@ -6,7 +6,7 @@ Additionally, your RGB LEDs can be configured to indicate low battery and/or bat
 
 !!! warning "Before reporting issues, consider your battery status"
 
-    Some devices have built-in mechanisms to disable RGB entirely when the battery percentage drops below a certain threshold. On those devices, RGB-based battery indication obviously will not work. So, if your device does turn off RGB entirely rather than giving a warning animation, do not panic - this is most likely a device-specific feature outside of the scope of our RGB implementation.
+    Some devices have built-in mechanisms to disable RGB entirely when the battery percentage drops below a certain threshold. On those devices, RGB-based battery indication obviously will not work. So, if your device does turn off RGB entirely rather than giving a warning animation, do not panic - this is most likely a device-specific feature outside of the scope of our RGB implementation. (See also: [BatteryPlus](../batteryplus))
 
     Furthermore, be aware that while your device is in a battery indication mode (charging, low battery warning), this mode will override your manual settings. So, if you set up a mode and color and the settings do not seem to stick, make sure they aren't simply overriden by the device currently being in charging or low battery mode.
 
