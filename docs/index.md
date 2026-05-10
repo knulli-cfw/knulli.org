@@ -1,5 +1,5 @@
 <div class="preview-container">
-  <img class="off-glb" src="/_inc/images/knulli-header-gladiator-ii.png"/>
+  <img class="off-glb" src="/_inc/images/knulli-header-scarab.png"/>
 </div>
 
 # Welcome to KNULLI :material-gamepad:
