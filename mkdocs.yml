@@ -428,6 +428,8 @@ nav:
       - GoRetroid:
         - Retroid Pocket 5: devices/goretroid/retroid-pocket-5.md
         - Retroid Pocket Mini: devices/goretroid/retroid-pocket-mini.md
+      - Miyoo:
+        - Miyoo Flip: devices/miyoo/flip.md
       - Orange Pi Zero 2w:
         - Orange Pi Zero 2w: devices/orange-pi/orange-pi-zero-2w.md
       - Powkiddy:
