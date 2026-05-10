@@ -213,6 +213,7 @@ plugins:
                 - Spielesammlungen: configure/collections.md
                 - Spiele mit mehreren CDs: configure/multi-disc-games.md
                 - RGB LEDs: configure/rgb-leds.md
+                - Bildschirmeinstellungen: configure/display-settings.md
                 - Energieeinstellungen: configure/power-management.md
                 - BatteryPlus: configure/batteryplus.md
                 - Personalisieren:
@@ -371,6 +372,7 @@ nav:
       - Collections: configure/collections.md
       - Multi-Disc Games: configure/multi-disc-games.md
       - RGB LEDs: configure/rgb-leds.md
+      - Display Settings: configure/display-settings.md
       - Power Management: configure/power-management.md
       - BatteryPlus: configure/batteryplus.md
       - Customization:
