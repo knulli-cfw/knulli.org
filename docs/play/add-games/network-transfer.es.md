@@ -139,9 +139,9 @@ Para usuarios de Windows, recomendamos usar [WinSCP](https://winscp.net). Despu�
 
 ### HTTP
 
-!!! warning "Esta sección aún está en construcción."
+!!! info "Actualmente no compatible."
 
-	¡Lo sentimos, estamos trabajando en ello! :smile: Mientras tanto, te recomendamos unirte a nuestro [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB) para contactarnos. ¡Quizás podamos ayudarte ahí!
+	La compatibilidad con HTTP para la transferencia de archivos no está disponible actualmente y no está prevista. Aceptamos solicitudes de incorporación de cambios y, si te interesa contribuir, puedes unirte a nuestro [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB) para interactuar con los desarrolladores.
 
 ### Después de transferir tus datos
 
