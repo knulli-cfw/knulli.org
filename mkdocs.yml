@@ -84,9 +84,12 @@ extra:
       - name: Italiano
         link: /it/ 
         lang: it
+      - name: 日本語
+        link: /ja/
+        lang: ja
 plugins:
   - search:
-      lang: [en, es, de, pl, tr, it] # Removed pt-BR here to stop the warning
+      lang: [en, es, de, pl, tr, it, ja] # Removed pt-BR here to stop the warning
   - glightbox
   - macros:
       include_dir: includes
@@ -334,6 +337,105 @@ plugins:
                 - Temi: configure/customization/themes.md
             - Sistema: systems/media-player.md
             - Dispositivo: devices/index.md
+        - locale: ja
+          name: 日本語
+          build: true
+          nav:
+            - ホーム: index.md
+            - KNULLIについて: about-knulli.md
+            - FAQ:
+              - FAQ: faq/index.md
+              - NULLIについての質問: faq/knulli.md
+              - トラブルシューティング: faq/troubleshooting.md
+            - プレイ:
+              - クイックスタートガイド: play/quick-start.md
+              - インストール: play/install.md
+              - ゲームの追加:
+                - ゲームの追加: play/add-games/index.md
+                - ゲームストレージ: play/add-games/game-storage.md
+                - フォーマット: play/add-games/formatting.md
+                - 2枚目のSDカード: play/add-games/second-sd-card.md
+                - ネットワーク転送: play/add-games/network-transfer.md
+                - USBによるアクセス: play/add-games/accessing-via-usb.md
+                - SDカードへのアクセス: play/add-games/accessing-sd-card.md
+              - BIOS: play/bioses.md
+              - スクレイピング: play/scraping.md
+              - 基本操作: play/basic-inputs.md
+              - ホットキーショートカット: play/hotkey-shortcuts.md
+              - ゲーム設定: play/game-settings.md
+              - 実績: play/retro-achievements.md
+              - ネット対戦: play/netplay.md
+              - アップデート: play/update.md
+            - 設定:
+              - ネットワーク: configure/networking.md
+              - クイックレジューム: configure/quick-resume.md
+              - Bluetooth: configure/bluetooth.md
+              - 操作: configure/controls.md
+              - コレクション: configure/collections.md
+              - マルチディスクゲーム: configure/multi-disc-games.md
+              - RGB LED: configure/rgb-leds.md
+              - 電源管理: configure/power-management.md
+              - カスタム:
+                - カスタム: configure/customization/index.md
+                - テーマ: configure/customization/themes.md
+                - BGM: configure/customization/background-music.md
+                - ベゼル装飾: configure/customization/bezel-decorations.md
+                - Bootロゴ: configure/customization/bootlogo.md
+                - シェーダー : configure/customization/shaders.md
+              - SSH: configure/ssh.md
+              - Retroarch:
+                - 操作: configure/retroarch/controls.md
+                - カスタムホットキーショートカット: configure/retroarch/custom-hotkey-shortcuts.md
+              - PPSSPP:
+                - チート: configure/ppsspp/cheats.md
+                - 複数人プレイ: configure/ppsspp/multiplayer.md
+              - 工場設定: configure/reset-to-factory-settings.md
+              - パッチとオーバーレイ: configure/patches-and-overlays.md
+            - システム:
+              - Pico-8: systems/pico-8.md
+              - PortMaster: systems/portmaster.md
+              - ScummVM: systems/scummvm.md
+              - Media Player: systems/media-player.md
+              - Tools:
+                  - OD Commander: systems/tools/od-commander.md
+            - ガイド:
+                - デュアルSD移行: guides/dual-sd-card-migration.md
+                - メジャーアップデート: guides/major-updates.md
+                - パーティショニング: guides/partitioning.md
+                - PortMasterとexFAT: guides/portmaster-and-exfat.md
+                - Syncthing: guides/syncthing.md
+                - ファームウェア展開:
+                    - A133: guides/firmware-extraction/A133-firmware-extract.md
+                    - H700: guides/firmware-extraction/h700-firmware-extract.md
+            - 開発:
+                - DockerによるKNULLIビルド: development/building-knulli-with-docker.md
+            - コミュニティ:
+                - コントリビュート: community/contribute.md
+            - デバイス:
+              - devices/index.md
+              - Anbernic:
+                - RG-Arc-S: devices/anbernic/rg-arc-s.md
+                - RG28XX: devices/anbernic/rg28xx.md
+                - RG34XX: devices/anbernic/rg34xx.md
+                - RG35XX Original: devices/anbernic/rg35xx.md
+                - RG35XX Plus: devices/anbernic/rg35xx-plus.md
+                - RG35XX H: devices/anbernic/rg35xx-h.md
+                - RG35XX 2024: devices/anbernic/rg35xx-2024.md
+                - RG35XX SP: devices/anbernic/rg35xx-sp.md
+                - RG40XX H: devices/anbernic/rg40xx-h.md
+                - RG40XX V: devices/anbernic/rg40xx-v.md
+                - RGCubeXX: devices/anbernic/rgcubexx.md
+              - GoRetroid:
+                - Retroid Pocket 5: devices/goretroid/retroid-pocket-5.md
+                - Retroid Pocket Mini: devices/goretroid/retroid-pocket-mini.md
+              - Orange Pi Zero 2w:
+                - Orange Pi Zero 2w: devices/orange-pi/orange-pi-zero-2w.md
+              - Powkiddy:
+                - RGB30: devices/powkiddy/rgb30.md
+                - X55: devices/powkiddy/x55.md
+              - TrimUI:
+                - Brick: devices/trimui/brick.md
+                - Smart Pro: devices/trimui/smart-pro.md
 nav:
     - Home: index.md
     - About KNULLI: about-knulli.md
