@@ -26,3 +26,10 @@ To play media with MPV,
 | :material-gamepad-circle-right:                 | Take screenshot (currently disabled)                     |
 | ++"L1"++                                        | Slow down playback                                       |
 | ++"R1"++                                        | Speed up playback                                        |
+
+## Alternative Music Players
+
+If you are wanting a more "mp3 player" like experience, there are several options available in PortMaster.
+- Rockbox (lets you select the folders to scan for music)
+- Songo #5 (lets you select the folder to scan for music)
+- Gmu Music Player (music goes in `roms/ports/gmu-music-player/music`)
