@@ -2,7 +2,13 @@
 
 Um KNULLI installieren zu können, musst du als erstes ein passendes Image für dein Gerät herunterladen. Anschließend kannst du das Image auf eine passende SD-Karte (oder den internen Speicher deines Geräts) flashen. Der Installationvorgang beginnt, wenn du dein Gerät zum ersten Mal mit der geflashten SD-Karte (oder dem geflashten internen Speicher) bootest.
 
-## Schritt 1: Image herunterladen [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## Schritt 1: Gerät vorbereiten
+
+Die meisten Handhelds erfordern keine spezielle Vorbereitung. Falls dein Gerät allerdings in der folgenden Liste auftaucht, ergreife bitte die nötigen Vorbereitungsschritte bevor du die Installation fortsetzt!
+
+* [Miyoo Flip](../../devices/miyoo/flip/#installation)
+
+## Schritt 2: Image herunterladen [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
 
 * Lade die aktuellste Version von KNULLI für dein Gerät von der [Release-Seite](https://github.com/knulli-cfw/distribution/releases/latest) herunter.
     * Du findest Download-Links für alle Geräte und Plattformen, die von uns unterstützt werden, in der Tabelle "`Installation Package Downloads`".
@@ -11,7 +17,7 @@ Um KNULLI installieren zu können, musst du als erstes ein passendes Image für 
 
 !!! warning "Falls dein Gerät *nicht* ist der Liste der `Installation Package Downloads` enthalten ist, gibt es noch keine öffentlich zugängliche Release-Version von Knulli für dein Gerät. Du solltest *nicht* versuchen, ein Installationspaket für ein anderes Gerät zu installieren."
 
-## Schritt 2: Speicher flashen
+## Schritt 3: Speicher flashen
 
 * Entpacke zunächst das komprimierte Image (z.B. mit [7-Zip](https://7-zip.org/)).
 * Anschließend kannst du das Image mit einem entsprechenden Tool auf deine SD-Karte oder den Gerätespeicher flashen.
@@ -27,7 +33,7 @@ Nur das Laufwerk *BATOCERA* wird von KNULLI mit FAT32 formatiert, damit du auch 
 
     Beim Flashen wird eine Partition namens *SHARE* angelegt, auf der später deine Spiele etc. abgelegt werden können. Die *SHARE*-Partition wird allerdings erst beim ersten Booten auf ihre volle Größe ausgedehnt. Es ist *zwingend* notwendig, KNULLI einmal hochzufahren und die Installation abzuschließen, *bevor* du auf die *SHARE*-Partition zugreifen kannst. Wirf einen Blick in den Abschnitt [Spiele hinzufügen](./add-games/index.md) um zu erfahren, wie du Spiele und andere Dateien auf dein KNULLI-Gerät aufspielst."
 
-## Schritt 3: Boote das Gerät
+## Schritt 4: Boote das Gerät
 
 * Stecke die SD-Karte in den dafür vorgesehen Slot während das Gerät ausgeschaltet ist.
     * Falls das Gerät einen zweiten SD-Karten-Slot hat, solltest du vor dem ersten Hochfahren sicherstellen, dass der zweite Slot leer ist.

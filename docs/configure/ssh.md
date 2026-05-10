@@ -1,5 +1,11 @@
 # :material-console: SSH
 
+!!! info "SSH is a service now"
+
+    Starting with KNULLI Scarab, SSH is a service that you can enable and disable anytime you like. For users who do not need it, keeping it disabled might save a bit of battery charge.
+
+    To enable SSH, go to *System Settings*, then *Services* and enable *SSH*!
+
 As an advanced user, you might want to access the command line (or shell) of your KNULLI device to enter Linux commands directly. You may do so by connecting to KNULLI via SSH. There are several SSH clients available. For Windows users, we recommmend [SmarTTY](https://sysprogs.com/SmarTTY) (which is also able to do file transfers) or [PuTTY](https://www.putty.org).
 
 However, it is also possible to simply use the SSH client which is already integrated in your operating system: Most Linux distributions and modern Windows versions come with a SSH command line tool, MacOS comes with one by default as well.

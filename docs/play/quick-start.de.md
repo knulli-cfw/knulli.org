@@ -4,6 +4,12 @@ Moin! Willkommen bei KNULLI!
 
 Mit dieser Schnellstartanleitung wollen wir dir helfen, KNULLI auf deinem Handheld in Betrieb zu nehmen. Falls du **zum ersten Mal** einen Retro-Gaming-Handheld einrichtest und Emulatoren und Custom Firwmwares (CFWs) für dich **Neuland** sind, wird diese Anleitung dich durch deine **ersten Schritte** führen. Falls du ein **erfahrener Nutzer** bist, wird diese Anleitung dir einen Überblick verschaffen, was KNULLI **grundlegend** von anderen Custom Firmwares **unterscheidet**, die du evtl. bereits benutzt hast.
 
+## Gerät vorbereiten
+
+Die meisten Handhelds erfordern keine spezielle Vorbereitung. Falls dein Gerät allerdings in der folgenden Liste auftaucht, ergreife bitte die nötigen Vorbereitungsschritte bevor du die Installation fortsetzt!
+
+* [Miyoo Flip](../../devices/miyoo/flip/#installation)
+
 ## KNULLI installieren [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
 
 Zuerst solltest du die aktuellste KNULLI-Version in unserem [GitHub-Repository](https://github.com/knulli-cfw/distribution/releases/latest) identifizieren, die **exakt für dein Gerät** vorgesehen ist. Du findest eine Übersicht über alle verfügbaren Downloads in der Tabelle *Installation Download Package*. Lade die KNULLI-Version für dein Gerät herunter und "flash" sie auf eine SD-Karte. Du solltest **nicht** versuchen, irgendetwas nach der Installation manuell zu formatieren - KNULLI wird das für dich erledigen! Steck die SD-Karte einfach in dein Gerät und **entferne** alle weiteren SD-Karten aus den übrigen Slots deines Geräts, falls vorhanden. Jetzt kannst du dein KNULLI-Gerät einschalten und booten, um die Installation abzuschließen. (Der erste Bootvorgang kann relativ lange dauern, da KNULLI währenddessen deine Spielepartition expandieren und formatieren wird. Bleib geduldig!)

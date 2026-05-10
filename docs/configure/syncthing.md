@@ -21,7 +21,7 @@ Once the initial Syncthing setup was done, you should receive notifications in E
 
 ## Setting up Syncthing on your KNULLI device
 
-!!! "Syncthing does not use a "cloud".
+!!! info "Syncthing does not use a cloud."
 
     To use Syncthing between two devices they must be both powered on and connected to the same network.
 

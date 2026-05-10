@@ -17,6 +17,7 @@
 | Anbernic | [RGCubeXX](./anbernic/rgcubexx.md) | Allwinner H700 (ARM) | Allwinner BSP 4.9.170 | [`knulli-h700-rg-cubexx...`](https://github.com/knulli-cfw/distribution/releases) |
 | GoRetroid | [Retroid Pocket 5](./goretroid/retroid-pocket-5.md) | Snapdragon 865 | --- | --- |
 | GoRetroid | [Retroid Pocket Mini](./goretroid/retroid-pocket-mini.md) | Snapdragon 865 | --- | --- |
+| Miyoo | [Flip](./miyoo/flip.md) | Rockchip RK3566 | --- | [`knulli-rk3566-miyoo-flip...`](https://github.com/knulli-cfw/distribution/releases) |
 | Powkitty | [RGB30](./powkiddy/rgb30.md) | Rockchip RK3566 (ARM) | Rockchip BSP 4.19 | --- |
 | Powkitty | [X55](./powkiddy/x55.md) | Rockchip RK3566 (ARM) | Rockchip BSP 4.19 | --- |
 | TrimUI | [Brick](./trimui/brick.md) | Allwinner A133 / PowerVR GE8300 | Allwinner BSP | [`knulli-a133-trimui-brick...`](https://github.com/knulli-cfw/distribution/releases) |
