@@ -45,7 +45,7 @@ Si necesitas más ayuda para instalar una actualización mayor, consulta nuestra
 
 Puedes actualizar KNULLI descargando el **paquete de arranque** para tu dispositivo y reemplazando manualmente el archivo `batocera`.
 
-1. Descarga el **paquete de arranque** más reciente para tu dispositivo desde nuestra [Página de Versiones](https://github.com/knulli-cfw/distribution/releases/latest) siguiendo estos pasos:
+1. Descarga el **paquete de arranque** más reciente para tu dispositivo desde nuestra [Página de Versiones](https://github.com/knulli-cfw/knulli-linux/releases/latest) siguiendo estos pasos:
     * Desplázate hasta el final de la última versión para encontrar su lista de **recursos**.
     * Identifica el **paquete de arranque** para tu dispositivo asegurándote de que:
         * contenga el nombre del dispositivo (por ejemplo, `rg35xx-h` para la Anbernic RG35XX-H).

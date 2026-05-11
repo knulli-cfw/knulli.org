@@ -4,9 +4,9 @@
 
 このクイックスタートガイドでは、ハンドヘルドデバイスでKNULLIを使い始めるための手順を説明します。ハンドヘルドエミュレーションやカスタムファームウェア(CFW)を**完全に初めて**使う方でも、このガイドは**最初のステップ**を順を追って説明します。**上級ユーザー**の方でも、このガイドを通して、KNULLIがこれまで使ってきた他のカスタムファームウェアと**どのように異なるのか**を知ることができます。
 
-## KNULLIのインストール [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## KNULLIのインストール [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
-[GitHub repository](https://github.com/knulli-cfw/distribution/releases/latest)で最新のKNULLIリリースを探し、*Installation Package Downloads*セクションから**お使いのデバイス**を見つけてダウンロードし、SDカードに書き込んでください。その後、手動でフォーマットする必要は**ありません**。KNULLI があなたのために自動的に処理します！ SDカードをデバイスのシステム用スロットに挿入し、他のスロットは**何も挿入せず**、デバイスを起動してインストールを完了してください。 (KNULLIがゲームパーティションを拡張してフォーマットするため、初回起動には時間がかかる場合があります。しばらくお待ちください。)
+[GitHub repository](https://github.com/knulli-cfw/knulli-linux/releases/latest)で最新のKNULLIリリースを探し、*Installation Package Downloads*セクションから**お使いのデバイス**を見つけてダウンロードし、SDカードに書き込んでください。その後、手動でフォーマットする必要は**ありません**。KNULLI があなたのために自動的に処理します！ SDカードをデバイスのシステム用スロットに挿入し、他のスロットは**何も挿入せず**、デバイスを起動してインストールを完了してください。 (KNULLIがゲームパーティションを拡張してフォーマットするため、初回起動には時間がかかる場合があります。しばらくお待ちください。)
 
 KNULLIのインストール方法についてさらに詳しい情報が必要な場合は、[インストール](./install.md)セクションを参照してください。
 

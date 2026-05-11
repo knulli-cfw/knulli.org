@@ -45,7 +45,7 @@ If you need more help installing a major update, have a look at our [Major Updat
 
 KNULLI can be updated by downloading the **boot package** for your device and replacing the `batocera` file manually.
 
-1. Download the latest **boot package** for your device from our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest) by following these steps:
+1. Download the latest **boot package** for your device from our [Releases page](https://github.com/knulli-cfw/knulli-linux/releases/latest) by following these steps:
     * Scroll to the bottom of the latest release to find it's **Assets** list.
     * Identify the **boot package** for your respective device by making sure
         * it contains the device name (e.g., `rg35xx-h` for the Anbernic RG35XX-H).

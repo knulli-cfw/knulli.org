@@ -16,7 +16,7 @@ Cihazınız internete erişim sağlıyorsa, KNULLI'yi doğrudan EmulationStation
 
 Cihazınızın internete erişimi yoksa, manuel olarak da güncelleyebilirsiniz
 
-1. Cihazınız için en son KNULLI güncellemesini (.tar) [yayınlar sayfasından](https://github.com/knulli-cfw/distribution/releases/latest) indirin.
+1. Cihazınız için en son KNULLI güncellemesini (.tar) [yayınlar sayfasından](https://github.com/knulli-cfw/knulli-linux/releases/latest) indirin.
 	* Desteklediğimiz her cihaz/platform için indirme bağlantıları "`Update Package Downloads`" başlığı altında bulunabilir.
     * Cihazınız için doğru .tar dosyasını indirdiğinizden emin olun. 
     * Herhangi bir sorunuz varsa, belirli cihazınız için hangi .tar'ı indirmeniz gerektiğini doğrulamak için [Cihaz Desteği](../devices/index.md) bölümünü kontrol edebilirsiniz.

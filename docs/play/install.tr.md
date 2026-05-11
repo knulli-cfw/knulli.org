@@ -2,9 +2,9 @@
 
 KNULLI, cihazınız için bir disk görüntüsü indirerek, bunu bir SD Kart'a (veya cihazınızın dahili depolama alanına) yazarak ve ardından cihazı başlatarak kurulum sürecini başlatarak kurar.
 
-## Adım 1: İndirme [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=En%20Yeni&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=En%20Yeni&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## Adım 1: İndirme [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=En%20Yeni&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=En%20Yeni&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
-* Cihazınız için en son KNULLI sürümünü [yayınlar sayfasından](https://github.com/knulli-cfw/distribution/releases/latest) indirin.
+* Cihazınız için en son KNULLI sürümünü [yayınlar sayfasından](https://github.com/knulli-cfw/knulli-linux/releases/latest) indirin.
     * Desteklediğimiz her cihaz/platform için indirme bağlantıları "`Kurulum Paketi İndirmeleri`" ("`Installation Package Downloads`") başlığı altında bulunabilir.
     * Cihazınız için doğru disk görüntüsünü indirdiğinizden emin olun. Örneğin; [RG35XX](../devices/anbernic/rg35xx.md) üzerine KNULLI kuruyorsanız, `rg35xx` görüntüsünü indirmelisiniz.
     * Herhangi bir sorunuz varsa, belirli cihazınız için hangi görüntüyü indirmeniz gerektiğini doğrulamak için [Cihaz Desteği](../devices/index.md) sayfasını kontrol edebilirsiniz.

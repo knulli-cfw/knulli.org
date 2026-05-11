@@ -4,23 +4,25 @@
 
 # Welcome to KNULLI :material-gamepad:
 
-## A new release has come into being! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## A new release has come into being! [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
 *"Only one may enter here, one whose worth lies far within."*
 
 All the pieces have finally been put together for the release of **KNULLI Scarab**. We, the KNULLI team, are happy and proud to invite you into this cave of wonders!
 
-KNULLI Scarab is a **major** update which brings a ton of new features and quality-of-life features. Most notably,
+KNULLI Scarab is a **major** update which brings a ton of new features and quality-of-life improvements. Most notably,
 
 - KNULLI now fully supports the revised H700 devices of Anbernic's RG XX series
+- Added support for BattleXP G350, GKD Pixel 2, Miyoo Flip, Powkiddy X55, Retroid Pocket 5, Flip 2, and many others
 - **RetroArch** has been updated to **1.22.2**
 - **Standalone Yabasanshiro** was added for better performance on SEGA Saturn emulation
 - improved **[Syncthing integration](./configure/syncthing)** allows you to trigger syncs manually or even automatically on game exit while notifications keep you posted about transfer progress
 - our new [**BatteryPlus**](./configure/batteryplus) gives you more precise information about your current battery state
 - new and [improved RGB support via **Silky RGB**](./configure/rgb-leds) (thank you, [doughn0](https://github.com/doughn0/SilkyRGB)!)
+- [**PortMaster**](./systems/portmaster/#installing-portmaster) can now be installed directly from the [*Device Settings* menu](./systems/portmaster/#installing-portmaster)
 - A ton of **bugfixes** and **improvements** to system stability, performance, and battery life
 
-You will find a complete list of all new features, fixes, and changes in the [change log](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md).
+You will find a complete list of all new features, fixes, and changes in the [change log](https://github.com/knulli-cfw/knulli-linux/blob/knulli-main/knulli-Changelog.md).
 
 !!! warning "Major Update"
 

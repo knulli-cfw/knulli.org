@@ -7,10 +7,14 @@ KNULLI is installed by downloading an image for your device, flashing it to an S
 For most devices, no specific preparation is required. However, if your device is one of the following, please make sure to prepare the device before you install KNULLI.
 
 * [Miyoo Flip](../../devices/miyoo/flip/#installation)
+* [Retroid Pocket 5](../../devices/goretroid/retroid-pocket-5/#installation)
+* [Retroid Pocket Flip 2](../../devices/goretroid/retroid-pocket-flip-2/#installation)
+* [Retroid Pocket Mini](../../devices/goretroid/retroid-pocket-mini/#installation)
+* [Retroid Pocket Mini V2](../../devices/goretroid/retroid-pocket-mini-v2/#installation)
 
-## Step 2: Download [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## Step 2: Download [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
-* Download the latest version of KNULLI for your device from the [releases page](https://github.com/knulli-cfw/distribution/releases/latest).
+* Download the latest version of KNULLI for your device from the [releases page](https://github.com/knulli-cfw/knulli-linux/releases/latest).
     * You'll find download links for each device/platform we support under the "`Installation Package Downloads`" header.
     * Make sure to download the correct image for your device.  For example; if you are installing KNULLI on a [RG35XX](../devices/anbernic/rg35xx.md) you would download the `rg35xx` image.
     * If there are multiple files download all parts 001, 002 etc.

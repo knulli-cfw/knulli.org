@@ -20,7 +20,7 @@ Para activar el modo de reanudación rápida,
 ### Solución de problemas
 
 
-En el improbable caso de que tu dispositivo no pueda cargar el juego o se quede atascado en un bucle de reinicio, puedes desactivar manualmente el *Quick Resume Mode* modificando el archivo de configuración principal de KNULLI. Este archivo se encuentra en la siguiente ubicación: `system/batocera.conf`.
+En el improbable caso de que tu dispositivo no pueda cargar el juego o se quede atascado en un bucle de reinicio, puedes desactivar manualmente el *Quick Resume Mode* modificando el archivo de configuración principal de KNULLI. Este archivo se encuentra en la siguiente ubicación: `system/knulli.conf`.
 
 Debes eliminar las líneas correspondientes a estos 3 valores, que aparecen casi al final del archivo de configuración:
 

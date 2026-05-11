@@ -4,7 +4,7 @@
 
 # :material-gamepad: Bienvenido a la wiki de KNULLI
 
-## ¡Es hora de una secuela! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## ¡Es hora de una secuela! [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
 *"¿Es así como Roma trata a sus héroes?"*
 
@@ -14,7 +14,7 @@ La nueva versión es una actualización de KNULLI Gladiator, que sigue utilizand
 
 Obviamente, no podemos prometer nada, pero a menos que hagamos **grandes** cambios que requieran un reinstalación, podrás instalar **todas las futuras** actualizaciones de KNULLI vía OTA. (¡Esto **no** acortará los ciclos de desarrollo! Espera actualizaciones OTA aproximadamente cada 3 o 4 meses en el canal de actualizaciones **estables**).
 
-Encontrarás una lista completa de todas las nuevas características, correcciones y cambios en el [registro de cambios](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md). Sin embargo, aquí tienes algunos puntos destacados:
+Encontrarás una lista completa de todas las nuevas características, correcciones y cambios en el [registro de cambios](https://github.com/knulli-cfw/knulli-linux/blob/knulli-main/knulli-Changelog.md). Sin embargo, aquí tienes algunos puntos destacados:
 
 ### Nuevas características de KNULLI Gladiator II
 

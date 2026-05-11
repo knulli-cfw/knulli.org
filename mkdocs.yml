@@ -59,7 +59,7 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/knulli-cfw/distribution
+      link: https://github.com/knulli-cfw/knulli-linux
     - icon: fontawesome/brands/discord 
       link: https://discord.gg/HXPS3DAeeB
   extra:
@@ -529,7 +529,9 @@ nav:
         - RGCubeXX: devices/anbernic/rgcubexx.md
       - GoRetroid:
         - Retroid Pocket 5: devices/goretroid/retroid-pocket-5.md
+        - Retroid Pocket Flip 2: devices/goretroid/retroid-pocket-flip-2.md
         - Retroid Pocket Mini: devices/goretroid/retroid-pocket-mini.md
+        - Retroid Pocket Mini V2: devices/goretroid/retroid-pocket-mini-v2.md
       - Miyoo:
         - Miyoo Flip: devices/miyoo/flip.md
       - Orange Pi Zero 2w:

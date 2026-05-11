@@ -1,14 +1,14 @@
-# Retroid Pocket Mini
+# Retroid Pocket Mini V2
 
 ## Overview
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
-| Retroid Pocket Mini | Snapdragon 865 | --- |--- | Emulation Station |
+| Retroid Pocket Mini V2 | Snapdragon 865 | --- |--- | Emulation Station |
 
 ## Installation
 
-The Retroid Pocket Mini is capable of booting both Android **and** Linux.
+The Retroid Pocket Mini V2 is capable of booting both Android **and** Linux.
 To run KNULLI on your Retroid device, simply prepare a KNULLI SD card as explained in our [Quick Start Guide](../../play/quick-start.md) and plug it in the SD Card slot of your Retroid device, then follow these steps:
 
 * Shut down your Retroid device (or reboot it from the Android menu).
