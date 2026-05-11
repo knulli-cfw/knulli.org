@@ -4,7 +4,7 @@
 
 # KNULLIへようこそ :material-gamepad:
 
-## 続編の時間だ! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## 続編の時間だ! [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
 *"これがローマの英雄への扱いなのか？"*
 
@@ -14,7 +14,7 @@
 
 もちろん確約はできませんが、再フラッシュが必要となるような**大きな**変更がない限り、今後のKNULLIアップデートは**全て**OTAでインストールできるようになります。(ただし、開発サイクルが短縮される**わけではありません**！ **stable**アップデートでは、約3～4か月毎にアップデートが提供される予定です。)
 
-新機能、修正点、変更点の完全なリストは[change log](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md)に記載されています。以下に主要な変更点をいくつかご紹介します。:
+新機能、修正点、変更点の完全なリストは[change log](https://github.com/knulli-cfw/knulli-linux/blob/knulli-main/knulli-Changelog.md)に記載されています。以下に主要な変更点をいくつかご紹介します。:
 
 ### KNULLI Gladiator IIの新機能
 

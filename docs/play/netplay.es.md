@@ -21,4 +21,4 @@
 * Selecciona el host de la lista y presiona el Botón Este (:material-gamepad-circle-right:) para unirte a la partida.
 * Si el host no aparece, revisa la configuración del wifi y asegúrate de que los dispositivos estén en el mismo punto de acceso. En el caso de la conexión ad hoc, en algunas circunstancias podrías tener que conectarte manualmente al punto de acceso ad hoc iniciado por el host antes de ejecutar el juego.
 
-Puedes encontrar más parámetros de configuración, como el nombre y el puerto del punto de acceso ad hoc, en el archivo `batocera.conf`.
+Puedes encontrar más parámetros de configuración, como el nombre y el puerto del punto de acceso ad hoc, en el archivo `knulli.conf`.

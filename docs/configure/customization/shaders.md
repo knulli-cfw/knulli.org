@@ -244,4 +244,4 @@ After rebooting your system, it should now automatically create a link which mak
 
 !!! info "Permanent link in overlay"
 
-    It would also be possible to store a **permanent** link in the `overlay` file rather than re-creating the link on every boot. To do so, simply [SSH](../ssh.md) into the device, create the link with the command shown above and run `batocera-save-overlay` to make the change permanent. However, by creating the link via `custom.sh` on boot, the link would survive re-flashing SD 1 on dual SD card setups and can also be included in your backups of the entire `userdata` folder.
+    It would also be possible to store a **permanent** link in the `overlay` file rather than re-creating the link on every boot. To do so, simply [SSH](../ssh.md) into the device, create the link with the command shown above and run `knulli-save-overlay` to make the change permanent. However, by creating the link via `custom.sh` on boot, the link would survive re-flashing SD 1 on dual SD card setups and can also be included in your backups of the entire `userdata` folder.

@@ -3,6 +3,7 @@ site_url: https://knulli.org
 repo_url: https://github.com/knulli-cfw/knulli.org
 repo_name: knulli.org
 copyright: Copyright Creative Commons Attribution-ShareAlike 4.0 International
+docs_dir: docs
 theme:
   name: material
   logo: _inc/images/logo-knulli.png
@@ -58,7 +59,7 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/knulli-cfw/distribution
+      link: https://github.com/knulli-cfw/knulli-linux
     - icon: fontawesome/brands/discord 
       link: https://discord.gg/HXPS3DAeeB
   extra:
@@ -140,6 +141,7 @@ plugins:
                 - Juegos Multidisco: configure/multi-disc-games.md
                 - LEDs RGB: configure/rgb-leds.md
                 - Administración de Energía: configure/power-management.md
+                - BatteryPlus: configure/batteryplus.md
                 - Personalización:
                     - Personalización: configure/customization/index.md
                     - Temas: configure/customization/themes.md
@@ -148,6 +150,7 @@ plugins:
                     - Imagen de Inicio: configure/customization/bootlogo.md
                     - Filtros: configure/customization/shaders.md
                 - SSH: configure/ssh.md
+                - Sincronización: configure/syncthing.md
                 - Retroarch:
                     - Controles: configure/retroarch/controls.md
                     - Atajos Personalizados: configure/retroarch/custom-hotkey-shortcuts.md
@@ -168,7 +171,6 @@ plugins:
                 - Actualizaciones Mayores: guides/major-updates.md
                 - Particionado: guides/partitioning.md
                 - PortMaster y exFAT: guides/portmaster-and-exfat.md
-                - Sincronización: guides/syncthing.md
                 - Extraer Firmware:
                     - A133: guides/firmware-extraction/A133-firmware-extract.md
                     - H700: guides/firmware-extraction/h700-firmware-extract.md
@@ -214,7 +216,9 @@ plugins:
                 - Spielesammlungen: configure/collections.md
                 - Spiele mit mehreren CDs: configure/multi-disc-games.md
                 - RGB LEDs: configure/rgb-leds.md
+                - Bildschirmeinstellungen: configure/display-settings.md
                 - Energieeinstellungen: configure/power-management.md
+                - BatteryPlus: configure/batteryplus.md
                 - Personalisieren:
                     - Personalisieren: configure/customization/index.md
                     - Themes: configure/customization/themes.md
@@ -223,6 +227,7 @@ plugins:
                     - Bootlogo: configure/customization/bootlogo.md
                     - Shaders: configure/customization/shaders.md
                 - SSH: configure/ssh.md
+                - Syncthing: configure/syncthing.md
                 - Retroarch:
                     - Controller: configure/retroarch/controls.md
                     - Benutzerdefinierte Tastenkombinationen: configure/retroarch/custom-hotkey-shortcuts.md
@@ -243,7 +248,6 @@ plugins:
                 - Umfangreiche Updates: guides/major-updates.md
                 - Partitionieren: guides/partitioning.md
                 - PortMaster und exFAT: guides/portmaster-and-exfat.md
-                - Syncthing: guides/syncthing.md
                 - Firmware Extraction:
                     - A133: guides/firmware-extraction/A133-firmware-extract.md
                     - H700: guides/firmware-extraction/h700-firmware-extract.md
@@ -470,7 +474,9 @@ nav:
       - Collections: configure/collections.md
       - Multi-Disc Games: configure/multi-disc-games.md
       - RGB LEDs: configure/rgb-leds.md
+      - Display Settings: configure/display-settings.md
       - Power Management: configure/power-management.md
+      - BatteryPlus: configure/batteryplus.md
       - Customization:
         - Customization: configure/customization/index.md
         - Themes: configure/customization/themes.md
@@ -479,6 +485,7 @@ nav:
         - Boot Logo: configure/customization/bootlogo.md
         - Shaders : configure/customization/shaders.md
       - SSH: configure/ssh.md
+      - Syncthing: configure/syncthing.md
       - Retroarch:
         - Controls: configure/retroarch/controls.md
         - Custom Hotkey Shortcuts: configure/retroarch/custom-hotkey-shortcuts.md
@@ -499,7 +506,6 @@ nav:
         - Major Updates: guides/major-updates.md
         - Partitioning: guides/partitioning.md
         - PortMaster and exFAT: guides/portmaster-and-exfat.md
-        - Syncthing: guides/syncthing.md
         - Firmware Extraction:
             - A133: guides/firmware-extraction/A133-firmware-extract.md
             - H700: guides/firmware-extraction/h700-firmware-extract.md
@@ -523,7 +529,11 @@ nav:
         - RGCubeXX: devices/anbernic/rgcubexx.md
       - GoRetroid:
         - Retroid Pocket 5: devices/goretroid/retroid-pocket-5.md
+        - Retroid Pocket Flip 2: devices/goretroid/retroid-pocket-flip-2.md
         - Retroid Pocket Mini: devices/goretroid/retroid-pocket-mini.md
+        - Retroid Pocket Mini V2: devices/goretroid/retroid-pocket-mini-v2.md
+      - Miyoo:
+        - Miyoo Flip: devices/miyoo/flip.md
       - Orange Pi Zero 2w:
         - Orange Pi Zero 2w: devices/orange-pi/orange-pi-zero-2w.md
       - Powkiddy:

@@ -2,9 +2,9 @@
 
 KNULLI se instala descargando una imagen para tu dispositivo, grabándola en una tarjeta SD (o en el almacenamiento interno) y luego encendiéndolo para iniciar el proceso de instalación.
 
-## Paso 1: Descargar [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## Paso 1: Descargar [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
-* Descarga la versión más reciente de KNULLI para tu dispositivo desde la [Página de Versiones](https://github.com/knulli-cfw/distribution/releases/latest).
+* Descarga la versión más reciente de KNULLI para tu dispositivo desde la [Página de Versiones](https://github.com/knulli-cfw/knulli-linux/releases/latest).
     * Encontrarás enlaces de descarga para cada dispositivo/plataforma compatible en la sección `Installation Package Downloads`.
     * Asegúrate de descargar la imagen correcta para tu dispositivo. Por ejemplo, si estás instalando KNULLI en una [RG35XX](../devices/anbernic/rg35xx.md), deberías descargar la imagen `rg35xx`.
     * Si hay varios archivos, descarga todas las partes 001, 002, etc.

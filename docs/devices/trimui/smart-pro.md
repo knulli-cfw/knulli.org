@@ -92,7 +92,7 @@ For now, we just want to make your new calibration files stick. You have two opt
 
 Persisting changes in an overlay file is **easier**, however an overlay must be **deleted** every time you update your system. Hence, every time you update your device, you gotta SSH in, copy the files in their place, and persist the change in an overlay **again**. If you want this option:
 
-* type `batocera-save-overlay` in the command prompt while the SSH connection is still established and wait for the command to do its magic
+* type `knulli-save-overlay` in the command prompt while the SSH connection is still established and wait for the command to do its magic
 * That's it, you are done, you may close the command prompt now!
 
 #### Option 2: `custom.sh`

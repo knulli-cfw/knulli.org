@@ -13,9 +13,15 @@ The library is divided in two major categories:
 
 ## Installing PortMaster
 
-After installing KNULLI for the first time, you will find the PortMaster install script (*Install.PortMaster*) in the *Ports* category. Running this script will install PortMaster on your KNULLI device and restart EmulationStation automatically. Now, you will find *PortMaster* in the *Ports* category instead of the install script.
+After installing KNULLI for the first time, you can install PortMaster from the *Device Settings* menu.
 
-!!! info "If the PortMaster installer (*Install.PortMaster*) is missing from your *Ports* section, do not panic. This might happen, e.g., if you [updated](../play/update.md) from a previous version without PortMaster or if you use an SD card which is already populated with games. In this case, you can find the installer in our [Github repository](https://github.com/knulli-cfw/distribution/blob/knulli-main/board/batocera/allwinner/h700/fsoverlay/usr/share/batocera/datainit/roms/ports/Install.PortMaster.sh). Download the file (`Install.PortMaster.sh`) and add it to `roms/ports` as you would [add a game](../play/add-games/index.md)."
+* Press ++"Start"++ to bring up the main menu
+* Go to *Device Settings*
+* Got to *Install Portmaster*
+* Once the installation is completed, ES will re-load to scan for new games and apps
+* You will now find *PortMaster* in the *Ports* category
+
+If you ever feel the need to re-install PortMaster, simply repeat the steps above.
 
 ## Managing games
 

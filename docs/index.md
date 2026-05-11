@@ -1,44 +1,36 @@
 <div class="preview-container">
-  <img class="off-glb" src="/_inc/images/knulli-header-gladiator-ii.png"/>
+  <img class="off-glb" src="/_inc/images/knulli-header-scarab.png"/>
 </div>
 
 # Welcome to KNULLI :material-gamepad:
 
-## It's time for a sequel! [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## A new release has come into being! [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
-*"Is this how Rome treats its heroes?"*
+*"Only one may enter here, one whose worth lies far within."*
 
-Oh yes, it is! KNULLI Gladiator was *so* good, it was bound to get a sequel. Hence, we are proud to announce that **KNULLI Gladiator II** has just gone public!
+All the pieces have finally been put together for the release of **KNULLI Scarab**. We, the KNULLI team, are happy and proud to invite you into this cave of wonders!
 
-The new version is an update of KNULLI Gladiator, using still the same emulator versions etc. However, the new version comes with a couple of bugfixes and quality-of-life improvements. Most prominently, with Gladiator II, we finally introduce **OTA (over the air) updates** which will enable you to install future updates directly on-device!
+KNULLI Scarab is a **major** update which brings a ton of new features and quality-of-life improvements. Most notably,
 
-We can't make any promises, obviously, but unless we make any **huge** changes which would require a reflash, you will be able to install **all future** KNULLI updates via OTA. (This will **not** shorten development cycles though! Expect OTA updates about every 3-4 month or so on the **stable** update channel.)
-
-You will find a complete list of all new features, fixes, and changes in the [change log](https://github.com/knulli-cfw/distribution/blob/knulli-main/knulli-Changelog.md). However, here are some highlights:
-
-### New features of KNULLI Gladiator II
-
-- Added **device support** for Anbernic RG34XX SP, RG35XX Pro and Powkiddy V90S, V20
-- **[Over-the-air updates](./play/update.md)** via the *Updates & Downloads* menu will make future updates considerably more easy
-- **SMB (SAMBA)** is now a [**service** you can turn on/off](./play/add-games/network-transfer.md) which is **disabled** by default
-- Added a toggle for always [auto-assigning](./configure/controls.md) the **built-in controls** to player one and fixed issues with **USB controller assignment**
-- Fixed issues with **standalone Dreamcast/PSP emulators** on **A133** devices (TrimUI Brick, TrimUI Smart Pro)
-- Bezel decorations
-    - are now **enabled automatically** when *Decoration Set* is set to *Auto*
-    - are now supported for **standalone** emulators on **H700** devices (Anbernic RG XX series)
-    - now come with a set *Default-Knulli-SP* specifically for **GBA** to give **SP** vibes on 4:3 clamshell displays
-- A **Disk Check** utility to verify your SD card's integrity was added to *System Settings* → *Frontend Developer Options*
-- **Soft reset** [hotkey shortcut](./play/hotkey-shortcuts.md) can be used to force EmulationStation to restart
-- **[Factory reset](./configure/reset-to-factory-settings.md)** is now possible on-device via EmulationStation
+- KNULLI now fully supports the revised H700 devices of Anbernic's RG XX series
+- Added support for BattleXP G350, GKD Pixel 2, Miyoo Flip, Powkiddy X55, Retroid Pocket 5, Flip 2, and many others
+- **RetroArch** has been updated to **1.22.2**
+- **Standalone Yabasanshiro** was added for better performance on SEGA Saturn emulation
+- improved **[Syncthing integration](./configure/syncthing)** allows you to trigger syncs manually or even automatically on game exit while notifications keep you posted about transfer progress
+- our new [**BatteryPlus**](./configure/batteryplus) gives you more precise information about your current battery state
+- new and [improved RGB support via **Silky RGB**](./configure/rgb-leds) (thank you, [doughn0](https://github.com/doughn0/SilkyRGB)!)
+- [**PortMaster**](./systems/portmaster/#installing-portmaster) can now be installed directly from the [*Device Settings* menu](./systems/portmaster/#installing-portmaster)
 - A ton of **bugfixes** and **improvements** to system stability, performance, and battery life
+
+You will find a complete list of all new features, fixes, and changes in the [change log](https://github.com/knulli-cfw/knulli-linux/blob/knulli-main/knulli-Changelog.md).
 
 !!! warning "Major Update"
 
-    This version of KNULLI comes with a lot of new features which **require to re-flash the firmware**. Specifically, we need to **increase partition size** of the `BATOCERA` drive to accommodate OTA updates in the future.
-    
-    If you **update** from **Gladiator** to **Gladiator II**, you may keep your `system` folder and adopt all your previous settings, there will not be any compatibility issues between those two versions.
-    
-    For everyone else, we **strongly recommend** to simply start over with a clean install. However, if you want to try migrating your user data from a previous installation to the new installation, please have a look at the [Major Updates guide](./guides/major-updates.md).
+    This version of KNULLI comes with a lot of new features which **require to re-flash the firmware**. Specifically, we need to **change the partition table** of the SD card.
+
+    Additionally, a lot of files and paths have been renamed between **Gladiator II** and **Scarab**, hence even your configuration files in the `system` folder will, once again, **not be compatible**.
+
+    Hence, we **strongly recommend** to start over with a clean install. However, if you want to try migrating your user data from a previous installation to the new installation, please have a look at the [Major Updates guide](./guides/major-updates.md).
 
 If you are **new to KNULLI** and want to get started: Head to the [Quick Start Guide](./play/quick-start.md) on our website - it will guide you through the installation and your very first steps.
 

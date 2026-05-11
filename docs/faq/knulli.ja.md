@@ -38,13 +38,13 @@ A: 一言で言うと：はい！
 
 ### Q: 最新バージョンはどこでダウンロードできますか？
 
-A: KNULLIの最新バージョンは、[リリースページ](https://github.com/knulli-cfw/distribution/releases/latest)で入手できます。`Installation Package Downloads`からお使いのデバイス用のダウンロードを探し、[クイックスタートガイド](../play/quick-start.md)に従ってKNULLIをインストールしてください。もしあなたのデバイスがリストにない場合はしばらくお待ちください。お使いのデバイス向けのKNULLIの一般公開版はまだありません。
+A: KNULLIの最新バージョンは、[リリースページ](https://github.com/knulli-cfw/knulli-linux/releases/latest)で入手できます。`Installation Package Downloads`からお使いのデバイス用のダウンロードを探し、[クイックスタートガイド](../play/quick-start.md)に従ってKNULLIをインストールしてください。もしあなたのデバイスがリストにない場合はしばらくお待ちください。お使いのデバイス向けのKNULLIの一般公開版はまだありません。
 
 ---
 
 ### Q: どのデバイスがサポートされていますか？
 
-A: 現在サポートされているデバイスの一覧は、[リリースページ](https://github.com/knulli-cfw/distribution/releases/latest)の`Installation Package Downloads`に掲載されています。お使いのデバイスが一覧にない場合は、現時点ではお使いのデバイス向けのKNULLIの一般公開版は提供されていません。
+A: 現在サポートされているデバイスの一覧は、[リリースページ](https://github.com/knulli-cfw/knulli-linux/releases/latest)の`Installation Package Downloads`に掲載されています。お使いのデバイスが一覧にない場合は、現時点ではお使いのデバイス向けのKNULLIの一般公開版は提供されていません。
 
 ---
 

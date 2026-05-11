@@ -39,7 +39,7 @@ To reach the hotkey customizing menu for a single **game** only,
 
     Since the "Firefly" version, KNULLI supports customizing hotkeys for RetroArch cores. However, with KNULLI, you are not expected to customize hotkeys **inside** of RetroArch. Instead, you are supposed to customize hotkeys via **EmulationStation**, the KNULLI GUI.
     
-    If you still have hotkey customizations from a previous installation of KNULLI, either in form of **game/system overrides** or in form of manual edits to `batocera.conf`, please remove them **before** customizing your hotkeys via EmulationStation as explained below.
+    If you still have hotkey customizations from a previous installation of KNULLI, either in form of **game/system overrides** or in form of manual edits to `knulli.conf`, please remove them **before** customizing your hotkeys via EmulationStation as explained below.
 
 In the *Hotkeys* menu, you will find a list of actions which can be bound to hotkey shortcuts on the emulation level. **All** hotkey shortcuts will rely on the ++"Function"++ button (also known as ++"F"++, ++"M"++, or ++"Menu"++ button) being pressed and hold while pressing a **second button**. This **second button** is what you can customize in the *Hotkeys* menu.
 
