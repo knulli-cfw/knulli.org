@@ -6,7 +6,7 @@
 
     Whenever a game is launched in KNULLI, **all** emulator-specific configuration files are **purged** and new files are generated, based on the settings you made in **EmulationStation**. Hence, settings you make within the emulator GUI at runtime will be of **no consequence**, they will be lost when you re-start the game.
 
-    Yeah, yeah, don't worry: **Advanced RetroArch users** will still be able to set up their games directly in RetroArch. However, to do so, you must rely on [**overrides**](../configure/customization/shaders.md) and [**remap files**](../configure/retroarch/controls.md) or try your luck with manually editing `batocera.conf`. Be aware that certain KNULLI features (e.g., using a multi-resolution bezel set to have a bezel decoration on the built-in screen **and** when playing via HDMI out without ever having to manually switch bezel decorations) are **not compatible** with overrides.
+    Yeah, yeah, don't worry: **Advanced RetroArch users** will still be able to set up their games directly in RetroArch. However, to do so, you must rely on [**overrides**](../configure/customization/shaders.md) and [**remap files**](../configure/retroarch/controls.md) or try your luck with manually editing `knulli.conf`. Be aware that certain KNULLI features (e.g., using a multi-resolution bezel set to have a bezel decoration on the built-in screen **and** when playing via HDMI out without ever having to manually switch bezel decorations) are **not compatible** with overrides.
 
     Making your settings the KNULLI way certainly has advantages. This section will teach you how to set up games with KNULLI.
 

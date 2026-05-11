@@ -7,10 +7,14 @@ Um KNULLI installieren zu können, musst du als erstes ein passendes Image für 
 Die meisten Handhelds erfordern keine spezielle Vorbereitung. Falls dein Gerät allerdings in der folgenden Liste auftaucht, ergreife bitte die nötigen Vorbereitungsschritte bevor du die Installation fortsetzt!
 
 * [Miyoo Flip](../../devices/miyoo/flip/#installation)
+* [Retroid Pocket 5](../../devices/goretroid/retroid-pocket-5/#installation)
+* [Retroid Pocket Flip 2](../../devices/goretroid/retroid-pocket-flip-2/#installation)
+* [Retroid Pocket Mini](../../devices/goretroid/retroid-pocket-mini/#installation)
+* [Retroid Pocket Mini V2](../../devices/goretroid/retroid-pocket-mini-v2/#installation)
 
-## Schritt 2: Image herunterladen [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## Schritt 2: Image herunterladen [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
-* Lade die aktuellste Version von KNULLI für dein Gerät von der [Release-Seite](https://github.com/knulli-cfw/distribution/releases/latest) herunter.
+* Lade die aktuellste Version von KNULLI für dein Gerät von der [Release-Seite](https://github.com/knulli-cfw/knulli-linux/releases/latest) herunter.
     * Du findest Download-Links für alle Geräte und Plattformen, die von uns unterstützt werden, in der Tabelle "`Installation Package Downloads`".
     * Stelle sicher, dass du das richtige Image für dein Gerät herunterlädst. Wenn du KNULLI z.B. auf einem [RG35XX](../devices/anbernic/rg35xx.md) installieren möchtest, musst du das `rg35xx`-Image herunterladen.
     * Wenn unklar ist, welches Image für dein Gerät geeignet ist, kannst du im Abschnitt [Unterstützte Geräte](../devices/index.md) überprüfen, welches Image du für dein Gerät herunterladen solltest.

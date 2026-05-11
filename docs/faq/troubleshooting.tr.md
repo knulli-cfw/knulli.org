@@ -25,9 +25,9 @@ C: 64GB'lık bir SDCARD ile genişletme ve ilk kez önyükleme işlemi 1 ila 1:3
 
 ### S: En son sürüme güncelledim/güncelledim ve cihazın sesi yok, ya da kontrollerim yanıt vermiyor, ya da başka bir şey beklediğim gibi çalışmıyor:
 
-C: Eğer eski bir sürümden güncellediyseniz, ``batocera.conf`` dosyasını SDCARD'ınıza kopyalamanız gerekebilir:
-  * Tek bir SDCARD kullanıyorsanız, ikinci bölümü (``SHARE``) PC/Mac/Linux bilgisayarınıza bağlayın ve dosyayı ``system/batocera.conf``'a kopyalayın
-  * İki SDCARD kullanıyorsanız, ikinci SDCARD'ı PC/Mac/Linux bilgisayarınıza bağlayın ve dosyayı ``system/batocera.conf``'a kopyalayın
+C: Eğer eski bir sürümden güncellediyseniz, ``knulli.conf`` dosyasını SDCARD'ınıza kopyalamanız gerekebilir:
+  * Tek bir SDCARD kullanıyorsanız, ikinci bölümü (``SHARE``) PC/Mac/Linux bilgisayarınıza bağlayın ve dosyayı ``system/knulli.conf``'a kopyalayın
+  * İki SDCARD kullanıyorsanız, ikinci SDCARD'ı PC/Mac/Linux bilgisayarınıza bağlayın ve dosyayı ``system/knulli.conf``'a kopyalayın
 
 ---
 

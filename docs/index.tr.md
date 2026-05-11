@@ -26,7 +26,7 @@ KNULLI, GPU (GLES desteği) olan cihazları ve sadece framebuffer olanları (esk
 
 ## Topluluk
 
-KNULLI, tartışma için Discord ve [:simple-github: GitHub](https://github.com/knulli-cfw/distribution/discussions) tartışma sayfalarını kullanır, katılmak isterseniz lütfen bu bağlantıyı kullanın: [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB)
+KNULLI, tartışma için Discord ve [:simple-github: GitHub](https://github.com/knulli-cfw/knulli-linux/discussions) tartışma sayfalarını kullanır, katılmak isterseniz lütfen bu bağlantıyı kullanın: [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB)
 
 ## Lisanslar
 

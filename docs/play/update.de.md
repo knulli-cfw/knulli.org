@@ -45,7 +45,7 @@ Falls du weitere Hilfe dabei brauchst, ein größeres Update zu installieren, so
 
 Du kannst die KNULLI-Installation auf deinem Gerät aktualisieren, indem du das neueste **Boot-Package** für dein Gerät herunterlädst und manuell die `batocera`-Datei auf deinem Gerät ersetzt.
 
-1. Lade das aktuelle **Boot-Package** für dein Gerät von unserer [Releases-Seite](https://github.com/knulli-cfw/distribution/releases/latest) herunter, indem du den folgenden Schritten folgst:
+1. Lade das aktuelle **Boot-Package** für dein Gerät von unserer [Releases-Seite](https://github.com/knulli-cfw/knulli-linux/releases/latest) herunter, indem du den folgenden Schritten folgst:
     * Scroll bis zum Ende des aktuellsten Releases, wo du die **Assets**-Liste findest.
     * Identifiziere das **Boot-Package** für dein jeweiliges Gerät indem du sicherstellst, dass
         * es den Namen deines Gerätes enthält (z.B. `rg35xx-h` für ein Gerät vom Typ Anbernic RG35XX-H).

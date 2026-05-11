@@ -83,13 +83,13 @@ points to your **external** storage (if you have a dual SD card setup).
 Consequently, on a **single SD card setup**, the paths
 
 ```
-/media/SHARE/system/batocera.conf
+/media/SHARE/system/knulli.conf
 ```
 
 and
 
 ```
-/userdata/system/batocera.conf
+/userdata/system/knulli.conf
 ```
 
 point **to the exact same file**.
@@ -97,13 +97,13 @@ point **to the exact same file**.
 Following that principle, on a **dual SD card setup**, the paths
 
 ```
-/media/SHARE_1/system/batocera.conf
+/media/SHARE_1/system/knulli.conf
 ```
 
 and
 
 ```
-/userdata/system/batocera.conf
+/userdata/system/knulli.conf
 ```
 
 point **to the exact same file**, too.
@@ -136,7 +136,7 @@ Most patch installations (or manual modifications) to your KNULLI system follow 
 
 * Add, replace, or remove files **outside** of your `/userdata` folder
 * Make some of the files **executable** by applying the command `chmod +x` to the files.
-* **Create** or **update** your **overlay** by executing the command `batocera-save-overlay` which makes all the changes persistent.
+* **Create** or **update** your **overlay** by executing the command `knulli-save-overlay` which makes all the changes persistent.
 * Reboot your device.
 
 Some developers **simplify** this process for you, by providing a **patch installer** which does most of these steps for you. However, even if you received a patch installer, you will still have to make the patch installer **executable** and run it from an SSH command line.
@@ -231,7 +231,7 @@ Have a close look at the output of this command, maybe copy-paste it to a text f
 
 Some **patch installers** implicitly create or update the **overlay**. However, some do not. If your patch did **not** come with a patch installer, if you want to patch in your **own modifications**, or if you are not sure whether the patch you applied created an overlay, you better do it yourself. To do so, establish a SSH connection (as explained in the [SSH](./ssh.md) section) and execute the following command:
 ```
-batocera-save-overlay
+knulli-save-overlay
 ```
 Once the overlay was created/updated successfully, you can type
 ```

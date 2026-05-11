@@ -30,7 +30,7 @@ KNULLI has a native integration with [RetroAchievements](https://retroachievemen
 
 It is possible to add these details over the network via SSH or FTP, please reference the guide on [Configuring SSH](../configure/ssh.md) or [Using FTP/SCP](./add-games/network-transfer.md) to get started.
 
-When you have a connection open, you will need to open the Batocera config file in a Text Editor: `/userdata/system/batocera.conf`
+When you have a connection open, you will need to open the Batocera config file in a Text Editor: `/userdata/system/knulli.conf`
 
 In this file, you can then set the following options. The values are stored in plaintext and require no quotations.
 

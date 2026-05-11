@@ -1,7 +1,7 @@
 # Welcome to the KNULLI Wiki!
 
 > [!IMPORTANT]
-> This is the repository of the **KNULLI Website**. Please **do not report issues** regarding the **operating system** in this repository. If you want to report issues with KNULLI, either use the **[issue tracker of the distribution repository](https://github.com/knulli-cfw/distribution/issues)** or simply **[join us on Discord](https://discord.gg/HXPS3DAeeB)**.
+> This is the repository of the **KNULLI Website**. Please **do not report issues** regarding the **operating system** in this repository. If you want to report issues with KNULLI, either use the **[issue tracker of the distribution repository](https://github.com/knulli-cfw/knulli-linux/issues)** or simply **[join us on Discord](https://discord.gg/HXPS3DAeeB)**.
 
 The **[official KNULLI website](https://knulli.org)** is a source of information for our users. It is our mission to keep it up-to-date and to be always in line with the **latest public KNULLI version**. However, like the software itself, the KNULLI website is an open-source project and a community effort. We consider the KNULLI website a wiki which means that **you** are invited to participate in adding and improving any information!
 
@@ -115,7 +115,7 @@ Source code and any texts the user is expected to input via keyboard (including 
 If you want to add an entire block of code, e.g. a multi-line excerpt from a configuration file, put three backticks in a line, put the code excerpt in the following lines and end the code block by adding another line of only three backticks:
 
 ````
-Here are some lines from `batocera.conf` as an example:
+Here are some lines from `knulli.conf` as an example:
 
 ```
 system.toggleswitch.mode=mute
