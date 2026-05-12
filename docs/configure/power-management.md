@@ -25,7 +25,7 @@ This section contains several power saving options to improve your battery life.
 * **Mode** allows you to set the first stage battery saving mode. The device will automatically go to this mode after a given idle time has passed.
     * *Dim* simply dims the screen and mutes the audio output.
     * *Display off* simply turns the screen off entirely and mutes the audio output.
-    * *Suspend* puts the device into sleep mode (which will render the **Extended Mode** unreachable).
+    * *Suspend* puts the device into sleep mode.
     * *Shutdown* will power the device off (which will render the **Extended Mode** unreachable).
     * *None* disables first stage battery saving mode.
 * **Idle Time** sets the idle time which needs to pass before the devices goes into the battery saving **Mode**.
