@@ -8,7 +8,7 @@ The world of shaders can be a pretty deep rabbit hole. Thankfully, KNULLI will m
 
 ## Built-in shader configurations
 
-KNULLI comes with a small variety of shader configurations which can be easily applied directly from EmulationStation. You can apply built-in shader configurations either **globally**, per **system**, or even per **game**.
+KNULLI comes with a small variety of shader configurations which can be easily applied directly from EmulationStation. You can apply built-in shader configurations either **globally**, per **system**, or even per **game**.  Note that not all shader sets will work well for all devices and resolutions.
 
 ### Apply a shader configuration globally
 
@@ -47,13 +47,20 @@ The per-system setting can be used to **override** the **global** and/or the **s
 * *Curvature* applies crt-lottes-fast by default for most consoles and zfast-lcd for many handhelds. This provides some simple scanline and CRT curvature effects for consoles and a simple LCD grid for the handheld systems.
 * *Enhanced* applies advanced-aa (anti-aliasing) by default, with psp-color being applied to some handheld systems and 2xScaleHQ for "Arcade" systems (neogeo, neogeocd, mame, fbneo, naomi, naomi2, and atomiswave).
 * *Flatten-Glow* applies the blur filter kawase_glow to simulate the glowing color bleed of CRTs. Some of the handheld systems use a version of simpletex_lcd which applies a texture to the output, simulating the old LCD displays, but some of them include color correction shaders stacked with them.
+* *RCG-Integer-Dramatic-LCD-CRT* applies a custom shader preset based on some of Retro Game Corps' recommendations for a dramatic glow effect for CRT systems and LCD grids for handheld systems. This requires integer scaling in order to render evenly.
+* *RCG-Noninteger-Dramatic-LCD-CRT* applies a custom shader preset based on some of Retro Game Corps' recommendations for a dramatic glow effect for CRT systems and LCD grids for handheld systems, but is intended to be used for systems without integer scaling.
 * *Retro* applies sharp-bilinear-simple to most systems and bevel for most handhelds.
-* *RGC-Dramatic-CRT* applies a custom shader preset based on some of Retro Game Corps' recommendations for a dramatic glow effect. This requires integer scaling in order to render evenly.
+* *Retrovibes-480p* is a collection of shaders intended to invoke some nostalga for grids, blur, and scanlines while maintaining performance on the H700 and A133 chips.  Not intended to be pixel perfect, just a mood. This version is intended for 480p devices.
+* *Retrovibes-720p-HMDI* is a collection of shaders intended to invoke some nostalga for grids, blur, and scanlines while maintaining performance on the H700 and A133 chips.  Not intended to be pixel perfect, just a mood. This version is intended for devices that output HDMI at 720p (most Anbernic devices with mini-HMDI out).
+* *Retrovibes-720p* is a collection of shaders intended to invoke some nostalga for grids, blur, and scanlines while maintaining performance on the H700 and A133 chips.  Not intended to be pixel perfect, just a mood. This version is intended for 720p devices (RGCubeXX).
+* *Retrovibes-768p* is a collection of shaders intended to invoke some nostalga for grids, blur, and scanlines while maintaining performance on the H700 and A133 chips.  Not intended to be pixel perfect, just a mood. This version is intended for 768p devices (Trimui Brick and Brick Hammer).
 * *Scanlines* for most systems applies crt-pi for low GPU devices and crt-easymode for other devices as well as lcd-grid-v2 to most handhelds to provide some basic CRT effects and grids.
 * *Sharp-Bilinear-Simple* applies sharp-bilinear-simple to *all* systems.
 * *Sharp-Shimmerless* applies sharp-shimmerless to all systems (recommended by RGC for pixel balancing on non-integer scaled systems).
 * *Sharp-Shimmerless-LCD-CRT* applies the sharp-shimmerless variants that include scanlines for consoles and grid lines for handhelds (recommended by RGC for pixel balencing on non-integer scaled systems).
 * *Zfast* applies zfast-crt to most systems for a simple CRT effect and zfast-lcd for most handhelds for a simple grid.
+* *Upscaled-Modern* Applies some upscaling effects for a "modern pixel" look. (applies super-eagle to all systems)
+
 
 !!! info "Interactions between shader sets and decoration sets (bezels)"
     While most shader sets can be applied in conjunction with most decoration sets, there can be conflicts due to scaling weirdness or both the shader and the bezel overlay trying to do the same job but different. For example, some handheld overlays have an LCD style grid built into them to provide that type of effect. By itself this is fine and less processor intensive (and more performance friendly) than using a shader to achieve the same effect. However, it is also possible to have a shader that applies a differently spaced grid on the image resulting in two conflicting grids on top of the emulated game image which is somewhat unpleasant. In those cases, it may be best to set either the shader set or decoration set for that system to "None" if you prefer the effect of the other method.
@@ -71,7 +78,7 @@ However, with the following example, we give you a very brief overview on what t
 !!! info "This is just an example"
     We will use one of the [Shimmerless](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader) shaders as an **example** here, however, the method can be applied to **any compatible shader**.
     
-    In the current releases of KNULLI (Gladiator and later), the sharp-shimmerless shaders are **already included** by default, so there is no need for you to re-create the steps tutorial to enable sharp-shimmerless!
+    In the current releases of KNULLI (Gladiator and later), the sharp-shimmerless shaders are **already included** by default, so there is no need for you to re-create the steps in this tutorial to enable sharp-shimmerless!
     
     Still, these instructions provide a valid example how to add a filter to KNULLI and apply it either in RetroArch or directly via EmulationStation.
 
@@ -105,7 +112,7 @@ shaders/
        └─ sharp-shimmerless-scanlines.glsl
 ```
 
-* The `*.glsp` and `*.glsl` files used in this example can be extracted from the [Shimmerless GitHub repository](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
+* The `*.glsp` and `*.glsl` files used in this example can be extracted from the [Shimmerless GitHub repository](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader).
 
 #### Editing rendering-defaults.yml for your custom configuration
 
@@ -179,7 +186,7 @@ You can apply more than one shader on top of each other, which is why you can **
 
     Our friend Russ from Retro Game Corps has created a **very** thorough guide on how to use shaders and overlays. In this guide, he is giving countless examples on how to properly stack shaders and which shaders tie in well with which overlays and how to set them up. His guide is not KNULLI-specific; however, it is compatible with KNULLI. If you are new to shaders or if you need inspiration on how to tweak your shader setup, [have a look here](https://retrogamecorps.com/2024/09/01/guide-shaders-and-overlays-on-retro-handhelds/)!
 
-If you choose to **load**, **append**, or **prepend** a shader, a menu will open which will bring up all the pre-defined shaders which **come with KNULLI**. At the top of the screen, you will see the folder you are currently in, which is `/usr/share/batocera/shaders`. By selecting `Parent Directory`, you can navigate up to the parent directory of the folder you are currently in.
+If you choose to **load**, **append**, or **prepend** a shader, a menu will open which will bring up all the pre-defined shaders which **come with KNULLI**. At the top of the screen, you will see the folder you are currently in, which is `/usr/share/knulli/shaders`. By selecting `Parent Directory`, you can navigate up to the parent directory of the folder you are currently in.
 
 !!! danger "Known issue: RetroArch top-level file system shortcuts currently do not work with KNULLI"
 
@@ -214,7 +221,7 @@ You can also delete existing override files from this menu.
 
 ### Adding your own RetroArch shaders
 
-KNULLI already comes with a lot of pre-defined shaders which are stored in the **read-only** part of the KNULLI file system in a folder called `/usr/share/batocera/shaders`. However, you are **not** supposed to **delete** or **add** any shaders there. Instead, KNULLI expects your **own shaders** to be stored in the `shaders` folder in your `userdata`/`SHARE` folder. (If you want to learn more about the `shaders` folder, have a look at the thorough documentation in the [Batocera wiki](https://wiki.batocera.org/emulationstation:shaders_set).)
+KNULLI already comes with a lot of pre-defined shaders which are stored in the **read-only** part of the KNULLI file system in a folder called `/usr/share/knulli/shaders`. However, you are **not** supposed to **delete** or **add** any shaders there. Instead, KNULLI expects your **own shaders** to be stored in the `shaders` folder in your `userdata`/`SHARE` folder. (If you want to learn more about the `shaders` folder, have a look at the thorough documentation in the [Batocera wiki](https://wiki.batocera.org/emulationstation:shaders_set).)
 
 If you do not have such a folder yet, access your `userdata` folder (e.g., via [network transfer](../../play/add-games/network-transfer.md)) and add the `shaders` folder. Afterwards, you can copy all your RetroArch shaders into that folder.
 
@@ -236,11 +243,11 @@ The easiest way would be to create a symbolic link when your device is starting 
   at the **top** of the file.
 * Now add the line
   ```
-  ln -s /userdata/shaders /usr/share/batocera/shaders/userdata-shaders
+  ln -s /userdata/shaders /usr/share/knulli/shaders/userdata-shaders
   ```
   at the **end** of the file.
 
-After rebooting your system, it should now automatically create a link which makes `/userdata/shaders` available at `/usr/share/batocera/shaders/userdata-shaders`. Consequently, when you bring up the menu for **loading**, **prepending**, or **appending** shaders, you should find the subfolder `userdata-shaders` among the other contents of `/usr/share/batocera/shaders`. When entering `userdata-shaders`, you should find all your custom shaders you have stored in `/userdata/shaders`.
+After rebooting your system, it should now automatically create a link which makes `/userdata/shaders` available at `/usr/share/knulli/shaders/userdata-shaders`. Consequently, when you bring up the menu for **loading**, **prepending**, or **appending** shaders, you should find the subfolder `userdata-shaders` among the other contents of `/usr/share/knulli/shaders`. When entering `userdata-shaders`, you should find all your custom shaders you have stored in `/userdata/shaders`.
 
 !!! info "Permanent link in overlay"
 
