@@ -2,9 +2,19 @@
 
 KNULLI is installed by downloading an image for your device, flashing it to an SD Card (or your device's internal storage) and then booting the device to start the install process.
 
-## Step 1: Download [![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/distribution/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/distribution/releases/latest)
+## Step 1: Device preparation
 
-* Download the latest version of KNULLI for your device from the [releases page](https://github.com/knulli-cfw/distribution/releases/latest).
+For most devices, no specific preparation is required. However, if your device is one of the following, please make sure to prepare the device before you install KNULLI.
+
+* [Miyoo Flip](../../devices/miyoo/flip/#installation)
+* [Retroid Pocket 5](../../devices/goretroid/retroid-pocket-5/#installation)
+* [Retroid Pocket Flip 2](../../devices/goretroid/retroid-pocket-flip-2/#installation)
+* [Retroid Pocket Mini](../../devices/goretroid/retroid-pocket-mini/#installation)
+* [Retroid Pocket Mini V2](../../devices/goretroid/retroid-pocket-mini-v2/#installation)
+
+## Step 2: Download [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
+
+* Download the latest version of KNULLI for your device from the [releases page](https://github.com/knulli-cfw/knulli-linux/releases/latest).
     * You'll find download links for each device/platform we support under the "`Installation Package Downloads`" header.
     * Make sure to download the correct image for your device.  For example; if you are installing KNULLI on a [RG35XX](../devices/anbernic/rg35xx.md) you would download the `rg35xx` image.
     * If there are multiple files download all parts 001, 002 etc.
@@ -14,7 +24,7 @@ KNULLI is installed by downloading an image for your device, flashing it to an S
 
     If your device is *not* listed among the `Installation Package Downloads`, there is no public release of Knulli for your device, yet. You should *not* attempt to use a package for a different device.
 
-## Step 2: Flash
+## Step 3: Flash
 
 * First decompress the image.
 * If there are mulitple parts with .001 and 002, ensure they are all in the same folder and use [7zip](https://www.7-zip.org/) to extract the 001 file and will extract all parts. 
@@ -33,7 +43,7 @@ After successful flashing, the *BATOCERA* drive will be the only drive formatted
 
     During flashing, a partition called *SHARE* will be created. This is where all your games and other data will be stored. However, the *SHARE* partition will only be expanded to its full size during first boot. It is *mandatory* to finish installation by booting KNULLI *before* you can access the *SHARE* partition and start adding your games. Please have a look at the [Add Games](./add-games/index.md) section to learn how to add games to your KNULLI device - *after first boot*."
 
-## Step 3: Boot your device
+## Step 4: Boot your device
 
 * Insert your SD Card into your device while it is turned off.
     * If your device has a secondary SD card slot, please make sure it is empty during first boot.

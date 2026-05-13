@@ -21,4 +21,4 @@
 * Select the host from the list and press the East face button (:material-gamepad-circle-right:) to join the game.
 * If the host does not appear, double check the wifi settings and make sure that the devices are on the same access point.  In the case of ad hoc, in some cirmustances you may need to manually connect to the ad hoc access point started by the host before running the game.
 
-Further configuration parameters like ad hoc access point name and port can be found in the `batocera.conf` file.
+Further configuration parameters like ad hoc access point name and port can be found in the `knulli.conf` file.

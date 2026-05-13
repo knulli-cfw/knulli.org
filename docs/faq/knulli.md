@@ -37,13 +37,13 @@ The long answer is: After we adapted Batocera to make it work on the RG35XX Plus
 
 ### Q: Where can I download the latest version?
 
-A: You will find the latest version of KNULLI on our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). Find the download for your device in the `Installation Package Downloads` section and follow the [Quick Start Guide](../play/quick-start.md) to install KNULLI on your device. If your device is not listed there, please be patient - there is no public release of KNULLI for your device available, yet.
+A: You will find the latest version of KNULLI on our [Releases page](https://github.com/knulli-cfw/knulli-linux/releases/latest). Find the download for your device in the `Installation Package Downloads` section and follow the [Quick Start Guide](../play/quick-start.md) to install KNULLI on your device. If your device is not listed there, please be patient - there is no public release of KNULLI for your device available, yet.
 
 ---
 
 ### Q: Which devices are supported?
 
-A: You will find a list of all currently supported devices in the `Installation Package Downloads` section of our [Releases page](https://github.com/knulli-cfw/distribution/releases/latest). If your device is not listed there, there is no public release of KNULLI for your device available, yet.
+A: You will find a list of all currently supported devices in the `Installation Package Downloads` section of our [Releases page](https://github.com/knulli-cfw/knulli-linux/releases/latest). If your device is not listed there, there is no public release of KNULLI for your device available, yet.
 
 ---
 

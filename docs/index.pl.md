@@ -26,7 +26,7 @@ KNULLI obsługuje urządzenia z GPU ( wsparcie GLES) i tylko z buforem ramki (le
 
 ## Społeczność
 
-KNULLI korzysta z Discorda i [:simple-github: GitHub](https://github.com/knulli-cfw/distribution/discussions) stron dyskusyjnych :simple-github: GitHub do dyskusji, jeśli chcesz do nas dołączyć, skorzystaj z tego linku: [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB)
+KNULLI korzysta z Discorda i [:simple-github: GitHub](https://github.com/knulli-cfw/knulli-linux/discussions) stron dyskusyjnych :simple-github: GitHub do dyskusji, jeśli chcesz do nas dołączyć, skorzystaj z tego linku: [:simple-discord: Discord](https://discord.gg/HXPS3DAeeB)
 
 ## Licencje
 

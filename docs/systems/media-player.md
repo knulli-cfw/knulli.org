@@ -30,6 +30,7 @@ To play media with MPV,
 ## Alternative Music Players
 
 If you are wanting a more "mp3 player" like experience, there are several options available in PortMaster.
+
 - Rockbox (lets you select the folders to scan for music)
 - Songo #5 (lets you select the folder to scan for music)
 - Gmu Music Player (music goes in `roms/ports/gmu-music-player/music`)

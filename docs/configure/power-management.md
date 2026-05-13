@@ -14,22 +14,26 @@ You will find the *Power Management* settings in the *Device Settings* menu.
 
 This section contains several power saving options to improve your battery life.
 
-!!! warning "Shutdown while in sleep mode"
+!!! info "Shutdown while in sleep mode"
 
-    Users keep asking us for a way to gracefully shut the device down while it is in sleep mode. **This is not possible.** While the device is in sleep mode, **no code can be run** on the device. Hence, it is **impossible** for us to execute any code that shuts the device down while it is on sleep mode. There is no point in asking or waiting for this feature - it simply cannot be done.
+    Many users like to set up their device so that it **suspends** first, then completely **shuts down** after some time. This is possible by setting **Mode** to **Suspend** and **Extended Mode** to **Shutdown**.
 
-    Similarly, if you set **mode** to *suspend* in the *Power Management* settings, the **extended mode** will never be reached since the device will already be asleep.
+!!! warning "Inefficient suspend modes"
+
+    Depending on the device you are using, **suspend mode** might drain your battery **surprisingly fast**. This is **not** a problem of Knulli and not something which can be fixed with software. We do **not** recommend to leave your device in suspend mode for longer periods of time!
 
 * **Mode** allows you to set the first stage battery saving mode. The device will automatically go to this mode after a given idle time has passed.
     * *Dim* simply dims the screen and mutes the audio output.
     * *Display off* simply turns the screen off entirely and mutes the audio output.
-    * *Suspend* puts the device into sleep mode (which will render the **Extended Mode** unreachable).
+    * *Suspend* puts the device into sleep mode.
     * *Shutdown* will power the device off (which will render the **Extended Mode** unreachable).
     * *None* disables first stage battery saving mode.
 * **Idle Time** sets the idle time which needs to pass before the devices goes into the battery saving **Mode**.
 * **Extended Mode** allows you to set the second stage battery saving mode. The device will automatically go to this mode after the extended idle time has passed. Be aware that extended mode can never be reached if the device was already put on suspend or shutdown by the first **Mode**.
 * **Extended Idle Time** sets the idle time which needs to pass before the devices goes into **Extended Mode**. This timer only begins after the device was put into first stage battery saving **Mode**.
+* **Disable Battery Saving When Charging** allows to disable any battery saving functions (such as shutting down when idle) while the device is plugged to a power source.
 * **Aggressive Battery Saver** will attempt to optimize battery life further by applying some additional power-saving measures while the system is idle.
+* **Mute Audio When Idle** mutes all audio when the first idle mode kicks in.
 * **Lid Close Mode** is an optional battery save mode which is only available on devices with detectable lid closing (e.g., the RG35XX SP). When closing the lid, the respective mode will be applied.
     * *Display off* simply turns the screen off entirely and mutes the audio output. (Key presses will still wake up the device!)
     * *Suspend* puts the device into sleep mode (which will render **Mode** and **Extended Mode** unreachable).

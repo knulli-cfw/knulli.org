@@ -1,5 +1,11 @@
 # :material-console: SSH
 
+!!! info "SSH ist jetzt ein Hintergrunddienst"
+
+    Seit KNULLI Scarab, ist SSH ein Service, ein Hintergrunddienst, den du selbst jederzeit ein- oder ausschalten kannst. Wenn du SSH nicht benötigst, kannst du es einfach ausgeschaltet lassen, und so evtl. ein Bisschen Akkulaufzeit einsparen.
+
+    Um SSH zu aktivieren musst du *System Settings* öffnen, dort *Services* auswählen und dann *SSH* aktivieren!
+
 Als fortgeschrittener Nutzer möchtest du möglicherweise auf die Kommandozeile (oder Shell) deines KNULLI-Gerätes zugreifen, um Linux-Befehle direkt eingeben zu können. KNULLI stellt dafür einen SSH-Zugang bereit. Es gibt viele verschiedene SSH-Clients, die du nutzen kannst, um Zugriff auf die Shell deines KNULLI-Gerätes zu erhalten. Für Windows-Nutzer empfehlen wir [SmarTTY](https://sysprogs.com/SmarTTY) (das sogar Dateiübertragungen möglich macht) oder [PuTTY](https://www.putty.org).
 
 Es ist allerdings auch möglich, den SSH-Client zu verwenden, der bereits in dein Betriebssystem integriert ist: Die meisten Linux-Distributionen und modernen Windows-Versionen enthalten bereits ein SSH-Programm, das auf der Kommandozeile ausgeführt werden kann.
