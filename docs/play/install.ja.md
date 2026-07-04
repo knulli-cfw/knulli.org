@@ -2,6 +2,16 @@
 
 KNULLIのインストール方法は、お使いのデバイス用のイメージファイルをダウンロードし、それをSDカード（またはデバイスの内部ストレージ）に書き込み、デバイスを起動してインストールプロセスを開始するという手順です。
 
+## ステップ 1: デバイスの準備
+
+ほとんどのデバイスでは特別な準備は必要ありません。しかし、あなたのデバイスが以下の一覧にある場合、KNULLIのインストールを行う前に準備作業を行ってください。
+
+* [Miyoo Flip](../../devices/miyoo/flip/#installation)
+* [Retroid Pocket 5](../../devices/goretroid/retroid-pocket-5/#installation)
+* [Retroid Pocket Flip 2](../../devices/goretroid/retroid-pocket-flip-2/#installation)
+* [Retroid Pocket Mini](../../devices/goretroid/retroid-pocket-mini/#installation)
+* [Retroid Pocket Mini V2](../../devices/goretroid/retroid-pocket-mini-v2/#installation)
+
 ## ステップ 1: ダウンロード [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
 * お使いのデバイスに対応した最新バージョンのKNULLIを[リリースページ](https://github.com/knulli-cfw/knulli-linux/releases/latest)からダウンロードしてください。

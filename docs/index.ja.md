@@ -1,44 +1,36 @@
 <div class="preview-container">
-  <img class="off-glb" src="/_inc/images/knulli-header-gladiator-ii.png"/>
+  <img class="off-glb" src="/_inc/images/knulli-header-scarab.png"/>
 </div>
 
 # KNULLIへようこそ :material-gamepad:
 
-## 続編の時間だ! [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
+## 新しいリリースが公開されました！ [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
-*"これがローマの英雄への扱いなのか？"*
+*"ここへ入ることを許されるのは一人だけ。その真価は内にこそ宿る者である。"*
 
-ええ、そのとおりです！ **KNULLI Gladiator**は大好評だったので、続編が出るのは必然でした。この度、**KNULLI Gladiator II**を発表できることを大変嬉しく思います！
+ついに、KNULLI Scarab のリリースに向けたすべての準備が整いました。私たちKNULLIチームは、この素晴らしい世界へ皆さんをご案内できることを嬉しく、そして誇りに思います。
 
-新バージョンは KNULLI Gladiatorのアップデートで、 エミュレータ等は同じバージョンを使用しています。 しかし、新バージョンにはいくつかのバグ修正と利便性の向上が含まれています。 中でも特筆すべきなのは Gladiator IIでは、ついに我々は**OTA (over the air) アップデート**が導入され、今後のアップデートをデバイス上で直接インストールできるようになることです！
+KNULLI Scarabは、多数の新機能と使い勝手の向上を含む大規模アップデートです。主な変更点は以下のとおりです。
 
-もちろん確約はできませんが、再フラッシュが必要となるような**大きな**変更がない限り、今後のKNULLIアップデートは**全て**OTAでインストールできるようになります。(ただし、開発サイクルが短縮される**わけではありません**！ **stable**アップデートでは、約3～4か月毎にアップデートが提供される予定です。)
+- **KNULLIがAnbernic RG XXシリーズの新しいH700リビジョンを完全サポート
+- **BattleXP G350、GKD Pixel 2、Miyoo Flip、Powkiddy X55、Retroid Pocket 5、Flip 2など、多数の新しいデバイスに対応
+- **RetroArch を 1.22.2 に更新
+- **SEGA Saturn エミュレーションの性能向上のため、Standalone Yabasanshiro を追加
+- **Syncthing の統合機能を改善し、手動同期だけでなくゲーム終了時の自動同期にも対応。通知により転送状況も確認できます。
+- **新機能 BatteryPlus により、現在のバッテリー状態をより正確に確認可能
+- **Silky RGB による新しく改良されたRGBサポート（ありがとう、doughn0さん！）
+- **PortMaster を Device Settings メニューから直接インストール可能
+- **システムの安定性、パフォーマンス、バッテリー寿命に関する多数のバグ修正と改善
 
-新機能、修正点、変更点の完全なリストは[change log](https://github.com/knulli-cfw/knulli-linux/blob/knulli-main/knulli-Changelog.md)に記載されています。以下に主要な変更点をいくつかご紹介します。:
-
-### KNULLI Gladiator IIの新機能
-
-- Anbernic RG34XX SP, RG35XX Pro and Powkiddy V90S, V20への**デバイスサポート**の追加
-- *更新とダウンロード*メニューから**[OTAアップデート](./play/update.md)** 可能になり、今後のアップデートが大幅に容易になります。
-- **SMB (SAMBA)**はデフォルトで無効になっていましたが、[**サービス**からon/off可能になりました](./play/add-games/network-transfer.md) 。
-- **内蔵コントローラ**を常にプレイヤー1に[自動割り当て](./configure/controls.md)するトグルを追加しました。また、 **USBコントローラアサイン**の問題を修正しました。
-- **A133**デバイス(TrimUI Brick、 TrimUI Smart Pro)における **スタンドアロン ドリームキャスト/PSP エミュレータ**に関する問題を修正しました。
-- ベゼル装飾
-    - *ベゼル(画面外装表示)*が*自動*になっている場合、**自動的に有効になります**。
-    - **H700**デバイス(anvernic RGXXシリーズ)上の**スタンドアロン**エミュレータがサポートされるようになりました。
-    - **GBA**専用の*Default-Knulli-SP*セットが付属し、4:3画面折りたたみデバイスで**SP**の雰囲気を演出します。
-- SDカードの整合性をチェックするための**ディスクチェック**ユーティリティが、*システム 設定* → *開発者オプション* に追加されました。
-- **ソフトリセット**の[ホットキー](./play/hotkey-shortcuts.md)を使用すると、EmulationStationを強制的に再起動可能になりました。
-- **[Factory reset](./configure/reset-to-factory-settings.md)**でEmulationStationから工場出荷時設定へのリセットが可能になりました。
-- 多数の**バグ修正**とシステムの安定性、パフォーマンス、バッテリー寿命を**改善しました**。
+追加された機能、修正点、変更内容の完全な一覧は、[change log](https://github.com/knulli-cfw/knulli-linux/blob/knulli-main/knulli-Changelog.md)をご覧ください。:
 
 !!! warning "メジャーアップデート"
 
-    このバージョンのKNULLIには多くの機能が搭載されており、**ファームウェアの書き換えが必要です。** 具体的には、今後のOTAアップデートに対応するため、`BATOCERA`の**パーティションサイズを増やす必要があります。**
+    このバージョンのKNULLIには多数の新機能が含まれており、ファームウェアを再度書き込む（再フラッシュする）必要があります。特に、SDカードのパーティションテーブルを変更する必要があります。
 
-    **Gladiator**から**Gladiator II**に**アップデートする**場合、`system`フォルダはそのまま保持され、以前の設定も全て引き継がれます。両バージョン間での互換性の問題は発生しません。
+    また、Gladiator II から Scarab の間で多数のファイル名やパスが変更されたため、system フォルダー内の設定ファイルも互換性がありません。
 
-    その他のユーザーは、クリーンインストールで最初からやり直すことを**強くお勧めします**。 もし以前のインストール環境にユーザーデータを移行したい場合は、[メジャーアップデート](./guides/major-updates.md)を参照してください。
+    そのため、クリーンインストールからやり直すことを強く推奨します。ただし、以前のインストール環境からユーザーデータを移行したい場合は、Major Updatesガイドをご覧ください。
 
 もし**NULLIを初めて**利用する方で、すぐに使い始めたい場合は[クイックスタートガイド](./play/quick-start.md)を参照してください。インストール方法やファーストステップについて詳しく説明しています。
 
