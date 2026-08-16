@@ -1,6 +1,6 @@
 # :material-image-sync-outline: Boot Logo
    
-For a wholesome KNULLI experience, you may want to replace your boot logo to match the style of your theme. The KNULLI boot logo is stored on your primary SD card, on the `knulli` partition. If you want to replace your boot logo, simply follow the steps below.  Not that not all devices support this process.
+For a wholesome KNULLI experience, you may want to replace your boot logo to match the style of your theme. The KNULLI boot logo is stored on your primary SD card, on the `knulli` partition. If you want to replace your boot logo, simply follow the steps below.  Note that not all devices support this process.
 
 * Create a new **bitmap** file (`bootlogo.bmp`) that has the exact **same resolution** as your built-in display (e.g. 640x480 for the Anbernic RG35XX Plus/H/SP/2024 series)
 * Shut down your KNULLI device
