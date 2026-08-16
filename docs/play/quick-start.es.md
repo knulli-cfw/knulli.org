@@ -4,6 +4,16 @@
 
 Con esta guía de inicio rápido, te ayudaremos a empezar a usar KNULLI en tu dispositivo portátil. Si eres **nuevo** en la emulación con dispositivos portátiles y los firmwares personalizados (CFWs), esta guía te guiará en tus **primeros pasos**. Si eres un **usuario avanzado**, esta guía te informará sobre las cosas que KNULLI podría hacer de **forma diferente** que otros firmwares personalizados que ya hayas utilizado.
 
+## Preparar el dispositivo
+
+Para la mayoría de los dispositivos, no se requiere ninguna preparación específica. Sin embargo, si tu dispositivo es uno de los siguientes, asegúrate de prepararlo antes de instalar KNULLI:
+
+* [Miyoo Flip](../devices/miyoo/flip.md/#installation)
+* [Retroid Pocket 5](../devices/goretroid/retroid-pocket-5.md/#installation)
+* [Retroid Pocket Flip 2](../devices/goretroid/retroid-pocket-flip-2.md/#installation)
+* [Retroid Pocket Mini](../devices/goretroid/retroid-pocket-mini.md/#installation)
+* [Retroid Pocket Mini V2](../devices/goretroid/retroid-pocket-mini-v2.md/#installation)
+
 ## Instalación de KNULLI [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
 Encuentra la versión más reciente de KNULLI en nuestro [Repositorio de GitHub](https://github.com/knulli-cfw/knulli-linux/releases/latest), busca la imagen para **tu dispositivo** en la sección *Installation Package Downloads*, descárgala y grábala en una tarjeta SD. **No** intentes formatear nada manualmente después; ¡KNULLI lo hará por ti! Sólo inserta la tarjeta SD en tu dispositivo, **retira** las tarjetas SD de cualquier otra ranura e inicia el dispositivo para finalizar la instalación. (El primer arranque puede tardar bastante, ya que KNULLI expandirá y formateará la partición de tus juegos. Ten paciencia).

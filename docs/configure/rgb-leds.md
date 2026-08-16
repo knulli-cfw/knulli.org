@@ -6,7 +6,7 @@ Additionally, your RGB LEDs can be configured to indicate low battery and/or bat
 
 !!! warning "Before reporting issues, consider your battery status"
 
-    Some devices have built-in mechanisms to disable RGB entirely when the battery percentage drops below a certain threshold. On those devices, RGB-based battery indication obviously will not work. So, if your device does turn off RGB entirely rather than giving a warning animation, do not panic - this is most likely a device-specific feature outside of the scope of our RGB implementation. (See also: [BatteryPlus](../batteryplus))
+    Some devices have built-in mechanisms to disable RGB entirely when the battery percentage drops below a certain threshold. On those devices, RGB-based battery indication obviously will not work. So, if your device does turn off RGB entirely rather than giving a warning animation, do not panic - this is most likely a device-specific feature outside of the scope of our RGB implementation. (See also: [BatteryPlus](./batteryplus.md))
 
     Furthermore, be aware that while your device is in a battery indication mode (charging, low battery warning), this mode will override your manual settings. So, if you set up a mode and color and the settings do not seem to stick, make sure they aren't simply overriden by the device currently being in charging or low battery mode.
 
@@ -35,7 +35,7 @@ This section has the options for the **regular** RGB behavior. The settings appl
     * *Rainbow* creates a "moving" rainbow effect
     * *Single Rainbow* fades from one random color to the next, creating a constant single-color rainbow animation
     * *Input Pulse* shows a constant light in primary color, highlights the current thumbstick direction in secondary color
-    * *Wave* is the default setting and shows a constant light in primary color and a wave effect in secondary color
+    * *Wave* shows a constant light in primary color and a wave effect in secondary color
     * *Knight Rider* moves a red light from left to right and back to remind everyone of your favorite car
 * **Color Palette** gives you a large amount of 2-color palettes to choose from, each providing a primary and a secondary color, default setting is *Knulli*
 * **Primary Color** lets you pick your primary color (by changing this manually, your palette will change to *Custom*)

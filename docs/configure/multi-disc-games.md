@@ -74,7 +74,7 @@ Metal Gear Solid (Disc 1).chd
 Metal Gear Solid (Disc 2).chd
 ```
 
-if it is stored in the same folder as `Metal Gear Solid (Disc 1).chd` and `Metal Gear Solid (Disc 1).chd`.
+if it is stored in the same folder as `Metal Gear Solid (Disc 1).chd` and `Metal Gear Solid (Disc 2).chd`.
 
 ### Playlist and game files in different folders
 

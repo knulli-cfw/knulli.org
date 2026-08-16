@@ -6,11 +6,11 @@ KNULLI is installed by downloading an image for your device, flashing it to an S
 
 For most devices, no specific preparation is required. However, if your device is one of the following, please make sure to prepare the device before you install KNULLI.
 
-* [Miyoo Flip](../../devices/miyoo/flip/#installation)
-* [Retroid Pocket 5](../../devices/goretroid/retroid-pocket-5/#installation)
-* [Retroid Pocket Flip 2](../../devices/goretroid/retroid-pocket-flip-2/#installation)
-* [Retroid Pocket Mini](../../devices/goretroid/retroid-pocket-mini/#installation)
-* [Retroid Pocket Mini V2](../../devices/goretroid/retroid-pocket-mini-v2/#installation)
+* [Miyoo Flip](../devices/miyoo/flip.md/#installation)
+* [Retroid Pocket 5](../devices/goretroid/retroid-pocket-5.md/#installation)
+* [Retroid Pocket Flip 2](../devices/goretroid/retroid-pocket-flip-2.md/#installation)
+* [Retroid Pocket Mini](../devices/goretroid/retroid-pocket-mini.md/#installation)
+* [Retroid Pocket Mini V2](../devices/goretroid/retroid-pocket-mini-v2.md/#installation)
 
 ## Step 2: Download [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 

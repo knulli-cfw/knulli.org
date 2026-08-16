@@ -8,11 +8,11 @@ Mit dieser Schnellstartanleitung wollen wir dir helfen, KNULLI auf deinem Handhe
 
 Die meisten Handhelds erfordern keine spezielle Vorbereitung. Falls dein Gerät allerdings in der folgenden Liste auftaucht, ergreife bitte die nötigen Vorbereitungsschritte bevor du die Installation fortsetzt!
 
-* [Miyoo Flip](../../devices/miyoo/flip/#installation)
-* [Retroid Pocket 5](../../devices/goretroid/retroid-pocket-5/#installation)
-* [Retroid Pocket Flip 2](../../devices/goretroid/retroid-pocket-flip-2/#installation)
-* [Retroid Pocket Mini](../../devices/goretroid/retroid-pocket-mini/#installation)
-* [Retroid Pocket Mini V2](../../devices/goretroid/retroid-pocket-mini-v2/#installation)
+* [Miyoo Flip](../devices/miyoo/flip.md/#installation)
+* [Retroid Pocket 5](../devices/goretroid/retroid-pocket-5.md/#installation)
+* [Retroid Pocket Flip 2](../devices/goretroid/retroid-pocket-flip-2.md/#installation)
+* [Retroid Pocket Mini](../devices/goretroid/retroid-pocket-mini.md/#installation)
+* [Retroid Pocket Mini V2](../devices/goretroid/retroid-pocket-mini-v2.md/#installation)
 
 ## KNULLI installieren [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 

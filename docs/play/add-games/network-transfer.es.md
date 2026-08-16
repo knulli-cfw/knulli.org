@@ -82,6 +82,12 @@ Si deseas acceder a tu dispositivo KNULLI con frecuencia, puedes incluso asignar
 
 ### SCP/FTP
 
+!!! info "SCP/SFTP requiere que el servicio SSH esté habilitado"
+
+    SSH es necesario para usar SCP y SFTP. A partir de KNULLI Gladiator II, SSH es un servicio que puedes habilitar y deshabilitar cuando lo desees. Para los usuarios que no lo necesitan, mantenerlo deshabilitado puede ahorrar batería.
+
+	Para habilitar SSH, ve a *Ajustes del Sistema*, luego a *Servicios* y habilita *SSH*.
+
 Usando el programa SCP/FTP que prefieras, configura una conexión SCP/SFTP a la dirección IP de tu dispositivo KNULLI. Necesitarás el hostname o la dirección IP del dispositivo (el hostname predeterminado es `KNULLI`). Asegúrate de que el puerto esté configurado en `22`. El nombre de usuario esperado es `root` y la contraseña esperada es la *contraseña de root* que encontrarás en la sección *Seguridad* de *Ajustes del Sistema* (la contraseña predeterminada es `linux`).
 
 !!! info "Algunas partes de KNULLI son de solo lectura."

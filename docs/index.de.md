@@ -16,10 +16,10 @@ KNULLI-Scarab ist ein **Major Update**, das eine Tonne neuer Features und Qualit
 - Unterstützung für diverse neue Geräte wurde hinzugefügt, u.A. BattleXP G350, GKD Pixel 2, Miyoo Flip, Powkiddy X55, Retroid Pocket 5, Flip 2, uvm.
 - **RetroArch** wurde auf Version **1.22.2** aktualisiert
 - **Standalone Yabasanshiro** wurde als neue Emulator hinzugefügt um die Performance von SEGA Saturn zu verbessern
-- Die neue **[Syncthing-Integration](./configure/syncthing)** ermöglicht es, Synchronisation bequem aus EmulationStation heraus anzustoßen oder sogar automatisch beim Beenden eines Spiels, Benachrichtigungen informieren dich jetzt über laufende Datenübertragungen
-- Die neue [**BatteryPlus**](./configure/batteryplus)-Funktion gibt dir präzisere Auskunft über den Zustand deines Akkus
-- [Verbesserte RGB-Unterstützung durch **Silky RGB**](./configure/rgb-leds) (vielen Dank, [doughn0](https://github.com/doughn0/SilkyRGB)!)
-- [**PortMaster**](./systems/portmaster/#installing-portmaster) kann jetzt direkt aus dem [*Device Settings* Menü](./systems/portmaster/#installing-portmaster) installiert werden
+- Die neue **[Syncthing-Integration](./configure/syncthing.md)** ermöglicht es, Synchronisation bequem aus EmulationStation heraus anzustoßen oder sogar automatisch beim Beenden eines Spiels, Benachrichtigungen informieren dich jetzt über laufende Datenübertragungen
+- Die neue [**BatteryPlus**](./configure/batteryplus.md)-Funktion gibt dir präzisere Auskunft über den Zustand deines Akkus
+- [Verbesserte RGB-Unterstützung durch **Silky RGB**](./configure/rgb-leds.md) (vielen Dank, [doughn0](https://github.com/doughn0/SilkyRGB)!)
+- [**PortMaster**](./systems/portmaster.md/#installing-portmaster) kann jetzt direkt aus dem [*Device Settings* Menü](./systems/portmaster.md/#installing-portmaster) installiert werden
 - Ein Riesenhaufen **Bugfixes** und **Verbesserungen** von Systemstabilität, Performance und Energiesparsamkeit
 
 Du findest eine vollständige Liste aller Änderungen in unserem [Change Log](https://github.com/knulli-cfw/knulli-linux/blob/knulli-main/knulli-Changelog.md).

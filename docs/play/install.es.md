@@ -2,7 +2,17 @@
 
 KNULLI se instala descargando una imagen para tu dispositivo, grabándola en una tarjeta SD (o en el almacenamiento interno) y luego encendiéndolo para iniciar el proceso de instalación.
 
-## Paso 1: Descargar [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
+## Step 1: Preparar el dispositivo
+
+Para la mayoría de los dispositivos, no se requiere ninguna preparación específica. Sin embargo, si tu dispositivo es uno de los siguientes, asegúrate de prepararlo antes de instalar KNULLI:
+
+* [Miyoo Flip](../devices/miyoo/flip.md/#installation)
+* [Retroid Pocket 5](../devices/goretroid/retroid-pocket-5.md/#installation)
+* [Retroid Pocket Flip 2](../devices/goretroid/retroid-pocket-flip-2.md/#installation)
+* [Retroid Pocket Mini](../devices/goretroid/retroid-pocket-mini.md/#installation)
+* [Retroid Pocket Mini V2](../devices/goretroid/retroid-pocket-mini-v2.md/#installation)
+
+## Paso 2: Descargar [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
 * Descarga la versión más reciente de KNULLI para tu dispositivo desde la [Página de Versiones](https://github.com/knulli-cfw/knulli-linux/releases/latest).
     * Encontrarás enlaces de descarga para cada dispositivo/plataforma compatible en la sección `Installation Package Downloads`.
@@ -12,9 +22,9 @@ KNULLI se instala descargando una imagen para tu dispositivo, grabándola en una
 
 !!! warning "Dispositivos no soportados."
 
-    Si tu dispositivo *no* aparece en la lista de `Installation Package Downloads`, aún no hay una versión pública de Knulli para tu dispositivo. *No* deberías intentar usar un paquete para otro dispositivo.
+    Si tu dispositivo *no* aparece en la lista de `Installation Package Downloads`, aún no hay una versión pública de KNULLI para tu dispositivo. *No* deberías intentar usar un paquete para otro dispositivo.
 
-## Paso 2: Grabar
+## Paso 3: Grabar
 
 * Primero descomprime la imagen.
 * Si hay varias partes con .001 y 002, asegúrate de que estén todas en la misma carpeta y usa [7zip](https://www.7-zip.org/) para extraer el archivo 001 y extraerá todas las partes.
@@ -33,7 +43,7 @@ Después de grabar, la unidad *BATOCERA* será la única formateada en FAT32 par
 
     Mientras se graba la imagen, se creará una partición llamada *SHARE*. Aquí es donde todos tus juegos y demás datos se almacenarán. Sin embargo, la partición *SHARE* solo se expandirá a su tamaño completo durante el primer arranque. Es *obligatorio* finalizar la instalación iniciando KNULLI *antes* de poder acceder a la partición *SHARE* y comenzar a agregar tus juegos. Consulta la sección [Añadir Juegos](./add-games/index.md) para saber cómo agregar juegos a tu dispositivo KNULLI *después del primer arranque*.
 
-## Paso 3: Iniciar tu dispositivo
+## Paso 4: Iniciar el dispositivo
 
 * Inserta la tarjeta SD en tu dispositivo mientras está apagado.
     * Si tu dispositivo tiene una segunda ranura para tarjetas SD, asegúrate de que esté vacía durante el primer arranque.

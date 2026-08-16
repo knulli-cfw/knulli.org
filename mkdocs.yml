@@ -138,8 +138,9 @@ plugins:
                 - Bluetooth: configure/bluetooth.md
                 - Controles: configure/controls.md
                 - Colecciones: configure/collections.md
-                - Juegos Multidisco: configure/multi-disc-games.md
+                - Juegos Multidiscos: configure/multi-disc-games.md
                 - LEDs RGB: configure/rgb-leds.md
+                - Ajustes de Visualización: configure/display-settings.md
                 - Administración de Energía: configure/power-management.md
                 - BatteryPlus: configure/batteryplus.md
                 - Personalización:
@@ -178,7 +179,35 @@ plugins:
                 - Compilar KNULLI con Docker: development/building-knulli-with-docker.md
             - Comunidad:
                 - Contribuir: community/contribute.md
-            - Dispositivos: devices/index.md
+            - Dispositivos:
+                - devices/index.md
+                - Anbernic:
+                  - RG-Arc-S: devices/anbernic/rg-arc-s.md
+                  - RG28XX: devices/anbernic/rg28xx.md
+                  - RG34XX: devices/anbernic/rg34xx.md
+                  - RG35XX Original: devices/anbernic/rg35xx.md
+                  - RG35XX Plus: devices/anbernic/rg35xx-plus.md
+                  - RG35XX H: devices/anbernic/rg35xx-h.md
+                  - RG35XX 2024: devices/anbernic/rg35xx-2024.md
+                  - RG35XX SP: devices/anbernic/rg35xx-sp.md
+                  - RG40XX H: devices/anbernic/rg40xx-h.md
+                  - RG40XX V: devices/anbernic/rg40xx-v.md
+                  - RGCubeXX: devices/anbernic/rgcubexx.md
+                - GoRetroid:
+                  - Retroid Pocket 5: devices/goretroid/retroid-pocket-5.md
+                  - Retroid Pocket Flip 2: devices/goretroid/retroid-pocket-flip-2.md
+                  - Retroid Pocket Mini: devices/goretroid/retroid-pocket-mini.md
+                  - Retroid Pocket Mini V2: devices/goretroid/retroid-pocket-mini-v2.md
+                - Miyoo:
+                  - Miyoo Flip: devices/miyoo/flip.md
+                - Orange Pi Zero 2w:
+                  - Orange Pi Zero 2w: devices/orange-pi/orange-pi-zero-2w.md
+                - Powkiddy:
+                  - RGB30: devices/powkiddy/rgb30.md
+                  - X55: devices/powkiddy/x55.md
+                - TrimUI:
+                  - Brick: devices/trimui/brick.md
+                  - Smart Pro: devices/trimui/smart-pro.md
         - locale: de
           name: Deutsch
           build: true

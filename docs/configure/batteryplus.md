@@ -19,7 +19,7 @@ Result:
     
     To the contrary, voltage-based calculation is more accurate.
     However, you should be aware that depending on the device and the different software options installed, you might encounter confusing behavior.
-    For example, on the TrimUI Smart Pro and Brick (Hammer) devices, RGB is disabled automatically when the PMIC-reported value hits a certain threshold (see also: [RGB LEDs](../rgb-leds)).
+    For example, on the TrimUI Smart Pro and Brick (Hammer) devices, RGB is disabled automatically when the PMIC-reported value hits a certain threshold (see also: [RGB LEDs](./rgb-leds.md)).
     Depending on the difference between the PMIC-reported value and the voltage-based calculation and the low battery warning threshold set in the RGB menu, you might never actually get the low battery warning in voltage mode.
     Also, some applications might still get their battery estimation directly via PMIC, bypassing BatteryPlus entirely.
     
@@ -52,7 +52,7 @@ BatteryPlus supports two modes:
 * `voltage` (default) — recommended
 * `pmic` — fallback to hardware-reported percentage
 
-To switch modes, find `knulli.conf` in the `system` folder of your [`userdata` folder](../../play/add-games/game-storage) and edit the file with a plain text editor (e.g., Notepad++).
+To switch modes, find `knulli.conf` in the `system` folder of your [`userdata` folder](../play/add-games/game-storage.md) and edit the file with a plain text editor (e.g., Notepad++).
 Find the line that says
 
 ```

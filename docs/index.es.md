@@ -1,42 +1,35 @@
 <div class="preview-container">
-  <img class="off-glb" src="/_inc/images/knulli-header-gladiator-ii.png"/>
+  <img class="off-glb" src="/_inc/images/knulli-header-scarab.png"/>
 </div>
 
 # :material-gamepad: Bienvenido a la wiki de KNULLI
 
-## ¡Es hora de una secuela! [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
+## ¡Ha llegado un nuevo lanzamiento! [![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/knulli-cfw/knulli-linux/releases/latest)[![Latest](https://img.shields.io/github/release/knulli-cfw/knulli-linux.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/knulli-cfw/knulli-linux/releases/latest)
 
-*"¿Es así como Roma trata a sus héroes?"*
+*"Solo uno puede entrar aquí, aquel cuyo valor reside en su interior".*
 
-¡Sí que lo es! KNULLI Gladiator era tan bueno que tener una secuela era inevitable. Por eso, nos enorgullece anunciar que **KNULLI Gladiator II** acaba de ser publicada.
+Por fin todas las piezas han sido puestas juntas para el lanzamiento de **KNULLI Scarab**. Nosotros, el equipo de KNULLI, ¡estamos felices y orgullosos de invitarte a esta cueva de maravillas!
 
-La nueva versión es una actualización de KNULLI Gladiator, que sigue utilizando las mismas versiones de emuladores, etc. Sin embargo, esta nueva versión incluye un par de correcciones de errores y mejoras de calidad de vida. Lo más importante es que con Gladiator II, por fin introdujimos **actualizaciones OTA (Over The Air)** que te permitirán instalar futuras actualizaciones ¡directamente en el dispositivo!
+KNULLI Scarab es una **actualización mayor** que trae consigo muchísimas funciones nuevas y mejoras en la experiencia de juego. Entre ellas, destacan:
 
-Obviamente, no podemos prometer nada, pero a menos que hagamos **grandes** cambios que requieran un reinstalación, podrás instalar **todas las futuras** actualizaciones de KNULLI vía OTA. (¡Esto **no** acortará los ciclos de desarrollo! Espera actualizaciones OTA aproximadamente cada 3 o 4 meses en el canal de actualizaciones **estables**).
 
-Encontrarás una lista completa de todas las nuevas características, correcciones y cambios en el [registro de cambios](https://github.com/knulli-cfw/knulli-linux/blob/knulli-main/knulli-Changelog.md). Sin embargo, aquí tienes algunos puntos destacados:
+- KNULLI ahora es totalmente compatible con los dispositivos H700 más recientes ​​de la serie RG XX de Anbernic.
+- Se ha añadido soporte para BattleXP G350, GKD Pixel 2, Miyoo Flip, Powkiddy X55, Retroid Pocket 5, Flip 2 y muchos otros dispositivos.
+- **RetroArch** se ha actualizado a la versión **1.22.2**.
+- Se ha añadido **Yabasanshiro Standalone** para un mejor rendimiento en la emulación de SEGA Saturn.
+- **[Sincronización](./configure/syncthing.md)** mejorada que permite activar las sincronizaciones manualmente o incluso automáticamente al salir del juego, mientras que las notificaciones te mantienen al tanto del progreso de la transferencia.
+- Nuestra nueva función **[BatteryPlus](./configure/batteryplus.md)** te proporciona información más precisa sobre el estado actual de la batería.
+- Funcionalidad de [LEDs RGB](./configure/rgb-leds.md) nueva y mejorada mediante **Silky RGB** (¡gracias, [doughn0](https://github.com/doughn0/SilkyRGB)!).
+- [**PortMaster**](./systems/portmaster.md/#installing-portmaster) ahora se puede instalar directamente desde el menú *Device Settings*.
+- Numerosas **correcciones de errores** y **mejoras** en la estabilidad del sistema, el rendimiento y la duración de la batería.
 
-### Nuevas características de KNULLI Gladiator II
-
-- **Soporte agregado** para Anbernic RG34XX SP, RG35XX Pro y Powkiddy V90S, V20.
-- **[Actualizaciones OTA](./play/update.md)** a través del menú de *Actualizaciones y Descargas* que facilitarán considerablemente las futuras actualizaciones.
-- **SMB (SAMBA)** ahora es un [**servicio** que se puede activar o desactivar](./play/add-games/network-transfer.md), aunque está **deshabilitado** por defecto.
-- Se ha añadido un interruptor para [asignar automáticamente](./configure/controls.md) los **controles integrados** siempre al primer jugador y se han corregido problemas con la **asignación de controles USB**.
-- Se han corregido problemas con los **emuladores independientes de Dreamcast/PSP** en dispositivos **A133** (TrimUI Brick, TrimUI Smart Pro).
-- Los marcos:
-    - Se **activan automáticamente** cuando *Configurar Decoración* está configurado en *Auto*.
-    - Ahora son compatibles con emuladores **independientes** en dispositivos **H700** (Anbernic serie RG XX).
-    - Ahora incluyen un conjunto *Default-Knulli-SP* específico para **GBA** para ofrecer una experiencia **SP** en pantallas con formato clamshell 4:3.
-- Una herramienta **Disk Check** para verificar la integridad de tu tarjeta SD. Se agregó a *Ajustes del sistema* → *Opciones de Desarrollador*.
-- El [atajo](./play/hotkey-shortcuts.md) **Reinicio Suave** se puede usar para forzar el reinicio de EmulationStation.
-- Ahora es posible hacer un **[Reinicio de Fábrica](./configure/reset-to-factory-settings.md)** en el dispositivo a través de EmulationStation.
-- Numerosas **correcciones de errores** y **mejoras** a la estabilidad del sistema, el rendimiento y la duración de la batería.
+Encontrarás una lista completa de todas las nuevas funciones, correcciones y cambios en el [registro de cambios](https://github.com/knulli-cfw/knulli-linux/blob/knulli-main/knulli-Changelog.md).
 
 !!! warning "Actualización Mayor."
 
-    Esta versión de KNULLI viene con muchas características nuevas que **requieren volver a flashear el firmware**. En especial, necesitamos **incrementar el tamaño de la partición** de `BATOCERA` para futuras actualizaciones OTA.
+    Esta versión de KNULLI viene con muchas características nuevas que **requieren volver a flashear el firmware**. En especial, es necesario **modificar la tabla de particiones** de la tarjeta SD.
 
-    Si **actualizas** desde **Gladiator** a **Gladiator II**, puedes conservar tu carpeta de `system` y mantener todas tus configuraciones previas. No habrá problemas de compatibilidad entre estas dos versiones.
+    Además, muchos archivos y rutas entre **Gladiator II** y **Scarab** se han renombrado, por lo que incluso los archivos de configuración de la carpeta `system` volverán a ser incompatibles.
     
     En cualquier otro caso, **recomendamos fuertemente** comenzar desde cero con una instalación nueva. Sin embargo, si deseas intentar migrar tus datos de usuario de una instalación anterior a la nueva, consulta la guía de [Actualizaciones Mayores](./guides/major-updates.md).
 

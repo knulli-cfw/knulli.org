@@ -16,10 +16,10 @@ KNULLI Scarab is a **major** update which brings a ton of new features and quali
 - Added support for BattleXP G350, GKD Pixel 2, Miyoo Flip, Powkiddy X55, Retroid Pocket 5, Flip 2, and many others
 - **RetroArch** has been updated to **1.22.2**
 - **Standalone Yabasanshiro** was added for better performance on SEGA Saturn emulation
-- improved **[Syncthing integration](./configure/syncthing)** allows you to trigger syncs manually or even automatically on game exit while notifications keep you posted about transfer progress
-- our new [**BatteryPlus**](./configure/batteryplus) gives you more precise information about your current battery state
-- new and [improved RGB support via **Silky RGB**](./configure/rgb-leds) (thank you, [doughn0](https://github.com/doughn0/SilkyRGB)!)
-- [**PortMaster**](./systems/portmaster/#installing-portmaster) can now be installed directly from the [*Device Settings* menu](./systems/portmaster/#installing-portmaster)
+- improved **[Syncthing integration](./configure/syncthing.md)** allows you to trigger syncs manually or even automatically on game exit while notifications keep you posted about transfer progress
+- our new [**BatteryPlus**](./configure/batteryplus.md) gives you more precise information about your current battery state
+- new and [improved RGB support via **Silky RGB**](./configure/rgb-leds.md) (thank you, [doughn0](https://github.com/doughn0/SilkyRGB)!)
+- [**PortMaster**](./systems/portmaster.md/#installing-portmaster) can now be installed directly from the [*Device Settings* menu](./systems/portmaster.md/#installing-portmaster)
 - A ton of **bugfixes** and **improvements** to system stability, performance, and battery life
 
 You will find a complete list of all new features, fixes, and changes in the [change log](https://github.com/knulli-cfw/knulli-linux/blob/knulli-main/knulli-Changelog.md).
