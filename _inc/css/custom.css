@@ -1,0 +1,151 @@
+/* Colors Light & Dark */
+[data-md-color-scheme="art-book"] {
+  /* Primary color shades */
+  --md-primary-fg-color:               #111111;
+  --md-primary-bg-color:               #eeeeee;
+  --md-primary-bg-color--light:        #bbbbbb;
+  /* Accent color shades */
+  --md-accent-fg-color:                #5998FF;
+  --md-accent-fg-color--transparent:   #cccccc;
+  /* Default color shades */
+  --md-default-fg-color:               #111111;
+  --md-default-fg-color--light:        #222222;
+  --md-default-fg-color--lighter:      #cccccc;
+  --md-default-fg-color--lightest:     #cccccc;
+  --md-default-bg-color:               #dddddd;
+  --md-default-bg-color--light:        #dddddd;
+  --md-default-bg-color--lighter:      #dddddd;
+  --md-default-bg-color--lightest:     #dddddd;
+  /* Typeset color shades */
+  --md-typeset-color:                  #111111;
+  /* Typeset `a` color shades */
+  --md-typeset-a-color:                #5088e5;
+  /* Typeset `table` color shades */
+  --md-typeset-table-color:            #cccccc;
+  --md-typeset-table-color--light:     #eeeeee;
+  /* Footer color shades */
+  --md-footer-bg-color:                #111111;
+  /* Typeset `kbd` color shades */
+  --md-typeset-kbd-color:              #eeeeee;
+  --md-typeset-kbd-accent-color:       #dddddd;
+  --md-typeset-kbd-border-color:       #bbbbbb;
+  /* Code color shades */
+  --md-code-bg-color:                  #eee;
+  --md-code-fg-color:                  #111;
+  --md-code-hl-operator-color:         #111;
+  --md-code-hl-variable-color:         #111;
+  --md-code-hl-comment-color:          #999;
+  --md-code-hl-punctuation-color:      #111;
+}
+[data-md-color-scheme="art-book-next"] {
+  /* Primary color shades */
+  --md-primary-fg-color:               #111111;
+  --md-primary-bg-color:               #eeeeee;
+  --md-primary-bg-color--light:        #bbbbbb;
+  /* Accent color shades */
+  --md-accent-fg-color:                #5998FF;
+  --md-accent-fg-color--transparent:   #333333;
+  /* Default color shades */
+  --md-default-fg-color:               #eeeeee;
+  --md-default-fg-color--light:        #eeeeee;
+  --md-default-fg-color--lighter:      #888888;
+  --md-default-fg-color--lightest:     #444444;
+  --md-default-bg-color:               #222222;
+  --md-default-bg-color--light:        #222222;
+  --md-default-bg-color--lighter:      #222222;
+  --md-default-bg-color--lightest:     #222222;
+  /* Typeset color shades */
+  --md-typeset-color:                  #eeeeee;
+  /* Typeset `a` color shades */
+  --md-typeset-a-color:                #5998FF;
+  /* Typeset `table` color shades */
+  --md-typeset-table-color:            #333333;
+  --md-typeset-table-color--light:     #444444;
+  /* Footer color shades */
+  --md-footer-bg-color:                #111111;
+  /* Typeset `kbd` color shades */
+  --md-typeset-kbd-color:              #555;
+  --md-typeset-kbd-accent-color:       #444;
+  --md-typeset-kbd-border-color:       #222;
+  /* Code color shades */
+  --md-code-bg-color:                  #111;
+  --md-code-fg-color:                  #fff; 
+  --md-code-hl-operator-color:         #fff;
+  --md-code-hl-variable-color:         #fff;
+  --md-code-hl-comment-color:          #999;
+  --md-code-hl-punctuation-color:      #fff;
+}
+
+.md-typeset .admonition, .md-typeset details {
+  background-color: inherit;
+  color: inherit
+}
+
+[data-md-color-scheme="art-book"] img[src$="#only-dark"],
+[data-md-color-scheme="art-book"] img[src$="#gh-dark-mode-only"] {
+  display: none; /* Hide dark images in light mode */
+}
+[data-md-color-scheme="art-book-next"] img[src$="#only-light"],
+[data-md-color-scheme="art-book-next"] img[src$="#gh-light-mode-only"] {
+  display: none; /* Hide dark images in light mode */
+}
+
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+    font-weight: 700;
+}
+.md-typeset h1 {
+    margin: 0 0 0.64em;
+}
+.md-typeset h2 {
+    margin: 1em 0 0.64em;
+}
+.md-typeset h3 {
+    margin: 0.64em 0 0.8em;
+}
+
+.md-header__inner {
+    padding: 0.4rem 0.2rem;
+}
+
+.md-main__inner {
+    margin-top: 0.5rem;
+    padding-top: 0;
+}
+
+.md-typeset table:not([class]) {
+    font-size: .74rem;
+}
+
+.md-nav__item--section>.md-nav__link {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 76.25em) {
+    .md-nav__item--section {
+        margin: 1.5em 0;
+    }
+    .md-nav__item--section>.md-nav__link {
+        font-size: .8rem;
+    }
+}
+
+.md-nav__container>.md-nav__link {
+    color: inherit;
+}
+
+div.preview-container {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center 
+}
+div.preview-container video {
+  position: absolute;
+  margin: 0;
+  width: 52%;
+}
+div.preview-container image {
+  position: absolute;
+}
